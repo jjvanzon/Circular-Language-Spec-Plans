@@ -1,0 +1,2 @@
+- Diagram Expression Cross Out
+After documenting diagram expression you have to go through the old Symbol documentation as a cross out list, and delete everything already covered, and to see what topics remain.

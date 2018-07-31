@@ -1,0 +1,11 @@
+bin
+obj
+~WRL*.tmp
+~*.doc
+~*.docx
+packages
+UpgradeReport*.*
+*.suo
+*.csproj.user
+UpgradeLog.*
+Thumbs.db
