@@ -9,3 +9,4 @@ UpgradeReport*.*
 *.csproj.user
 UpgradeLog.*
 Thumbs.db
+.vs
