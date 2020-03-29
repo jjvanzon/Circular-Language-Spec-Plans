@@ -3,6 +3,7 @@ obj
 ~WRL*.tmp
 ~*.doc
 ~*.docx
+~*.xlsx
 packages
 UpgradeReport*.*
 *.suo
