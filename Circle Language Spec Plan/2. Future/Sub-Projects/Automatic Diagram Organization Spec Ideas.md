@@ -4,6 +4,11 @@ Automatic Diagram Organization Spec Ideas
 
 Part of it could be documenting ideas about diagram metrics that are only in my head and ones derived from a prototype the of diagram drawing engine I made.
 
+Topics are e.g.:
+
+- Curved lines
+- Bundling of lines
+
 An option to ignore fixed logical residence would be welcome.
 In that case the fixed logical residence might only be pointed out with an empty reference to the imaginary residence. That way automatic containment will work, but publically-accessible classes are still available with just the namespace qualifier. (-> Lower Contents)
 
@@ -17,3 +22,9 @@ Also the need for line bundling starts becoming more apparent.
 
 Diagram Expression Cross Out:
 After documenting diagram expression might go through the old Symbol documentation as a cross out list, and delete everything already covered, and to see what topics remain.
+
+Other topics:
+* Inward references
+* Access marks (when to show them, when not to show them…)
+* Lines exiting the diagram
+* Fixed Logical Residence (might have a description somewhere?)
