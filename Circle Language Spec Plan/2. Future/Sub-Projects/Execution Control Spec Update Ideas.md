@@ -1,4 +1,4 @@
-Execution Control Spec Update Ideas
+Circle Language Spec Plan, Execution Control Spec Update Ideas
 ===================================
 *JJ van Zon, The Netherlands, 2020-04*
 

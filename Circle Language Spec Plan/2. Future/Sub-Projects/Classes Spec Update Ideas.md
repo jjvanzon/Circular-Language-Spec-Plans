@@ -1,4 +1,4 @@
-Classes Spec Update Ideas
+Circle Language Spec Plan, Classes Spec Update Ideas
 =========================
 *JJ van Zon, The Netherlands, 2020-04*
 

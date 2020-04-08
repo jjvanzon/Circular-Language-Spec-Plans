@@ -1,4 +1,4 @@
-Objects Spec Multiplicity Ideas
+Circle Language Spec Plan, Objects Spec Multiplicity Ideas
 ===============================
 *JJ van Zon, The Netherlands, 2020-04*
 

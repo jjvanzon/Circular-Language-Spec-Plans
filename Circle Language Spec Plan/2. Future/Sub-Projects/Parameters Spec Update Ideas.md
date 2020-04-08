@@ -1,4 +1,4 @@
-Parameters Spec Update Ideas
+Circle Language Spec Plan, Parameters Spec Update Ideas
 ===================================
 *JJ van Zon, The Netherlands, 2020-04*
 

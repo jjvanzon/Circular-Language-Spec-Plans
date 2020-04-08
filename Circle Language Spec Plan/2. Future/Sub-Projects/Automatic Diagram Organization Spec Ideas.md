@@ -1,4 +1,4 @@
-Automatic Diagram Organization Spec Ideas
+Circle Language Spec Plan, Automatic Diagram Organization Spec Ideas
 =========================================
 *JJ van Zon, The Netherlands, 2020-04*
 

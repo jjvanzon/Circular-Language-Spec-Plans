@@ -1,3 +1,6 @@
+Circle Language Spec Plan, Update Assignment Spec Ideas
+=======================================================
+
 2008-09-29
 
 The assignment articles are full of extra ideas, that are not worked out.

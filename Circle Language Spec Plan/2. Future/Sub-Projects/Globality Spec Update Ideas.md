@@ -1,4 +1,4 @@
-Globality Spec Update Idea
+Circle Language Spec Plan, Globality Spec Update Idea
 ==========================
 *JJ van Zon, The Netherlands, 2020-04*
 
