@@ -1,5 +1,5 @@
 Circle Language Spec Plan, Commands Spec Update Ideas
-=====================================
+=====================================================
 *JJ van Zon, The Netherlands, 2020-04*
 
 Maybe only merge conceptual explanation with diagram notation explanation.
