@@ -1,0 +1,278 @@
+# Turning Software System Docs repo into Circle Docs repo
+# =======================================================
+
+git remote remove origin
+
+# Listing files
+
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# Listing files (without history)
+
+git ls-tree -r master --name-only
+
+# --------------------
+
+# Removing folder: "4. Applications & Media"
+
+git filter-branch --tree-filter 'rm -rf "4. Applications & Media"' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing folders: "Sound", "04. Sound", "05. Sound", "06. Sound", "07. Sound"
+
+git filter-branch --tree-filter '
+rm -rf "Sound"
+rm -rf "04. Sound"
+rm -rf "05. Sound"
+rm -rf "06. Sound"
+rm -rf "07. Sound"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing (numbered) folders: "Graphics", "Video", "Controls", "Editing & Authoring"
+
+git filter-branch --tree-filter '
+rm -rf "Graphics"
+rm -rf "03. Graphics"
+rm -rf "04. Graphics"
+rm -rf "05. Graphics"
+rm -rf "06. Graphics"
+rm -rf "Video"
+rm -rf "05. Video"
+rm -rf "06. Video"
+rm -rf "07. Video"
+rm -rf "08. Video"
+rm -rf "Controls"
+rm -rf "07. Controls"
+rm -rf "08. Controls"
+rm -rf "09. Controls"
+rm -rf "10. Controls"
+rm -rf "Framework/4. Controls"
+rm -rf "03. Editing & Authoring"
+rm -rf "08. Editing & Authoring"
+rm -rf "10. Editing & Authoring"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing several folders
+
+git filter-branch --tree-filter '
+rm -rf "0. Introduction"
+rm -rf "2. Framework"
+rm -rf "02. Code/3. Data Concepts/0.0. Clear"
+rm -rf "02. Code/3. Data Concepts/1.1. Registration Lists"
+rm -rf "02. Code/3. Data Concepts/1.2. Item Remove"
+rm -rf "02. Code/3. Data Concepts/10.01. Defaults"
+rm -rf "02. Code/3. Data Concepts/10.02. Enums"
+rm -rf "02. Code/3. Data Concepts/10.03. Boolean & Enum Methods"
+rm -rf "02. Code/3. Data Concepts/11.01. Delete only when no references"
+rm -rf "02. Code/3. Data Concepts/11.02. Collection Operations"
+rm -rf "02. Code/3. Data Concepts/11.03. Extended Multiplicity"
+rm -rf "02. Code/3. Data Concepts/2.0. Undouble"
+rm -rf "02. Code/3. Data Concepts/3.0. Collection"
+rm -rf "02. Code/3. Data Concepts/4.0. Search"
+rm -rf "02. Code/3. Data Concepts/5.0. Import & Export"
+rm -rf "02. Code/3. Data Concepts/6.0. Persistance Delay"
+rm -rf "02. Code/3. Data Concepts/7.1. Binaral"
+rm -rf "02. Code/3. Data Concepts/7.2. Custom Sorting Methods"
+rm -rf "02. Code/3. Data Concepts/7.3. User Sorting"
+rm -rf "02. Code/3. Data Concepts/8.0. Strings"
+rm -rf "02. Code/3. Data Concepts/9.0. Multi-Lingual"
+rm -rf "02. Code/3. Data Concepts/9.1. Is Deleted"
+rm -rf "02. Code/3. Data Concepts/9.2. Attributes As Tree Layers"
+rm -rf "02. Code/3. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/4. Data Concepts/0.0. Clear"
+rm -rf "02. Code/4. Data Concepts/1.1. Registration Lists"
+rm -rf "02. Code/4. Data Concepts/1.2. Item Remove"
+rm -rf "02. Code/4. Data Concepts/10.01. Defaults"
+rm -rf "02. Code/4. Data Concepts/10.02. Enums"
+rm -rf "02. Code/4. Data Concepts/10.03. Boolean & Enum Methods"
+rm -rf "02. Code/4. Data Concepts/11.01. Delete only when no references"
+rm -rf "02. Code/4. Data Concepts/11.02. Collection Operations"
+rm -rf "02. Code/4. Data Concepts/11.03. Extended Multiplicity"
+rm -rf "02. Code/4. Data Concepts/2.0. Undouble"
+rm -rf "02. Code/4. Data Concepts/3.0. Collection"
+rm -rf "02. Code/4. Data Concepts/4.0. Search"
+rm -rf "02. Code/4. Data Concepts/5.0. Import & Export"
+rm -rf "02. Code/4. Data Concepts/6.0. Persistance Delay"
+rm -rf "02. Code/4. Data Concepts/7.1. Binaral"
+rm -rf "02. Code/4. Data Concepts/7.2. Custom Sorting Methods"
+rm -rf "02. Code/4. Data Concepts/7.3. User Sorting"
+rm -rf "02. Code/4. Data Concepts/8.0. Strings"
+rm -rf "02. Code/4. Data Concepts/9.0. Multi-Lingual"
+rm -rf "02. Code/4. Data Concepts/9.1. Is Deleted"
+rm -rf "02. Code/4. Data Concepts/9.2. Attributes As Tree Layers"
+rm -rf "02. Code/4. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/4. Expression/6. More Text Codes"
+rm -rf "02. Code/6. Expression/6. More Text Codes"
+rm -rf "03. Code/04. Concepts/Data Concepts"
+rm -rf "03. Code/05. Expression/1. Parser"
+rm -rf "03. Code/05. Expression/2. Text Code/Template Text Generator"
+rm -rf "03. Code/05. Expression/4. Legacy Text Codes"
+rm -rf "03. Code/07. Text Operations"
+rm -rf "04. Hardware"
+rm -rf "04. Security & Safety"
+rm -rf "06. User Input"
+rm -rf "09. Pages"
+rm -rf "1. Language/2. Integration"
+rm -rf "1. Language/3. Libraries"
+rm -rf "10. Mathematics"
+rm -rf "11. Organizer"
+rm -rf "11. Pages"
+rm -rf "12. Communicate"
+rm -rf "12. Mathematics"
+rm -rf "13. Game"
+rm -rf "13. Organizer"
+rm -rf "14. Communicate"
+rm -rf "14. Simulate"
+rm -rf "14. Statistics & Lookups"
+rm -rf "15. Game"
+rm -rf "15. Integration"
+rm -rf "15. Legacy"
+rm -rf "15. Statistics & Lookups"
+rm -rf "16. Security & Safety"
+rm -rf "16. Simulate"
+rm -rf "16. Statistics & Lookups"
+rm -rf "17. Legacy"
+rm -rf "17. Statistics & Lookups"
+rm -rf "17. Storage"
+rm -rf "18. Core"
+rm -rf "18. Hardware"
+rm -rf "18. Security & Safety"
+rm -rf "19. Core"
+rm -rf "19. Hardware"
+rm -rf "19. Legacy"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles_withrenames.txt
+
+# Try Listing Files without renames
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing:
+# - Software System Introduction (+ related files)
+# - Data Concepts (except Object Order)
+# - User Input
+# - Operating System concepts (except Internet as a Single Computer and Concurrency)
+# - License Plate Database
+# - Text template generator
+# - Communicate
+# - Organizer
+# - Zips with Pictures
+# - Content related to former employers
+
+git filter-branch --tree-filter '
+rm -rf "00. General"
+rm -rf "00. Introduction"
+rm -rf "01. Code/5. Data Concepts"
+rm -rf "02. Code/4. Data Concepts/10.03. Boolean & Enum Commands"
+rm -rf "02. Code/4. Data Concepts/6.0. Persistence Delay"
+rm -rf "09. User Input"
+rm -rf "3. Operating System/3. Security & Safety"
+rm -rf "3. Operating System/4. Storage"
+rm -rf "3. Operating System/5. Core (Threads)"
+rm -rf "3. Operating System/6. Hardware/"
+rm -rf "3. Operating System/7. User Input"
+rm -rf "3. Operating System/8. Communicate"
+rm -rf "3. Operating System"
+rm -rf "Code/Creator/Other Files/License Plate Database"
+rm -rf "Code/Other/temp Template Text Generator.txt"
+rm -rf "Code/Other/Template Text Generator, Software Engineering.doc"
+rm -rf "Communicate"
+rm -rf "Organizer"
+rm -rf "Sigma Game.doc"
+rm -rf "Sigma General.doc"
+rm -rf "Sigma Hardware.doc"
+rm -rf "Sigma Security and Safety.doc"
+rm -rf "Sigma Simulate.doc"
+rm -rf "Sigma Text.doc"
+rm -rf "Sigma User Input.doc"
+rm -rf "Sigma Video.doc"
+rm -rf "01. Code/6. Diagrams/2005-00-00 XX/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "01. Code/6. Diagrams/XXXX-XX-XX XX/99. Symbol ( Cross Out Copy )/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "01. Code/8. Other Topics/10. Old Or Boring/Creator ( Content Redistributed )/2005-08-31 00  0.9/Example Modules (Aldoc) (Keep Packed, Paths Too Long).zip"
+rm -rf "02. Code/4. Expression/1. Diagrams/8. Example Diagrams/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "02. Code/6. Expression/1. Diagrams/8. Example Diagrams/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "02. Code/7. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "02. Code/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "03. Code/05. Expression/3. Diagrams/2005-00-00 XX/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "03. Code/05. Expression/3. Diagrams/XXXX-XX-XX XX/Symbol ( Cross Out Copy )/SYMBOL~2.ZIP"
+rm -rf "03. Code/10. Old Or Boring/Creator ( Content Redistributed )/2005-08-31 00  0.9/EXAMPL~1.ZIP"
+rm -rf "1. Language/1. Language/6. Expression/1. Diagrams/5. Example Diagrams/Symbol Pictures (Keep Packed, Paths Too Long).zip"
+rm -rf "1. Language/1. Language/6. Expression/1. Diagrams/6.1. Example Diagrams (Keep Packed, Paths Too Long).zip"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/1. Parser/Example Modules/Aldoc IPC Parse.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/3. Parser/Example Modules/Aldoc IPC Parse.doc"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files (without renames)
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing pictures next?
