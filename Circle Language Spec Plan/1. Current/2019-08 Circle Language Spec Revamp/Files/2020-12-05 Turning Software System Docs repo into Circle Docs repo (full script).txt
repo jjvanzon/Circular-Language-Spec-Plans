@@ -7,6 +7,10 @@ git remote remove origin
 
 git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
 
+# Listing Files (without renames)
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
 # Listing files (without history)
 
 git ls-tree -r master --name-only
