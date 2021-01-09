@@ -1958,3 +1958,72 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 # Obs: My 'preparation Excel' seems to have 'book cover' appear in a tab 'Union of .bmp .png .jpg'.
 # Hyp: Copy-paste problem>
 # Exp: Go through steps of 'preparation Excel' again.
+
+# --------------------
+
+# Removing remaining pictures
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 23.png"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# TODO: Would like to check using the 'preparation Excel' again.
