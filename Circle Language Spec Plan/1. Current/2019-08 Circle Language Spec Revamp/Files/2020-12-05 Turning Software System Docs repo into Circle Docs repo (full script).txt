@@ -2026,4 +2026,72 @@ git gc --aggressive --prune=now
 
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
 
-# TODO: Would like to check using the 'preparation Excel' again.
+# --------------------
+
+# Checked picture removal with the 'preparation Excel' again (Cross-referenced before and after, and current state with the history.)
+
+# --------------------
+
+# ... Removing storage, core, text, text codes, math topics
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/1. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "01. Code/1. Fundamental Principles/5.2.    Caching/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/5.3.    Reference Counting/Reference Counting.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.0.  ID'\''s/ID'\''s.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.1.  Positions/Positions.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.2.  Removing Fields/Removing Fields.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.3.  Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.4.  Primary Identification/Primary Identification.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.5.  Size Of Object/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/6.8.  Do Not Store Empty Lists/Do not store empty lists.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/3. Parser"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/4. Other Text Codes"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/8. Text Templates"
+rm -rf "01. Code/8. Other Topics/09. Text Operations"
+rm -rf "01. Core"
+rm -rf "01. Storage"
+rm -rf "01. Storage/1. Storage Principles"
+rm -rf "02. Cache/Cache.doc"
+rm -rf "02. Cache/Sigma Cache.doc"
+rm -rf "03. Code/01. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "03. Code/01. Fundamental Principles/5.2.    Caching/empty.txt"
+rm -rf "03. Code/01. Fundamental Principles/5.3.    Reference Counting/Reference Counting.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.0.  ID'\''s/ID'\''s.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.1.  Positions/Positions.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.2.  Removing Fields/Removing Fields.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.3.  Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.4.  Primary Identification/Primary Identification.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.5.  Size Of Object/empty.txt"
+rm -rf "03. Code/01. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/1. Parser"
+rm -rf "5. Archive/Core Version History.doc"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLHUSK C++ Sample"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLTRACE C++ Sample"
+rm -rf "Code/Creator/Miscellaneous Documents/J Syntax.txt"
+rm -rf "Code/Creator/Miscellaneous Documents/Methods in J Sound.txt"
+rm -rf "Code/Creator/Other Files/JFile.doc"
+rm -rf "Code/Sigma C++ Code.doc"
+rm -rf "Code/Sigma Syntax/Sigma Syntax.doc"
+rm -rf "Code/Sigma VB Code.doc"
+rm -rf "File"
+rm -rf "Math"
+rm -rf "Sigma Cache.doc"
+rm -rf "Sigma Configure.doc"
+rm -rf "Sigma Core.doc"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
