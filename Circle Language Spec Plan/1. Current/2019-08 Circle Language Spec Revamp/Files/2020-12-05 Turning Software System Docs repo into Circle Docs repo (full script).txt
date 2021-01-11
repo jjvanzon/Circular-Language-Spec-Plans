@@ -2032,7 +2032,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# ... Removing storage, core, text, text codes, math topics
+# Removing storage, core, text, text codes, math topics
 
 git filter-branch --tree-filter '
 rm -rf "01. Code/1. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
@@ -2095,3 +2095,109 @@ git gc --aggressive --prune=now
 # Listing files
 
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Things to remove from commit 3:
+# "Version 2007-12-08 XX: Before dropping ideas right into the documentation."
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Splines/Peels/1.psp"
+rm -rf "07. User Input"
+rm -rf "08. User Input"
+rm -rf "01. Code/4. Coding Concepts/09.00. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "01. Code/4. Coding Concepts/09.00. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "03. Code/04. Concepts/Coding Concepts/10.0. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "01. Code/4. Coding Concepts/10.01. Apply Mechanisms/Apply Mechanisms.doc"
+rm -rf "02. Code/2. Coding Concepts/24. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/63. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/64. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/94. Apply/Apply Mechanisms.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/11.1. Apply Mechanisms/Apply Mechanisms.doc"
+rm -rf "01. Code/4. Coding Concepts/03.01. Default Values/Default Values.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.1. Default Values/Default Values.doc"
+rm -rf "01. Code/4. Coding Concepts/03.00. Command Concepts/03.02. Create Objects"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.2. Create Objects"
+rm -rf "01. Code/4. Coding Concepts/03.03. Ensure Objects"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.3. Ensure Objects"
+rm -rf "01. Code/4. Coding Concepts/04.04. Enums"
+rm -rf "01. Code/4. Coding Concepts/04.05. Boolean & Enum Methods"
+rm -rf "03. Code/04. Concepts/Coding Concepts/5.4. Enums"
+rm -rf "03. Code/04. Concepts/Coding Concepts/5.5. Boolean & Enum Methods"
+rm -rf "01. Code/1. Fundamental Principles/5.0.    C++"
+rm -rf "02. Code/1. Fundamental Principles/5.0.   C++"
+rm -rf "02. Code/2. Fundamental Principles/3. Achievability/5. C++"
+rm -rf "02. Code/5. Fundamental Principles B/1. Achievability/5. C++"
+rm -rf "03. Code/01. Fundamental Principles/5.0.    C++"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5. C++"
+rm -rf "1.3. Circle Broader View/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+rm -rf "11. Circle Broader View/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+rm -rf "5. Archive/C++ Version History.doc"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# ... More things to remove
+
+# Things to remove from Commit 3 ("Version 2007-12-08 XX: Before dropping ideas right into the documentation.")
+
+03. Code/04. Concepts/Coding Concepts/11.2. Circularity/Circularity.doc
+01. Introduction
+5. Archive/Introduction Version History.doc
+01. Code/8. Other Topics/06. Utilities/4.2. Text Statistics/Text Statistics.doc
+02. Code/6. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc
+02. Code/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc
+03. Code/06. Utilities/4.2. Text Statistics/Text Statistics.doc
+1. Language/1. Language/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc
+1.2. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc
+
+# Things to remove from Commit 4 ("Version 2007-12-08 XX: Include empty folders (with a trick)")
+
+03. Code/04. Concepts/Coding Concepts/11.2. Circularity
+01. Code/4. Coding Concepts/12.00. Delete only when no references/Delete only when no references.doc
+03. Code/04. Concepts/Coding Concepts/13.0. Delete only when no references/empty.txt
+
+# Things to remove from Commit 5 ("Version 2008-07-13 XX: Before ordering it more by how you read it")
+
+01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc
+02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc
+01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc
+02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc
+
+# Things to remove from Commit 6 ("Version 2008-07-13 XX: Include empty folders (with a trick)")
+
+03. Code/03. Flat & Structured Interchanged ( Fundamental Concepts )/5. Attributes As Tree Layers/empty.txt
+01. Code/2. Flat & Struct. Interchanged/5. Attributes As Tree Layers/Attributes As Tree Layers.doc
+03. Code/03. Flat & Structured Interchanged ( Fundamental Concepts )/5. Attributes As Tree Layers/empty.txt
+01. Code/4. Coding Concepts/10.02. Circularity
