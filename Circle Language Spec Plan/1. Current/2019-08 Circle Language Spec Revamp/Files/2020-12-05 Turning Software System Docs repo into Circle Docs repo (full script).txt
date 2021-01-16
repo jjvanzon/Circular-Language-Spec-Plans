@@ -2168,36 +2168,102 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# ... More things to remove
+# Reverted: More things to remove
 
 # Things to remove from Commit 3 ("Version 2007-12-08 XX: Before dropping ideas right into the documentation.")
-
-03. Code/04. Concepts/Coding Concepts/11.2. Circularity/Circularity.doc
-01. Introduction
-5. Archive/Introduction Version History.doc
-01. Code/8. Other Topics/06. Utilities/4.2. Text Statistics/Text Statistics.doc
-02. Code/6. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc
-02. Code/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc
-03. Code/06. Utilities/4.2. Text Statistics/Text Statistics.doc
-1. Language/1. Language/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc
-1.2. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc
-
 # Things to remove from Commit 4 ("Version 2007-12-08 XX: Include empty folders (with a trick)")
-
-03. Code/04. Concepts/Coding Concepts/11.2. Circularity
-01. Code/4. Coding Concepts/12.00. Delete only when no references/Delete only when no references.doc
-03. Code/04. Concepts/Coding Concepts/13.0. Delete only when no references/empty.txt
-
 # Things to remove from Commit 5 ("Version 2008-07-13 XX: Before ordering it more by how you read it")
-
-01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc
-02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc
-01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc
-02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc
-
 # Things to remove from Commit 6 ("Version 2008-07-13 XX: Include empty folders (with a trick)")
 
-03. Code/03. Flat & Structured Interchanged ( Fundamental Concepts )/5. Attributes As Tree Layers/empty.txt
-01. Code/2. Flat & Struct. Interchanged/5. Attributes As Tree Layers/Attributes As Tree Layers.doc
-03. Code/03. Flat & Structured Interchanged ( Fundamental Concepts )/5. Attributes As Tree Layers/empty.txt
-01. Code/4. Coding Concepts/10.02. Circularity
+# git filter-branch --tree-filter '
+# rm -rf "03. Code/04. Concepts/Coding Concepts/11.2. Circularity/Circularity.doc"
+# rm -rf "01. Introduction"
+# rm -rf "5. Archive/Introduction Version History.doc"
+# rm -rf "01. Code/8. Other Topics/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+# rm -rf "02. Code/6. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+# rm -rf "02. Code/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+# rm -rf "03. Code/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+# rm -rf "1. Language/1. Language/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+# rm -rf "1.2. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+# rm -rf "03. Code/04. Concepts/Coding Concepts/11.2. Circularity"
+# rm -rf "01. Code/4. Coding Concepts/12.00. Delete only when no references/Delete only when no references.doc"
+# rm -rf "03. Code/04. Concepts/Coding Concepts/13.0. Delete only when no references/empty.txt"
+# rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+# rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+# rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+# rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+# rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+# rm -rf "01. Code/2. Flat & Struct. Interchanged/5. Attributes As Tree Layers/Attributes As Tree Layers.doc"
+# rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+# rm -rf "01. Code/4. Coding Concepts/10.02. Circularity"
+# ' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Redoing: things to remove from commit 3, 4, 5 and 6 (without removing circularity topics)
+
+git filter-branch --tree-filter '
+rm -rf "01. Introduction"
+rm -rf "5. Archive/Introduction Version History.doc"
+rm -rf "01. Code/8. Other Topics/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "02. Code/6. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "02. Code/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "03. Code/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "1. Language/1. Language/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "1.2. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+rm -rf "01. Code/4. Coding Concepts/12.00. Delete only when no references/Delete only when no references.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/13.0. Delete only when no references/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+rm -rf "01. Code/2. Flat & Struct. Interchanged/5. Attributes As Tree Layers/Attributes As Tree Layers.doc"
+rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+' --prune-empty HEAD --all
+
+# Clean-up tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# ... Finding more things to remove
+
+# Things to remove from commit 7 ("Version 2008-10-01 XX: Frozen before project Software System Full Revision of Documentation.")
+# Things to remove from commit 8 (Version" 2008-10-01 XX: Include empty folders (with a trick)")
+# Things to remove from commit 9 (same name) (Version 2008-10-01 XX: Include empty folders (with a trick))
+# Things to remove from commit 10 ("Version 2009-05-19 XX: Backup before merging Fundamental Principles A and Fundamental Principles B.")
+# Things to remove from commit 11 ("Version 2009-06-25 XX: Frozen after project Software System Full Revision of Documentation. Even though detail-documents might not be finished, every single concept has a definition inside a redirection page.")
+# Things to remove from commit 12 ("Version 2009-07-26 XX: Backup before merging Assignment chapter into System Objects chapter.")
+# Things to remove from commit 13 ("Version 2011-01-06 XX: Frozen before splitting it up into 4 main projects.")
+# Things to remove from commit 14 ("The documentation is split up into 4 main projects: * Language * Framework * Operating System * Applications & Media.")
+
+"R:\Circle Docs\Contents.doc"
+
+# WAS AT: Commit "Archive "Internet as a Single Computer Version History.doc"." evaluating diff's.
+
+R:\Circle Docs\5. Archive\Controls Concepts Version History.doc
+R:\Circle Docs\5. Archive\Storage Allocation Version History.doc
