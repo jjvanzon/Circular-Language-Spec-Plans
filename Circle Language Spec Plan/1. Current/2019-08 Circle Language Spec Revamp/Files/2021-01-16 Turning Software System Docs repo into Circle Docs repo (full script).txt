@@ -12,7 +12,7 @@ git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles_with_rena
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
 
 # Listing Files (Without History)
-git ls-tree -r master --name-only
+git ls-tree -r master --name-only > allfiles_in_latest.txt
 
 # --------------------
 
@@ -1886,4 +1886,10 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 #
 # --------------------
 
-# Checked picture removal with the 'preparation Excel' again (Cross-referenced before and after, and current state with the history.)
+# - [x] Checked picture removal with the 'preparation Excel' again (Cross-referenced before and after, and current state with the history.)
+
+# This one remained:
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 24.png"
+' --prune-empty HEAD --all
