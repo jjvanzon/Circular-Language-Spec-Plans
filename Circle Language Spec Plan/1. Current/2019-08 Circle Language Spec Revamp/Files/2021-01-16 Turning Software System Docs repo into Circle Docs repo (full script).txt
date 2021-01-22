@@ -1,6 +1,8 @@
 # Turning Software System Docs repo into Circle Docs repo
 # =======================================================
 
+# *Restarted, because too many Operating System topics were removed.*
+
 git remote remove origin
 
 # Listing Files (With Renames)
@@ -800,14 +802,8 @@ git gc --aggressive --prune=now
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
 
 # --------------------
-#
-# WAS HERE rerunning scripting
-#
-# --------------------
 
-# --------------------
-
-# Removing More Pictures
+# Removing Pictures Part 4
 
 git filter-branch --tree-filter '
 rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 08.png"
@@ -897,7 +893,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
+# Removing More Pictures Part 5
 
 git filter-branch --tree-filter '
 rm -rf "1.1. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
@@ -1007,7 +1003,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
+# Removing Pictures Part 6
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Public Object Level Limitation Meaning.bmp"
@@ -1114,7 +1110,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
+# Removing Pictures Part 7
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/4.jpg"
@@ -1224,13 +1220,14 @@ git fsck --full --unreachable
 git repack -A -d
 git gc --aggressive --prune=now
 
+
 # Listing Files
 
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
 
 # --------------------
 
-# Removing More Pictures
+# Removing Pictures Part 8
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Introduction/Sub Procedures.jpg"
@@ -1351,7 +1348,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
+# Removing Pictures Part 9
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Procedures/Procedure Interface/Procedure with Two Interfaces.bmp"
@@ -1447,7 +1444,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
+# Removing Pictures Part 10
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Exits Many Borders and Enters Borders.bmp"
@@ -1548,7 +1545,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing 'Last' Pictures
+# Removing Pictures Part 11
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Splines/Exits and Entrances, Division Out of View, Wrong Access Symbol.bmp"
@@ -1662,6 +1659,7 @@ rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to inac
 rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Inward Inactive Clause.jpg"
 ' --prune-empty HEAD --all
 
+
 # Clean-Up Tasks
 
 git update-ref -d refs/original/refs/heads/master
@@ -1677,7 +1675,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
+# Removing Pictures Part 12
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Outward Call.jpg"
@@ -1738,7 +1736,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing 'Last' Pictures
+# Removing Pictures Part 13
 
 git filter-branch --tree-filter '
 rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Object-Class Tracem Pointed to With Object Spline.jpg"
@@ -1817,97 +1815,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing More Pictures
-
-git filter-branch --tree-filter '
-rm -rf "Pictures/Code/Language/Access/Access Modes/In a Globality Every Object can Reference the Globality '\('Traingular References.bmp"
-rm -rf "9. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
-rm -rf "Code/Symbol Language/Other Files/Symbol Book Cover.JPG"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access 2, Terms.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/1.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/10.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/2.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/3.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/4.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/5.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/6.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/7.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/8.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/9.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/Distincting Assignment Source and Target.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/Read.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/Write.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 1.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 2.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 3.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 4.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 5.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 6.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/1.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/2.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/3.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/4.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/5.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/1.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/2.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/3.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/4.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/5.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/6.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/7.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/8.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/26.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/27.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/28.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/29.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/30.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/31.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/32.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/33.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/34.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/35.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 1.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 10.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 11.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 12.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 13.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 14.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 15.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 16.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 17.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 17b.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 18.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 19.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 2.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 20.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 21.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 22.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 23.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 24.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 25.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 26.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 3.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 4.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 5.jpg"
-rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 6.jpg"
-' --prune-empty HEAD --all
-
-# Clean-Up Tasks
-
-git update-ref -d refs/original/refs/heads/master
-rm -rf .git/refs/original/
-git reflog expire --expire=now --all
-git fsck --full --unreachable
-git repack -A -d
-git gc --aggressive --prune=now
-
-# Listing Files
-
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
-
-# --------------------
-
-# Removing Remaining Pictures
+# Removing Pictures Part 14
 
 git filter-branch --tree-filter '
 rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 13.png"
@@ -1972,6 +1880,10 @@ git gc --aggressive --prune=now
 
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
 
+# --------------------
+#
+# WAS HERE rerunning script
+#
 # --------------------
 
 # Checked picture removal with the 'preparation Excel' again (Cross-referenced before and after, and current state with the history.)
