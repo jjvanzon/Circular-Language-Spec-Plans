@@ -1,0 +1,1016 @@
+# Turning Software System Docs repo into Circle Docs repo
+# =======================================================
+
+git remote remove origin
+
+# Listing Files (Without Renames)
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# Listing Files (With Renames)
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory-withrenames.txt
+
+# Listing Files (Without History)
+git ls-tree -r master --name-only > allfiles-inlatest.txt
+
+# --------------------
+
+# Removing:
+# - Zips with pictures
+# - Content related to former employers
+# - Misc Creator files
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/6. Diagrams/2005-00-00 XX/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "01. Code/6. Diagrams/XXXX-XX-XX XX/99. Symbol '\(' Cross Out Copy '\)'/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "01. Code/8. Other Topics/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Example Modules '\('Aldoc'\)' '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/4. Expression/1. Diagrams/8. Example Diagrams/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/6. Expression/1. Diagrams/8. Example Diagrams/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/7. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "03. Code/05. Expression/3. Diagrams/2005-00-00 XX/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "03. Code/05. Expression/3. Diagrams/XXXX-XX-XX XX/Symbol '\(' Cross Out Copy '\)'/SYMBOL~2.ZIP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/EXAMPL~1.ZIP"
+rm -rf "1. Language/1. Language/6. Expression/1. Diagrams/5. Example Diagrams/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1. Language/1. Language/6. Expression/1. Diagrams/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1. Language/1. Language/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/30. Other Diagram Topics/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/6. Diagram Expression Other Topics/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/6. Expression/1. Diagrams/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "9. Circle Language Spec/6. Expression/1. Diagrams/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "9. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "Code/Creator/Other Files/License Plate Database"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/1. Parser/Example Modules/Aldoc IPC Parse.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/3. Parser/Example Modules/Aldoc IPC Parse.doc"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLHUSK C++ Sample"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLTRACE C++ Sample"
+rm -rf "Code/Creator/Miscellaneous Documents/J Syntax.txt"
+rm -rf "Code/Creator/Miscellaneous Documents/Methods in J Sound.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# Removing Pictures Part 1
+
+# Details: A list of pictures was generated with help of a tool. 
+# The pictures file names (png, bmp, jpg) still in master would not be deleted,
+# but all other picture file names would.
+# The deletion is split up in batches: 
+# Less than 32000 characters: The max bash command length:
+# Error "Argument list too long". Max of 32000 obtained with "getconf ARG_MAX".
+# The tree filter command seems to have another max.
+# The error message seemed to indicate show a cut-off command, indicating the limit (about 8200 characters).
+# Some characters needed to be escaped:
+# ' would become '\''
+# ( would become '\('
+# ) would become '\)'
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/6. Diagrams/2005-00-00 XX/Other Files/Symbol Book Cover.JPG"
+rm -rf "01. Code/6. Diagrams/XXXX-XX-XX XX/99. Symbol '\(' Cross Out Copy '\)'/Symbol Book Cover.JPG"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 2"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 3"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 4/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 2"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 3"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 4/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 2"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 3"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 4/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-07"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-08 '\('1'\)'/"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-08 '\('2'\)'/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-24"
+rm -rf "02. Code/7. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "02. Code/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "03. Code/05. Expression/3. Diagrams/2005-00-00 XX/Other Files/Symbol Book Cover.JPG"
+rm -rf "03. Code/05. Expression/3. Diagrams/XXXX-XX-XX XX/Symbol '\(' Cross Out Copy '\)'/Symbol Book Cover.JPG"
+rm -rf "1. Language/1. Language/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+' --prune-empty HEAD --all
+
+# --------------------
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing More Pictures Part 2
+
+git filter-branch --tree-filter '
+rm -rf "1.1. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "9. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLHUSK C++ Sample/res/toolbar.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Dynamic Two Level Tree File Structure Almost Clean With Exa.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Dynamic Two Level Tree File Structure Blue Background.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Dynamic Two Level Tree File Structure.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Static Two Level Tree File Structure.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Tree with more explanations.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Tree.bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/JQueryList Test Situation Without Propert Multiple Parentin.bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/Opening w_rai_select_lev_klasse start of extended .bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/Opening w_rai_select_lev_klasse.bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/ue_trigger calling wf_select_lev_group or wf_choos.bmp"
+rm -rf "Code/Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "Pictures/Code/Language/20030117.bmp"
+rm -rf "Pictures/Code/Language/20031209.bmp"
+rm -rf "Pictures/Code/Language/20031211 '\('2'\)'.bmp"
+rm -rf "Pictures/Code/Language/20031211.bmp"
+rm -rf "Pictures/Code/Language/20031212.bmp"
+rm -rf "Pictures/Code/Language/20031214.bmp"
+rm -rf "Pictures/Code/Language/20031216.bmp"
+rm -rf "Pictures/Code/Language/20040107.bmp"
+rm -rf "Pictures/Code/Language/20040109.bmp"
+rm -rf "Pictures/Code/Language/20040110.bmp"
+rm -rf "Pictures/Code/Language/20040112.bmp"
+rm -rf "Pictures/Code/Language/20040113.bmp"
+rm -rf "Pictures/Code/Language/20040115.bmp"
+rm -rf "Pictures/Code/Language/20040116.bmp"
+rm -rf "Pictures/Code/Language/20040121.bmp"
+rm -rf "Pictures/Code/Language/20040124.bmp"
+rm -rf "Pictures/Code/Language/20040125 '\('2'\)'.bmp"
+rm -rf "Pictures/Code/Language/20040125.bmp"
+rm -rf "Pictures/Code/Language/20040126.bmp"
+rm -rf "Pictures/Code/Language/20040203.bmp"
+rm -rf "Pictures/Code/Language/20040207.bmp"
+rm -rf "Pictures/Code/Language/20040208.bmp"
+rm -rf "Pictures/Code/Language/20040209.bmp"
+rm -rf "Pictures/Code/Language/20040211.bmp"
+rm -rf "Pictures/Code/Language/20040216.bmp"
+rm -rf "Pictures/Code/Language/Access"
+rm -rf "Pictures/Code/Language/Encapsulates Math Operator.bmp"
+rm -rf "Pictures/Code/Language/Execution & Arguments"
+rm -rf "Pictures/Code/Language/Introduction"
+rm -rf "Pictures/Code/Language/Mixed 1.jpg"
+rm -rf "Pictures/Code/Language/Mixed 2.jpg"
+rm -rf "Pictures/Code/Language/Objects"
+rm -rf "Pictures/Code/Language/Page 1.jpg"
+rm -rf "Pictures/Code/Language/Page 2.jpg"
+rm -rf "Pictures/Code/Language/Page 3.jpg"
+rm -rf "Pictures/Code/Language/Page 4.jpg"
+rm -rf "Pictures/Code/Language/Page 5.jpg"
+rm -rf "Pictures/Code/Language/Pentagonical Placement.bmp"
+rm -rf "Pictures/Code/Language/Procedures"
+rm -rf "Pictures/Code/Language/Splines"
+rm -rf "Pictures/Code/Language/System Aspects"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism01.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism02 small.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism02.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism02.jpg"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03 small without captions.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03 without captions.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03.jpg"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Extra Boring.bmp"
+rm -rf "Pictures/Controls/prompting structure.JPG"
+rm -rf "Pictures/Sound/Add Sine To Level Curve, Level Curve.bmp"
+rm -rf "Pictures/Sound/Add Sine To Level Curve, With Elements.bmp"
+rm -rf "Pictures/Sound/Add Sine To Level Curve.bmp"
+rm -rf "Pictures/Sound/Curve.bmp"
+rm -rf "Pictures/Sound/Pitch Curve'\''s Phase Passage.bmp"
+rm -rf "Pictures/Sound/Something with Noise.bmp"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Main Topics:
+
+# Software System Introduction (+ related files), "Applications & Media",
+# "Sound", "Graphics", "Video", "Controls", "Editing & Authoring", "Pages",
+# "Mathematics", "Organizer", "Game", "Simulate", "Statistics & Lookups"
+
+git filter-branch --tree-filter '
+rm -rf "Contents.doc"
+rm -rf "0. Introduction"
+rm -rf "00. Introduction"
+rm -rf "01. Introduction"
+rm -rf "5. Archive/Introduction Version History.doc"
+rm -rf "00. General"
+rm -rf "Sigma General.doc"
+rm -rf "4. Applications & Media"
+rm -rf "Sound"
+rm -rf "04. Sound"
+rm -rf "05. Sound"
+rm -rf "06. Sound"
+rm -rf "07. Sound"
+rm -rf "Graphics"
+rm -rf "03. Graphics"
+rm -rf "04. Graphics"
+rm -rf "05. Graphics"
+rm -rf "06. Graphics"
+rm -rf "Video"
+rm -rf "05. Video"
+rm -rf "06. Video"
+rm -rf "07. Video"
+rm -rf "08. Video"
+rm -rf "Controls"
+rm -rf "07. Controls"
+rm -rf "08. Controls"
+rm -rf "09. Controls"
+rm -rf "10. Controls"
+rm -rf "Framework/4. Controls"
+rm -rf "5. Archive/Controls Concepts Version History.doc"
+rm -rf "03. Editing & Authoring"
+rm -rf "08. Editing & Authoring"
+rm -rf "10. Editing & Authoring"
+rm -rf "Sigma Text.doc"
+rm -rf "Sigma Video.doc"
+rm -rf "09. Pages"
+rm -rf "11. Pages"
+rm -rf "10. Mathematics"
+rm -rf "12. Mathematics"
+rm -rf "Math"
+rm -rf "Organizer"
+rm -rf "11. Organizer"
+rm -rf "13. Organizer"
+rm -rf "13. Game"
+rm -rf "15. Game"
+rm -rf "Sigma Game.doc"
+rm -rf "14. Simulate"
+rm -rf "16. Simulate"
+rm -rf "Sigma Simulate.doc"
+rm -rf "14. Statistics & Lookups"
+rm -rf "15. Statistics & Lookups"
+rm -rf "16. Statistics & Lookups"
+rm -rf "17. Statistics & Lookups"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing parts of "Framework" & "Libraries"
+
+# Files to Keep
+
+# 1. Language/3. Libraries/Libraries.doc
+# 2. Framework/0. Language/3. Libraries/Libraries.doc
+# 2. Framework/0. Language/1. Language/6. Expression/6. More Text Codes/More Text Codes.doc
+# 2. Framework/0. Language/1. Language/6. Expression/Expression.doc
+# 2. Framework/0. Language/1. Language/Language.doc
+# 2. Framework/0. Language/2. Integration/Integration.doc
+# 2. Framework/0. Language/Language.doc
+# 2. Framework/2. Data Concepts
+
+# Removing Files
+
+git filter-branch --tree-filter '
+rm -rf "2. Framework/1. Code Concepts Extended/1. Handy Access/1. Introduction/Handier Access.doc"
+rm -rf "2. Framework/1. Code Concepts Extended/1. Handy Access/2. Progression/Progression.doc"
+rm -rf "2. Framework/1. Code Concepts Extended/1. Handy Access/3. Dedimensionality/Dedimensionality.doc"
+rm -rf "2. Framework/1. Code Concepts Extended/1. Handy Access/4. Skipping Structure Layers/Skipping Structure Layers.doc"
+rm -rf "2. Framework/1. Code Concepts Extended/3. Apply/Apply Mechanisms.doc"
+rm -rf "2. Framework/3. Edit Concepts"
+rm -rf "2. Framework/4. Controls"
+rm -rf "2. Framework/5. Network Concepts"
+rm -rf "2. Framework/Circle Framework.doc"
+rm -rf "2. Framework/0. Language/3. Libraries/1. Math"
+rm -rf "2. Framework/0. Language/3. Libraries/2. Assembly/empty.txt"
+rm -rf "1. Language/3. Libraries/1. Math"
+rm -rf "1. Language/3. Libraries/2. Assembly/empty.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "Data Concepts" Part 1 (except "Object Order", "Binaral")
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/5. Data Concepts/1.1. Registration Lists/Registration Lists.doc"
+rm -rf "01. Code/5. Data Concepts/1.2. Item Remove/Item Remove.doc"
+rm -rf "01. Code/5. Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
+rm -rf "01. Code/5. Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
+rm -rf "01. Code/5. Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/Filters, Sorts, Searches, Joins & Indexes.doc"
+rm -rf "01. Code/5. Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
+rm -rf "01. Code/5. Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
+rm -rf "01. Code/5. Data Concepts/3.0. Collection/Collection.doc"
+rm -rf "01. Code/5. Data Concepts/4.0. Search/4.1. Find/empty.txt"
+rm -rf "01. Code/5. Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
+rm -rf "01. Code/5. Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
+rm -rf "01. Code/5. Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
+rm -rf "01. Code/5. Data Concepts/5.0. Import & Export/5.2. XML/XML.doc"
+rm -rf "01. Code/5. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
+rm -rf "01. Code/5. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+rm -rf "01. Code/5. Data Concepts/6.0. Persistance Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
+rm -rf "01. Code/5. Data Concepts/6.0. Persistance Delay/6.4. Streaming Access/Streaming Access.doc"
+rm -rf "01. Code/5. Data Concepts/7.2. Custom Sorting Methods/Custom Sorting Methods.doc"
+rm -rf "01. Code/5. Data Concepts/7.3. User Sorting/User Sorting.doc"
+rm -rf "01. Code/5. Data Concepts/8.0. Strings/Strings.doc"
+rm -rf "01. Code/5. Data Concepts/9.0. Multi-Lingual/Multi-Lingual.doc"
+rm -rf "01. Code/5. Data Concepts/9.1. Is Deleted/Is Deleted.doc"
+rm -rf "01. Code/5. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/3. Data Concepts/0.0. Clear"
+rm -rf "02. Code/3. Data Concepts/1.1. Registration Lists"
+rm -rf "02. Code/3. Data Concepts/1.2. Item Remove"
+rm -rf "02. Code/3. Data Concepts/10.01. Defaults"
+rm -rf "02. Code/3. Data Concepts/10.02. Enums"
+rm -rf "02. Code/3. Data Concepts/10.03. Boolean & Enum Methods"
+rm -rf "02. Code/3. Data Concepts/11.01. Delete only when no references"
+rm -rf "02. Code/3. Data Concepts/11.02. Collection Operations"
+rm -rf "02. Code/3. Data Concepts/11.03. Extended Multiplicity"
+rm -rf "02. Code/3. Data Concepts/2.0. Undouble"
+rm -rf "02. Code/3. Data Concepts/3.0. Collection"
+rm -rf "02. Code/3. Data Concepts/4.0. Search"
+rm -rf "02. Code/3. Data Concepts/5.0. Import & Export"
+rm -rf "02. Code/3. Data Concepts/6.0. Persistance Delay"
+rm -rf "02. Code/3. Data Concepts/7.2. Custom Sorting Methods"
+rm -rf "02. Code/3. Data Concepts/7.3. User Sorting"
+rm -rf "02. Code/3. Data Concepts/8.0. Strings"
+rm -rf "02. Code/3. Data Concepts/9.0. Multi-Lingual"
+rm -rf "02. Code/3. Data Concepts/9.1. Is Deleted"
+rm -rf "02. Code/3. Data Concepts/9.2. Attributes As Tree Layers"
+rm -rf "02. Code/3. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/4. Data Concepts/0.0. Clear"
+rm -rf "02. Code/4. Data Concepts/1.1. Registration Lists"
+rm -rf "02. Code/4. Data Concepts/1.2. Item Remove"
+rm -rf "02. Code/4. Data Concepts/10.01. Defaults"
+rm -rf "02. Code/4. Data Concepts/10.02. Enums"
+rm -rf "02. Code/4. Data Concepts/10.03. Boolean & Enum Methods"
+rm -rf "02. Code/4. Data Concepts/11.01. Delete only when no references"
+rm -rf "02. Code/4. Data Concepts/11.02. Collection Operations"
+rm -rf "02. Code/4. Data Concepts/11.03. Extended Multiplicity"
+rm -rf "02. Code/4. Data Concepts/2.0. Undouble"
+rm -rf "02. Code/4. Data Concepts/3.0. Collection"
+rm -rf "02. Code/4. Data Concepts/4.0. Search"
+rm -rf "02. Code/4. Data Concepts/5.0. Import & Export"
+rm -rf "02. Code/4. Data Concepts/6.0. Persistance Delay"
+rm -rf "02. Code/4. Data Concepts/7.2. Custom Sorting Methods"
+rm -rf "02. Code/4. Data Concepts/7.3. User Sorting"
+rm -rf "02. Code/4. Data Concepts/8.0. Strings"
+rm -rf "02. Code/4. Data Concepts/9.0. Multi-Lingual"
+rm -rf "02. Code/4. Data Concepts/9.1. Is Deleted"
+rm -rf "02. Code/4. Data Concepts/9.2. Attributes As Tree Layers"
+rm -rf "02. Code/4. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/4. Data Concepts/10.03. Boolean & Enum Commands"
+rm -rf "02. Code/4. Data Concepts/6.0. Persistence Delay"
+rm -rf "03. Code/04. Concepts/Data Concepts/1.1. Registration Lists/Registration Lists.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/1.2. Item Remove/Item Remove.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/2.0. Undouble/2.2. Undoubled Relations/empty.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "Data Concepts" Part 2 (except "Object Order", "Binaral")
+
+git filter-branch --tree-filter '
+rm -rf "03. Code/04. Concepts/Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/FILTER~1.DOC"
+rm -rf "03. Code/04. Concepts/Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/4.0. Search/4.1. Find/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/5.0. Import & Export/5.2. XML/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.1. Locking/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.4. Streaming Access/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/7.2. Custom Sorting Methods/Custom Sorting Methods.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/7.3. User Sorting/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/8.0. Strings/Strings.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/9.0. Multi-Lingual/Multi-Lingual.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/Data Concepts.doc"
+rm -rf "2. Framework/2. Data Concepts/0.0. Clear/Incorporate.doc"
+rm -rf "2. Framework/2. Data Concepts/1.1. Registration Lists/Registration Lists.doc"
+rm -rf "2. Framework/2. Data Concepts/1.2. Item Remove/Item Remove.doc"
+rm -rf "2. Framework/2. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
+rm -rf "2. Framework/2. Data Concepts/10.01. Defaults/12.02. Create Objects/Create Objects.doc"
+rm -rf "2. Framework/2. Data Concepts/10.01. Defaults/12.03. Ensure Objects/Ensure Objects.doc"
+rm -rf "2. Framework/2. Data Concepts/10.02. Enums/Enums.doc"
+rm -rf "2. Framework/2. Data Concepts/10.03. Boolean & Enum Commands/Boolean & Enum Methods.doc"
+rm -rf "2. Framework/2. Data Concepts/11.01. Delete only when no references/Delete only when no references.doc"
+rm -rf "2. Framework/2. Data Concepts/11.03. Extended Multiplicity/Ideas.txt"
+rm -rf "2. Framework/2. Data Concepts/12. Scans/Image4.jpg"
+rm -rf "2. Framework/2. Data Concepts/12. Scans/Image62.jpg"
+rm -rf "2. Framework/2. Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/Filters, Sorts, Searches, Joins & Indexes.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.4. Collection Operations/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/Collection.doc"
+rm -rf "2. Framework/2. Data Concepts/4.0. Search/4.1. Find/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
+rm -rf "2. Framework/2. Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
+rm -rf "2. Framework/2. Data Concepts/5.0. Import & Export/5.2. XML/XML.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.1. Locking/Locking.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.4. Streaming Access/Streaming Access.doc"
+rm -rf "2. Framework/2. Data Concepts/7.2. Custom Sorting Methods/Custom Sorting Methods.doc"
+rm -rf "2. Framework/2. Data Concepts/7.3. User Sorting/User Sorting.doc"
+rm -rf "2. Framework/2. Data Concepts/8.0. Strings/Strings.doc"
+rm -rf "2. Framework/2. Data Concepts/8.1. Text Operations/Text Operations.doc"
+rm -rf "2. Framework/2. Data Concepts/8.2. Text Validation/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/9.0. Multi-Lingual/Multi-Lingual.doc"
+rm -rf "2. Framework/2. Data Concepts/9.1. Is Deleted/Is Deleted.doc"
+rm -rf "2. Framework/2. Data Concepts/9.2. Attributes As Tree Layers/Attributes As Tree Layers.doc"
+rm -rf "2. Framework/2. Data Concepts/Data Concepts.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Storage-Related Fundamental Principles
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/1. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "01. Code/1. Fundamental Principles/5.2.    Caching/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/5.3.    Reference Counting/Reference Counting.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.0.  ID'\''s/ID'\''s.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.1.  Positions/Positions.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.2.  Removing Fields/Removing Fields.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.3.  Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.4.  Primary Identification/Primary Identification.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.5.  Size Of Object/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/6.8.  Do Not Store Empty Lists/Do not store empty lists.doc"
+rm -rf "03. Code/01. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "03. Code/01. Fundamental Principles/5.2.    Caching/empty.txt"
+rm -rf "03. Code/01. Fundamental Principles/5.3.    Reference Counting/Reference Counting.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.0.  ID'\''s/ID'\''s.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.1.  Positions/Positions.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.2.  Removing Fields/Removing Fields.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.3.  Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.4.  Primary Identification/Primary Identification.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.5.  Size Of Object/empty.txt"
+rm -rf "03. Code/01. Fundamental Principles/6.7.  Speed/Speed.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Gray Area Concepts:
+#
+# - Coding Concepts (Out of Scope):
+#     - Handy Access 
+#     - Apply Mechanisms 
+#     - Default Values 
+#     - Create Objects
+#     - Ensure Objects
+#     - Enums
+#     - Booleans
+#     - "Delete only when no references"
+# - Fundamental Principles (Out of Scope): 
+#     - "C++", 
+#     - "Speed"
+#     - "Attributes as Tree Layers"
+# - Lost psp file
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/4. Coding Concepts/09.00. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "01. Code/4. Coding Concepts/09.00. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "03. Code/04. Concepts/Coding Concepts/10.0. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "01. Code/4. Coding Concepts/10.01. Apply Mechanisms/Apply Mechanisms.doc"
+rm -rf "02. Code/2. Coding Concepts/24. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/63. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/64. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/94. Apply/Apply Mechanisms.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/11.1. Apply Mechanisms/Apply Mechanisms.doc"
+rm -rf "01. Code/4. Coding Concepts/03.01. Default Values/Default Values.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.1. Default Values/Default Values.doc"
+rm -rf "01. Code/4. Coding Concepts/03.00. Command Concepts/03.02. Create Objects"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.2. Create Objects"
+rm -rf "01. Code/4. Coding Concepts/03.03. Ensure Objects"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.3. Ensure Objects"
+rm -rf "01. Code/4. Coding Concepts/04.04. Enums"
+rm -rf "01. Code/4. Coding Concepts/04.05. Boolean & Enum Methods"
+rm -rf "03. Code/04. Concepts/Coding Concepts/5.4. Enums"
+rm -rf "03. Code/04. Concepts/Coding Concepts/5.5. Boolean & Enum Methods"
+rm -rf "01. Code/4. Coding Concepts/12.00. Delete only when no references/Delete only when no references.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/13.0. Delete only when no references/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+rm -rf "01. Code/1. Fundamental Principles/5.0.    C++"
+rm -rf "02. Code/1. Fundamental Principles/5.0.   C++"
+rm -rf "02. Code/2. Fundamental Principles/3. Achievability/5. C++"
+rm -rf "02. Code/5. Fundamental Principles B/1. Achievability/5. C++"
+rm -rf "03. Code/01. Fundamental Principles/5.0.    C++"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5. C++"
+rm -rf "1.3. Circle Broader View/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+rm -rf "11. Circle Broader View/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+rm -rf "5. Archive/C++ Version History.doc"
+rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+rm -rf "01. Code/2. Flat & Struct. Interchanged/5. Attributes As Tree Layers/Attributes As Tree Layers.doc"
+rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+rm -rf "Pictures/Code/Language/Splines/Peels/1.psp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "Operating System" Topics
+
+# (Like: "Storage", "Core", "Hardware", "Security & Safety", "Communicate", "User Input", "Cache", "Configure")
+# (Except: "Internet as a Single Computer", "Concurrency", "Input Output", "Object Storage", "Access Control")
+
+# Some Files to Keep:
+
+# 17. Storage/1. Object Storage/Object Storage.doc
+# 3. Operating System/4. Storage/1. Object Storage/Object Storage.doc
+# 04. Security & Safety/1. Access Control/Access Control.doc
+# 16. Security & Safety/1. Access Control/Access Control Ideas.doc
+# 16. Security & Safety/1. Access Control/Access Control.doc
+# 18. Security & Safety/Access Control/Access Control.doc
+# 3. Operating System/3. Security & Safety/1. Access Control/Access Control Ideas.doc
+
+# Removing Files
+
+git filter-branch --tree-filter '
+rm -rf "17. Storage/1. Object Storage/00. Introduction/empty.txt"
+rm -rf "17. Storage/1. Object Storage/01. Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "17. Storage/1. Object Storage/02. Caching/empty.txt"
+rm -rf "17. Storage/1. Object Storage/03. Reference Counting/Reference Counting.doc"
+rm -rf "17. Storage/1. Object Storage/04. Destruction/empty.txt"
+rm -rf "17. Storage/1. Object Storage/04. ID'\''s/ID'\''s.doc"
+rm -rf "17. Storage/1. Object Storage/05. Positions/Positions.doc"
+rm -rf "17. Storage/1. Object Storage/06. Removing Fields/Removing Fields.doc"
+rm -rf "17. Storage/1. Object Storage/07. Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "17. Storage/1. Object Storage/08. Primary Identification/Primary Identification.doc"
+rm -rf "17. Storage/1. Object Storage/09. Size Of Object/empty.txt"
+rm -rf "17. Storage/1. Object Storage/10. Do Not Store Empty Lists/Do not store empty lists.doc"
+rm -rf "17. Storage/2. Allocation"
+rm -rf "17. Storage/3. Caching/Cache.doc"
+rm -rf "17. Storage/3. Caching/Sigma Cache.doc"
+rm -rf "17. Storage/4. Basic Data Structures"
+rm -rf "17. Storage/5. Speed/Speed.doc"
+rm -rf "17. Storage/Storage.doc"
+rm -rf "18. Core/XXXX-XX-XX XX/1. Storage"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/00. Introduction/empty.txt"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/01. Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/02. Caching/empty.txt"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/03. Reference Counting/Reference Counting.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/04. Destruction/empty.txt"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/04. ID'\''s/ID'\''s.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/05. Positions/Positions.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/06. Removing Fields/Removing Fields.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/07. Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/08. Primary Identification/Primary Identification.doc"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/09. Size Of Object/empty.txt"
+rm -rf "3. Operating System/4. Storage/1. Object Storage/10. Do Not Store Empty Lists/Do not store empty lists.doc"
+rm -rf "3. Operating System/4. Storage/2. Allocation"
+rm -rf "3. Operating System/4. Storage/3. Caching/Cache.doc"
+rm -rf "3. Operating System/4. Storage/3. Caching/Sigma Cache.doc"
+rm -rf "3. Operating System/4. Storage/4. Basic Data Structures"
+rm -rf "3. Operating System/4. Storage/5. Speed/Speed.doc"
+rm -rf "3. Operating System/4. Storage/Storage.doc"
+rm -rf "5. Archive/Storage Allocation Version History.doc"
+rm -rf "3. Operating System/Operating System.doc"
+rm -rf "5. Archive/Storage Allocation Version History.doc"
+rm -rf "File"
+rm -rf "Code/Creator/Other Files/JFile.doc"
+rm -rf "01. Core"
+rm -rf "18. Core"
+rm -rf "19. Core"
+rm -rf "Sigma Core.doc"
+rm -rf "3. Operating System/5. Core '\('Threads'\)'"
+rm -rf "5. Archive/Core Version History.doc"
+rm -rf "04. Hardware"
+rm -rf "18. Hardware"
+rm -rf "19. Hardware"
+rm -rf "3. Operating System/6. Hardware"
+rm -rf "Sigma Hardware.doc"
+rm -rf "04. Security & Safety/2. Licensing/empty.txt"
+rm -rf "04. Security & Safety/3. Antivirus/empty.txt"
+rm -rf "04. Security & Safety/4. Backup/empty.txt"
+rm -rf "04. Security & Safety/Security & Safety.doc"
+rm -rf "16. Security & Safety/2. Licensing/Licensing Ideas.doc"
+rm -rf "16. Security & Safety/2. Licensing/empty.txt"
+rm -rf "16. Security & Safety/3. Anti-Virus/empty.txt"
+rm -rf "16. Security & Safety/3. Antivirus/empty.txt"
+rm -rf "16. Security & Safety/4. Backup/empty.txt"
+rm -rf "16. Security & Safety/Security & Safety.doc"
+rm -rf "18. Security & Safety/Security & Safety.doc"
+rm -rf "3. Operating System/3. Security & Safety/2. Licensing/Licensing Ideas.doc"
+rm -rf "3. Operating System/3. Security & Safety/3. Anti-Virus/empty.txt"
+rm -rf "3. Operating System/3. Security & Safety/4. Backup/empty.txt"
+rm -rf "3. Operating System/3. Security & Safety/Security & Safety.doc"
+rm -rf "Sigma Security and Safety.doc"
+rm -rf "06. User Input"
+rm -rf "07. User Input"
+rm -rf "08. User Input"
+rm -rf "09. User Input"
+rm -rf "3. Operating System/7. User Input"
+rm -rf "Sigma User Input.doc"
+rm -rf "Communicate"
+rm -rf "12. Communicate"
+rm -rf "14. Communicate"
+rm -rf "3. Operating System/8. Communicate"
+rm -rf "02. Cache"
+rm -rf "Sigma Cache.doc"
+rm -rf "Sigma Configure.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "Integration" & "Legacy" (except index pages)
+
+# Files to Keep
+
+# 1. Language/2. Integration/7. Protocols/Protocols.doc
+# 1. Language/2. Integration/9. Text Codes/Text Codes.doc
+# 1. Language/2. Integration/Integration.doc
+# 15. Integration/7. Protocols IO/Protocols IO.doc
+# 15. Integration/Legacy.doc
+# 15. Legacy/7. Protocols IO/Protocols IO.doc
+# 15. Legacy/Legacy.doc
+# 17. Legacy/Sigma Integration.doc
+# 19. Legacy/Sigma Integration.doc
+# 2. Framework/0. Language/2. Integration/7. Protocols/Protocols.doc
+# 2. Framework/0. Language/2. Integration/9. Text Codes/Text Codes.doc
+# 2. Framework/0. Language/2. Integration/Integration.doc
+# 5. Archive/Module Integration Version History.doc
+# Sigma Integration.doc
+
+# Removing Files
+
+git filter-branch --tree-filter '
+rm -rf "1. Language/2. Integration/1. File System Integration/File.doc"
+rm -rf "1. Language/2. Integration/1. File System Integration/temp File Tools.txt"
+rm -rf "1. Language/2. Integration/10. ,,,/empty.txt"
+rm -rf "1. Language/2. Integration/2. Database Integration/empty.txt"
+rm -rf "1. Language/2. Integration/3. SOAP Integration/empty.txt"
+rm -rf "1. Language/2. Integration/4. ODBC Integration/empty.txt"
+rm -rf "1. Language/2. Integration/5. File Types/empty.txt"
+rm -rf "1. Language/2. Integration/6. Module System Integration/empty.txt"
+rm -rf "1. Language/2. Integration/7. Protocols/1. HTTP/empty.txt"
+rm -rf "1. Language/2. Integration/7. Protocols/2. SMTP/empty.txt"
+rm -rf "1. Language/2. Integration/7. Protocols/3. POP3/empty.txt"
+rm -rf "1. Language/2. Integration/7. Protocols/4. FTP/empty.txt"
+rm -rf "1. Language/2. Integration/7. Protocols/5. ,,,/empty.txt"
+rm -rf "1. Language/2. Integration/8. Legacy API'\''s/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/1. XML/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/10. Cobol/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/11. Fortran/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/2. SQL/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/3. Visual Basic/Sigma VB Code.doc"
+rm -rf "1. Language/2. Integration/9. Text Codes/4. C++/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/5. C/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/6. HTML/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/7. Javascript/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/8. VB Script/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/9. Basic/empty.txt"
+rm -rf "1. Language/2. Integration/9. Text Codes/Text Codes Ideas.doc"
+rm -rf "15. Integration/1. File System IO/File.doc"
+rm -rf "15. Integration/1. File System IO/temp File Tools.txt"
+rm -rf "15. Integration/10. ,,,/empty.txt"
+rm -rf "15. Integration/2. Relational Database IO/empty.txt"
+rm -rf "15. Integration/3. SOAP IO/empty.txt"
+rm -rf "15. Integration/4. ODBC IO/empty.txt"
+rm -rf "15. Integration/5. File Types IO/empty.txt"
+rm -rf "15. Integration/6. Module Systems IO/empty.txt"
+rm -rf "15. Integration/7. Protocols IO/1. HTTP/empty.txt"
+rm -rf "15. Integration/7. Protocols IO/2. SMTP/empty.txt"
+rm -rf "15. Integration/7. Protocols IO/3. POP3/empty.txt"
+rm -rf "15. Integration/7. Protocols IO/4. FTP/empty.txt"
+rm -rf "15. Integration/7. Protocols IO/5. ,,,/empty.txt"
+rm -rf "15. Integration/8. Legacy API'\''s/empty.txt"
+rm -rf "15. Integration/9. Programming Language IO/empty.txt"
+rm -rf "15. Legacy/1. File System IO/File.doc"
+rm -rf "15. Legacy/1. File System IO/temp File Tools.txt"
+rm -rf "15. Legacy/2. Relational Database IO/empty.txt"
+rm -rf "15. Legacy/3. SOAP IO/empty.txt"
+rm -rf "15. Legacy/4. ODBC IO/empty.txt"
+rm -rf "15. Legacy/5. File Types IO/empty.txt"
+rm -rf "15. Legacy/6. Module Systems IO/empty.txt"
+rm -rf "15. Legacy/7. Protocols IO/1. HTTP/empty.txt"
+rm -rf "15. Legacy/7. Protocols IO/2. SMTP/empty.txt"
+rm -rf "15. Legacy/7. Protocols IO/3. POP3/empty.txt"
+rm -rf "15. Legacy/7. Protocols IO/4. FTP/empty.txt"
+rm -rf "15. Legacy/7. Protocols IO/5. ,,,/empty.txt"
+rm -rf "15. Legacy/8. Legacy API'\''s/empty.txt"
+rm -rf "15. Legacy/9. ,,,/empty.txt"
+rm -rf "17. Legacy/1. Relational Database IO/empty.txt"
+rm -rf "17. Legacy/2. File System IO/empty.txt"
+rm -rf "17. Legacy/3. Soap IO/empty.txt"
+rm -rf "17. Legacy/4. ODBC IO/empty.txt"
+rm -rf "17. Legacy/5. Protocols IO/1. HTTP/empty.txt"
+rm -rf "17. Legacy/5. Protocols IO/2. SMTP/empty.txt"
+rm -rf "17. Legacy/5. Protocols IO/3. POP3/empty.txt"
+rm -rf "17. Legacy/5. Protocols IO/4. FTP/empty.txt"
+rm -rf "17. Legacy/5. Protocols IO/5. ,,,/empty.txt"
+rm -rf "17. Legacy/6. File Types IO/empty.txt"
+rm -rf "17. Legacy/7. Module Systems IO/empty.txt"
+rm -rf "17. Legacy/8. Legacy API'\''s/empty.txt"
+rm -rf "17. Legacy/9. ,,,/empty.txt"
+rm -rf "17. Legacy/Sigma File.doc"
+rm -rf "17. Legacy/temp File Tools.txt"
+rm -rf "19. Legacy/ODBC IO/empty.txt"
+rm -rf "19. Legacy/Sigma File.doc"
+rm -rf "19. Legacy/Soap IO/empty.txt"
+rm -rf "19. Legacy/temp File Tools.txt"
+rm -rf "2. Framework/0. Language/2. Integration/1. File System Integration/File.doc"
+rm -rf "2. Framework/0. Language/2. Integration/1. File System Integration/temp File Tools.txt"
+rm -rf "2. Framework/0. Language/2. Integration/10. ,,,/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/2. Database Integration/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/3. SOAP Integration/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/4. ODBC Integration/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/5. File Types/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/6. Module System Integration/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/7. Protocols/1. HTTP/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/7. Protocols/2. SMTP/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/7. Protocols/3. POP3/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/7. Protocols/4. FTP/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/7. Protocols/5. ,,,/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/8. Legacy API'\''s/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/1. XML/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/10. Cobol/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/11. Fortran/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/2. SQL/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/3. Visual Basic/Sigma VB Code.doc"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/4. C++/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/5. C/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/6. HTML/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/7. Javascript/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/8. VB Script/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/9. Basic/empty.txt"
+rm -rf "2. Framework/0. Language/2. Integration/9. Text Codes/Text Codes Ideas.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "More Text Codes" / "Legacy Text Codes" / "Additional Text Codes" (except index pages)
+
+# Files to Keep
+
+# 01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/Legacy Text Codes.doc
+# 02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/Legacy Text Codes.doc
+# 02. Code/6. Expression/6. More Text Codes/1. Additional Text Codes/Additional Text Codes.doc
+# 02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/Legacy Text Codes.doc
+# 02. Code/6. Expression/6. More Text Codes/More Text Codes.doc
+# 1. Language/1. Language/6. Expression/6. More Text Codes/More Text Codes.doc
+# 2. Framework/0. Language/1. Language/6. Expression/6. More Text Codes/More Text Codes.doc
+
+# Removing Files
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/1. XML/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/10. Cobol/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/11. Fortran/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/2. SQL/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/3. Visual Basic/Sigma VB Code.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/4. C++/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/5. C/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/6. HTML/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/7. Javascript/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/8. VB Script/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes/9. Basic/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/1. Additional Text Codes/1. Math Code/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/1. Additional Text Codes/2. Assembly/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/1. XML/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/10. Cobol/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/11. Fortran/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/2. SQL/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/3. Visual Basic/Sigma VB Code.doc"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/4. C++/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/5. C/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/6. HTML/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/7. Javascript/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/8. VB Script/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/2. Legacy Text Codes/9. Basic/empty.txt"
+rm -rf "02. Code/4. Expression/6. More Text Codes/3. Parser"
+rm -rf "02. Code/4. Expression/6. More Text Codes/4. Text Templates"
+rm -rf "02. Code/4. Expression/6. More Text Codes/5. Text Operations/Text Operations.doc"
+rm -rf "02. Code/4. Expression/6. More Text Codes/6. Text Validation/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/1. Additional Text Codes/1. Math Code/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/1. Additional Text Codes/2. Assembly/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/1. XML/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/10. Cobol/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/11. Fortran/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/2. SQL/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/3. Visual Basic/Sigma VB Code.doc"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/4. C++/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/5. C/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/6. HTML/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/7. Javascript/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/8. VB Script/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/9. Basic/empty.txt"
+rm -rf "02. Code/6. Expression/6. More Text Codes/2. Legacy Text Codes/Legacy Text Codes Ideas.doc"
+rm -rf "02. Code/6. Expression/6. More Text Codes/3. Parser"
+rm -rf "02. Code/6. Expression/6. More Text Codes/4. Text Templates"
+rm -rf "02. Code/6. Expression/6. More Text Codes/5. Text Operations/Text Operations.doc"
+rm -rf "02. Code/6. Expression/6. More Text Codes/6. Text Validation/empty.txt"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/1. Parser"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/2. Text Templates"
+rm -rf "2. Framework/0. Language/1. Language/6. Expression/6. More Text Codes/1. Parser"
+rm -rf "2. Framework/0. Language/1. Language/6. Expression/6. More Text Codes/2. Text Templates"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "Text Codes", "Text Operations", "Text Statistics"
+
+git filter-branch --tree-filter '
+rm -rf "03. Code/05. Expression/1. Parser"
+rm -rf "03. Code/05. Expression/2. Text Code/Template Text Generator"
+rm -rf "03. Code/05. Expression/4. Legacy Text Codes/Sigma VB Code.doc"
+rm -rf "03. Code/07. Text Operations"
+rm -rf "Code/Other/temp Template Text Generator.txt"
+rm -rf "Code/Other/Template Text Generator, Software Engineering.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/3. Parser"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/4. Other Text Codes/1. Math Code/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/4. Other Text Codes/2. Assembly/empty.txt"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/8. Text Templates"
+rm -rf "01. Code/8. Other Topics/09. Text Operations"
+rm -rf "Code/Sigma C++ Code.doc"
+rm -rf "Code/Sigma Syntax/Sigma Syntax.doc"
+rm -rf "Code/Sigma VB Code.doc"
+rm -rf "01. Code/8. Other Topics/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "02. Code/6. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "02. Code/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "03. Code/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "1. Language/1. Language/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "1.2. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
