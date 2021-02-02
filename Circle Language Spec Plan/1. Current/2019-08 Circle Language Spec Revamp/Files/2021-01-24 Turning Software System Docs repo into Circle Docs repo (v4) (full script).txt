@@ -60,7 +60,9 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
 
 # Removing Pictures Part 1
 
@@ -120,7 +122,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -215,7 +217,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -292,7 +294,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -338,7 +340,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -430,7 +432,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -504,7 +506,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -544,7 +546,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -635,7 +637,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -752,7 +754,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -891,7 +893,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -973,7 +975,7 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
 
 # --------------------
 
@@ -1013,4 +1015,74 @@ git gc --aggressive --prune=now
 
 # Listing Files
 
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Some Storage things were left behind:
+
+# 01. Storage/1. Storage Principles/00. Introduction/empty.txt
+# 01. Storage/1. Storage Principles/01. Unify Disk & Memory/Unify Disk & Memory.doc
+# 01. Storage/1. Storage Principles/02. Caching/empty.txt
+# 01. Storage/1. Storage Principles/03. Reference Counting/Reference Counting.doc
+# 01. Storage/1. Storage Principles/04. Destruction/empty.txt
+# 01. Storage/1. Storage Principles/04. ID's/ID's.doc
+# 01. Storage/1. Storage Principles/05. Positions/Positions.doc
+# 01. Storage/1. Storage Principles/06. Removing Fields/Removing Fields.doc
+# 01. Storage/1. Storage Principles/07. Changing Field Sizes/Changing Field Sizes.doc
+# 01. Storage/1. Storage Principles/08. Primary Identification/Primary Identification.doc
+# 01. Storage/1. Storage Principles/09. Size Of Object/empty.txt
+# 01. Storage/1. Storage Principles/10. Do Not Store Empty Lists/Do not store empty lists.doc
+# 01. Storage/2. Allocation/2003-10-01 XX/Storage.doc
+# 01. Storage/2. Allocation/2008-01-14 00/Storage ( Old Material, Cross Out Copy ).doc
+# 01. Storage/2. Allocation/2008-01-14 00/Storage, Deleted Texts.doc
+# 01. Storage/2. Allocation/2008-01-14 00/Storage.doc
+# 01. Storage/2. Allocation/2008-01-19 00/Storage ( Old Material, Cross Out Copy ).doc
+# 01. Storage/2. Allocation/2008-01-19 00/Storage, Deleted Texts.doc
+# 01. Storage/2. Allocation/2008-01-19 00/Storage.doc
+# 01. Storage/2. Allocation/Versions.doc
+# 01. Storage/2. Allocation/XXXX-XX-XX XX/Storage ( Old Material, Cross Out Copy ).doc
+# 01. Storage/2. Allocation/XXXX-XX-XX XX/Storage, Deleted Texts.doc
+# 01. Storage/2. Allocation/XXXX-XX-XX XX/Storage.doc
+# 01. Storage/2. Allocation/XXXX-XX-XX XX/Temp Storage Ideas/XXXX-XX-XX XX temp Core documentation revision.doc
+# 01. Storage/2. Allocation/XXXX-XX-XX XX/Temp Storage Ideas/temp Block Map.txt
+# 01. Storage/2. Allocation/XXXX-XX-XX XX/Temp Storage Ideas/temp Storage to do.txt
+# 01. Storage/3. Caching/Cache.doc
+# 01. Storage/3. Caching/Sigma Cache.doc
+# 01. Storage/4. Basic Data Structures/1999-00-00 00  Array Tools VB3/Array Tools VB3.doc
+# 01. Storage/4. Basic Data Structures/2002-08-00 XX  J File (VB6)/J File (VB6 Basic Data Structures).doc
+# 01. Storage/4. Basic Data Structures/2002-10-28 ~~  J Array/J Array.doc
+# 01. Storage/4. Basic Data Structures/2002-11-17 ~~  Multi-Type Stack/Multi-Type Stack.doc
+# 01. Storage/4. Basic Data Structures/2003-04-00 XX  J Document (VB6)/J Document (VB6 Basic Data Structures).doc
+# 01. Storage/4. Basic Data Structures/2003-07-X1 00  Data VB6 (1)/Data VB6 (1).doc
+# 01. Storage/4. Basic Data Structures/2003-09-XX 02  Data .Net/Data .Net.doc
+# 01. Storage/4. Basic Data Structures/2007-12-08 00  Full Concept/Basic Data Structures.doc
+# 01. Storage/4. Basic Data Structures/Basic Data Structure Versions.doc
+
+# To summarize, the following things were now kept:
+# - Some harmless pictures
+# - Access Control
+# - Object Storage
+# - Circularity
+# Was that the plan? > Seems so.
+
+# Correction: Removing folder "01. Storage" as a whole
+
+# --------------------
+
+# Removing "01. Storage"
+
+git filter-branch --tree-filter 'rm -rf "01. Storage"' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
