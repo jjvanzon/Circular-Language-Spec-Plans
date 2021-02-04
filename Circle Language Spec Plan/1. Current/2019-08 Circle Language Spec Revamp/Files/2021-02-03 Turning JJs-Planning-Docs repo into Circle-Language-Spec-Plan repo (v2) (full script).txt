@@ -69,86 +69,86 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 3. Done/0.1. Software System/4. Version Control Creator 0.9 Modules/Version Control Creator 0.9 Modules.doc
 3. Done/0.2. Creator 0.9
 3. Done/0.3. Creator & Symbol 2.0/A Single & Complete Program
-3. Done/2004-07 01  Creator 0.4 (Data 1.0)/Incorporate.txt
+3. Done/2004-07 01  Creator 0.4 '\('Data 1.0'\)'/Incorporate.txt
 3. Done/2004-07 02     Initiate Creator 0.4 & Graphics 0.4/Incorporate.txt
-3. Done/2004-08 01     Adapt Controls (2)/Incorporate.txt
-3. Done/2004-08 02     Creator 0.4 & Graphics 0.4 (1)/Incorporate.txt
-3. Done/2004-09 01     Creator 0.4 & Graphics 0.4 (2)/Incorporate.txt
+3. Done/2004-08 01     Adapt Controls '\('2'\)'/Incorporate.txt
+3. Done/2004-08 02     Creator 0.4 & Graphics 0.4 '\('1'\)'/Incorporate.txt
+3. Done/2004-09 01     Creator 0.4 & Graphics 0.4 '\('2'\)'/Incorporate.txt
 3. Done/2004-09 02     Code VB 0.4/Incorporate.txt
 3. Done/2004-09 03     Math 0.4/Incorporate.txt
-3. Done/2004-09 04     Syntax 0.4 (Booleans, Integers, Floating Points) (1)/Incorporate.txt
+3. Done/2004-09 04     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('1'\)'/Incorporate.txt
 3. Done/2004-10 01     Initiate Symbol 0.4/empty.txt
-3. Done/2004-10 02     Syntax 0.4 (Booleans, Integers, Floating Points) (2)/empty.txt
+3. Done/2004-10 02     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('2'\)'/empty.txt
 3. Done/2004-10 03     Initiate Sound 0.4/empty.txt
-3. Done/2004-10 04     Syntax 0.4 (Booleans, Integers, Floating Points) (3)/empty.txt
+3. Done/2004-10 04     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('3'\)'/empty.txt
 3. Done/2004-10 05     Math 0.4 Syntax/empty.txt
 3. Done/2004-10 06     Creator 0.4/empty.txt
-3. Done/2004-10 07     Creator 0.4, Use Code VB for Item Classes (1)/Incorporate.txt
+3. Done/2004-10 07     Creator 0.4, Use Code VB for Item Classes '\('1'\)'/Incorporate.txt
 3. Done/2004-10 08     Color 0.4/Incorporate.txt
-3. Done/2004-10 09     Creator 0.4, Use Code VB for Item Classes (2)/Incorporate.txt
+3. Done/2004-10 09     Creator 0.4, Use Code VB for Item Classes '\('2'\)'/Incorporate.txt
 3. Done/2004-10 10     Creator 0.4, Graphics/Incorporate.txt
 3. Done/2004-11 00     Hole, 2 months, limited +,- 29 h,month/Incorporate.txt
 3. Done/2004-11 02     Creator 0.4, Math & Syntax/Incorporate.txt
 3. Done/2004-12 01     Creator 0.4, Organizer VB/Incorporate.txt
-3. Done/2004-12 02     Creator 0.4, Use Code VB Everywhere (1)/Incorporate.txt
-3. Done/2005-01 02     Creator 0.4, Use Code VB Everywhere (2)/empty.txt
-3. Done/2005-01 03     Creator 0.4, Mixed Issues (1)/empty.txt
-3. Done/2005-02 01     Sound 0.4 (1)/Incorporate.txt
-3. Done/2005-02 02     Creator 0.4, Mixed Issues (2)/Incorporate.txt
+3. Done/2004-12 02     Creator 0.4, Use Code VB Everywhere '\('1'\)'/Incorporate.txt
+3. Done/2005-01 02     Creator 0.4, Use Code VB Everywhere '\('2'\)'/empty.txt
+3. Done/2005-01 03     Creator 0.4, Mixed Issues '\('1'\)'/empty.txt
+3. Done/2005-02 01     Sound 0.4 '\('1'\)'/Incorporate.txt
+3. Done/2005-02 02     Creator 0.4, Mixed Issues '\('2'\)'/Incorporate.txt
 3. Done/2005-02 03     Creator 0.4, XML/Incorporate.txt
-3. Done/2005-03 01     Sound 0.4 (2)/Incorporate.txt
-3. Done/2005-03 02     Creator 0.4, Mixed Issues (3)/Incorporate.txt
-3. Done/2005-04 01  Document Creator 0.9 (Data 2.0) (1)/Incorporate.txt
+3. Done/2005-03 01     Sound 0.4 '\('2'\)'/Incorporate.txt
+3. Done/2005-03 02     Creator 0.4, Mixed Issues '\('3'\)'/Incorporate.txt
+3. Done/2005-04 01  Document Creator 0.9 '\('Data 2.0'\)' '\('1'\)'/Incorporate.txt
 3. Done/2005-04 02     Hole, 2 months, very limited +,- 19 h,month/Incorporate.txt
-3. Done/2005-04 03     Document Creator 0.9 (1), Organize Brainstorm Items/empty.txt
-3. Done/2005-05 00     Document Creator 0.9 (2), Concept Sections (1)/Creator 0.9, Document All Concepts.doc
-3. Done/2005-07 00  Document Creator 0.9 (Data 2.0) (2)/empty.txt
-3. Done/2005-07 01     Document Creator 0.9 (2), Concept Sections (2)/empty.txt
+3. Done/2005-04 03     Document Creator 0.9 '\('1'\)', Organize Brainstorm Items/empty.txt
+3. Done/2005-05 00     Document Creator 0.9 '\('2'\)', Concept Sections '\('1'\)'/Creator 0.9, Document All Concepts.doc
+3. Done/2005-07 00  Document Creator 0.9 '\('Data 2.0'\)' '\('2'\)'/empty.txt
+3. Done/2005-07 01     Document Creator 0.9 '\('2'\)', Concept Sections '\('2'\)'/empty.txt
 3. Done/2005-07 02     Dir 0.4/empty.txt
 3. Done/2005-07 03     Number Files Tool/empty.txt
-3. Done/2005-07 04     Document Creator 0.9 (2), Concept Sections (3)/empty.txt
+3. Done/2005-07 04     Document Creator 0.9 '\('2'\)', Concept Sections '\('3'\)'/empty.txt
 3. Done/2005-07 05  Develop Creator 0.9/empty.txt
-3. Done/2005-07 06     Creator 0.9, Generating C++ & Organizer C++ (1), Orientation & Preparation/empty.txt
-3. Done/2005-08 01     Creator 0.9, Generating C++ & Organizer C++ (2), Lists & Trees C++/empty.txt
-3. Done/2005-08 02     Creator 0.9, Generating C++ & Organizer C++ (3), Class Generator & Code C++/empty.txt
-3. Done/2005-08 03     Creator 0.9, Generating C++ & Organizer C++ (4), Control Generator & Code C++/empty.txt
-3. Done/2005-08 05     Creator 0.9, Generating C++ (5), Control Generator (2)/empty.txt
+3. Done/2005-07 06     Creator 0.9, Generating C++ & Organizer C++ '\('1'\)', Orientation & Preparation/empty.txt
+3. Done/2005-08 01     Creator 0.9, Generating C++ & Organizer C++ '\('2'\)', Lists & Trees C++/empty.txt
+3. Done/2005-08 02     Creator 0.9, Generating C++ & Organizer C++ '\('3'\)', Class Generator & Code C++/empty.txt
+3. Done/2005-08 03     Creator 0.9, Generating C++ & Organizer C++ '\('4'\)', Control Generator & Code C++/empty.txt
+3. Done/2005-08 05     Creator 0.9, Generating C++ '\('5'\)', Control Generator '\('2'\)'/empty.txt
 3. Done/2005-09 01     Initiate Controls 0.9/empty.txt
 3. Done/2005-09 02     Version Control Creator 0.9 Applications/Version Control Creator 0.9 Applications.doc
-3. Done/2005-09 03     Develop Creator 0.9, Globality (unfinished)/empty.txt
-3. Done/2005-09 04     Something with Graphics Objects (2)/empty.txt
+3. Done/2005-09 03     Develop Creator 0.9, Globality '\('unfinished'\)'/empty.txt
+3. Done/2005-09 04     Something with Graphics Objects '\('2'\)'/empty.txt
 3. Done/2005-09 05     Creator 0.9, Easier Custom Code/empty.txt
-3. Done/2005-10 00     Creator 0.9, Several Concepts ( Mainly Filter Indexes ) & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
+3. Done/2005-10 00     Creator 0.9, Several Concepts '\(' Mainly Filter Indexes '\)' & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
 3. Done/2005-10 00     Hole, 1 month, nothing/Incorporate.txt
-3. Done/2005-11 00     Creator 0.9, Isolate Concepts in Modules (1)/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
-3. Done/2005-12 01     Worked on Syntax (briefly)/Incorporate.txt
-3. Done/2005-12 02     Creator 0.9, Isolate Concepts in Modules (2)/empty.txt
+3. Done/2005-11 00     Creator 0.9, Isolate Concepts in Modules '\('1'\)'/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
+3. Done/2005-12 01     Worked on Syntax '\('briefly'\)'/Incorporate.txt
+3. Done/2005-12 02     Creator 0.9, Isolate Concepts in Modules '\('2'\)'/empty.txt
 3. Done/2006-01 00     Hole, 4 months, hardly anything/Incorporate.txt
 3. Done/2006-05 01     Creator 0.9, Basic Concepts & Format Generated Code/empty.txt
-3. Done/2006-05 02     Creator 0.9, Synchronization (postponed)/empty.txt
+3. Done/2006-05 02     Creator 0.9, Synchronization '\('postponed'\)'/empty.txt
 3. Done/2006-06 00     Hole, 1 month, very limited, 15h/Incorporate.txt
 3. Done/2006-07 00     Hole, 3 months, almost nothing/Incorporate.txt
-3. Done/2006-08 00     Adapt Controls 0.9 (playing around)/empty.txt
+3. Done/2006-08 00     Adapt Controls 0.9 '\('playing around'\)'/empty.txt
 3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Plan.doc
 3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Summary.doc
 3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Plan.doc
 3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Summary.doc
 3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Plan.doc
 3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Summary.doc
-3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
-3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
-3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
-3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
+3. Done/2007-05 02        Creator 2.0, View Data '\(' Tree Control '\)'/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
+3. Done/2007-05 02        Creator 2.0, View Data '\(' Tree Control '\)'/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
+3. Done/2007-05 03        Creator 2.0, Edit Data '\(' Buttons In Tree Control '\)'/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
+3. Done/2007-05 03        Creator 2.0, Edit Data '\(' Buttons In Tree Control '\)'/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
 3. Done/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc
 3. Done/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Plan.doc
 3. Done/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Summary.doc
 3. Done/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc
-3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
-3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
+3. Done/2007-08 01     Creator 2.0, Program An Application '\(' Sound '\)'/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
+3. Done/2007-08 01     Creator 2.0, Program An Application '\(' Sound '\)'/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
 3. Done/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Plan.doc
 3. Done/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Summary.doc
-3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
-3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
+3. Done/2007-09 00     Creator 2.0, Program Some Applications '\(' Sound , Math Objects , Controls , XML '\)'/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
+3. Done/2007-09 00     Creator 2.0, Program Some Applications '\(' Sound , Math Objects , Controls , XML '\)'/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
 3. Done/2008-10-13 00/0.1. Software System/3. Program Creator 0.9 Modules/Programmed Creator 0.9 Modules.doc
 3. Done/2008-10-13 00/0.1. Software System/4. Version Control Creator 0.9 Modules/Version Control Creator 0.9 Modules.doc
 3. Done/2008-10-13 00/0.2. Creator 0.9
@@ -157,35 +157,35 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 3. Done/2008-12 03     Repair Creator 0.9 First Programs
 3. Done/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects/Repair Creator 0.9 Split Up Into Sub-Projects.doc
 3. Done/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
-3. Done/XXXX-XX-XX XX/2004-07 01  Creator 0.4 (Data 1.0)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-07 01  Creator 0.4 '\('Data 1.0'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-07 02     Initiate Creator 0.4 & Graphics 0.4/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-08 01     Adapt Controls (2)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-08 02     Creator 0.4 & Graphics 0.4 (1)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-09 01     Creator 0.4 & Graphics 0.4 (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-08 01     Adapt Controls '\('2'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-08 02     Creator 0.4 & Graphics 0.4 '\('1'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-09 01     Creator 0.4 & Graphics 0.4 '\('2'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-09 02     Code VB 0.4/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-09 03     Math 0.4/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-09 04     Syntax 0.4 (Booleans, Integers, Floating Points) (1)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-10 07     Creator 0.4, Use Code VB for Item Classes (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-09 04     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('1'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-10 07     Creator 0.4, Use Code VB for Item Classes '\('1'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-10 08     Color 0.4/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-10 09     Creator 0.4, Use Code VB for Item Classes (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-10 09     Creator 0.4, Use Code VB for Item Classes '\('2'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-10 10     Creator 0.4, Graphics/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-11 00     Hole, 2 months, limited +,- 29 h,month/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-11 02     Creator 0.4, Math & Syntax/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-12 01     Creator 0.4, Organizer VB/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-12 02     Creator 0.4, Use Code VB Everywhere (1)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-02 01     Sound 0.4 (1)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-02 02     Creator 0.4, Mixed Issues (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-12 02     Creator 0.4, Use Code VB Everywhere '\('1'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-02 01     Sound 0.4 '\('1'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-02 02     Creator 0.4, Mixed Issues '\('2'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2005-02 03     Creator 0.4, XML/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-03 01     Sound 0.4 (2)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-03 02     Creator 0.4, Mixed Issues (3)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-04 01  Document Creator 0.9 (Data 2.0) (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-03 01     Sound 0.4 '\('2'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-03 02     Creator 0.4, Mixed Issues '\('3'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-04 01  Document Creator 0.9 '\('Data 2.0'\)' '\('1'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2005-04 02     Hole, 2 months, very limited +,- 19 h,month/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-05 00     Document Creator 0.9 (2), Concept Sections (1)/Creator 0.9, Document All Concepts.doc
+3. Done/XXXX-XX-XX XX/2005-05 00     Document Creator 0.9 '\('2'\)', Concept Sections '\('1'\)'/Creator 0.9, Document All Concepts.doc
 3. Done/XXXX-XX-XX XX/2005-09 02     Version Control Creator 0.9 Applications/Version Control Creator 0.9 Applications.doc
-3. Done/XXXX-XX-XX XX/2005-10 00     Creator 0.9, Several Concepts ( Mainly Filter Indexes ) & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
+3. Done/XXXX-XX-XX XX/2005-10 00     Creator 0.9, Several Concepts '\(' Mainly Filter Indexes '\)' & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
 3. Done/XXXX-XX-XX XX/2005-10 00     Hole, 1 month, nothing/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2005-11 00     Creator 0.9, Isolate Concepts in Modules (1)/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
-3. Done/XXXX-XX-XX XX/2005-12 01     Worked on Syntax (briefly)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-11 00     Creator 0.9, Isolate Concepts in Modules '\('1'\)'/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
+3. Done/XXXX-XX-XX XX/2005-12 01     Worked on Syntax '\('briefly'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2006-01 00     Hole, 4 months, hardly anything/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2006-06 00     Hole, 1 month, very limited, 15h/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2006-07 00     Hole, 3 months, almost nothing/Incorporate.txt
@@ -195,20 +195,20 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 3. Done/XXXX-XX-XX XX/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Summary.doc
 3. Done/XXXX-XX-XX XX/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Plan.doc
 3. Done/XXXX-XX-XX XX/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Summary.doc
-3. Done/XXXX-XX-XX XX/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
-3. Done/XXXX-XX-XX XX/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
-3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
-3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-05 02        Creator 2.0, View Data '\(' Tree Control '\)'/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-05 02        Creator 2.0, View Data '\(' Tree Control '\)'/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data '\(' Buttons In Tree Control '\)'/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data '\(' Buttons In Tree Control '\)'/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
 3. Done/XXXX-XX-XX XX/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc
 3. Done/XXXX-XX-XX XX/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Plan.doc
 3. Done/XXXX-XX-XX XX/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Summary.doc
 3. Done/XXXX-XX-XX XX/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc
-3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
-3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application '\(' Sound '\)'/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application '\(' Sound '\)'/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
 3. Done/XXXX-XX-XX XX/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Plan.doc
 3. Done/XXXX-XX-XX XX/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Summary.doc
-3. Done/XXXX-XX-XX XX/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
-3. Done/XXXX-XX-XX XX/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
+3. Done/XXXX-XX-XX XX/2007-09 00     Creator 2.0, Program Some Applications '\(' Sound , Math Objects , Controls , XML '\)'/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-09 00     Creator 2.0, Program Some Applications '\(' Sound , Math Objects , Controls , XML '\)'/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
 3. Done/XXXX-XX-XX XX/2008-12 01     Repair Creator 2.0 Programs/2008-12 01  Repair Creator 2.0 Programs, Proj Smry.doc
 3. Done/XXXX-XX-XX XX/2008-12 03     Repair Creator 0.9 First Programs
 3. Done/XXXX-XX-XX XX/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects/Repair Creator 0.9 Split Up Into Sub-Projects.doc
@@ -228,80 +228,80 @@ Other/2. Future/Postponed/4. Software System Programming/1. Program Intermediate
 Other/2. Future/Postponed/5. Repair Older Material/01. Repair Creator 0.9 Programs
 Other/2. Future/Postponed/5. Repair Older Material/02.    Repair Creator 0.9 Reference Counting
 Other/2. Future/Postponed/5. Repair Older Material/03.    Repair Creator 0.9 Remaining Programs/Repair Creator 0.9 Remaining Programs Goal Description.doc
-Other/3. Done/2004 - 2005 Creator 0.4 (Data 1.0)
-Other/3. Done/2004-07 01  Creator 0.4 (Data 1.0)/Incorporate.txt
+Other/3. Done/2004 - 2005 Creator 0.4 '\('Data 1.0'\)'
+Other/3. Done/2004-07 01  Creator 0.4 '\('Data 1.0'\)'/Incorporate.txt
 Other/3. Done/2004-07 02     Initiate Creator 0.4 & Graphics 0.4/Incorporate.txt
-Other/3. Done/2004-08 01     Adapt Controls (2)/Incorporate.txt
-Other/3. Done/2004-08 02     Creator 0.4 & Graphics 0.4 (1)/Incorporate.txt
-Other/3. Done/2004-09 01     Creator 0.4 & Graphics 0.4 (2)/Incorporate.txt
+Other/3. Done/2004-08 01     Adapt Controls '\('2'\)'/Incorporate.txt
+Other/3. Done/2004-08 02     Creator 0.4 & Graphics 0.4 '\('1'\)'/Incorporate.txt
+Other/3. Done/2004-09 01     Creator 0.4 & Graphics 0.4 '\('2'\)'/Incorporate.txt
 Other/3. Done/2004-09 02     Code VB 0.4/Incorporate.txt
 Other/3. Done/2004-09 03     Math 0.4/Incorporate.txt
-Other/3. Done/2004-09 04     Syntax 0.4 (Booleans, Integers, Floating Points) (1)/Incorporate.txt
+Other/3. Done/2004-09 04     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('1'\)'/Incorporate.txt
 Other/3. Done/2004-10 01     Initiate Symbol 0.4/empty.txt
-Other/3. Done/2004-10 02     Syntax 0.4 (Booleans, Integers, Floating Points) (2)/empty.txt
+Other/3. Done/2004-10 02     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('2'\)'/empty.txt
 Other/3. Done/2004-10 03     Initiate Sound 0.4/empty.txt
-Other/3. Done/2004-10 04     Syntax 0.4 (Booleans, Integers, Floating Points) (3)/empty.txt
+Other/3. Done/2004-10 04     Syntax 0.4 '\('Booleans, Integers, Floating Points'\)' '\('3'\)'/empty.txt
 Other/3. Done/2004-10 05     Math 0.4 Syntax/empty.txt
 Other/3. Done/2004-10 06     Creator 0.4/empty.txt
-Other/3. Done/2004-10 07     Creator 0.4, Use Code VB for Item Classes (1)/Incorporate.txt
+Other/3. Done/2004-10 07     Creator 0.4, Use Code VB for Item Classes '\('1'\)'/Incorporate.txt
 Other/3. Done/2004-10 08     Color 0.4/Incorporate.txt
-Other/3. Done/2004-10 09     Creator 0.4, Use Code VB for Item Classes (2)/Incorporate.txt
+Other/3. Done/2004-10 09     Creator 0.4, Use Code VB for Item Classes '\('2'\)'/Incorporate.txt
 Other/3. Done/2004-10 10     Creator 0.4, Graphics/Incorporate.txt
 Other/3. Done/2004-11 00     Hole, 2 months, limited +,- 29 h,month/Incorporate.txt
 Other/3. Done/2004-11 02     Creator 0.4, Math & Syntax/Incorporate.txt
 Other/3. Done/2004-12 01     Creator 0.4, Organizer VB/Incorporate.txt
-Other/3. Done/2004-12 02     Creator 0.4, Use Code VB Everywhere (1)/Incorporate.txt
+Other/3. Done/2004-12 02     Creator 0.4, Use Code VB Everywhere '\('1'\)'/Incorporate.txt
 Other/3. Done/2005 - 2006 Creator 0.9
-Other/3. Done/2005-01 02     Creator 0.4, Use Code VB Everywhere (2)/empty.txt
-Other/3. Done/2005-01 03     Creator 0.4, Mixed Issues (1)/empty.txt
-Other/3. Done/2005-02 01     Sound 0.4 (1)/Incorporate.txt
-Other/3. Done/2005-02 02     Creator 0.4, Mixed Issues (2)/Incorporate.txt
+Other/3. Done/2005-01 02     Creator 0.4, Use Code VB Everywhere '\('2'\)'/empty.txt
+Other/3. Done/2005-01 03     Creator 0.4, Mixed Issues '\('1'\)'/empty.txt
+Other/3. Done/2005-02 01     Sound 0.4 '\('1'\)'/Incorporate.txt
+Other/3. Done/2005-02 02     Creator 0.4, Mixed Issues '\('2'\)'/Incorporate.txt
 Other/3. Done/2005-02 03     Creator 0.4, XML/Incorporate.txt
-Other/3. Done/2005-03 01     Sound 0.4 (2)/Incorporate.txt
-Other/3. Done/2005-03 02     Creator 0.4, Mixed Issues (3)/Incorporate.txt
-Other/3. Done/2005-04 01  Document Creator 0.9 (Data 2.0) (1)/Incorporate.txt
+Other/3. Done/2005-03 01     Sound 0.4 '\('2'\)'/Incorporate.txt
+Other/3. Done/2005-03 02     Creator 0.4, Mixed Issues '\('3'\)'/Incorporate.txt
+Other/3. Done/2005-04 01  Document Creator 0.9 '\('Data 2.0'\)' '\('1'\)'/Incorporate.txt
 Other/3. Done/2005-04 02     Hole, 2 months, very limited +,- 19 h,month/Incorporate.txt
-Other/3. Done/2005-04 03     Document Creator 0.9 (1), Organize Brainstorm Items/empty.txt
-Other/3. Done/2005-05 00     Document Creator 0.9 (2), Concept Sections (1)/Creator 0.9, Document All Concepts.doc
-Other/3. Done/2005-07 00  Document Creator 0.9 (Data 2.0) (2)/empty.txt
-Other/3. Done/2005-07 01     Document Creator 0.9 (2), Concept Sections (2)/empty.txt
+Other/3. Done/2005-04 03     Document Creator 0.9 '\('1'\)', Organize Brainstorm Items/empty.txt
+Other/3. Done/2005-05 00     Document Creator 0.9 '\('2'\)', Concept Sections '\('1'\)'/Creator 0.9, Document All Concepts.doc
+Other/3. Done/2005-07 00  Document Creator 0.9 '\('Data 2.0'\)' '\('2'\)'/empty.txt
+Other/3. Done/2005-07 01     Document Creator 0.9 '\('2'\)', Concept Sections '\('2'\)'/empty.txt
 Other/3. Done/2005-07 02     Dir 0.4/empty.txt
 Other/3. Done/2005-07 03     Number Files Tool/empty.txt
-Other/3. Done/2005-07 04     Document Creator 0.9 (2), Concept Sections (3)/empty.txt
+Other/3. Done/2005-07 04     Document Creator 0.9 '\('2'\)', Concept Sections '\('3'\)'/empty.txt
 Other/3. Done/2005-07 05  Develop Creator 0.9/empty.txt
-Other/3. Done/2005-07 06     Creator 0.9, Generating C++ & Organizer C++ (1), Orientation & Preparation/empty.txt
-Other/3. Done/2005-08 01     Creator 0.9, Generating C++ & Organizer C++ (2), Lists & Trees C++/empty.txt
-Other/3. Done/2005-08 02     Creator 0.9, Generating C++ & Organizer C++ (3), Class Generator & Code C++/empty.txt
-Other/3. Done/2005-08 03     Creator 0.9, Generating C++ & Organizer C++ (4), Control Generator & Code C++/empty.txt
-Other/3. Done/2005-08 05     Creator 0.9, Generating C++ (5), Control Generator (2)/empty.txt
+Other/3. Done/2005-07 06     Creator 0.9, Generating C++ & Organizer C++ '\('1'\)', Orientation & Preparation/empty.txt
+Other/3. Done/2005-08 01     Creator 0.9, Generating C++ & Organizer C++ '\('2'\)', Lists & Trees C++/empty.txt
+Other/3. Done/2005-08 02     Creator 0.9, Generating C++ & Organizer C++ '\('3'\)', Class Generator & Code C++/empty.txt
+Other/3. Done/2005-08 03     Creator 0.9, Generating C++ & Organizer C++ '\('4'\)', Control Generator & Code C++/empty.txt
+Other/3. Done/2005-08 05     Creator 0.9, Generating C++ '\('5'\)', Control Generator '\('2'\)'/empty.txt
 Other/3. Done/2005-09 01     Initiate Controls 0.9/empty.txt
 Other/3. Done/2005-09 02     Version Control Creator 0.9 Applications/Version Control Creator 0.9 Applications.doc
-Other/3. Done/2005-09 03     Develop Creator 0.9, Globality (unfinished)/empty.txt
-Other/3. Done/2005-09 04     Something with Graphics Objects (2)/empty.txt
+Other/3. Done/2005-09 03     Develop Creator 0.9, Globality '\('unfinished'\)'/empty.txt
+Other/3. Done/2005-09 04     Something with Graphics Objects '\('2'\)'/empty.txt
 Other/3. Done/2005-09 05     Creator 0.9, Easier Custom Code/empty.txt
-Other/3. Done/2005-10 00     Creator 0.9, Several Concepts ( Mainly Filter Indexes ) & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
+Other/3. Done/2005-10 00     Creator 0.9, Several Concepts '\(' Mainly Filter Indexes '\)' & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
 Other/3. Done/2005-10 00     Hole, 1 month, nothing/Incorporate.txt
-Other/3. Done/2005-11 00     Creator 0.9, Isolate Concepts in Modules (1)/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
-Other/3. Done/2005-12 01     Worked on Syntax (briefly)/Incorporate.txt
-Other/3. Done/2005-12 02     Creator 0.9, Isolate Concepts in Modules (2)/empty.txt
+Other/3. Done/2005-11 00     Creator 0.9, Isolate Concepts in Modules '\('1'\)'/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
+Other/3. Done/2005-12 01     Worked on Syntax '\('briefly'\)'/Incorporate.txt
+Other/3. Done/2005-12 02     Creator 0.9, Isolate Concepts in Modules '\('2'\)'/empty.txt
 Other/3. Done/2006-01 00     Hole, 4 months, hardly anything/Incorporate.txt
 Other/3. Done/2006-05 01     Creator 0.9, Basic Concepts & Format Generated Code/empty.txt
-Other/3. Done/2006-05 02     Creator 0.9, Synchronization (postponed)/empty.txt
+Other/3. Done/2006-05 02     Creator 0.9, Synchronization '\('postponed'\)'/empty.txt
 Other/3. Done/2006-06 00     Hole, 1 month, very limited, 15h/Incorporate.txt
 Other/3. Done/2006-07 00     Hole, 3 months, almost nothing/Incorporate.txt
-Other/3. Done/2006-08 00     Adapt Controls 0.9 (playing around)/empty.txt
+Other/3. Done/2006-08 00     Adapt Controls 0.9 '\('playing around'\)'/empty.txt
 Other/3. Done/2007 - 2007 Creator 2.0
 Other/3. Done/2007-02 02  Creator 2.0
 Other/3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal
 Other/3. Done/2007-05 01     Creator 2.0, View & Edit Data
-Other/3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )
-Other/3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )
+Other/3. Done/2007-05 02        Creator 2.0, View Data '\(' Tree Control '\)'
+Other/3. Done/2007-05 03        Creator 2.0, Edit Data '\(' Buttons In Tree Control '\)'
 Other/3. Done/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc
 Other/3. Done/2007-07 00     Creator 2.0, Disk Based A
 Other/3. Done/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc
-Other/3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )
+Other/3. Done/2007-08 01     Creator 2.0, Program An Application '\(' Sound '\)'
 Other/3. Done/2007-08 02     Creator 2.0, Methods
-Other/3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )
+Other/3. Done/2007-09 00     Creator 2.0, Program Some Applications '\(' Sound , Math Objects , Controls , XML '\)'
 Other/3. Done/2008 - 2009 Repair Older Material/2008-12 01     Repair Creator 2.0 Programs
 Other/3. Done/2008 - 2009 Repair Older Material/2008-12 03     Repair Creator 0.9 First Programs
 Other/3. Done/2008 - 2009 Repair Older Material/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects
@@ -310,7 +310,7 @@ Other/3. Done/2008-12 01     Repair Creator 2.0 Programs
 Other/3. Done/2008-12 03     Repair Creator 0.9 First Programs
 Other/3. Done/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects
 Other/3. Done/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
-Other/3. Done/Creator 0.4 (Data 1.0) 2004-07 - 2005-03
+Other/3. Done/Creator 0.4 '\('Data 1.0'\)' 2004-07 - 2005-03
 Other/3. Done/Creator 2.0 2007-02 - 2007-09
 Other/3. Done/Develop Creator 0.9 2005-07 - 2006-08
 Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-12 01     Repair Creator 2.0 Programs
@@ -329,10 +329,10 @@ Other/2. Future/Postponed/5. Repair Older Material/08. Repair Other Creator 2.0 
 
 3. Done/1995-00 00  DOS Menu/empty.txt
 3. Done/1995-09 00  Jay Tracker/empty.txt
-3. Done/1997-00 00  DIG III (Windows)/empty.txt
+3. Done/1997-00 00  DIG III '\('Windows'\)'/empty.txt
 3. Done/1997-00 00  Genarrator/empty.txt
 3. Done/1997-00 00  High Equalizer/empty.txt
-3. Done/1997-08 28  Music Theory Test (Attempt) (VB3)/empty.txt
+3. Done/1997-08 28  Music Theory Test '\('Attempt'\)' '\('VB3'\)'/empty.txt
 3. Done/1998 00 00  DOS Sound Design Idea/empty.txt
 3. Done/1998-00 00  Dimensional Tracker/empty.txt
 3. Done/1998-09 00  Sine Control/empty.txt
@@ -350,53 +350,53 @@ Other/2. Future/Postponed/5. Repair Older Material/08. Repair Other Creator 2.0 
 3. Done/1999-04 00  Sample Modulator/empty.txt
 3. Done/1999-04 00  Shaper Attempt/empty.txt
 3. Done/1999-05 00  Resample/empty.txt
-3. Done/1999-06 00  High Equalizer C++ (without UI)/empty.txt
+3. Done/1999-06 00  High Equalizer C++ '\('without UI'\)'/empty.txt
 3. Done/1999-08 00  MAKSMPA/empty.txt
 3. Done/1999-08 00  MAKSMPB/empty.txt
 3. Done/1999-08-18  Simulate, Acoustic/Incorporate.txt
 3. Done/1999-09 00  Math Misc/empty.txt
-3. Done/1999-10-12  Simulate, Dynamic/199X-XX 19  Wave projector (plotting waves with interference)/empty.txt
+3. Done/1999-10-12  Simulate, Dynamic/199X-XX 19  Wave projector '\('plotting waves with interference'\)'/empty.txt
 3. Done/1999-10-12  Simulate, Dynamic/Incorporate.txt
-3. Done/1999-11 00  JJ's Sound System/empty.txt
+3. Done/1999-11 00  JJ'\''s Sound System/empty.txt
 3. Done/199X-XX 01  DIG I/empty.txt
 3. Done/199X-XX 02  DIG II/empty.txt
 3. Done/199X-XX 03  3D Experiments/empty.txt
-3. Done/2000-00 01  JJ's Component Services (Controls)/empty.txt
-3. Done/2000-00 02  Controls 1.0 (J Tabular Old)/empty.txt
+3. Done/2000-00 01  JJ'\''s Component Services '\('Controls'\)'/empty.txt
+3. Done/2000-00 02  Controls 1.0 '\('J Tabular Old'\)'/empty.txt
 3. Done/2000-01-10  Simulate, Electric/Incorporate.txt
 3. Done/2000-03 00  Drawer VB6/empty.txt
 3. Done/2000-06 23  Alarm Idea/empty.txt
 3. Done/2000-08 00  3DS Analysis Attempt/empty.txt
 3. Done/2000-08 00  Color Grade/empty.txt
 3. Done/2000-08 00  Sketch Recognition Idea/empty.txt
-3. Done/2000-08 02  Hexadecimal Add (QB7)/empty.txt
-3. Done/2000-08 05  Money Clock (never finished)/empty.txt
+3. Done/2000-08 02  Hexadecimal Add '\('QB7'\)'/empty.txt
+3. Done/2000-08 05  Money Clock '\('never finished'\)'/empty.txt
 3. Done/2000-08 28  Alarm Clock/empty.txt
 3. Done/2000-10 01  Eat/empty.txt
 3. Done/2000-10 02  MakeValid/empty.txt
 3. Done/2000-11 00  Lifeline/empty.txt
 3. Done/2000-12 00  File Divider Idea/empty.txt
-3. Done/2001-00 00  Controls 2.0 (J Tabular)/empty.txt
+3. Done/2001-00 00  Controls 2.0 '\('J Tabular'\)'/empty.txt
 3. Done/2001-00 00  J Draw/empty.txt
 3. Done/2001-02 01  Sonar/2001-02-01  Sonar.doc
-3. Done/2001-04 00  Controls 3.0 (Controls Old) (e.g. MapBox)/empty.txt
+3. Done/2001-04 00  Controls 3.0 '\('Controls Old'\)' '\('e.g. MapBox'\)'/empty.txt
 3. Done/2001-06 00  Count Enters/empty.txt
 3. Done/2001-07 00  Textual Code Analysis/Incorporate.txt
 3. Done/2001-12 00  Anti-Aliased Box/empty.txt
 3. Done/2001-12 00  Iteration/empty.txt
 3. Done/2001-12-22  J3D/Incorporate.txt
-3. Done/2002-00 00  Controls 3.0 (Drawn Objects)/empty.txt
-3. Done/2002-01-08  Calendar (Idea)/empty.txt
+3. Done/2002-00 00  Controls 3.0 '\('Drawn Objects'\)'/empty.txt
+3. Done/2002-01-08  Calendar '\('Idea'\)'/empty.txt
 3. Done/2002-07 03  Balances/empty.txt
 3. Done/2002-08 00  Folder Statisics Attempt/empty.txt
-3. Done/2002-08 00  J File (Basic Data Structures)/empty.txt
+3. Done/2002-08 00  J File '\('Basic Data Structures'\)'/empty.txt
 3. Done/2002-10 00  J Array/empty.txt
 3. Done/2002-10 00  Search & Replace File Contents/empty.txt
 3. Done/2002-11 14  Stop Watch/empty.txt
 3. Done/2002-12 00  Compare Files/empty.txt
 3. Done/2002-12 21  Stolen Calendar/empty.txt
 3. Done/2003-01 00  Sound/empty.txt
-3. Done/2003-03 00  J Document (Basic Data Structures)/empty.txt
+3. Done/2003-03 00  J Document '\('Basic Data Structures'\)'/empty.txt
 3. Done/2003-04 00  Character Category Idea/empty.txt
 3. Done/2003-04 00  Develop Core/Incorporate.txt
 3. Done/2003-04-00  Generate IntelliTamper Dictionary 1/empty.txt
@@ -405,7 +405,7 @@ Other/2. Future/Postponed/5. Repair Older Material/08. Repair Other Creator 2.0 
 3. Done/2003-05 00  Read MSDN & More/Incorporate.txt
 3. Done/2003-06 00     Read HTML for Dummies/Incorporate.txt
 3. Done/2003-07 00     Work on Controls briefly/empty.txt
-3. Done/2003-07 01  Data VB6 (Basic Data Structures)/empty.txt
+3. Done/2003-07 01  Data VB6 '\('Basic Data Structures'\)'/empty.txt
 3. Done/2003-08 00  Hole, 1 month, hardly anything/Incorporate.txt
 3. Done/2003-09 00  Hole, 1 month, limited 26.5 h/Incorporate.txt
 3. Done/2003-09 01  Data .NET/Incorporate.txt
@@ -417,15 +417,15 @@ Other/2. Future/Postponed/5. Repair Older Material/08. Repair Other Creator 2.0 
 3. Done/2004-04 00  Hole, 1 month, hardly anything/Incorporate.txt
 3. Done/2004-05 00     Picture Viewer/empty.txt
 3. Done/2004-05 01     Generate IntelliTamper Dictionary 2/empty.txt
-3. Done/2004-05 01     Graphics 0.1 ('Object Draw')/Incorporate.txt
+3. Done/2004-05 01     Graphics 0.1 '\(''\''Object Draw'\'''\)'/Incorporate.txt
 3. Done/2004-05 02     Make Basic Data Structures Better/Incorporate.txt
 3. Done/2004-05 02  Graphics 0.3/empty.txt
-3. Done/2004-05 03     Adapt Controls (1)/Incorporate.txt
-3. Done/2004-05 04     Graphics 0.3 (1)/Incorporate.txt
+3. Done/2004-05 03     Adapt Controls '\('1'\)'/Incorporate.txt
+3. Done/2004-05 04     Graphics 0.3 '\('1'\)'/Incorporate.txt
 3. Done/2004-06 01     Graphics 0.3, Get 3D Vibration/Incorporate.txt
-3. Done/2004-06 02     Graphics 0.3 (2)/Incorporate.txt
+3. Done/2004-06 02     Graphics 0.3 '\('2'\)'/Incorporate.txt
 3. Done/2005-07 08     Bank Account Analysis 0.1/empty.txt
-3. Done/2005-08 00     Volume Maximizer (for Music CD)/empty.txt
+3. Done/2005-08 00     Volume Maximizer '\('for Music CD'\)'/empty.txt
 3. Done/2007-10 00  Kept going, even though move/2007-10 00  Kept going, even though move.doc
 3. Done/2010-10 00 PictureViewer2/PictureViewer2.txt
 3. Done/XXXX-XX-XX XX/1999-08-18  Simulate, Acoustic/Incorporate.txt
@@ -443,12 +443,12 @@ Other/2. Future/Postponed/5. Repair Older Material/08. Repair Other Creator 2.0 
 3. Done/XXXX-XX-XX XX/2003-09 01  Data .NET/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2003-11 00  Hole, 2 months, limited +,- 27 h,month/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-04 00  Hole, 1 month, hardly anything/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-05 01     Graphics 0.1 ('Object Draw')/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 01     Graphics 0.1 '\(''\''Object Draw'\'''\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-05 02     Make Basic Data Structures Better/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-05 03     Adapt Controls (1)/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-05 04     Graphics 0.3 (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 03     Adapt Controls '\('1'\)'/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 04     Graphics 0.3 '\('1'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2004-06 01     Graphics 0.3, Get 3D Vibration/Incorporate.txt
-3. Done/XXXX-XX-XX XX/2004-06 02     Graphics 0.3 (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-06 02     Graphics 0.3 '\('2'\)'/Incorporate.txt
 3. Done/XXXX-XX-XX XX/2007-10 00  Kept going, even though move/2007-10 00  Kept going, even though move.doc
 3. Done/XXXX-XX-XX XX/2010-10 00 PictureViewer2/PictureViewer2.txt
 2. Future/Postponed/Pre# 2016-11.txt
@@ -479,13 +479,13 @@ Other/4. Archive/2016-11 AnaLib.txt
 2. Future/Ideas/Shortcut to Ideas.doc.lnk4. Archive/2016-11 AnaLib.txt
 Other/2. Future/Ideas/Shortcut to Ideas.doc.lnk
 Other/3. Done/1990 - 2000 QB7 VB3 C++
-Other/3. Done/1990's QB7 VB3 C++
+Other/3. Done/1990'\''s QB7 VB3 C++
 Other/3. Done/1995-00 00  DOS Menu/empty.txt
 Other/3. Done/1995-09 00  Jay Tracker/empty.txt
-Other/3. Done/1997-00 00  DIG III (Windows)/empty.txt
+Other/3. Done/1997-00 00  DIG III '\('Windows'\)'/empty.txt
 Other/3. Done/1997-00 00  Genarrator/empty.txt
 Other/3. Done/1997-00 00  High Equalizer/empty.txt
-Other/3. Done/1997-08 28  Music Theory Test (Attempt) (VB3)/empty.txt
+Other/3. Done/1997-08 28  Music Theory Test '\('Attempt'\)' '\('VB3'\)'/empty.txt
 Other/3. Done/1998 00 00  DOS Sound Design Idea/empty.txt
 Other/3. Done/1998-00 00  Dimensional Tracker/empty.txt
 Other/3. Done/1998-09 00  Sine Control/empty.txt
@@ -504,47 +504,47 @@ Other/3. Done/1999-04 00  SD Scape Idea/empty.txt
 Other/3. Done/1999-04 00  Sample Modulator/empty.txt
 Other/3. Done/1999-04 00  Shaper Attempt/empty.txt
 Other/3. Done/1999-05 00  Resample/empty.txt
-Other/3. Done/1999-06 00  High Equalizer C++ (without UI)/empty.txt
+Other/3. Done/1999-06 00  High Equalizer C++ '\('without UI'\)'/empty.txt
 Other/3. Done/1999-08 00  MAKSMPA/empty.txt
 Other/3. Done/1999-08 00  MAKSMPB/empty.txt
 Other/3. Done/1999-08-18  Simulate, Acoustic/Incorporate.txt
 Other/3. Done/1999-09 00  Math Misc/empty.txt
-Other/3. Done/1999-10-12  Simulate, Dynamic/199X-XX 19  Wave projector (plotting waves with interference)/empty.txt
+Other/3. Done/1999-10-12  Simulate, Dynamic/199X-XX 19  Wave projector '\('plotting waves with interference'\)'/empty.txt
 Other/3. Done/1999-10-12  Simulate, Dynamic/Incorporate.txt
-Other/3. Done/1999-11 00  JJ's Sound System/empty.txt
+Other/3. Done/1999-11 00  JJ'\''s Sound System/empty.txt
 Other/3. Done/199X-XX 01  DIG I/empty.txt
 Other/3. Done/199X-XX 02  DIG II/empty.txt
 Other/3. Done/199X-XX 03  3D Experiments/empty.txt
-Other/3. Done/2000'nds VB6 .NET 1.1
-Other/3. Done/2000-00 01  JJ's Component Services (Controls)/empty.txt
-Other/3. Done/2000-00 02  Controls 1.0 (J Tabular Old)/empty.txt
+Other/3. Done/2000'\''nds VB6 .NET 1.1
+Other/3. Done/2000-00 01  JJ'\''s Component Services '\('Controls'\)'/empty.txt
+Other/3. Done/2000-00 02  Controls 1.0 '\('J Tabular Old'\)'/empty.txt
 Other/3. Done/2000-01-10  Simulate, Electric/Incorporate.txt
 Other/3. Done/2000-03 00  Drawer VB6/empty.txt
 Other/3. Done/2000-06 23  Alarm Idea/empty.txt
 Other/3. Done/2000-08 00  3DS Analysis Attempt/empty.txt
 Other/3. Done/2000-08 00  Color Grade/empty.txt
 Other/3. Done/2000-08 00  Sketch Recognition Idea/empty.txt
-Other/3. Done/2000-08 02  Hexadecimal Add (QB7)/empty.txt
-Other/3. Done/2000-08 05  Money Clock (never finished)/empty.txt
+Other/3. Done/2000-08 02  Hexadecimal Add '\('QB7'\)'/empty.txt
+Other/3. Done/2000-08 05  Money Clock '\('never finished'\)'/empty.txt
 Other/3. Done/2000-08 28  Alarm Clock/empty.txt
 Other/3. Done/2000-10 01  Eat/empty.txt
 Other/3. Done/2000-10 02  MakeValid/empty.txt
 Other/3. Done/2000-11 00  Lifeline/empty.txt
 Other/3. Done/2000-12 00  File Divider Idea/empty.txt
-Other/3. Done/2001-00 00  Controls 2.0 (J Tabular)/empty.txt
+Other/3. Done/2001-00 00  Controls 2.0 '\('J Tabular'\)'/empty.txt
 Other/3. Done/2001-00 00  J Draw/empty.txt
 Other/3. Done/2001-02 01  Sonar/2001-02-01  Sonar.doc
-Other/3. Done/2001-04 00  Controls 3.0 (Controls Old) (e.g. MapBox)/empty.txt
+Other/3. Done/2001-04 00  Controls 3.0 '\('Controls Old'\)' '\('e.g. MapBox'\)'/empty.txt
 Other/3. Done/2001-06 00  Count Enters/empty.txt
 Other/3. Done/2001-07 00  Textual Code Analysis/Incorporate.txt
 Other/3. Done/2001-12 00  Anti-Aliased Box/empty.txt
 Other/3. Done/2001-12 00  Iteration/empty.txt
 Other/3. Done/2001-12-22  J3D/Incorporate.txt
-Other/3. Done/2002-00 00  Controls 3.0 (Drawn Objects)/empty.txt
-Other/3. Done/2002-01-08  Calendar (Idea)/empty.txt
+Other/3. Done/2002-00 00  Controls 3.0 '\('Drawn Objects'\)'/empty.txt
+Other/3. Done/2002-01-08  Calendar '\('Idea'\)'/empty.txt
 Other/3. Done/2002-07 03  Balances/empty.txt
 Other/3. Done/2002-08 00  Folder Statisics Attempt/empty.txt
-Other/3. Done/2002-08 00  J File (Basic Data Structures)/empty.txt
+Other/3. Done/2002-08 00  J File '\('Basic Data Structures'\)'/empty.txt
 Other/3. Done/2002-10 00  J Array/empty.txt
 Other/3. Done/2002-10 00  Search & Replace File Contents/empty.txt
 Other/3. Done/2002-11 14  Stop Watch/empty.txt
@@ -557,7 +557,7 @@ Other/3. Done/2003 Read MSDN & More/2003-05 00  Read MSDN & More/Incorporate.txt
 Other/3. Done/2003 Read MSDN & More/2003-06 00     Read HTML for Dummies/Incorporate.txt
 Other/3. Done/2003 Read MSDN & More/2003-07 00     Work on Controls briefly/empty.txt
 Other/3. Done/2003-01 00  Sound/empty.txt
-Other/3. Done/2003-03 00  J Document (Basic Data Structures)/empty.txt
+Other/3. Done/2003-03 00  J Document '\('Basic Data Structures'\)'/empty.txt
 Other/3. Done/2003-04 00  Character Category Idea/empty.txt
 Other/3. Done/2003-04 00  Develop Core/Incorporate.txt
 Other/3. Done/2003-04-00  Generate IntelliTamper Dictionary 1/empty.txt
@@ -566,7 +566,7 @@ Other/3. Done/2003-05 00  New Kind Of Keyboard/Incorporate.txt
 Other/3. Done/2003-05 00  Read MSDN & More/Incorporate.txt
 Other/3. Done/2003-06 00     Read HTML for Dummies/Incorporate.txt
 Other/3. Done/2003-07 00     Work on Controls briefly/empty.txt
-Other/3. Done/2003-07 01  Data VB6 (Basic Data Structures)/empty.txt
+Other/3. Done/2003-07 01  Data VB6 '\('Basic Data Structures'\)'/empty.txt
 Other/3. Done/2003-08 00  Hole, 1 month, hardly anything/Incorporate.txt
 Other/3. Done/2003-09 00  Hole, 1 month, limited 26.5 h/Incorporate.txt
 Other/3. Done/2003-09 01  Data .NET/Incorporate.txt
@@ -578,15 +578,15 @@ Other/3. Done/2004-02 00     Math or Organizer, Saving with Interest/empty.txt
 Other/3. Done/2004-04 00  Hole, 1 month, hardly anything/Incorporate.txt
 Other/3. Done/2004-05 00     Picture Viewer/empty.txt
 Other/3. Done/2004-05 01     Generate IntelliTamper Dictionary 2/empty.txt
-Other/3. Done/2004-05 01     Graphics 0.1 ('Object Draw')/Incorporate.txt
+Other/3. Done/2004-05 01     Graphics 0.1 '\(''\''Object Draw'\'''\)'/Incorporate.txt
 Other/3. Done/2004-05 02     Make Basic Data Structures Better/Incorporate.txt
 Other/3. Done/2004-05 02  Graphics 0.3/empty.txt
-Other/3. Done/2004-05 03     Adapt Controls (1)/Incorporate.txt
-Other/3. Done/2004-05 04     Graphics 0.3 (1)/Incorporate.txt
+Other/3. Done/2004-05 03     Adapt Controls '\('1'\)'/Incorporate.txt
+Other/3. Done/2004-05 04     Graphics 0.3 '\('1'\)'/Incorporate.txt
 Other/3. Done/2004-06 01     Graphics 0.3, Get 3D Vibration/Incorporate.txt
-Other/3. Done/2004-06 02     Graphics 0.3 (2)/Incorporate.txt
+Other/3. Done/2004-06 02     Graphics 0.3 '\('2'\)'/Incorporate.txt
 Other/3. Done/2005-07 08     Bank Account Analysis 0.1/empty.txt
-Other/3. Done/2005-08 00     Volume Maximizer (for Music CD)/empty.txt
+Other/3. Done/2005-08 00     Volume Maximizer '\('for Music CD'\)'/empty.txt
 Other/3. Done/2010-10 00 PictureViewer2/PictureViewer2.txt
 
 
