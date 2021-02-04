@@ -45,12 +45,8 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 # Creator
 # -----
 
-2. Future/1. Interesting Now/3.1.00.       Program Intermediate Creator Version/Disk Based B/Creator & Symbol 2.0, Disk Based B, Project Summary.doc
-2. Future/1. Interesting Now/3.1.00.       Program Intermediate Creator Version/Program Intermediate Creator Version, Project Plan.doc
-2. Future/1. Interesting Now/3.1.00.       Program Intermediate Creator Version/Program Intermediate Creator Version, Project Summary.doc
-2. Future/Interesting Now/3.1.00.       Program Intermediate Creator Version/Disk Based B/Creator & Symbol 2.0, Disk Based B, Project Summary.doc
-2. Future/Interesting Now/3.1.00.       Program Intermediate Creator Version/Program Intermediate Creator Version, Project Plan.doc
-2. Future/Interesting Now/3.1.00.       Program Intermediate Creator Version/Program Intermediate Creator Version, Project Summary.doc
+2. Future/1. Interesting Now/3.1.00.       Program Intermediate Creator Version
+2. Future/Interesting Now/3.1.00.       Program Intermediate Creator Version
 2. Future/1. Interesting Now/2.2.01.       Repair Creator 0.9 Programs
 2. Future/Interesting Now/2.2.01.       Repair Creator 0.9 Programs
 2. Future/1. Interesting Now/2.2.02.          Repair Creator 0.9 Reference Counting
@@ -60,19 +56,18 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 2. Future/Interesting Now/Software System/2. Repair Older Material/01. Repair Creator 0.9 Programs
 2. Future/Interesting Now/Software System/2. Repair Older Material/02.    Repair Creator 0.9 Reference Counting
 2. Future/Interesting Now/Software System/2. Repair Older Material/03.    Repair Creator 0.9 Remaining Programs
-2. Future/1. Interesting Now/2.2.08.       Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
-2. Future/Interesting Now/2.2.08.       Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/08. Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
+2. Future/1. Interesting Now/2.2.08.       Repair Other Creator 2.0 Programs
+2. Future/Interesting Now/2.2.08.       Repair Other Creator 2.0 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/08. Repair Other Creator 2.0 Programs
 2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.01. Repair Creator 0.9 Programs
 2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.02.    Repair Creator 0.9 Reference Counting
 2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.03.    Repair Creator 0.9 Remaining Programs
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.08. Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.08. Repair Other Creator 2.0 Programs
 2. Future/Interesting Now/Software System/3. Program Software System/1. Program Intermediate Creator Version
 2. Future/Interesting Now/Software System/3. Program Software System/3.1.00. Program Intermediate Creator Version
 3. Done/0.1. Software System/3. Program Creator 0.9 Modules/Programmed Creator 0.9 Modules.doc
 3. Done/0.1. Software System/4. Version Control Creator 0.9 Modules/Version Control Creator 0.9 Modules.doc
-3. Done/0.2. Creator 0.9/1. Document All Concepts/Creator 0.9, Document All Concepts.doc
-3. Done/0.2. Creator 0.9/2. Centralize Concepts & Finish Up Primary Concepts/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
+3. Done/0.2. Creator 0.9
 3. Done/0.3. Creator & Symbol 2.0/A Single & Complete Program
 3. Done/2004-07 01  Creator 0.4 (Data 1.0)/Incorporate.txt
 3. Done/2004-07 02     Initiate Creator 0.4 & Graphics 0.4/Incorporate.txt
@@ -296,31 +291,22 @@ Other/3. Done/2006-06 00     Hole, 1 month, very limited, 15h/Incorporate.txt
 Other/3. Done/2006-07 00     Hole, 3 months, almost nothing/Incorporate.txt
 Other/3. Done/2006-08 00     Adapt Controls 0.9 (playing around)/empty.txt
 Other/3. Done/2007 - 2007 Creator 2.0
-Other/3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Plan.doc
-Other/3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Summary.doc
-Other/3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Plan.doc
-Other/3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Summary.doc
-Other/3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Plan.doc
-Other/3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Summary.doc
-Other/3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
-Other/3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
-Other/3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
-Other/3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
+Other/3. Done/2007-02 02  Creator 2.0
+Other/3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal
+Other/3. Done/2007-05 01     Creator 2.0, View & Edit Data
+Other/3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )
+Other/3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )
 Other/3. Done/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc
-Other/3. Done/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Plan.doc
-Other/3. Done/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Summary.doc
+Other/3. Done/2007-07 00     Creator 2.0, Disk Based A
 Other/3. Done/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc
-Other/3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
-Other/3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
-Other/3. Done/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Plan.doc
-Other/3. Done/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Summary.doc
-Other/3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
-Other/3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
-Other/3. Done/2008 - 2009 Repair Older Material/2008-12 01     Repair Creator 2.0 Programs/2008-12 01  Repair Creator 2.0 Programs, Proj Smry.doc
+Other/3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )
+Other/3. Done/2007-08 02     Creator 2.0, Methods
+Other/3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )
+Other/3. Done/2008 - 2009 Repair Older Material/2008-12 01     Repair Creator 2.0 Programs
 Other/3. Done/2008 - 2009 Repair Older Material/2008-12 03     Repair Creator 0.9 First Programs
-Other/3. Done/2008 - 2009 Repair Older Material/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects/Repair Creator 0.9 Split Up Into Sub-Projects.doc
+Other/3. Done/2008 - 2009 Repair Older Material/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects
 Other/3. Done/2008 - 2009 Repair Older Material/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
-Other/3. Done/2008-12 01     Repair Creator 2.0 Programs/2008-12 01  Repair Creator 2.0 Programs, Proj Smry.doc
+Other/3. Done/2008-12 01     Repair Creator 2.0 Programs
 Other/3. Done/2008-12 03     Repair Creator 0.9 First Programs
 Other/3. Done/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects
 Other/3. Done/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
@@ -641,24 +627,23 @@ Other/2. Future/Postponed/2015-03 Synthesizer
 
 1. Current/Music Thumper
 2. Future/Postponed/Music Thumper
-3. Done/XXXX-XX-XX XX/2006-10 00  Finney & Music Thumper/2006-10 00  Finney & Music Thumper.doc
-3. Done/XXXX-XX-XX XX/2006-10 01     Music Thumper 2/Music Thumper 2 Documentation, Plan.doc
-3. Done/XXXX-XX-XX XX/2006-10 02     Finney, Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
-3. Done/XXXX-XX-XX XX/2007-01 01     Update Working Methods/Update Working Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
-3. Done/XXXX-XX-XX XX/2007-01 02     Music Thumper, Test Settings More Specific A/Music Thumper, Test Settings More Specific A, Reach Goal & Complete Funct, Projects Summary.doc
+3. Done/XXXX-XX-XX XX/2006-10 00  Finney & Music Thumper
+3. Done/XXXX-XX-XX XX/2006-10 01     Music Thumper 2
+3. Done/XXXX-XX-XX XX/2006-10 02     Finney, Get Overview of Personal Finances
+3. Done/XXXX-XX-XX XX/2007-01 02     Music Thumper, Test Settings More Specific A
 Other/2. Future/Postponed/Music Thumper
 Other/3. Done/2006 - 2008 Finney & Music Thumper
-Other/3. Done/2006-10 00  Finney & Music Thumper/2006-10 00  Finney & Music Thumper.doc
-Other/3. Done/2006-10 02     Finney, Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
+Other/3. Done/2006-10 00  Finney & Music Thumper
+Other/3. Done/2006-10 02     Finney, Get Overview of Personal Finances
 3. Done/2005-06 00  Music Thumper 1/empty.txt
 Other/3. Done/2005-06 00  Music Thumper 1/empty.txt
-3. Done/2006-10 00  Finney & Music Thumper/2006-10 00  Finney & Music Thumper.doc
-3. Done/2006-10 02     Finney, Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
-3. Done/2008-10-13 00/1. Finney/Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
-3. Done/2008-10-13 00/3. Music Thumper/Test Settings More Specific/Phase A; Reach Goal & Complete Functionality/Music Thumper, Test Settings More Specific, Phase A, Projects Summary.doc
-3. Done/3. Music Thumper/Test Settings More Specific/Phase A; Reach Goal & Complete Functionality/Music Thumper, Test Settings More Specific, Phase A, Projects Summary.doc
-2. Future/Postponed Indefinitely/Finney/Next Projects, Round Up & Make Commercially Exploitable/Finney, Next Projects, Round Up & Make Comm. Exploitable, Projects Summary.doc
-Other/2. Future/Postponed Indefinitely/Finney/Next Projects, Round Up & Make Commercially Exploitable/Finney, Next Projects, Round Up & Make Comm. Exploitable, Projects Summary.doc
+3. Done/2006-10 00  Finney & Music Thumper
+3. Done/2006-10 02     Finney, Get Overview of Personal Finances
+3. Done/2008-10-13 00/1. Finney/Get Overview of Personal Finances
+3. Done/2008-10-13 00/3. Music Thumper
+3. Done/3. Music Thumper
+2. Future/Postponed Indefinitely/Finney
+Other/2. Future/Postponed Indefinitely/Finney
 
 
 # Applications & Media
@@ -669,6 +654,7 @@ Other/2. Future/Postponed Indefinitely/Finney/Next Projects, Round Up & Make Com
 # Update Working Methods
 # -----
 
+3. Done/XXXX-XX-XX XX/2007-01 01     Update Working Methods
 1. Current/4.0.00.    Update Working Methods
 1. Current/4.0.01.       Update Templates 2010-04
 2. Future/Interesting Now/4.0.00.    Update Working Methods
@@ -676,87 +662,86 @@ Other/2. Future/Postponed Indefinitely/Finney/Next Projects, Round Up & Make Com
 2. Future/Interesting Now/Software System/4. Update Working Methods
 2. Future/Postponed/Update Working Methods
 2. Future/1. Interesting Now/4.0.00.    Update Working Methods/Project Description Elsewhere
-2. Future/Interesting Now/2.2.14.       Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/14. Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.14. Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
-3. Done/2007-01 01     Update Working Methods/Update Working Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+2. Future/Interesting Now/2.2.14.       Update Administration & Working Methods
+2. Future/Interesting Now/Software System/2. Repair Older Material/14. Update Administration & Working Methods
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.14. Update Administration & Working Methods
+3. Done/2007-01 01     Update Working Methods
 3. Done/2009-01 00     Update Basic Working Methods
 3. Done/XXXX-XX-XX XX/2009-01 00     Update Basic Working Methods
-Other/2. Future/Interesting Now/5. Repair Older Material/14. Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/14. Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
+Other/2. Future/Interesting Now/5. Repair Older Material/14. Update Administration & Working Methods
 Other/2. Future/Postponed/5. Repair Older Material/14. Update Administration & Working Methods
 Other/2. Future/Postponed/Update Working Methods
-Other/3. Done/2007-01 01     Update Working Methods/Update Working Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+Other/3. Done/2007-01 01     Update Working Methods
 Other/3. Done/2008 - 2009 Repair Older Material/2009-01 00     Update Basic Working Methods
 Other/3. Done/2009-01 00     Update Basic Working Methods
 Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 00     Update Basic Working Methods
-3. Done/2008-10-13 00/2. Update Methods/Better ( 2007-01-04 - 2007-01-18 )/Update Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
-3. Done/2. Update Methods/Better ( 2007-01-04 - 2007-01-18 )/Update Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+3. Done/2008-10-13 00/2. Update Methods
+3. Done/2. Update Methods
 
 
 # Repair Programs
 # -----
 
-2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs/Repair QB71 Programs.doc
-2. Future/1. Interesting Now/2.2.06.       Repair VB3 Programs/Repair VB3 Programs.doc
-2. Future/1. Interesting Now/2.2.07.       Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
-2. Future/1. Interesting Now/2.2.09.       Repair Other Programs/Repair Other Programs.doc
-2. Future/1. Interesting Now/2.2.10.       Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-2. Future/1. Interesting Now/2.2.11.       Define More Projects/Repair Older Material, Define More Projects.doc
-2. Future/1. Interesting Now/2.2.12.       Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-2. Future/1. Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
-2. Future/1. Interesting Now/2.2.14.       Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
-2. Future/Interesting Now/2.2.05.       Repair QB71 Programs/Repair QB71 Programs.doc
-2. Future/Interesting Now/2.2.06.       Repair VB3 Programs/Repair VB3 Programs.doc
-2. Future/Interesting Now/2.2.07.       Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
-2. Future/Interesting Now/2.2.09.       Repair Other Programs/Repair Other Programs.doc
-2. Future/Interesting Now/2.2.10.       Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-2. Future/Interesting Now/2.2.11.       Define More Projects/Repair Older Material, Define More Projects.doc
-2. Future/Interesting Now/2.2.12.       Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-2. Future/Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/05. Repair QB71 Programs/Repair QB71 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/06. Repair VB3 Programs/Repair VB3 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/09. Repair Other Programs/Repair Other Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/11. Define More Projects/Repair Older Material, Define More Projects.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.05. Repair QB71 Programs/Repair QB71 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.06. Repair VB3 Programs/Repair VB3 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.09. Repair Other Programs/Repair Other Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.11. Define More Projects/Repair Older Material, Define More Projects.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/05. Repair QB71 Programs/Repair QB71 Programs.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/06. Repair VB3 Programs/Repair VB3 Programs.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/08. Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/09. Repair Other Programs/Repair Other Programs.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/11. Define More Projects/Repair Older Material, Define More Projects.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-Other/2. Future/Interesting Now/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/05. Repair QB71 Programs/Repair QB71 Programs.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/06. Repair VB3 Programs/Repair VB3 Programs.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
+2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs
+2. Future/1. Interesting Now/2.2.06.       Repair VB3 Programs
+2. Future/1. Interesting Now/2.2.07.       Repair Easy VB6 Programs
+2. Future/1. Interesting Now/2.2.09.       Repair Other Programs
+2. Future/1. Interesting Now/2.2.10.       Repair Hard VB6 Programs
+2. Future/1. Interesting Now/2.2.11.       Define More Projects
+2. Future/1. Interesting Now/2.2.12.       Create Small Program Documentation
+2. Future/1. Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form
+2. Future/1. Interesting Now/2.2.14.       Update Administration & Working Methods
+2. Future/Interesting Now/2.2.05.       Repair QB71 Programs
+2. Future/Interesting Now/2.2.06.       Repair VB3 Programs
+2. Future/Interesting Now/2.2.07.       Repair Easy VB6 Programs
+2. Future/Interesting Now/2.2.09.       Repair Other Programs
+2. Future/Interesting Now/2.2.10.       Repair Hard VB6 Programs
+2. Future/Interesting Now/2.2.11.       Define More Projects
+2. Future/Interesting Now/2.2.12.       Create Small Program Documentation
+2. Future/Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form
+2. Future/Interesting Now/Software System/2. Repair Older Material/05. Repair QB71 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/06. Repair VB3 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/07. Repair Easy VB6 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/09. Repair Other Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/10. Repair Hard VB6 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/11. Define More Projects
+2. Future/Interesting Now/Software System/2. Repair Older Material/12. Create Small Program Documentation
+2. Future/Interesting Now/Software System/2. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.05. Repair QB71 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.06. Repair VB3 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.07. Repair Easy VB6 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.09. Repair Other Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.10. Repair Hard VB6 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.11. Define More Projects
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.12. Create Small Program Documentation
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.13. Fix Not To Crash & Extend Beyond Original Form
+Other/2. Future/Interesting Now/5. Repair Older Material/05. Repair QB71 Programs
+Other/2. Future/Interesting Now/5. Repair Older Material/06. Repair VB3 Programs
+Other/2. Future/Interesting Now/5. Repair Older Material/07. Repair Easy VB6 Programs
+Other/2. Future/Interesting Now/5. Repair Older Material/08. Repair Other Creator 2.0 Programs
+Other/2. Future/Interesting Now/5. Repair Older Material/09. Repair Other Programs
+Other/2. Future/Interesting Now/5. Repair Older Material/10. Repair Hard VB6 Programs
+Other/2. Future/Interesting Now/5. Repair Older Material/11. Define More Projects
+Other/2. Future/Interesting Now/5. Repair Older Material/12. Create Small Program Documentation
+Other/2. Future/Interesting Now/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form
+Other/2. Future/Interesting Now/6. Repair Older Material/05. Repair QB71 Programs
+Other/2. Future/Interesting Now/6. Repair Older Material/06. Repair VB3 Programs
+Other/2. Future/Interesting Now/6. Repair Older Material/07. Repair Easy VB6 Programs
 2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Quick Basic 7.1.pif
 2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk
-Other/2. Future/Interesting Now/6. Repair Older Material/09. Repair Other Programs/Repair Other Programs.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/11. Define More Projects/Repair Older Material, Define More Projects.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-Other/2. Future/Interesting Now/6. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
-Other/2. Future/Postponed/5. Repair Older Material/05. Repair QB71 Programs/Repair QB71 Programs.doc
-Other/2. Future/Postponed/5. Repair Older Material/06. Repair VB3 Programs/Repair VB3 Programs.doc
-Other/2. Future/Postponed/5. Repair Older Material/07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
-Other/2. Future/Postponed/5. Repair Older Material/09. Repair Other Programs/Repair Other Programs.doc
-Other/2. Future/Postponed/5. Repair Older Material/10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
-Other/2. Future/Postponed/5. Repair Older Material/11. Define More Projects/Repair Older Material, Define More Projects.doc
-Other/2. Future/Postponed/5. Repair Older Material/12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
-Other/2. Future/Postponed/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
+Other/2. Future/Interesting Now/6. Repair Older Material/09. Repair Other Programs
+Other/2. Future/Interesting Now/6. Repair Older Material/10. Repair Hard VB6 Programs
+Other/2. Future/Interesting Now/6. Repair Older Material/11. Define More Projects
+Other/2. Future/Interesting Now/6. Repair Older Material/12. Create Small Program Documentation
+Other/2. Future/Interesting Now/6. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form
+Other/2. Future/Postponed/5. Repair Older Material/05. Repair QB71 Programs
+Other/2. Future/Postponed/5. Repair Older Material/06. Repair VB3 Programs
+Other/2. Future/Postponed/5. Repair Older Material/07. Repair Easy VB6 Programs
+Other/2. Future/Postponed/5. Repair Older Material/09. Repair Other Programs
+Other/2. Future/Postponed/5. Repair Older Material/10. Repair Hard VB6 Programs
+Other/2. Future/Postponed/5. Repair Older Material/11. Define More Projects
+Other/2. Future/Postponed/5. Repair Older Material/12. Create Small Program Documentation
+Other/2. Future/Postponed/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form
 Other/2. Future/Postponed/5. Repair Older Material/Quick Basic 7.1.pif
 Other/2. Future/Postponed/5. Repair Older Material/Visual Basic 3.0.lnk
 2. Future/Interesting Now/2.0.00.    Repair Older Material/Quick Basic 7.1.pif
