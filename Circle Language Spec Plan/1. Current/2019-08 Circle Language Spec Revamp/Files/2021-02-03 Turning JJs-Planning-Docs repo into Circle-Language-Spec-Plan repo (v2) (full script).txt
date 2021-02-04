@@ -42,6 +42,177 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # Removing:
 
+
+
+# Applications & Media
+# -----
+
+rm -rf "2. Future/2. Postponed/4. Applications & Media"
+
+
+# Synthesizer
+# -----
+
+rm -rf "1. Current/2015-03 Synthesizer"
+rm -rf "2. Future/Postponed/2015-03 Synthesizer"
+rm -rf "Other/2. Future/Postponed/2015-03 Synthesizer"
+
+
+# PC
+# -----
+
+rm -rf "Other/1. Current/2020-11 Major PC Upgrade"
+rm -rf "3. Done/2012-07 New Computer"
+rm -rf "3. Done/XXXX-XX-XX XX/2012-07 New Computer"
+rm -rf "Other/3. Done/2012 - 2016 Other/2012-07 New Computer"
+rm -rf "Other/3. Done/2012-07 New Computer"
+
+# Architecture
+# -----
+
+rm -rf "1. Current/2013-09 Multi-Platform Architecture and Q&A App"
+rm -rf "2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App"
+rm -rf "Other/2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App"
+rm -rf "1. Current/2016-08 Software Architecture"
+rm -rf "2. Future/Postponed/2016-08 Software Architecture"
+rm -rf "Other/1. Current/2016-08 Software Architecture, Framework & Research"
+rm -rf "Other/1. Current/2016-08 Software Architecture"
+rm -rf "Other/2. Future/Postponed/2016-08 Software Architecture"
+rm -rf "1. Current/2018-03 Source Control Restructuring"
+rm -rf "2. Future/Postponed/2018-03 Source Control Restructuring"
+rm -rf "Other/1. Current/2018-03 Source Control Restructuring"
+rm -rf "Other/2. Future/Postponed/2018-03 Source Control Restructuring"
+rm -rf "Other/3. Done/2016-11 Open Source"
+rm -rf "3. Done/2016-11 Open Source"
+rm -rf "3. Done/XXXX-XX-XX XX/2016-11 Open Source"
+rm -rf "Other/3. Done/2012 - 2016 Other/2016-11 Open Source"
+
+
+# Music Thumper / Finney
+# -----
+
+rm -rf "1. Current/Music Thumper"
+rm -rf "2. Future/Postponed/Music Thumper"
+rm -rf "3. Done/XXXX-XX-XX XX/2006-10 00  Finney & Music Thumper"
+rm -rf "3. Done/XXXX-XX-XX XX/2006-10 01     Music Thumper 2"
+rm -rf "3. Done/XXXX-XX-XX XX/2006-10 02     Finney, Get Overview of Personal Finances"
+rm -rf "3. Done/XXXX-XX-XX XX/2007-01 02     Music Thumper, Test Settings More Specific A"
+rm -rf "Other/2. Future/Postponed/Music Thumper"
+rm -rf "Other/3. Done/2006 - 2008 Finney & Music Thumper"
+rm -rf "Other/3. Done/2006-10 00  Finney & Music Thumper"
+rm -rf "Other/3. Done/2006-10 02     Finney, Get Overview of Personal Finances"
+rm -rf "3. Done/2005-06 00  Music Thumper 1/empty.txt"
+rm -rf "Other/3. Done/2005-06 00  Music Thumper 1/empty.txt"
+rm -rf "3. Done/2006-10 00  Finney & Music Thumper"
+rm -rf "3. Done/2006-10 02     Finney, Get Overview of Personal Finances"
+rm -rf "3. Done/2008-10-13 00/1. Finney/Get Overview of Personal Finances"
+rm -rf "3. Done/2008-10-13 00/3. Music Thumper"
+rm -rf "3. Done/3. Music Thumper"
+rm -rf "2. Future/Postponed Indefinitely/Finney"
+rm -rf "Other/2. Future/Postponed Indefinitely/Finney"
+
+
+# Update Working Methods
+# -----
+
+rm -rf "3. Done/XXXX-XX-XX XX/2007-01 01     Update Working Methods"
+rm -rf "1. Current/4.0.00.    Update Working Methods"
+rm -rf "1. Current/4.0.01.       Update Templates 2010-04"
+rm -rf "2. Future/Interesting Now/4.0.00.    Update Working Methods"
+rm -rf "2. Future/Interesting Now/4.0.01.       Update Templates 2010-04"
+rm -rf "2. Future/Interesting Now/Software System/4. Update Working Methods"
+rm -rf "2. Future/Postponed/Update Working Methods"
+rm -rf "2. Future/1. Interesting Now/4.0.00.    Update Working Methods/Project Description Elsewhere"
+rm -rf "2. Future/Interesting Now/2.2.14.       Update Administration & Working Methods"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/14. Update Administration & Working Methods"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.14. Update Administration & Working Methods"
+rm -rf "3. Done/2007-01 01     Update Working Methods"
+rm -rf "3. Done/2009-01 00     Update Basic Working Methods"
+rm -rf "3. Done/XXXX-XX-XX XX/2009-01 00     Update Basic Working Methods"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/14. Update Administration & Working Methods"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/14. Update Administration & Working Methods"
+rm -rf "Other/2. Future/Postponed/Update Working Methods"
+rm -rf "Other/3. Done/2007-01 01     Update Working Methods"
+rm -rf "Other/3. Done/2008 - 2009 Repair Older Material/2009-01 00     Update Basic Working Methods"
+rm -rf "Other/3. Done/2009-01 00     Update Basic Working Methods"
+rm -rf "Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 00     Update Basic Working Methods"
+rm -rf "3. Done/2008-10-13 00/2. Update Methods"
+rm -rf "3. Done/2. Update Methods"
+
+
+# Repair Programs
+# -----
+
+rm -rf "2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs"
+rm -rf "2. Future/1. Interesting Now/2.2.06.       Repair VB3 Programs"
+rm -rf "2. Future/1. Interesting Now/2.2.07.       Repair Easy VB6 Programs"
+rm -rf "2. Future/1. Interesting Now/2.2.09.       Repair Other Programs"
+rm -rf "2. Future/1. Interesting Now/2.2.10.       Repair Hard VB6 Programs"
+rm -rf "2. Future/1. Interesting Now/2.2.11.       Define More Projects"
+rm -rf "2. Future/1. Interesting Now/2.2.12.       Create Small Program Documentation"
+rm -rf "2. Future/1. Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "2. Future/1. Interesting Now/2.2.14.       Update Administration & Working Methods"
+rm -rf "2. Future/Interesting Now/2.2.05.       Repair QB71 Programs"
+rm -rf "2. Future/Interesting Now/2.2.06.       Repair VB3 Programs"
+rm -rf "2. Future/Interesting Now/2.2.07.       Repair Easy VB6 Programs"
+rm -rf "2. Future/Interesting Now/2.2.09.       Repair Other Programs"
+rm -rf "2. Future/Interesting Now/2.2.10.       Repair Hard VB6 Programs"
+rm -rf "2. Future/Interesting Now/2.2.11.       Define More Projects"
+rm -rf "2. Future/Interesting Now/2.2.12.       Create Small Program Documentation"
+rm -rf "2. Future/Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/05. Repair QB71 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/06. Repair VB3 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/07. Repair Easy VB6 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/09. Repair Other Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/10. Repair Hard VB6 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/11. Define More Projects"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/12. Create Small Program Documentation"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.05. Repair QB71 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.06. Repair VB3 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.07. Repair Easy VB6 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.09. Repair Other Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.10. Repair Hard VB6 Programs"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.11. Define More Projects"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.12. Create Small Program Documentation"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.13. Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/05. Repair QB71 Programs"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/06. Repair VB3 Programs"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/07. Repair Easy VB6 Programs"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/08. Repair Other Creator 2.0 Programs"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/09. Repair Other Programs"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/10. Repair Hard VB6 Programs"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/11. Define More Projects"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/12. Create Small Program Documentation"
+rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/05. Repair QB71 Programs"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/06. Repair VB3 Programs"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/07. Repair Easy VB6 Programs"
+rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Quick Basic 7.1.pif"
+rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/09. Repair Other Programs"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/10. Repair Hard VB6 Programs"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/11. Define More Projects"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/12. Create Small Program Documentation"
+rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/05. Repair QB71 Programs"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/06. Repair VB3 Programs"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/07. Repair Easy VB6 Programs"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/09. Repair Other Programs"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/10. Repair Hard VB6 Programs"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/11. Define More Projects"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/12. Create Small Program Documentation"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/Quick Basic 7.1.pif"
+rm -rf "Other/2. Future/Postponed/5. Repair Older Material/Visual Basic 3.0.lnk"
+rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/Quick Basic 7.1.pif"
+rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/Visual Basic 3.0.lnk"
+rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Quick Basic 7.1.pif"
+rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/Quick Basic 7.1.pif"
+rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/Visual Basic 3.0.lnk"
+
+
 # Creator
 # -----
 
@@ -588,173 +759,3 @@ rm -rf "Other/3. Done/2004-06 02     Graphics 0.3 '\('2'\)'/Incorporate.txt"
 rm -rf "Other/3. Done/2005-07 08     Bank Account Analysis 0.1/empty.txt"
 rm -rf "Other/3. Done/2005-08 00     Volume Maximizer '\('for Music CD'\)'/empty.txt"
 rm -rf "Other/3. Done/2010-10 00 PictureViewer2/PictureViewer2.txt"
-
-
-# Architecture
-# -----
-
-rm -rf "1. Current/2013-09 Multi-Platform Architecture and Q&A App"
-rm -rf "2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App"
-rm -rf "Other/2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App"
-rm -rf "1. Current/2016-08 Software Architecture"
-rm -rf "2. Future/Postponed/2016-08 Software Architecture"
-rm -rf "Other/1. Current/2016-08 Software Architecture, Framework & Research"
-rm -rf "Other/1. Current/2016-08 Software Architecture"
-rm -rf "Other/2. Future/Postponed/2016-08 Software Architecture"
-rm -rf "1. Current/2018-03 Source Control Restructuring"
-rm -rf "2. Future/Postponed/2018-03 Source Control Restructuring"
-rm -rf "Other/1. Current/2018-03 Source Control Restructuring"
-rm -rf "Other/2. Future/Postponed/2018-03 Source Control Restructuring"
-rm -rf "Other/3. Done/2016-11 Open Source"
-rm -rf "3. Done/2016-11 Open Source"
-rm -rf "3. Done/XXXX-XX-XX XX/2016-11 Open Source"
-rm -rf "Other/3. Done/2012 - 2016 Other/2016-11 Open Source"
-
-
-# Synthesizer
-# -----
-
-rm -rf "1. Current/2015-03 Synthesizer"
-rm -rf "2. Future/Postponed/2015-03 Synthesizer"
-rm -rf "Other/2. Future/Postponed/2015-03 Synthesizer"
-
-
-# Music Thumper / Finney
-# -----
-
-rm -rf "1. Current/Music Thumper"
-rm -rf "2. Future/Postponed/Music Thumper"
-rm -rf "3. Done/XXXX-XX-XX XX/2006-10 00  Finney & Music Thumper"
-rm -rf "3. Done/XXXX-XX-XX XX/2006-10 01     Music Thumper 2"
-rm -rf "3. Done/XXXX-XX-XX XX/2006-10 02     Finney, Get Overview of Personal Finances"
-rm -rf "3. Done/XXXX-XX-XX XX/2007-01 02     Music Thumper, Test Settings More Specific A"
-rm -rf "Other/2. Future/Postponed/Music Thumper"
-rm -rf "Other/3. Done/2006 - 2008 Finney & Music Thumper"
-rm -rf "Other/3. Done/2006-10 00  Finney & Music Thumper"
-rm -rf "Other/3. Done/2006-10 02     Finney, Get Overview of Personal Finances"
-rm -rf "3. Done/2005-06 00  Music Thumper 1/empty.txt"
-rm -rf "Other/3. Done/2005-06 00  Music Thumper 1/empty.txt"
-rm -rf "3. Done/2006-10 00  Finney & Music Thumper"
-rm -rf "3. Done/2006-10 02     Finney, Get Overview of Personal Finances"
-rm -rf "3. Done/2008-10-13 00/1. Finney/Get Overview of Personal Finances"
-rm -rf "3. Done/2008-10-13 00/3. Music Thumper"
-rm -rf "3. Done/3. Music Thumper"
-rm -rf "2. Future/Postponed Indefinitely/Finney"
-rm -rf "Other/2. Future/Postponed Indefinitely/Finney"
-
-
-# Applications & Media
-# -----
-
-rm -rf "2. Future/2. Postponed/4. Applications & Media"
-
-
-# Update Working Methods
-# -----
-
-rm -rf "3. Done/XXXX-XX-XX XX/2007-01 01     Update Working Methods"
-rm -rf "1. Current/4.0.00.    Update Working Methods"
-rm -rf "1. Current/4.0.01.       Update Templates 2010-04"
-rm -rf "2. Future/Interesting Now/4.0.00.    Update Working Methods"
-rm -rf "2. Future/Interesting Now/4.0.01.       Update Templates 2010-04"
-rm -rf "2. Future/Interesting Now/Software System/4. Update Working Methods"
-rm -rf "2. Future/Postponed/Update Working Methods"
-rm -rf "2. Future/1. Interesting Now/4.0.00.    Update Working Methods/Project Description Elsewhere"
-rm -rf "2. Future/Interesting Now/2.2.14.       Update Administration & Working Methods"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/14. Update Administration & Working Methods"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.14. Update Administration & Working Methods"
-rm -rf "3. Done/2007-01 01     Update Working Methods"
-rm -rf "3. Done/2009-01 00     Update Basic Working Methods"
-rm -rf "3. Done/XXXX-XX-XX XX/2009-01 00     Update Basic Working Methods"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/14. Update Administration & Working Methods"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/14. Update Administration & Working Methods"
-rm -rf "Other/2. Future/Postponed/Update Working Methods"
-rm -rf "Other/3. Done/2007-01 01     Update Working Methods"
-rm -rf "Other/3. Done/2008 - 2009 Repair Older Material/2009-01 00     Update Basic Working Methods"
-rm -rf "Other/3. Done/2009-01 00     Update Basic Working Methods"
-rm -rf "Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 00     Update Basic Working Methods"
-rm -rf "3. Done/2008-10-13 00/2. Update Methods"
-rm -rf "3. Done/2. Update Methods"
-
-
-# Repair Programs
-# -----
-
-rm -rf "2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs"
-rm -rf "2. Future/1. Interesting Now/2.2.06.       Repair VB3 Programs"
-rm -rf "2. Future/1. Interesting Now/2.2.07.       Repair Easy VB6 Programs"
-rm -rf "2. Future/1. Interesting Now/2.2.09.       Repair Other Programs"
-rm -rf "2. Future/1. Interesting Now/2.2.10.       Repair Hard VB6 Programs"
-rm -rf "2. Future/1. Interesting Now/2.2.11.       Define More Projects"
-rm -rf "2. Future/1. Interesting Now/2.2.12.       Create Small Program Documentation"
-rm -rf "2. Future/1. Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "2. Future/1. Interesting Now/2.2.14.       Update Administration & Working Methods"
-rm -rf "2. Future/Interesting Now/2.2.05.       Repair QB71 Programs"
-rm -rf "2. Future/Interesting Now/2.2.06.       Repair VB3 Programs"
-rm -rf "2. Future/Interesting Now/2.2.07.       Repair Easy VB6 Programs"
-rm -rf "2. Future/Interesting Now/2.2.09.       Repair Other Programs"
-rm -rf "2. Future/Interesting Now/2.2.10.       Repair Hard VB6 Programs"
-rm -rf "2. Future/Interesting Now/2.2.11.       Define More Projects"
-rm -rf "2. Future/Interesting Now/2.2.12.       Create Small Program Documentation"
-rm -rf "2. Future/Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/05. Repair QB71 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/06. Repair VB3 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/07. Repair Easy VB6 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/09. Repair Other Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/10. Repair Hard VB6 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/11. Define More Projects"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/12. Create Small Program Documentation"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.05. Repair QB71 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.06. Repair VB3 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.07. Repair Easy VB6 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.09. Repair Other Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.10. Repair Hard VB6 Programs"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.11. Define More Projects"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.12. Create Small Program Documentation"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.13. Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/05. Repair QB71 Programs"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/06. Repair VB3 Programs"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/07. Repair Easy VB6 Programs"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/08. Repair Other Creator 2.0 Programs"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/09. Repair Other Programs"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/10. Repair Hard VB6 Programs"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/11. Define More Projects"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/12. Create Small Program Documentation"
-rm -rf "Other/2. Future/Interesting Now/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/05. Repair QB71 Programs"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/06. Repair VB3 Programs"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/07. Repair Easy VB6 Programs"
-rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Quick Basic 7.1.pif"
-rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/09. Repair Other Programs"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/10. Repair Hard VB6 Programs"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/11. Define More Projects"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/12. Create Small Program Documentation"
-rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/05. Repair QB71 Programs"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/06. Repair VB3 Programs"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/07. Repair Easy VB6 Programs"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/09. Repair Other Programs"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/10. Repair Hard VB6 Programs"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/11. Define More Projects"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/12. Create Small Program Documentation"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/Quick Basic 7.1.pif"
-rm -rf "Other/2. Future/Postponed/5. Repair Older Material/Visual Basic 3.0.lnk"
-rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/Quick Basic 7.1.pif"
-rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/Visual Basic 3.0.lnk"
-rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Quick Basic 7.1.pif"
-rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/Quick Basic 7.1.pif"
-rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/Visual Basic 3.0.lnk"
-
-
-# PC
-# -----
-
-rm -rf "Other/1. Current/2020-11 Major PC Upgrade"
-rm -rf "3. Done/2012-07 New Computer"
-rm -rf "3. Done/XXXX-XX-XX XX/2012-07 New Computer"
-rm -rf "Other/3. Done/2012 - 2016 Other/2012-07 New Computer"
-rm -rf "Other/3. Done/2012-07 New Computer"
