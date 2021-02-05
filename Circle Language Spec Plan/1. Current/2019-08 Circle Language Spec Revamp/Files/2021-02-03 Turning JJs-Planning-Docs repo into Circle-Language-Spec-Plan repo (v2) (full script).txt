@@ -136,7 +136,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Removing "Repair Programs"
+# Removing "Repair Programs" Projects
 
 git filter-branch --tree-filter '
 rm -rf "2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs"
