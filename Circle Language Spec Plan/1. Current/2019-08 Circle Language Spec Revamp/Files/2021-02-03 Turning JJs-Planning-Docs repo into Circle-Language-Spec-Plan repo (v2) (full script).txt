@@ -38,38 +38,29 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 # Strategy:
 
 # - Some topics seem to have exceptional cases in it, slightly complicating things.
-# - Removing obviously out of scope things, by scrolling roughly through it.
+# - Searching for  obviously out of scope things, by scrolling roughly through it.
+
+# --------------------
 
 # Removing:
+#
+# - "Applications & Media"
+# - "Synthesizer"
+# - "PC"
+# - "Software Architecture"
+# - "Music Thumper" / "Finney"
+# - "Update Working Methods"
 
-
-
-# Applications & Media
-# -----
-
+git filter-branch --tree-filter '
 rm -rf "2. Future/2. Postponed/4. Applications & Media"
-
-
-# Synthesizer
-# -----
-
 rm -rf "1. Current/2015-03 Synthesizer"
 rm -rf "2. Future/Postponed/2015-03 Synthesizer"
 rm -rf "Other/2. Future/Postponed/2015-03 Synthesizer"
-
-
-# PC
-# -----
-
 rm -rf "Other/1. Current/2020-11 Major PC Upgrade"
 rm -rf "3. Done/2012-07 New Computer"
 rm -rf "3. Done/XXXX-XX-XX XX/2012-07 New Computer"
 rm -rf "Other/3. Done/2012 - 2016 Other/2012-07 New Computer"
 rm -rf "Other/3. Done/2012-07 New Computer"
-
-# Architecture
-# -----
-
 rm -rf "1. Current/2013-09 Multi-Platform Architecture and Q&A App"
 rm -rf "2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App"
 rm -rf "Other/2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App"
@@ -86,11 +77,6 @@ rm -rf "Other/3. Done/2016-11 Open Source"
 rm -rf "3. Done/2016-11 Open Source"
 rm -rf "3. Done/XXXX-XX-XX XX/2016-11 Open Source"
 rm -rf "Other/3. Done/2012 - 2016 Other/2016-11 Open Source"
-
-
-# Music Thumper / Finney
-# -----
-
 rm -rf "1. Current/Music Thumper"
 rm -rf "2. Future/Postponed/Music Thumper"
 rm -rf "3. Done/XXXX-XX-XX XX/2006-10 00  Finney & Music Thumper"
@@ -110,11 +96,6 @@ rm -rf "3. Done/2008-10-13 00/3. Music Thumper"
 rm -rf "3. Done/3. Music Thumper"
 rm -rf "2. Future/Postponed Indefinitely/Finney"
 rm -rf "Other/2. Future/Postponed Indefinitely/Finney"
-
-
-# Update Working Methods
-# -----
-
 rm -rf "3. Done/XXXX-XX-XX XX/2007-01 01     Update Working Methods"
 rm -rf "1. Current/4.0.00.    Update Working Methods"
 rm -rf "1. Current/4.0.01.       Update Templates 2010-04"
@@ -138,11 +119,26 @@ rm -rf "Other/3. Done/2009-01 00     Update Basic Working Methods"
 rm -rf "Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 00     Update Basic Working Methods"
 rm -rf "3. Done/2008-10-13 00/2. Update Methods"
 rm -rf "3. Done/2. Update Methods"
+' --prune-empty HEAD --all
 
+# Clean-Up Tasks
 
-# Repair Programs
-# -----
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
 
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing "Repair Programs"
+
+git filter-branch --tree-filter '
 rm -rf "2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs"
 rm -rf "2. Future/1. Interesting Now/2.2.06.       Repair VB3 Programs"
 rm -rf "2. Future/1. Interesting Now/2.2.07.       Repair Easy VB6 Programs"
@@ -211,11 +207,26 @@ rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX
 rm -rf "2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk"
 rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/Quick Basic 7.1.pif"
 rm -rf "2. Future/Interesting Now/Software System/2. Repair Older Material/Visual Basic 3.0.lnk"
+' --prune-empty HEAD --all
 
+# Clean-Up Tasks
 
-# Creator
-# -----
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
 
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing "Creator" Part 1
+
+git filter-branch --tree-filter '
 rm -rf "2. Future/1. Interesting Now/3.1.00.       Program Intermediate Creator Version"
 rm -rf "2. Future/Interesting Now/3.1.00.       Program Intermediate Creator Version"
 rm -rf "2. Future/1. Interesting Now/2.2.01.       Repair Creator 0.9 Programs"
@@ -303,6 +314,26 @@ rm -rf "3. Done/2006-08 00     Adapt Controls 0.9 '\('playing around'\)'/empty.t
 rm -rf "3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Plan.doc"
 rm -rf "3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Summary.doc"
 rm -rf "3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Plan.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing "Creator" Part 2
+
+git filter-branch --tree-filter '
 rm -rf "3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Summary.doc"
 rm -rf "3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Plan.doc"
 rm -rf "3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Summary.doc"
@@ -372,6 +403,26 @@ rm -rf "3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data '\(' Butt
 rm -rf "3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data '\(' Buttons In Tree Control '\)'/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc"
 rm -rf "3. Done/XXXX-XX-XX XX/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc"
 rm -rf "3. Done/XXXX-XX-XX XX/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Plan.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing "Creator" Part 3
+
+git filter-branch --tree-filter '
 rm -rf "3. Done/XXXX-XX-XX XX/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Summary.doc"
 rm -rf "3. Done/XXXX-XX-XX XX/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc"
 rm -rf "3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application '\(' Sound '\)'/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc"
@@ -450,6 +501,26 @@ rm -rf "Other/3. Done/2005-09 02     Version Control Creator 0.9 Applications/Ve
 rm -rf "Other/3. Done/2005-09 03     Develop Creator 0.9, Globality '\('unfinished'\)'/empty.txt"
 rm -rf "Other/3. Done/2005-09 04     Something with Graphics Objects '\('2'\)'/empty.txt"
 rm -rf "Other/3. Done/2005-09 05     Creator 0.9, Easier Custom Code/empty.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing "Creator" Part 4
+
+git filter-branch --tree-filter '
 rm -rf "Other/3. Done/2005-10 00     Creator 0.9, Several Concepts '\(' Mainly Filter Indexes '\)' & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt"
 rm -rf "Other/3. Done/2005-10 00     Hole, 1 month, nothing/Incorporate.txt"
 rm -rf "Other/3. Done/2005-11 00     Creator 0.9, Isolate Concepts in Modules '\('1'\)'/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc"
@@ -493,11 +564,26 @@ rm -rf "Other/4. Archive/Repair Creator 0.9 Programs Project Docs Version Histor
 rm -rf "Other/4. Archive/Repair Creator 0.9 Wrap Up First Programs Project Docs Version History.doc"
 rm -rf "Other/2. Future/Interesting Now/6. Repair Older Material/08. Repair Other Creator 2.0 Programs"
 rm -rf "Other/2. Future/Postponed/5. Repair Older Material/08. Repair Other Creator 2.0 Programs"
+' --prune-empty HEAD --all
 
+# Clean-Up Tasks
 
-# Older / Other
-# -----
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
 
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing Older / Other Part 1
+
+git filter-branch --tree-filter '
 rm -rf "3. Done/1995-00 00  DOS Menu/empty.txt"
 rm -rf "3. Done/1995-09 00  Jay Tracker/empty.txt"
 rm -rf "3. Done/1997-00 00  DIG III '\('Windows'\)'/empty.txt"
@@ -591,6 +677,26 @@ rm -rf "3. Done/2004-05 01     Generate IntelliTamper Dictionary 2/empty.txt"
 rm -rf "3. Done/2004-05 01     Graphics 0.1 '\(''\''Object Draw'\'''\)'/Incorporate.txt"
 rm -rf "3. Done/2004-05 02     Make Basic Data Structures Better/Incorporate.txt"
 rm -rf "3. Done/2004-05 02  Graphics 0.3/empty.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing Older / Other Part 2
+
+git filter-branch --tree-filter '
 rm -rf "3. Done/2004-05 03     Adapt Controls '\('1'\)'/Incorporate.txt"
 rm -rf "3. Done/2004-05 04     Graphics 0.3 '\('1'\)'/Incorporate.txt"
 rm -rf "3. Done/2004-06 01     Graphics 0.3, Get 3D Vibration/Incorporate.txt"
@@ -676,6 +782,26 @@ rm -rf "Other/3. Done/1999-04 00  Sample Modulator/empty.txt"
 rm -rf "Other/3. Done/1999-04 00  Shaper Attempt/empty.txt"
 rm -rf "Other/3. Done/1999-05 00  Resample/empty.txt"
 rm -rf "Other/3. Done/1999-06 00  High Equalizer C++ '\('without UI'\)'/empty.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing Older / Other Part 3
+
+git filter-branch --tree-filter '
 rm -rf "Other/3. Done/1999-08 00  MAKSMPA/empty.txt"
 rm -rf "Other/3. Done/1999-08 00  MAKSMPB/empty.txt"
 rm -rf "Other/3. Done/1999-08-18  Simulate, Acoustic/Incorporate.txt"
@@ -759,3 +885,17 @@ rm -rf "Other/3. Done/2004-06 02     Graphics 0.3 '\('2'\)'/Incorporate.txt"
 rm -rf "Other/3. Done/2005-07 08     Bank Account Analysis 0.1/empty.txt"
 rm -rf "Other/3. Done/2005-08 00     Volume Maximizer '\('for Music CD'\)'/empty.txt"
 rm -rf "Other/3. Done/2010-10 00 PictureViewer2/PictureViewer2.txt"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
