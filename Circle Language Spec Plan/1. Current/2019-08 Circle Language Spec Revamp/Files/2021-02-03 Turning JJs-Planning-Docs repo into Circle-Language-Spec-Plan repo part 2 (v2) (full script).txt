@@ -1,0 +1,365 @@
+# Turning JJs-Planning-Docs repo into Circle-Language-Spec-Plan repo part 1
+# =========================================================================
+
+git remote remove origin
+
+# Listing Files (Without Renames)
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# Listing Files (With Renames)
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory-withrenames.txt
+
+# Listing Files (Without History)
+git ls-tree -r master --name-only > allfiles-inlatest.txt
+
+# --------------------
+
+# Template Script
+
+git filter-branch --tree-filter '
+rm -rf "...."
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Strategy:
+
+# - Some topics seem to have exceptional cases in it, that might be weeded out.
+
+# - Circle 3 Programming:
+#     - Insecurity is due to some of the project being about language design.
+#     - Probably in practice there was not much language design.
+#     - That might make this parent-project fully out of scope.
+#     - But orientation and researching if this is true might be desired.
+#     - Reading planning docs for that.
+#     - The estimation is not much language design was done in Circle 3 Programming project.s
+#     - The plan would be to remove it form the Circle-Language-Spec-Plan repository.
+
+# --------------------
+
+# Removing:
+
+
+# Software System, Too General
+
+1. Current/0.0.00. Software System/2008-09-02 00/Software System, Project Plan.doc
+1. Current/0.0.00. Software System/Versions.doc
+1. Current/0.0.00. Software System/XXXX-XX-XX XX/Software System Goal Description.doc
+1. Current/1.1.07.          Split Software System Into 4/2010-01 Subdivide Software System into 4 phases.txt
+2. Future/1. Interesting Now/0.0.00. Software System/Project Description Elsewhere
+2. Future/1. Interesting Now/1.0.00.    Document Software System
+2. Future/1. Interesting Now/3.0.00.    Program Software System/Ideas.doc
+2. Future/2. Postponed/0. General/Ideas for Projects.doc
+2. Future/2016-11 Future Projects.txt
+2. Future/Interesting Now/0.0.00. Software System/2008-09-02 00/Software System, Project Plan.doc
+2. Future/Interesting Now/0.0.00. Software System/Project Description Elsewhere
+2. Future/Interesting Now/0.0.00. Software System/Software System Goal Description.doc
+2. Future/Interesting Now/0.0.00. Software System/Software System, Project Plan.doc
+2. Future/Interesting Now/0.0.00. Software System/Versions.doc
+2. Future/Interesting Now/0.0.00. Software System/XXXX-XX-XX XX/Software System Goal Description.doc
+2. Future/Interesting Now/1.0.00.    Document Software System
+2. Future/Interesting Now/1.1.07.             Split Software System Into 4
+2. Future/Interesting Now/3.0.00.    Program Software System/Ideas.doc
+2. Future/Interesting Now/Software System/1. Document Software System/1.07.       Split Software System Into 4/2010-01 Subdivide Software System into 4 phases.txt
+2. Future/Interesting Now/Software System/1. Document Software System/Document Software System, Goal Description.doc
+2. Future/Interesting Now/Software System/Software System Goal Description.doc
+2. Future/Interesting Now/Software System/Software System Goal.doc
+3. Done/0.1. Software System/5. Rethink 2007-10
+3. Done/0.1. Software System/6. Make Project Subdivision 2008-02
+3. Done/2003-06 00     Revise structure of software system/empty.txt
+3. Done/2003-09 02  Write About Data, Core & Code/Incorporate.txt
+3. Done/2005-01 01     Think About Main Module Subdivision (short but thorough)/empty.txt
+3. Done/2005-08 04     Software System, Some Thinking in Between/empty.txt
+3. Done/2007-10 02     Rethink Software System
+3. Done/2008-02 00     Make Project Subdivision
+3. Done/2008-03 01  Document Software System A/Project Description Elsewhere
+3. Done/2008-10-13 00/0.1. Software System/5. Rethink 2007-10
+3. Done/2008-10-13 00/0.1. Software System/6. Make Project Subdivision 2008-02
+3. Done/2009-04 00  Document Software System B/Project Description Elsewhere
+3. Done/2009-04 01     Full Revision of Documentation  2009-04 - 2009-06
+3. Done/XXXX-XX-XX XX/2003-09 02  Write About Data, Core & Code/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2007-10 02     Rethink Software System
+3. Done/XXXX-XX-XX XX/2008-02 00     Make Project Subdivision/
+3. Done/XXXX-XX-XX XX/2008-03 01  Document Software System A/Project Description Elsewhere
+3. Done/XXXX-XX-XX XX/2009-04 00  Document Software System B/Project Description Elsewhere
+3. Done/XXXX-XX-XX XX/2009-04 01     Full Revision of Documentation  2009-04 - 2009-06
+4. Archive/Document Software Project Docs System Version History.doc
+Other/2. Future/Interesting Now/4. Software System Programming/Ideas.doc
+Other/2. Future/Interesting Now/Software System Goal.doc
+Other/2. Future/Postponed/Software System Goal.doc
+Other/3. Done/2003 - 2003 Read MSDN & More/2003-06 00     Revise structure of software system/empty.txt
+Other/3. Done/2003 - 2009 Software System Documentation/2003-09 02  Write About Data, Core & Code/Incorporate.txt
+Other/3. Done/2003 - 2009 Software System Documentation/2007-10 00  Kept going, even though move/2007-10 00  Kept going, even though move.doc
+Other/3. Done/2003 - 2009 Software System Documentation/2007-10 02     Rethink Software System
+Other/3. Done/2003 - 2009 Software System Documentation/2008-03 01  Document Software System A/Project Description Elsewhere
+Other/3. Done/2003 - 2009 Software System Documentation/2009-04 00  Document Software System B/Project Description Elsewhere
+Other/3. Done/2003 - 2009 Software System Documentation/2009-04 01     Full Revision of Documentation  2009-04 - 2009-06
+Other/3. Done/2003 - 2009 Software System Documentation/2010-01 00    Split Software System Into 4
+Other/3. Done/2003 Read MSDN & More/2003-06 00     Revise structure of software system/empty.txt
+Other/3. Done/2003-06 00     Revise structure of software system/empty.txt
+Other/3. Done/2003-09 02  Write About Data, Core & Code/Incorporate.txt
+Other/3. Done/2005-01 01     Think About Main Module Subdivision (short but thorough)/empty.txt
+Other/3. Done/2005-08 04     Software System, Some Thinking in Between/empty.txt
+Other/3. Done/2007-10 00  Kept going, even though move
+Other/3. Done/2007-10 02     Rethink Software System
+Other/3. Done/2008-02 00     Make Project Subdivision
+Other/3. Done/2008-03 01  Document Software System A/Project Description Elsewhere
+Other/3. Done/2009-04 00  Document Software System B/Project Description Elsewhere
+Other/3. Done/2009-04 01     Full Revision of Documentation  2009-04 - 2009-06
+Other/4. Archive/Document Software Project Docs System Version History.doc
+Other/4. Archive/Software System Project Docs Version History.doc
+Other/Project Docs.doc
+Project Docs.doc
+Projects.doc
+
+
+# Circle 3 Programing
+
+1. Current/1.1.01.       Circle 3
+1. Current/1.1.02.          Circle 3 Basics
+1. Current/1.1.04.             Circle 3, Contents in Top-Level Object
+1. Current/1.1.05.          Circle 3, Shapes & Line Types
+1. Current/1.1.06.          Circle 3, Zooming Navigation
+1. Current/1.1.08.          Refactoring
+1. Current/1.1.09.          Lower Contents
+1. Current/1.1.10           Better .NET Reflection & Line Types
+1. Current/1.1.12.          Remaining Sound Features & Framework Issues
+1. Current/1.1.13.             Name Parameter Elimination
+2. Future/Interesting Now/1.1.01.          Circle 3
+2. Future/Interesting Now/1.1.02.             Circle 3 Basics
+2. Future/Interesting Now/1.1.04.                Circle 3, Contents in Top-Level Object
+2. Future/Interesting Now/1.1.05.             Circle 3, Shapes & Line Types
+2. Future/Interesting Now/1.1.06.             Circle 3, Zooming Navigation
+2. Future/Interesting Now/1.1.08.             Refactoring
+2. Future/Interesting Now/1.1.09.             Lower Contents
+2. Future/Interesting Now/1.1.10              Better .NET Reflection & Line Types
+2. Future/Interesting Now/1.1.12.             Remaining Sound Features & Framework Issues
+2. Future/Interesting Now/1.1.13.                Name Parameter Elimination
+2. Future/Interesting Now/Software System/1. Document Software System/1.01.    Circle 3
+2. Future/Interesting Now/Software System/1. Document Software System/1.02.       Circle 3 Basics
+2. Future/Interesting Now/Software System/1. Document Software System/1.04.          Circle 3, Contents in Top-Level Object
+2. Future/Interesting Now/Software System/1. Document Software System/1.05.       Circle 3, Shapes & Line Types
+2. Future/Interesting Now/Software System/1. Document Software System/1.06.       Circle 3, Zooming Navigation
+2. Future/Interesting Now/Software System/1. Document Software System/1.08.       Refactoring
+2. Future/Interesting Now/Software System/1. Document Software System/1.09.       Lower Contents
+2. Future/Interesting Now/Software System/1. Document Software System/1.10        Better .NET Reflection & Line Types
+2. Future/Interesting Now/Software System/1. Document Software System/1.12.       Remaining Sound Features & Framework Issues
+2. Future/Interesting Now/Software System/1. Document Software System/1.13.          Name Parameter Elimination
+2. Future/Postponed/Circle 3 Basic Data Structures
+2. Future/Postponed/Circle 3 Framework
+2. Future/Postponed/Circle 3 General
+2. Future/Postponed/Circle 3 Language
+2. Future/Postponed/Circle Basic Data Structures
+2. Future/Postponed/Circle Framework
+2. Future/Postponed/Circle General
+2. Future/Postponed/Circle General
+2. Future/Postponed/Circle Language
+3. Done/0.1. Software System/7. Doc/Doc Comp Lang & Co/Doc Comp Lang/Project Description Elsewhere
+3. Done/0.1. Software System/7. Doc/Doc Comp Lang & Co/Project Description Elsewhere
+3. Done/2010-07 00  Circle 3/Project Description Elsewhere
+3. Done/2010-07 01     Circle 3 Preparation
+3. Done/2010-08 00     Circle 3 Basics A
+3. Done/2011-02 00     Control Classes + Framework + Scope Creep
+3. Done/2011-02 01        Control Classes + Framework + Scope Creep Part A
+3. Done/2012-01 00        Wrap up Sound and ValidReference
+3. Done/2012-07 01        Sound Multiple Outlets
+3. Done/2012-07 02           Sound Multiple Outlets First Attempts
+3. Done/2012-10 01           Roles
+3. Done/2012-10 02           Conditions
+3. Done/2012-10 03           Sound Multiple Outlets Round-Up
+3. Done/2013-01 00     Remaining Sound Features & Framework Issues/Project Description Elsewhere
+3. Done/2013-02 01        Events Adaptation
+3. Done/XXXX-XX-XX XX/2010-07 00  Circle 3/Project Description Elsewhere
+3. Done/XXXX-XX-XX XX/2010-07 01     Circle 3 Preparation
+3. Done/XXXX-XX-XX XX/2010-08 00     Circle 3 Basics A
+3. Done/XXXX-XX-XX XX/2011-02 00     Control Classes + Framework + Scope Creep
+3. Done/XXXX-XX-XX XX/2011-02 01        Control Classes + Framework + Scope Creep Part A
+3. Done/XXXX-XX-XX XX/2012-01 00        Wrap up Sound and ValidReference
+3. Done/XXXX-XX-XX XX/2012-07 01        Sound Multiple Outlets
+3. Done/XXXX-XX-XX XX/2012-07 02           Sound Multiple Outlets First Attempts
+3. Done/XXXX-XX-XX XX/2012-10 01           Roles
+3. Done/XXXX-XX-XX XX/2012-10 02           Conditions
+3. Done/XXXX-XX-XX XX/2012-10 03           Sound Multiple Outlets Round-Up
+3. Done/XXXX-XX-XX XX/2013-01 00     Remaining Sound Features & Framework Issues/Project Description Elsewhere
+3. Done/XXXX-XX-XX XX/2013-02 01        Events Adaptation
+Other/2. Future/Interesting Now/1. Circle 3 Programming
+Other/2. Future/Interesting Now/2. Circle 3 Programming
+Other/2. Future/Interesting Now/4. Software System Core Documentation
+Other/2. Future/Postponed/2. Circle 3 Programming
+Other/2. Future/Postponed/Circle 3 Programming
+Other/3. Done/2010 - 2013 Circle 3 Programming
+Other/3. Done/2010-07 00  Circle 3 Programming/Project Description Elsewhere
+Other/3. Done/2010-07 00  Circle 3/Project Description Elsewhere
+Other/3. Done/2010-07 01     Circle 3 Preparation
+Other/3. Done/2010-08 00     Circle 3 Basics A
+Other/3. Done/2011-02 00     Control Classes + Framework + Scope Creep
+Other/3. Done/2011-02 01        Control Classes + Framework + Scope Creep Part A
+Other/3. Done/2012-01 00        Wrap up Sound and ValidReference
+Other/3. Done/2012-07 01        Sound Multiple Outlets
+Other/3. Done/2012-07 02           Sound Multiple Outlets First Attempts
+Other/3. Done/2012-10 01           Roles
+Other/3. Done/2012-10 02           Conditions
+Other/3. Done/2012-10 03           Sound Multiple Outlets Round-Up
+Other/3. Done/2013-01 00     Remaining Sound Features & Framework Issues/Project Description Elsewhere
+Other/3. Done/2013-02 01        Events Adaptation
+2. Future/2. Postponed/2. Framework
+2. Future/2. Postponed/3. OS
+2. Future/2. Postponed/0. General/Circle Postponed Work.doc
+2. Future/2. Postponed/1. Language & Integration/Circle.Language Postponed Work.doc
+
+
+# Software System Programming
+
+2. Future/1. Interesting Now/3.2.00.       Program Code Base
+2. Future/1. Interesting Now/3.3.00.       Program Computer Language Concepts
+2. Future/1. Interesting Now/3.4.00.       Program Applications
+2. Future/1. Interesting Now/3.5.00.       Program Difficult Modules
+2. Future/1. Interesting Now/3.6.00.       Program Core
+2. Future/1. Interesting Now/3.7.00.       Program Computer Language Utilities
+2. Future/1. Interesting Now/3.8.00.       Program Computer Language Optimizations
+2. Future/1. Interesting Now/3.9.00.       Design & Program Artificial Intelligence, Natural Language, Neural Networks
+2. Future/Interesting Now/3.2.00.       Program Code Base
+2. Future/Interesting Now/3.3.00.       Program Computer Language Concepts
+2. Future/Interesting Now/3.4.00.       Program Applications
+2. Future/Interesting Now/3.5.00.       Program Difficult Modules
+2. Future/Interesting Now/3.6.00.       Program Core
+2. Future/Interesting Now/3.7.00.       Program Computer Language Utilities
+2. Future/Interesting Now/3.8.00.       Program Computer Language Optimizations
+2. Future/Interesting Now/3.9.00.       Design & Program Artificial Intelligence, Natural Language, Neural Networks
+2. Future/Interesting Now/Software System/3. Program Software System
+Other/2. Future/Interesting Now/4. Software System Programming
+Other/2. Future/Interesting Now/5. Software System Programming
+Other/2. Future/Postponed/4. Software System Programming
+
+
+# Core Documentation
+
+2. Future/Interesting Now/1.2.00.       Finish Core Documentation
+2. Future/Interesting Now/1.2.01.          Finish Storage Documentation/empty.txt
+2. Future/Interesting Now/1.2.02.          Make New Threads Documentation/empty.txt
+2. Future/Interesting Now/1.2.03.          Restructure & Redo Basic Data Structures Documentation/empty.txt
+2. Future/Interesting Now/1.2.04.          Create Primitive Hardware Management Documentation/empty.txt
+2. Future/Interesting Now/1.2.05.          Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
+2. Future/Interesting Now/1.2.06.          Document New Cache Module/empty.txt
+2. Future/Interesting Now/1.2.07.          Document Implementation Of Internet Protocol/empty.txt
+2. Future/Interesting Now/1.2.08.          Document the Hardware Module/empty.txt
+2. Future/Interesting Now/1.2.09.          Make User Input Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.00. Finish Core Documentation
+2. Future/Interesting Now/Software System/1. Document Software System/2.01.    Finish Storage Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.02.    Make New Threads Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.03.    Restructure & Redo Basic Data Structures Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.04.    Create Primitive Hardware Management Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.05.    Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.06.    Document New Cache Module/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.07.    Document Implementation Of Internet Protocol/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.08.    Document the Hardware Module/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.09.    Make User Input Documentation/empty.txt
+Other/2. Future/Interesting Now/3. Software System Core Documentation
+Other/2. Future/Postponed/3. Software System Core Documentation
+2. Future/1. Interesting Now/1.2.00.       Finish Core Documentation
+3. Done/2007-12 00     Preliminary Storage Documentation
+3. Done/XXXX-XX-XX XX/2007-12 00     Preliminary Storage Documentation
+Other/3. Done/2007-12 00     Preliminary Storage Documentation
+Other/3. Done/2003 - 2009 Software System Documentation/2007-12 00     Preliminary Storage Documentation
+
+
+# Misc
+
+4. Archive/2016-11 AnaLib.txt
+2. Future/0. Ideas/Shortcut to Ideas.doc.lnk
+3. Done/1. Finney/Get Overview of Personal Finances
+2. Future/4. Postponed Indefinitely/Finney
+2. Future/Ideas/Shortcut to Ideas.doc.lnk
+
+
+# Out-of-Scope Concepts:
+# - Handy Access
+# - Apply
+# - Internet Concepts
+# - Some Data Concepts
+# - More Data Concepts
+
+2. Future/Interesting Now/1.1.21.             Handy Access/empty.txt
+2. Future/Interesting Now/1.1.21.          Handy Access/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.21.       Handy Access/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.21.       Handy Access/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.21.       Handy Access/empty.txt
+2. Future/Interesting Now/1.1.24.             Apply/empty.txt
+2. Future/Interesting Now/1.1.24.          Apply/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.24.       Apply/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.24.       Apply/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.24.       Apply/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.             Internet Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.             More Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.          Internet Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.          More Data Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.70.       Internet Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.70.       More Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.26.             Some Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.26.          Some Data Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.26.       Some Data Concepts/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt
+
+
+
+# Repair Older Material Edge-Cases
+
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material/Versions.doc
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc
+2. Future/1. Interesting Now/2.2.15.       Wrap Up/Repair Older Material, Wrap Up.doc
+2. Future/1. Interesting Now/2.2.16.       Document Old Basic Data Structures Version
+2. Future/1. Interesting Now/2.2.17.       Document Undocumented Old Versions
+2. Future/1. Interesting Now/2.2.18.       Reprogram Old Versions
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Repair Older Material 2008-2009 Goal Description.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Repair Older Material 2008-2009 Ideas.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Versions.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc
+2. Future/Interesting Now/2.2.15.       Wrap Up/Repair Older Material, Wrap Up.doc
+2. Future/Interesting Now/2.2.16.       Document Old Basic Data Structures Version
+2. Future/Interesting Now/2.2.17.       Document Undocumented Old Versions
+2. Future/Interesting Now/2.2.18.       Reprogram Old Versions/Reprogram Old Versions.txt
+3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
+3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
+3. Done/2008-10 03     Define Old Projects
+3. Done/2008-11 01     Isolate Versions of Old Programs
+3. Done/2008-11 02     Make Versions Documents
+3. Done/XXXX-XX-XX XX/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
+3. Done/XXXX-XX-XX XX/2008-10 03     Define Old Projects
+3. Done/XXXX-XX-XX XX/2008-11 01     Isolate Versions of Old Programs
+3. Done/XXXX-XX-XX XX/2008-11 02     Make Versions Documents
+4. Archive/Repair Older Material Project Docs Version History.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material
+Other/2. Future/Interesting Now/5. Repair Older Material
+Other/2. Future/Interesting Now/6. Repair Older Material
+Other/2. Future/Postponed/5. Repair Older Material
+Other/3. Done/2008 - 2009 Repair Older Material
+Other/3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03
+Other/3. Done/2008-10 03     Define Old Projects
+Other/3. Done/2008-11 01     Isolate Versions of Old Programs
+Other/3. Done/2008-11 02     Make Versions Documents
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 00  Repair Older Material 2008-10 - 2009-03
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 03     Define Old Projects
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 01     Isolate Versions of Old Programs
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 02     Make Versions Documents
+Other/4. Archive/Repair Older Material Project Docs Version History.doc
