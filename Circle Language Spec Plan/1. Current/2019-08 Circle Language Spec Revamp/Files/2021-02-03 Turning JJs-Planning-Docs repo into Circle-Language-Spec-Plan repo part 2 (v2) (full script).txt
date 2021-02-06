@@ -53,6 +53,149 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 # Removing:
 
 
+# Misc
+
+4. Archive/2016-11 AnaLib.txt
+2. Future/0. Ideas/Shortcut to Ideas.doc.lnk
+3. Done/1. Finney/Get Overview of Personal Finances
+2. Future/4. Postponed Indefinitely/Finney
+2. Future/Ideas/Shortcut to Ideas.doc.lnk
+
+
+# Software System Programming
+
+2. Future/1. Interesting Now/3.2.00.       Program Code Base
+2. Future/1. Interesting Now/3.3.00.       Program Computer Language Concepts
+2. Future/1. Interesting Now/3.4.00.       Program Applications
+2. Future/1. Interesting Now/3.5.00.       Program Difficult Modules
+2. Future/1. Interesting Now/3.6.00.       Program Core
+2. Future/1. Interesting Now/3.7.00.       Program Computer Language Utilities
+2. Future/1. Interesting Now/3.8.00.       Program Computer Language Optimizations
+2. Future/1. Interesting Now/3.9.00.       Design & Program Artificial Intelligence, Natural Language, Neural Networks
+2. Future/Interesting Now/3.2.00.       Program Code Base
+2. Future/Interesting Now/3.3.00.       Program Computer Language Concepts
+2. Future/Interesting Now/3.4.00.       Program Applications
+2. Future/Interesting Now/3.5.00.       Program Difficult Modules
+2. Future/Interesting Now/3.6.00.       Program Core
+2. Future/Interesting Now/3.7.00.       Program Computer Language Utilities
+2. Future/Interesting Now/3.8.00.       Program Computer Language Optimizations
+2. Future/Interesting Now/3.9.00.       Design & Program Artificial Intelligence, Natural Language, Neural Networks
+2. Future/Interesting Now/Software System/3. Program Software System
+Other/2. Future/Interesting Now/4. Software System Programming
+Other/2. Future/Interesting Now/5. Software System Programming
+Other/2. Future/Postponed/4. Software System Programming
+
+
+# Out-of-Scope Concepts:
+# - Handy Access
+# - Apply
+# - Internet Concepts
+# - Some Data Concepts
+# - More Data Concepts
+
+2. Future/Interesting Now/1.1.21.             Handy Access/empty.txt
+2. Future/Interesting Now/1.1.21.          Handy Access/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.21.       Handy Access/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.21.       Handy Access/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.21.       Handy Access/empty.txt
+2. Future/Interesting Now/1.1.24.             Apply/empty.txt
+2. Future/Interesting Now/1.1.24.          Apply/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.24.       Apply/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.24.       Apply/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.24.       Apply/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.             Internet Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.             More Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.          Internet Concepts/empty.txt
+2. Future/Interesting Now/1.1.70.          More Data Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.70.       Internet Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.70.       More Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.26.             Some Data Concepts/empty.txt
+2. Future/Interesting Now/1.1.26.          Some Data Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.26.       Some Data Concepts/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt
+Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt
+Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt
+
+
+# Core Documentation
+
+2. Future/Interesting Now/1.2.00.       Finish Core Documentation
+2. Future/Interesting Now/1.2.01.          Finish Storage Documentation/empty.txt
+2. Future/Interesting Now/1.2.02.          Make New Threads Documentation/empty.txt
+2. Future/Interesting Now/1.2.03.          Restructure & Redo Basic Data Structures Documentation/empty.txt
+2. Future/Interesting Now/1.2.04.          Create Primitive Hardware Management Documentation/empty.txt
+2. Future/Interesting Now/1.2.05.          Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
+2. Future/Interesting Now/1.2.06.          Document New Cache Module/empty.txt
+2. Future/Interesting Now/1.2.07.          Document Implementation Of Internet Protocol/empty.txt
+2. Future/Interesting Now/1.2.08.          Document the Hardware Module/empty.txt
+2. Future/Interesting Now/1.2.09.          Make User Input Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.00. Finish Core Documentation
+2. Future/Interesting Now/Software System/1. Document Software System/2.01.    Finish Storage Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.02.    Make New Threads Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.03.    Restructure & Redo Basic Data Structures Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.04.    Create Primitive Hardware Management Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.05.    Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.06.    Document New Cache Module/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.07.    Document Implementation Of Internet Protocol/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.08.    Document the Hardware Module/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.09.    Make User Input Documentation/empty.txt
+Other/2. Future/Interesting Now/3. Software System Core Documentation
+Other/2. Future/Postponed/3. Software System Core Documentation
+2. Future/1. Interesting Now/1.2.00.       Finish Core Documentation
+3. Done/2007-12 00     Preliminary Storage Documentation
+3. Done/XXXX-XX-XX XX/2007-12 00     Preliminary Storage Documentation
+Other/3. Done/2007-12 00     Preliminary Storage Documentation
+Other/3. Done/2003 - 2009 Software System Documentation/2007-12 00     Preliminary Storage Documentation
+
+
+# Repair Older Material Edge-Cases
+
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material/Versions.doc
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc
+2. Future/1. Interesting Now/2.2.15.       Wrap Up/Repair Older Material, Wrap Up.doc
+2. Future/1. Interesting Now/2.2.16.       Document Old Basic Data Structures Version
+2. Future/1. Interesting Now/2.2.17.       Document Undocumented Old Versions
+2. Future/1. Interesting Now/2.2.18.       Reprogram Old Versions
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Repair Older Material 2008-2009 Goal Description.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Repair Older Material 2008-2009 Ideas.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Versions.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc
+2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc
+2. Future/Interesting Now/2.2.15.       Wrap Up/Repair Older Material, Wrap Up.doc
+2. Future/Interesting Now/2.2.16.       Document Old Basic Data Structures Version
+2. Future/Interesting Now/2.2.17.       Document Undocumented Old Versions
+2. Future/Interesting Now/2.2.18.       Reprogram Old Versions/Reprogram Old Versions.txt
+3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
+3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
+3. Done/2008-10 03     Define Old Projects
+3. Done/2008-11 01     Isolate Versions of Old Programs
+3. Done/2008-11 02     Make Versions Documents
+3. Done/XXXX-XX-XX XX/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
+3. Done/XXXX-XX-XX XX/2008-10 03     Define Old Projects
+3. Done/XXXX-XX-XX XX/2008-11 01     Isolate Versions of Old Programs
+3. Done/XXXX-XX-XX XX/2008-11 02     Make Versions Documents
+4. Archive/Repair Older Material Project Docs Version History.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material
+Other/2. Future/Interesting Now/5. Repair Older Material
+Other/2. Future/Interesting Now/6. Repair Older Material
+Other/2. Future/Postponed/5. Repair Older Material
+Other/3. Done/2008 - 2009 Repair Older Material
+Other/3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03
+Other/3. Done/2008-10 03     Define Old Projects
+Other/3. Done/2008-11 01     Isolate Versions of Old Programs
+Other/3. Done/2008-11 02     Make Versions Documents
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 00  Repair Older Material 2008-10 - 2009-03
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 03     Define Old Projects
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 01     Isolate Versions of Old Programs
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 02     Make Versions Documents
+Other/4. Archive/Repair Older Material Project Docs Version History.doc
+
+
 # Software System, Too General
 
 1. Current/0.0.00. Software System/2008-09-02 00/Software System, Project Plan.doc
@@ -219,147 +362,3 @@ Other/3. Done/2013-02 01        Events Adaptation
 2. Future/2. Postponed/3. OS
 2. Future/2. Postponed/0. General/Circle Postponed Work.doc
 2. Future/2. Postponed/1. Language & Integration/Circle.Language Postponed Work.doc
-
-
-# Software System Programming
-
-2. Future/1. Interesting Now/3.2.00.       Program Code Base
-2. Future/1. Interesting Now/3.3.00.       Program Computer Language Concepts
-2. Future/1. Interesting Now/3.4.00.       Program Applications
-2. Future/1. Interesting Now/3.5.00.       Program Difficult Modules
-2. Future/1. Interesting Now/3.6.00.       Program Core
-2. Future/1. Interesting Now/3.7.00.       Program Computer Language Utilities
-2. Future/1. Interesting Now/3.8.00.       Program Computer Language Optimizations
-2. Future/1. Interesting Now/3.9.00.       Design & Program Artificial Intelligence, Natural Language, Neural Networks
-2. Future/Interesting Now/3.2.00.       Program Code Base
-2. Future/Interesting Now/3.3.00.       Program Computer Language Concepts
-2. Future/Interesting Now/3.4.00.       Program Applications
-2. Future/Interesting Now/3.5.00.       Program Difficult Modules
-2. Future/Interesting Now/3.6.00.       Program Core
-2. Future/Interesting Now/3.7.00.       Program Computer Language Utilities
-2. Future/Interesting Now/3.8.00.       Program Computer Language Optimizations
-2. Future/Interesting Now/3.9.00.       Design & Program Artificial Intelligence, Natural Language, Neural Networks
-2. Future/Interesting Now/Software System/3. Program Software System
-Other/2. Future/Interesting Now/4. Software System Programming
-Other/2. Future/Interesting Now/5. Software System Programming
-Other/2. Future/Postponed/4. Software System Programming
-
-
-# Core Documentation
-
-2. Future/Interesting Now/1.2.00.       Finish Core Documentation
-2. Future/Interesting Now/1.2.01.          Finish Storage Documentation/empty.txt
-2. Future/Interesting Now/1.2.02.          Make New Threads Documentation/empty.txt
-2. Future/Interesting Now/1.2.03.          Restructure & Redo Basic Data Structures Documentation/empty.txt
-2. Future/Interesting Now/1.2.04.          Create Primitive Hardware Management Documentation/empty.txt
-2. Future/Interesting Now/1.2.05.          Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
-2. Future/Interesting Now/1.2.06.          Document New Cache Module/empty.txt
-2. Future/Interesting Now/1.2.07.          Document Implementation Of Internet Protocol/empty.txt
-2. Future/Interesting Now/1.2.08.          Document the Hardware Module/empty.txt
-2. Future/Interesting Now/1.2.09.          Make User Input Documentation/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.00. Finish Core Documentation
-2. Future/Interesting Now/Software System/1. Document Software System/2.01.    Finish Storage Documentation/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.02.    Make New Threads Documentation/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.03.    Restructure & Redo Basic Data Structures Documentation/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.04.    Create Primitive Hardware Management Documentation/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.05.    Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.06.    Document New Cache Module/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.07.    Document Implementation Of Internet Protocol/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.08.    Document the Hardware Module/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/2.09.    Make User Input Documentation/empty.txt
-Other/2. Future/Interesting Now/3. Software System Core Documentation
-Other/2. Future/Postponed/3. Software System Core Documentation
-2. Future/1. Interesting Now/1.2.00.       Finish Core Documentation
-3. Done/2007-12 00     Preliminary Storage Documentation
-3. Done/XXXX-XX-XX XX/2007-12 00     Preliminary Storage Documentation
-Other/3. Done/2007-12 00     Preliminary Storage Documentation
-Other/3. Done/2003 - 2009 Software System Documentation/2007-12 00     Preliminary Storage Documentation
-
-
-# Misc
-
-4. Archive/2016-11 AnaLib.txt
-2. Future/0. Ideas/Shortcut to Ideas.doc.lnk
-3. Done/1. Finney/Get Overview of Personal Finances
-2. Future/4. Postponed Indefinitely/Finney
-2. Future/Ideas/Shortcut to Ideas.doc.lnk
-
-
-# Out-of-Scope Concepts:
-# - Handy Access
-# - Apply
-# - Internet Concepts
-# - Some Data Concepts
-# - More Data Concepts
-
-2. Future/Interesting Now/1.1.21.             Handy Access/empty.txt
-2. Future/Interesting Now/1.1.21.          Handy Access/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/1.21.       Handy Access/empty.txt
-Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.21.       Handy Access/empty.txt
-Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.21.       Handy Access/empty.txt
-2. Future/Interesting Now/1.1.24.             Apply/empty.txt
-2. Future/Interesting Now/1.1.24.          Apply/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/1.24.       Apply/empty.txt
-Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.24.       Apply/empty.txt
-Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.24.       Apply/empty.txt
-Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt
-Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt
-2. Future/Interesting Now/1.1.70.             Internet Concepts/empty.txt
-2. Future/Interesting Now/1.1.70.             More Data Concepts/empty.txt
-2. Future/Interesting Now/1.1.70.          Internet Concepts/empty.txt
-2. Future/Interesting Now/1.1.70.          More Data Concepts/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/1.70.       Internet Concepts/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/1.70.       More Data Concepts/empty.txt
-2. Future/Interesting Now/1.1.26.             Some Data Concepts/empty.txt
-2. Future/Interesting Now/1.1.26.          Some Data Concepts/empty.txt
-2. Future/Interesting Now/Software System/1. Document Software System/1.26.       Some Data Concepts/empty.txt
-Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt
-Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt
-Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt
-Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt
-
-
-
-# Repair Older Material Edge-Cases
-
-2. Future/1. Interesting Now/2.0.00.    Repair Older Material/Versions.doc
-2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc
-2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc
-2. Future/1. Interesting Now/2.2.15.       Wrap Up/Repair Older Material, Wrap Up.doc
-2. Future/1. Interesting Now/2.2.16.       Document Old Basic Data Structures Version
-2. Future/1. Interesting Now/2.2.17.       Document Undocumented Old Versions
-2. Future/1. Interesting Now/2.2.18.       Reprogram Old Versions
-2. Future/Interesting Now/2.0.00.    Repair Older Material/Repair Older Material 2008-2009 Goal Description.doc
-2. Future/Interesting Now/2.0.00.    Repair Older Material/Repair Older Material 2008-2009 Ideas.doc
-2. Future/Interesting Now/2.0.00.    Repair Older Material/Versions.doc
-2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc
-2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc
-2. Future/Interesting Now/2.2.15.       Wrap Up/Repair Older Material, Wrap Up.doc
-2. Future/Interesting Now/2.2.16.       Document Old Basic Data Structures Version
-2. Future/Interesting Now/2.2.17.       Document Undocumented Old Versions
-2. Future/Interesting Now/2.2.18.       Reprogram Old Versions/Reprogram Old Versions.txt
-3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
-3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
-3. Done/2008-10 03     Define Old Projects
-3. Done/2008-11 01     Isolate Versions of Old Programs
-3. Done/2008-11 02     Make Versions Documents
-3. Done/XXXX-XX-XX XX/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
-3. Done/XXXX-XX-XX XX/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
-3. Done/XXXX-XX-XX XX/2008-10 03     Define Old Projects
-3. Done/XXXX-XX-XX XX/2008-11 01     Isolate Versions of Old Programs
-3. Done/XXXX-XX-XX XX/2008-11 02     Make Versions Documents
-4. Archive/Repair Older Material Project Docs Version History.doc
-2. Future/Interesting Now/Software System/2. Repair Older Material
-Other/2. Future/Interesting Now/5. Repair Older Material
-Other/2. Future/Interesting Now/6. Repair Older Material
-Other/2. Future/Postponed/5. Repair Older Material
-Other/3. Done/2008 - 2009 Repair Older Material
-Other/3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03
-Other/3. Done/2008-10 03     Define Old Projects
-Other/3. Done/2008-11 01     Isolate Versions of Old Programs
-Other/3. Done/2008-11 02     Make Versions Documents
-Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 00  Repair Older Material 2008-10 - 2009-03
-Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 03     Define Old Projects
-Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 01     Isolate Versions of Old Programs
-Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 02     Make Versions Documents
-Other/4. Archive/Repair Older Material Project Docs Version History.doc
