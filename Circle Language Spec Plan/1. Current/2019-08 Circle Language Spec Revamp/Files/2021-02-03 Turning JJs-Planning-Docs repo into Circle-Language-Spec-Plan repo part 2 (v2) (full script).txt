@@ -14,6 +14,21 @@ git ls-tree -r master --name-only > allfiles-inlatest.txt
 
 # --------------------
 
+# Strategy:
+
+# - Some topics seem to have exceptional cases in it, that might be weeded out.
+
+# - Circle 3 Programming:
+#     - Insecurity is due to some of the project being about language design.
+#     - Probably in practice there was not much language design.
+#     - That might make this parent-project fully out of scope.
+#     - But orientation and researching if this is true might be desired.
+#     - Reading planning docs for that.
+#     - The estimation is not much language design was done in Circle 3 Programming project.s
+#     - The plan would be to remove it form the Circle-Language-Spec-Plan repository.
+
+# --------------------
+
 # Template Script
 
 git filter-branch --tree-filter '
@@ -35,35 +50,23 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Strategy:
-
-# - Some topics seem to have exceptional cases in it, that might be weeded out.
-
-# - Circle 3 Programming:
-#     - Insecurity is due to some of the project being about language design.
-#     - Probably in practice there was not much language design.
-#     - That might make this parent-project fully out of scope.
-#     - But orientation and researching if this is true might be desired.
-#     - Reading planning docs for that.
-#     - The estimation is not much language design was done in Circle 3 Programming project.s
-#     - The plan would be to remove it form the Circle-Language-Spec-Plan repository.
-
-# --------------------
-
 # Removing:
+# - Misc
+# - Software System Programming
+# - Out-of-Scope Concepts:
+#     - Handy Access
+#     - Apply
+#     - Internet Concepts
+#     - Some Data Concepts
+#     - More Data Concepts
+# - Core Documentation
 
-
-# Misc
-
+git filter-branch --tree-filter '
 rm -rf "4. Archive/2016-11 AnaLib.txt"
 rm -rf "2. Future/0. Ideas/Shortcut to Ideas.doc.lnk"
 rm -rf "3. Done/1. Finney/Get Overview of Personal Finances"
 rm -rf "2. Future/4. Postponed Indefinitely/Finney"
 rm -rf "2. Future/Ideas/Shortcut to Ideas.doc.lnk"
-
-
-# Software System Programming
-
 rm -rf "2. Future/1. Interesting Now/3.2.00.       Program Code Base"
 rm -rf "2. Future/1. Interesting Now/3.3.00.       Program Computer Language Concepts"
 rm -rf "2. Future/1. Interesting Now/3.4.00.       Program Applications"
@@ -84,15 +87,6 @@ rm -rf "2. Future/Interesting Now/Software System/3. Program Software System"
 rm -rf "Other/2. Future/Interesting Now/4. Software System Programming"
 rm -rf "Other/2. Future/Interesting Now/5. Software System Programming"
 rm -rf "Other/2. Future/Postponed/4. Software System Programming"
-
-
-# Out-of-Scope Concepts:
-# - Handy Access
-# - Apply
-# - Internet Concepts
-# - Some Data Concepts
-# - More Data Concepts
-
 rm -rf "2. Future/Interesting Now/1.1.21.             Handy Access/empty.txt"
 rm -rf "2. Future/Interesting Now/1.1.21.          Handy Access/empty.txt"
 rm -rf "2. Future/Interesting Now/Software System/1. Document Software System/1.21.       Handy Access/empty.txt"
@@ -118,10 +112,6 @@ rm -rf "Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.26.   
 rm -rf "Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       Internet Concepts/empty.txt"
 rm -rf "Other/2. Future/Interesting Now/2. Empty Circle Project Folders/1.70.       More Data Concepts/empty.txt"
 rm -rf "Other/2. Future/Interesting Now/3. Empty Circle Project Folders/1.26.       Some Data Concepts/empty.txt"
-
-
-# Core Documentation
-
 rm -rf "2. Future/Interesting Now/1.2.00.       Finish Core Documentation"
 rm -rf "2. Future/Interesting Now/1.2.01.          Finish Storage Documentation/empty.txt"
 rm -rf "2. Future/Interesting Now/1.2.02.          Make New Threads Documentation/empty.txt"
@@ -149,10 +139,26 @@ rm -rf "3. Done/2007-12 00     Preliminary Storage Documentation"
 rm -rf "3. Done/XXXX-XX-XX XX/2007-12 00     Preliminary Storage Documentation"
 rm -rf "Other/3. Done/2007-12 00     Preliminary Storage Documentation"
 rm -rf "Other/3. Done/2003 - 2009 Software System Documentation/2007-12 00     Preliminary Storage Documentation"
+' --prune-empty HEAD --all
 
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
 
 # Repair Older Material Edge-Cases
 
+git filter-branch --tree-filter '
 rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/Versions.doc"
 rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Goal Description.doc"
 rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Repair Older Material 2008-2009 Ideas.doc"
@@ -194,10 +200,26 @@ rm -rf "Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 03     Def
 rm -rf "Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 01     Isolate Versions of Old Programs"
 rm -rf "Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 02     Make Versions Documents"
 rm -rf "Other/4. Archive/Repair Older Material Project Docs Version History.doc"
+' --prune-empty HEAD --all
 
+# Clean-Up Tasks
 
-# Software System, Too General
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
 
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing Software System, Too General
+
+git filter-branch --tree-filter '
 rm -rf "1. Current/0.0.00. Software System/2008-09-02 00/Software System, Project Plan.doc"
 rm -rf "1. Current/0.0.00. Software System/Versions.doc"
 rm -rf "1. Current/0.0.00. Software System/XXXX-XX-XX XX/Software System Goal Description.doc"
@@ -267,10 +289,26 @@ rm -rf "Other/4. Archive/Software System Project Docs Version History.doc"
 rm -rf "Other/Project Docs.doc"
 rm -rf "Project Docs.doc"
 rm -rf "Projects.doc"
+' --prune-empty HEAD --all
 
+# Clean-Up Tasks
 
-# Circle 3 Programing
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
 
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing Circle 3 Programing
+
+git filter-branch --tree-filter '
 rm -rf "1. Current/1.1.01.       Circle 3"
 rm -rf "1. Current/1.1.02.          Circle 3 Basics"
 rm -rf "1. Current/1.1.04.             Circle 3, Contents in Top-Level Object"
@@ -362,3 +400,17 @@ rm -rf "2. Future/2. Postponed/2. Framework"
 rm -rf "2. Future/2. Postponed/3. OS"
 rm -rf "2. Future/2. Postponed/0. General/Circle Postponed Work.doc"
 rm -rf "2. Future/2. Postponed/1. Language & Integration/Circle.Language Postponed Work.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
