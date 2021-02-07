@@ -1,5 +1,5 @@
-# Turning JJs-Planning-Docs repo into Circle-Language-Spec-Plan repo
-# ==================================================================
+# Turning JJs-Planning-Docs repo into Circle-Language-Spec-Plan repo (v1)
+# =======================================================================
 
 git remote remove origin
 
