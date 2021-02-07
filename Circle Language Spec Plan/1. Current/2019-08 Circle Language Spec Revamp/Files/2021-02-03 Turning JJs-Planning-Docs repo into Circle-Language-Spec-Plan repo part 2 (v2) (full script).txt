@@ -156,7 +156,7 @@ git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfi
 
 # --------------------
 
-# Repair Older Material Edge-Cases
+# Removing Repair Older Material Edge Cases
 
 git filter-branch --tree-filter '
 rm -rf "2. Future/1. Interesting Now/2.0.00.    Repair Older Material/Versions.doc"
@@ -414,3 +414,14 @@ git gc --aggressive --prune=now
 # Listing Files
 
 git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Extra to Remove:
+
+4. Archive/Software System Project Docs Version History.doc
+3. Done/Versions.doc
+
+# Extra to Keep:
+
+Other/3. Done/2008 - 2009 Repair Older Material/2008-10 01     General/2008-10 01 Organize Computer Language Ideas (2), General.doc
