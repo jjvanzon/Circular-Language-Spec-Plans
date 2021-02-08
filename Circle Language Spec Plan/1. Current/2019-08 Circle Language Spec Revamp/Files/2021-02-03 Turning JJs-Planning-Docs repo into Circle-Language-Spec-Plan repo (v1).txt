@@ -14,27 +14,6 @@ git ls-tree -r master --name-only > allfiles-inlatest.txt
 
 # --------------------
 
-# Template Script
-
-git filter-branch --tree-filter '
-rm -rf "...."
-' --prune-empty HEAD --all
-
-# Clean-Up Tasks
-
-git update-ref -d refs/original/refs/heads/master
-rm -rf .git/refs/original/
-git reflog expire --expire=now --all
-git fsck --full --unreachable
-git repack -A -d
-git gc --aggressive --prune=now
-
-# Listing Files
-
-git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
-
-# --------------------
-
 # Removing:
 
 1. Current/2013-09 Multi-Platform Architecture and Q&A App
