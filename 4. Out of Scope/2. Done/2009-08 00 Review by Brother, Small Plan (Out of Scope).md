@@ -1,0 +1,116 @@
+﻿
+***Circle Language Spec Plan
+Review by Brother
+(Out of Scope)
+
+2009-08
+
+Small Plan***
+============================
+
+
+*Author: JJ van Zon*
+
+*Location: Oosterhout, The Netherlands*
+
+*Date: July 29, 2009 – August 18, 2009*
+## **Parent Project**
+Circle Language Spec
+## **Goal**
+*This document only has the notes taken out of the original document about the Circle Language Spec review, because the topics are now out of scope of Circle Language Spec.* 
+
+\- Get more respect for what I do from family
+## **General Planning**
+
+Presentation:
+
+\- First say this:
+
+[…]
+
+` `‘Code name’ for the whole package of software is Software System.
+
+and the whole package of software would be named Collection. (but those names are a secret).
+
+\- Specific things to show:
+
+\- Project plans: **(2)**
+
+\- Document Software System
+
+\- Software System
+
+\- Documentation: **(6)**
+
+\- Software System Contents
+
+\- Software System Introduction
+
+\- Code
+
+\- Automatic Containment
+
+\- Fundamental Principles
+
+\- Editing Concepts
+
+\- Controls
+
+\- Controls Concepts
+
+\- Software: **(9)**
+
+\> All the files are read-only and that is going to be a problem for some of the software.
+
+\- Creator 2.0 software
+
+“Het ging bij Creator 2.0 zeker niet om de perfectie.
+
+Het ging erom het zo makkelijk mogelijk goed werkend te krijgen.”
+
+\- Sound 2.0
+
+\- Math Objects XXXX-XX-XX XX
+
+\- The code
+
+\- The code is not perfect yet
+
+\- How it is reprogrammed within itself
+
+\- Do not expect it to be easy
+
+\- Creator 0.9 software
+
+\- Sound 0.9
+
+\- Graphics Objects 0.9
+
+\- Math Objects 0.9
+
+\- The code
+
+\- Its being based on a code generator
+
+\- Its being concept-oriented
+
+\- Perhaps the custom code tags
+
+\- VB6 Generator 0.9
+
+\- C++ Generator 0.9
+
+## **Reflection**
+The documentation of the Software System framework introduction was covered almost completely.
+
+The following concepts were covered:
+
+\- Automatic Containment
+
+Reflection on the goals:
+
+\- Get more respect for what I do from family
+
+Respect from the family is probably just pending. But I guess my father was more convinced now.
+
+
