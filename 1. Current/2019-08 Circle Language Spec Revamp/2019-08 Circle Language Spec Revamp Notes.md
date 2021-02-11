@@ -994,11 +994,11 @@ Misc Issues:
 - Consider whether to switch the direction sign, so assignment call looks more like the result of the assignment.
 - Assignment notation might raises an issue. An assignment almost looks like the result of an assignment, except for a diamond that crosses the line and the direction is flipped. Assignment:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.001.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.001.png)
 
 Would result in:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.002.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.002.png)
 
 It may be worth to reconsider. Maybe the indicated direction in the assignment notation might be better off being the direction of the result, rather than of the direction of the assignment. But maybe it is not as simple as that.
 
@@ -2796,25 +2796,25 @@ Try to make it easier to do that. Construct your own limited view.
 ### ***2019-12-29 Postponed Purity Lost?***
 - I think that somewhere along the way, the language lost its purity. Hypothetically, I may have gotten carried away a few times. For instance, using the dashed line as a conceptual expression of the idea of 'classes' or 'types': I think I tend to introduce ideas about notations that might simplify things visually, but possibly introducing ambiguity. At first, the language was an attempt at the purest form that I could find, in which you could draw out an object oriented system with shapes and lines. What happened to that as I started to make, drawing something with dashed lines, something ambiguous? I am not sure: this might be a non-issue. But maybe I want to be wary of where I got carried away and not think in definites about the final form of the language. This also counts for e.g. System Command Call with Argument Notation: I introduce simplified, yet abused slightly ambiguous notation for something you probably will never see used. What if at some point I find use case for this simplified notation that also looks like something it's not? E.g. a call to an object getter:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.003.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.003.png)
 
 - It's ambiguous, because it looks like the diamond, which is a command call to the getter, is a reference to the object. It reference-associates a command call and an object, which are two separate 'objects', but connecting them with solid lines would suggest they are the same object.
 - Maybe expressing doubt about it at the beginning is just as far as the solution might go.
 - The protected access mark / access modifier:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.004.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.004.png)
 
 I thought of this relatively early. To solve ambiguity problems, I introduced notations such as: a system command connector for the New command:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.005.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.005.png)
 
 Event connector:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.006.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.006.png)
 
 The concepts of its being *required* for a command to be executed:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.007.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.007.png)
 
 But the latter notations are there kind of because the simpler notation was already in use by the concept of the protected access modifier.
 
@@ -2822,7 +2822,7 @@ I am having second thoughts about this. Maybe I would like to consider using a d
 
 Another example where it is an issue: This expresses that the other end of the connection should be a triangle:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.008.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.008.png)
 
 But if you would accidentally bend the half triangle at the end the wrong way, it would look like a protected access modifier. Well… maybe that is not definitive proof that there's an issue, but it's an indication of something might be confusing.
 
@@ -2862,7 +2862,7 @@ I think that for now, it might be a better idea not to express such notational c
   - A line never gets a name. They are always called, for instance: ‘the object line of symbol B’.
   - Any object symbol might symbolize an object, a class or an interface. 
 
-|![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.009.png)|![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.010.png)|![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.011.png)|![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.012.png)|
+|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.009.png)|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.010.png)|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.011.png)|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.012.png)|
 | :-: | :-: | :-: | :-: |
 Each object might serve as another object’s class, sort of functioning as its prototype. Any object might also provide the interface for another object, which may give another object the same exterior, while it might be different on the inside.
 
@@ -2873,7 +2873,7 @@ Each object might serve as another object’s class, sort of functioning as its 
 - Question: What might be the purpose or scope of this Basic Diagram Elements article? Is it supposed to be a comprehensive overview of pretty much all the elements? Or the basic ones, to maybe get a good impression of this language formally? Because I think maybe I am missing some notation details. If made more complete, would it be almost a full summary of like all of it? I might be missing event notation, comments, system interface, I do not cover all the black boxing access marks, I also do not see assignment notation, etc. But maybe that is not the point: to be complete. But maybe a few key ones are missing, is my own personal feeling. Events, commends and a few access marks. Those maybe. Comment notation is not even described anywhere. Hmm. In that light it seems a bit arbitrary that I do show that line merge and symbol merge notation, which might possibly be deprecated at some point.
 - Should I introduce a reference to parent notation in the Basic Diagram Elements chapter?
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
 
 (minus the wiggly line)
 
@@ -2884,7 +2884,7 @@ Each object might serve as another object’s class, sort of functioning as its 
 - Attributes section: Could each sub-section be expressed in a picture in a way?
 - Should I introduce a reference to parent notation in the Objects chapter?
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
 
 (minus the wiggly line)
 ### ***2020-06-15 Postponed Content Changes for Relationships Chapter***
@@ -2895,7 +2895,7 @@ Each object might serve as another object’s class, sort of functioning as its 
 - Special notations such as 'related to itself', maybe put those a separate part, so the main point may flow better?
 - Is there a more containerish way to express things. For instance the 'Example': could I place documents inside Application with a sort of reference to parent notation?
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
 
 (minus the wiggly line)
 
@@ -2931,7 +2931,7 @@ I am not sure if the topics I dislike can be left in separate articles or someth
 ### ***2020-05-22 Postponed Content Changes for Interfaces***
 - Interfaces Main Concept, section Explicit Interfaces:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.014.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.014.png)
 
 has something missing. In C# you can also refer to the parent object as if it were of the type of the interface, right? And it is also not an accessible sub-object, right?
 ### ***2020-05-22 Postponed Content Changes for Inheritance***
@@ -2940,7 +2940,7 @@ has something missing. In C# you can also refer to the parent object as if it we
 - For instance the assumptions question "Where did the language lose its purity?" comes to mind in. I do see that in this chapter's text I am honest about some of these issues. It seems that later texts seem more humanized that way, what I am sort of aim to do in this project.
 - Base redirection for referencing by base type seems to work with both dotted and dashed lines without conflict and when it is base class redirection or interface redirection the eye might prefer one or the other. "How to detect whether it is base redirection or interface redirection by analyzing the diagram?" is a question that comes to mind, but the eye and mind seems to detect easily which is preferred. There is probably an exact definition, but would it matter? When you would program something that would use circle notation, maybe, but. And just thinking about it, it probably would fall in to place somehow.
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.015.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.015.png)
 
 (Originally from the end of the System Objects article.)
 
@@ -3019,7 +3019,7 @@ I might move that Object Order issue to the chapter Objects. It's single lone to
 - What might be mentioned if the text would be built up from the ground up? I think I would just talk about the static concept, because that seems to me the number 1 candidate for what classes might have a lot to do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I would move the more creative concepts away from the Circle Language Spec.
 - I have questions about the dashed line usage of lines of the smaller squares:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)
 
 I do not understand why the class would point out the external command definition with a dashed line, while the objects point out the external command definition with a solid line. I think I might have followed a style choice more than an exact depiction of things? Would both lines express something that kind of works, leaving the options open for a stylistics choice to have class structure be more with dashed lines and object structure be more with solid lines? I suspect that I might leave this doubt open.
 
@@ -3029,7 +3029,7 @@ I do feel it might be quite something to burden the reader with. I am hoping for
 
 - Another point of doubt might be:
 
-![](2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.017.png)
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.017.png)
 
 Why is the line on the right no extended to the circle, so class structure and object structure look more alike except for the dashed and solid lines?
 ### ***2020-04-19 Postponed Conversion to MD***
