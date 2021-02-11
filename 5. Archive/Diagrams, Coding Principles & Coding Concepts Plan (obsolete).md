@@ -1,13 +1,12 @@
 ﻿Circle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts
 =========================================================================
 
-*Author: JJ van Zon*
+*Date: June, 2008*
 
-*Location: Oosterhout, The Netherlands*
 
-*Date: May 26, 2008 – June 1, 2008*
+Goal
+----
 
-## **Goal**
 *> 2009-04-07: This is a very old project description.*
 
 *This project was postponed earlier, because it was too big. The concepts of classes & relations were turned into a single project. This project contains the remaining topics.
@@ -31,7 +30,11 @@ I don’t see any issues left, that might change *everything*.
 \- Don’t change Commands & Classes loosely coupled.
 
 \- Don’t think about which are implemented as a principles and which are implemented as a concepts.
-## **Steps**
+
+
+Steps
+-----
+
 … Write more articles
 
 \- Look at Computer Language Coding Principles.doc
@@ -41,7 +44,11 @@ I don’t see any issues left, that might change *everything*.
 \- Symbol Language.doc
 
 \- Relational Structure.doc
-## **Approach**
+
+
+Approach
+--------
+
 There seem to be the following elements about each concept:
 
 \- Functional use
@@ -53,7 +60,11 @@ There seem to be the following elements about each concept:
 \- Diagram expression
 
 Implementation as a concept is not covered in this project.
-## **Elements**
+
+
+Elements
+--------
+
 Articles to write **(84)**:
 
 Coding Principles **(18)**: 
@@ -109,7 +120,11 @@ Basic Coding Principles **(22)**:
 \- Relation Direction
 
 \- Relation Direction in a Diagram
-## **Ideas**
+
+
+Ideas
+-----
+
 After documenting the coding principles you could go through the old Relation Structure documentation and delete everything already covered, and distill things from it that aren’t considered yet.
 
 \> Any entry in Coding Principles in a Diagram will get an entry in the Coding Principles articles.
@@ -119,4 +134,3 @@ After documenting the coding principles you could go through the old Relation St
 \> The description of these coding concepts require partly the idea behind it, as well as how it is programmed as a concept.
 
 \> I might just leave out how it is programmed as a concept for now, or keep it very general, with the remark that this is to be further worked out in the future.
-

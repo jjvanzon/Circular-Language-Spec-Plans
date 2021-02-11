@@ -1,59 +1,35 @@
-﻿New Computer Language Functional Design, Planning + Black Box A
-==============================================================
-
-2009-06
-=======
-
-Eventual Plan
-=============
-
-Elements
-========
+﻿New Computer Language Functional Design, Planning + Black Box A | 2009-06 | Eventual Plan | Elements
+==================================================================================================
 
 
-*Author: JJ van Zon*
+Remark
+-------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: June 24, 2009 – September 10, 2009*
-
-*Document Status: Finished*
-
-## **Remark**
 This is the eventual plan. The plan changed during the project. The initial plan can still be found in a different document.
-## **Products**
-\- Time Planning for New Computer Language Functional Design
 
-\- Idea Box processed (over 60 pages of ideas)
 
-\- Black Box article group
+Products
+--------
 
-\- Redone System Objects article group
+- Time Planning for New Computer Language Functional Design
+- Idea Box processed (over 60 pages of ideas)
+- Black Box article group
+- Redone System Objects article group
+- Redone Assignment article group
 
-\- Redone Assignment article group
-## **Project Steps**
-\- Setup project folders
 
-\- Time planning for super-project New Computer Language Functional Design
+Project Steps
+-------------
 
-\- Pick theme
-
-\- Make goal description
-
-\+ other startup issues
-
-\- Process idea box
-
-\- Work out Black Boxing
-
-\- Organize ideas
-
+- Setup project folders
+- Time planning for super-project New Computer Language Functional Design
+- Pick theme
+- Make goal description
++ other startup issues
+- Process idea box
+- Work out Black Boxing
+- Organize ideas
 … Work out article texts
-
 … Redo System Objects & Assignment
-
 … Cross-out a lot of material
-
-\- Wrap up
-
-`	 `PAGE 2 /  NUMPAGES 2
+- Wrap up

@@ -1,30 +1,40 @@
-﻿**Circle Language Spec Plan
-Scatter Symbol Language Documentation Content
-2008-10
-Project Summary**
----------------------------------------------
+﻿Circle Language Spec Plan | Scatter Symbol Language Documentation Content | 2008-10 | Project Summary
+=====================================================================================================
 
-*Author: JJ van Zon*
+Super-Project
+-------------
 
-*Location: Oosterhout, The Netherlands*
-
-### **Super-Project**
 Circle Language Spec
-### **Character of the Work**
+
+
+Character of the Work
+---------------------
 Organizing things
-### **Goal**
+
+
+Goal
+----
+
 Scattering around the content from the original Symbol Language documentation over the articles of the Circle Language documentation in its new form.
 
 The original Symbol Language documentation was last worked on in 2004 and was of 367 pages of content.
 
 Each piece of text in the original Symbol Language documentation was placed into the development version of an article inside the newer documentation.
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 October 3, 2008 – October 13, 2008
 
 11 days
 
 16 hours of work
-### **Project Notes**
+
+
+Project Notes
+-------------
+
 \- By placing an idea in an appropriate article, the content is at least in a logical place, even though it might make the article seem less 'finished up'.
 
 \- It might not be easy to change all those ideas to a more 'finished up' state, but the work to do that might be split up in more than one project.

@@ -1,22 +1,30 @@
-﻿**Circle Language Spec Plan
-Diagram Notation Spec
-2008-05
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Diagram Notation Spec | 2008-05 | Project Summary
+============================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Super-Project
+-------------
 
-### **Super-Project**
 *Circle Language Spec*
 
 (This project was originally intermixed with the sub-project *Clarify Automatic Execution Order 2008-05*, but then the scope was split in two.)
-### **Goal**
+
+
+Goal
+----
+
 There was some frustration, because it was unclear, what the diagram notation was going to be like. The goal of the project was to get a clear view on that. A clean up of the diagram notation content.
-### **Limitation**
+
+
+Limitation
+----------
+
 A limitation was, to only get the rules clear, not necessarily finish all the documentation. 
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 *(Includes out-of-scope work not talked about here.)*
 
 May 19, 2008 – May 27, 2008
@@ -24,7 +32,11 @@ May 19, 2008 – May 27, 2008
 1 week and 2 days
 
 18 hours of work
-### **Products**
+
+
+Products
+--------
+
 \- The following ***47*** articles were produced:
 
 *(but of 3 of them only a start)*
@@ -230,4 +242,3 @@ version  *2008-05-27 00  1.0*
 \- *Relations in a Diagram*
 
 version  *2008-05-27 XX  0.9*
-

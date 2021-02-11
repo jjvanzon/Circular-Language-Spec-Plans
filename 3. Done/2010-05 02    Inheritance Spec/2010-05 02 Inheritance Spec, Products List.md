@@ -1,20 +1,16 @@
-﻿Circle Language Spec Plan | Inheritance Spec
-============================================
+﻿Circle Language Spec Plan | Inheritance Spec | 2010-05 | Product List
+=====================================================================
 
-2010-05
-========
 
-Product List
-=============
+Purpose of this document
+------------------------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: July 16, 2010*
-## **Purpose of this document**
 The current document gives an overview of the realized products in the project Work Out Inheritance Articles 2010-05.
-## **Products**
+
+
+Products
+--------
+
 The following article was added to the System Objects chapter:
 
 *- List Concept*
@@ -156,6 +152,3 @@ The Deeper Specializations Structure
 *- Extending System Objects (Older)*
 
 (This older article was left in tact to save time.)
-
-
-`	 `PAGE 3 /  NUMPAGES 3

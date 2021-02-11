@@ -1,6 +1,5 @@
 Circle Language Spec Plan, Static Spec Idea
 ===========================================
-*JJ van Zon, The Netherlands, 2020-04*
 
 The concept of Static could be worked out.
 

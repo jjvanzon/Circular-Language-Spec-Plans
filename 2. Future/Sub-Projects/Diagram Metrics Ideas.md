@@ -1,6 +1,5 @@
 Circle Language Spec Plan, Diagram Metrics Ideas
 ================================================
-*JJ van Zon, The Netherlands, 2020-04*
 
 This document contains some loose ideas about diagram metrics. That means positioning the shapes automatically for instance. Specifically excluded, are the ideas about Automatic Containment. Those ideas got a little side-tracked, because it's complex and has loose ends.
 

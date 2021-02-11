@@ -1,14 +1,14 @@
 ﻿Circle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts (Out of Scope)
 ======================================================================================
 
-*Author: JJ van Zon*
+*Date: June, 2008*
 
-*Location: Oosterhout, The Netherlands*
 
-*Date: May 26, 2008 – June 1, 2008*
+Goal
+----
 
-## **Goal**
 *This document only has the notes taken out of the original document in the Circle Language Spec planning docs, because these topics are now out of scope of Circle Language Spec.*
+
 ### **Pros and cons for this project**
 \- The argument against it, is that fundamental principles should be worked out first.
 ### **Extra goals**
@@ -27,7 +27,11 @@ I have extra goals for this project. What those goals share with the main goal, 
 (perhaps in Fundamental Principles (that’s where all the =’s are))
 
 \- Change the article Symbol = Creator.doc
-## **Elements**
+
+
+Elements
+--------
+
 Articles to write:
 
 Coding Concepts:

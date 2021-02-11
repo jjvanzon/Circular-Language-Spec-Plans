@@ -1,21 +1,16 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
-============================================================
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Wrap Up
+==========================================================================
 
-2009-06
-=======
 
-Wrap Up
-=======
+Purpose of This Document
+------------------------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: September 9, 2009*
-
-## **Purpose of This Document**
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
-## **Standard Issues**
+
+
+Standard Issues
+---------------
+
 \- Evaluation by software developer:
 
 \> A template is available for this: *Software Development Reflection Template.doc*.
@@ -55,7 +50,11 @@ Investigate if the current functionality is adequate and possibly define a *new*
 
 ↑ Possibly a next programming trajectory (or save it for a later project.)
 (Start over the whole trajectory. See it as a new project.)
-## **Custom Plan**
+
+
+Custom Plan
+-----------
+
 \- Make evaluation document
 
 \- Postpone everything left to do.

@@ -1,6 +1,5 @@
 Circle Language Spec Plan, Objects Spec Update Idea
 ===================================================
-*JJ van Zon, The Netherlands, 2020-04*
 
 Maybe only merge conceptual explanation with diagram notation explanation.
 

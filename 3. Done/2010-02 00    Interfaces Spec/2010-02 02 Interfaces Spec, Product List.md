@@ -1,19 +1,10 @@
-﻿Circle Language Spec Plan | Interfaces Spec
-===========================================
+﻿Circle Language Spec Plan | Interfaces Spec | 2010-02 | Product List
+===================================================================
 
-2010-02
-=======
 
-Product List
-============
+Products
+--------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: February 6, 2010 – May 8, 2010*
-
-## **Products**
 The following were produced:
 
 *Interfaces articles*
@@ -113,4 +104,3 @@ About *Fundamental Principles*:
 *Other work:*
 
 *- Organized idea-box, but it was very little*
-`	 `PAGE 2 /  NUMPAGES 2

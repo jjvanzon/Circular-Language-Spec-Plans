@@ -1,10 +1,6 @@
-﻿**Circle Language Spec Plan, Fundamental Principles,
-2008-03 Internet as a Single Computer,
-Project Summary**
-----------------------------------------------------
-*Author: JJ van Zon*
+﻿Circle Language Spec Plan, Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary
+===========================================================================================================
 
-*Location: Oosterhout, The Netherlands*
 
 \- Goal:
 

@@ -1,20 +1,16 @@
-﻿Circle Language Spec Plan | Review by Brother
-============================================
+﻿Circle Language Spec Plan | Review by Brother | 2009-08 | Small Plan
+===================================================================
 
-2009-08
-=======
 
-Small Plan
-==========
+Parent Project
+--------------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: July 29, 2009 – August 18, 2009*
-## **Parent Project**
 Circle Language Spec
-## **Goal**
+
+
+Goal
+----
+
 Goals I have with letting my brother review the material are:
 
 \- Check accessibility of material
@@ -22,11 +18,19 @@ Goals I have with letting my brother review the material are:
 \- Get an opinion about the material
 
 *The review used to have notes about topics not in scope of the Circle Language Spec. Notes about that were moved to another document.*
-## **What Do I Expect?**
+
+
+What Do I Expect?
+-----------------
+
 I expect it to not be so accessible right now, though. A lot is just under construction and might needs a redo.
 
 I also expect it to be too much to just look into for a couple of hours, even to flip through the folders here and there.
-## **General Planning**
+
+
+General Planning
+----------------
+
 Preparation:
 
 \- Make small plan
@@ -90,7 +94,11 @@ to check if the material is easily accessible.
 / Maybe a video recording tool
 
 / Get as much as possible in shape for review?
-## **Reflection**
+
+
+Reflection
+-----------
+
 We covered the project plans, the documentation, but not the software.
 
 The documentation seemed clear and well organized.
@@ -156,7 +164,11 @@ Next to it being fun to be discussing the diagram notation, there were also a co
 \- ‘Analogy to the real world’ was unnecessary according to my brother.
 
 I might get more tips from my brother in the future.
-## **Eventual Time-Cost**
+
+
+Eventual Time-Cost
+------------------
+
 Time span of 2 weeks
 
 August 10, 2009 – August 24,2009

@@ -1,22 +1,16 @@
-﻿Circle Language Spec Plan | Events Spec
-=======================================
+﻿Circle Language Spec Plan | Events Spec | 2010-05 | TO DO
+=========================================================
 
-2010-05
-========
+
+Purpose of this Document
+-------------------------
+
+This document is not meant as reading material. It is a list of steps undertaken in a project, as a reference for how a project was executed.
+
 
 TO DO
-======
+-----
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: May 10, 2010 – May 15, 2010*
-
-*Status: Almost Finished*
-## **Purpose of this Document**
-This document is not meant as reading material. It is a list of steps undertaken in a project, as a reference for how a project was executed.
-### ***TO DO***
 \- First freeze a version
 
 \- Add Introduction article
@@ -86,4 +80,3 @@ This document is not meant as reading material. It is a list of steps undertaken
 ~ Really wrap up project documentation
 
 ... Update parent project
-`	 `PAGE 2 /  NUMPAGES 2

@@ -1,14 +1,10 @@
-﻿**Circle Language Spec Plan 
-Automatic Containment Spec
-2008-04
-Project Summary**
-----------------------------
+﻿Circle Language Spec Plan | Automatic Containment Spec | 2008-04 | Project Summary
+=================================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Goal
+----
 
-### **Goal**
 Fully understand automatic containment again and fully document the idea.
 
 The super project is *Get clearer view*. In that project I was supposed to work out the ideas, that totally mess up the original way of thinking. At the beginning of the project I found out I did not understand automatic containment anymore. I decided to turn working out automatic containment into a separate project, and save the other subjects for later.
@@ -31,7 +27,11 @@ However hard or simple it was to solve the problem: I solved an important discre
 
 The article [Automatic Containment.doc](D:\1. Systems\1. Documentation\1. Software System\XXXX-XX-XX XX\02. Code\03. Flat & Structured Interchanged\1. Automatic Containment\2008-04-24 00  1.0) was produced,
 version *2008-04-24 00  1.0*
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 2008-04-15 – 2008-04-24
 
 10 days

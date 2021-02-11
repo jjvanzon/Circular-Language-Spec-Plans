@@ -1,13 +1,11 @@
 ﻿Circle Language Spec Plan | 2008-05 | Fundamental Principles | Concepts as External Modules Spec
 =============================================================================================
 
+*Date: May, 2008*
 
-*Author: JJ van Zon*
+Goal
+----
 
-*Location: Oosterhout*
-
-*Date: May 18, 2008*
-## **Goal**
 *Project postponed*
 
 This project is part of the super project *Get clearer view*, which is part of the super project *Work out Computer Language Fundamental Principles*.

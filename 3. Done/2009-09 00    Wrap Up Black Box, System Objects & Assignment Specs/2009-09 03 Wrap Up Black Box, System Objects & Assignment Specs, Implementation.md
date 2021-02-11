@@ -1,26 +1,23 @@
-﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs
-==============================================================================
-
-2009-09
-========
-
-Implementation
-==============
+﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Implementation
+===========================================================================================================
 
 
-*Author: JJ van Zon*
+Purpose of This Document
+------------------------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: September 10, 2009 – September 26, 2009*
-
-## **Purpose of This Document**
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over litterly. Later it serves as a reference for looking up how exactly something was done.
-## **Approach**
+
+
+Approach
+--------
 The original idea was to first read over all the material, and then decide what to change about it.
 
 But eventually the changes were made while reading it over. That seemed faster to do, and it was.
-## **Checklist**
+
+
+Checklist
+---------
+
 \- Analyse existing material / wrap up article groups:
 
 \- Read over Parent Project description
@@ -56,5 +53,3 @@ But eventually the changes were made while reading it over. That seemed faster t
 \- Also sort out the existing articles, that came from other article groups.
 
 \- Parameter articles
-
-`	 `PAGE 2 /  NUMPAGES 2

@@ -1,6 +1,5 @@
 Circle Language Spec Plan, Classes Spec Update Ideas
 ====================================================
-*JJ van Zon, The Netherlands, 2020-04*
 
 * Classes articles might need an update considering that the notation(s) for static might change things.
 * The readability of the Classes articles was questionable, which also might be a reason for updating it. They might be hard to follow.

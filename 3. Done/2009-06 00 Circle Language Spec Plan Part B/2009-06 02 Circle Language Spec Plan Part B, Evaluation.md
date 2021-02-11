@@ -4,12 +4,6 @@
 Evaluation
 ==========
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: May 15, 2010*
-## **Evaluation**
 Making the new computer language has been an ongoing project, since the end of the year 2000.
 
 In June 2009 the strategy was renewed and included:
@@ -28,4 +22,3 @@ I have finished two topics of the new computer language and I did it fast in my 
 The strategy is about to change. The main strategy: making it possible for others to pick up my work, does not count anymore, because most of that is realized. I will work on the new computer language. But I have different ideas about which parts of it I want to realize, and I might start working towards an implementation of the software, instead of designing it on paper only. I might want to start thinking about what is required to make it this a fully useable product.
 
 I will describe the past period here. I will sum up the work that has been done, as an overview of this period and then I will start a new period, with new goals.
-`	 `PAGE 2 /  NUMPAGES 3

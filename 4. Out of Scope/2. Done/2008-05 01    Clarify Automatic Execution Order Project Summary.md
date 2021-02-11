@@ -1,17 +1,18 @@
-﻿**Circle Language Spec Plan
-Clarify Automatic Execution Order 2008-05
-Project Summary**
------------------------------------------
+﻿Circle Language Spec Plan | Clarify Automatic Execution Order 2008-05 | Project Summary
+=======================================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Super-Project
+-------------
 
-### **Super-Project**
 Document Computer Language, Get Clearer View over Difficult Topics
 
 (This project was originally intermixed with the sub-project *Diagram Notation Specs 2008-05*, but then the scope was split in two.)
-### **Goal**
+
+
+Goal
+----
+
 After 2 projects of difficult *flat & structured interchange* topics, I was able to choose from two projects:
 
 \- Automatic execution order
@@ -47,7 +48,11 @@ There were plans to write or adapt other articles as well:
 But after a brainstorm about automatic execution order, the goal of the super project *Get Clearer View* was already reached.
 
 Automatic execution will have some influence on the diagram, but not a lot.
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 *(This includes out-of-scope work not talked about here.)*
 
 May 19, 2008 – May 27, 2008
@@ -55,7 +60,11 @@ May 19, 2008 – May 27, 2008
 1 week and 2 days
 
 18 hours of work
-### **Products**
+
+
+Products
+--------
+
 The following was produced:
 
 \- Clearer view on automatic execution order and diagram notation

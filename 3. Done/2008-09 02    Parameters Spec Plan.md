@@ -1,24 +1,33 @@
-﻿**Circle Language Spec Plan
-Parameters Spec
-2008-09
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Parameters Spec | 2008-09 | Project Summary
+======================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Goal
+----
 
-### **Goal**
+
 Worked out the Parameter articles, as part of working out Commands as a Concept.
-### **Super-Project**
+
+
+Super-Project
+-------------
+
 Circle Language Spec, Command as a Concept Spec
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 September 4, 2008 – October 1, 2008
 
 **4** weeks
 
 **60** hours of work
-### **Background** 
+
+
+Background
+----------
+
 Parameters can be considered the connection between commands and objects.
 
 If a line merge can be used in bidirectional relations between classes, does that mean that a line merge between a command parameter’s class line and a class command’s definition line should be considered a bidirectional relation between a class and a command as well? Can that be viewed more like a relationship?
@@ -26,7 +35,11 @@ If a line merge can be used in bidirectional relations between classes, does tha
 When a command definition gets an object with a class, this seems to create a relation between the command and the class definition. This means, that the class definition might also get a reference back to the command.
 
 It looks like, when you turn a command into an executable object, without any additional effort automatically seems establishes the interchangeability between class commands and command parameters. That was an unexpected turn. If two seemingly independent concepts confirm each other, maybe it's on the right track.
-### **Products**
+
+
+Products
+--------
+
 At the beginning of the project, the amount of articles to produce or adapt was **47**.
 
 Eventually the amount of articles produced or adapted was **27**.
@@ -118,7 +131,11 @@ that used the terms input and output.
 \> Also there in the eventual list.
 
 The original list did not include the idea of Joint Display of Access Connectors & Object Relations.
-### **Means**
+
+
+Means
+-----
+
 The idea was set aside, that parameter notations might have discrepancies with automatic containment.
 
 The idea was set aside, that the notation of automatic containment for relations was not much worked out yet.
@@ -134,7 +151,11 @@ Some key phrases out of the super-project description:
 \- Maybe do not go for producing the articles as fast as possible.
 
 \- Consider to not dismiss an idea, when it might not be easy to work out.
-### **Reflection**
+
+
+Reflection
+----------
+
 This reflection attempts to sum up which turns were taken in the project.
 
 At first there were the following pieces of material to organize and turn into a single Parameter documentation section:
@@ -206,7 +227,10 @@ The last phase in the project, was wrapping up the project.
 In this project things were stressful at work. It influenced the amount of time that could be put in it in spare time, and it influenced clarity in the head.
 
 It was quite a difficult project. Needing to dig deep to try and come up with the right ideas.
-### **Project Steps**
+
+Project Steps
+-------------
+
 #### *Preparation Work Parameters*
 (0h)
 

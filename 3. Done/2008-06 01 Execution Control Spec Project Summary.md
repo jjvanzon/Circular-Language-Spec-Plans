@@ -1,28 +1,40 @@
-﻿**Circle Language Spec Plan
-Execution Control Spec
-2008-06
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Execution Control Spec | 2008-06 | Project Summary
+=============================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Super-Project
+--------------
 
-### **Super-Project**
 Circle Language Spec
-### **Main Goal**
+
+
+Main Goal
+---------
+
 The goal was to work out the execution control articles.
-### **Side-Goals**
+
+
+Side-Goals
+----------
+
 A side-goal was to take a break from the project *Classes & Relationships Specs*.
 
 During the project clues were found about *automatic containment* and other command topics. Those ideas would later be used in the project *Commands as a Concept Spec*. 
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 June 6, 2008 – June 12, 2008
 
 1 week
 
 34 ½ hours of work
-### **Products**
+
+
+Products
+--------
+
 The following **44** articles were produced:
 
 *Execution Control*  articles

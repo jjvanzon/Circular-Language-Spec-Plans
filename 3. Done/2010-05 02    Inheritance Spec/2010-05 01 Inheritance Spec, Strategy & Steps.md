@@ -1,22 +1,16 @@
-﻿
-***Circle Language Spec
-Inheritance Spec
-
-2010-05
-
-Strategy & Steps***
-=======================
+﻿Circle Language Spec | Inheritance Spec | 2010-05 | Strategy & Steps
+===================================================================
 
 
-*Author: JJ van Zon*
+Purpose of this Document
+------------------------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: May 18, 2010 – July 16, 2010*
-
-## **Purpose of this Document**
 This document is not meant as reading material. It is a list of steps undertaken in the project, later serving as a reference for how the project was executed.
-## **Strategy**
+
+
+Strategy
+--------
+
 \- Improvise
 
 \- Use same strategy as the previous project and see if it works.
@@ -27,7 +21,11 @@ This document is not meant as reading material. It is a list of steps undertaken
 First it was thought that object resolution might also be finished up in this project, but this idea was let go of.
 
 \- The next project will be about working towards an implementation phase as soon as possible.
-## **Steps**
+
+
+Steps
+-----
+
 \- Short Brainstorm
 
 \- Read over strategy from previous project
@@ -189,4 +187,3 @@ Deeper Specialization
 \- Make entry in project list tidy
 
 \- Update article in parent folder
-`	 `PAGE 4 /  NUMPAGES 4

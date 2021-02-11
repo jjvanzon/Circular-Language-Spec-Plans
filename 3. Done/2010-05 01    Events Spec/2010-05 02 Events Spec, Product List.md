@@ -1,20 +1,16 @@
-﻿Circle Language Spec Plan | Events Spec
-=======================================
+﻿Circle Language Spec Plan | Events Spec | 2010-05 | Products
+============================================================
 
-2010-05
-========
+
+Purpose of this document
+------------------------
+
+The goal and strategy of the job was already described in the strategy document. The current document gives an overview of the realized products.
+
 
 Products
-========
+---------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: May 14, 2010*
-## **Purpose of this document**
-The goal and strategy of the job was already described in the strategy document. The current document gives an overview of the realized products.
-## **Products**
 The following was produced:
 
 *Events articles*
@@ -94,4 +90,3 @@ Misc topics:
 *- Black Boxing Events*
 
 *- Event Alternatives*
-`	 `PAGE 2 /  NUMPAGES 3

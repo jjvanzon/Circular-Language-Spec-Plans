@@ -1,23 +1,16 @@
-﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs
-===============================================================================
+﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Wrap-Up
+===================================================================================================
 
-2009-09
-=======
 
-Wrap-Up
-=======
+Purpose of This Document
+------------------------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: September 10, 2009 – September 26, 2009*
-
-*Status: nearly finished*
-
-## **Purpose of This Document**
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over litterly. Later it serves as a reference for looking up how exactly something was done.
-## **Custom Issues**
+
+
+Custom Issues
+-------------
+
 \- Change goal description
 
 \- Cross-out loose some issues
@@ -49,7 +42,11 @@ This document is a checklist for software development-related work, for a good a
 \- Black Box articles
 
 \- Parameters articles
-## **Isolate Version Checklist**
+
+
+Isolate Version Checklist
+-------------------------
+
 \- Isolate a version of the documentation
 
 \- Documentation folders:
@@ -73,9 +70,11 @@ This document is a checklist for software development-related work, for a good a
 \- Details:
 
 \- Make sure you mention in the Black Box version description, what specifically still needs to change.
-## **Documentation Last Issues Checklist**
+
+
+Documentation Last Issues Checklist
+-----------------------------------
+
 \- Tidy up software development project plan documents
 
 \- Make entry in project list tidy
-
-`	 `PAGE 2 /  NUMPAGES 2

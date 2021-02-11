@@ -1,24 +1,32 @@
-﻿**Circle Language Spec Plan
-Assignment Spec
-2008-07
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Assignment Spec | 2008-07 | Project Summary
+======================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Super-Project
+-------------
 
-### **Super-Project**
 Circle Language Spec, Command as a Concept Spec
-### **Goal**
+
+
+Goal
+----
+
 Work out the Assignment article group, as it might be needed for working out Commands as a Concept.
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 July 24, 2008 – July 28, 2008
 
 5 days
 
 12 hours of work
-### **Products**
+
+
+Products
+--------
+
 The following was produced:
 
 **32** articles were produced
@@ -116,7 +124,11 @@ Other work: **(1)**
 Isolate Storage Principles
 
 (Has nothing to do with the project, but It might be nice to do that too.)
-### **Project Steps**
+
+
+Project Steps
+-------------
+
 The notation for assignment was made simpler.
 
 Command assignments was made the same as object assignments.
@@ -395,5 +407,3 @@ then the object itself might be assigned as a class.
 If an object does not have an interface,
 
 then the object itself might be assigned as an interface
-
-

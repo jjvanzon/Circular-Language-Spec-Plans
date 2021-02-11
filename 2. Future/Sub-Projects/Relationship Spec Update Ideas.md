@@ -1,6 +1,5 @@
 Circle Language Spec Plan, Relationships Spec Update Ideas
 ======================================================
-*JJ van Zon, The Netherlands, 2020-04*
 
 - Relationship Direction
 - Relationships with Pointers

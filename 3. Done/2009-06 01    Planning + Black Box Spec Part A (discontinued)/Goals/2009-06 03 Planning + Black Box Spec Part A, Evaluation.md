@@ -1,22 +1,10 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
-===========================================================
-
-2009-06
-=======
-
-Evaluation
-==========
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Evaluation
+=================================================================================
 
 
-*Author: JJ van Zon*
+Reflection On Strategy, Time Planning & Progress Monitoring
+----------------------------------------------------------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: September 9, 2009 – September 9, 2009*
-
-**Reflection On Strategy, Time Planning
-& Progress Monitoring**
----------------------------------------
 It was not clear at the beginning of the project how much work it was going to be. There was a ton of ideas to organize before you could know the extent of the project.
 
 The project span out of control.
@@ -42,16 +30,22 @@ One thing does need to be mentioned is that the *Planning* part of the project, 
 The current project will be discontinued. The remaining work will be turned into a new project. Right now it is important to get overview over what to do again and any proper planning to it. A new set of work items needs to be made, that are individually well to handle. 
 
 To kick off reprioritising: the System Objects cross-outs was what I was last working on, but that might just have to be given lower priority.
-## **Personal Feeling**
+
+
+Personal Feeling
+-----------------
+
 I was getting an overall feeling of messiness in the time planning and step-by-step planning.
 It did not feel good to work at it anymore. I had lost touch with proportions of work and felt I had lost control over the amount of work. I did not know what laid ahead anymore and how much work it was still going to be. The good in-control feeling you get from finishing up one phase after another was completely gone.
 
 It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That will give you a feeling of getting stuck…
-## **Reflection On Functionality**
+
+
+Reflection On Functionality
+---------------------------
+
 The thing is: the material produced is not that bad. But you were not going straight towards your goal anymore.
 
 The problem was that you took work upon yourself, that took way too much time, while there were other things with higher priority that were not getting done.
 
 You should not feel ashamed for it taking up so much time. It was a LOT of material to organize. But the work should be better managed from now on.
-
-`	 `PAGE 3 /  NUMPAGES 3

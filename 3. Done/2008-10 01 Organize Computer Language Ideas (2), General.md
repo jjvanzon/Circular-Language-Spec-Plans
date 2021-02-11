@@ -1,32 +1,44 @@
-﻿**Organize Computer Language Ideas (2), General,
-Project Summary**
-------------------------------------------------
-
-*Author: Jan-Joost van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: Dcember 22, 2008*
+﻿Organize Computer Language Ideas (2), General | Project Summary 
+==============================================================
 
 *This project is part of a super project.*
 
 *This entire project has an organizational character.*
 
-### **Goal**
+
+Goal
+----
+
 In between projects, process the ideas in the idea box, putting in the right place, and update the project description of the main project.
-### **Super-project**
+
+
+Super-project
+-------------
+
 Organize Computer Language Ideas (2)
-### **Time**
+
+
+Time
+----
+
 October 2, 2008 – October 3, 2008
 
 2 days
 
 4 hours of work
-### **Products**
+
+
+Products
+--------
+
 Ideas out of the idea box were scattered around the documentation, dumped into the development version of the article of the right subject.
 
 The description of the main project New Computer Language Functional Design was updated, mainly its article list.
-### **Project steps**
+
+
+Project steps
+-------------
+
 \- Process idea box
 
 \- Gather ideas
@@ -52,4 +64,3 @@ The description of the main project New Computer Language Functional Design was 
 \- Update main project
 
 Mainly its article list
-

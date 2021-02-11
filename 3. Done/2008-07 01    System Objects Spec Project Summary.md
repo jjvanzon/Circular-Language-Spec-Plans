@@ -1,28 +1,36 @@
-﻿**Circle Language Spec Plan
-System Objects Spec
-2008-07
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | System Objects Spec | 2008-07 | Project Summary
+=========================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Super-Project
+-------------
 
-### **Super-Project**
 Circle Language Spec, Command as a Concept Spec
-### **Goal**
+
+
+Goal
+----
+
 The System Objects articles were worked out,
 
 to later build upon when working out the Assignment articles,
 
 to later build upon when working out the Commands articles.
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 July 14, 2008 – July 24, 2008
 
 11 days
 
 32 hours of work
-### **Products**
+
+
+Products
+--------
+
 The following was produced:
 
 *System Objects article group*
@@ -108,7 +116,11 @@ version  *2008-07-24 00  2.0*
 *System Objects Summary*
 
 *System Objects Summary in a Diagram*
-### **Project Steps**
+
+
+Project Steps
+-------------
+
 \- Created an article for each term
 
 \- Read over articles
@@ -118,7 +130,11 @@ version  *2008-07-24 00  2.0*
 \- Created diagram notation articles
 
 \- Covered details
-### **Reflection**
+
+
+Reflection
+----------
+
 Quite a lot seems to be involved.
 
 The system objects might be the getters and setters of the Circle language. That's one way of looking at it.
@@ -130,9 +146,14 @@ The system objects are like an idea for a base of a run-time, but in its ideas s
 Sometimes progress seemed slower, by first doing the conceptual explanation and after that do all the diagram notation articles. When working on the diagram notations, progress seemed slow, because of the feeling: "I already did this with the conceptual explanation."
 
 But that seemed the way to do it for the System Objects articles, because the conceptual explanation was created from a brainstorm text, that was later split up into topics. Then pieces of text were dropped into the articles, and after that, the text was reformulated. And then, the diagram notation had yet to be come up with.
-### **Notes during the Project**
+
+Notes during the Project
+------------------------
+
 #### *Functional Aspects*
+
 ##### *System Objects*
+
 \- Renamed the whole concept of System Interface to System Objects.
 
 \- Adapted the articles:

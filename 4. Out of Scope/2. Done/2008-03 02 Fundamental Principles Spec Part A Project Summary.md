@@ -1,27 +1,40 @@
 ﻿Circle Language Spec Plan | Fundamental Principles Spec Part A | 2008-03 | Project Summary
 ==========================================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
-
-### **Introduction**
+Introduction
+------------
 This is a super-project, consisting of multiple sub-projects.
-### **Goal**
+
+
+Goal
+----
 Documented some of fundamental principles for the new programming language.
 
 Not all fundamental principles were documented in this project. Only about half of the subjects were covered. This is because a number of fundamental principles could use some clearing up on other subjects first.
 
 That’s why the follow-up project was *Get Clearer View over Difficult Topics*.
-### **Super-Project**
+
+
+Super-Project
+-------------
+
 This is a sub-project of the super-project *Circle Language Spec*.
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 March 5, 2008 – April 13, 2008
 
 5 weeks and 5 days
 
 66 ¾ hours of work
-### **Products**
+
+
+Products
+--------
+
 The following ***16*** articles about fundamental principles for the new programming language were produced:
 
 *Programming Language Programmed Within Itself* 
@@ -113,7 +126,11 @@ version  *2008-04-13 00  1.0*
 *User Interface Not Procedure Oriented*
 
 version  *2008-04-13 00  1.0* 
-### **Sub-projects**
+
+
+Sub-projects
+------------
+
 The work was split up into the following ***9*** sub-projects:
 
 First four articles:

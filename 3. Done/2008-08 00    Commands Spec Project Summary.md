@@ -1,16 +1,14 @@
-﻿**Circle Language Spec Plan
-Commands Spec
-2008-08
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Commands Spec | 2008-08 | Project Summary
+====================================================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
-
-### **Super-Project**
+Super-Project
+-------------
 Circle Language Spec, Command as a Concept Spec
-### **Goal**
+
+
+Goal
+----
 Working out the basic command topics.
 
 Not going deeply into parameters.
@@ -18,13 +16,21 @@ Not going deeply into parameters.
 Advanced command topics can be left out.
 
 One of the main issues worked out in this project would be commands being 'as free' as an object.
-### **Date & Time**
+
+
+Date & Time
+-----------
+
 June 28, 2008 – August 31, 2008
 
 1 month and 3 days
 
 **120** hours of work
-### **Means**
+
+
+Means
+-----
+
 Something challenging was to come up with the creation behavior of calls.
 
 Several times the article list changed.
@@ -34,7 +40,11 @@ At one point a change in style was to try and isolate rules into separate articl
 That helped shape the content.
 
 In the end it seemed more work than initially thought.
-### **Products**
+
+
+Products
+--------
+
 At the beginning of the project, the amount of articles to produce or adapt was **43**.
 
 Eventually the amount of articles produced or adapted was **110**.
@@ -280,4 +290,3 @@ version  *2008-08-31 00  2.0x*
 use of object lines and class lines for commands seems changed now
 
 **Nothing**, **Public**, **Private**.
-

@@ -1,13 +1,12 @@
 ﻿Circle Language Spec Plan | Text Code Spec | Project Summary
 ===========================================================
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
 *Date: 2008*
 
-### **Brainstorm**
+
+Brainstorm
+----------
+
 Before this project, most coding concepts would probably have been worked out.
 
 The diagrammatic expression of those coding concepts may also have been described.

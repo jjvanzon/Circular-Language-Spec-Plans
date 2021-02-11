@@ -1,13 +1,11 @@
 ﻿Circle Language Spec Plan | Concept Construct Spec | Project Summary
 ==================================================================
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
 *Date: 2008*
 
-### **Brainstorm**
+Brainstorm
+----------
+
 The reason for the sub-project Work Out Concepts As External Modules was that it is has a crucial role in a possibly powerful concept of 'aspects' (which I called 'concepts').
 
 But I already have an idea how concepts as external modules will be, and even though it then is important to document it, another idea was so unclear, that it drove me mad.

@@ -1,331 +1,20 @@
 ﻿Circle Language Spec Revamp Notes 2019-08
 =========================================
 
-*Author: JJ van Zon*
 
-*Location: Oosterhout, The Netherlands*
+Project Outline
+---------------
 
-*Date: August, 2019 – April 2020*
-## **Contents**
-` `TOC \h \z \t "Heading 2,1,Heading 3,2" [Contents	 PAGEREF _Toc58162900 \h 1](#_Toc58162900)
-
-[Project Outline	 PAGEREF _Toc58162901 \h 1](#_Toc58162901)
-
-[Introduction	 PAGEREF _Toc58162902 \h 1](#_Toc58162902)
-
-[Goals	 PAGEREF _Toc58162903 \h 1](#_Toc58162903)
-
-[Limitations	 PAGEREF _Toc58162904 \h 1](#_Toc58162904)
-
-[Steps	 PAGEREF _Toc58162905 \h 1](#_Toc58162905)
-
-[Language Design / Content Changes	 PAGEREF _Toc58162906 \h 1](#_Toc58162906)
-
-[Information	 PAGEREF _Toc58162907 \h 1](#_Toc58162907)
-
-[TODO	 PAGEREF _Toc58162908 \h 1](#_Toc58162908)
-
-[2020-12-05 Notes Splitting off Circle Docs into separate Git Repository	 PAGEREF _Toc58162909 \h 1](#_Toc58162909)
-
-[2020-08-21 Brainstorm Commands Chapter	 PAGEREF _Toc58162910 \h 1](#_Toc58162910)
-
-[2020-05-18 Brainstorm Content Changes for Commands Chapter	 PAGEREF _Toc58162911 \h 1](#_Toc58162911)
-
-[2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article	 PAGEREF _Toc58162912 \h 1](#_Toc58162912)
-
-[2020-06-01 Checklist Tone Change	 PAGEREF _Toc58162913 \h 1](#_Toc58162913)
-
-[2020-04-18 Brainstorm Writing Style	 PAGEREF _Toc58162914 \h 1](#_Toc58162914)
-
-[2020-05-27 Checklist Reformulating Chapters	 PAGEREF _Toc58162915 \h 1](#_Toc58162915)
-
-[2020-06-11 Brainstorm Over-Awareness of Pointers	 PAGEREF _Toc58162916 \h 1](#_Toc58162916)
-
-[2019-08-05 Brainstorm More Pictures	 PAGEREF _Toc58162917 \h 1](#_Toc58162917)
-
-[Postponed	 PAGEREF _Toc58162918 \h 1](#_Toc58162918)
-
-[2020-04-18 Postponed Reword 'Done' Circle Language Spec Planning Docs	 PAGEREF _Toc58162919 \h 1](#_Toc58162919)
-
-[2020-05-27 Postponed Pointers Chapter	 PAGEREF _Toc58162920 \h 1](#_Toc58162920)
-
-[2019-08-05 Postponed Large Lists Problem	 PAGEREF _Toc58162921 \h 1](#_Toc58162921)
-
-[2019-12-29 Postponed Comment Notation	 PAGEREF _Toc58162922 \h 1](#_Toc58162922)
-
-[2019-12-29 Postponed Purity Lost?	 PAGEREF _Toc58162923 \h 1](#_Toc58162923)
-
-[2020-05-12 Postponed Fully OO?	 PAGEREF _Toc58162924 \h 1](#_Toc58162924)
-
-[2019-08-27 Postponed Simpler Rules	 PAGEREF _Toc58162925 \h 1](#_Toc58162925)
-
-[2019-08-05 Postponed Mixed Writing Style Issues	 PAGEREF _Toc58162926 \h 1](#_Toc58162926)
-
-[2020-06-18 Postponed Static Notation	 PAGEREF _Toc58162927 \h 1](#_Toc58162927)
-
-[2020-06-24 Postponed Content Changes for Overview Article	 PAGEREF _Toc58162928 \h 1](#_Toc58162928)
-
-[2020-06-01 Postponed Content Changes for Basic Diagram Elements	 PAGEREF _Toc58162929 \h 1](#_Toc58162929)
-
-[2020-06-11 Postponed Content Changes for Objects Chapter	 PAGEREF _Toc58162930 \h 1](#_Toc58162930)
-
-[2020-06-15 Postponed Content Changes for Relationships Chapter	 PAGEREF _Toc58162931 \h 1](#_Toc58162931)
-
-[2020-05-20 Postponed Content Changes for Parameters	 PAGEREF _Toc58162932 \h 1](#_Toc58162932)
-
-[2020-05-20 Postponed Content Changes for Execution Control	 PAGEREF _Toc58162933 \h 1](#_Toc58162933)
-
-[2020-05-20 Postponed Content Changes for Black Boxes	 PAGEREF _Toc58162934 \h 1](#_Toc58162934)
-
-[2020-05-22 Postponed Content Changes for Interfaces	 PAGEREF _Toc58162935 \h 1](#_Toc58162935)
-
-[2020-05-22 Postponed Content Changes for Inheritance	 PAGEREF _Toc58162936 \h 1](#_Toc58162936)
-
-[2020-05-18 Postponed Content Changes for System Objects Chapter	 PAGEREF _Toc58162937 \h 1](#_Toc58162937)
-
-[2020-05-18 Postponed Content Changes for Assignment Article	 PAGEREF _Toc58162938 \h 1](#_Toc58162938)
-
-[2020-07-21 Postponed Content Changes for System Command Call Notations Article	 PAGEREF _Toc58162939 \h 1](#_Toc58162939)
-
-[2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article	 PAGEREF _Toc58162940 \h 1](#_Toc58162940)
-
-[2020-05-22 Postponed Content Changes for Type Control	 PAGEREF _Toc58162941 \h 1](#_Toc58162941)
-
-[2020-05-24 Postponed Content Changes for Object Order	 PAGEREF _Toc58162942 \h 1](#_Toc58162942)
-
-[2020-06-11 Postponed Content Changes for Command and Classes Loosely Coupled	 PAGEREF _Toc58162943 \h 1](#_Toc58162943)
-
-[2020-04-19 Postponed Conversion to MD	 PAGEREF _Toc58162944 \h 1](#_Toc58162944)
-
-[2019-08-05 Brainstorm Open Source	 PAGEREF _Toc58162945 \h 1](#_Toc58162945)
-
-[2020-05-14 Postponed Circle Broader View / Construct Drafts Neater Folders	 PAGEREF _Toc58162946 \h 1](#_Toc58162946)
-
-[2019-12-29 Postponed Circle Broader View / Gap Lifting	 PAGEREF _Toc58162947 \h 1](#_Toc58162947)
-
-[Done	 PAGEREF _Toc58162948 \h 1](#_Toc58162948)
-
-[2020-05-18 Done Content Changes for Commands Chapter	 PAGEREF _Toc58162949 \h 1](#_Toc58162949)
-
-[2020-08-07 Done Commands Chapter	 PAGEREF _Toc58162950 \h 1](#_Toc58162950)
-
-[2020-07-24 Done Reformulating Commands Chapter	 PAGEREF _Toc58162951 \h 1](#_Toc58162951)
-
-[2020-07-22 Done Prioritization for System Objects Chapter	 PAGEREF _Toc58162952 \h 1](#_Toc58162952)
-
-[2020-05-18 Done Content Changes for System Objects Chapter	 PAGEREF _Toc58162953 \h 1](#_Toc58162953)
-
-[2020-07-21 Done Content Changes for System Command Call Notations Article	 PAGEREF _Toc58162954 \h 1](#_Toc58162954)
-
-[2020-07-21 Done Content Changes for System Command Call Notations Article	 PAGEREF _Toc58162955 \h 1](#_Toc58162955)
-
-[2020-05-18 Done Content Changes for System Command Call Notations Article	 PAGEREF _Toc58162956 \h 1](#_Toc58162956)
-
-[2020-07-04 Done Checklist Reformulating Assignment Article	 PAGEREF _Toc58162957 \h 1](#_Toc58162957)
-
-[2020-05-18 Done Content Changes for Assignment Article	 PAGEREF _Toc58162958 \h 1](#_Toc58162958)
-
-[2020-06-26 Done Reformulating System Objects Article	 PAGEREF _Toc58162959 \h 1](#_Toc58162959)
-
-[2020-07-01 Done Content Changes for System Objects Chapter	 PAGEREF _Toc58162960 \h 1](#_Toc58162960)
-
-[2020-06-26 Done Scoping System Objects Article: Move Pointer-to-Pointer Issues	 PAGEREF _Toc58162961 \h 1](#_Toc58162961)
-
-[2020-06-26 Done Brainstorm Next Step	 PAGEREF _Toc58162962 \h 1](#_Toc58162962)
-
-[2020-06-26 Done Reformulating Relationships Chapter	 PAGEREF _Toc58162963 \h 1](#_Toc58162963)
-
-[2020-06-19 Done Deprecating Double Dashed Ring Notation for Relationships	 PAGEREF _Toc58162964 \h 1](#_Toc58162964)
-
-[2020-06-19 Done Brainstorm Bidirectional Relationship Notation	 PAGEREF _Toc58162965 \h 1](#_Toc58162965)
-
-[2020-06-18 Done Brainstorm Reconsidering Writing Style	 PAGEREF _Toc58162966 \h 1](#_Toc58162966)
-
-[2020-06-15 Done Content Changes for Relationships Chapter	 PAGEREF _Toc58162967 \h 1](#_Toc58162967)
-
-[2020-06-15 Done Scoping/Changing Relationships Sections	 PAGEREF _Toc58162968 \h 1](#_Toc58162968)
-
-[2020-06-15 Done Reformulating Relationships Chapter	 PAGEREF _Toc58162969 \h 1](#_Toc58162969)
-
-[2020-06-14 Done Reformulating Relationships Chapter	 PAGEREF _Toc58162970 \h 1](#_Toc58162970)
-
-[2020-06-14 Done Checklist Reformulating Relationships Chapter	 PAGEREF _Toc58162971 \h 1](#_Toc58162971)
-
-[2020-05-25 Done Brainstorm Content Changes for Relationships	 PAGEREF _Toc58162972 \h 1](#_Toc58162972)
-
-[2020-06-11 Done Reformulating Classes Chapter	 PAGEREF _Toc58162973 \h 1](#_Toc58162973)
-
-[2020-06-11 Done Content Changes for Classes Chapter	 PAGEREF _Toc58162974 \h 1](#_Toc58162974)
-
-[2020-06-11 Done Reformulating Classes Chapter	 PAGEREF _Toc58162975 \h 1](#_Toc58162975)
-
-[2020-06-11 Done Content Changes for Objects Chapter	 PAGEREF _Toc58162976 \h 1](#_Toc58162976)
-
-[2020-06-07 Done Reformulating Objects Chapter	 PAGEREF _Toc58162977 \h 1](#_Toc58162977)
-
-[2020-06-07 Done Content Changes for Objects Chapter	 PAGEREF _Toc58162978 \h 1](#_Toc58162978)
-
-[2020-06-01 Done Reformulating Basic Diagram Elements	 PAGEREF _Toc58162979 \h 1](#_Toc58162979)
-
-[2020-06-01 Done Content Changes for Basic Diagram Elements	 PAGEREF _Toc58162980 \h 1](#_Toc58162980)
-
-[2020-05-31 Done Reformulating Circle Language Spec Overview	 PAGEREF _Toc58162981 \h 1](#_Toc58162981)
-
-[2020-05-28 Done Content Changes for Circle Language Spec Overview	 PAGEREF _Toc58162982 \h 1](#_Toc58162982)
-
-[2020-05-31 Done Wiggle Word Difficulty	 PAGEREF _Toc58162983 \h 1](#_Toc58162983)
-
-[2019-08-05 Done New Intro	 PAGEREF _Toc58162984 \h 1](#_Toc58162984)
-
-[2020-05-28 Done New Intro	 PAGEREF _Toc58162985 \h 1](#_Toc58162985)
-
-[2020-05-28 Done Brainstorm New Intro: Word Stress	 PAGEREF _Toc58162986 \h 1](#_Toc58162986)
-
-[2020-05-27 Done Brainstorm Priorities	 PAGEREF _Toc58162987 \h 1](#_Toc58162987)
-
-[2019-08-05 Done Writing Style Mixed Issues	 PAGEREF _Toc58162988 \h 1](#_Toc58162988)
-
-[2019-08-05 Done Brainstorm Scope	 PAGEREF _Toc58162989 \h 1](#_Toc58162989)
-
-[2020-05-24 Done Notes Planning	 PAGEREF _Toc58162990 \h 1](#_Toc58162990)
-
-[2020-05-24 Done Merge More Articles	 PAGEREF _Toc58162991 \h 1](#_Toc58162991)
-
-[2020-05-27 Done Merging More Commands Articles Together	 PAGEREF _Toc58162992 \h 1](#_Toc58162992)
-
-[2020-05-26 Done Merging More System Objects Articles Together	 PAGEREF _Toc58162993 \h 1](#_Toc58162993)
-
-[2020-05-25 Done Merging More Relationships Articles Together	 PAGEREF _Toc58162994 \h 1](#_Toc58162994)
-
-[2020-05-16 Done Formatting and Article Merging and Distributing	 PAGEREF _Toc58162995 \h 1](#_Toc58162995)
-
-[2020-05-24 Done Merging and Redistributing Remaining Articles	 PAGEREF _Toc58162996 \h 1](#_Toc58162996)
-
-[2020-05-23 Done Merging Inheritance Articles Together	 PAGEREF _Toc58162997 \h 1](#_Toc58162997)
-
-[2020-05-22 Done Merging Events Articles Together	 PAGEREF _Toc58162998 \h 1](#_Toc58162998)
-
-[2020-05-22 Done Merging Interfaces Articles Together	 PAGEREF _Toc58162999 \h 1](#_Toc58162999)
-
-[2020-05-20 Done Merging Black Boxes Articles Together	 PAGEREF _Toc58163000 \h 1](#_Toc58163000)
-
-[2020-05-20 Done Merging Execution Control Articles Together	 PAGEREF _Toc58163001 \h 1](#_Toc58163001)
-
-[2020-05-20 Done Merging Parameters Articles Together	 PAGEREF _Toc58163002 \h 1](#_Toc58163002)
-
-[2020-05-18 Done Merging Commands Articles Together	 PAGEREF _Toc58163003 \h 1](#_Toc58163003)
-
-[2020-05-18 Done Merging System Objects Articles Together	 PAGEREF _Toc58163004 \h 1](#_Toc58163004)
-
-[2020-05-16 Done Reorganize Circle Language Spec Files	 PAGEREF _Toc58163005 \h 1](#_Toc58163005)
-
-[2020-05-14 Done Split Up Circle Docs	 PAGEREF _Toc58163006 \h 1](#_Toc58163006)
-
-[2020-05-10 Done Brainstorm Effort	 PAGEREF _Toc58163007 \h 1](#_Toc58163007)
-
-[2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs	 PAGEREF _Toc58163008 \h 1](#_Toc58163008)
-
-[2020-03-22 Do Not Do: Circle 3 Programming Planning Docs	 PAGEREF _Toc58163009 \h 1](#_Toc58163009)
-
-[2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs	 PAGEREF _Toc58163010 \h 1](#_Toc58163010)
-
-[2020-01-13 Do Not Do: Brainstorm Aspects / Concepts	 PAGEREF _Toc58163011 \h 1](#_Toc58163011)
-
-[2020-04-13 Done Brainstorm Scope	 PAGEREF _Toc58163012 \h 1](#_Toc58163012)
-
-[2020-05-08 Done Brainstorm Priorities	 PAGEREF _Toc58163013 \h 1](#_Toc58163013)
-
-[2020-05-10 Done Scoping: Symbol Language and Software System Planning Docs	 PAGEREF _Toc58163014 \h 1](#_Toc58163014)
-
-[2020-04-18 Done Brainstorm Writing Style	 PAGEREF _Toc58163015 \h 1](#_Toc58163015)
-
-[2020-04-18 Done Reword 2008-07 02    Assignment Spec Project Summary.docx	 PAGEREF _Toc58163016 \h 1](#_Toc58163016)
-
-[2020-04-18 Done Reword 2008-05 02 Classes & Relationships Specs Project Summary.docx	 PAGEREF _Toc58163017 \h 1](#_Toc58163017)
-
-[2020-04-18 Done Reword 2008-06 02 Command as a Concept Spec Project Summary.docx	 PAGEREF _Toc58163018 \h 1](#_Toc58163018)
-
-[2020-04-18 Done Reword 2008-06 03    Clarify Command as a Concept Spec Project Summary.docx	 PAGEREF _Toc58163019 \h 1](#_Toc58163019)
-
-[2020-04-18 Done Reword 2008-07 01    System Objects Spec Project Summary.docx	 PAGEREF _Toc58163020 \h 1](#_Toc58163020)
-
-[2020-04-18 Done Reword The Done Circle Language Spec Planning Docs	 PAGEREF _Toc58163021 \h 1](#_Toc58163021)
-
-[2020-04-18 Done Circle Language Spec Planning Docs: Reword Main Project and Future Sub -Projects	 PAGEREF _Toc58163022 \h 1](#_Toc58163022)
-
-[2020-04-18 Done Circle Language Spec Planning Docs: Format the Project Summaries	 PAGEREF _Toc58163023 \h 1](#_Toc58163023)
-
-[2020-04-15 Done Circle Language Spec Planning Docs	 PAGEREF _Toc58163024 \h 1](#_Toc58163024)
-
-[2020-04-13 Done Circle Language Spec Planning Docs	 PAGEREF _Toc58163025 \h 1](#_Toc58163025)
-
-[2020-04-09 Done Explore (Content) Search Options	 PAGEREF _Toc58163026 \h 1](#_Toc58163026)
-
-[2020-04-01 Done Circle Language Spec Planning Docs	 PAGEREF _Toc58163027 \h 1](#_Toc58163027)
-
-[2020-04-01 Done Circle Language Spec Planning Docs	 PAGEREF _Toc58163028 \h 1](#_Toc58163028)
-
-[2020-04-01 Done Circle Language Spec Planning Docs	 PAGEREF _Toc58163029 \h 1](#_Toc58163029)
-
-[2020-03-22 Done Project Names	 PAGEREF _Toc58163030 \h 1](#_Toc58163030)
-
-[2020-03-22 Done Organize Planning Docs	 PAGEREF _Toc58163031 \h 1](#_Toc58163031)
-
-[2020-03-16 Done Circle 3 Requirements Docs	 PAGEREF _Toc58163032 \h 1](#_Toc58163032)
-
-[2020-03-15 Done	 PAGEREF _Toc58163033 \h 1](#_Toc58163033)
-
-[2020-03-08 Done Reading Circle 3 Requirements Docs	 PAGEREF _Toc58163034 \h 1](#_Toc58163034)
-
-[2020-03-07 Done No Planning or Docs Back Then	 PAGEREF _Toc58163035 \h 1](#_Toc58163035)
-
-[2020-02-23 Done Reading Circle 3 Strategy	 PAGEREF _Toc58163036 \h 1](#_Toc58163036)
-
-[2020-02-20 Done	 PAGEREF _Toc58163037 \h 1](#_Toc58163037)
-
-[2020-02-16 Done Notes	 PAGEREF _Toc58163038 \h 1](#_Toc58163038)
-
-[2020-02-13 Done Notes	 PAGEREF _Toc58163039 \h 1](#_Toc58163039)
-
-[2020-01-13 Done Notes	 PAGEREF _Toc58163040 \h 1](#_Toc58163040)
-
-[2020-01-30 Done Notes	 PAGEREF _Toc58163041 \h 1](#_Toc58163041)
-
-[2020-01-04 Done Rough Plan	 PAGEREF _Toc58163042 \h 1](#_Toc58163042)
-
-[2019-12-29 Done Brainstorm Scope: Diagrams / Constructs / Gap Lifting	 PAGEREF _Toc58163043 \h 1](#_Toc58163043)
-
-[2019-12-29 Done Scope: Diagram Topics	 PAGEREF _Toc58163044 \h 1](#_Toc58163044)
-
-[2019-12-29 Done Brainstorm Scope (Useful)	 PAGEREF _Toc58163045 \h 1](#_Toc58163045)
-
-[2019-12-29 Done Brainstorm Scope	 PAGEREF _Toc58163046 \h 1](#_Toc58163046)
-
-[2019-12-15 Done	 PAGEREF _Toc58163047 \h 1](#_Toc58163047)
-
-[2019-08-10 Done Brainstorm complexity in preserving rename history	 PAGEREF _Toc58163048 \h 1](#_Toc58163048)
-
-[2019-08-11 Done Basic Math Version Folder to Source Control History?	 PAGEREF _Toc58163049 \h 1](#_Toc58163049)
-
-[2019-08-11 Done Controls Concepts Version Folders to Source Control History	 PAGEREF _Toc58163050 \h 1](#_Toc58163050)
-
-[2019-08-05 Done Brainstorm Restructuring Docs	 PAGEREF _Toc58163051 \h 1](#_Toc58163051)
-
-[2019-08-04 Done Notes converting version folders to source control history	 PAGEREF _Toc58163052 \h 1](#_Toc58163052)
-
-[2019-08-05 Done Version Control	 PAGEREF _Toc58163053 \h 1](#_Toc58163053)
-
-[2008-08-31 Done Writing Style Ideas	 PAGEREF _Toc58163054 \h 1](#_Toc58163054)
-
-
-## **Project Outline**
 ### ***Introduction***
+
 Circle is an unfinished programming language.
 
 I spent thousands of hours spread out over a few decades with this idea of how to visually express the internals of computers and programming languages.
 
 Circle Language Spec is an unfinished programming language design. The same folder of docs contain texts about all sorts of software applications. But this project 'Circle Language Spec Revamp' is really about the programming language specification.
+
 ### ***Goals***
+
 - 'Soft' goals:
   - Work on project that seems to matter.
   - Keep my head occupied with something else.
@@ -408,7 +97,11 @@ Circle Language Spec is an unfinished programming language design. The same fold
     - <https://word2md.com> 
   - Thesaurus: <https://www.thesaurus.com/>
   - Google Translate: <https://translate.google.com/>
-## **TODO**
+
+
+TODO
+----
+
 ### ***2021-02-09 TODO MarkDown***
 - [x] Trying MarkDown with images.
   - [x] URL's seem case sensitive on GitHub.
@@ -427,7 +120,11 @@ Circle Language Spec is an unfinished programming language design. The same fold
   - [ ] Removing word documents
 - [ ] Readme's?
 - [ ] Just publishing it?
-## **Done**
+
+
+Done
+----
+
 ### ***2019-08-05 Done Open Source***
 - [x] How do you even license documentation?
   - [x] I wanted to throw an MIT license against it, but that is for code… hmm…
@@ -2629,7 +2326,11 @@ might change as such and have diagram expression
 be more present in the conceptual explanations.
 
 JJ
-## **Postponed**
+
+
+Postponed
+---------
+
 ### ***2020-08-21 Postponed Commands Chapter***
 - Moving or removing marked out texts.
 - An additional reformulation phase might be appropriate.

@@ -1,26 +1,23 @@
-﻿
-***Circle Language Spec Plan
-Review by Brother
-(Out of Scope)
-
-2009-08
-
-Small Plan***
-============================
+﻿Circle Language Spec Plan | Review by Brother (Out of Scope) | 2009-08 | Small Plan
+===================================================================================
 
 
-*Author: JJ van Zon*
+Parent Project
+--------------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: July 29, 2009 – August 18, 2009*
-## **Parent Project**
 Circle Language Spec
-## **Goal**
+
+
+Goal
+----
+
 *This document only has the notes taken out of the original document about the Circle Language Spec review, because the topics are now out of scope of Circle Language Spec.* 
 
 \- Get more respect for what I do from family
-## **General Planning**
+
+
+General Planning
+-----------------
 
 Presentation:
 
@@ -100,7 +97,10 @@ Het ging erom het zo makkelijk mogelijk goed werkend te krijgen.”
 
 \- C++ Generator 0.9
 
-## **Reflection**
+
+Reflection
+----------
+
 The documentation of the Software System framework introduction was covered almost completely.
 
 The following concepts were covered:
@@ -112,5 +112,3 @@ Reflection on the goals:
 \- Get more respect for what I do from family
 
 Respect from the family is probably just pending. But I guess my father was more convinced now.
-
-

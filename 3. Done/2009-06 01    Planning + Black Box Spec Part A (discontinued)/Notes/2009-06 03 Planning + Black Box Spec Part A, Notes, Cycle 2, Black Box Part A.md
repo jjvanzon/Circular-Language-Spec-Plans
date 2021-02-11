@@ -1,28 +1,26 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
-===========================================================
-
-2009-06
-=======
-
-Cycle 2: Black Box Part A
-=========================
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 2: Black Box Part A
+==================================================================================================
 
 
-*Author: JJ van Zon*
+Purpose of This Document
+------------------------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: June 26, 2009 – September 10, 2009*
-
-## **Purpose of This Document**
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over litterly. Later it serves as a reference for looking up how exactly something was done.
-## **Rough Plan**
+
+
+Rough Plan
+----------
+
 \- Reach goal  **(3)**
 
 \- Organize ideas (29 pages)
 
 \- Work out the implementation in mind now
-## **Approach**
+
+
+Approach
+--------
+
 \- Existing material:
 
 \- The bulk of ideas inside the existing article
@@ -61,7 +59,11 @@ By rule you should not do that.
 `  `but you should not keep those contemplations in the documentation.
 
 \- I think some ideas just need to be deleted, because they introduce discussion where no discussion is required. It introduces confusion.
-## **Steps**
+
+
+Steps
+-----
+
 \- Organize ideas
 
 \- Go through idea list (29 pages)
@@ -214,5 +216,3 @@ but not Object Set Class or Object Use As Class
 \> Those are completely left out of the plan here.
 
 \- Left-over ideas will be processed later like a cross-out list later.
-
-`	 `PAGE 4 /  NUMPAGES 4

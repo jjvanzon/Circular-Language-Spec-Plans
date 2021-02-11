@@ -1,19 +1,10 @@
-﻿Circle Language Spec Plan | Interfaces Spec
-==========================================
-
-2010-02
-=======
-
-Steps
-=====
+﻿Circle Language Spec Plan | Interfaces Spec | 2010-02 | Steps
+=============================================================
 
 
-*Author: JJ van Zon*
+Custom Plan
+-----------
 
-*Location: Oosterhout, The Netherlands*
-
-*Date: February 15, 2010 – May 9, 2010*
-## **Custom Plan**
 \- Setup project folders
 
 \- Set out strategy
@@ -95,7 +86,11 @@ Steps
 \- Put the version in the products document
 
 \- Really wrap up project documentation
-## **Topic List**
+
+
+Topic List
+-----------
+
 \- Interfaces main concepts
 
 \> Easy
@@ -123,4 +118,3 @@ Steps
 \- Harder:
 
 \- Group by source
-`	 `PAGE 3 /  NUMPAGES 3

@@ -1,23 +1,22 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
-============================================================
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment A
+==================================================================================================================
 
-2009-06
-=======
 
-Cycle 3: Redo System Objects & Assignment A
-===========================================
+Purpose of This Document
+------------------------
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: June 26, 2009 – September 10, 2009*
-
-## **Purpose of This Document**
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
-## **Reflection**
+
+
+Reflection
+----------
+
 This phase is where it went wrong. Work spiraled out of control.
-## **Rough Plan**
+
+
+Rough Plan
+----------
+
 Black boxing has a lot to do with assignment and system aspects. The black boxing notations need to match with the assignment notation and the system objects notation, so you have to make the notation in the Assignment articles and in the System Objects articles ok.
 
 \- Update Assignment Articles
@@ -31,7 +30,10 @@ Black boxing has a lot to do with assignment and system aspects. The black boxin
 Also, parts out of the Black Boxing documentation need to be moved to the Assignment and System Objects articles, where they belong.
 
 In the end, the Assignment articles were integrated into the System Objects article group, because it was easier to explain those together.
-## **Approach**
+
+
+Approach
+---------
 I introduce things in wrongly composed chunks in the System Objects documentation.
 
 \- What I am missing is immediate overview of System Objects (e.g. Related Item, List Item),
@@ -64,8 +66,13 @@ This should be the new order:
 `    `> Without system commands in it?
 
 \- System commands in the system interface notation
-## **Steps**
+
+
+Steps
+-----
+
 ### ***Additions***
+
 X Object-Bound and Reference-Bound
 
 `    `X Moet naar daar verplaatst worden.

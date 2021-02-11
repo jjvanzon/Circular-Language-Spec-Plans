@@ -1,22 +1,14 @@
-﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs
-================================================================================
-
-2009-09
-=======
-
-Startup
-=======
+﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Startup
+==================================================================================================
 
 
-*Author: JJ van Zon*
-
-*Location: Oosterhout, The Netherlands*
-
-*Date: September 10, 2009 – September 10, 2009*
-
-## **Purpose of This Document**
+Purpose of This Document
+------------------------
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over litterly. Later it serves as a reference for looking up how exactly something was done.
-## **Orientation Checklist**
+
+
+Orientation Checklist
+---------------------
 \- Create a new project out of it and start planning.
 
 \- Do not hold on too much to original step plannings and project-related brainstorms. Make an entirely new plan.
@@ -55,5 +47,3 @@ You can really only make a good estimation of the time-cost after the research p
 \- Make the second (initial) plan. Isolate a version of that. You are going to adapt the plan again during the research phase.
 
 \- Brainstorm about solutions
-
-`	 `PAGE 2 /  NUMPAGES 2
