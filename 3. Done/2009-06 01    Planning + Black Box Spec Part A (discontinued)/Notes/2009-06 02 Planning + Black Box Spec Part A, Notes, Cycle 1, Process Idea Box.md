@@ -1,12 +1,11 @@
-﻿`		`*New Computer Language Functional Design, Planning + Black Box A, Cycle 1: Process Idea Box*
-
-***Circle Language Spec Plan
-Planning + Black Box Spec Part A
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
+============================================================
 
 2009-06
+=======
 
-Cycle 1: Process Idea Box***
-================================
+Cycle 1: Process Idea Box
+=========================
 
 
 *Author: JJ van Zon*

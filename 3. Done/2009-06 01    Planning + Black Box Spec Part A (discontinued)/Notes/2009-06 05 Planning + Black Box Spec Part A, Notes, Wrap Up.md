@@ -1,12 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Planning + Black Box Spec Part A
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
+============================================================
 
 2009-06
+=======
 
-Wrap Up***
-================================
-
+Wrap Up
+=======
 
 *Author: JJ van Zon*
 

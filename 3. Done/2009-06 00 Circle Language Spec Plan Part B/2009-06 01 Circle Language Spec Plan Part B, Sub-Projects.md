@@ -1,9 +1,8 @@
-﻿***Circle Language Spec Plan Part B 
-2009-06
+﻿Circle Language Spec Plan Part B 2009-06
+=======================================
 
-Sub-Projects***
-====================================
-
+Sub-Projects
+============
 
 *Author: JJ van Zon*
 

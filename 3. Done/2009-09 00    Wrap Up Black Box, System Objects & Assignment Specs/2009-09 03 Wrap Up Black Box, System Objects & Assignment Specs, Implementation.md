@@ -1,13 +1,11 @@
-﻿`		`*New Computer Language Functional Design Wrap Up Black Box, System Objects & Assignment, Startup Research*
-
-***Circle Language Spec Plan
-Wrap Up Black Box, System Objects & Assignment Specs
+﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs
+==============================================================================
 
 2009-09
+========
 
-Implementation***
-====================================================
-
+Implementation
+==============
 
 
 *Author: JJ van Zon*

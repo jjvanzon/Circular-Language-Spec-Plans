@@ -1,9 +1,5 @@
-﻿`		`*Circle Language Spec Revamp Notes 2019-08*
-**Circle Language Spec Revamp Notes
-
-2019-08**
-===================================
-
+﻿Circle Language Spec Revamp Notes 2019-08
+=========================================
 
 *Author: JJ van Zon*
 

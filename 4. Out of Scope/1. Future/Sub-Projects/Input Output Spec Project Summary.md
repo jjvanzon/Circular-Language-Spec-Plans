@@ -1,7 +1,5 @@
-﻿**Circle Language Spec Plan
-Input Output Spec
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Input Output Spec | Project Summary
+===============================================================
 
 *Author: JJ van Zon*
 

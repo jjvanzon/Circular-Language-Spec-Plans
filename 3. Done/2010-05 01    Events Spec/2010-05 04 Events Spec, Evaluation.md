@@ -1,12 +1,11 @@
-﻿`		`*Software Development, Work Out Event Articles 2010-05, Evaluation*
-***Circle Language Spec Plan
-Events Spec
+﻿Circle Language Spec Plan | Events Spec
+=======================================
 
 2010-05
+========
 
-Evaluation***
-============================
-
+Evaluation
+==========
 
 *Author: JJ van Zon*
 

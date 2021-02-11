@@ -1,8 +1,5 @@
-﻿**Circle Language Spec Plan 
-Symbol = Creator Spec
-2008-03
-Project Summary**
-----------------------------
+﻿Circle Language Spec Plan | Symbol = Creator Spec | 2008-03 | Project Summary
+=============================================================================
 
 *Author: JJ van Zon*
 

@@ -1,14 +1,14 @@
-﻿`		`*New Computer Language Functional Design, Planning + Black Box A, Elements*
-
-***Circle Language Spec Plan
-Planning + Black Box Spec Part A
+﻿New Computer Language Functional Design, Planning + Black Box A
+==============================================================
 
 2009-06
+=======
 
 Eventual Plan
+=============
 
-Elements***
-================================
+Elements
+========
 
 
 *Author: JJ van Zon*

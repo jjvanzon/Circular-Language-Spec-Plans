@@ -1,7 +1,5 @@
-﻿**Circle Language Spec Plan
-Text Code Spec
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Text Code Spec | Project Summary
+===========================================================
 
 *Author: JJ van Zon*
 

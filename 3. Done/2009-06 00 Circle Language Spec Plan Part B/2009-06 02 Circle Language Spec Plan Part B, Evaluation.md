@@ -1,9 +1,8 @@
-﻿***Circle Language Spec Plan Part B
-2009-06***
-===================================
-#
-# ***Evaluation***
+﻿Circle Language Spec Plan Part B
+================================
 
+Evaluation
+==========
 
 *Author: JJ van Zon*
 

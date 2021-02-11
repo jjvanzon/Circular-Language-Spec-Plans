@@ -1,12 +1,11 @@
-﻿`		`*New Computer Language Functional Design, Work Out Interfaces Articles, Evaluation*
-
-***Circle Language Spec Plan
-Interfaces Spec
+﻿Circle Language Spec Plan | Interfaces Spec
+==========================================
 
 2010-02
+=======
 
-Evaluation***
-============================
+Evaluation
+==========
 
 
 *Author: JJ van Zon*

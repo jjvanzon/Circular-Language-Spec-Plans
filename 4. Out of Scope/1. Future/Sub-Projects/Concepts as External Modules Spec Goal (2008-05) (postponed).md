@@ -1,8 +1,5 @@
-﻿***Circle Language Spec Plan
-2008-05 
-Fundamental Principles
-Concepts as External Modules Spec***
-====================================
+﻿Circle Language Spec Plan | 2008-05 | Fundamental Principles | Concepts as External Modules Spec
+=============================================================================================
 
 
 *Author: JJ van Zon*

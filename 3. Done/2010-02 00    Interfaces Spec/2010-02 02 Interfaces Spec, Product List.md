@@ -1,12 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Interfaces Spec
+﻿Circle Language Spec Plan | Interfaces Spec
+===========================================
 
 2010-02
+=======
 
-Product List***
-============================
-
+Product List
+============
 
 *Author: JJ van Zon*
 

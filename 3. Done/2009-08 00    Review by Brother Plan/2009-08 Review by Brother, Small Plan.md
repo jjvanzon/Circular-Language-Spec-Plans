@@ -1,12 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Review by Brother
+﻿Circle Language Spec Plan | Review by Brother
+============================================
 
 2009-08
+=======
 
-Small Plan***
-============================
-
+Small Plan
+==========
 
 *Author: JJ van Zon*
 

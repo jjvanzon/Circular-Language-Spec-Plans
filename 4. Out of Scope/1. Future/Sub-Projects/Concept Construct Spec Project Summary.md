@@ -1,7 +1,5 @@
-﻿**Circle Language Spec Plan
-Concept Construct Spec
-Project Summary**
----------------------------
+﻿Circle Language Spec Plan | Concept Construct Spec | Project Summary
+==================================================================
 
 *Author: JJ van Zon*
 

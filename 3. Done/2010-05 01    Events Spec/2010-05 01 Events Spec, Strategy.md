@@ -1,12 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Events Spec
+﻿Circle Language Spec Plan | Events Spec
+=======================================
 
 2010-05
+=======
 
-Strategy***
-============================
-
+Strategy
+========
 
 *Author: JJ van Zon*
 

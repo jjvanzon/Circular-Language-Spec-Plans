@@ -1,11 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Inheritance Spec
+﻿Circle Language Spec Plan | Inheritance Spec
+============================================
 
 2010-05
+========
 
-Product List***
-============================
+Product List
+=============
 
 *Author: JJ van Zon*
 

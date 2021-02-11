@@ -1,11 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Wrap Up Black Box, System Objects & Assignment Specs
+﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs
+================================================================================
 
 2009-09
+=======
 
-Startup***
-====================================================
+Startup
+=======
 
 
 *Author: JJ van Zon*

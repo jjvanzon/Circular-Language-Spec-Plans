@@ -1,7 +1,5 @@
-﻿**Circle Language Spec Plan
-Diagrams, Coding Principles & Coding Concepts
-(Out of Scope)**
-=============================================
+﻿Circle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts (Out of Scope)
+======================================================================================
 
 *Author: JJ van Zon*
 

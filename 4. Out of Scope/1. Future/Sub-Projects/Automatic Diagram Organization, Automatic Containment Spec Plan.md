@@ -1,6 +1,5 @@
-﻿**Circle Language Spec Plan
-Automatic Containment**
-===========================
+﻿Circle Language Spec Plan Automatic Containment
+===============================================
 
 *Author: JJ van Zon*
 

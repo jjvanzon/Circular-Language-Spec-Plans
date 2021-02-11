@@ -1,12 +1,11 @@
-﻿
-***Circle Language Spec Plan
-Planning + Black Box Spec Part A
+﻿Circle Language Spec Plan | Planning + Black Box Spec Part A
+============================================================
 
 2009-06
+=======
 
-Cycle 3: Redo System Objects & Assignment A***
-==============================================
-
+Cycle 3: Redo System Objects & Assignment A
+===========================================
 
 *Author: JJ van Zon*
 
