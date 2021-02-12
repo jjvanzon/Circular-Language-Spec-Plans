@@ -13,11 +13,13 @@ and an attempt was made to look at the bigger whole of the computer language.
 
 Super-Project
 -------------
+
 Circle Language Spec, Command as a Concept Spec
 
 
 Date & Time
 -----------
+
 September 1 , 2008 – September 3, 2008
 
 3 days

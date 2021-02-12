@@ -4,11 +4,13 @@
 
 Introduction
 ------------
+
 This is a super-project, consisting of multiple sub-projects.
 
 
 Goal
 ----
+
 Documented some of fundamental principles for the new programming language.
 
 Not all fundamental principles were documented in this project. Only about half of the subjects were covered. This is because a number of fundamental principles could use some clearing up on other subjects first.

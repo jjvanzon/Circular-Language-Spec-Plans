@@ -4,11 +4,13 @@
 
 Super-Project
 -------------
+
 Circle Language Spec, Command as a Concept Spec
 
 
 Goal
 ----
+
 Working out the basic command topics.
 
 Not going deeply into parameters.

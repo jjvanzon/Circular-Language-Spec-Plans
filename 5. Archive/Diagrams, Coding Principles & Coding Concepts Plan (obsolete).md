@@ -22,14 +22,14 @@ Do the articles that you can easily write, and skip all the ones that are more d
 Ignore the fact, that I might change my whole point of view on commands
 (That will be covered by the future project *Commands As A Concept*.)
 
-### Pros and cons for this project**
+### Pros and cons for this project
 
 \- Previous project was working out issues that might change everything.
 I don’t see any issues left, that might change *everything*.
 
 \- The defense for this project is that it is so easy to produce, while the articles are also very important.
 
-### Rules**
+### Rules
 
 \- Don’t change Commands & Classes loosely coupled.
 

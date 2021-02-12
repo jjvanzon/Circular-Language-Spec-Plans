@@ -231,7 +231,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
 Project Steps
 -------------
 
-#### Preparation Work Parameters*
+#### Preparation Work Parameters
 
 (0h)
 
@@ -241,7 +241,7 @@ Project Steps
 
 \- Recorded the amount of articles, that was planned to be written at the beginning of the project.
 
-#### Reading over Existing Texts*
+#### Reading over Existing Texts
 
 (9h)
 
@@ -257,7 +257,7 @@ except for Commands & Classes Loosely Coupled.
 
 \- It would later be used as a cross out list.
 
-#### Prepared Texts*
+#### Prepared Texts
 
 \- Adapted parameter texts
 
@@ -339,7 +339,7 @@ except for Commands & Classes Loosely Coupled.
 
 \- Then wrote about access control literals.
 
-#### Changed Approach*
+#### Changed Approach
 
 The approach was changed, because starting at Relations Between Commands & Objects the idea about reference situations changed. After brainstorming, a direction was found again.
 
@@ -379,7 +379,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
 
 \- Joint Display of Access Connectors & Object Relations
 
-#### Crossed Out Old Material*
+#### Crossed Out Old Material
 
 \- Crossed out ideas in project document.
 
@@ -449,7 +449,7 @@ Because they talk about In, Out and Thru. It was estimated that the definition o
 
 \- The older articles contain mostly information about Commands & Objects Loosely Coupled, and were integrated into the story.
 
-#### Misc Articles*
+#### Misc Articles
 
 \- Mainly texts of miscellaneous articles were considered as an option to write.
 
@@ -497,9 +497,9 @@ Because they talk about In, Out and Thru. It was estimated that the definition o
 
 \- Reading them over
 
-#### Processed Left-Over Ideas*
+#### Processed Left-Over Ideas
 
-#### Wrap up*
+#### Wrap up
 
 \- Gave articles a parameters-specific article name.
 

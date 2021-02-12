@@ -18,11 +18,13 @@ Orient in the documentation of the first four fundamental principles:
 
 Super-Project
 -------------
+
 This is a sub-project of the super-project *Circle Language Spec, Fundamental Principles Spec Part A.*
 
 
 Date & Time
 -----------
+
 2008-03-05 – 2008-03-06
 
 2 hours of work

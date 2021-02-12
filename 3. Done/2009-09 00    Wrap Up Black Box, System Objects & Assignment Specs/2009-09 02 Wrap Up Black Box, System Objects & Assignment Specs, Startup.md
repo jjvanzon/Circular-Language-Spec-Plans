@@ -4,11 +4,13 @@
 
 Purpose of This Document
 ------------------------
+
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over litterly. Later it serves as a reference for looking up how exactly something was done.
 
 
 Orientation Checklist
 ---------------------
+
 \- Create a new project out of it and start planning.
 
 \- Do not hold on too much to original step plannings and project-related brainstorms. Make an entirely new plan.

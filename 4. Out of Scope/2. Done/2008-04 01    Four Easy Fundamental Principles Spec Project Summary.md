@@ -20,6 +20,7 @@ The following articles were made:
 
 Date & Time
 -----------
+
 2008-04-12 – 2008-04-13
 
 2 hours of work

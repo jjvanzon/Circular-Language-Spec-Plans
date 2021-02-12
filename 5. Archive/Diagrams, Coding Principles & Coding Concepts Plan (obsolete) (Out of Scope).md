@@ -9,11 +9,11 @@ Goal
 
 *This document only has the notes taken out of the original document in the Circle Language Spec planning docs, because these topics are now out of scope of Circle Language Spec.*
 
-### Pros and cons for this project**
+### Pros and cons for this project
 
 \- The argument against it, is that fundamental principles should be worked out first.
 
-### Extra goals**
+### Extra goals
 
 I have extra goals for this project. What those goals share with the main goal, is that they are also easier to write than other things.
 

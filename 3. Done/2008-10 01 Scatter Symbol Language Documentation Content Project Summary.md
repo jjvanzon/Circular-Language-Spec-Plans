@@ -9,6 +9,7 @@ Circle Language Spec
 
 Character of the Work
 ---------------------
+
 Organizing things
 
 

@@ -71,7 +71,7 @@ This should be the new order:
 Steps
 -----
 
-### ***Additions***
+### Additions
 
 X Object-Bound and Reference-Bound
 
@@ -167,7 +167,7 @@ X Connections
 
 `    `X You would also want Connections to have an article in the system objects article group.
 
-### ***Reformations***
+### Reformations
 
 \- Topic list:
 
@@ -344,7 +344,7 @@ because the system interface is an exact representation of the public members of
 \> At this point you have a fairly well finished up chapter,
 except for a lot of cross-out material.
 
-### ***Cross-Out + Additions***
+### Cross-Out + Additions
 
 X Cross out old articles
 
@@ -372,7 +372,7 @@ X Cross out Ideas (+/- 60 pages)
 
 and a lot of extra Get purposes, but there are not that many left. Just a couple.
 
-### ***Work Discontinued***
+### Work Discontinued
 
 There were other cross-outs, but they are postponed.
 
