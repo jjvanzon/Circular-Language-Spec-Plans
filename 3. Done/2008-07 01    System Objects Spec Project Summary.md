@@ -202,7 +202,9 @@ In the first layer of the base of the code, the system objects and system comman
 \- Perhaps explain somewhere, why a system object is often called a system interface
 
 The system object in a way represents an object. So usually you would see a system object as being the object itself, while the system object would really only control a pointer to the actual object. So when you see the members of target object of a system object, showing the actual members of the system object, it is like showing the *system interface* of a related object. That is why perhaps instead of calling it a system object, it might be called the system interface of a related object.
+
 ##### *Related List Item Extension Procedures*
+
 \- The notation for the list item extension procedures was not determined yet.
 
 \- After some drawing versions, the final drawing became was the notation to go for, for now.
@@ -258,21 +260,29 @@ Added the related list item command extension objects to the system interface of
 \- System Interface Summary in a Diagram
 
 Showed the diagram with all the extension objects of a related list.
+
 ##### *Extension Procedure Part of Parent*
+
 \- Extension procedures might not be defined by the list object. The extension procedures might be defined by the parent object. This counts for related items too. A related item’s extension procedures might be defined by the parent object. Extension procedures might be normal commands, not system commands.
 
 \> It seems just more practical to make the extension procedures part of the parent object. Only a normal Circle language object might define commands, that have all the possibilities of the programming language. You may not really be able to change objects like related items or related lists, because they are system objects. Maybe those system objects can only be extended, not changed.
+
 ##### *Object References Inherently Part of Parent*
+
 \> Theoretically it might not matter whether extension procedures are defined for instance inside a related item or inside the parent object of a related item. A related item might be part of the parent object anyway, as opposed to the actual object the related item refers to. In that case the reference to the object *is* part of the parent object. The object would not be. 
 
 \> Objects referred to by a parent object might not be part of the parent object, but in that case the *references* to the object *would* be* part of the parent object. Objects such as a related list or a related item could be system objects that are inherently part of the parent object. Only the objects referred to would *not* be part of the parent in that case.
+
 #### *Writing Style*
+
 \- In the article Related Item in a Diagram, the complete system interface of the related item was not shown, even though you might expect a full overview there. You only were redirected to other articles for that. The reason was, because the system commands have an explanation in the other articles. But an overview might still be nice, even when not everything is explained yet.
 
 \> Related List Item
 
 \- Maybe the summary article is a bit incomplete, because not everything seems to be mentioned in it.
+
 #### *Other Issues*
+
 \- In the member articles (e.g. Object Get & Set) perhaps refer to the articles about the system objects to which the members apply.
 
 \- You may want a parent object to be able to define multiple extension procedures for the same kind of extension, for the same related item or related list, because when you let an object support an aspect, the aspect can add another extension to a the system command. So an extension procedure might not be a single-cast event.

@@ -166,7 +166,9 @@ X Connections
 `    `(a new addition)
 
 `    `X You would also want Connections to have an article in the system objects article group.
+
 ### ***Reformations***
+
 \- Topic list:
 
 `    `X System Objects
@@ -341,7 +343,9 @@ because the system interface is an exact representation of the public members of
 
 \> At this point you have a fairly well finished up chapter,
 except for a lot of cross-out material.
+
 ### ***Cross-Out + Additions***
+
 X Cross out old articles
 
 X Remaining topics:
@@ -367,11 +371,11 @@ X Cross out Ideas (+/- 60 pages)
 \> I was worried about a lot of extra aspects, to control other system object members,
 
 and a lot of extra Get purposes, but there are not that many left. Just a couple.
+
 ### ***Work Discontinued***
+
 There were other cross-outs, but they are postponed.
 
 At this point work had spiraled out of control.
 
 This project is wrapped up and a replanning is done after which the work continues as a new project.
-
-`	 `PAGE 6 /  NUMPAGES 6

@@ -232,6 +232,7 @@ Project Steps
 -------------
 
 #### *Preparation Work Parameters*
+
 (0h)
 
 \- Considered the general approach, described in the super-project *Circle Language Spec.*
@@ -239,7 +240,9 @@ Project Steps
 \- Commands & classes loosely coupled was moved to the parameter articles.
 
 \- Recorded the amount of articles, that was planned to be written at the beginning of the project.
+
 #### *Reading over Existing Texts*
+
 (9h)
 
 \- Reading over the material and dropped comment into it
@@ -253,7 +256,9 @@ except for Commands & Classes Loosely Coupled.
 \- Verbal brainstorming.
 
 \- It would later be used as a cross out list.
+
 #### *Prepared Texts*
+
 \- Adapted parameter texts
 
 \- The Input, Output, Throughput, Downput introduction seemed to consist of multiple disparate details, that could be moved to more specific articles, because the ideas were later repeated.
@@ -333,7 +338,9 @@ except for Commands & Classes Loosely Coupled.
 \- Tried to cover the use of each reference situation.
 
 \- Then wrote about access control literals.
+
 #### *Changed Approach*
+
 The approach was changed, because starting at Relations Between Commands & Objects the idea about reference situations changed. After brainstorming, a direction was found again.
 
 \- Preparation:
@@ -371,7 +378,9 @@ The approach was changed, because starting at Relations Between Commands & Objec
 \> It could be seen as another system aspect.
 
 \- Joint Display of Access Connectors & Object Relations
+
 #### *Crossed Out Old Material*
+
 \- Crossed out ideas in project document.
 
 \- Crossed out Commands & Classes Loosely Coupled.
@@ -439,7 +448,9 @@ Because they talk about In, Out and Thru. It was estimated that the definition o
 \- Crossed out older parameter articles.
 
 \- The older articles contain mostly information about Commands & Objects Loosely Coupled, and were integrated into the story.
+
 #### *Misc Articles*
+
 \- Mainly texts of miscellaneous articles were considered as an option to write.
 
 \- Wrote them: (**19**)
@@ -485,8 +496,11 @@ Because they talk about In, Out and Thru. It was estimated that the definition o
 \- Parameters For Object in Text Code
 
 \- Reading them over
+
 #### *Processed Left-Over Ideas*
+
 #### *Wrap up*
+
 \- Gave articles a parameters-specific article name.
 
 \- Setting up article list.
