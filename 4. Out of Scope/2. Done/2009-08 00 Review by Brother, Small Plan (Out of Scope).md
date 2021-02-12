@@ -31,13 +31,13 @@ and the whole package of software would be named Collection. (but those names ar
 
 \- Specific things to show:
 
-\- Project plans: **(2)**
+\- Project plans: __(2)__
 
 \- Document Software System
 
 \- Software System
 
-\- Documentation: **(6)**
+\- Documentation: __(6)__
 
 \- Software System Contents
 
@@ -55,7 +55,7 @@ and the whole package of software would be named Collection. (but those names ar
 
 \- Controls Concepts
 
-\- Software: **(9)**
+\- Software: __(9)__
 
 \> All the files are read-only and that is going to be a problem for some of the software.
 

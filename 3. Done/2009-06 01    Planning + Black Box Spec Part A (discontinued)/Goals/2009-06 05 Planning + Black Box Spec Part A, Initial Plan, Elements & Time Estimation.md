@@ -21,19 +21,19 @@ Products
 Project Steps
 -------------
 
-- Setup project folders  **(1)**
-- Time planning for super-project New Computer Language Functional Design  **(3)**
-- Pick theme  **(0)**
-- Make goal description  **(2)**
+- Setup project folders  __(1)__
+- Time planning for super-project New Computer Language Functional Design  __(3)__
+- Pick theme  __(0)__
+- Make goal description  __(2)__
 + other startup issues
-- Process idea box  **(4)**
+- Process idea box  __(4)__
 - Work out theme
-- Reach goal  **(3)**
+- Reach goal  __(3)__
 - Organize ideas
 - Work out the implementation in mind now
-- Finishing touch  **(2)**
+- Finishing touch  __(2)__
 - Cross out ideas
-- Wrap up  **(1)**
+- Wrap up  __(1)__
 
 
 Time Estimation
@@ -43,8 +43,8 @@ At first glance, it was estimated that it should take 1 week, 10 days tops.
 
 It is a reverse time-planning. You might not make it.
 
-|Total Points: |**16 points**|
+|Total Points: |__16 points__|
 | -: | :- |
-|Estimated Velocity: |**1¼ hours / point**|
-|Time: |<p>**20 hours**</p><p>**1½ weeks**</p>|
+|Estimated Velocity: |__1¼ hours / point__|
+|Time: |<p>__20 hours__</p><p>__1½ weeks__</p>|
 

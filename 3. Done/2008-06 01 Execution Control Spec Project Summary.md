@@ -35,7 +35,7 @@ June 6, 2008 – June 12, 2008
 Products
 --------
 
-The following **44** articles were produced:
+The following __44__ articles were produced:
 
 *Execution Control*  articles
 

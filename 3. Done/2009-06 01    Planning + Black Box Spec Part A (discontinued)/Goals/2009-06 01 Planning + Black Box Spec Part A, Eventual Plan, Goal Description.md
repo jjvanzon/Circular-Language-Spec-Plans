@@ -95,8 +95,8 @@ Time Planning
 
 A rough time planning of this 8 month period can be found in the project documentation of the super-project *New Computer Language Functional Design*.
 
-It was estimated in advance, that this project may take only **1 week** or **10 days** tops.
+It was estimated in advance, that this project may take only __1 week__ or __10 days__ tops.
 
-But when the scope of the problem area became clear, it turned out to be a lot more work and along with other problems, **2 ½ months** went by.
+But when the scope of the problem area became clear, it turned out to be a lot more work and along with other problems, __2 ½ months__ went by.
 
-**Total: 123 ½ hours**
+__Total: 123 ½ hours__

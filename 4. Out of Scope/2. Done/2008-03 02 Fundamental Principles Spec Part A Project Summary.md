@@ -37,7 +37,7 @@ March 5, 2008 – April 13, 2008
 Products
 --------
 
-The following ***16*** articles about fundamental principles for the new programming language were produced:
+The following __*16__* articles about fundamental principles for the new programming language were produced:
 
 *Programming Language Programmed Within Itself* 
 
@@ -133,7 +133,7 @@ version  *2008-04-13 00  1.0*
 Sub-projects
 ------------
 
-The work was split up into the following ***9*** sub-projects:
+The work was split up into the following __*9__* sub-projects:
 
 First four articles:
 

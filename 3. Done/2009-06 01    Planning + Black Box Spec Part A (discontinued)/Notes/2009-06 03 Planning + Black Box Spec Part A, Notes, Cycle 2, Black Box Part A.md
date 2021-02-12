@@ -11,7 +11,7 @@ This document is a checklist for software development-related work, for a good a
 Rough Plan
 ----------
 
-\- Reach goal  **(3)**
+\- Reach goal  __(3)__
 
 \- Organize ideas (29 pages)
 

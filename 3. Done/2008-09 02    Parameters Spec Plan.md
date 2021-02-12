@@ -20,9 +20,9 @@ Date & Time
 
 September 4, 2008 – October 1, 2008
 
-**4** weeks
+__4__ weeks
 
-**60** hours of work
+__60__ hours of work
 
 
 Background
@@ -40,21 +40,21 @@ It looks like, when you turn a command into an executable object, without any ad
 Products
 --------
 
-At the beginning of the project, the amount of articles to produce or adapt was **47**.
+At the beginning of the project, the amount of articles to produce or adapt was __47__.
 
-Eventually the amount of articles produced or adapted was **27**.
+Eventually the amount of articles produced or adapted was __27__.
 
 The amount of articles shrunk, but the amount of *work* did not.
 
 The following was produced:
 
-**27** articles
+__27__ articles
 
 *Parameters articles*
 
 version  *2008-10-01 00  1.0*
 
-**24** articles
+__24__ articles
 
 *- Relations Between Commands & Objects*
 
@@ -106,7 +106,7 @@ version  *2008-10-01 00  1.0*
 
 *System Objects articles*
 
-**3** articles
+__3__ articles
 
 *- Parameters For Objects*
 
@@ -114,7 +114,7 @@ version  *2008-10-01 00  1.0*
 
 *- Parameters For Objects in Text Code*
 
-The original list was **47** articles, which included:
+The original list was __47__ articles, which included:
 
 \- Value topics
 
@@ -453,7 +453,7 @@ Because they talk about In, Out and Thru. It was estimated that the definition o
 
 \- Mainly texts of miscellaneous articles were considered as an option to write.
 
-\- Wrote them: (**19**)
+\- Wrote them: (__19__)
 
 \- Imported Parameter Concepts
 

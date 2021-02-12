@@ -1,7 +1,7 @@
 ﻿Circle Language Spec Plan Version History
 =========================================
 
-|**Version**|**Name**|**Description**|
+|Version|Name|Description|
 | :- | :- | :- |
 |2009-02-20 00|New Computer Language Functional Design Project Plan|Version before revising it on 2009-04-07|
 |2009-06-17 00|New Computer Language Functional Design Project Plan|<p>Version before revising it on 2009-06-17</p><p>at the end of the project Software System Full Revision of Documentation, before changing the approach: easy things first</p>|

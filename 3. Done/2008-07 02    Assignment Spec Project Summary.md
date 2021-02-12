@@ -29,17 +29,17 @@ Products
 
 The following was produced:
 
-**32** articles were produced
+__32__ articles were produced
 
-**2** articles were adapted
+__2__ articles were adapted
 
-**1** other item of work was done
+__1__ other item of work was done
 
 *Assignment article group*
 
 version  *2008-07-28 00  2.0*
 
-**30** articles:
+__30__ articles:
 
 *Assignment* 
 
@@ -51,49 +51,49 @@ version  *2008-07-28 00  2.0*
 
 *Value Assignment in a Diagram*
 
-*Value Assignment in Text Code*  (**v=**) (not finished)
+*Value Assignment in Text Code*  (__v=__) (not finished)
 
 *Object Assignment* 
 
 *Object Assignment in a Diagram*
 
-*Object Assignment in Text Code*  (**o=**) (not finished)
+*Object Assignment in Text Code*  (__o=__) (not finished)
 
 *Class Assignment* 
 
 *Class Assignment in a Diagram*
 
-*Class Assignment in Text Code*  (**c=**) (not finished)
+*Class Assignment in Text Code*  (__c=__) (not finished)
 
 *Interface Assignment* 
 
 *Interface Assignment in a Diagram*
 
-*Interface Assignment in Text Code*  (**i=**) (not finished)
+*Interface Assignment in Text Code*  (__i=__) (not finished)
 
 *Object Reference Assignment* 
 
 *Object Reference Assignment in a Diagram*
 
-*Object Reference Assignment in Text Code*  (**=à**) (not finished)
+*Object Reference Assignment in Text Code*  (__=à__) (not finished)
 
 *Object Reference Object Assignment*
 
 *Object Reference Object Assignment in a Diagram*
 
-*Object Reference Object Assignment in Text Code*  (**o=à**) (not finished)
+*Object Reference Object Assignment in Text Code*  (__o=à__) (not finished)
 
 *Object Reference Class Assignment* 
 
 *Object Reference Class Assignment in a Diagram*
 
-*Object Reference Class Assignment in Text Code*  (**c=à**) (not finished)
+*Object Reference Class Assignment in Text Code*  (__c=à__) (not finished)
 
 *Object Reference Interface Assignment* 
 
 *Object Reference Interface Assignment in a Diagram*
 
-*Object Reference Interface Assignment in Text Code*  (**i=à**) (not finished)
+*Object Reference Interface Assignment in Text Code*  (__i=à__) (not finished)
 
 *Alternative Assignments*
 
@@ -101,7 +101,7 @@ version  *2008-07-28 00  2.0*
 
 *Alternative Assignments in Text Code*  (not finished)
 
-Object articles: **(2)**
+Object articles: __(2)__
 
 *Nothing*
 
@@ -109,7 +109,7 @@ Object articles: **(2)**
 
 (Only added to the development version of the Objects article group.)
 
-Adapted articles: **(2)**
+Adapted articles: __(2)__
 
 *Basic Diagram Elements*
 
@@ -119,7 +119,7 @@ Adapted articles: **(2)**
 
 The definition of 'sub-object' does not seem to be right anymore, because the Object Reference article said, that object references are no longer called sub-objects.
 
-Other work: **(1)**
+Other work: __(1)__
 
 Isolate Storage Principles
 
@@ -209,37 +209,37 @@ Any alternative form of assignment might be accomplished by combining calls to s
 
 This would create a different set of articles:
 
-\- Assignment **=**
+\- Assignment __=__
 
 \- Assignment in a Diagram
 
 \- Assignment in Text Code (not finished)
 
-\- Value Assignment **v=**
+\- Value Assignment __v=__
 
 \- Value Assignment in a Diagram
 
 \- Value Assignment in Text Code (not finished)
 
-\- Object Assignment **o=**
+\- Object Assignment __o=__
 
 \- Object Assignment in a Diagram
 
 \- Object Assignment in Text Code (not finished)
 
-\- Class Assignment **c=**
+\- Class Assignment __c=__
 
 \- Class Assignment in a Diagram
 
 \- Class Assignment in Text Code (not finished)
 
-\- Interface Assignment **i=**
+\- Interface Assignment __i=__
 
 \- Interface Assignment in a Diagram
 
 \- Interface Assignment in Text Code (not finished)
 
-\- Object Reference Assignment **=à**
+\- Object Reference Assignment __=à__
 
 \- Object Reference Assignment in a Diagram
 
@@ -249,19 +249,19 @@ This would create a different set of articles:
 
 \- Object Reference Object Assignment in a Diagram
 
-\- Object Reference Object Assignment in Text Code **o=à** (not finished)
+\- Object Reference Object Assignment in Text Code __o=à__ (not finished)
 
 \- Object Reference Class Assignment 
 
 \- Object Reference Class Assignment in a Diagram
 
-\- Object Reference Class Assignment in Text Code **c=à** (not finished)
+\- Object Reference Class Assignment in Text Code __c=à__ (not finished)
 
 \- Object Reference Interface Assignment 
 
 \- Object Reference Interface Assignment in a Diagram
 
-\- Object Reference Interface Assignment in Text Code **i=à** (not finished)
+\- Object Reference Interface Assignment in Text Code __i=à__ (not finished)
 
 \- Alternative Assignments
 
@@ -294,7 +294,7 @@ Maybe the same can apply to interfaces.
 
 But the following could be done too:
 
-**A  c=à  B  .  Target Class** 
+__A  c=à  B  .  Target Class__ 
 
 The diagram was worked out on paper.
 
@@ -342,33 +342,33 @@ Object assignment:
 
 (Picture -1)
 
-**B  .  Object  .  Set  (  A  .  Object  .  Get  )**
+__B  .  Object  .  Set  (  A  .  Object  .  Get  )__
 
 (Picture 0)
 
-**B  .  Object  .  Set  (  A  .  Object  .  Get  .  Value  )**
+__B  .  Object  .  Set  (  A  .  Object  .  Get  .  Value  )__
 
 (Simplified) (The words Get and Set might not need to be shown in normal assignment, but a general assignment notation for this was not introduced.)
 
-**B  .  Object  =  A  .  Object**
+__B  .  Object  =  A  .  Object__
 
 (Picture 2 ½)
 
-**o=  (  B  ,  A  )**
+__o=  (  B  ,  A  )__
 
-**B  o=  A**
+__B  o=  A__
 
 (Picture 3)
 
-**B  o=  A**
+__B  o=  A__
 
 Object reference object assignment:
 
-**B  .  Other Related Item  .  Set  (  A  .  This  )**
+__B  .  Other Related Item  .  Set  (  A  .  This  )__
 
-**B  .  Other Related Item  .  Set  =  A  .  This**
+__B  .  Other Related Item  .  Set  =  A  .  This__
 
-**B  o=à  A**
+__B  o=à  A__
 
 \- Articles that might change:
 

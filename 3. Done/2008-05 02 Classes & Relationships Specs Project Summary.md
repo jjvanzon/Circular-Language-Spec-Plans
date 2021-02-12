@@ -27,7 +27,7 @@ May 27, 2008 – June 21, 2008
 Products
 --------
 
-The following **26** articles were produced:
+The following __26__ articles were produced:
 
 Classes & Relationships Concepts:
 

@@ -37,7 +37,7 @@ The following was produced:
 
 version  *2008-07-24 00  2.0*
 
-**38** articles:
+__38__ articles:
 
 
 
@@ -197,7 +197,7 @@ In the first layer of the base of the code, the system objects and system comman
 
 \- You might want to make clear, that the notation of the system objects and the implementation of system objects are two separate things.
 
-\- System objects such as **Object  .  ID** could also be considered system objects: they kind of are the related *objects*: an object reference embedded inside a related item or related list item. Perhaps put the term related object in the system interface summary, in the diagram that shows all the terms.
+\- System objects such as __Object  .  ID__ could also be considered system objects: they kind of are the related *objects*: an object reference embedded inside a related item or related list item. Perhaps put the term related object in the system interface summary, in the diagram that shows all the terms.
 
 \- Perhaps explain somewhere, why a system object is often called a system interface
 

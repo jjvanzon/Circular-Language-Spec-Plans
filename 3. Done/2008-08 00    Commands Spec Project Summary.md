@@ -27,7 +27,7 @@ June 28, 2008 – August 31, 2008
 
 1 month and 3 days
 
-**120** hours of work
+__120__ hours of work
 
 
 Means
@@ -47,21 +47,21 @@ In the end it seemed more work than initially thought.
 Products
 --------
 
-At the beginning of the project, the amount of articles to produce or adapt was **43**.
+At the beginning of the project, the amount of articles to produce or adapt was __43__.
 
-Eventually the amount of articles produced or adapted was **110**.
+Eventually the amount of articles produced or adapted was __110__.
 
 The following was produced:
 
-**106** articles were produced
+__106__ articles were produced
 
-**4** articles were adapted
+__4__ articles were adapted
 
 *Commands, Basic article group*
 
 version  *2008-08-31 00  2.0x*
 
-**106** articles: (**7** unfinished)
+__106__ articles: (__7__ unfinished)
 
 
 
@@ -279,7 +279,7 @@ version  *2008-08-31 00  2.0x*
 
 *- Command Definition Referrers in a Diagram* (not finished)
 
-**4** articles were adapted:
+__4__ articles were adapted:
 
 \- Target Class
 
@@ -291,4 +291,4 @@ version  *2008-08-31 00  2.0x*
 
 use of object lines and class lines for commands seems changed now
 
-**Nothing**, **Public**, **Private**.
+__Nothing__, __Public__, __Private__.

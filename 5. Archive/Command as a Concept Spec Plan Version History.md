@@ -1,7 +1,7 @@
 ﻿Circle Language Spec Plan, Commands as a Concept Spec Plan Versions
 ==================================================================
 
-|**Version**|**Description**|
+|Version|Description|
 | :- | :- |
 |2008-07-11 00|Original brainstorm texts|
 |2008-07-28 00|Before cutting up brainstorm texts|

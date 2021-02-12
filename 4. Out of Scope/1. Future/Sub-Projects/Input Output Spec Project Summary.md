@@ -85,7 +85,7 @@ Apply commands & classes loosely coupled to basic command articles.
 
 \- Compared IO
 
-\- Implementation of System Commands: **(1)**
+\- Implementation of System Commands: __(1)__
 
 You may need to add separate explanations about the implementation of the system commands.
 

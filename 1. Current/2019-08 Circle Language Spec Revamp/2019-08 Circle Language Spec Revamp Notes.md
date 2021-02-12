@@ -116,7 +116,7 @@ TODO
 - [ ] Converting things to MarkDown?
   - [x] Aspose seems good: <https://products.aspose.app/words/conversion/word-to-md> 
   - [ ] Considering a phased bulk approach (for quicker results)
-  - **[ ] \_\_Converting\_\_**
+  - [ ] __Converting__
     - [ ] "Symbol Language (2004).docx" timed out.
   - [ ] Committing
   - [ ] Moving images to sub-folder
@@ -229,7 +229,7 @@ Done
 
 \- [x] ~~~~Viewing all pictures in master.~~~~ > Diff between two runs might say enough.
 
-\- [x] Comparing *\*master's\** lists of files (using KDiff and/or JJ Utilities)
+\- [x] Comparing *\*master's\__ lists of files (using KDiff and/or JJ Utilities)
 
 \- [x] Checking out some commits and looking at the checked out file tree?
 
@@ -505,7 +505,7 @@ I also do not seem to have inspected the total file list from history yet.
   - [x] ~~~~Collapsing some things to whole folders.~~~~
 - [x] "Expression" (index pages)
   - [x] For instance: "2. Framework\0. Language\1. Language\6. Expression\Expression.doc"
-  - [x] Seems already there, except a *\*copy\** placed under "Framework".
+  - [x] Seems already there, except a *\*copy\__ placed under "Framework".
 - [x] "More Text Codes" / "Legacy Text Codes" / "Additional Text Codes" (index pages)
   - [ ] For instance: "2. Framework\0. Language\1. Language\6. Expression\6. More Text Codes\More Text Codes.doc"
   - [x] Gathering paths.
@@ -819,10 +819,10 @@ It may be worth to reconsider. Maybe the indicated direction in the assignment n
 - That there are references and that there are objects, might be key to understanding a bit about this particular object oriented take on things. But as it starts getting a bit hard on your head with pointer-to-pointer edge-cases, maybe I can extract those topics and move those.
 - It is becoming harder for me now, because it is iffy. I can notice it inside myself.
 - Here I start scratching my head about whether these are details I might leave out of the main story: under "The Extra Commands & Overloads":
-  - **Set Object** à **Set Object to Other Related Item**
-  - **Set Object** à **Set Object to Other Related List Item**
-  - **Object Get** à **Get Object which is Another Related Item**
-  - **Object Get** à **Get Object which is Another Related List Item**
+  - __Set Object__ à __Set Object to Other Related Item__
+  - __Set Object__ à __Set Object to Other Related List Item__
+  - __Object Get__ à __Get Object which is Another Related Item__
+  - __Object Get__ à __Get Object which is Another Related List Item__
 - I see now that the section is named "The Extra Commands & Overloads". So it seems isolated, and perhaps separately movable to the Pointers chapter?
 - "Get Class which is a Reference" might have overloads that are perhaps pointer to pointer situations?
 - "Set Class to Reference" might also be a pointer-to-pointer situation.
@@ -2617,8 +2617,8 @@ Postponed
   - Going through text sequentially.
   - Sometimes moving things to an 'Out of Scope' section.
   - Terms "In" and "Out" might be avoided.
-    - Because it seems ambiguous (for instance an object reference (**'Object In**' parameter?) can be considered both input and output at the same time.)
-    - Replacement terms might be ones such as **Get Object** Parameter or **Set Value** Parameter. It may not look as pretty, but it might help me avoid the paradox that I experience if I were to call them **In** and **Out**.
+    - Because it seems ambiguous (for instance an object reference (__'Object In__' parameter?) can be considered both input and output at the same time.)
+    - Replacement terms might be ones such as __Get Object__ Parameter or __Set Value__ Parameter. It may not look as pretty, but it might help me avoid the paradox that I experience if I were to call them __In__ and __Out__.
 - Put subjectivity in perspective.
 - Change the orange markings (pictures, texts to move or change).
 - Pictures:
@@ -2960,7 +2960,7 @@ has something missing. In C# you can also refer to the parent object as if it we
   - The clone aspect might be a bit more alien. Perhaps move it out of the main story.
 - "The System Objects" section:
   - The definition of *Symbol* also seems to try and make it black and white not to confuse possibly overlapping terminology. I guess it might be my search for black and white definitions and avoiding ambiguity, that lead me to want to keep everything separated from each other.
-- The **List** aspect is also presented as something specific, while I might make it a generic aspect of an object, but that idea is sort of part of the separate language design issue "list concept more generic".
+- The __List__ aspect is also presented as something specific, while I might make it a generic aspect of an object, but that idea is sort of part of the separate language design issue "list concept more generic".
 - Name aspect notations might not be covered in all the articles and that might be nice.
 - I also like where you can open the system interface and it just shows a dashed circle to indicate the class. I like that for the item class of a list.
 - Alternative Clone notation as like a value assignment with a depth, might be something to put somewhere.

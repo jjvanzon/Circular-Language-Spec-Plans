@@ -10,10 +10,10 @@ This document is a checklist for software development-related work, for a good a
 Rough Plan
 ----------
 
-- Setup project folders  **(1)**
-- Time planning for super-project  **(3)**
-- Pick theme  **(0)**
-- Make goal description  **(2)**
+- Setup project folders  __(1)__
+- Time planning for super-project  __(3)__
+- Pick theme  __(0)__
+- Make goal description  __(2)__
 + Other startup issies
 
 

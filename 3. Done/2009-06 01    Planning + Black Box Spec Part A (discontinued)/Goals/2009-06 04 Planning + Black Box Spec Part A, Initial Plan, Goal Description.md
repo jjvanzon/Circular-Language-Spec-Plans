@@ -81,7 +81,7 @@ A rough time planning of this 8 month period can be found in the project documen
 
 This sub-project will have a small time-planning document.
 
-It is estimated, that this project may take only **1 week** or **10 days** tops.
+It is estimated, that this project may take only __1 week__ or __10 days__ tops.
 
 
 Particular Difficulty

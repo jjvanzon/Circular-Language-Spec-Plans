@@ -65,13 +65,13 @@ to check if the material is easily accessible.
 
 \- Specific things to show:
 
-\- Project plans: **(4)**
+\- Project plans: __(4)__
 
 \- Circle Language Spec, Project Steps & Time Planning
 
 \- Circle Language Spec, Goal & Approach
 
-\- Documentation: **(2)**
+\- Documentation: __(2)__
 
 \- Code
 
@@ -79,7 +79,7 @@ to check if the material is easily accessible.
 
 \- Coding Concepts
 
-\- Software: **(9)**
+\- Software: __(9)__
 
 \> Explaining the existing *software* is *much* harder.
 

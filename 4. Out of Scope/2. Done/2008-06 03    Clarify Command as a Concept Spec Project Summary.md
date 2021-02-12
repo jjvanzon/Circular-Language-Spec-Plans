@@ -41,7 +41,7 @@ A document was produced: *Command As A Concept Brainstorm Texts*
 
 It is put in the documentation as the *Commands*  article group version *2008-07-13 XX .*
 
-It is approximately **32** pages of brainstorm texts trying to clarify commands as a concept.
+It is approximately __32__ pages of brainstorm texts trying to clarify commands as a concept.
 
 
 Project Steps

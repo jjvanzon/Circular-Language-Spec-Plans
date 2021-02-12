@@ -69,9 +69,9 @@ Implementation as a concept is not covered in this project.
 Elements
 --------
 
-Articles to write **(84)**:
+Articles to write __(84)__:
 
-Coding Principles **(18)**: 
+Coding Principles __(18)__: 
 
 \- Destruction
 
@@ -95,7 +95,7 @@ Coding Principles **(18)**:
 
 Coding Concepts:
 
-Basic Coding Principles **(22)**:
+Basic Coding Principles __(22)__:
 
 (Type Safety, Parameters, Input / Output / Throughput)
 
@@ -103,7 +103,7 @@ Basic Coding Principles **(22)**:
 
 \- Type Safety, Genericity, Explicitness in a Diagram
 
-\- Extended Coding Principles **(24)**:
+\- Extended Coding Principles __(24)__:
 
 \- Member Grouping
 
