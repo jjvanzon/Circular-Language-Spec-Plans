@@ -229,7 +229,7 @@ Done
 
 \- [x] ~~~~Viewing all pictures in master.~~~~ > Diff between two runs might say enough.
 
-\- [x] Comparing *\*master's\__ lists of files (using KDiff and/or JJ Utilities)
+\- [x] Comparing *master's* lists of files (using KDiff and/or JJ Utilities)
 
 \- [x] Checking out some commits and looking at the checked out file tree?
 
@@ -505,7 +505,7 @@ I also do not seem to have inspected the total file list from history yet.
   - [x] ~~~~Collapsing some things to whole folders.~~~~
 - [x] "Expression" (index pages)
   - [x] For instance: "2. Framework\0. Language\1. Language\6. Expression\Expression.doc"
-  - [x] Seems already there, except a *\*copy\__ placed under "Framework".
+  - [x] Seems already there, except a *copy* placed under "Framework".
 - [x] "More Text Codes" / "Legacy Text Codes" / "Additional Text Codes" (index pages)
   - [ ] For instance: "2. Framework\0. Language\1. Language\6. Expression\6. More Text Codes\More Text Codes.doc"
   - [x] Gathering paths.
@@ -2161,8 +2161,8 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - Exp: Get rid of an intermediate folder to shorten the path and still keep descriptive names.
 - Obs~ Visual Studio Find in Files will not search doc contents.
 - Hyp:  Windows 7 File Explorer will not find whole words. For some things that's relevant for other things it is not. (I thought I saw it).
-- Exp: search "\*.doc"
-- Obs: Now it does not match "\*.docx".
+- Exp: search "*.doc"
+- Obs: Now it does not match "*.docx".
 - Hyp: I thought I saw that some times.
 - Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Circle Language Spec Plan". Search "content:Joost".
 - Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.
@@ -2636,7 +2636,7 @@ Postponed
 
 - (More helpers are in my personal development notes, not here, sorry.)
 - Marking trigger words in red.
-- Possibly mark questionable trigger words with a star (\*) too.
+- Possibly mark questionable trigger words with a star (*) too.
 - Finding replacement words, possibly using online thesaurus.
 - Vary natural language grammar constructs?
 - Going over the document again to reformulate.
