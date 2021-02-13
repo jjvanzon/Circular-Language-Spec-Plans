@@ -37,7 +37,7 @@ May 19, 2008 – May 27, 2008
 Products
 --------
 
-\- The following __*47__* articles were produced:
+\- The following __*47*__ articles were produced:
 
 *(but of 3 of them only a start)*
 

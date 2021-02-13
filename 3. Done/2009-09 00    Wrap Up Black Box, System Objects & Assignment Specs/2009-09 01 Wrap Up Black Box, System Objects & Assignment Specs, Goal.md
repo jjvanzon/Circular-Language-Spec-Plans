@@ -4,7 +4,7 @@
 Versions
 ---------
 
-|__Date__|__Document name__|__Version__|__Description__|
+|Date|Document name|Version|Description|
 | :- | :- | :- | :- |
 |10-09-2009|Finish Black Box, System Objects & Assignment, Goal Description|2009-09-10 00  1.0|Version frozen before leaving out the low-priority stuff.|
 |11-09-2009|Finish Black Box, System Objects & Assignment, Goal Description|2009-09-11 00  2.0|Version frozen after leaving out the low-priority stuff, before the research phase in which the plan might be extended.|
