@@ -82,7 +82,7 @@ The following topics were not considered, because they will have less impact on 
 Sub-Projects
 ------------
 
-The work was split up into the following __*4__*  sub-projects:
+The work was split up into the following __*4*__  sub-projects:
 
 \- Work out Automatic Containment
 

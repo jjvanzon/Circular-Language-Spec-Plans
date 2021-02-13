@@ -9,9 +9,9 @@ Goal
 
 *> 2009-04-07: This is a very old project description.*
 
-*This project was postponed earlier, because it was too big. The concepts of classes & relations were turned into a single project. This project contains the remaining topics.
+*This project was postponed earlier, because it was too big. The concepts of classes & relations were turned into a single project. This project contains the remaining topics.*
 
-This document used to have notes about topics not in scope of the Circle Language Spec. Notes about that were moved to another document.*
+*This document used to have notes about topics not in scope of the Circle Language Spec. Notes about that were moved to another document.*
 
 Document the coding principles and basic coding concepts and their diagram notation. Do that with the ideas I have about them now and avoid difficult reconsideration of principles. 
 

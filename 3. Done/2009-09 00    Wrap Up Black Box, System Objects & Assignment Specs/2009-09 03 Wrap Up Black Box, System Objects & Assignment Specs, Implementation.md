@@ -10,6 +10,7 @@ This document is a checklist for software development-related work, for a good a
 
 Approach
 --------
+
 The original idea was to first read over all the material, and then decide what to change about it.
 
 But eventually the changes were made while reading it over. That seemed faster to do, and it was.

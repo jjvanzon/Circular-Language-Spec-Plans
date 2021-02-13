@@ -34,4 +34,5 @@ I was very practical and strategic.
 
 Reflection On Functionality
 ---------------------------
+
 It is a really nice chapter. It is nice to read.

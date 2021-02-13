@@ -10,6 +10,7 @@ I had an idea about the basic diagram notation for Events since 2002, but an ide
 
 Parent Project
 --------------
+
 New Computer Language Functional Design
 
 

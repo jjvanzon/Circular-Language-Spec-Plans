@@ -13,7 +13,7 @@ Standard Issues
 
 \- Evaluation by software developer:
 
-\> A template is available for this: *Software Development Reflection Template.doc*.
+* \> A template is available for this: *Software Development Reflection Template.doc*.
 
 \- About time planning
 

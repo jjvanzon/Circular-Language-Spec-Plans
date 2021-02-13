@@ -1017,10 +1017,10 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 
 ### 2020-06-14 Done Checklist Reformulating Relationships Chapter
 
-- Marking standard trigger words in red, with search and replace, possibly marking questionable trigger words with a star (\*) too.
+- Marking standard trigger words in red, with search and replace, possibly marking questionable trigger words with a star (*) too.
 - / Manually marking trigger words in red:
   - Might not give high priority to marking trigger words manually anymore.
-- / Possibly manually mark questionable trigger words with a star (\*) too.
+- / Possibly manually mark questionable trigger words with a star (*) too.
 - / Finding replacement words, possibly using online thesaurus.
 - I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
 
@@ -1059,7 +1059,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 ### 2020-06-11 Done Reformulating Classes Chapter
 
 - Marking trigger words in red.
-- Possibly mark questionable trigger words with a star (\*) too.
+- Possibly mark questionable trigger words with a star (*) too.
 - Finding replacement words, possibly using online thesaurus.
   - I seem less motivated, because I question the validity of the idea, so this action may seem futile.
   - Perhaps I might appreciate the idea for what it is. Maybe not part of this Circle Language Spec, but a Circle Broader View idea. So even though I might not use it in Circle Language Spec, I might still appreciate it as an idea outside of that.
@@ -1088,7 +1088,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 ### 2020-06-07 Done Reformulating Objects Chapter
 
 - Marking trigger words in red.
-- Possibly mark questionable trigger words with a star (\*) too.
+- Possibly mark questionable trigger words with a star (*) too.
 - Finding replacement words, possibly using online thesaurus.
   - Changes to the 'Multiplicity' topic went a bit overboard. Trying to revert it a bit.
 - I might go over the loose ideas in the document and cross out or distribute those.
@@ -1125,7 +1125,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 ### 2020-06-01 Done Reformulating Basic Diagram Elements
 
 - Marking trigger words in red.
-- Possibly mark questionable trigger words with a star (\*) too.
+- Possibly mark questionable trigger words with a star (*) too.
 - Finding replacement words, possibly using online thesaurus.
 - I might go over the loose ideas in the document and cross out or distribute those.
 - Going over the document again to reformulate.
@@ -2492,17 +2492,11 @@ The 2 versions' contents:
 2005-01-06 00 Former Documentation:
 
 Any programming topic about math I had at the time is thrown into one document here:
-
-\* JMath 0.9 docs in Dutch
-
-\* Simple Math operators
-
-\* Ideas about 'regulated systems'
-
-\* Number Bases
-
-\* Brainstorm: Some alternative wordings and loose ideas written down.
-
+* JMath 0.9 docs in Dutch
+* Simple Math operators
+* Ideas about 'regulated systems'
+* Number Bases
+* Brainstorm: Some alternative wordings and loose ideas written down.
 The XXX version is only Simple math operators and how they can be implemented as objects.
 
 Idea bout converting version folder to source control history:
