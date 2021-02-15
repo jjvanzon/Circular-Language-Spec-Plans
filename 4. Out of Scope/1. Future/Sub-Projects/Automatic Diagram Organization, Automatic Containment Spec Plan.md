@@ -68,37 +68,25 @@ If something has a fixed logical residence, other references will first redirect
 Project Steps
 -------------
 
-\- Look at Computer Language Coding Principles.doc
-
-\- Maybe go through all ideas you can find.
-
-\- Update article Automatic Containment
-
-\- Features to possibly add:
-
-\- Implicit connection through parent
-
-\- Implicit contents through reference target
-
-\- Imaginary reference not created if single real reference already there.
-
-\- ~ Only an imaginary reference in a container that adds more references. Not in-between ancestors.
-
-\- Imaginary target, logical target, physical target
-
-\- Update the whole article
-
-\- Adapt the Classes & Relations articles accordingly
-
-Among other things:
-
-\- You have to do a line merge between the reference and the referrers.
+- Look at Computer Language Coding Principles.doc
+- Maybe go through all ideas you can find.
+- Update article Automatic Containment
+    - Features to possibly add:
+        - Implicit connection through parent
+        - Implicit contents through reference target
+        - Imaginary reference not created if single real reference already there.
+        - ~ Only an imaginary reference in a container that adds more references. Not in-between ancestors.
+        - Imaginary target, logical target, physical target
+    - Update the whole article
+    - Adapt the Classes & Relations articles accordingly
+      > Among other things:
+      - You have to do a line merge between the reference and the referrers.
 
 
 Products
 --------
 
-\- Updated Automatic Containment article
+- Updated Automatic Containment article
 
 
 More Ideas

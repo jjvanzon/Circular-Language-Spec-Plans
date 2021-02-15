@@ -11,8 +11,7 @@ This evaluation will be kept very limited.
 General Evaluation
 ------------------
 
-The create a topic list, start over and cross-out thing worked very, very well. It took less energy, not a lot of time time, less frustration and it created a fresh new story.
-
+The create a topic list, start over and cross-out thing worked very, very well. It took less energy, not a lot of time time, less frustration and it created a fresh new story.  
 It just worked very well not to hold on too tight to an existing structure when the existing structure is crap.
 
 The next project for New Computer Language Functional Design has to be Work Out Static, Redo Relations & Classes. This is because in a highly dynamic language like this, Static is essential for a class to make any definition something constant. I gained good insight into the concept now and am ready to work it out. As you do that, also change the Classes & Relations documentation. They need a redo anyway and the concept of classes is very much involved so… just do that.

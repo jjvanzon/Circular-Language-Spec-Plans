@@ -38,7 +38,7 @@ Personal Feeling
 I was getting an overall feeling of messiness in the time planning and step-by-step planning.
 It did not feel good to work at it anymore. I had lost touch with proportions of work and felt I had lost control over the amount of work. I did not know what laid ahead anymore and how much work it was still going to be. The good in-control feeling you get from finishing up one phase after another was completely gone.
 
-It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That will give you a feeling of getting stuck…
+It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That will give you a feeling of getting stuck...
 
 
 Reflection On Functionality

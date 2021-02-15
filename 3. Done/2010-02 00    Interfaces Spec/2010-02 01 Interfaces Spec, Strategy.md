@@ -17,8 +17,7 @@ The goal of this project is to work out the *Interfaces* articles.
 Means
 -----
 
-There is a ton of existing material that needs to be put in a better form.
-
+There is a ton of existing material that needs to be put in a better form.  
 The idea box also needs to be processed.
 
 
@@ -53,10 +52,8 @@ I will follow the rules set in the parent project descriptions. Especially consi
 Limitations
 -----------
 
-You have to limit the time you spend at it, because your studies go first.
-
-You have to make dues with the fact that you are not on a schedule regarding this project.
-
+You have to limit the time you spend at it, because your studies go first. 
+You have to make dues with the fact that you are not on a schedule regarding this project. 
 Do not go into Black Boxing applied to Interfaces.
 
 

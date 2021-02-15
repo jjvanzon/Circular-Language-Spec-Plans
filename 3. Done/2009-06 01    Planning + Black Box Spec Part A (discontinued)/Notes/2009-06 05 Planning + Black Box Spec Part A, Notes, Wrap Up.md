@@ -11,40 +11,26 @@ This document is a checklist for software development-related work, for a good a
 Standard Issues
 ---------------
 
-\- Evaluation by software developer:
+- Evaluation by software developer:
+    - \> A template is available for this: *Software Development Reflection Template.doc*.
+    - About time planning
+    - About progress monitoring
+    - About working methods
+    - About technical solution
+    - About functionality
+    - An overview for presentation purposes.  
+      Something you can show off in a portfolio.
 
-* \> A template is available for this: *Software Development Reflection Template.doc*.
+- In every reflection, the following questions need to be answered:
+    - What went well?
+    - What could be done better?
+    - What went wrong?
+    - How should we do it next time?
 
-\- About time planning
-
-\- About progress monitoring
-
-\- About working methods
-
-\- About technical solution
-
-\- About functionality
-
-\- An overview for presentation purposes
-Something you can show off in a portfolio.
-
-\- In every reflection, the following questions need to be answered:
-
-\- What went well?
-
-\- What could be done better?
-
-\- What went wrong?
-
-\- How should we do it next time?
-
-\- Wrap up plan (TO DO, is continuously changed.)
-
-\- Tidy up software development project plan documents
-
-\- Make entry in project list tidy
-
-\- Put leftover TO DO items in a project document *Postponed* or *Improvements*.
+- Wrap up plan (TO DO, is continuously changed.)
+    - Tidy up software development project plan documents
+    - Make entry in project list tidy
+    - Put leftover TO DO items in a project document *Postponed* or *Improvements*.
 
 Investigate if the current functionality is adequate and possibly define a *new* programming trajectory.
 
@@ -55,25 +41,14 @@ Investigate if the current functionality is adequate and possibly define a *new*
 Custom Plan
 -----------
 
-\- Make evaluation document
-
-\- Postpone everything left to do.
-
-\- Wrap up the plans of this project and call it off / discontinue it.
-
-\- Wrap up step-by-step documents
-
-\- Change project description documents
-
-\- Detail:
-
-\- Call the project 'Planning + Black Box A'.
-
-\- Finish evaluation document
-
-\- Detail:
-
-\- Documents seem to contain the term ‘versie’.
-
-\- Make page headers of project documents bigger
-`	 `PAGE 2 /  NUMPAGES 2
+- Make evaluation document
+- Postpone everything left to do.
+- Wrap up the plans of this project and call it off / discontinue it.
+    - Wrap up step-by-step documents
+    - Change project description documents
+- Detail:
+    - Call the project 'Planning + Black Box A'.
+- Finish evaluation document
+- Detail:
+    - Documents seem to contain the term ‘versie’.
+    - Make page headers of project documents bigger

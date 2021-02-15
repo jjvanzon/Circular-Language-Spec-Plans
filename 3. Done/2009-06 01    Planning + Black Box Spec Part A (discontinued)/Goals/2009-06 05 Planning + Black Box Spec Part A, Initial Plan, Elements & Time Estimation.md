@@ -5,9 +5,7 @@
 Remark
 ------
 
-This is the initial plan. The plan changed during the project. You will find the changed plan in a 
-
-different document. But the initial plan still matters for overview of the project.
+This is the initial plan. The plan changed during the project. You will find the changed plan in a different document. But the initial plan still matters for overview of the project.
 
 
 Products
@@ -25,14 +23,14 @@ Project Steps
 - Time planning for super-project New Computer Language Functional Design  __(3)__
 - Pick theme  __(0)__
 - Make goal description  __(2)__
-+ other startup issues
+    - \+ other startup issues
 - Process idea box  __(4)__
 - Work out theme
-- Reach goal  __(3)__
-- Organize ideas
-- Work out the implementation in mind now
-- Finishing touch  __(2)__
-- Cross out ideas
+    - Reach goal  __(3)__
+        - Organize ideas
+        - Work out the implementation in mind now
+    - Finishing touch  __(2)__
+        - Cross out ideas
 - Wrap up  __(1)__
 
 

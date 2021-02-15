@@ -56,13 +56,10 @@ Finish up the *Black Box* documentation, *System Objects* documentation and *Ass
 Products
 --------
 
-\- Black Box articles  version  2009-09-28 00  1.0
-
-\- System Objects articles  version  2009-09-17 XX  3.0x
-
-\- Assignment articles
-
-(integrated into the System Objects articles)
+- Black Box articles  version  2009-09-28 00  1.0
+- System Objects articles  version  2009-09-17 XX  3.0x
+- Assignment articles
+    > (integrated into the System Objects articles)
 
 
 Limitations
@@ -80,40 +77,28 @@ Replanning was done frequently. So multiple versions of the goal description and
 Project Steps
 --------------
 
-\- Orientation
-
-\- Finish Up System Objects Existing Material
-
-\- Assignment Cross-Out
-
-\- Finish Black Box Main Issues
-
-\- Adapt Parameter Articles
-
-\- Black Box Details, Cover Last
-
-\- Black Box Details, May Not Cover
-
-\- Black Box Remaining Issues
-
-\- System Objects Ideas
-
-\- Wrap-Up
+- Orientation
+- Finish Up System Objects Existing Material
+- Assignment Cross-Out
+- Finish Black Box Main Issues
+- Adapt Parameter Articles
+- Black Box Details, Cover Last
+- Black Box Details, May Not Cover
+- Black Box Remaining Issues
+- System Objects Ideas
+- Wrap-Up
 
 
 Eventual Time Cost
 ------------------
 
-Between September 09, 2009 – September 28, 2009 
-
-Time span of 20 days
-
-17 hours total
+Between September 09, 2009 – September 28, 2009  
+Time span of 20 days  
+17 hours total  
 
 
 Future
 ------
 
-After this project, getting Microsoft certified is picked up again.
-
+After this project, getting Microsoft certified is picked up again.  
 It will only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new New Computer Language Functional Design project will be picked up again.

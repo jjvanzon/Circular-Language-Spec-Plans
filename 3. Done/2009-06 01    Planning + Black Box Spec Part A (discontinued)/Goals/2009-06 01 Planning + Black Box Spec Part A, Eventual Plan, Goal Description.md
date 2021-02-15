@@ -26,7 +26,6 @@ Goal
 ----
 
 - Plan complete remains of *New Computer Language Functional Design*
-
 - Functionally work out the *Black Box* concept.
 
 
@@ -48,10 +47,10 @@ Limitations
 Approach
 --------
 
-This is the approach for working out the *Black Box* concept.
-Look over the existing material there is now.
-Work out the idea as you go along.
-Make concise documentation.
+This is the approach for working out the *Black Box* concept.  
+Look over the existing material there is now.  
+Work out the idea as you go along.  
+Make concise documentation.  
 
 Consider the ‘writing efficiently’ rules in the project documentation of *New Computer Language Functional Design*.
 
@@ -83,10 +82,8 @@ The extra work was not properly planned. Due to this scope-creep, after a while 
 Future
 ------
 
-First the new project will be done, in which Black Boxing, System Objects and Assignment are adequtely finished up.
-
-After that there will be worked on Microsoft certification first.
-
+First the new project will be done, in which Black Boxing, System Objects and Assignment are adequtely finished up.  
+After that there will be worked on Microsoft certification first.  
 The parent project *New Computer Language Functional Design* explains clearly what to furtherly do next for the future.
 
 
@@ -95,8 +92,7 @@ Time Planning
 
 A rough time planning of this 8 month period can be found in the project documentation of the super-project *New Computer Language Functional Design*.
 
-It was estimated in advance, that this project may take only __1 week__ or __10 days__ tops.
-
+It was estimated in advance, that this project may take only __1 week__ or __10 days__ tops.  
 But when the scope of the problem area became clear, it turned out to be a lot more work and along with other problems, __2 ½ months__ went by.
 
 __Total: 123 ½ hours__

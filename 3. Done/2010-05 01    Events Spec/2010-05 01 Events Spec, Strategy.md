@@ -22,6 +22,7 @@ Working out a chapter of documentation.
 
 Goal
 ----
+
 The goal of this project is to work out the *Events* articles.
 
 
@@ -32,9 +33,8 @@ The strategy mostly was: *improvise*.
 
 But lessons learned from the previous project were kept in mind:
 
-\- Pick the easiest topic
-
-\- Make a topic list out of existing rough texts, starting over,
+- Pick the easiest topic
+- Make a topic list out of existing rough texts, starting over,
 and then using the existing text as a cross out
 
 
@@ -43,11 +43,9 @@ Before
 
 Before the project the material was quite limited:
 
-\- there were just a couple of pages of loose ideas,
-
-\- loose texts coming out of a ± 2005 design of the code generator version,
-
-\- loose material coming out of a ± 2003 design of the diagram notation.
+- there were just a couple of pages of loose ideas,
+- loose texts coming out of a ± 2005 design of the code generator version,
+- loose material coming out of a ± 2003 design of the diagram notation.
 
 
 After

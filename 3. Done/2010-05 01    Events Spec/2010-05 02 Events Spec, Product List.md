@@ -13,80 +13,50 @@ Products
 
 The following was produced:
 
-*Events articles*
+- *Events articles*
 
-version  *2010-05-14 00  1.0*
+    - version  *2010-05-14 00  1.0*
 
-Basic Concepts:
+- Basic Concepts:
 
-*- Events Introduction*
+    - *Events Introduction*
+    - *Prime Event Example: Button Clicked*
+    - *Events Main Concepts*
+        - Main Notation of Event
+            - Event Procedure / Event Implementation
+        - Event Connector
+        - Event Raising
+        - Call to Parent
+        - Event Implementation & Connector
+    - *Event Situations*
+        - Multi-Cast Events
+        - Multi-Cast in Same Parent
+        - Event with Parameters
+        - Event from Deeper Object
+    - *Explicit Implementation of Event Object*
+    - *Explicit Interface of Event Object*
+        - For the sender
+        - For the receiver
+    - *Event Interface Reference*
 
-*- Prime Event Example: Button Clicked*
+- *System Events*
 
-*- Events Main Concepts*
+    > Changed Events  
+    > Changing Events  
+    > Get Events  
+    > Use Events  
+    > List Events  
+    > Execution & Existence Events  
+    > Pointer to Pointer Events  
 
-Main Notation of Event
-
-Event Procedure / Event Implementation
-
-Event Connector
-
-Event Raising
-
-Call to Parent
-
-Event Implementation & Connector
-
-*- Event Situations*
-
-Multi-Cast Events
-
-Multi-Cast in Same Parent
-
-Event with Parameters
-
-Event from Deeper Object
-
-*- Explicit Implementation of Event Object*
-
-*- Explicit Interface of Event Object*
-
-For the sender
-
-For the receiver
-
-*- Event Interface Reference*
-
-*- System Events*
-
-Changed Events
-
-Changing Events
-
-Get Events
-
-Use Events
-
-List Events
-
-Execution & Existence Events
-
-Pointer to Pointer Events
-
-*- System Events in Normal Notation*
-
-*- Simplified System Event Notation*
-
-*- System Event Parameters*
-
-*- System Event Design Choices*
+    - *System Events in Normal Notation*
+    - *Simplified System Event Notation*
+    - *System Event Parameters*
+    - *System Event Design Choices*
 
 Misc topics:
 
-*- Qualified Event Names*
-
-*- Interaction Events*
-
-*- Black Boxing Events*
-
-*- Event Alternatives*
+- *Qualified Event Names*
+- *Interaction Events*
+- *Black Boxing Events*
+- *Event Alternatives*

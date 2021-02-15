@@ -11,6 +11,5 @@ which produced version  2008-03-11 00  1.0 .
 Date & Time
 -----------
 
-2008-03-10 – 2008-03-10
-
+2008-03-10 – 2008-03-10  
 2 hours of work

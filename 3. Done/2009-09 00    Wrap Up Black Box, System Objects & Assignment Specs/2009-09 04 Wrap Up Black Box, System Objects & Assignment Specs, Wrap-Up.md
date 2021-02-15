@@ -11,70 +11,44 @@ This document is a checklist for software development-related work, for a good a
 Custom Issues
 -------------
 
-\- Change goal description
+- Change goal description
+- Cross-out loose some issues
 
-\- Cross-out loose some issues
-
-\- Black Box versions document & introduction
-
-\- Make sure you mention in the Black Box introduction, what specifically still needs to change.
-
-\- Redirection pages
-
-\- Update descriptions in Coding Concepts redirection page.
-
-\- Coding Concepts \ System Objects
-
-\- Coding Concepts \ Black Box
-
-\- Parent project description
-
-\- Mention the work postponed in this project
-
-\- Update the products list
-
-\- New job products
-
-\- Assignment articles
-
-\- System Objects articles
-
-\- Black Box articles
-
-\- Parameters articles
+- Black Box versions document & introduction
+    - Make sure you mention in the Black Box introduction, what specifically still needs to change.
+- Redirection pages
+    - Update descriptions in Coding Concepts redirection page.
+    - Coding Concepts \ System Objects
+    - Coding Concepts \ Black Box
+- Parent project description
+    - Mention the work postponed in this project
+    - Update the products list
+        - New job products
+        - Assignment articles
+        - System Objects articles
+        - Black Box articles
+        - Parameters articles
 
 
-Isolate Version Checklist
+solate Version Checklist
 -------------------------
 
-\- Isolate a version of the documentation
-
-\- Documentation folders:
-
-\- System Objects
-
-\> Already isolated version 2009-09-17 XX  3.0x
-
-\- Black Box
-
-\> Version 2009-09-28 00  1.0
-
-\- Steps:
-
-\- Isolate version
-
-\- Administrate versions document or create a versions document.
-
-\- Update products list
-
-\- Details:
-
-\- Make sure you mention in the Black Box version description, what specifically still needs to change.
+- Isolate a version of the documentation
+    - Documentation folders:
+        - System Objects
+            - \> Already isolated version 2009-09-17 XX  3.0x
+        - Black Box
+            - \> Version 2009-09-28 00  1.0
+        - Steps:
+            - Isolate version
+            - Administrate versions document or create a versions document.
+            - Update products list
+        - Details:
+            - Make sure you mention in the Black Box version description, what specifically still needs to change.
 
 
 Documentation Last Issues Checklist
 -----------------------------------
 
-\- Tidy up software development project plan documents
-
-\- Make entry in project list tidy
+- Tidy up software development project plan documents
+- Make entry in project list tidy

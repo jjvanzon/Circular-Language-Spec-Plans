@@ -5,7 +5,6 @@
 Super-Project
 -------------
 
-
 Circle Language Spec
 
 
@@ -22,10 +21,8 @@ Disregarding input/output was taken out of the project, preparation was done for
 Date & Time
 -----------
 
-June 23, 2008 – July 13, 2008
-
-3 weeks
-
+June 23, 2008 – July 13, 2008  
+3 weeks  
 52 ¼ hours of work
 
 

@@ -17,7 +17,6 @@ This is a sub-project of the super-project *Circle Language Spec, Fundamental Pr
 Date & Time
 ------------
 
-2008-03-06 – 2008-03-09
-
+2008-03-06 – 2008-03-09  
 8 hours of work
 

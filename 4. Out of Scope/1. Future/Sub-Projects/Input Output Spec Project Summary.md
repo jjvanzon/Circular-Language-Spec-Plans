@@ -25,83 +25,63 @@ The following articles are to be produced:
 
 Influential concepts:
 
-\- Events
-
-\- Versioning
+- Events
+- Versioning
 
 Advanced Command Topics:
 
-\- Automatic determination of parameter in / out / thru
-
-(do start listing out topics in a general Flat & Structured interchange article)
-
-\- Command IO
-
-\- Command IO in a Diagram
-
-(taken out of the automatic execution order section)
-
-\- Accessing parameters’ sub-objects
-
-\- Specific data unknown
-
-\- Parameters & IO
-
-\- Sub-commands’ IO
-
-\- Pre- & Postconditions
-
-\- Conditions
-
-\- Conditions in a Diagram
-
-\- User Commands
-
-\> If executions are only executed by parent executions, then what is the parent execution of the parent execution of the parent execution? Well, the upper parent command is actually comes from a human being. A person can execute a command definition.
+- Automatic determination of parameter in / out / thru
+    > (do start listing out topics in a general Flat & Structured interchange article)
+- Command IO
+- Command IO in a Diagram
+> (taken out of the automatic execution order section)
+- Accessing parameters’ sub-objects
+- Specific data unknown
+- Parameters & IO
+- Sub-commands’ IO
+- Pre- & Postconditions
+- Conditions
+- Conditions in a Diagram
+- User Commands
+    - \> If executions are only executed by parent executions, then what is the parent execution of the parent execution of the parent execution? Well, the upper parent command is actually comes from a human being. A person can execute a command definition.
 
 Flat & Structured Interchange:
 
-\- Commands & Classes Loosely Coupled
+- Commands & Classes Loosely Coupled
 
-Redo, making it a real relation between commands and objects.
+    > Redo, making it a real relation between commands and objects.
+    > 
+    > Subdividing the commands from different site into different interfaces of an object, is a separate issue to address.
+    > 
+    > The use of object lines and class lines for commands has changed.
+    > 
+    > Apply commands & classes loosely coupled to basic command articles.
 
-Subdividing the commands from different site into different interfaces of an object, is a separate issue to address.
+- Automatic Execution Order
 
-The use of object lines and class lines for commands has changed.
+    > (I am going to have to take a lot of these topics out from under automatic execution order. Because many things are just facilitating and handy for other stuff too. But it’s not priority nr. 1 to do that.)
 
-Apply commands & classes loosely coupled to basic command articles.
+    - Parameters of calls directly tied together
+    - Parameters tied together
+    - Parameters tied to objects
+    - Outcome dependency
+    - Compared IO
 
-\- Automatic Execution Order
+- Implementation of System Commands: __(1)__
 
-(I am going to have to take a lot of these topics out from under automatic execution order. Because many things are just facilitating and handy for other stuff too. But it’s not priority nr. 1 to do that.)
+    > You may need to add separate explanations about the implementation of the system commands.
 
-\- Parameters of calls directly tied together
-
-\- Parameters tied together
-
-\- Parameters tied to objects
-
-\- Outcome dependency
-
-\- Compared IO
-
-\- Implementation of System Commands: __(1)__
-
-You may need to add separate explanations about the implementation of the system commands.
-
-\- Scheduling & Waiting
+- Scheduling & Waiting
 
 
 Project steps
 -------------
 
-<…>
+> < ... >
 
-\- Finally:
-
-\- Update the article Flat & Structured Interchange
-
-\- Update the articles Coding Principles and Coding Concepts
+- Finally:
+    - Update the article Flat & Structured Interchange
+    \- Update the articles Coding Principles and Coding Concepts
 
 
 Brainstorm

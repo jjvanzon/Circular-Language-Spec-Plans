@@ -1,8 +1,7 @@
 ﻿Organize Computer Language Ideas (2), General | Project Summary 
 ==============================================================
 
-*This project is part of a super project.*
-
+*This project is part of a super project.*  
 *This entire project has an organizational character.*
 
 
@@ -21,10 +20,8 @@ Organize Computer Language Ideas (2)
 Time
 ----
 
-October 2, 2008 – October 3, 2008
-
-2 days
-
+October 2, 2008 – October 3, 2008  
+2 days  
 4 hours of work
 
 
@@ -39,28 +36,16 @@ The description of the main project New Computer Language Functional Design was 
 Project steps
 -------------
 
-\- Process idea box
-
-\- Gather ideas
-
-\- Categorize ideas
-
-/ Sub-categorize ideas
-
-\- Drop ideas into the system documentation
-
-\- Move all ideas from project descriptions to system documentation.
-
-\- Further process ideas
-
-\- Look at ideas dropped into main articles of documentation sections
-
-~X Drop ideas in specialized articles
-
-/ Create new articles for new concepts
-
-\- Do realize, that you never pre-determined the article list for the document sections. So it is not obligatory.
-
-\- Update main project
-
-Mainly its article list
+- Process idea box
+    - Gather ideas
+    - Categorize ideas
+    - / Sub-categorize ideas
+    - Drop ideas into the system documentation
+    - Move all ideas from project descriptions to system documentation.
+    - Further process ideas
+        - Look at ideas dropped into main articles of documentation sections
+            - ~X Drop ideas in specialized articles
+            - / Create new articles for new concepts
+            - Do realize, that you never pre-determined the article list for the document sections. So it is not obligatory.
+- Update main project
+    - Mainly its article list

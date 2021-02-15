@@ -7,15 +7,13 @@ Goal
 
 Make the articles:
 
-\- *Programming Language = Database*  *2008-03-16 00  1.0*
-
-\- *Data = Code*  *2008-03-16 00  1.0*
+- *Programming Language = Database*  *2008-03-16 00  1.0*
+- *Data = Code*  *2008-03-16 00  1.0*
 
 
 Date & Time
 -----------
 
-2008-03-14 – 2008-03-16
-
+2008-03-14 – 2008-03-16  
 1 ½ hours of work
 

@@ -45,10 +45,10 @@ Limitations
 Approach
 --------
 
-This is the approach for working out the *Black Box* concept.
-Look over the existing material there is now.
-Work out the idea as you go along.
-Make concise documentation.
+This is the approach for working out the *Black Box* concept.  
+Look over the existing material there is now.  
+Work out the idea as you go along.  
+Make concise documentation.  
 Consider the ‘writing efficiently’ rules in the project documentation of *New Computer Language Functional Design*.
 
 
@@ -61,10 +61,8 @@ This is one of the easiest topics left. The benefits of working out an easy topi
 Future
 -------
 
-After this project it is probably best to work on Microsoft certification first.
-
-The following 8 months are planned ahead, so it is clear what is next for the future.
-
+After this project it is probably best to work on Microsoft certification first.  
+The following 8 months are planned ahead, so it is clear what is next for the future.  
 See parent project *New Computer Language Functional Design*.
 
 
