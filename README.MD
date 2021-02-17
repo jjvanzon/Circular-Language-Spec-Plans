@@ -5,8 +5,6 @@ Circle-Language-Spec-Plans
 
 This repository would contain the plans, notes and TODO's about Circle-Language-Spec.
 
-Circle-Language-spec itself might be found here: [Circle-Language-Spec](https://github.com/jjvanzon/Circle-Language-Spec)
-
 Circle would be an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
 
 You may find the following sub-folders here:
@@ -30,3 +28,5 @@ You may find the following sub-folders here:
 - Archive
 
     - Content that might not be relevant anymore. It may be one step away from being deleted. But somehow it is still kept in this folder in case it may become relevant again.
+
+Circle-Language-spec itself might be found here: [Circle-Language-Spec](https://github.com/jjvanzon/Circle-Language-Spec)
