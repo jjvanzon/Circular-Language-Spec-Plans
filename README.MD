@@ -25,7 +25,7 @@ You may find the following sub-folders here:
 
 - Out of Scope
 
-    - Notes about topics that did not make it into the spec. That could be things part of the *Broader View* sub-folder in the Circle-Language-Spec repository. Or notes about the *Construct Drafts* that might also be found in the Circle-Language-Spec repository. Even topics that might not be found at all in the Circle-Language-Spec repository (anymore) might be found here. The idea is eventually remove those.
+    - Notes about topics that did not make it into the spec. That could be things part of the *Broader View* sub-folder in the Circle-Language-Spec repository. Or notes about *Construct Drafts*. Even topics that might not be found at all in the Circle-Language-Spec repository (anymore) might be found here. The idea is eventually remove those.
 
 - Archive
 
