@@ -1,5 +1,5 @@
 ﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Plan | Elements & Time Estimation
-================================================================================================================
+==================================================================================================================
 
 
 Remark
@@ -41,8 +41,9 @@ At first glance, it was estimated that it should take 1 week, 10 days tops.
 
 It is a reverse time-planning. You might not make it.
 
-|Total Points: |__16 points__|
-| -: | :- |
-|Estimated Velocity: |__1¼ hours / point__|
-|Time: |<p>__20 hours__</p><p>__1½ weeks__</p>|
-
+|                     |                      |
+|--------------------:|:---------------------|
+|       Total Points: | __16 points__        |
+| Estimated Velocity: | __1¼ hours / point__ |
+|               Time: | __20 hours__         |
+|               Time: | __1½ weeks__         |

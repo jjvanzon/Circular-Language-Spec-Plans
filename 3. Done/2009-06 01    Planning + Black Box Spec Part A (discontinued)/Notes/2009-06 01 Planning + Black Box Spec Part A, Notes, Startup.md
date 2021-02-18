@@ -1,5 +1,5 @@
 ﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Startup
-==============================================================================
+================================================================================
 
 Purpose of This Document
 ------------------------
@@ -14,7 +14,7 @@ Rough Plan
 - Time planning for super-project  __(3)__
 - Pick theme  __(0)__
 - Make goal description  __(2)__
-  - \+ Other startup issies
+      - \+ Other startup issies
 
 
 Orientation Plan

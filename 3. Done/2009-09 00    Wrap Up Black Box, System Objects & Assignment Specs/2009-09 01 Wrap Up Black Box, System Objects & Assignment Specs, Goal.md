@@ -4,11 +4,14 @@
 Versions
 ---------
 
-|Date|Document name|Version|Description|
-| :- | :- | :- | :- |
-|10-09-2009|Finish Black Box, System Objects & Assignment, Goal Description|2009-09-10 00  1.0|Version frozen before leaving out the low-priority stuff.|
-|11-09-2009|Finish Black Box, System Objects & Assignment, Goal Description|2009-09-11 00  2.0|Version frozen after leaving out the low-priority stuff, before the research phase in which the plan might be extended.|
-|-|Finish Black Box, System Objects & Assignment, Goal Description|XXXX-XX-XX XX  X.X|<p>Development version.</p><p>Most of the original tasks were removed, and the focus was set to wrap-up, rather than finished-up.</p>|
+| Date       | Version            | Description                                                    |
+|------------|--------------------|----------------------------------------------------------------|
+| 10-09-2009 | 2009-09-10 00  1.0 | Version frozen before leaving out the low-priority stuff.      |
+| 11-09-2009 | 2009-09-11 00  2.0 | Version frozen after leaving out the low-priority stuff,       |
+|            |                    | before the research phase in which the plan might be extended. |
+| -          | XXXX-XX-XX XX  X.X | Development version.                                           |
+|            |                    | Most of the original tasks were removed,                       |
+|            |                    | and the focus was set to wrap-up, rather than finished-up.     |
 
 
 Purpose of this Document

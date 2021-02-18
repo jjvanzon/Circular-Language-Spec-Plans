@@ -1,5 +1,5 @@
 ﻿Organize Computer Language Ideas (2), General | Project Summary 
-==============================================================
+===============================================================
 
 *This project is part of a super project.*  
 *This entire project has an organizational character.*

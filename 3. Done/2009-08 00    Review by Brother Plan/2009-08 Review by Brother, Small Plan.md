@@ -1,5 +1,5 @@
 ﻿Circle Language Spec Plan | Review by Brother | 2009-08 | Small Plan
-===================================================================
+====================================================================
 
 
 Parent Project
@@ -102,17 +102,15 @@ Reflection on the goals:
 - Check accessibility of material
 - Get an opinion about the material
 
-The material proved to be *very* accessible. Phew.
-I did not get a real opinion about it from my brother, but I probably will get it in the future.
+The material was received to be *quite* accessible. Phew.
+I did not get a real opinion about it from my brother, but I might get one in the future.
 
 Next to it being fun to be discussing the diagram notation, there were also a couple of tips he had:
 
-- Do not call it ‘Legacy’. It could come off belittling. Find a better name for it.
-- Integration layer: can be interpreted as integration within the system. It is about ‘outward’ integration. Possibly find another term for it.
-- The first diagram in Basic Diagram Elements is ineffective in my brothers opinion. ‘It could be an elephant.’ Find a more concrete example. Something that is something for real.
-- ‘Analogy to the real world’ was unnecessary according to my brother.
-
-I might get more tips from my brother in the future.
+- Do not call it 'Legacy'. It could come off belittling. Find a better name for it.
+- Integration layer: can be interpreted as integration within the system. It is about 'outward' integration. Possibly find another term for it.
+- The first diagram in Basic Diagram Elements might be ineffective in my brothers opinion. 'It could be an elephant.' Find a more concrete example. Something that is something for real.
+- 'Analogy to the real world' was unnecessary according to my brother.
 
 
 Eventual Time-Cost

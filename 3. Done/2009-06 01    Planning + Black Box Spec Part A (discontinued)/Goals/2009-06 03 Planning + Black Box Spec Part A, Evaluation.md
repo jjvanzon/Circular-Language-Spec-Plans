@@ -1,9 +1,9 @@
 ﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Evaluation
-=================================================================================
+===================================================================================
 
 
 Reflection On Strategy, Time Planning & Progress Monitoring
-----------------------------------------------------------
+-----------------------------------------------------------
 
 It was not clear at the beginning of the project how much work it was going to be. There was a ton of ideas to organize before you could know the extent of the project.
 

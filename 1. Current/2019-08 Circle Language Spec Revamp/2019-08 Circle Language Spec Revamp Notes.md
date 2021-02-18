@@ -2715,11 +2715,12 @@ I think that for now, it might be a better idea not to express such notational c
     - The access marks are sort of embedded into the language as it is right now. But these are all just a collection ideas, all just suggestions. A changed approach might not make things fall apart.
     - A line never gets a name. They are always called, for instance: ‘the object line of symbol B’.
     - Any object symbol might symbolize an object, a class or an interface. 
+        > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.009.png)
+        > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.010.png)
+        > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.011.png)
+        > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.012.png)
 
-|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.009.png)|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.010.png)|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.011.png)|![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.012.png)|
-| :-: | :-: | :-: | :-: |
-
-Each object might serve as another object’s class, sort of functioning as its prototype. Any object might also provide the interface for another object, which may give another object the same exterior, while it might be different on the inside.
+        Each object might serve as another object’s class, sort of functioning as its prototype. Any object might also provide the interface for another object, which may give another object the same exterior, while it might be different on the inside.
 
 - Add a picture around 'Object Structure Solid, Class Structure Dashed', to demonstrate how things would look?
 - Privacy issues in the paper scans?
