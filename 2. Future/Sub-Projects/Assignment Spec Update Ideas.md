@@ -1,5 +1,5 @@
-Circle Language Spec Plan, Assignment Spec Update Ideas
-=======================================================
+Circle Language Spec Plans | Assignment Spec Update Ideas
+========================================================
 
 2008-09-29
 

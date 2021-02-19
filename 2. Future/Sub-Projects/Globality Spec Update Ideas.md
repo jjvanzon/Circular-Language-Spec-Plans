@@ -1,5 +1,5 @@
-Circle Language Spec Plan, Globality Spec Update Ideas
-======================================================
+Circle Language Spec Plans | Globality Spec Update Ideas
+========================================================
 
 Not sure if this will have to change. Maybe change the term 'Globality' to 'Modules' instead to prevent introducing alienating terminology.
 

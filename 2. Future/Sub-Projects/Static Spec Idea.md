@@ -1,5 +1,5 @@
-Circle Language Spec Plan, Static Spec Idea
-===========================================
+Circle Language Spec Plans | Static Spec Idea
+=============================================
 
 The concept of Static could be worked out.
 
