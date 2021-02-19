@@ -726,10 +726,10 @@ It may be worth to reconsider. Maybe the indicated direction in the assignment n
 - That there are references and that there are objects, might be key to understanding a bit about this particular object oriented take on things. But as it starts getting a bit hard on your head with pointer-to-pointer edge-cases, maybe I can extract those topics and move those.
 - It is becoming harder for me now, because it is iffy. I can notice it inside myself.
 - Here I start scratching my head about whether these are details I might leave out of the main story: under "The Extra Commands & Overloads":
-    - __Set Object__ à __Set Object to Other Related Item__
-    - __Set Object__ à __Set Object to Other Related List Item__
-    - __Object Get__ à __Get Object which is Another Related Item__
-    - __Object Get__ à __Get Object which is Another Related List Item__
+    - __Set Object__ => __Set Object to Other Related Item__
+    - __Set Object__ => __Set Object to Other Related List Item__
+    - __Object Get__ => __Get Object which is Another Related Item__
+    - __Object Get__ => __Get Object which is Another Related List Item__
 - I see now that the section is named "The Extra Commands & Overloads". So it seems isolated, and perhaps separately movable to the Pointers chapter?
 - "Get Class which is a Reference" might have overloads that are perhaps pointer to pointer situations?
 - "Set Class to Reference" might also be a pointer-to-pointer situation.
@@ -2135,7 +2135,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - Page header and footer
             - I am good with no page headers and footers.
         - File properties (author and such)
-            - If they are odd. Not that odd à Leave it there.
+            - If they are odd. Not that odd => Leave it there.
             - Still have to do Done projects.
         - Update lists of contents
         - Legend:
@@ -2852,7 +2852,7 @@ has something missing. In C# you can also refer to the parent object as if it we
 
 ### 2020-07-21 Postponed Content Changes for System Command Call Notations Article
 
-- Get Reference-Bound Class ß New ß
+- Get Reference-Bound Class <= New <=
     - Maybe this edge case might be left out. It seems to introduce something new, not the main point of the article. Keep it somewhere? Move it? To where?
 - I am weirded out a bit, that I used assignments for the value commands but just connections for the object commands.
     - Value commands' arguments seem to need assignment notation to be an assignment compared to value correspondence, but object commands' arguments do not seem need an assignment notation because they are a connection. Yet I do indicate that e.g. Set Object would be called. There seems to be an asymmetry there that does not resonate well with me. Why would the connection to a parameter result in a system command call in one case (in case of object commands), but the connection to a parameter would not result in a system command call in the other case (in case of value commands). Did I at one point want to solve that by making value connections with direction be value assignments? Or is it something special with consulting parameters? I do not know, but I would like it to feel like it makes sense and is consistent. I was already in doubt whether a system command was actually the result of the connection to the parameter on the right. Maybe they are not? Then quite something seems to fall apart about the overview. I don't know. I'd like to solve it and make it clean.

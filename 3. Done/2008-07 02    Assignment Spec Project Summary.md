@@ -54,16 +54,16 @@ __1__ other item of work was done
 
     - *Object Reference Assignment* 
     - *Object Reference Assignment in a Diagram*
-    - *Object Reference Assignment in Text Code*  (__=à__) (not finished)
+    - *Object Reference Assignment in Text Code*  (__=->__) (not finished)
     - *Object Reference Object Assignment*
     - *Object Reference Object Assignment in a Diagram*
-    - *Object Reference Object Assignment in Text Code*  (__o=à__) (not finished)
+    - *Object Reference Object Assignment in Text Code*  (__o=->__) (not finished)
     - *Object Reference Class Assignment* 
     - *Object Reference Class Assignment in a Diagram*
-    - *Object Reference Class Assignment in Text Code*  (__c=à__) (not finished)
+    - *Object Reference Class Assignment in Text Code*  (__c=->__) (not finished)
     - *Object Reference Interface Assignment* 
     - *Object Reference Interface Assignment in a Diagram*
-    - *Object Reference Interface Assignment in Text Code*  (__i=à__) (not finished)
+    - *Object Reference Interface Assignment in Text Code*  (__i=->__) (not finished)
 
     - *Alternative Assignments*
     - *Alternative Assignments in a Diagram*
@@ -165,18 +165,18 @@ This would create a different set of articles:
 - Interface Assignment in a Diagram
 - Interface Assignment in Text Code (not finished)
 
-- Object Reference Assignment __=à__
+- Object Reference Assignment __=->__
 - Object Reference Assignment in a Diagram
 - Object Reference Assignment in Text Code (not finished)
 - Object Reference Object Assignment
 - Object Reference Object Assignment in a Diagram
-- Object Reference Object Assignment in Text Code __o=à__ (not finished)
+- Object Reference Object Assignment in Text Code __o=->__ (not finished)
 - Object Reference Class Assignment 
 - Object Reference Class Assignment in a Diagram
-- Object Reference Class Assignment in Text Code __c=à__ (not finished)
+- Object Reference Class Assignment in Text Code __c=->__ (not finished)
 - Object Reference Interface Assignment 
 - Object Reference Interface Assignment in a Diagram
-- Object Reference Interface Assignment in Text Code __i=à__ (not finished)
+- Object Reference Interface Assignment in Text Code __i=->__ (not finished)
 
 - Alternative Assignments
 - Alternative Assignments in a Diagram
@@ -193,10 +193,10 @@ It may be an idea to take the following details into consideration:
     - \> Perhaps the normal case is to just assign the class of a symbol to another symbol. Possibly, if that class is a pointer to a pointer to a class, it is the pointer to the pointer to the other symbol that is accessed. Assigning the target class may need to be another type of assignment.
     - \> In that case, it may be an idea to leave out the term target in the normal assignments, and add a new set of possible assignments: target object assignment, target class assignment, etcetera.
 - Alternative assignments, not target assignments
-    > What about assigning the Target Class as the class target of an object reference? This might be an option: c=càà  
+    > What about assigning the Target Class as the class target of an object reference? This might be an option: c=c->->  
     > Maybe the same can apply to interfaces.  
     > But the following could be done too:  
-        > __A  c=à  B  .  Target Class__  
+        > __A  c=->  B  .  Target Class__  
     > The diagram was worked out on paper.
     > Object reference assignment seemed a useful part of the solution.  
     > But target object reference assignment does not seem needed in the solution. Target object reference assignment seems less common, and possible in an alternative way. Target object reference assignment also lead to thinking about assigning other types of targets and it might clutter the language with a bunch of alternative notations for things that are less common, for which a general notation could be used.
@@ -234,7 +234,7 @@ It may be an idea to take the following details into consideration:
         - Object reference object assignment:
             > __B  .  Other Related Item  .  Set  (  A  .  This  )__
             > __B  .  Other Related Item  .  Set  =  A  .  This__
-            > __B  o=à  A__
+            > __B  o=->  A__
 
     - Articles that might change:
         - Assignment
