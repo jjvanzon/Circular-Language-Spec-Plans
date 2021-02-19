@@ -1,8 +1,5 @@
-﻿Circle Language Spec Plan Part B
-================================
-
-Evaluation
-==========
+﻿Circle Language Spec Plan Part B | Evaluation
+=============================================
 
 Making the new computer language has been an ongoing project, since the end of the year 2000.
 

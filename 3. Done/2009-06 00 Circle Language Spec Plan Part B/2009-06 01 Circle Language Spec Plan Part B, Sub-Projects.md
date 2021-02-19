@@ -1,14 +1,13 @@
-﻿Circle Language Spec Plan Part B 2009-06
-=======================================
+﻿Circle Language Spec Plan Part B 2009-06 | Sub-Projects
+=======================================================
 
-Sub-Projects
-------------
-
-### Purpose of this Document
+Purpose of this Document
+------------------------
 
 This document lists out the projects done in a period of time between 2009-06 and 2010-05.
 
-### Sub-Projects
+Sub-Projects
+------------
 
 2009-06 - Black Box + Planning  
 2009-08 - Review by Brother  
