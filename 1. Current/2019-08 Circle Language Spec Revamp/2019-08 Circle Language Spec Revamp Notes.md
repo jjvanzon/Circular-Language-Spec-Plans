@@ -1416,7 +1416,7 @@ The last 3 articles might become a single 'misc' article. But perhaps some of th
 - 10.        Simplified System Event Notation > Medium sized
 - 11.        System Event Parameters > Medium sized / smaller
 - 12.        System Event Design Choices > Smaller
-- 13. Qualified Event Names > Smaller <<out of scope>>
+- 13. Qualified Event Names > Smaller << out of scope >>
 - 14. Interaction Events > Smaller
 - 15. Black Boxing Events > Medium sized / smaller
 - 16. Event Alternatives> Smaller
@@ -1437,17 +1437,17 @@ The last 3 articles might become a single 'misc' article. But perhaps some of th
 - 09.        Interface Connectors.docx > Small
 - 10.        Interface Connections.docx > Small
 - 11.        New Command with Interface Parameter.docx > Small
-- 12. Command Interfaces.docx > Small <<use case>>
-- 13. Interface Referencing and Redirectioning.docx > Small <<notation demonstration>>
-- 14. Member Grouping.docx > Medium sized / small <<edge-case>>
-- 15. Relationships Through Interfaces.docx > Medium sized <<notation demonstration>>
-- 16. Interface Referrers.docx > Small <<edge-case>>
-- 17. Reliability of Interfaces.docx > Medium sized / small <<edge-case>>
-- 18. Group By Source.docx > Medium sized / small <<out of scope?>>
-- 19. Imaginary Backward Relationships.docx > Small <<out of scope?>>
-- 20. Target Interfaces.docx > Medium sized, because of ideas, main text is small. <<main concept>>
-- 21. Mutual Commands, Mutual Interfaces (Unfinished).docx > Small <<construct draft>>
-- 22. Extensive Classification with Interfaces (Unfinished).docx > Small <<construct draft>>
+- 12. Command Interfaces.docx > Small < <use case >>
+- 13. Interface Referencing and Redirectioning.docx > Small << notation demonstration >>
+- 14. Member Grouping.docx > Medium sized / small << edge-case >>
+- 15. Relationships Through Interfaces.docx > Medium sized << notation demonstration >>
+- 16. Interface Referrers.docx > Small << edge-case >>
+- 17. Reliability of Interfaces.docx > Medium sized / small << edge-case >>
+- 18. Group By Source.docx > Medium sized / small << out of scope? >>
+- 19. Imaginary Backward Relationships.docx > Small << out of scope? >>
+- 20. Target Interfaces.docx > Medium sized, because of ideas, main text is small. << main concept >>
+- 21. Mutual Commands, Mutual Interfaces (Unfinished).docx > Small << construct draft >>
+- 22. Extensive Classification with Interfaces (Unfinished).docx > Small << construct draft >>
 - 99. Interfaces Ideas.docx > Small > Move to main article.
 ```
 
@@ -2244,7 +2244,7 @@ This was too intense. I wonder if starting to change documentation will be too i
 
 ### 2020-03-08 Done Reading Circle 3 Requirements Docs
 
-The requirement group 'Priority C: Classes' has 1 language design feature: <Diagram Notation Design> Static. So that is to be moved to the language design project docs.
+The requirement group 'Priority C: Classes' has 1 language design feature: < Diagram Notation Design > Static. So that is to be moved to the language design project docs.
 
 'Priority E: Integration' contains brainstorming instead of a list of items.
 
