@@ -768,24 +768,22 @@ It sort of feels wrong to put effort into texts about a notation I do not seem t
 
 Possible consequences of changing the notation now:
 
-- [x] Might deviate from reformulation efforts and make that slower or in jeopardy of coming to a halt.
-- [x] Might be many places in the docs to change the notation in (disputably).
-- [x] May take on more work in a detour task.
-- [x] Not currently the focus / main goal.
+- Might deviate from reformulation efforts and make that slower or in jeopardy of coming to a halt.
+- Might be many places in the docs to change the notation in (disputably).
+- May take on more work in a detour task.
+- Not currently the focus / main goal.
 
 I however, also feel that a perceived excess in effort going into text that might be deprecated, could be an issue I might not feel entirely ok with.
 
-Maybe a bit of observation over the text, to see where the notation is used.
-
-I suspect not in many places. I think many topics might be described independently of the bidirectional relationship notations.
+Maybe a bit of observation over the text, to see where the notation is used. I suspect not in many places. I think many topics might be described independently of the bidirectional relationship notations.
 
 The double dashed ring notation might be used in:
 
-- [x] The Relationships chapter itself.
+- The Relationships chapter itself.
 
 This brainstorming also costs energy.
 
-I might solve it more easily. In the Relationships chapter I might switch over to the relational ring notation. Then when other chapters might use the double dashed ring notation, the arguments are already given: the Relationships chapter no longer would mention it, the Basic Diagram Elements chapter would express the preference of relational ring notation. Then any piece left that still might use the 'old' notation might be excused. This may be a side-effect of stating things more 'humby' instead and being honest where there is doubt.
+I might solve it more easily. In the Relationships chapter I might switch over to the relational ring notation. Then when other chapters might use the double dashed ring notation, the arguments are already given: the Relationships chapter no longer would mention it, the Basic Diagram Elements chapter would express the preference of relational ring notation. Then any piece left that still might use the 'old' notation might be excused. This may be a side-effect of stating things more 'humbly' instead and being more direct where there is doubt.
 
 I used to think expressing doubt or uncertainty might make people dismiss an idea. Now I do not feel like that anymore and might be better off reverting to a way more close to what I was born with. I might want to hold on to that. The language style I try to introduce might not be one that does not come naturally to me. It might be one that clashes with my original language style + other people's demands as I perceived them. So perhaps adopted behavior rather than original behavior would be what makes it difficult to switch language style. To have difficulty finding the balance in. If I can find a point in the past where honesty and humility was my go-to kind of voice…
 
@@ -795,19 +793,16 @@ I seem to not like it when I make the rules for reformulating things so strict. 
 
 It was supposed to feel like hobby.
 
-I think I would like to change the rules by which I was reformulating these texts.
-
-I think I want to be more ok with words that seem to exaggerate or be quite strong. For instance "distinct", ''rule", "defined". Maybe I want to keep those words in there.
-
-I think I am noticing that many words just are black and white. If I use a thesaurus I get to see words that might also be quite strong.
-
+I think I would like to change the rules by which I was reformulating these texts.  
+I think I want to be more ok with words that seem to exaggerate or be quite strong. For instance "distinct", ''rule", "defined". Maybe I want to keep those words in there.  
+I think I am noticing that many words just are black and white. If I use a thesaurus I get to see words that might also be quite strong.  
 Maybe I can leave it with adding maybe's and perhapses and leave words that seem to express it strongly, in there.
 
 Reasons for changing the way to do it might be:
 
-- [x] It seems to make me anxious being hyper aware of these 'forbidden' words.
-- [x] The text seems to now lack flair, and might not grab attention as well anymore.
-- [x] I feel I use more in between words, that carry not much meaning. It seems wordier than necessary.
+- It seems to make me anxious being hyper aware of these 'forbidden' words.
+- The text seems to now lack flair, and might not grab attention as well anymore.
+- I feel I use more in between words, that carry not much meaning. It seems wordier than necessary.
 
 I used to aim to be concise. In doing so, some thing might start to seem a bit commanding or something. But I did do my best then to make the text clear. Maybe this is not such a bad thing and maybe I was not doing that badly at it after all. Maybe just adding some wiggle words is enough, so that I might form an intermediate writing style. Perhaps that will be concise, strong, but leaving room for other options.
 
@@ -920,7 +915,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 
 - [x] Marking standard trigger words in red, with search and replace, possibly marking questionable trigger words with a star (*) too.
 - [x] ~~Manually marking trigger words in red:~~
-    - [x] Might not give high priority to marking trigger words manually anymore.
+    - [x] ~~Might not give high priority to marking trigger words manually anymore.~~
 - [x] ~~Possibly manually mark questionable trigger words with a star (*) too.~~
 - [x] ~~Finding replacement words, possibly using online thesaurus.~~
 - [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
@@ -929,7 +924,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 
 I question the way the Relationships topic is approached. 
 
-I think it is an interesting idea. But it seems presented in a way that all relationships are supposed to be bidirectional. In one of my prototype apps for a programming environment this idea was sort of centric. But now that the notation seems more important to me trying to push constructs that might not be that widely applicable, this seems to disturb the story.
+I think it is an interesting idea. But it seems presented in a way that all relationships are supposed to be bidirectional. In one of my prototype apps for a programming environment this idea was sort of centric. But now that the notation seems more important to me, trying to push constructs that might not be that widely applicable, this seems to disturb the story.
 
 It seems to be more about an idea for ubiquitous bidirectional relationships. It seems that Relationships in my view back then was synonymous for bi-directional relationships and my idea was you should make most relationships bi-directional. But the problem with, that I have with that now, is that doing so sort of removes hierarchy: everything seems to land on the same level of the containment structure, if every relationship is mutual. I had some ideas how to then solve that again, with relationship direction. I think I still like that idea. But now I have a construct proposal, that seems to be pushed too hard to the foreground, that seems something you should be able to choose, not something you should be pushed down your throat, excuse the sarcasm. And unless I finish it, it seems to hinder the notation, that I find more important than having all relationships be bi-directional.
 
@@ -1158,7 +1153,7 @@ I feel that if I am not over-alert about the written text, I feel I might not re
 ### 2019-08-05 Done Writing Style Mixed Issues
 
 - [x] ~~The work might be modularized. I am not attacted to how CSS3 is modularized, each piece of specs with a different state of being finished up. It seems messy. But I can employ the same organization to accept certain concepts are just more crystalized out than others, making it easier to share, even in an unfinished state, and stimulating keeping things separated and separately usable even when other parts are just really still messy. > Scoped things more sharply instead, so more is finished up better percentually.~~
-- [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends will make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually does the trick. Might tells people clearly not to not too much from the text that follows. Just being clear about that might be enough.~~
+- [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends will make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually does the trick. Might tell people clearly not to expect too much from the text that follows. Just being clear about that might be enough.~~
 
 ### 2019-08-05 Done Brainstorm Scope
 
@@ -1177,11 +1172,11 @@ I feel that if I am not over-alert about the written text, I feel I might not re
 
 - [x] More articles from the first chapters might be merged together.
 - [x] Structure changes:
-    - [x] x Making back ground black?
-    - [x] x Changing main headers?
+    - [x] Making back ground black?
+    - [x] Changing main headers?
     - [x] ~~Removing the footers?~~
     - [x] ~~Removing 'see also' references?~~
-    - [x] x Convert to docx.
+    - [x] Convert to docx.
     - [x] Merging or redistributing articles?
 - [x] Chapters
     - [x] Objects
@@ -1215,7 +1210,6 @@ I feel that if I am not over-alert about the written text, I feel I might not re
 - [x] Assignment I would like to keep separate for now.
 - [x] System Command Call Notations too. It's kind of large and honestly a bit questionable, so I would like to keep that separate.
 - [x] I am thinking the remaining 4 relatively small articles, might be combined into a System Objects Misc article.
-
 - [x] "01. System Objects" > Larger > Keep separate
 - [x] "02. Assignment" > Medium sized > Keep separate
 - [x] "03. System Command Call Notations" > Larger > Keep separate
@@ -1340,109 +1334,103 @@ Specialization is mostly small articles, but quite a few of them. But maybe comb
 The articles that follow do not seem to be many or they are already larger ones I might not want to group together.
 
 ```
-- [x] 01. Inheritance Introduction > Smaller
-- [x] 02. Inheritance Main Concepts > Smaller
-- [x] 03.        Class Inheritance > Smaller
-- [x] 04.        Object Inheritance > Smaller
-- [x] 05.        List Inheritance > Smaller
-- [x] 06.        System Inheritance > Medium-sized / smaller
-- [x] 07.        Interface Inheritance > Smaller
-- [x] 07. Specialization > Smaller
-- [x] 08.        Specialization & Data Replacement > Smaller
-- [x] 09.        Altering the Member Set > Smaller
-- [x] 10.             Member Addition > Smaller
-- [x] 11.             Member Exclusion > Medium-sized / smaller
-- [x] 12.             Member Inclusion > Smaller
-- [x] 14.        Detouring Members > Smaller
-- [x] 15.             Shadowing > Medium-sized / smaller
-- [x] 16.             Overriding > Medium-sized
-- [x] 17.        Altering Command Implementations > Smaller
-- [x] 18.             Command Extension > Smaller
-- [x] 19.             System Command Extension > Smaller
-- [x] 20.             System Command Overriding > Smaller
-- [x] 21.             System Command Shadowing > Smaller
-- [x] 22.             System Command Extension By Shadowing > Smaller
-- [x] 23.             System Command Extension By Overriding (Questionable) > Smaller
-- [x] 24.             System Command Overriding By Extension > Smaller
-- [x] 25.        Destructive & Non-Destructive Specialization Methods > Smaller
-- [x] 26. Misc Inheritance Situations > Medium-sized / smaller
-    - [x] > Moved to Inheritance Main Concepts.
-- [x] 27. Enforcing & Preventing Specialization > Larger > Would probably keep it separate.
-- [x] 28. Deeper Specialization.docx > Larger > Would probably keep it separate.
-- [x] 29. Alternate Version Through Inheritance > Smaller
-    - [x] > Maybe move this detail elsewhere.
+- 01. Inheritance Introduction > Smaller
+- 02. Inheritance Main Concepts > Smaller
+- 03.        Class Inheritance > Smaller
+- 04.        Object Inheritance > Smaller
+- 05.        List Inheritance > Smaller
+- 06.        System Inheritance > Medium-sized / smaller
+- 07.        Interface Inheritance > Smaller
+- 07. Specialization > Smaller
+- 08.        Specialization & Data Replacement > Smaller
+- 09.        Altering the Member Set > Smaller
+- 10.             Member Addition > Smaller
+- 11.             Member Exclusion > Medium-sized / smaller
+- 12.             Member Inclusion > Smaller
+- 14.        Detouring Members > Smaller
+- 15.             Shadowing > Medium-sized / smaller
+- 16.             Overriding > Medium-sized
+- 17.        Altering Command Implementations > Smaller
+- 18.             Command Extension > Smaller
+- 19.             System Command Extension > Smaller
+- 20.             System Command Overriding > Smaller
+- 21.             System Command Shadowing > Smaller
+- 22.             System Command Extension By Shadowing > Smaller
+- 23.             System Command Extension By Overriding (Questionable) > Smaller
+- 24.             System Command Overriding By Extension > Smaller
+- 25.        Destructive & Non-Destructive Specialization Methods > Smaller
+- 26. Misc Inheritance Situations > Medium-sized / smaller
+    - > Moved to Inheritance Main Concepts.
+- 27. Enforcing & Preventing Specialization > Larger > Would probably keep it separate.
+- 28. Deeper Specialization.docx > Larger > Would probably keep it separate.
+- 29. Alternate Version Through Inheritance > Smaller
+    - > Maybe move this detail elsewhere.
         Might not be worth an entirely separate article.
-- [x] 30.1. Extending System Objects (Older) > Larger
-    - [x] > Not sure what the status of this is? It has the word 'Older' in it.
+- 30.1. Extending System Objects (Older) > Larger
+    - > Not sure what the status of this is? It has the word 'Older' in it.
         Is it deprecated? Covered elsewhere already?
         I don't know. But at this stage maybe I do not need to know.
-- [x] 30.1. Extending System Objects in a Diagram (Older) > Medium-sized / smaller
-    - [x] > Would probably merge it with the main article.
-- [x] 31. Inheritance Ideas > Medium-sized
+- 30.1. Extending System Objects in a Diagram (Older) > Medium-sized / smaller
+    - > Would probably merge it with the main article.
+- 31. Inheritance Ideas > Medium-sized
 ```
 
 ### 2020-05-22 Done Merging Events Articles Together
 
-Possibly this is one you want to put into a single document.
-
+Possibly this is one you want to put into a single document.  
 Most of them are small.
-
-"13. Qualified Event Names" should be out of scope, since it is about text code?
-
-The articles before 'System Events' might be put into one article.
-
-I might put System Events in one article.
-
-System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Circle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Circle would function more like a stand-alone language, rather than mostly a diagram notation).
-
+"13. Qualified Event Names" should be out of scope, since it is about text code?  
+The articles before 'System Events' might be put into one article.  
+I might put System Events in one article.  
+System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Circle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Circle would function more like a stand-alone language, rather than mostly a diagram notation).  
 The last 3 articles might become a single 'misc' article. But perhaps some of them have a place in the main article.
 
 ```
-- [x] 01. Events Introduction > Smaller
-- [x] 02. Prime Event Example, Button Clicked > Smaller
-- [x] 03. Events Main Concepts > Smallish
-- [x] 04. Event Situations > Smallish
-- [x] 05. Explicit Implementation of Event Object > Smaller
-- [x] 06. Explicit Interface of Event Object > Smaller
-- [x] 07. Event Interface Reference > Smaller
-- [x] 08. System Events > Medium sized / smaller
-- [x] 09.        System Events in Normal Notation > Smaller
-- [x] 10.        Simplified System Event Notation > Medium sized
-- [x] 11.        System Event Parameters > Medium sized / smaller
-- [x] 12.        System Event Design Choices > Smaller
-- [x] 13. Qualified Event Names > Smaller << out of scope >>
-- [x] 14. Interaction Events > Smaller
-- [x] 15. Black Boxing Events > Medium sized / smaller
-- [x] 16. Event Alternatives> Smaller
-- [x] 99. Ideas > Smallish
+- 01. Events Introduction > Smaller
+- 02. Prime Event Example, Button Clicked > Smaller
+- 03. Events Main Concepts > Smallish
+- 04. Event Situations > Smallish
+- 05. Explicit Implementation of Event Object > Smaller
+- 06. Explicit Interface of Event Object > Smaller
+- 07. Event Interface Reference > Smaller
+- 08. System Events > Medium sized / smaller
+- 09.        System Events in Normal Notation > Smaller
+- 10.        Simplified System Event Notation > Medium sized
+- 11.        System Event Parameters > Medium sized / smaller
+- 12.        System Event Design Choices > Smaller
+- 13. Qualified Event Names > Smaller << out of scope >>
+- 14. Interaction Events > Smaller
+- 15. Black Boxing Events > Medium sized / smaller
+- 16. Event Alternatives> Smaller
+- 99. Ideas > Smallish
 ```
 
 ### 2020-05-22 Done Merging Interfaces Articles Together
 
 ```
-- [x] 01. Interfaces Introduction > Small
-- [x] 02. Interfaces Main Concepts.docx > Medium sized
-- [x] 03. Interface Aspect.docx > Small
-- [x] 04.        System Commands for the Interface Aspect.docx > Medium sized / small
-- [x] 05.        System Commands for the Interface Merging Aspect.docx > Small
-- [x] 06.        Interface Aspect in System Interface.docx > Medium sized / small
-- [x] 07.        Interface Assignment Types.docx > Medium sized
-- [x] 08.        Interface System Command Calls.docx > Medium size
-- [x] 09.        Interface Connectors.docx > Small
-- [x] 10.        Interface Connections.docx > Small
-- [x] 11.        New Command with Interface Parameter.docx > Small
-- [x] 12. Command Interfaces.docx > Small < <use case >>
-- [x] 13. Interface Referencing and Redirectioning.docx > Small << notation demonstration >>
-- [x] 14. Member Grouping.docx > Medium sized / small << edge-case >>
-- [x] 15. Relationships Through Interfaces.docx > Medium sized << notation demonstration >>
-- [x] 16. Interface Referrers.docx > Small << edge-case >>
-- [x] 17. Reliability of Interfaces.docx > Medium sized / small << edge-case >>
-- [x] 18. Group By Source.docx > Medium sized / small << out of scope? >>
-- [x] 19. Imaginary Backward Relationships.docx > Small << out of scope? >>
-- [x] 20. Target Interfaces.docx > Medium sized, because of ideas, main text is small. << main concept >>
-- [x] 21. Mutual Commands, Mutual Interfaces (Unfinished).docx > Small << construct draft >>
-- [x] 22. Extensive Classification with Interfaces (Unfinished).docx > Small << construct draft >>
-- [x] 99. Interfaces Ideas.docx > Small > Move to main article.
+- 01. Interfaces Introduction > Small
+- 02. Interfaces Main Concepts.docx > Medium sized
+- 03. Interface Aspect.docx > Small
+- 04.        System Commands for the Interface Aspect.docx > Medium sized / small
+- 05.        System Commands for the Interface Merging Aspect.docx > Small
+- 06.        Interface Aspect in System Interface.docx > Medium sized / small
+- 07.        Interface Assignment Types.docx > Medium sized
+- 08.        Interface System Command Calls.docx > Medium size
+- 09.        Interface Connectors.docx > Small
+- 10.        Interface Connections.docx > Small
+- 11.        New Command with Interface Parameter.docx > Small
+- 12. Command Interfaces.docx > Small < <use case >>
+- 13. Interface Referencing and Redirectioning.docx > Small << notation demonstration >>
+- 14. Member Grouping.docx > Medium sized / small << edge-case >>
+- 15. Relationships Through Interfaces.docx > Medium sized << notation demonstration >>
+- 16. Interface Referrers.docx > Small << edge-case >>
+- 17. Reliability of Interfaces.docx > Medium sized / small << edge-case >>
+- 18. Group By Source.docx > Medium sized / small << out of scope? >>
+- 19. Imaginary Backward Relationships.docx > Small << out of scope? >>
+- 20. Target Interfaces.docx > Medium sized, because of ideas, main text is small. << main concept >>
+- 21. Mutual Commands, Mutual Interfaces (Unfinished).docx > Small << construct draft >>
+- 22. Extensive Classification with Interfaces (Unfinished).docx > Small << construct draft >>
+- 99. Interfaces Ideas.docx > Small > Move to main article.
 ```
 
 None of the articles are that big. The size differences are a bit all over the place.
@@ -1461,51 +1449,51 @@ But I have doubts how to group them to bigger articles.
 I do not think I want to group them together just in one big article.
 I might just go for it, grouping the first smaller articles into a bigger one.
 
-- [x] Smaller, integrated into a single article:
-    - [x] "01. Black Box Introduction"
-    - [x] "02. Black Box Main Concepts"
-    - [x] "03. Public & Private"
-    - [x] "04. Friend Declaration"
-    - [x] "05. Notations of Private"
-    - [x] "06. Friend Declaration in Instances"
-    - [x] "07. Public & Friend Connections"
-    - [x] "08. Access Controlling Aspects"
-    - [x] "09. Object-Bound, Reference-Bound & Access Control"
-    - [x] "13. Assignment between Friend Members"
-    - [x] "14. Friend = Wavy Line"
-- [x] Group these together:
-    - [x] "10. Public & Private Connectors > Kinda medium sized"
-    - [x] "11. Public & Private Connections > Relatively bigger."
-    - [x] "12. Public & Private Assignment > Kinda medium sized."
-- [x] Putting these together in one article:
-    - [x] "20. Black Box Miscellaneous Issues"
-        - [x] Looks unfinished.
-        - [x] Objects Take Over Class Access Control: Might move to article Black Boxes, section Friend Declarations in Instances.
-    - [x] "21. Black Box Side-Issues"
-        - [x] Looks unfinished.
-        - [x] Might move these Circle Broader View:
-            - [x] Black Boxing and User Access Control
-            - [x] Programmers and Users
-    - [x] "22. Black Box Details, May Cover Last"
-        - [x] Unfinished drafts.
-        - [x] Might move these Circle Construct Drafts:
-            - [x] Level Limitation
-            - [x] Globality Level Limitation
-            - [x] Downsides to Black Boxes
-            - [x] Get For Access and Get For Copy
-            - [x] Inaccessible System Aspects
-            - [x] Compared to Traditional Black Boxing (goes in too deep on automatic containment)
-            - [x] Other Details
-        - [x] Special case:
-            - [x] Simplified Access Connectors: I think those ideas could be moved to Simplified Access Control Notation, because that is what they are about. Big brainstorm though.
-    - [x] "23. Black Box Details, Might Not Cover"
-        - [x] Same as above.
-        - [x] Moving it to Circle Construct Drafts after some considerations.
-- [x] "23.3. Black Box Details, May Not Cover, Simplified Access Control Expression in a Diagram"
-    - [x] Left it for what it is. Am not calling it unfinished. It seems finished. Maybe might change in the future, but it looks like a worked out idea.
-- [x] Moved from Circle Language Spec to Circle Construct Drafts:
-    - [x] "23.1. Black Box Details, May Not Cover, Simplified Access Control Expression"
-    - [x] "23.2. Black Box Details, May Not Cover, Simplified Access Control Expression in Text Code"
+- Smaller, integrated into a single article:
+    - "01. Black Box Introduction"
+    - "02. Black Box Main Concepts"
+    - "03. Public & Private"
+    - "04. Friend Declaration"
+    - "05. Notations of Private"
+    - "06. Friend Declaration in Instances"
+    - "07. Public & Friend Connections"
+    - "08. Access Controlling Aspects"
+    - "09. Object-Bound, Reference-Bound & Access Control"
+    - "13. Assignment between Friend Members"
+    - "14. Friend = Wavy Line"
+- Group these together:
+    - "10. Public & Private Connectors > Kinda medium sized"
+    - "11. Public & Private Connections > Relatively bigger."
+    - "12. Public & Private Assignment > Kinda medium sized."
+- Putting these together in one article:
+    - "20. Black Box Miscellaneous Issues"
+        - Looks unfinished.
+        - Objects Take Over Class Access Control: Might move to article Black Boxes, section Friend Declarations in Instances.
+    - "21. Black Box Side-Issues"
+        - Looks unfinished.
+        - Might move these Circle Broader View:
+            - Black Boxing and User Access Control
+            - Programmers and Users
+    - "22. Black Box Details, May Cover Last"
+        - Unfinished drafts.
+        - Might move these Circle Construct Drafts:
+            - Level Limitation
+            - Globality Level Limitation
+            - Downsides to Black Boxes
+            - Get For Access and Get For Copy
+            - Inaccessible System Aspects
+            - Compared to Traditional Black Boxing (goes in too deep on automatic containment)
+            - Other Details
+        - Special case:
+            - Simplified Access Connectors: I think those ideas could be moved to Simplified Access Control Notation, because that is what they are about. Big brainstorm though.
+    - "23. Black Box Details, Might Not Cover"
+        - Same as above.
+        - Moving it to Circle Construct Drafts after some considerations.
+- "23.3. Black Box Details, May Not Cover, Simplified Access Control Expression in a Diagram"
+    - Left it for what it is. Am not calling it unfinished. It seems finished. Maybe might change in the future, but it looks like a worked out idea.
+- Moved from Circle Language Spec to Circle Construct Drafts:
+    - "23.1. Black Box Details, May Not Cover, Simplified Access Control Expression"
+    - "23.2. Black Box Details, May Not Cover, Simplified Access Control Expression in Text Code"
 
 ### 2020-05-20 Done Merging Execution Control Articles Together
 
@@ -1732,14 +1720,14 @@ I don't think I want to reformulate the goals of Circle 3 programming projects, 
 
 ### 2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs
 
-- [x] Reformulate:
-    - [x] I would want to read over those Done projects content before publishing. I should know what I publish exactly and have evaluated it and made some adaptations possibly. Probably nothing in it is a secret, so you don't need to remove it from source control history, but slight changes might be good.
-    - [x] I did not read the content of the sub-projects or the idea box.
-    - [x] I think, I guess, I would want to go through content top-down for reformulations?
-- [x] Tone:
-    - [x] Some things especially in evaluations may seem cocky when I call my own successes very, very good. I don't know if I need to change that. I also use I and you interchangedly when I talk about myself. Not sure if I have to change that. The plans sometimes talk in definites. Maybe openness is better language, I mean more wiggle room in the wording. Not sure if that's a problem.
-    - [x] I worry what people would think of me. If they'd think I'm arrogant… maybe I should not worry about that.
-    - [x] Cockiness/speaking in definites, and scope/out-of-scope are 2 different things. My intermediate goal now was to change the tone, not to change the scope covered by the documents? There are still gray areas of scope. I think I should deal with that later?
+- Reformulate:
+    - I would want to read over those Done projects content before publishing. I should know what I publish exactly and have evaluated it and made some adaptations possibly. Probably nothing in it is a secret, so you don't need to remove it from source control history, but slight changes might be good.
+    - I did not read the content of the sub-projects or the idea box.
+    - I think, I guess, I would want to go through content top-down for reformulations?
+- Tone:
+    - Some things especially in evaluations may seem cocky when I call my own successes very, very good. I don't know if I need to change that. I also use I and you interchangedly when I talk about myself. Not sure if I have to change that. The plans sometimes talk in definites. Maybe openness is better language, I mean more wiggle room in the wording. Not sure if that's a problem.
+    - I worry what people would think of me. If they'd think I'm arrogant… maybe I should not worry about that.
+    - Cockiness/speaking in definites, and scope/out-of-scope are 2 different things. My intermediate goal now was to change the tone, not to change the scope covered by the documents? There are still gray areas of scope. I think I should deal with that later?
 
 ### 2020-01-13 Do Not Do: Brainstorm Aspects / Concepts
 
@@ -1747,9 +1735,9 @@ I don't think I want to reformulate the goals of Circle 3 programming projects, 
 
 ### 2020-04-13 Done Brainstorm Scope
 
-- [x] Scope:
-    - [x] Some content in the idea box is also out-of-scope.
-    - [x] Strategy: Goal of the Language: It mentions fundamental principles, that may become out-of-scope. Higher Goal does too. Will I separate these things? So say: it’s a (diagrammatic) programming language. I had thoughts about saving the higher goals for later.
+- Scope:
+    - Some content in the idea box is also out-of-scope.
+    - Strategy: Goal of the Language: It mentions fundamental principles, that may become out-of-scope. Higher Goal does too. Will I separate these things? So say: it’s a (diagrammatic) programming language. I had thoughts about saving the higher goals for later.
 
 The scope used to be split in two: Language Spec and the rest.
 
@@ -1757,8 +1745,7 @@ Now I lean towards a split up in 3 or 4 actually: Language Spec / Broader Perspe
 
 This changes things. This puts even more out of scope of Language Spec. Earlier on I thought anything that has to do with language spec could be in scope of this project, but part of its postponed parts. Yeah this seems arbitrary terminology, that seems to mean the same, but I am going with it. Earlier anything language speccy would be still in the project definition, but deemed optional. This split up was by feeling it is part of the language or not part of the language. Now I actually have in mind 3 categories of things that kind of fall under that umbrella 'part of the language': Language Spec / Broader Perspective / Construct Proposals.
 
-I feel maybe I am not finished making the first split up and now already starting with the next?
-
+I feel maybe I am not finished making the first split up and now already starting with the next?  
 \>> I want to check that.
 
 Also the new split up would give the wilder ideas a place, not on the big pile 'other', like internet as a single computer would be 'broader perspective'. Actually… you could interpret it differently. Everything not part of Language Spec will at first be put on the pile 'Other'.
@@ -1771,7 +1758,6 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - [x] ~~Maybe wrap up Parameters planning doc.~~
 - [x] Scoping was an alternative thing to focus on.
 - [x] ~~Something else could be actually digging into the Circle Language Spec docs themselves.~~
-
 - [x] I think scoping is a better choice for now.
 - [x] I want to go over the Circle Language Spec Plan documents, moving things out of scope off the top of my head.
 - [x] Side-goal: I read nicer docs, giving my head a bit of a break.
@@ -1803,7 +1789,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
             - [x] There it seems to start interweaving with Circle Language Spec topics.
             - [x] The goal does not really talk specifically about programming languages. The notes taken while doing that project, mention several topics about programming languages, but just naming larger parts, not details. Not really much can be found that goes specifically into Circle Language Spec and the diagram notation. I do not think much is of use in the Circle Language Spec Plan documentation. It seems 'Symbol attempts' is the real first effort put into the diagram notation, that is mentioned in these planning docs (perhaps aside from what's in the hour loggings, which have not been considered yet).
             - [x] I do not think I can even formulate just a few sentences 'this and that' has been done regarding Circle Language Spec in this project, while the project was also about larger parts. It's just that inconcrete.
-        - [x] /"2009-04 01         Full Revision of Documentation    2009-04 - 2009-06"
+        - [x] ~~"2009-04 01         Full Revision of Documentation    2009-04 - 2009-06"~~
             - [x] ~~"Software System Full Revision of Documentation, Goal.doc"~~
                 - [x] ~~Most things are actually about Software System as a whole.~~
                 - [x] ~~Only in general the Circle Language Spec is mentioned, but no content seems to be concretely about Circle Language Spec.~~
@@ -1916,14 +1902,11 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Feels bad to leave a grouping/categorization half- finished.
     - [x] Can I make this easier for myself? Dim the screen. Dark mode would have been nice, but don't have it on Windows 7. Take it slower. Worry less about (small) mistakes. Accept this will take a while. Forget about everything else?
 - [x] Done projects (now out of scope)
-
-```
     - [x] ~~2008-03 02        Fundamental Principles Spec Part A Project Summary.docx"~~
     - [x] ~~2008-03 03             Orient in First Four Fundamental Principles Project Summary.docx~~
     - [x] ~~2008-03 04             Computer Language Programmed Within Itself Spec Project Summary.docx~~
     - [x] ~~2008-03 05             Generic, No Generators Spec, Project Summary.docx~~
     - [x] ~~2008-04 02        Get Clearer View over Difficult Topics Project Summary.docx~~
-```
 
 ### 2020-04-18 Done Circle Language Spec Planning Docs: Reword Main Project and Future Sub -Projects
 
@@ -1952,8 +1935,8 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] There is overlap, but I'm not sure. If I read over the product list, I think I'd have to look into it deeper to determine if all of that Input/Output stuff is up for postponement. 
         - [x] I have looked at multiple sources of information, but cannot determine yet if the topics mentioned under the Input Output section of the Products List are in scope or out of scope, due to the concurrency resolution's being in-scope and out-of-scope.
         - [x] ~~I feel part of the TODO products are already done.~~
-        - [x] ~~I feel 'normal' parameter topic are intermixed with concurrency resolution / automatic execution order too much?
-        - [x] Or is it to shed new light on these topics in the area of automatic execution order?~~
+        - [x] ~~I feel 'normal' parameter topic are intermixed with concurrency resolution / automatic execution order too much?~~
+        - [x] Or is it to shed new light on these topics in the area of automatic execution order?
         - [x] ~~Alternative: Split apart in two: The parts / product list items, that I know are about concurrency resolution / automatic execution order would be put out of scope and then parts I am not sure about, would stay in in-scope with some comment shedding light on that doubt.~~
         - [x] Exp: Read over a product list in the Future Sub-Project document "Input Output Spec Project Summary.docx".
         - [x] Hyp: All the topics under Input / Output inside the main "Circle Language Spec Product List.docx" are not trivial parameter topics, but more a small ramp of parameter topics leading towards the automatic execution order concept.
@@ -1965,18 +1948,18 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Diagrams, Coding Principles & Coding Concepts Plan (old).docx
         - [x] At first glance, this seems to have the same scope as the whole project Circle Language Spec.
         - [x] Maybe it can be thrown away (or archived), because it's already described by newer documents.
-    - [x] Execution Control Spec Update Ideas.md
-    - [x] Globality Spec Update Ideas.md
-    - [x] Objects Multiplicity Spec Ideas.md
-    - [x] Objects Spec Update Idea.md
-    - [x] Parameters Spec Update Ideas.md
-    - [x] Relationships Spec Update Ideas.md
-    - [x] Static Spec Idea.md
+    - [x] `Execution Control Spec Update Ideas.md`
+    - [x] `Globality Spec Update Ideas.md`
+    - [x] `Objects Multiplicity Spec Ideas.md`
+    - [x] `Objects Spec Update Idea.md`
+    - [x] `Parameters Spec Update Ideas.md`
+    - [x] `Relationships Spec Update Ideas.md`
+    - [x] `Static Spec Idea.md`
         - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Circle Language JJ's Construct Proposals' or something.
         - [x] I would not want to remove it, if I look at that it explains how I see 'static' in a broader view.
         - [x] But to understand my own doubts about the different ways to see the concept of 'static' that idea description explains a lot and otherwise I might think: where did that idea go and how does it work?
         - [x] I feel that this concept of static might have a place in the general descriptions, but to apply this to the concept of Code = Data, though interesting to me, might not have to be part of that, because it may confuse and alienate the reader, who might be more familiar with more regular implementations of the concept.
-    - [x] System Objects Spec Update Ideas.md
+    - [x] `System Objects Spec Update Ideas.md`
     - [x] Text Code Spec Project Summary.docx
         - [x] Out of scope
         - [x] But change the main project description too.
@@ -2007,7 +1990,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] Don't Future Sub-Projects also have documents in that 'project summary' format?
             - [x] Alternative: format those too.
             - [x] Alternative: Go look for more project summaries in the Circle Language Spec Plan folders.
-            - [x] Alternative: Don't do it.
+            - [x] ~~Alternative: Don't do it.~~
 
 ### 2020-04-15 Done Circle Language Spec Planning Docs
 
@@ -2242,7 +2225,7 @@ The requirement group 'Priority C: Classes' has 1 language design feature: < Dia
 
 'Priority E: Integration' contains brainstorming instead of a list of items.
 
-(I notice I get inspired to like implementation projects for Circle 3. I feel the enthusiasm in it. I somehow stopped working on it, though. Also it is not my goal right now. The goal is publish Circle language design eventually.)
+> (I notice I get inspired to like implementation projects for Circle 3. I feel the enthusiasm in it. I somehow stopped working on it, though. Also it is not my goal right now. The goal is publish Circle language design eventually.)
 
 Some of the content in 'Priority E: Integration' could be part of language design, at least diagram metrics design and automatic containment. 
 
@@ -2261,8 +2244,8 @@ That does not take away I want to split topics in these planning docs between la
 
 ### 2020-02-23 Done Reading Circle 3 Strategy
 
-An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Circle Docs. 
-"Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Circle Docs project docs.
+An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Circle Docs.  
+"Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Circle Docs project docs.  
 Was at "More Tips" processing things.
 
 At what point am I going to be more rigorous in splitting off the Circle Docs project docs from the rest? Not yet, I think. It's still a mash up of both in the project docs I am reading now.
@@ -2381,25 +2364,23 @@ The 2 versions' contents:
 
 2005-01-06 00 Former Documentation:
 
-Any programming topic about math I had at the time is thrown into one document here:
-
-- JMath 0.9 docs in Dutch
-- Simple Math operators
-- Ideas about 'regulated systems'
-- Number Bases
-- Brainstorm: Some alternative wordings and loose ideas written down.
-
-The XXX version is only Simple math operators and how they can be implemented as objects.
+> Any programming topic about math I had at the time is thrown into one document here:
+>
+> - JMath 0.9 docs in Dutch
+> - Simple Math operators
+> - Ideas about 'regulated systems'
+> - Number Bases
+> - Brainstorm: Some alternative wordings and loose ideas written down.
+> 
+> The XXX version is only Simple math operators and how they can be implemented as objects.
 
 Idea bout converting version folder to source control history:
 
-So they are not mutually exclusive at all. 
-
-I have doubt whether I should even do the conversion from version folders to source control history here.
-
-Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.
-
-The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of the new computer langauge. But... none of this documentation is well worded to suppord that concept...
+> So they are not mutually exclusive at all.  
+> I have doubt whether I should even do the conversion from version folders to source control history here.
+> Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.  
+>
+> The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of the new computer langauge. But... none of this documentation is well worded to suppord that concept...
 
 ### 2019-08-11 Done Controls Concepts Version Folders to Source Control History
 
@@ -2411,12 +2392,9 @@ The math as objects does have a link to how math can be made not intrinsic to th
 
 The Circle project docs took a turn at some point in time. At one point it was mostly about documentation, then it became about both documentation and programming. But the project docs folders do not seem to be fully updated to that change. Maybe I can do that in the context of *this* project. First some more reorientation.
 
-'Program Software System' now looks 'outdated', compared to the programming work described in 'Document Software System'.
-
-I might actually move many of those topics from 'Future\Interesting Now' to 'Postponed'.
-
-I also would want to put a cut into all the project docs and all the circle docs: this is the language and this is the rest.
-
+'Program Software System' now looks 'outdated', compared to the programming work described in 'Document Software System'.  
+I might actually move many of those topics from 'Future\Interesting Now' to 'Postponed'.  
+I also would want to put a cut into all the project docs and all the circle docs: this is the language and this is the rest.  
 So it gets isolated. In the past I wanted to put everything I did (and will ever do) with software development at home in a single system so general that I called it 'Software System'. Many docs are general and describe both that language + OS-like topics and applications. I might want to cut that in two: language and the rest. I might like to open source the language at one point and just leave the rest out of it.
 
 I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Circle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Circle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
@@ -2437,7 +2415,7 @@ There is a folder 'Previous Versions' that would make you think you forgot to pu
 
 ### 2008-08-31 Done Writing Style Ideas
 
-Circle Language Spec, Writing Style,
+Circle Language Spec, Writing Style,  
 2008-08-31
 
 Sometimes it is just clearer to have an article, with diagrams in it straight away, without any article with just textual explanations. In the future, the whole form of the documentation might change as such and have diagram expression be more present in the conceptual explanations.
@@ -2466,7 +2444,7 @@ Postponed
 - [ ] ~ It's more of a content issue, rather than a formatting issue. I was focusing on formatting issues for now, so maybe postpone this.
 - [ ] ~ The rules seem simpler in Circle than in e.g. C#. It seems that derived from basics, several construct from e.g. C# might have a corresponding expression in Circle using more basic rules. I seem to go through an effort to describe how supposedly more familiar constructs might be represented in Circle. It seems quite an effort to explain something that might be simpler, in terms that might be more complicated. But it might have a purpose as to build a bridge between what a reader might already be familiar with, to a different idea, that the reader is attempted to be introduced to. I have some doubt about whether the story could be simpler. Maybe it could be simpler by adding something: first the basic rules with no edge cases, then an admission of it e.g.: "Familiar constructs from other programming languages might be expressed using these basic building blocks from Circle. Each of those familiar constructs seems to be a specific use-case of basic building blocks in Circle."
 - [ ] ~ "Changing Inactive to Executable" section:
-    - [ ] ~ Seems quite Circle Broader View-ish. Use-cases of how you might use it in a less conventional setting. What it might be like if the internet was a single computer that everyone was programming and using at the same time, with more parts changeable and accessible to multiple people at the same time.
+    - Seems quite Circle Broader View-ish. Use-cases of how you might use it in a less conventional setting. What it might be like if the internet was a single computer that everyone was programming and using at the same time, with more parts changeable and accessible to multiple people at the same time.
 - [ ] ~ The 'many rules' around commands seem circumstantial: practical behavior that might be found in other programming languages. At the other end of the spectrum might be a hypothetical system, in which no control is imposed with rules as such, which may only cause possibly inconveniences of e.g. concurrency issues like reading out half-written objects and such. The 'rule richness' might already be in place if the notation were to be used in an existing system or a new system might be developed that uses the notation and the programmers might use their own heads on how to make it practical. The 'rule free' variation might also be an experimentally funny thing to develop. It might still function as a coherent base for programming, be it there could be concurrency issues for instance. I really wonder if the rules might have to be embedded in the text. I might be more comfortable to extract these rules as a separate article that just aims to expose a system of rules that a programming environment might impose onto command objects, to make it more practically workable and evasive of troublesome situations. Some programming environments just support this behavior out of the box. "Local variables and parameters are automatically thread-safe" is one of those rules that I come to rely on when programming concurrent systems. (I personally find concurrency one of the more difficult issues to deal with in programming.) If rules are not imposed in Circle, that thread safety could fall to pieces in a way. I just think a description of the notation does not need to rely on the existence of those rules. If I want to go into it, I might want to separate that from the main article, because it might make the idea easier to absorb. The rules I state were maybe just my attempt to prove to myself what would it take for objects and commands to be exchangeable and what rules does it take to make object behave like commands in an orderly fashion and does this notation work at all for the many command-oriented constructs that exist in programming languages today. Now I am more confident that it works, the main explanation might not have to be a stack-up of 'proof', just an exposition of the main point.
 - [ ] ~ Where I use parameter notation with connectors, I might want to be honest to for now ignore what those connectors mean, just accept that it makes them public and makes them parameters.
 - [ ] ~ I see an analogy between the lifecycle of running a command and an object's creation, constructor, initial setting of required values, and running of active commands directly in it.
@@ -2475,7 +2453,7 @@ Postponed
 
 ### 2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article
 
-- [ ] ~ Fine-tune styling.
+- [x] Fine-tune styling.
 - [ ] ~ Evaluating if texts are in scope, possibly moving them.
     - [ ] ~ But most sections seem appropriate and in-scope to me, except maybe the bottom edge-cases, but I think I will get to that in time eventually.
     - [ ] ~ Commands Anywhere has a Broader View feel to it according to my opinion.
@@ -2485,9 +2463,10 @@ Postponed
         - [ ] ~ I might actually move the section where those terms are used: move them from the Commands chapter to the Parameters chapter.
         - [ ] ~ Perhaps later be honest in the Parameters article about this paradox. Other people may also feel uneasy about it and it makes it maybe more understandable why the terms are avoided.
 - [ ] ~ Marking trigger words in red.
-    - [ ] ~ With find and replace
-    - [ ] ~ Manually
-    - [ ] ~ Over-used words? "The"?
+    - [x] With find and replace
+    - [x] Manually
+    - [ ] ~ Over-used words?
+        - [x] "The"?
 - [ ] ~ Finding replacement words, possibly using online thesaurus.
     - [ ] ~ Going through text sequentially.
     - [ ] ~ Sometimes moving things to an 'Out of Scope' section.
@@ -2528,22 +2507,22 @@ Postponed
 
 ### 2020-05-27 Postponed Checklist Reformulating Chapters
 
-- [ ] ~ Done projects:
-    - [ ] ~ The postponed reformulation of the done projects is on my mind.
-- [ ] ~ New Intro:
-    - [ ] ~ But that makes me think: I want to give it a new beginning in the first place: use some of the old Symbol Language documentation and reformulate a gentler intro.
+- [x] Done projects:
+    - [x] The postponed reformulation of the done projects is on my mind.
+- [x] New Intro:
+    - [x] But that makes me think: I want to give it a new beginning in the first place: use some of the old Symbol Language documentation and reformulate a gentler intro.
 - [ ] ~ Reformulating:
     - [ ] ~ More open, less resolute language
     - [ ] ~ I could start reading and reformulating top to bottom.
-    - [ ] ~ Circle Language Spec Overview
+    - [x] Circle Language Spec Overview
     - [ ] ~ Circle Language Spec Introduction: Applying trigger word marking technique to this already reworded document?
-    - [ ] ~ Basic Diagram Elements
-    - [ ] ~ Objects chapter
-    - [ ] ~ Classes chapter
-    - [ ] ~ Relationships chapter
+    - [x] Basic Diagram Elements
+    - [x] Objects chapter
+    - [x] Classes chapter
+    - [x] Relationships chapter
     - [ ] ~ System Interfaces chapter
-        - [ ] ~ System Objects article
-        - [ ] ~ Assignment article
+        - [x] System Objects article
+        - [x] Assignment article
         - [ ] ~ System Command Call Notations article
         - [ ] ~ Connectors & Connections article
         - [ ] ~ System Objects Misc Issues article
@@ -2567,19 +2546,18 @@ Postponed
 
 ### 2020-04-18 Postponed Reword 'Done' Planning Docs
 
-```
-- [ ] ~ 2008-05 01 Diagram Expression Specs Project Summary.docx
-- [ ] ~ 2008-05 02 Classes & Relationships Specs Project Summary.docx
-- [ ] ~ 2008-06 01 Execution Control Spec Project Summary.docx
-- [ ] ~ 2008-06 02 Command as a Concept Spec Project Summary.docx
-- [ ] ~ 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
-- [ ] ~ 2008-07 01        System Objects Spec Project Summary.docx
-- [ ] ~ 2008-07 02        Assignment Spec Project Summary.docx
-- [ ] ~ 2008-08 00        Commands Spec Project Summary.docx
-- [ ] ~ 2008-09 01        Organize Circle Language Ideas Project Summary.docx
-- [ ] ~ 2008-09 02        Parameters Spec Plan.docx
-- [ ] ~ 2008-10 01 Scatter Symbol Language Documentation Content Project Summmary.docx
-- [ ] ~ 2009-06 01 Circle Language Spec Plan Part B, Sub-Projects.docx
+- [x] 2008-05 01 Diagram Expression Specs Project Summary.docx
+- [x] 2008-05 02 Classes & Relationships Specs Project Summary.docx
+- [x] 2008-06 01 Execution Control Spec Project Summary.docx
+- [x] 2008-06 02 Command as a Concept Spec Project Summary.docx
+- [x] 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
+- [x] 2008-07 01        System Objects Spec Project Summary.docx
+- [x] 2008-07 02        Assignment Spec Project Summary.docx
+- [x] 2008-08 00        Commands Spec Project Summary.docx
+- [x] 2008-09 01        Organize Circle Language Ideas Project Summary.docx
+- [x] 2008-09 02        Parameters Spec Plan.docx
+- [x] 2008-10 01 Scatter Symbol Language Documentation Content Project Summmary.docx
+- [x] 2009-06 01 Circle Language Spec Plan Part B, Sub-Projects.docx
 - [ ] ~ 2009-06 02 Circle Language Spec Plan Part B, Evaluation.docx
     - [ ] ~ > Stopped, because I seem panicky about which words to pick and whether someone might be rubbed the wrong way with it somehow.
 - [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Eventual Plan, Goal Description.docx
@@ -2607,7 +2585,6 @@ Postponed
 - [ ] ~ 2010-05 04 Events Spec, Evaluation.docx
 - [ ] ~ 2010-05 01 Inheritance Spec, Strategy & Steps.docx
 - [ ] ~ 2010-05 02 Inheritance Spec, Products List.docx
-```
 
 ### 2020-05-27 Postponed Pointers Chapter
 
@@ -2617,11 +2594,11 @@ Postponed
 
 - [ ] ~ One point of failure I see in this computer language, is that it works well when there are a limited number of symbols, but as lists get big, the language seems to lose its effectivity. One way to still make it useful, is perhaps to filter, or only partially display lists in the diagrams, just like a normal grid or list would. There was a prototype app that would generate diagrams out of vast sources of symbols. The problem became apparent there and it has been in the back of my head since then.
 
-The 'large lists' problem in Circle also applies to large lists of commands, that might apply to an object.
-Also that UI's are often optimized to show the most relevant options and then I (with poor judgement?) just say: no none of that, everything only.
-Maybe it's just that this UI will have its place along side other techniques.
-It's just that the large lists problem should be solved in my view.
-Maybe permanent filtering and reordering, which is often hard to customize in windows programs. Like a menu customizer.
+The 'large lists' problem in Circle also applies to large lists of commands, that might apply to an object.  
+Also that UI's are often optimized to show the most relevant options and then I (with poor judgement?) just say: no none of that, everything only.  
+Maybe it's just that this UI will have its place along side other techniques.  
+It's just that the large lists problem should be solved in my view.  
+Maybe permanent filtering and reordering, which is often hard to customize in windows programs. Like a menu customizer.  
 Try to make it easier to do that. Construct your own limited view.
 
 ### 2019-12-29 Postponed Comment Notation
@@ -2652,10 +2629,8 @@ The concepts of its being *required* for a command to be executed:
 
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.007.png)
 
-But the latter notations are there kind of because the simpler notation was already in use by the concept of the protected access modifier.
-
-I am having second thoughts about this. Maybe I would like to consider using a different symbol for Protected, so that these connectors, events and optional/required can get a less contrived notation.
-
+But the latter notations are there kind of because the simpler notation was already in use by the concept of the protected access modifier.  
+I am having second thoughts about this. Maybe I would like to consider using a different symbol for Protected, so that these connectors, events and optional/required can get a less contrived notation.  
 Another example where it is an issue: This expresses that the other end of the connection should be a triangle:
 
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.008.png)
@@ -2713,9 +2688,8 @@ I think that for now, it might be a better idea not to express such notational c
         > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.010.png)
         > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.011.png)
         > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.012.png)
-
+        
         Each object might serve as another object’s class, sort of functioning as its prototype. Any object might also provide the interface for another object, which may give another object the same exterior, while it might be different on the inside.
-
 - [ ] ~ Add a picture around 'Object Structure Solid, Class Structure Dashed', to demonstrate how things would look?
 - [ ] ~ Privacy issues in the paper scans?
 - [ ] ~ 'Object Symbols Drawn with Different Lines' starts with some information that may have been repeated more than once already before? Is there additional value to that, or might it just be removed or something?
@@ -2770,8 +2744,7 @@ I think that for now, it might be a better idea not to express such notational c
 
 Black box is a notation I have reservations about. It works, but it might not be not elegant. Also, if you take C# as a source, rules about private/public are set, and some things just don't have to be denoted, because they are implied. A method contained by a a class can access all the other private members of that class. In my efforts to generalize and make things interchangeable, this 'had to be' explicitly denoted…
 
-There are topics, I probably want to move away from the Circle Language Spec at one point and go for something simpler. The whole friend notation is something I scratch my head about. I am not sure, if I like it or not.
-
+There are topics, I probably want to move away from the Circle Language Spec at one point and go for something simpler. The whole friend notation is something I scratch my head about. I am not sure, if I like it or not.  
 I am not sure if the topics I dislike can be left in separate articles or something.
 
 - [ ] ~ Obs: One of the first few headings is that 'friends' idea in the 'Black Box Main Concepts' article.
@@ -2820,7 +2793,13 @@ has something missing. In C# you can also refer to the parent object as if it we
     - [ ] ~ I might want to revert this for now.
     - [ ] ~ If the title of the chapter might change from System Objects to System Interface, it might make sense to introduce that system interface is first, instead of leading with a story about System Objects and then introducing the System Interface sometimes.
     - [ ] ~ Something like: "The system interface is like opening up the internal workings of a symbol. < Something about what would be in the system interface. > Wondering what could be exposed through the system interface and how a symbol may work internally, seemed to lead to a systematic overview of things you might do with the language. The story almost seems like a design of a run-time: an implementation of the language, rather than
-- [ ] ~ Maybe it can be solve easily, by introducing it as though it would run as a run-time, but the idea of controlling system aspect is wider in use and can represent constructs from other languages too. Or something. Maybe just put it into context. Or multiple contexts: can be a run-time, can be representation of system commands already part of the language. In a run-time the idea was that an object lives as sort of reflective data, so a reflection-first environment, where reflection data is not accessed through an API, but more like a readily available, language-intrinsic secondary representation of an object. Having full fledged self-reflective object live in a run-time might not be the most optimal performance-wise, though quite flexible perhaps. An idea is to have the system interface be there if you need it, and optimized away if not needed or just be a view on it, not necessarily a non-optimal way of object representation in runtime. I am going too far with this now, I think. Too many edge-cases. Lots of ideas come to mind.
+- [x] Maybe it can be solve easily, by introducing it as though it would run as a run-time,
+- [ ] ~ but the idea of controlling system aspect is wider in use and can represent constructs from other languages too.
+- [x] Or something. Maybe just put it into context. Or multiple contexts: 
+- [ ] ~ can be a run-time, can be representation of system commands already part of the language. In a run-time the idea was that an object lives as sort of reflective data, so a reflection-first environment, where reflection data is not accessed through an API, but more like a readily available, language-intrinsic secondary representation of an object. Having full fledged self-reflective object live in a run-time
+- [x] might not be the most optimal performance-wise, though quite
+- [ ] ~ flexible perhaps.
+- [x] An idea is to have the system interface be there if you need it, and optimized away if not needed or just be a view on it, not necessarily a non-optimal way of object representation in runtime. I am going too far with this now, I think. Too many edge-cases. Lots of ideas come to mind.
 - [ ] ~ System Objects seem to lead to Assignment, Connectors and Connections, but one is sort of the internals, while the other is just basics of notation, so not sure to keep them intermixed like that.
 - [ ] ~ I just keep thinking the chapter could be split into a neutral view on system aspects, leading to connections, connectors and assignment, and separating out the specific implementation, which I do not find uninteresting, but… it does not seem to be 'the language', it seems 'the runtime', which can expose itself through the system interface. It may even be demoted to Construct Drafts. It might be more than a draft, but… maybe for that reason put it in Broader View.
 - [ ] ~ (Also about Pointers): The distinction between system interfaces for references and for objects might also be derived from the impression that in the object reference notation it may be implied what is the object and what is the reference. I feel uneasy that I seem to change opinion of what makes a symbol a reference. It is a story of subtleties that might lurk under the hood, that could be the subject of the Pointers chapter and may be better pretending the problem does not exist. I have multiple interpretations I sort of equally like, that might not even be in each other's way. It may just create an odd rule set of when something is a reference and when something is an object. If I keep comparing it with 'text code' I seem to find answers. How it works in text code, I feel there is often a parallel to be found in this diagram notation. If it is a reference or an object may also be 'weird' in C#, so Circle might be excused for it too.
@@ -2858,13 +2837,13 @@ has something missing. In C# you can also refer to the parent object as if it we
 
 ### 2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article
 
-- [ ] ~ Fine-tune styling.
+- [x] Fine-tune styling.
 - [ ] ~ Evaluating if texts are in scope, possibly moving them.
 - [ ] ~ Marking trigger words in red.
     - [ ] ~ With find and replace
     - [ ] ~ Manually
     - [ ] ~ Over-used words? "The"?
-    - [ ] ~ Rename "Object Get" to "Get Object" etc.
+    - [x] Rename "Object Get" to "Get Object" etc.
         - [ ] ~ Did not do it in the pictures.
 - [ ] ~ Finding replacement words, possibly using online thesaurus.
 - [ ] ~ Put subjectivity in perspective.
@@ -2913,7 +2892,7 @@ Why is the line on the right no extended to the circle, so class structure and o
 
 ### 2020-04-19 Postponed Conversion to MD
 
-- [ ] ~ I thought MD would be the way to go with this project compared to docx. But I have doubts if MD is the better way to go. I keep getting stressed out about those doubts. It makes my decisions on what to do with the documents (formatting) harder, because I just am so unsure about this. What I would like is to have a good MD editor. I just hope some of the difficulties editing MD compared to docx can be taken away by a good tool. Also: I think MD will be vieweable and better indexeable on the internet, but I have not really thoroughly seen that confirmed. The main problems with MD editing I have is navigating headings and sections around and viewing the outcome of my formattings better as I type the MD in. The doubts about indexing: I know GitHub can show the MD in nice formatting, but will a lot of MD's actually be nicely navigatable? Will those MD's actually be indexed, or does that only count for e.g. the REAME.MD in the root dir of a git repository? another doubt about MD is: can I be satisfied with some of the tools that convert docx to MD? Will that all be doable? It's so many articles. Can I do it in bulk? Will I merge more articles into one making converting one by one by hand better. How does it work with links but especially with images? All those doubts made me postpone decisions about converting things to MD, but that makes me burdened with formatting docx's making them look nice, which is not that useful if I am going to convert all of that to MD anyway. That last argument does not seem very strong to me. If I know that MD indexes well, that might already make some decisions to go for MD easier, when I decide e.g. about small documents.
+- [ ] ~ I thought MD would be the way to go with this project compared to docx. But I have doubts if MD is the better way to go. I keep getting stressed out about those doubts. It makes my decisions on what to do with the documents (formatting) harder, because I just am so unsure about this. What I would like is to have a good MD editor. I just hope some of the difficulties editing MD compared to docx can be taken away by a good tool. Also: I think MD will be vieweable and better indexeable on the internet, but I have not really thoroughly seen that confirmed. The main problems with MD editing I have is navigating headings and sections around and viewing the outcome of my formattings better as I type the MD in. The doubts about indexing: I know GitHub can show the MD in nice formatting, but will a lot of MD's actually be nicely navigatable? Will those MD's actually be indexed, or does that only count for e.g. the `README.MD` in the root dir of a git repository? another doubt about MD is: can I be satisfied with some of the tools that convert docx to MD? Will that all be doable? It's so many articles. Can I do it in bulk? Will I merge more articles into one making converting one by one by hand better. How does it work with links but especially with images? All those doubts made me postpone decisions about converting things to MD, but that makes me burdened with formatting docx's making them look nice, which is not that useful if I am going to convert all of that to MD anyway. That last argument does not seem very strong to me. If I know that MD indexes well, that might already make some decisions to go for MD easier, when I decide e.g. about small documents.
 - [ ] ~ So with all those doubts, I want to explore MD options a little.
 - [ ] ~ Main points:
     - [ ] ~ MD editor
@@ -2933,14 +2912,13 @@ Why is the line on the right no extended to the circle, so class structure and o
     - [ ] ~ Pro: Those future docs are short and don't need much formatting.
     - [ ] ~ Con: MD is harder to edit (?) > Needs research.
     - [ ] ~ Pro: MD is more accessible on the internet (?) > Needs test.
-    - [ ] ~ [x] I would like to have the arguments for and against better proven.
-    - [ ] ~ [x] But it is also not directly my goal right now.
-    - [ ] ~ [x] It would help me to know if MD really has those advantages. Otherwise I would keep being confused about whether or not I should convert to MD.
-    - [ ] ~ [x] But pragmatically: That was not what I was doing. It was formatting the docx's, what I was doing. But pragmatism is sometimes something I feel others have determined for me. Maybe knowing something for sure is more pragmatic for me, because the doubt causes me so much stress.
+    - [x] I would like to have the arguments for and against better proven.
+    - [x] But it is also not directly my goal right now.
+    - [x] It would help me to know if MD really has those advantages. Otherwise I would keep being confused about whether or not I should convert to MD.
+    - [x] But pragmatically: That was not what I was doing. It was formatting the docx's, what I was doing. But pragmatism is sometimes something I feel others have determined for me. Maybe knowing something for sure is more pragmatic for me, because the doubt causes me so much stress.
 - [ ] ~ Concession: Do both. First format the 4 remaining Summary's. Then research MD more.
 - [ ] ~ Conversion programs:
-    - [ ] ~ [x] ~~Pandoc: I did not like it. It was expecting a user interface, but I got a command line interface. Also, the output from docx to MD is not what I expected. I got quote markup > for just indentation and a dashed bulleted list got the dashes escaped or something.
-    - [ ] ~ The check list style for GitHub that's kind a sorta already MD format, got escaped it seemed. I get not everything is unambiguously translatable, but this was too far removed of what I would type in myself. So sorry, pandoc. Moving on.~~
+    - [x] ~~Pandoc: I did not like it. It was expecting a user interface, but I got a command line interface. Also, the output from docx to MD is not what I expected. I got quote markup > for just indentation and a dashed bulleted list got the dashes escaped or something. The check list style for GitHub that's kind a sorta already MD format, got escaped it seemed. I get not everything is unambiguously translatable, but this was too far removed of what I would type in myself. So sorry, pandoc. Moving on.~~
     - [ ] ~ I might as well just copy paste to a text document and then do it myself.
     - [ ] ~ But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
 
