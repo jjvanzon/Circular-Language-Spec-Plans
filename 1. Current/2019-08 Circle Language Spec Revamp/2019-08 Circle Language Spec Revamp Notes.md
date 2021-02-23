@@ -110,21 +110,61 @@ TODO
 
 - [x] Trying MarkDown with images.
     - [x] URL's seem case sensitive on GitHub.
-- [ ] Converting things to MarkDown?
-    - [x] Aspose seems good: <https://products.aspose.app/words/conversion/word-to-md> 
+- [ ] __Converting things to MarkDown__
+    - [x] Aspose seems good: (https://products.aspose.app/words/conversion/word-to-md)
     - [ ] Considering a phased bulk approach (for quicker results)
-    - [ ] __Converting__
-        - [ ] "Symbol Language (2004).docx" timed out.
-    - [ ] Committing
-    - [ ] Moving images to sub-folder
-    - [ ] Prettifying headings
-    - [ ] Prettifying bold and italic
-    - [ ] Prettifying tables
-    - [ ] Using block quotes
-    - [ ] Manual checking of differences between MarkDown result and Word document.
-    - [ ] Removing word documents
-- [ ] Readme's?
-- [ ] Just publishing it?
+    - [x] Converting
+    - [x] Unzipping
+    - [x] Committing
+    - [x] Moving images to sub-folder
+    - [x] Changing image markup to point at sub-folder
+    - [x] Prettifying headings serially: until __3. Creation Behavior Of Commands.md__
+    - [x] Switching to working parallelly
+    - [x] Heading 1 double underline
+    - [x] Heading 2 single underline, 2 empty lines above, 1 below
+    - [X] Headings 3 and up: surround with enters (using find "##")
+    - [x] Headings 3 and up: removing bold/italic start tokens (using search and replace "## *" => "## ")
+    - [x] Headings 3 and up: removing ending tokens of bolds/italics (using find "##")
+    - [x] Replacing bold ** with __
+    - [x] Checking the italics (*)
+    - [x] Checking the bolds (__)
+    - [x] Prettifying bulleted lists
+    - [x] Removing excessive empty lines
+    - [x] Prettifying code blocks
+    - [x] Black backgrounds in "Broader View" and "Construct Drafts"
+    - [x] Prettifying tables
+    - [x] Try correcting < and > interpretation as XML/HTML by surrounding them with spaces
+    - [x] Correcting arrows replacing à and ß with `=>` or `<=`
+    - [x] Checking the headings.
+    - [x] Did these in one blow until __"4. Command Redirection"__:
+        - [ ] Checking the pictures
+        - [ ] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
+        - [ ] Manually checking differences between rendered MarkDown and Word
+        - [ ] Last check if markup looks ok
+        - [ ] Removing Word documents
+    - [ ] Switching to more phased approach
+
+    - [ ] __Music on perhaps. Slowing down. Take the time. Using keyboard.__
+    - [ ] __Limitation: Not coming up with new header texts__
+    - [ ] __Limitation: Not inspecting the Word documents__
+    - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
+
+    - [ ] __Checking the pictures__
+
+        - WAS AT: Circle-Language-Spec-Plans
+
+    - [ ] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
+    - [ ] Manually checking differences between rendered MarkDown and Word
+    - [ ] Last check if markup looks ok
+    - [ ] Removing Word documents
+         
+### 2021-02-09 TODO Publishing
+
+- [x] Readme's?
+- [x] Just publishing it?
+- [ ] Durable links:
+    - [ ] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
+- [ ] Replacing swear words ("Symbol Language (2004).md")
 
 
 Done
