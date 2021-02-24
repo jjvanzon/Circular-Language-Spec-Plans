@@ -137,23 +137,21 @@ TODO
     - [x] Correcting arrows replacing à and ß with `=>` or `<=`
     - [x] Checking the headings.
     - [x] Did these in one blow until __"4. Command Redirection"__:
-        - [ ] Checking the pictures
+        - [x] Checking the pictures
         - [ ] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
         - [ ] Manually checking differences between rendered MarkDown and Word
         - [ ] Last check if markup looks ok
         - [ ] Removing Word documents
     - [ ] Switching to more phased approach
+    - [x] Checking the pictures
+    - [x] Copying red markings of words that may express things too strongly ('trigger words'). (Used red in Word. Using `inline code` in MarkDown.)
 
     - [ ] __Music on perhaps. Slowing down. Take the time. Using keyboard.__
     - [ ] __Limitation: Not coming up with new header texts__
     - [ ] __Limitation: Not inspecting the Word documents__
     - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
 
-    - [ ] __Checking the pictures__
 
-        - WAS AT: Circle-Language-Spec-Plans
-
-    - [ ] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
     - [ ] Manually checking differences between rendered MarkDown and Word
     - [ ] Last check if markup looks ok
     - [ ] Removing Word documents
