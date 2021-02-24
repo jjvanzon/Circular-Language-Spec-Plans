@@ -151,9 +151,11 @@ TODO
     - [ ] __Limitation: Not inspecting the Word documents__
     - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
 
+    - [ ] __Manually checking differences between rendered MarkDown and Word__
+    - [ ] __Last checks if markup looks ok__
 
-    - [ ] Manually checking differences between rendered MarkDown and Word
-    - [ ] Last check if markup looks ok
+        - WAS AT: Commands Misc Issues
+         
     - [ ] Removing Word documents
          
 ### 2021-02-09 TODO Publishing
