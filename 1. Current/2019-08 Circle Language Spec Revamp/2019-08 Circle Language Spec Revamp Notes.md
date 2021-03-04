@@ -26,46 +26,53 @@ Circle Language Spec is an unfinished programming language design. The same fold
     - [x] ~~Make a technical design~~
         - [x] ~~To highlight the challenges of how one might implement this as a working piece of software.~~
 
-### Limitations
-
-- [ ] ~ Do not program.
-- [x] Limit it to the 'Language' part of the docs (not 'Framework', 'Operating System' or 'Applications & Media')
-- [ ] ~ Do not open source the prototype apps.
-- [x] Before I start changing anything, I might just read the material as-is.
-    - [x] I have difficulty maintaining this rule. I tend to want to start changing things.
-- [x] I might want to focus on splitting apart non-Circle-Language topics from the Circle Language topics.
-- [ ] ~ Maybe not write to clarify new concepts, but rather limit it organizing already worked out concepts.
-
 ### Steps
 
-- [x] Reorganize
-    - [x] Convert docs version folders to source control history.
-    - [x] Convert project docs version folders to source control history.
-    - [x] Categorize loose ideas in in Ideas.doc, so Circle Language and Circle 3 Programming are isolated.
-- [x] Reorient
-    - [x] Read project docs sequentially for thorough orientation.
-- [ ] ~ Improve planning docs:
-    - [x] Reorganize project docs
+- [x] Reorganizing
+    - [x] Converted Circle Docs version folders to source control history.
+    - [x] Converted Planning Docs version folders to source control history.
+- [x] Reorientation
+    - [x] Reading Planning Docs sequentially.
+- [x] Scoping
+    - [x] Splitting up "Software System" / "Circle Language"
+    - [x] Splitting up "Circle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
+        - [x] Ideas.doc too
+    - [x] Splitting up 'in scope' / 'out of scope' for Circle Language topics.
+    - [x] Splitting up 'phases' in life in planning docs.
     - [x] Removed studying goals.
-    - [x] Split documentation goals from programming goals.
-    - [ ] ~ Less resolute language, more wiggle room.
-        - [x] (The 'Productive Writing' part of the Strategy doc is quite resolute in the language.)
-        - [ ] ~ (Perhaps search for definites such as 'have to', 'must', 'will', 'should', 'very'.)
-        - [ ] ~ (Maybe I am being too strict towards myself, about having to rewrite everything in a milder tone.)
-    - [x] Scoping
-    - [ ] ~ Include hour sheet? (Extracted from hour sheet about multiple projects?)
-- [ ] ~ Improve Circle Language Spec:
-    - [x] Reorganize Circle Docs files and folders (e.g. lone files in folders is not handy).
-    - [x] Scoping
-    - [x] Turn separate Concept/Diagram/Text Code articles into one.
-    - [x] Reduce the number of articles, by grouping topics together.
-    - ~ Start reading / writing / reformulating.
-    - ~ Generally go through content reformulating things?
-    - ~ Less resolute language, more wiggle room?
-    - ~ Convert from Word to markdown, so it may get indexed by Google and easier to navigate and read once published.
-- [x] Separate git repositories:
-    - [x] Split off Circle Docs' language specification part into a separate git repository.
-    - [x] Split off Project Docs for Circle language documentation into a separate git repository.
+    - [ ] .. Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
+        - [x] Circle-Language-Spec repository
+        - [ ] ~ Circle-Language-Spec-Plans repository
+- [x] Separating git repositories:
+    - [x] Splitting off Circle language docs part into a separate git repository.
+    - [x] Splitting off Planning Docs for Circle language docs into a separate git repository.
+- [x] Publishing on GitHub
+- [ ] __Converting from Word to MarkDown.__
+- [ ] Folder reorganization
+    - [x] Reorganizing Planning Docs
+    - [x] Reorganizing "Circle Docs" roughly
+    - [x] Reorganizing "Spec" roughly
+    - [ ] ~ Reorganizing "Broader View" roughly
+    - [ ] ~ Reorganizing "Construct Drafts" roughly
+    - [ ] ~ Moving topics out of "Spec"
+- [ ] .. Milder tone
+    - [ ] .. Less resolute language, more wiggle room
+    - [ ] .. (Perhaps search for definites such as 'have to', 'must', 'will', 'should', 'very'.)
+    - [ ] .. (Maybe I am being too strict towards myself, about having to rewrite everything in a milder tone.)
+- [ ] ~ Including hour sheet
+    - [ ] ~ (Extracting from hour sheet about multiple projects)
+- [ ] ~ Improving Planning Docs:
+    - [ ] ~ Including hour sheet? 
+    - [ ] ~ Splitting "Circle Language Spec Revamp Notes" into a document per topic.
+- [ ] ~ Improving Circle Language Spec:
+    - [x] Reduce the number of articles, grouping topics together.
+    - [x] Turn separate Concept / Diagram / Text Code articles into one.
+    - [ ] .. Loose ideas (regroup or clear out)
+    - [ ] ~ Start reading / writing / reformulating.
+    - [ ] ~ Generally go through content reformulating things?
+    - [ ] ~ Reorganizing articles
+    - [ ] ~ Covering a language design issue
+    - [ ] ~ Correcting for new insight / decisions
 
 ### Language Design / Content Changes
 
@@ -80,9 +87,11 @@ Circle Language Spec is an unfinished programming language design. The same fold
 - [ ] List concept more generic
 - [ ] Pointers (separate chapter)
 - [ ] Relationships 'always' bidirectional (might not be a good choice)
-- [ ] Object-commands / command-objects exchangeability doubts
+- [ ] Doubts about Command and Classes Loosely Coupled  
+      (object-commands / command-objects interchangeability)
 - [ ] Enriching misc diagram topics
 - [ ] Access marks: Make them arrows by default? think of something different for protected?
+- [ ] Open ended topics ("Object Resolution", "Conditions", "Object Order")
 - [ ] Writing style:
     - [ ] More pictures
     - [ ] More open, less resolute language
@@ -91,6 +100,32 @@ Circle Language Spec is an unfinished programming language design. The same fold
     - [ ] Is it a *notation* or is it a *run-time*?
         - [ ] (Texts might insist that Circle is a run-time, while the notation might be the main point of things.)
     - [ ] Over-awareness of pointers?
+
+### Scope Limitation
+
+At one point (e.g. in 2004) I think I thought I would cover *everything*.
+Now (2021-03-04) I feel a split up into large blocks might be better:
+
+- Diagram notation
+- Precise underlying rules
+- A stand-along Circle programming environment
+- Integration with other systems (e.g. using diagrams to express C# code, folder structures, etc.)
+- Programming language vs standard libraries
+- What apps might be programmed in it
+- Could this run as a stand-alone operating system?
+
+In the process of trying to figure things out, I may have involved more.
+But now (2021-03-04) the scope just seems to be:
+
+- Diagram notation
+
+#### Other Notes about Scope
+
+- No programming
+- No apps
+- Just documentation
+- More about existing content, rather than new ideas.
+- Only "Language" topics (not "Framework", "Operating System" or "Applications & Media")
 
 ## Information
 
@@ -138,26 +173,25 @@ TODO
     - [x] Checking the headings.
     - [x] Did these in one blow until __"4. Command Redirection"__:
         - [x] Checking the pictures
-        - [ ] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
-        - [ ] Manually checking differences between rendered MarkDown and Word
-        - [ ] Last check if markup looks ok
-        - [ ] Removing Word documents
+        - [x] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
+        - [x] Manually checking differences between rendered MarkDown and Word
+        - [x] Last check if markup looks ok
+        - [x] Removing Word documents
     - [ ] Switching to more phased approach
     - [x] Checking the pictures
     - [x] Copying red markings of words that may express things too strongly ('trigger words'). (Used red in Word. Using `inline code` in MarkDown.)
-
+    -----
     - [ ] __Music on perhaps. Slowing down. Take the time. Using keyboard.__
     - [ ] __Limitation: Not coming up with new header texts__
     - [ ] __Limitation: Not inspecting the Word documents__
     - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
-
+    -----
     - [ ] __Manually checking differences between rendered MarkDown and Word__
     - [ ] __Last checks if markup looks ok__
+    - [ ] __Removing Word documents__
+        - [ ] WAS AT: "Symbol Language (2004)" line 10403
+        - [ ] May have forgotten some new-lines around pictures.
 
-        - WAS AT: Commands Misc Issues
-         
-    - [ ] Removing Word documents
-         
 ### 2021-02-09 TODO Publishing
 
 - [x] Readme's?
@@ -2104,7 +2138,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 ### 2020-04-01 Done Circle Language Spec Planning Docs
 
 - [x] Empty project folders:
-    - [x] I could evaluate whether those empty project docs folders are needed.
+    - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] To me it seems odd now, that 'Errors' is put out of scope.
     - [x] I think I want to move the topics 'Errors' and 'Concept Construct' from the Out-of-Scope document to the Circle Language Spec Planning docs.
     - [x] The 'Out-of-Scope' document os currently not just postponed items of the Circle Language Spec, but more than that: not even considered part of the Circle Language Spec proect at all anymore.
@@ -2194,7 +2228,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - [x] Concepts construct:
     - [x] I am missing writing the Concepts construct documentation from the planning docs. I only see it in the Circle 3 Programming, Excluded Requirements.
 - [x] Lower contents:
-    - [x] The idea of lower contents is described in project docs not in Circle Docs Planning, but in '1. Circle 3 Programming' planning.
+    - [x] The idea of lower contents is described in planning docs not in Circle Docs Planning, but in '1. Circle 3 Programming' planning.
     - [x] You can also find some texts about it here: Circle 3, Lower Contents, TODO.doc
 
 ### 2020-03-22 Done Project Names
@@ -2225,7 +2259,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] But Circle Language Specification Plan is just a long name.
     - [x] But 'New Computer Language Functional Design' was too, so that is not an argument?
     - [x] 'Spec': Is an abbreviation. I generally dislike those, but I think in this case it is appropriate. It is adopted as a word by the community.
-- [x] I could evaluate whether those empty project docs folders are needed.
+- [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] The 'update … articles' sub-projects
         - [x] Defined as empty project doc folders: I see some of it back in the Circle Language Spec's Strategy doc, Project Steps and Time Planning, but not in the Products doc. Some redo's are defined, be it not in Products doc. It seems the reason for redoing is not always stated. I think I should make the list complete in all the planning docs where appropriate. Then I can get rid of the remaining empty sub-project folders.
         - [x] Mentioned them in the Products doc now.
@@ -2261,7 +2295,7 @@ This was too intense. I wonder if starting to change documentation will be too i
 
 ### 2020-03-08 Done Reading Circle 3 Requirements Docs
 
-The requirement group 'Priority C: Classes' has 1 language design feature: < Diagram Notation Design > Static. So that is to be moved to the language design project docs.
+The requirement group 'Priority C: Classes' has 1 language design feature: < Diagram Notation Design > Static. So that is to be moved to the language design planning docs.
 
 'Priority E: Integration' contains brainstorming instead of a list of items.
 
@@ -2271,7 +2305,7 @@ Some of the content in 'Priority E: Integration' could be part of language desig
 
 'Priority F: Large Amounts of Items': Spiraling could be part of diagram metrics documentation. And object order.
 
-'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Circle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming project docs, because I wasn't going to do them anyway.
+'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Circle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming planning docs, because I wasn't going to do them anyway.
 
 I ran over all the content of Circle 3 Requirements and above are the conclusions of what to possibly do.
 
@@ -2285,10 +2319,10 @@ That does not take away I want to split topics in these planning docs between la
 ### 2020-02-23 Done Reading Circle 3 Strategy
 
 An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Circle Docs.  
-"Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Circle Docs project docs.  
+"Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Circle Planning Docs.  
 Was at "More Tips" processing things.
 
-At what point am I going to be more rigorous in splitting off the Circle Docs project docs from the rest? Not yet, I think. It's still a mash up of both in the project docs I am reading now.
+At what point am I going to be more rigorous in splitting off the Circle Planning Docs from the rest? Not yet, I think. It's still a mash up of both in the planning docs I am reading now.
 
 ### 2020-02-20 Done
 
@@ -2329,7 +2363,7 @@ I am cleaning up New Computer Language, Products.doc: simplified color coding, r
 Rough plan:
 
 - [x] Remove detail from products doc.
-- [x] Split main project docs into 2: content about the diagrammatic programming language and content outside of that subject area.
+- [x] Split main planning docs into 2: content about the diagrammatic programming language and content outside of that subject area.
 - [x] Or read some sub projects docs.
 
 I had those plans with it, but did nothing about them this day.
@@ -2378,8 +2412,8 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
 
 - [x] What do I do with things, that are out-of-scope? Do I just bluntly remove them from the documentation, or do I go through the trouble of parking the texts elsewhere?
 - [x] Would I rename 'Computer Language' to something else, admitting it is a programming language, and only expressing the hope that it would become a language to a user to, where constructs are simpler. Do I simply admit that these were my ambitions with the project, and if people claim arrogance, then let them?
-- [x] I am hoping at some point, the project docs get smaller… because these documents are huge and intimidating.
-- [x] Maybe I should just make 2 project folders eventually in the Project Docs repository: one for the new computer language and one for the rest, that are much like eachother, but one stripped down to computer language functional design topics, and the other in which to dump the rest: anything deemed out-of-scope of the entire new computer language topic. Those are different than topics out-of-scope because postponed, but still much to do with the new computer language. Maybe at first, even 'worse', I make 2 documents in each folder: One with topics that belong to the new computer language, and another document much like it, in which the rest is put, that I would want to leave out of it.
+- [x] I am hoping at some point, the planning docs get smaller… because these documents are huge and intimidating.
+- [x] Maybe I should just make 2 project folders eventually in the Planning Docs repository: one for the new computer language and one for the rest, that are much like eachother, but one stripped down to computer language functional design topics, and the other in which to dump the rest: anything deemed out-of-scope of the entire new computer language topic. Those are different than topics out-of-scope because postponed, but still much to do with the new computer language. Maybe at first, even 'worse', I make 2 documents in each folder: One with topics that belong to the new computer language, and another document much like it, in which the rest is put, that I would want to leave out of it.
 - [x] I think a new concept to me, introduced in this new project is that: I do not need to do everything. Like this from "New Computer Language, Products.doc: "You have to be able to introduce new basic data structures and give them the nonagon symbol, and have different kinds of possible indexers, etcetera." I don't have to. I could do without. Ideas might be viable and interesting without all details being covered, without all proofs being given. I wanted to work out *everything* at some point. I also was a afraid, that if I didn't, people would not believe in the idea. Maybe I got over-ambitious, because I saw so much potential. I think I was able to work out a lot, but then I would get distracted by another project and then it turned out, I never got back to it. Scoping is a trick for that, when managing projects. Setting the boundaries and limitations of what the project would cover. I never wanted to do that back then. I wanted a framework in which everything would fit and then choose seemingly randomly what I would cover next. In one way I like the freedom of that. But on the other hand, it becomes a never ending story. I sometimes had the ambition of actually making *all* of it. I might have been able to create a playground in which I can go wild, but someone else would never want to cover all of that. Someone else would never take over your programming life, just a scoped programming project and then maybe. So I want to scope it. And lose the 'programming it out' part. And loose 'it is also a framework and an OS and any commonly used application'. It is actually quite hard for me to let go of that idea. I liked my playground back then. I wanted proof, that this could be used to realize software quicker, so one man can do what would have taken an army of programmers to do before. But I don't have that ambition anymore. Right now I just want to publically give away the programming language idea. I think I notice a lot of insecurities about people thinking it is a good idea or not. Maybe because I was trying to sell the idea, rather than just give it away? I get that I wanted a framework into which all of my ideas fit. I like some of the modularization of the concepts. But I do want to just cut away a few things. I think I am still trying to sell an idea, but then in a different way. I do not have the intention to sell it for cash, but I do want to not make it too ambitious, cover too much, so large in scope, that no one would pick it up anymore. 
 - [x] The time planning document ("New Computer Language, Project Steps & Time Planning.doc") looks far more overviewable and less intimidating. It all seems so manageable there.
 - [x] The document with the list of products ("New Computer Language, Products.doc") is overwhelming, because each article written is mentioned separately and that means almost each paragraph of produced writing is mentioned separately. If I would just mention the basic outlines, this might be better. Earlier, back then, it may have helped me see what I did and see how much I wanted to do. But with the goal I have now, I think it loses its purpose, and simplicity of the planning docs is more important than rigorous tooling for detailed planning of my own work.
@@ -2430,11 +2464,11 @@ Idea bout converting version folder to source control history:
 
 ### 2019-08-05 Done Brainstorm Restructuring Docs
 
-The Circle project docs took a turn at some point in time. At one point it was mostly about documentation, then it became about both documentation and programming. But the project docs folders do not seem to be fully updated to that change. Maybe I can do that in the context of *this* project. First some more reorientation.
+The Circle Planning Docs took a turn at some point in time. At one point it was mostly about documentation, then it became about both documentation and programming. But the planning docs folders do not seem to be fully updated to that change. Maybe I can do that in the context of *this* project. First some more reorientation.
 
 'Program Software System' now looks 'outdated', compared to the programming work described in 'Document Software System'.  
 I might actually move many of those topics from 'Future\Interesting Now' to 'Postponed'.  
-I also would want to put a cut into all the project docs and all the circle docs: this is the language and this is the rest.  
+I also would want to put a cut into all the planning docs and all the circle docs: this is the language and this is the rest.  
 So it gets isolated. In the past I wanted to put everything I did (and will ever do) with software development at home in a single system so general that I called it 'Software System'. Many docs are general and describe both that language + OS-like topics and applications. I might want to cut that in two: language and the rest. I might like to open source the language at one point and just leave the rest out of it.
 
 I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Circle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Circle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
@@ -2682,12 +2716,26 @@ But if you would accidentally bend the half triangle at the end the wrong way, i
 - [ ] ~ Maybe less rules for line direction, even though an effort for this may already have been done in moving from the previous version Symbol Language.doc to the newer definition Circle Language Spec.
 - [ ] ~ The access marks may become arrows instead, after considering if that works out with the rest of the notation rules.
 - [ ] ~ Maybe accept that the system interface may be visible more, while letting go of implicit notations to avoid them. Maybe not all the implicit notations for e.g. system commands calls would be scratched. Maybe the less usual ones, that seem to look the most ambiguous of all, if I may express it that black and white.
-- [ ] ~ The line merge and symbol merge notations may be let go of. (See Basic Diagram Elements.) But maybe later it was let go of already, I cannot remember that clearly anymore. Those notations look quite ambiguous with more basic notation ideas. I think I introduced those, because my idea was to make bidirectional relatioships more common, and I perhaps disliked how many symbols and lines you might use to express bidirectional relationships, because in my view they would be used everywhere. I let go of that idea of bidirectional relationships everywhere. Only in use case ideas I might have for aspect oriented programming ideas it may become handy. In general it may be handy: bidirectional relationships, but they do not seem to be used ubiquitously in technology, so... So long story, but just leaving the explicit 'forward' and 'backward' relationship references drawn out explicitly, might be a good idea. And I believe that I already came up with something somewhere, where I put a 'relational ring' around the two lines of a bidirectional relationship, to indicate they would be kept in sync automatically.
+- [ ] ~ The line merge and symbol merge notations may be let go of. (See Basic Diagram Elements.) But maybe later it was let go of already, I cannot remember that clearly anymore. Those notations look quite ambiguous with more basic notation ideas. I think I introduced those, because my idea was to make bidirectional relationships more common, and I perhaps disliked how many symbols and lines you might use to express bidirectional relationships, because in my view they would be used everywhere. I let go of that idea of bidirectional relationships everywhere. Only in use case ideas I might have for aspect oriented programming ideas it may become handy. In general it may be handy: bidirectional relationships, but they do not seem to be used ubiquitously in technology, so... So long story, but just leaving the explicit 'forward' and 'backward' relationship references drawn out explicitly, might be a good idea. And I believe that I already came up with something somewhere, where I put a 'relational ring' around the two lines of a bidirectional relationship, to indicate they would be kept in sync automatically.
+- 'Modifiers' (from C#) like protected, internal, static might be represented simpler by using 'condition' notation, by drawing through an connector line (or connection line too?) a triangle (for protected), a pentagon (for internal) and a dashed circle (for static)? Perhaps other modifiers too. This might prevent difficult theory of other more exact(?) (-ish) representations of the concepts.
 
 ### 2020-05-12 Postponed Fully OO?
 
 - [ ] ~ Here and there I mention that the diagram notation could 'fully describe' an OO system. But I do not mention that it stops at arithmetic, comparative, logical operators and such. You might display that as an object graph. An idea was that 'Math' would be an external module that describes all the basic operators, but another idea was for expressions like that could be just included as bits of text code inside the diagram. Maybe not be too strict about this towards myself.
 - [ ] ~ Also when I look at Circle Construct Drafts, I see topics one might expect in a language spec, that are not addressed. I guess it does not have to have everything any other language spec might have…
+- [ ] ~ The "Summaries of Other Languages" lists constructs, that I might have deemed 'obvious' how to express them in Circle, but that might not be the case: enums, structs, union types, other sorts of types, all sorts of operators, all the modifiers. If it turns out explainable under one umbrella, maybe one article would suffice. Maybe called "Imported Constructs" but perhaps that name would demote these constructs too much?
+- [ ] ~ I have some notations in mind for 'operators' which may cover a portion of the constructs in the "Sumarries of Other Languages":
+    - [ ] Drawing out operators and operands as function calls with the command and paramater notation of Circle.
+    - [ ] Writing down the expression as text (for instance "X < Y" inside a diamond maybe.
+    - [ ] Using a commands and parameters notation of Circle, also try to write the expression almost as text "X < Y" but then the X and Y operands perhaps replaced by a shape (circle or 'cookie' shape) with the name in or near the shapes, or perhaps no names at all, just circle's that redirect to the wanted value.
+    - [ ] Perhaps try to make an attempt to an exhaustive table, even when that might mean repeating the same sort of notation multiple times. It might clarify where there might be doubt.
+- [ ] Some C or C++ keywords I might not have a specific replacement for. Is there a kind of catch all solution for that?
+    - [ ] For instance ones I do not know the meaning of.
+    - [ ] One example might be distinction between C# `out` parameters and `return` values might not have a distict diagram notation.
+    - [ ] May also be an option if an application may decide not to implement certain graphical notations, but still may want to display the information in the diagram.
+    - [ ] Perhaps just notate the keyword / modifiers from C or C++ (or another language) near the associated shape (along with the name of the shape).
+    - [ ] Perhaps some keywords might be notated in 'Condition' notation ('Condition' notation may not have been worked out yet).
+    - [ ] The option to simply leave out those details from the diagram might do for some applications.
 
 ### 2019-08-27 Postponed Simpler Rules
 
@@ -2743,6 +2791,15 @@ I think that for now, it might be a better idea not to express such notational c
 
 - [ ] ~ Extra rules for line drawing / access marks:
     - [ ] ~ Drawing more diagrams on paper I remember why I invented the rule 'access mark not needed when connection from diamond to square is implied' and the other rule too: 'call lines can be solid'. They might make the language less 'pure', but they do forgive a 'mistake' you might make forgetting the access mark and that the line might be dashed between a diamond and a square: you almost always mean that when you draw a diamond and a square. I may reintroduce those 'rules', but then also express the doubt about them honestly. "Not a hard rule", "might make the language less pure", "might be forgiven if you use it that way", "could be used as a dialect that way", "might keep it purer and use dashed lines and access marks".
+- [ ] ~ The part about how symbols can relate:
+    - [ ] ~Adding 'child' association
+        - [ ] ~ For instance if an object __O__'s class __C__ defines a member __A__, and member __A__ has a certain class, this may mean that member __A__ in object __O__ has that class too, even when no line indicates that. The class's definition might define the configuration of the members of the object, without repeating that information in the object.
+    - [ ] ~ Adding 'name' association: 
+        - [ ] ~ If just text code might be inserted into the diagram, perhaps without specifying any shape or lines e.g. "A < B", the association might go by name. Perhaps similar like in text code. Perhaps with disambiguation rules like in text code (e.g. command overloads).
+    - [ ] ~ Adding 'shape' association:
+        - [ ] ~ Perhaps a bit questionable. Without specifying class or interface or anything, objects might 'accidentally' have similar shape. It might visually make objects look similar. This may be a certain unwritten relation betwee those two objects.
+        - [ ] ~ Perhaps an association like that might lead to something along the idea of "Automatic Object Formation" that seems to be hiding the "Broader View" section perhaps without much of a description.
+        - [ ] ~ Perhaps disambiguation of commands based on parameter types might be an example of this.
 
 ### 2020-06-11 Postponed Content Changes for Objects Chapter
 
@@ -2774,6 +2831,9 @@ I think that for now, it might be a better idea not to express such notational c
 - [ ] ~ Maybe make the idea of ubiquitous bidirectional relationships between commands and objects less centric. Or perhaps at least diverge into other approaches, so attempting to make room for expressing what goes on in other languages, rather than replacing the construct by another take on it.
 - [ ] ~ I think maybe that bidirectionality is not of much use in this Circle Language Spec. It seems better off being placed in Circle Construct Drafts, because it just does not resonate much with other languages, programming seems to be able to live without it, and it seems alienating and full of implications, that seems to make concepts fall apart that did not seem to need to be ripped apart in the first place. I might be too harsh about it here. It is an interesting idea, I think, but it just complicates the idea of the diagram notation, which seems centric, not drastically changing how constructs work.
 - [ ] ~ The Imported Parameter Concepts could be tidied up. The ideas from the original Symbol Language.doc might be processed: discarded or embedded into the main text. Merging the texts of the conceptual explanation and diagram notation might make things more overviewable and shorter / less text.
+- [ ] ~ The approach of in/out/thru may be a more appropriate description.
+- [ ] ~ Thru parameters had a particular implicit notation introduced in "Symbol Language (2004)": an object line that goes in both directions. Perhaps one implicit notation too many. But perhaps it can be introduced as an alternative.
+- [ ] It seems the parameter connections might be implicit assignments (perhaps readable in "Symbol Language (2004)". It might only be implied in "Commands" > "Creation Behavior of Commands" in the Spec currently (2021-03-03). Perhaps it might deserve to be mentioned this possible implicit behavior of the lines (that cross command boundaries?). It might not be like that in all cases (clauses?). Introducting the concept lightly surrounded with maybe's may help.
 
 ### 2020-05-20 Postponed Content Changes for Execution Control
 
@@ -2910,25 +2970,24 @@ has something missing. In C# you can also refer to the parent object as if it we
 
 ### 2020-05-24 Postponed Content Changes for Object Order
 
-I might move that Object Order issue to the chapter Objects. It's single lone topic now. It starts with the word 'Object', so maybe therefore Objects is the chapter for it. It's just right now (2020-05-24) it is unfinished and unfinished things tend to be put at the bottom of the documentation right now and do not want to do anything about it right now, I think.
+- [ ] ~ I might move that Object Order issue to the chapter Objects. It's single lone topic now. It starts with the word 'Object', so maybe therefore Objects is the chapter for it. It's just right now (2020-05-24) it is unfinished and unfinished things tend to be put at the bottom of the documentation right now and do not want to do anything about it right now, I think.
+- [ ] ~ Automatic execution order may not be something to hide from Object Order. It does not seem much to describe and perhaps is just low hanging fruit.
 
-### 2020-06-11 Postponed Content Changes for Command and Classes Loosely Coupled
+### 2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled
 
 - [ ] ~ (Moved to Circle Broader View\Classes)
 - [ ] ~ What might be mentioned if the text would be built up from the ground up? I think I would just talk about the static concept, because that seems to me the number 1 candidate for what classes might have a lot to do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I would move the more creative concepts away from the Circle Language Spec.
-- [ ] ~ I have questions about the dashed line usage of lines of the smaller squares:
-
-![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)
-
+- [ ] ~ I have questions about the dashed line usage of lines of the smaller squares:  
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)  
 I do not understand why the class would point out the external command definition with a dashed line, while the objects point out the external command definition with a solid line. I think I might have followed a style choice more than an exact depiction of things? Would both lines express something that kind of works, leaving the options open for a stylistics choice to have class structure be more with dashed lines and object structure be more with solid lines? I suspect that I might leave this doubt open.
 I am a bit amused by my own typical behavior, because half an hour later, I see that the explanation was already in the text.
 I do feel it might be quite something to burden the reader with. I am hoping for a more clear meaning for dashed shapes in the future.
 
-- [ ] ~ Another point of doubt might be:
+- [ ] ~ Another point of doubt might be:  
+  ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.017.png)  
+  Why is the line on the right no extended to the circle, so class structure and object structure look more alike except for the dashed and solid lines?
 
-![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.017.png)
-
-Why is the line on the right no extended to the circle, so class structure and object structure look more alike except for the dashed and solid lines?
+- [ ] ~ This "Command and Classes Loosely Coupled" idea (exchangeability between class-commands and command-parameters) might be moved to construct drafts. An approach with centric concepts of "Value In", "Value Out", "Object In", "Object Out" might be more practical. There might be (draft) content on that for instance in the "Symbol Language (2004)" document and perhaps elsewhere too. The idea of "Command and Classes Loosely Coupled" might have unnecessarily complicated things.
 
 ### 2020-04-19 Postponed Conversion to MD
 
