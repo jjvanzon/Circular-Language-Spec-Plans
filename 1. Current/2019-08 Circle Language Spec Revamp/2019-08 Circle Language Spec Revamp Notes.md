@@ -101,25 +101,20 @@ Circle Language Spec is an unfinished programming language design. The same fold
         - [ ] (Texts might insist that Circle is a run-time, while the notation might be the main point of things.)
     - [ ] Over-awareness of pointers?
 
-### Scope Limitation
+### Scope
 
-At one point (e.g. in 2004) I think I thought I would cover *everything*.
-Now (2021-03-04) I feel a split up into large blocks might be better:
+Around 2004 the idea may have been to cover *everything*.
+Now (2021-03-04) a scoping it to large blocks might be better:
 
-- Diagram notation
-- Precise underlying rules
-- A stand-along Circle programming environment
-- Integration with other systems (e.g. using diagrams to express C# code, folder structures, etc.)
-- Programming language vs standard libraries
-- What apps might be programmed in it
-- Could this run as a stand-alone operating system?
+- [ ] Diagram notation
+- [ ] ~ Programming language vs standard libraries
+- [ ] ~ Integration with other systems (e.g. using diagrams to express C# code, folder structures, etc.)
+- [x] ~~Precise underlying rules~~
+- [x] ~~A stand-along Circle programming environment~~
+- [x] ~~What apps might be programmed in it~~
+- [x] ~~Could this run as a stand-alone operating system?~~
 
-In the process of trying to figure things out, I may have involved more.
-But now (2021-03-04) the scope just seems to be:
-
-- Diagram notation
-
-#### Other Notes about Scope
+#### More about Scope
 
 - No programming
 - No apps
@@ -186,11 +181,13 @@ TODO
     - [ ] __Limitation: Not inspecting the Word documents__
     - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
     -----
-    - [ ] __Manually checking differences between rendered MarkDown and Word__
+    - [ ] __Manually checking differences between rendered MarkDown and Word document__
     - [ ] __Last checks if markup looks ok__
+        - [ ] Seem to have forgotten to: nicify headings of "Input Output Parameter Passing".
+        - [ ] WAS AT: "Input Output Parameter Passing"
+    - [ ] __May have forgotten some new-lines around pictures.__
     - [ ] __Removing Word documents__
-        - [ ] WAS AT: "Symbol Language (2004)" line 10403
-        - [ ] May have forgotten some new-lines around pictures.
+    -----  
 
 ### 2021-02-09 TODO Publishing
 
