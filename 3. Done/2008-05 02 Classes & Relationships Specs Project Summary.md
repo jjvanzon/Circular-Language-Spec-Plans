@@ -5,7 +5,7 @@
 Goal
 ----
 
-Originally the aim was to document all the coding principles and basic coding concepts and their diagram notation. That project turned out to be too big, so then it was limited to the coding concepts about classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Circle Language Spec as of 2020.)
+Originally the aim was to document all the coding principles and basic coding concepts and their diagram notation. That project turned out to be quite big, so then it was limited to the coding concepts about classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Circle Language Spec as of 2020.)
 
 
 Super-Project
@@ -18,7 +18,7 @@ Date & Time
 -----------
 
 May 27, 2008 – June 21, 2008  
-3 weeks and 5 days
+3 weeks and 5 days  
 40 hours of work  
 
 
@@ -104,4 +104,3 @@ Project Steps
 - Then wrote the articles
  
 - Also changed the term *method* into *command*.
-
