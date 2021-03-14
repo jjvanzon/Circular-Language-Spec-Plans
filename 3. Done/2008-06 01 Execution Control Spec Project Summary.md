@@ -35,10 +35,10 @@ Products
 
 The following __44__ articles were produced:
 
-- *Execution Control*  articles
-    - version  *2008-06-12 00  1.0*
+- *Execution Control* articles
+    - version *2008-06-12 00  1.0*
 - *Execution Control in a Diagram*  articles
-    - version  *2008-06-12 00  1.0*
+    - version *2008-06-12 00  1.0*
 
 Consisting of:
 
