@@ -1,5 +1,8 @@
-Circle Language Spec Plans | Parameters Spec Update Ideas
-=========================================================
+Circle Language Spec Plans
+==========================
+
+Parameters Spec Update Ideas
+----------------------------
 
 Maybe only merge conceptual explanation with diagram notation explanation.
 

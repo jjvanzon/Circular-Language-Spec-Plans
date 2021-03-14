@@ -1,5 +1,8 @@
-Circle Language Spec Plans | Execution Control Spec Update Ideas
-================================================================
+Circle Language Spec Plans
+==========================
+
+Execution Control Spec Update Ideas
+-----------------------------------
 
 Maybe only merge conceptual explanation with diagram notation explanation.
 

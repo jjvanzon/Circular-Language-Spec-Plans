@@ -1,5 +1,8 @@
-Circle Language Spec Plans | Objects Spec Update Idea
-=====================================================
+Circle Language Spec Plans
+==========================
+
+Objects Spec Update Idea
+------------------------
 
 Maybe only merge conceptual explanation with diagram notation explanation.
 
