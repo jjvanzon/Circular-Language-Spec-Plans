@@ -212,6 +212,7 @@ TODO
     - [ ] Moving all pointer topics to Pointers.
     - [ ] Moving all Text Code topics to single place.
     - [ ] Removing "Version History" documents from Archive?
+    - [ ] Moving System Objects more to the top again.
 
 Done
 ----

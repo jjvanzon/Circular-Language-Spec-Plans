@@ -41,9 +41,8 @@ The following __*47*__ articles were produced:
 
 - *Basic Diagram Elements*
     - version  *2008-05-20 00  1.0*
- 
+
 - Coding Principles and their Diagram Notation:
- 
     - *Identifiers*
         - version  *2008-05-27 00  1.0*
     - *Identifiers in a Diagram*
@@ -120,18 +119,14 @@ The following __*47*__ articles were produced:
         - version  *2008-05-27 00  1.0*
     - *Method Definition Assignment in a Diagram*
         - version  *2008-05-27 00  1.0*
-        
     - Made a start with:
-     
         - *Method Versus Object*
             - version  *2008-05-26 XX*
         - *System Methods*
             - version  *2008-05-26 XX*
- 
-- Coding Concepts and their Diagram Notation:
 
+- Coding Concepts and their Diagram Notation:
     - Finished:
-     
         - *Attributes* 
             - version  *2008-05-27 00  1.0*
         - *Attributes in a Diagram*
@@ -144,8 +139,6 @@ The following __*47*__ articles were produced:
             - version  *2008-05-27 00  1.0*
         - *Classes in a Diagram*
             - version  *2008-05-27 00  1.0*
-      
     - Made a start with:
-     
         - *Relations in a Diagram*
             - version  *2008-05-27 XX  0.9*
