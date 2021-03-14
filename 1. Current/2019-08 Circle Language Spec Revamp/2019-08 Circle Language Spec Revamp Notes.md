@@ -108,11 +108,14 @@ Now (2021-03-04) a scoping it to large blocks might be better:
 
 - [ ] Diagram notation
 - [ ] ~ Programming language vs standard libraries
-- [ ] ~ Integration with other systems (e.g. using diagrams to express C# code, folder structures, etc.)
+- [ ] ~ Integration with other systems  
+        (e.g. using diagrams to express C# code, folder structures, etc.)
+- [x] ~~Implementations~~
+- [x] ~~Creator projects~~
 - [x] ~~Precise underlying rules~~
-- [x] ~~A stand-along Circle programming environment~~
-- [x] ~~What apps might be programmed in it~~
-- [x] ~~Could this run as a stand-alone operating system?~~
+- [x] ~~Stand-along Circle programming environment~~
+- [x] ~~What apps might be programmed in it?~~
+- [x] ~~Could this run as a stand-alone OS?~~
 
 #### More about Scope
 
@@ -181,13 +184,12 @@ TODO
     - [ ] __Limitation: Not inspecting the Word documents__
     - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
     -----
+    - [ ] __Checking the markup for obvious improvements.__
     - [ ] __Manually checking differences between rendered MarkDown and Word document__
     - [ ] __Last checks if markup looks ok__
-        - [ ] Seem to have forgotten to: nicify headings of "Input Output Parameter Passing".
-        - [ ] WAS AT: "Input Output Parameter Passing"
     - [ ] __May have forgotten some new-lines around pictures.__
     - [ ] __Removing Word documents__
-    -----  
+    - [ ] Version history document titles more consistent.
 
 ### 2021-02-09 TODO Publishing
 
@@ -197,6 +199,19 @@ TODO
     - [ ] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
 - [ ] Replacing swear words ("Symbol Language (2004).md")
 
+### 2021-03-14 TODO Content Reorganization
+
+- [ ] Planning docs:
+    - [ ] Splitting up Revamp project into topics.
+    - [ ] Merging together goals of Revamp project with Main Project.
+    - [ ] Removing (totally) out-of-scope topics to Archive.
+- [ ] Circle docs:
+    - [ ] Folders more straightforward for "Broader View" and "Construct Drafts"
+    - [ ] Updating index pages.
+    - [ ] Moving "Previous Versions" and "Summaries of Other Languages" to "Construct Drafts"
+    - [ ] Moving all pointer topics to Pointers.
+    - [ ] Moving all Text Code topics to single place.
+    - [ ] Removing "Version History" documents from Archive?
 
 Done
 ----
