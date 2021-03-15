@@ -213,6 +213,8 @@ TODO
     - [ ] Moving all Text Code topics to single place.
     - [ ] Removing "Version History" documents from Archive?
     - [ ] Moving System Objects more to the top again.
+- [ ] Replacing "Globality" with "Module"
+- [ ] Replacing "Concept" with "Aspect"
 
 Done
 ----
