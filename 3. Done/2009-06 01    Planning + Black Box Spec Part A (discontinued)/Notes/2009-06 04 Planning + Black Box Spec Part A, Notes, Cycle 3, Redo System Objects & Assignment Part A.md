@@ -34,23 +34,23 @@ Approach
 
 I introduce things in wrongly composed chunks in the System Objects documentation.
 
-- What I am missing is immediate overview of System Objects (e.g. Related Item, List Item),
-immediate overview of System Aspects, and then the definition of a system command.
+- What I am missing is immediate overview of System Objects (e.g. Related Item, List Item), immediate overview of System Aspects, and then the definition of a system command.
 - It starts out with a very difficult story
 - Way too many details seem to be mentioned.
 - Perhaps you should first explain the System Objects
 - And only then their system aspects
 - And perhaps even separately the system commands
+-----
 - Base it more on a story about System Aspects.
 
 This should be the new order:
 
-- All the system objects in general and how they relate to eachother
+- All the system objects in general and how they relate to each other
 - All the system aspects in general
 - The system commands in general and per aspect
 - The system interface in general
-- All the system objects with the system interface notation
-    > Without system commands in it?
+- All the system objects with the system interface notation  
+  \> Without system commands in it?
 - System commands in the system interface notation
 
 
@@ -68,29 +68,29 @@ Steps
 - [x] System command call notation:
 
     - [x] Calls without argument / counterpart
-    - [x] Calls with an argument / counterpart
-       > (zonder counterpart is het eigenlijk niet compleet.)
-       > (laat het argument niet expliciet zien in de call:
-       > het argument is aan de andere kant van de lijn)
+    - [x] Calls with an argument / counterpart  
+          (zonder counterpart is het eigenlijk niet compleet.)  
+          (laat het argument niet expliciet zien in de call:  
+          het argument is aan de andere kant van de lijn)
     - [x] Explicit Get with implicit Set
 
 - [x] Assignment
 
     - [x] Integrate assignment into it.
         - [x] Split up into multiple articles.
-
-    - [x] ~Assignment:
-        - [x] Assignment notatie moet iets vereenvoudigd
-             > Hele ding in een bepaald line type, inclusief direction mark en assignment call symbool
-            - [x] Reference assignment hoeft niet per se een pijl,
-                > tenzij het een assignment is van een reference op hetzelfde niveau.
-                > maar in alle andere gevallen is de source van de assignment inward.
-                        > Eigenlijk wil ik dat wel, omdat het een heel speciaal effect heeft, pointer assignment.
+    -----
+    - [x] ~ Assignment:
+        - [x] Assignment notatie moet iets vereenvoudigd  
+              \> Hele ding in een bepaald line type, inclusief direction mark en assignment call symbool
+            - [x] Reference assignment hoeft niet per se een pijl,  
+                  tenzij het een assignment is van een reference op hetzelfde niveau.  
+                  maar in alle andere gevallen is de source van de assignment inward.  
+                  \> Eigenlijk wil ik dat wel, omdat het een heel speciaal effect heeft, pointer assignment.
 
 - [x] Access connector notation:
 
     - [x] Then the system command connectors (get, set and use do not show a command symbol)
-
+    -----
     - [x] Represents a potential call
     - [x] Which also makes it represent the system command definition, that can be called upon
     - [x] System Commands zou op zich al access connectors kunnen behandelen, maar dan zonder Private en Friend, dus zonder black boxing.
@@ -100,22 +100,21 @@ Steps
 
     - [x] Philosophy: the explicit, non-simplified system command call notation should be worked out last with a clarification for why it gets a more basic notation.
     - [x] 1) System Command Call with Argument / Explicit Get, Implicit Set
-        > Add the cross-aspect things
+        - [x] > Add the cross-aspect things
     - [x] 2) Explicit Get, Set and Use (both counterparts explicit)
     - [x] 3) Explicit display of Get and Set arguments
     - [x] One article:
         - [x] 4) Completely explicit display: showing the system interface and the exactly correct line types.
         - [x] 5) Explicit display of assignment
-            > (the name of the assignment command is for instance 'o='. Completely explicit display also means displaying that name.)
+            - [x] (the name of the assignment command is for instance 'o='. Completely explicit display also means displaying that name.)
         - [x] Maybe integrate the last two in the same article, because they look so similar.
             - [x] In the article put in a comparison to the substituted notation of assignment.
 
-- [x] Connections
-  
-    > (a new addition)
+- [x] Connections    
+      \> (a new addition)
     - [x] You would also want Connections to have an article in the system objects article group.
 
-### Reformations
+### Reorganizations
 
 - [x] Topic list:
     - [x] System Objects
@@ -135,7 +134,7 @@ Steps
         - [x] Value
         - [x] Clone
         - [x] Name
-        - [x] Existance
+        - [x] Existence
         - [x] Data
         - [x] Execute
         - [x] List
@@ -150,7 +149,7 @@ Steps
         - [x] For Name Aspect
         - [x] For Data Aspect
         - [x] For Execute Aspect
-        - [x] For Existance Aspect
+        - [x] For Existence Aspect
         - [x] For Add & Remove Aspect
     - [x] System Interfaces
         - [x] General System Interface Notation
@@ -158,14 +157,14 @@ Steps
         - [x] For Related Item
         - [x] For Related List
         - [x] For Related List Item
-        - Rules:
-            - Small plan:
+        - [x] Rules:
+            - [x] Small plan:
                 - [x] Try to summarize the rules
                 - [x] Add stuff you forgot to mention
                 - [x] Read over existing material to see where the rules are mentioned
                     - [x] And isolate the rules in separate articles, instead of repeating them.
                 - [x] Forgot to mention:
-                    - [x] I forgot to mention the optional Class argument in the System Commands for the Existance Aspect.
+                    - [x] I forgot to mention the optional Class argument in the System Commands for the Existence Aspect.
                     - [x] And perhaps also the arguments in the Add command in the System Commands for the List Aspect.
                 - [x] Rules repeated:
                     - [x] Use-Commands Get Another Aspect
@@ -176,14 +175,14 @@ Steps
                         - [x] Practical other option:
                             - [x] ~~Display both object-related aspects and reference-related aspects in the same system interface.~~
                             - \> A symbol can have multiple system objects, so multiple system interfaces.
-                                - \> For instance: one symbol can have an OBJECT system object and a related item system object.
+                            - \> For instance: one symbol can have an OBJECT system object and a related item system object.
                     - [x] ~~Impractical options:~~
-                        - [x] ~~Show Object system interface in imaginary reference.~~
-                        - [x] ~~Show Reference system interface everywhere else.~~
-                        - [x] ~~But that will make it hard to for instance get a Value through a reference.~~
-                        - [x] ~~Always show Object system interface, and through it its related items.~~
-                        - [x] ~~But then you can not directly work with related items,~~
-                        - [x] ~~you would have to go through the system interface of its parent object.~~
+                        - [x] ~~Show Object system interface in imaginary reference.~~  
+                        ~~Show Reference system interface everywhere else.~~  
+                        ~~But that will make it hard to for instance get a Value through a reference.~~
+                        - [x] ~~Always show Object system interface, and through it its related items.~~  
+                        ~~But then you can not directly work with related items,~~  
+                        ~~you would have to go through the system interface of its parent object.~~
                             - \> ~~Oh, and the object system object will have a related lists and related items collections.~~
                 - [x] Preliminariness
                     - [x] How the system interface looks is totally dependent on how the code base is implemented. If you make different design choices about the code base, organizing members differently, the system interface will also look different, because the system interface is an exact representation of the public members of the system object.
@@ -192,17 +191,17 @@ Steps
                 - [x] Detail:
                     - [x] Use more lidwoorden in titles for commands for aspects
 
-        - [x] Read over
+    - [x] Read over
 
-        - [x] After you put the existing newer topics:
+    - [x] After you put the existing newer topics:
 
-            - [x] Assignments
-            - [x] Connectors & Connections
-            - [x] System Command Calls
-            - [x] Explicit Notations
-
-            > (not necessarily in that order)
-            > (you can simplify them)
+        - [x] Assignments
+        - [x] Connectors & Connections
+        - [x] System Command Calls
+        - [x] Explicit Notations
+        -----
+        - (not necessarily in that order)
+        - (you can simplify them)
 
 \> At this point you have a fairly well finished up chapter,
 except for a lot of cross-out material.
@@ -214,10 +213,10 @@ except for a lot of cross-out material.
 - [x] Remaining topics:
 
     - [x] System interface command call
-    - [x] ~System Command Extension
-        > Preliminarily Finished
-    - [x] ~Parameters For Objects
-        > Leave this way
+    - [x] ~ System Command Extension
+        - [x] ~ Preliminarily Finished
+    - [x] ~ Parameters For Objects
+        - [x] > Leave this way
     - [x] Ancestry Terms
     - [x] ~~Transform Method To Object (cross out)~~
         - [x] \> Content redistributed
@@ -229,4 +228,4 @@ except for a lot of cross-out material.
 
 There were other cross-outs, but they are postponed.  
 At this point work had spiraled out of control.  
-This project is wrapped up and a replanning is done after which the work continues as a new project.  
+This project is wrapped up and a replanning is done after which the work continues as a new project.
