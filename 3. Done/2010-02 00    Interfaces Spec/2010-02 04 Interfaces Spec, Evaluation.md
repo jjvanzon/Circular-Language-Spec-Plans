@@ -11,27 +11,29 @@ This evaluation will be kept very limited.
 General Evaluation
 ------------------
 
-The create a topic list, start over and cross-out thing worked very, very well. It took less energy, not a lot of time time, less frustration and it created a fresh new story.  
-It just worked very well not to hold on too tight to an existing structure when the existing structure is crap.
+To create a topic list, start over and cross-out worked quite well. It seemed to take  less energy, less time time, less frustration and it may have created a fresher new story.  
+It just worked quite well not to hold on too tight to an existing structure when the existing structure seems questionable.
 
-The next project for New Computer Language Functional Design has to be Work Out Static, Redo Relations & Classes. This is because in a highly dynamic language like this, Static is essential for a class to make any definition something constant. I gained good insight into the concept now and am ready to work it out. As you do that, also change the Classes & Relations documentation. They need a redo anyway and the concept of classes is very much involved so… just do that.
+The next project for *Circle Language Spec* might be *Work Out Static, Redo Relations & Classes*. This because *Circle* seems quite dynamic, and *Static* might be the thing for a class to make any definition something constant. I think I gained some insight into the concept now and I feel I might be ready to work it out. As I do that, I might also change the *Classes & Relations* documentation. They need a redo in my view and the concept of classes seems very much involved so perhaps just do that.
 
-Starting with easy stuff and saving the hard stuff for last or when the solution comes to you also works like a charm.
+Starting with easier stuff and saving the harder stuff for last or when the solution comes to you also seems an energy saver and feels more relaxed.
 
 
 Eventual Time Cost
 ------------------
 
-About 35 hours. A little in February 2010, most of it end April 2010, beginning of May 2010.
+About __35__ hours.
+
+A little in February 2010, most of it end April 2010, beginning of May 2010.
 
 
 Reflection On Approach
 ----------------------
 
-I was very practical and strategic.
+I feel I was quite practical and strategic perhaps.
 
 
 Reflection On Functionality
 ---------------------------
 
-It is a really nice chapter. It is nice to read.
+I quite like the chapter. I feel it might be nice to read.
