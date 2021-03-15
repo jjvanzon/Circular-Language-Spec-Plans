@@ -213,6 +213,7 @@ TODO
     - [ ] Moving all Text Code topics to single place.
     - [ ] Removing "Version History" documents from Archive?
     - [ ] Moving System Objects more to the top again.
+    - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
 - [ ] Replacing "Globality" with "Module"
 - [ ] Replacing "Concept" with "Aspect"
 
