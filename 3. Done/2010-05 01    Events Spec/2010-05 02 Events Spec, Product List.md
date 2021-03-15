@@ -15,7 +15,7 @@ The following was produced:
 
 - *Events articles*
 
-    - version  *2010-05-14 00  1.0*
+    - version *2010-05-14 00  1.0*
 
 - Basic Concepts:
 
@@ -41,22 +41,22 @@ The following was produced:
 
 - *System Events*
 
-    > Changed Events  
-    > Changing Events  
-    > Get Events  
-    > Use Events  
-    > List Events  
-    > Execution & Existence Events  
-    > Pointer to Pointer Events  
-
+    - Changed Events  
+    - Changing Events  
+    - Get Events  
+    - Use Events  
+    - List Events  
+    - Execution & Existence Events  
+    - Pointer to Pointer Events  
+    -----
     - *System Events in Normal Notation*
     - *Simplified System Event Notation*
     - *System Event Parameters*
     - *System Event Design Choices*
 
-Misc topics:
+- Misc topics:
 
-- *Qualified Event Names*
-- *Interaction Events*
-- *Black Boxing Events*
-- *Event Alternatives*
+    - *Qualified Event Names*
+    - *Interaction Events*
+    - *Black Boxing Events*
+    - *Event Alternatives*
