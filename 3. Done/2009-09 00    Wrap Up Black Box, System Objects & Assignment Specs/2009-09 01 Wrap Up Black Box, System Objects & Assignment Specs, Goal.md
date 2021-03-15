@@ -1,5 +1,5 @@
 ﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Goal Description
-============================================================================================================
+=============================================================================================================
 
 Versions
 ---------
@@ -39,8 +39,7 @@ This resulted in massive scope creep, because the scope only became apparent dur
 
 That is why after 2½ months the project was discontinued and wrapped up.
 
-By now it is clear where exactly things are going and what exactly to produce.
-
+By now it is clear where exactly things are going and what exactly to produce.  
 The work left to do will be turned into a new project with a more exact definition of what will be done, with a proper planning and without any loose ends.
 
 
@@ -61,8 +60,8 @@ Products
 
 - Black Box articles  version  2009-09-28 00  1.0
 - System Objects articles  version  2009-09-17 XX  3.0x
-- Assignment articles
-    > (integrated into the System Objects articles)
+- Assignment articles  
+  \> (integrated into the System Objects articles)
 
 
 Limitations
@@ -96,12 +95,12 @@ Eventual Time Cost
 ------------------
 
 Between September 09, 2009 – September 28, 2009  
-Time span of 20 days  
-17 hours total  
+Time span of __20__ days  
+__17__ hours total  
 
 
 Future
 ------
 
-After this project, getting Microsoft certified is picked up again.  
-It will only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new New Computer Language Functional Design project will be picked up again.
+After this project, getting Microsoft certified might be picked up again.    
+It will only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Circle Language Spec project might be picked up again.
