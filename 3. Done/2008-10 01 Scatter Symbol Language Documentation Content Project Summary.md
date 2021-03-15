@@ -4,7 +4,7 @@
 Super-Project
 -------------
 
-Circle Language Spec
+*Circle Language Spec*
 
 
 Character of the Work
@@ -16,19 +16,19 @@ Organizing things
 Goal
 ----
 
-Scattering around the content from the original Symbol Language documentation over the articles of the Circle Language documentation in its new form.
+Scattering around the content from the original *Symbol Language* documentation over the articles of the *Circle Language* documentation in its newer form.
 
-The original Symbol Language documentation was last worked on in 2004 and was of 367 pages of content.
+The original *Symbol Language* documentation was last worked on in 2004 and was of 367 pages of content.
 
-Each piece of text in the original Symbol Language documentation was placed into the development version of an article inside the newer documentation.
+Each piece of text in the original *Symbol Language* documentation was placed into the development version of an article inside the newer documentation.
 
 
 Date & Time
 -----------
 
 October 3, 2008 – October 13, 2008  
-11 days  
-16 hours of work
+__11__ days  
+__16__ hours of work
 
 
 Project Notes
@@ -48,4 +48,3 @@ Considered processing them too.
         - Threads Cross Out
         - Relation Structure Cross Out
     - But the option was chosen, to not process those right away.
-
