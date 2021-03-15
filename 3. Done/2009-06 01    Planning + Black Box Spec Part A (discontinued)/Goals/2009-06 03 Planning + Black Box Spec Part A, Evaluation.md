@@ -1,6 +1,7 @@
 ﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Evaluation
 ===================================================================================
 
+*September, 2009*
 
 Reflection On Strategy, Time Planning & Progress Monitoring
 -----------------------------------------------------------
@@ -23,7 +24,7 @@ What went *wrong*, is that when the ideas *were* straight again, time planning w
 
 Other distractions that negatively influenced the planning: personal illness and other projects in between.
 
-I recognize in this, the errors I have made in the past, years and years ago, when at the whim of the moment I felt something functional was so important, that I started to work it out completely and completely put aside any proper planning and any previous goal. That happened now too, inspired by the creative-versus-productive approach. The problems in the past always had to do with giving a non-main issue too much priority and letting it take up all of your time.
+I recognize in this, the errors I have made in the past, years and years ago, when at the whim of the moment I felt something functional was so important, that I started to work it out completely and completely put aside any proper planning and any previous goal. That happened now too, inspired by the creative-versus-productive approach. The problems in the past always had to do with giving a non-main issue too much priority and letting it take up all of the time.
 
 One thing does need to be mentioned is that the *Planning* part of the project, in which the whole of *New Computer Language Functional Design* project was replanned, went very well. But the making the *Black Box* article group spun out of control.
 
@@ -35,7 +36,7 @@ To kick off reprioritising: the System Objects cross-outs was what I was last wo
 Personal Feeling
 -----------------
 
-I was getting an overall feeling of messiness in the time planning and step-by-step planning.
+I was getting an overall feeling of messiness in the time planning and step-by-step planning.  
 It did not feel good to work at it anymore. I had lost touch with proportions of work and felt I had lost control over the amount of work. I did not know what laid ahead anymore and how much work it was still going to be. The good in-control feeling you get from finishing up one phase after another was completely gone.
 
 It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That will give you a feeling of getting stuck...
@@ -44,8 +45,8 @@ It is no wonder that I got this feeling. It was supposed to be a 10 day project 
 Reflection On Functionality
 ---------------------------
 
-The thing is: the material produced is not that bad. But you were not going straight towards your goal anymore.
+The thing is: the material produced is not that bad. But I was not going straight towards my goal anymore.
 
-The problem was that you took work upon yourself, that took way too much time, while there were other things with higher priority that were not getting done.
+The problem was that I took work upon myself, that took way too much time, while there were other things with higher priority that were not getting done.
 
-You should not feel ashamed for it taking up so much time. It was a LOT of material to organize. But the work should be better managed from now on.
+I should not feel ashamed for it taking up so much time. It was a LOT of material to organize. But the work should be better managed from now on.
