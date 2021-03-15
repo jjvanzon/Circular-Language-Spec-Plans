@@ -1,4 +1,4 @@
-﻿New Computer Language Functional Design, Planning + Black Box A | 2009-06 | Eventual Plan | Elements
+﻿New Computer Language Functional Design, Planning + Black Box A | 2009-06 | Eventual Plan | Project Elements
 ====================================================================================================
 
 
@@ -14,8 +14,8 @@ Products
 - Time Planning for New Computer Language Functional Design
 - Idea Box processed (over 60 pages of ideas)
 - Black Box article group
-- Redone System Objects article group
-- Redone Assignment article group
+- ~ Redone System Objects article group
+- ~ Redone Assignment article group
 
 
 Project Steps
@@ -25,11 +25,11 @@ Project Steps
 - Time planning for super-project New Computer Language Functional Design
 - Pick theme
 - Make goal description
-+ other startup issues
+    - \+ other startup issues
 - Process idea box
 - Work out Black Boxing
-- Organize ideas
-… Work out article texts
-… Redo System Objects & Assignment
-… Cross-out a lot of material
+    - Organize ideas
+    - ... Work out article texts
+- ... Redo System Objects & Assignment
+- ... Cross-out a lot of material
 - Wrap up
