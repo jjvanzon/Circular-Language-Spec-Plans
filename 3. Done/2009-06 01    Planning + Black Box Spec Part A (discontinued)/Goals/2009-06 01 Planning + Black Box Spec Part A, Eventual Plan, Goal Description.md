@@ -16,7 +16,7 @@ Parent Project
 (Most objectives are explained inside the documentation of the parent project.)
 
 
-Character of the work
+Character of the Work
 ---------------------
 
 Documentation / functional design
@@ -25,7 +25,7 @@ Documentation / functional design
 Goal
 ----
 
-- Plan complete remains of *New Computer Language Functional Design*
+- Plan complete remains of *New Computer Language Functional Design*.
 - Functionally work out the *Black Box* concept.
 
 
@@ -41,7 +41,7 @@ Limitations
 -----------
 
 - Do not update project plan templates. Make dues with the way they are now.
-- When processing the idea box, the first 29 ½ pages are old ideas. Do not look at them.
+- When processing the idea box, the first 29 ½ pages are older ideas. Do not look at them.
 
 
 Approach
@@ -82,7 +82,7 @@ The extra work was not properly planned. Due to this scope-creep, after a while 
 Future
 ------
 
-First the new project will be done, in which Black Boxing, System Objects and Assignment are adequtely finished up.  
+First the new project will be done, in which Black Boxing, System Objects and Assignment are adequately finished up.  
 After that there will be worked on Microsoft certification first.  
 The parent project *New Computer Language Functional Design* explains clearly what to furtherly do next for the future.
 
