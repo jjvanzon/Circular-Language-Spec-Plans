@@ -11,7 +11,7 @@ This is the initial plan. The plan changed during the project. You will find the
 Products
 ---------
 
-- Time Planning for New Computer Language Functional Design
+- Time Planning for *Circle Language Spec*
 - Idea Box processed (over 60 pages of ideas)
 - Black Box article group
 
@@ -20,7 +20,7 @@ Project Steps
 -------------
 
 - Setup project folders  __(1)__
-- Time planning for super-project New Computer Language Functional Design  __(3)__
+- Time planning for super-project *Circle Language Spec* __(3)__
 - Pick theme  __(0)__
 - Make goal description  __(2)__
     - \+ other startup issues
@@ -37,8 +37,7 @@ Project Steps
 Time Estimation
 ---------------
 
-At first glance, it was estimated that it should take 1 week, 10 days tops.
-
+At first glance, it was estimated that it should take 1 week, 10 days tops.  
 It is a reverse time-planning. You might not make it.
 
 |                     |                      |
