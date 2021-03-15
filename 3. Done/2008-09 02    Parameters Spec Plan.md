@@ -11,7 +11,7 @@ Worked out the Parameter articles, as part of working out Commands as a Concept.
 Super-Project
 -------------
 
-Circle Language Spec, Command as a Concept Spec
+*Circle Language Spec | Command as a Concept Spec*
 
 
 Date & Time
@@ -44,12 +44,12 @@ The amount of articles shrunk, but the amount of *work* did not.
 The following was produced:
 
 - __27__ articles
-
+-----
 - *Parameters articles*
-    > version  *2008-10-01 00  1.0*
-    
-    > __24__ articles
-
+    - version  *2008-10-01 00  1.0*
+    -----
+    - __24__ articles
+    -----
     - *Relations Between Commands & Objects*
     - *Relations Between Commands & Objects in a Diagram*
     - *Access Controlling System Aspects*
@@ -76,9 +76,8 @@ The following was produced:
         - *Parameters For The Add Command*
 
 - *System Objects articles*
-
-    > __3__ articles
-
+    - __3__ articles
+    -----
     - *Parameters For Objects*
     - *Parameters For Objects in a Diagram*
     - *Parameters For Objects in Text Code*
@@ -167,26 +166,26 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
 Project Steps
 -------------
 
-#### Preparation Work Parameters
+### Preparation Work "Parameters"
 
-> (0h)
-
+- (0h)
+-----
 - Considered the general approach, described in the super-project *Circle Language Spec.*
 - Commands & classes loosely coupled was moved to the parameter articles.
 - Recorded the amount of articles, that was planned to be written at the beginning of the project.
 
-#### Reading over Existing Texts
+### Reading over Existing Texts
 
-> (9h)
-
+- (9h)
+-----
 - Reading over the material and dropped comment into it
-    - > except for Commands & Classes Loosely Coupled.
+    - \> except for Commands & Classes Loosely Coupled.
 - Reading over Commands & Classes Loosely Coupled.
     - Reading it over.
     - Verbal brainstorming.
     - It would later be used as a cross out list.
 
-#### Prepared Texts
+### Prepared Texts
 
 - Adapted parameter texts
     - The Input, Output, Throughput, Downput introduction seemed to consist of multiple disparate details, that could be moved to more specific articles, because the ideas were later repeated.
@@ -194,7 +193,7 @@ Project Steps
     - The 'reference situations' are not mentioned, before the parameter passing summary.
         - \> Renamed *Parameter Passing Summary* to *Three Parameter Passing Elements.*
         - \> Came up to Object Out in a Diagram.
-    - Remaining ideas might only be worked out later.
+    - ~ Remaining ideas might only be worked out later.
 - Extended it with more types of parameter passing:
     - Based on Command Basics.
     - Gathered up issues.
@@ -217,19 +216,19 @@ Project Steps
     - There were more possibilities.
     - The spectrum of possibilities was in part worked out on paper.
     - But now there is a tendency to want to start over at the start of the story again.
-- Rewriting Commands & Classes Loosely Coupled.
-    - A new name could be ‘Relations Between Commands & Objects’.
-    - It might not be clear yet exactly how the article set would look or how the parameter types will be like.
-    - First wrote about relations between commands & objects.
-    - Then wrote about all the different reference situations parameters can have.
-    - Then wrote about how you can access control each situation.
-        - And why you might access control each situation.  
+- ~ Rewriting Commands & Classes Loosely Coupled.
+    - ~ A new name could be ‘Relations Between Commands & Objects’.
+    - ~ It might not be clear yet exactly how the article set would look or how the parameter types will be like.
+    - ~ First wrote about relations between commands & objects.
+    - ~ Then wrote about all the different reference situations parameters can have.
+    - ~ Then wrote about how you can access control each situation.
+        - ~ And why you might access control each situation.  
           (object algebra, deduction, concurrency resolution, control by user)  
           (only command Input/Output might lead to that, actually… anything about sub-object access does not seem to be covered. That might be covered in Advanced Command Topics.)
-    - Tried to cover the use of each reference situation.
-    - Then wrote about access control literals.
+    - ~ Tried to cover the use of each reference situation.
+    - ~ Then wrote about access control literals.
 
-#### Changed Approach
+### Changed Approach
 
 The approach was changed, because starting at Relations Between Commands & Objects the idea about reference situations changed. After brainstorming, a direction was found again.
 
@@ -252,7 +251,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
         - \> It could be seen as another system aspect.
     - Joint Display of Access Connectors & Object Relations
 
-#### Crossed Out Old Material
+### Crossed Out Old Material
 
 - Crossed out ideas in project document.
 - Crossed out Commands & Classes Loosely Coupled.
@@ -270,7 +269,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
             - Value Direction
             - Indirect Value Transmission
     - Moved old parameter passing types to Advanced Command Topics.
-        > Because they talk about In, Out and Thru. It was estimated that the definition of those terms might be harder to do, and might have to do with the Advanced Command Topics.
+        - \> Because they talk about In, Out and Thru. It was estimated that the definition of those terms might be harder to do, and might have to do with the Advanced Command Topics.
         - Added it as a possible goal of the project Work Out Advanced Command Topics.
         - Putting a sort of disclaimer in the articles for Simplified Access Control Expression about the use of the terms In Out and Thru.
         - Putting in the plan to adapt the articles Simplified Access Control Expression, being more reserved about the terms In, Out and Thru.
@@ -289,39 +288,39 @@ The approach was changed, because starting at Relations Between Commands & Objec
 - Crossed out older parameter articles.
     - The older articles contain mostly information about Commands & Objects Loosely Coupled, and were integrated into the story.
 
-#### Misc Articles
+### Misc Articles
 
 - Mainly texts of miscellaneous articles were considered as an option to write.
 
 - Wrote them: (__19__)
 
-- Imported Parameter Concepts
-    - Required & Optional
-    - Required & Optional in a Diagram
-    - Required & Optional in Text Code
-    - Variable Amount of Arguments
-    - Variable Amount of Arguments in a Diagram
-    - Variable Amount of Arguments in Text Code
-    - Return Values
-    - Return Values in a Diagram
-    - Parameter Order
-    - Parameter Order in a Diagram
-    - Parameter Order in Text Code
+    - Imported Parameter Concepts
+        - Required & Optional
+        - Required & Optional in a Diagram
+        - Required & Optional in Text Code
+        - Variable Amount of Arguments
+        - Variable Amount of Arguments in a Diagram
+        - Variable Amount of Arguments in Text Code
+        - Return Values
+        - Return Values in a Diagram
+        - Parameter Order
+        - Parameter Order in a Diagram
+        - Parameter Order in Text Code
 
-- Miscellaneous Parameter Topics
-    - Parameters & Arguments
-    - Parameters & Arguments in a Diagram
-    - Parameters for the Add Command
-    > (Preliminarily finished and moved to the System Objects documentation section:)
-    - Parameters For Objects
-    - Parameters For Objects in a Diagram
-    - Parameters For Object in Text Code
+    - Miscellaneous Parameter Topics
+        - Parameters & Arguments
+        - Parameters & Arguments in a Diagram
+        - Parameters for the Add Command
+            - (Preliminarily finished and moved to the System Objects documentation section:)
+        - Parameters For Objects
+        - Parameters For Objects in a Diagram
+        - Parameters For Object in Text Code
 
 - Reading them over
 
-#### Processed Left-Over Ideas
+### Processed Left-Over Ideas
 
-#### Wrap up
+### Wrap up
 
 - Gave articles a parameters-specific article name.
 - Setting up article list.
