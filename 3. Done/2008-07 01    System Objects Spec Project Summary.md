@@ -31,47 +31,47 @@ The following was produced:
 
 - *System Objects article group*
     - version *2008-07-24 00  2.0*
-
-__38__ articles:
-
-- *System Objects*
-- *System Objects in a Diagram*
-- *Objects Floating Around*
-- *Objects Floating Around in a Diagram*
-- *Related Item*
-- *Related Item in a Diagram*
-- *Controlling a Related Object*
-- *Controlling a Related Object in a Diagram*
-- *Pointer To Pointer*
-- *Pointer To Pointer in a Diagram*
-- *Symbol*
-- *Symbol in a Diagram*
-- *Object Get & Set*
-- *Object Get & Set in a Diagram*
-- *Pointer To Pointer Get & Set*
-- *Pointer To Pointer Get & Set in a Diagram*
-- *Value Get & Set*
-- *Value Get & Set in a Diagram*
-- *New & Annul*
-- *New & Annul in a Diagram*
-- *Related Lists*
-- *Related Lists in a Diagram*
-- *Related List Item*
-- *Related List Item in a Diagram*
-- *Add*
-- *Add in a Diagram*
-- *Remove*
-- *Remove in a Diagram*
-- *Names of Related Items & Related Lists*
-- *Names of Related Items & Related Lists in a Diagram*
-- *Calling a System Command*
-- *Calling a System Command in a Diagram*
-- *Related Items & Related Lists Collections*
-- *Related Items & Related Lists Collections in a Diagram*
-- *Extending the System Interface*
-- *Extending the System Interface in a Diagram*
-- *System Objects Summary*
-- *System Objects Summary in a Diagram*
+    -----
+    - __38__ articles:
+    -----
+    - *System Objects*
+    - *System Objects in a Diagram*
+    - *Objects Floating Around*
+    - *Objects Floating Around in a Diagram*
+    - *Related Item*
+    - *Related Item in a Diagram*
+    - *Controlling a Related Object*
+    - *Controlling a Related Object in a Diagram*
+    - *Pointer To Pointer*
+    - *Pointer To Pointer in a Diagram*
+    - *Symbol*
+    - *Symbol in a Diagram*
+    - *Object Get & Set*
+    - *Object Get & Set in a Diagram*
+    - *Pointer To Pointer Get & Set*
+    - *Pointer To Pointer Get & Set in a Diagram*
+    - *Value Get & Set*
+    - *Value Get & Set in a Diagram*
+    - *New & Annul*
+    - *New & Annul in a Diagram*
+    - *Related Lists*
+    - *Related Lists in a Diagram*
+    - *Related List Item*
+    - *Related List Item in a Diagram*
+    - *Add*
+    - *Add in a Diagram*
+    - *Remove*
+    - *Remove in a Diagram*
+    - *Names of Related Items & Related Lists*
+    - *Names of Related Items & Related Lists in a Diagram*
+    - *Calling a System Command*
+    - *Calling a System Command in a Diagram*
+    - *Related Items & Related Lists Collections*
+    - *Related Items & Related Lists Collections in a Diagram*
+    - *Extending the System Interface*
+    - *Extending the System Interface in a Diagram*
+    - *System Objects Summary*
+    - *System Objects Summary in a Diagram*
 
 
 Project Steps
