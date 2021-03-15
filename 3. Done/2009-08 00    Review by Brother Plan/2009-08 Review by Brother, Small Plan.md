@@ -5,7 +5,7 @@
 Parent Project
 --------------
 
-Circle Language Spec
+*Circle Language Spec*
 
 
 Goal
@@ -40,12 +40,12 @@ General Planning
 
 - Presentation:
     - First say this:
-        > Some stuff is stull under construction,
-        > but most of it is accessible and finished
-        > It is all sort of a secret. Do not go off to companies, or put details about it on the internet.
-        > ‘Code name’ for the new computer language is ‘the new computer language’.  
-        > The eventual names I have in mind are: Circle for the new computer language. 
-    - Let my brother discover the material for himself, 
+        - Some stuff is still under construction,  
+        but most of it is accessible and finished  
+        It is all sort of a secret. Do not go off to companies, or put details about it on the internet.  
+        ‘Code name’ for the new computer language is ‘the new computer language’.  
+        The eventual names I have in mind are: Circle for the new computer language.
+    - Let my brother discover the material for himself,  
       to check if the material is easily accessible.
     - But soon start showing him the main projects and the main products.
     - Specific things to show:
@@ -70,15 +70,15 @@ General Planning
 Reflection
 -----------
 
-We covered the project plans, the documentation, but not the software.
-The documentation seemed clear and well organized.
-It seemed easy to pick up by someone like my brother, who is a smart guy.
+We covered the project plans, the documentation, but not the software.  
+The documentation seemed clear and well organized.  
+It seemed easy to pick up by someone like my brother, who is a smart guy.  
 The version folders were immediately clear.
 
 Also the planning was completely discussed.
 
-We did not cover the documentation of the new computer language literally.
-We covered several coding concepts through a discussion about the language.
+We did not cover the documentation of the new computer language literally.  
+We covered several coding concepts through a discussion about the language.  
 The following concepts were covered:
 
 - Basic Diagram Elements
@@ -102,20 +102,20 @@ Reflection on the goals:
 - Check accessibility of material
 - Get an opinion about the material
 
-The material was received to be *quite* accessible. Phew.
+The material was received to be *quite* accessible. Phew.  
 I did not get a real opinion about it from my brother, but I might get one in the future.
 
 Next to it being fun to be discussing the diagram notation, there were also a couple of tips he had:
 
 - Do not call it 'Legacy'. It could come off belittling. Find a better name for it.
 - Integration layer: can be interpreted as integration within the system. It is about 'outward' integration. Possibly find another term for it.
-- The first diagram in Basic Diagram Elements might be ineffective in my brothers opinion. 'It could be an elephant.' Find a more concrete example. Something that is something for real.
+- The first diagram in Basic Diagram Elements might be ineffective in my brother's opinion. 'It could be an elephant.' Find a more concrete example. Something that is something for real.
 - 'Analogy to the real world' was unnecessary according to my brother.
 
 
 Eventual Time-Cost
 ------------------
 
-Time span of 2 weeks  
+Time span of __2__ weeks  
 August 10, 2009 – August 24,2009  
-9 hours  
+__9__ hours
