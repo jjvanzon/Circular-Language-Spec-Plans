@@ -59,7 +59,7 @@ This is one of the easiest topics left. The benefits of working out an easy topi
 
 
 Future
--------
+------
 
 After this project it is probably best to work on Microsoft certification first.  
 The following 8 months are planned ahead, so it is clear what is next for the future.  
@@ -67,13 +67,13 @@ See parent project *New Computer Language Functional Design*.
 
 
 Conditions
------------
+----------
 
 You have to orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
 
 
 Time Planning
---------------
+-------------
 
 A rough time planning of this 8 month period can be found in the project documentation of the super-project *New Computer Language Functional Design*.
 
