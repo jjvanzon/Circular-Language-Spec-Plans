@@ -13,11 +13,11 @@ I will review old material, and brainstorm until I understand it again, document
 
 Automatic Containment will be worked out in the following document:
 
-> "Automatic Containment"
+- Automatic Containment
 
-The following document and older versions of it might conatin useful information for the project:
+The following document and older versions of it might contain useful information for the project:
 
-> "Symbol = Creator"
+- Symbol = Creator
 
 The solution to Automatic Containment was inspired by the *closest mutual parent* principle, described in the original Symbol Language documentation:
 
@@ -33,6 +33,5 @@ Date & Time
 -----------
 
 2008-04-15 – 2008-04-24  
-10 days  
-28 ½ hours of work
-
+__10__ days  
+__28 ½__ hours of work
