@@ -18,4 +18,4 @@ Date & Time
 ------------
 
 2008-03-06 – 2008-03-09  
-8 hours of work
+__8__ hours of work
