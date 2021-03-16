@@ -9,7 +9,7 @@ The super project is *Get clearer view*. In that project I was supposed to work 
 
 In the current sub-project I work out the principle of *Commands & Classes Loosely Coupled*. It is one of the Flat & Structured Interchange concepts.
 
-The article *Methods & Classes Loosely Coupled.doc* was produced,
+The article *Methods & Classes Loosely Coupled.doc* was produced,  
 version *2008-05-18 02  1.1*
 
 
@@ -18,5 +18,4 @@ Date & Time
 
 2008-04-27 – 2008-05-18  
 3 weeks 1 day  
-37 hours of work
-
+__37__ hours of work
