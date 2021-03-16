@@ -15,5 +15,4 @@ Date & Time
 -----------
 
 2008-03-14 – 2008-03-16  
-1 ½ hours of work
-
+__1 ½__ hours of work
