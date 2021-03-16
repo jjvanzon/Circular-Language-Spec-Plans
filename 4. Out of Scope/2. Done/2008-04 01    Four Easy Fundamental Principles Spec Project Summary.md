@@ -5,18 +5,18 @@
 Goal
 ----
 
-Document a few easy articles, as opposed to the hard one done before.
+Document some relatively easy articles, as opposed to harder one done before.
 
 The following articles were made:
 
-- *Reflection  2008-04-12 00  1.0*  (25 min of work)
-- *Module Integration  2008-04-12 00  1.0*  (½ hour of work)
-- *C++  2008-04-13 00  1.0*  (20 minutes of work)
-- *User Interface Not Procedure Oriented  2008-04-13 00  1.0*  (40 min of work)
+- *Reflection  2008-04-12 00  1.0*  (__25 minutes__)
+- *Module Integration  2008-04-12 00  1.0*  (__½ hour__)
+- *C++  2008-04-13 00  1.0*  (__20 minutes__)
+- *User Interface Not Procedure Oriented  2008-04-13 00  1.0*  (__40 minutes__)
 
 
 Date & Time
 -----------
 
 2008-04-12 – 2008-04-13  
-2 hours of work
+__2__ hours
