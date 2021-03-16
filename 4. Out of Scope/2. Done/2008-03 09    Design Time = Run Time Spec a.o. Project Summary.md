@@ -17,5 +17,6 @@ Date & Time
 -----------
 
 2008-03-14 – 2008-03-19  
-10 hours of work  
-> (*Design Time = Run Time*  took the most time.)
+__10__ hours of work
+
+(*Design Time = Run Time*  took the most time.)
