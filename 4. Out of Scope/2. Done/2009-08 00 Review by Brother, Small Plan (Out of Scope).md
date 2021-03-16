@@ -5,15 +5,13 @@
 Parent Project
 --------------
 
-Circle Language Spec
+*Circle Language Spec*
 
 
 Goal
 ----
 
 *This document only has the notes taken out of the original document about the Circle Language Spec review, because the topics are now out of scope of Circle Language Spec.* 
-
-- Get more respect for what I do from family
 
 
 General Planning
@@ -22,8 +20,8 @@ General Planning
 Presentation:
 
 - First say this:
-    > [...]   
-    > ‘Code name’ for the whole package of software is Software System.  
+    - \> [...]   
+    - \> ‘Code name’ for the whole package of software is Software System.  
     and the whole package of software would be named Collection. (but those names are a secret).
 
 - Specific things to show:
@@ -43,8 +41,8 @@ Presentation:
 - Software: __(9)__
     - \> All the files are read-only and that is going to be a problem for some of the software.
     - Creator 2.0 software
-        > “Het ging bij Creator 2.0 zeker niet om de perfectie.
-        > Het ging erom het zo makkelijk mogelijk goed werkend te krijgen.”
+        - \> “Het ging bij Creator 2.0 niet om de perfectie. Het ging erom het zo makkelijk mogelijk werkend te krijgen.”
+        -----
         - Sound 2.0
         - Math Objects XXXX-XX-XX XX
         - The code
@@ -71,9 +69,3 @@ The documentation of the Software System framework introduction was covered almo
 The following concepts were covered:
 
 - Automatic Containment
-
-Reflection on the goals:
-
-- Get more respect for what I do from family
-
-Respect from the family is probably just pending. But I guess my father was more convinced now.
