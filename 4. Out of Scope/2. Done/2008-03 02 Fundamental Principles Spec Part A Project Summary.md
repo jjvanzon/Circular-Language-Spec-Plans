@@ -11,7 +11,7 @@ This is a super-project, consisting of multiple sub-projects.
 Goal
 ----
 
-Documented some of fundamental principles for the new programming language.
+Documented some of fundamental principles for the Circle programming language.
 
 Not all fundamental principles were documented in this project. Only about half of the subjects were covered. This is because a number of fundamental principles could use some clearing up on other subjects first.
 
@@ -29,13 +29,13 @@ Date & Time
 
 March 5, 2008 – April 13, 2008  
 5 weeks and 5 days  
-66 ¾ hours of work
+__66 ¾__ hours of work
 
 
 Products
 --------
 
-The following __*16*__ articles about fundamental principles for the new programming language were produced:
+The following __*16*__ articles about fundamental principles for the Circle programming language were produced:
 
 - *Programming Language Programmed Within Itself* 
     - version  *2008-03-10 00  1.0*
@@ -60,8 +60,8 @@ The following __*16*__ articles about fundamental principles for the new program
 - *Clear Cut Coding Principles*
     - version  *2008-03-19 00  1.0*
 - *Internet as a Single Computer (later made out of scope of Circle Language Spec)*
-    - version  *2008-04-12 XX  0.9*
-        > Topics:
+    - version  *2008-04-12 XX  0.9*  
+        Topics:
         - A unified paradigm for all digital objects
         - A single bulk of storage
         - Execution of programs running across machine boundaries
@@ -128,4 +128,3 @@ Seven relatively easy articles:
    - Module Integration
    - C++
    - User Interface Not Procedure Oriented
-
