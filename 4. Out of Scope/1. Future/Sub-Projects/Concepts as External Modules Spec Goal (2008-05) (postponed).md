@@ -1,12 +1,11 @@
 ﻿Circle Language Spec Plan | 2008-05 | Fundamental Principles | Concepts as External Modules Spec
 ================================================================================================
 
-*Date: May, 2008*
+*Date: May, 2008*  
+*Project postponed*
 
 Goal
 ----
-
-*Project postponed*
 
 This project is part of the super project *Get clearer view*, which is part of the super project *Work out Computer Language Fundamental Principles*.
 
