@@ -5,7 +5,7 @@
 Super-Project
 -------------
 
-Circle Language Spec
+*Circle Language Spec*
 
 
 Goal
@@ -22,8 +22,8 @@ Date & Time
 -----------
 
 June 23, 2008 – July 13, 2008  
-3 weeks  
-52 ¼ hours of work
+__3__ weeks  
+__52 ¼__ hours of work
 
 
 Sub-Projects
@@ -36,4 +36,3 @@ Products
 --------
 
 See sub-project description.
-
