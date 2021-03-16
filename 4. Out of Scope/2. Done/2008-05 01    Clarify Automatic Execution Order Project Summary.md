@@ -1,4 +1,4 @@
-﻿Circle Language Spec Plan | Clarify Automatic Execution Order 2008-05 | Project Summary
+﻿Circle Language Spec Plan | Clarify Automatic Execution Order | 2008-05 | Project Summary
 =======================================================================================
 
 
@@ -50,7 +50,7 @@ Date & Time
 
 May 19, 2008 – May 27, 2008  
 1 week and 2 days  
-18 hours of work
+__18__ hours of work
 
 
 Products
