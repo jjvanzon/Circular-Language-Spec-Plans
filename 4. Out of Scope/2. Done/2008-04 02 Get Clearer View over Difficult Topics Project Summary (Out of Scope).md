@@ -7,8 +7,7 @@ Goal
 
 Get clear view on ideas not thought through as well.
 
-Many articles of Computer Language Fundamental Principles were easy to document.
-
+Many articles of Computer Language Fundamental Principles were easy to document.  
 Some of them were harder.
 
 The goal of the project Document Computer Language had two parts: document the ideas I have a clear view on, and get a clear view on important principles not yet fully understood.
@@ -24,7 +23,7 @@ So basically it is about flat & structured interchange, concepts and diagram exp
 Super-Project
 -------------
 
-Document Computer Language
+*Circle Language Spec*
 
 
 Means
@@ -48,7 +47,7 @@ Date & Time
 
 April 13, 2008 – May 27, 2008  
 6 weeks and 3 days  
-94 ½ hours of work
+__94 ½__ hours of work
 
 
 Products
