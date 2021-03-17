@@ -1,13 +1,13 @@
 ﻿Circle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts
 =========================================================================
 
-*Date: June, 2008*
+*June, 2008*
 
 
 Goal
 ----
 
-*> 2009-04-07: This is a very old project description.*
+*> 2009-04-07: This is quite an old project description.*
 
 *This project was postponed earlier, because it was too big. The concepts of classes & relations were turned into a single project. This project contains the remaining topics.*
 
@@ -15,11 +15,10 @@ Goal
 
 Document the coding principles and basic coding concepts and their diagram notation. Do that with the ideas I have about them now and avoid difficult reconsideration of principles. 
 
-I am going for a spree of writing about issues I already know.
+I am going for a spree of writing about issues I already know.  
 Do the articles that you can easily write, and skip all the ones that are more difficult.
 
-Ignore the fact, that I might change my whole point of view on commands
-(That will be covered by the future project *Commands As A Concept*.)
+Ignore the fact, that I might change my whole point of view on commands. (That will be covered by the future project *Commands As A Concept*.)
 
 ### Pros and cons for this project
 
@@ -36,14 +35,14 @@ I don’t see any issues left, that might change *everything*.
 Steps
 -----
 
-... Write more articles
+- [ ] ... Write more articles
 
-- Look at Computer Language Coding Principles.doc
+- [ ] Look at Computer Language Coding Principles.doc
 
-- Process cross out lists:
+- [ ] ~ Process cross out lists:
 
-    - Symbol Language.doc
-    - Relational Structure.doc
+    - [ ] ~ Symbol Language.doc
+    - [ ] ~ Relational Structure.doc
 
 
 Approach
