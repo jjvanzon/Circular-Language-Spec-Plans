@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan, Commands as a Concept Spec Plan Versions
-===================================================================
+﻿Circle Language Spec Plan | Commands as a Concept Spec Plan | Version History
+=============================================================================
 
 | Version       | Description                                                 |
 |---------------|-------------------------------------------------------------|
