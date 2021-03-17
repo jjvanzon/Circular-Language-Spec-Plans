@@ -1,6 +1,14 @@
-Study design patterns
-======================
+Studying Design Patterns
+========================
 
-I have already given some design patterns a very central place in the language.
-Before I even knew the pattern already existed, I had worked out the multimethod pattern all on my own, in detail including the embeddance of the concept in a programming language.
-I should know all design patterns. This may save me the trouble of coming up with them on my own. It may prevent me from first making mistakes in my design, to use the knowledge others have already aquired.
+*2009 +/-*
+
+I have already given some design patterns quite a central place in the Circle language.
+Before I knew people had already come up with the pattern, I seemed to have introduced the multimethod pattern, in the programming language.
+Should I learn all design patterns? This may save me the trouble of coming up with ones on my own. It may prevent me from first making mistakes in my design, to use the knowledge others have already acquired.
+
+-----
+
+*2021-03-17*
+
+In later experience at work I seem to have become acquainted with more patterns, and I trust I have some grasp of some of it now.
