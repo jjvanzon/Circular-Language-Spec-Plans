@@ -40,15 +40,15 @@ Circle Language Spec is an unfinished programming language design. The same fold
     - [x] Splitting up 'in scope' / 'out of scope' for Circle Language topics.
     - [x] Splitting up 'phases' in life in planning docs.
     - [x] Removed studying goals.
-    - [ ] .. Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
+    - [ ] ... Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
         - [x] Circle-Language-Spec repository
         - [ ] ~ Circle-Language-Spec-Plans repository
 - [x] Separating git repositories:
     - [x] Splitting off Circle language docs part into a separate git repository.
     - [x] Splitting off Planning Docs for Circle language docs into a separate git repository.
 - [x] Publishing on GitHub
-- [ ] __Converting from Word to MarkDown.__
-- [ ] Folder reorganization
+- [x] Converting from Word to MarkDown.
+- [ ] __Folder reorganization__
     - [x] Reorganizing Planning Docs
     - [x] Reorganizing "Circle Docs" roughly
     - [x] Reorganizing "Spec" roughly
@@ -139,57 +139,55 @@ Now (2021-03-04) a scoping it to large blocks might be better:
 TODO
 ----
 
-### 2021-02-09 TODO MarkDown
+### 2021-03-14 TODO Rough Content Reorganization
 
-- [x] Trying MarkDown with images.
-    - [x] URL's seem case sensitive on GitHub.
-- [ ] __Converting things to MarkDown__
-    - [x] Aspose seems good: (https://products.aspose.app/words/conversion/word-to-md)
-    - [ ] Considering a phased bulk approach (for quicker results)
-    - [x] Converting
-    - [x] Unzipping
-    - [x] Committing
-    - [x] Moving images to sub-folder
-    - [x] Changing image markup to point at sub-folder
-    - [x] Prettifying headings serially: until __3. Creation Behavior Of Commands.md__
-    - [x] Switching to working parallelly
-    - [x] Heading 1 double underline
-    - [x] Heading 2 single underline, 2 empty lines above, 1 below
-    - [X] Headings 3 and up: surround with enters (using find "##")
-    - [x] Headings 3 and up: removing bold/italic start tokens (using search and replace "## *" => "## ")
-    - [x] Headings 3 and up: removing ending tokens of bolds/italics (using find "##")
-    - [x] Replacing bold ** with __
-    - [x] Checking the italics (*)
-    - [x] Checking the bolds (__)
-    - [x] Prettifying bulleted lists
-    - [x] Removing excessive empty lines
-    - [x] Prettifying code blocks
-    - [x] Black backgrounds in "Broader View" and "Construct Drafts"
-    - [x] Prettifying tables
-    - [x] Try correcting < and > interpretation as XML/HTML by surrounding them with spaces
-    - [x] Correcting arrows replacing à and ß with `=>` or `<=`
-    - [x] Checking the headings.
-    - [x] Did these in one blow until __"4. Command Redirection"__:
-        - [x] Checking the pictures
-        - [x] Copying 'trigger word' markings. (Used red in Word. Using `inline code` in MarkDown.)
-        - [x] Manually checking differences between rendered MarkDown and Word
-        - [x] Last check if markup looks ok
-        - [x] Removing Word documents
-    - [ ] Switching to more phased approach
-    - [x] Checking the pictures
-    - [x] Copying red markings of words that may express things too strongly ('trigger words'). (Used red in Word. Using `inline code` in MarkDown.)
+- [ ] Circle docs:
+    - [x] Moving "Previous Versions" and "Summaries of Other Languages" to "Construct Drafts"
+    - [x] Folders more straightforward for "Broader View" and "Construct Drafts"
+    - [x] Spec contents page (with links)
+    - [x] 'Webby paths' / 'pretty URL's'
+        - [x] (shallow paths, lower-case, dashes, no spaces)
+        - [x] Spec elements
+        - [x] Main folders
+        - [x] Broader View
+        - [x] Construct Drafts
+        - [x] Archive
+    - [x] Moving System Objects more to the top again.
+    - [x] Calling "Ideas" "Loose Ideas".
+    - [x] Adding things like:
+        - [x] `[ Deprecated documentation ]`
+        - [x] `[ Preliminary documentation ]`
+        - [x] `[ Out of scope ]`
+    - [x] Spec readme: removing links to folders (confusing).
+    - [ ] __Updating index pages.__
+        - [ ] This does not seem easy.
+        - [x] ~ Spec root
+        - [x] ~ Broader View root
+            - [ ] Making more exact
+        - [ ] __Construct Drafts root__ 
+            - [ ] Some details remain
+        - [ ] Sub-folders' index pages
+            - [ ] Perhaps merge with index page higher up the hierarchy.
+            - [ ] Perhaps complete give each sub-folder a more or less complete index page.
+            - [ ] Also might move sub-folder descriptions from he index page higher up the hierarchy, to index page of the sub-folder instead.
     -----
-    - [ ] __Music on perhaps. Slowing down. Take the time. Using keyboard.__
-    - [ ] __Limitation: Not coming up with new header texts__
-    - [ ] __Limitation: Not inspecting the Word documents__
-    - [ ] __Limitation: Not solving errors in previous work, but writing them down.__
-    -----
-    - [ ] __Checking the markup for obvious improvements.__
-    - [ ] __Manually checking differences between rendered MarkDown and Word document__
-    - [ ] __Last checks if markup looks ok__
-    - [ ] __May have forgotten some new-lines around pictures.__
-    - [ ] __Removing Word documents__
-    - [ ] Version history document titles more consistent.
+    - [ ] Updating headings to reflect new folder organization.
+    - [ ] Some "Construct Drafts" may deserve a place in "Broader View", like "Multiple Language Layers" and "Object Storage".
+    - [ ] Moving more to "Construct Drafts" > "Implementations"?
+    - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
+    - [ ] Spreading "Old Or Boring" topics over the documents.
+    - [ ] One doc for Exchangeability?
+    - [ ] One doc for Extensibility?
+    - [ ] All pointer topics to Pointers.
+    - [ ] All Text Code topics to single place.
+- [ ] Planning docs:
+    - [ ] Splitting up Revamp project into topics.
+    - [ ] Merging together goals of Revamp project with Main Project.
+    - [ ] Removing (totally) out-of-scope topics to Archive.
+- [ ] Both Circle Docs and Planning Docs:
+    - [ ] Replacing "Globality" with "Module"
+    - [ ] Replacing "Concept" with "Aspect"
+    - [ ] ~ Removing "Version History" documents from Archive?
 
 ### 2021-02-09 TODO Publishing
 
@@ -199,26 +197,59 @@ TODO
     - [ ] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
 - [ ] Replacing swear words ("Symbol Language (2004).md")
 
-### 2021-03-14 TODO Content Reorganization
-
-- [ ] Planning docs:
-    - [ ] Splitting up Revamp project into topics.
-    - [ ] Merging together goals of Revamp project with Main Project.
-    - [ ] Removing (totally) out-of-scope topics to Archive.
-- [ ] Circle docs:
-    - [ ] Folders more straightforward for "Broader View" and "Construct Drafts"
-    - [ ] Updating index pages.
-    - [ ] Moving "Previous Versions" and "Summaries of Other Languages" to "Construct Drafts"
-    - [ ] Moving all pointer topics to Pointers.
-    - [ ] Moving all Text Code topics to single place.
-    - [ ] Removing "Version History" documents from Archive?
-    - [ ] Moving System Objects more to the top again.
-    - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
-- [ ] Replacing "Globality" with "Module"
-- [ ] Replacing "Concept" with "Aspect"
-
 Done
 ----
+
+
+### 2021-02-09 Done MarkDown
+
+- [x] Trying MarkDown with images.
+    - [x] URL's seem case sensitive on GitHub.
+- [x] Converting things to MarkDown
+- [x] Aspose seems good: (https://products.aspose.app/words/conversion/word-to-md)
+- [x] Considering a phased bulk approach (for quicker results)
+- [x] Converting
+- [x] Unzipping
+- [x] Committing
+- [x] Moving images to sub-folder
+- [x] Changing image markup to point at sub-folder
+- [x] Prettifying headings serially: until "3. Creation Behavior Of Commands.md"
+- [x] Switching to a phased bulk approach
+- [x] Heading 1 double underline
+- [x] Heading 2 single underline, 2 empty lines above, 1 below
+- [X] Headings 3 and up: surround with enters (using find "##")
+- [x] Headings 3 and up: removing bold/italic start tokens (using search and replace "## *" => "## ")
+- [x] Headings 3 and up: removing ending tokens of bolds/italics (using find "##")
+- [x] Replacing bold ** with __
+- [x] Checking the italics (*)
+- [x] Checking the bolds (__)
+- [x] Prettifying bulleted lists
+- [x] Removing excessive empty lines
+- [x] Prettifying code blocks
+- [x] Black backgrounds in "Broader View" and "Construct Drafts"
+- [x] Prettifying tables
+- [x] Try correcting < and > interpretation as XML/HTML by surrounding them with spaces
+- [x] Correcting arrows replacing à and ß with `=>` or `<=`
+- [x] Checking the headings.
+- [x] Did these in one blow until "4. Command Redirection":
+    - [x] Checking the pictures
+          (words that may express things too strongly).  
+          (Used red in Word. Using `inline code` in MarkDown.)
+    - [x] Manually checking differences between rendered MarkDown and Word document.
+    - [x] Last check if markup looks ok
+    - [x] Removing Word documents
+- [x] Switching to a more phased approach
+- [x] Checking the pictures
+- [x] Copying red markings of 'trigger words' 
+      (words that may express things too strongly).  
+      (Used red in Word. Using `inline code` in MarkDown.)
+- [x] Limitation: Not coming up with new header texts
+- [x] Limitation: Not solving errors in previous work.
+- [x] Checking the markup for obvious improvements.
+- [x] Manually checking differences between rendered MarkDown and Word document.
+- [x] Last checks if markup looks ok.
+- [x] Removing Word documents.
+- [x] Making version history document titles more consistent.
 
 ### 2019-08-05 Done Open Source
 
