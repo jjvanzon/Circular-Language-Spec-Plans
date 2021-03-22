@@ -8,9 +8,9 @@ Project Outline
 
 Circle is an unfinished programming language.
 
-I spent thousands of hours spread out over a few decades with this idea of how to visually express the internals of computers and programming languages.
+I spent a significant portion of spare time in my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
 
-Circle Language Spec is an unfinished programming language design. The same folder of docs contain texts about all sorts of software applications. But this project 'Circle Language Spec Revamp' is really about the programming language specification.
+Circle Language Spec tries to describe it.
 
 ### Goals
 
@@ -19,12 +19,9 @@ Circle Language Spec is an unfinished programming language design. The same fold
     - [ ] Keep my head occupied with something else.
 - [x] 'Hard' goals:
     - [x] Isolate the Circle Language docs from the rest of the docs.
-    - [ ] Open source the Circle Language docs.
+    - [x] Open source the Circle Language docs.
 - [ ] ~ Low priority:
     - [ ] ~ Get the documents in a state better accessible for others.
-    - [x] ~~Make the documents usable for implementation.~~
-    - [x] ~~Make a technical design~~
-        - [x] ~~To highlight the challenges of how one might implement this as a working piece of software.~~
 
 ### Steps
 
@@ -34,19 +31,19 @@ Circle Language Spec is an unfinished programming language design. The same fold
 - [x] Reorientation
     - [x] Reading Planning Docs sequentially.
 - [x] Scoping
-    - [x] Splitting up "Software System" / "Circle Language"
-    - [x] Splitting up "Circle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
+    - [x] Splitting "Software System" / "Circle Language"
+    - [x] Splitting "Circle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
         - [x] Ideas.doc too
-    - [x] Splitting up 'in scope' / 'out of scope' for Circle Language topics.
-    - [x] Splitting up 'phases' in life in planning docs.
+    - [x] Splitting 'in scope' / 'out of scope' for Circle Language topics.
+    - [x] Splitting up 'phases in life' in planning docs.
     - [x] Removed studying goals.
     - [ ] ... Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
         - [x] Circle-Language-Spec repository
         - [ ] ~ Circle-Language-Spec-Plans repository
 - [x] Separating git repositories:
-    - [x] Splitting off Circle language docs part into a separate git repository.
-    - [x] Splitting off Planning Docs for Circle language docs into a separate git repository.
-- [x] Publishing on GitHub
+    - [x] Splitting off Circle language docs into a separate git repository.
+    - [x] Splitting off Planning Docs for Circle language into a separate git repository.
+- [x] Publishing to GitHub
 - [x] Converting from Word to MarkDown.
 - [ ] __Folder reorganization__
     - [x] Reorganizing Planning Docs
@@ -62,7 +59,6 @@ Circle Language Spec is an unfinished programming language design. The same fold
 - [ ] ~ Including hour sheet
     - [ ] ~ (Extracting from hour sheet about multiple projects)
 - [ ] ~ Improving Planning Docs:
-    - [ ] ~ Including hour sheet? 
     - [ ] ~ Splitting "Circle Language Spec Revamp Notes" into a document per topic.
 - [ ] ~ Improving Circle Language Spec:
     - [x] Reduce the number of articles, grouping topics together.
@@ -71,7 +67,7 @@ Circle Language Spec is an unfinished programming language design. The same fold
     - [ ] ~ Start reading / writing / reformulating.
     - [ ] ~ Generally go through content reformulating things?
     - [ ] ~ Reorganizing articles
-    - [ ] ~ Covering a language design issue
+    - [ ] ~ Language design issues
     - [ ] ~ Correcting for new insight / decisions
 
 ### Language Design / Content Changes
@@ -104,7 +100,7 @@ Circle Language Spec is an unfinished programming language design. The same fold
 ### Scope
 
 Around 2004 the idea may have been to cover *everything*.
-Now (2021-03-04) a scoping it to large blocks might be better:
+Now (2021-03-04) a scoping it to large blocks might be considered better:
 
 - [ ] Diagram notation
 - [ ] ~ Programming language vs standard libraries
@@ -113,7 +109,7 @@ Now (2021-03-04) a scoping it to large blocks might be better:
 - [x] ~~Implementations~~
 - [x] ~~Creator projects~~
 - [x] ~~Precise underlying rules~~
-- [x] ~~Stand-along Circle programming environment~~
+- [x] ~~Stand-alone Circle programming environment~~
 - [x] ~~What apps might be programmed in it?~~
 - [x] ~~Could this run as a stand-alone OS?~~
 
@@ -141,53 +137,52 @@ TODO
 
 ### 2021-03-14 TODO Rough Content Reorganization
 
-- [ ] Circle docs:
-    - [x] Moving "Previous Versions" and "Summaries of Other Languages" to "Construct Drafts"
-    - [x] Folders more straightforward for "Broader View" and "Construct Drafts"
-    - [x] Spec contents page (with links)
-    - [x] 'Webby paths' / 'pretty URL's'
-        - [x] (shallow paths, lower-case, dashes, no spaces)
-        - [x] Spec elements
-        - [x] Main folders
-        - [x] Broader View
-        - [x] Construct Drafts
-        - [x] Archive
-    - [x] Moving System Objects more to the top again.
-    - [x] Calling "Ideas" "Loose Ideas".
-    - [x] Adding things like:
-        - [x] `[ Deprecated documentation ]`
-        - [x] `[ Preliminary documentation ]`
-        - [x] `[ Out of scope ]`
-    - [x] Spec readme: removing links to folders (confusing).
-    - [ ] __Updating index pages.__
-        - [ ] This does not seem easy.
-        - [x] ~ Spec root
-        - [x] ~ Broader View root
-            - [ ] Making more exact
-        - [ ] __Construct Drafts root__ 
-            - [ ] Some details remain
-        - [ ] Sub-folders' index pages
-            - [ ] Perhaps merge with index page higher up the hierarchy.
-            - [ ] Perhaps complete give each sub-folder a more or less complete index page.
-            - [ ] Also might move sub-folder descriptions from he index page higher up the hierarchy, to index page of the sub-folder instead.
-    -----
-    - [ ] Updating headings to reflect new folder organization.
-    - [ ] Some "Construct Drafts" may deserve a place in "Broader View", like "Multiple Language Layers" and "Object Storage".
-    - [ ] Moving more to "Construct Drafts" > "Implementations"?
-    - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
-    - [ ] Spreading "Old Or Boring" topics over the documents.
+- [x] Moving "Previous Versions" and "Summaries of Other Languages" to "Construct Drafts"
+- [x] Folders more straightforward for "Broader View" and "Construct Drafts"
+- [x] Spec contents page (with links)
+- [x] 'Webby paths' / 'pretty URL's'
+    - [x] (shallow paths, lower-case, dashes, no spaces)
+    - [x] Spec elements
+    - [x] Main folders
+    - [x] Broader View
+    - [x] Construct Drafts
+    - [x] Archive
+- [x] Moving System Objects more to the top again.
+- [x] Calling "Ideas" "Loose Ideas".
+- [x] Adding things like:
+    - [x] `[ Deprecated documentation ]`
+    - [x] `[ Preliminary documentation ]`
+    - [x] `[ Out of scope ]`
+- [x] Spec readme: removing links to folders (confusing).
+- [ ] __Updating index pages.__
+    - [x] Spec Overview
+    - [x] Broader View root
+    - [x] Construct Drafts root
+    - [ ] __Sub-folders' index pages__
+        - [ ] __WAS AT: Text Code README.MD__ reformulating.
+        - [ ] Also might move sub-folder descriptions from more general index pages to more specific ones.
+    - [ ] Links in all index pages?
+- [ ] Relative links
+- [ ] Reorganizing "Fundamental Principles"
+    - [x] Split "Fundamental Principles Overview" over "Exchangeability Principles", "Extensibility Principles" and "Achievability Principles".
+    - [x] Merging together flat-and-structured-interchange documents?
     - [ ] One doc for Exchangeability?
     - [ ] One doc for Extensibility?
-    - [ ] All pointer topics to Pointers.
-    - [ ] All Text Code topics to single place.
-- [ ] Planning docs:
-    - [ ] Splitting up Revamp project into topics.
-    - [ ] Merging together goals of Revamp project with Main Project.
-    - [ ] Removing (totally) out-of-scope topics to Archive.
-- [ ] Both Circle Docs and Planning Docs:
-    - [ ] Replacing "Globality" with "Module"
-    - [ ] Replacing "Concept" with "Aspect"
-    - [ ] ~ Removing "Version History" documents from Archive?
+- [ ] Updating headings to reflect new folder organization.
+- [ ] Perhaps "from-spec" sub-folders for things moved to "Construct Drafts" or "Broader View" from topics out of the Spec.
+- [ ] Some "Construct Drafts" may deserve a place in "Broader View", like "Multiple Language Layers" and "Object Storage".
+- [ ] Moving more to "Construct Drafts" > "Implementations"?
+- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
+- [ ] Spreading "Old Or Boring" topics over the documents.
+- [ ] All pointer topics to Pointers.
+- [ ] All Text Code topics to single place.
+- [ ] Splitting up Revamp project into topics.
+- [ ] Merging together goals of Revamp project with Main Project.
+- [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
+- [ ] Replacing "Globality" with "Module"
+- [ ] Replacing "Concept" with "Aspect"
+- [ ] Replacing "new computer language" with "Circle programming language" and such
+- [ ] Removing "Version History" documents from Archive?
 
 ### 2021-02-09 TODO Publishing
 
@@ -263,7 +258,8 @@ Done
 - [x] 2004-00-00 XX    Symbol Language\Symbol Pictures (Keep Packed, Paths Too Long).zip has intellectual property problems in Pictures\Diagram Examples.
 - [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm… If I didn't mention the source information it would not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down… not sure. > It think this is an unreasonable doubt.~~
 - [x] "Relational Structure"
-    - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name. I think I would be better off removing that document from the Circle-Language-Spec repository.
+    - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name.
+    - [x] I think I would be better off removing that document from the Circle-Language-Spec repository.
 - [x] Renaming Circle-Language-Spec-Plan to Circle-Language-Spec-Plans (plural).
 - [x] Reorganizing Broader View and Construct Drafts knowing they would also be published?
 
@@ -393,7 +389,7 @@ I also do not seem to have inspected the total file list from history yet.
     - [x] Possibly useful paragraphs:
     - [x] "2019-12-29 Done Brainstorm Scope (Useful)"
     - [x] "2019-08-05 Brainstorm Open Source"
-    - [x] Those still may scope things clearly.
+    - [x] Those still may not scope things clearly.
     - [x] (Seems about Circle Language Spec vs 'the rest'.)
     - [x] (I am looking for Circle Docs    vs 'the rest' now. (Circle Docs = language spec + construct drafts + broader view)
     - [x] Just winging it for now.
