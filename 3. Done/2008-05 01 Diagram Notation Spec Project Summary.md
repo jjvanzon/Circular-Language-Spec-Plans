@@ -99,9 +99,9 @@ The following __*47*__ articles were produced:
         - version  *2008-05-27 00  1.0*
     - *Clause in a Diagram*
         - version  *2008-05-27 00  1.0*
-    - *Globality*
+    - *Module*
         - version  *2008-05-27 00  1.0*
-    - Globality in a Diagram
+    - Module in a Diagram
         - version  *2008-05-27 00  1.0*
     - *Assignment*
         - version  *2008-05-27 00  1.0*

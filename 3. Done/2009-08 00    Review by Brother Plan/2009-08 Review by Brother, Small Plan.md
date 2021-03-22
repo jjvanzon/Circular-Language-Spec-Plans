@@ -91,7 +91,7 @@ The following concepts were covered:
 - Execution Control
 - Commands
 - Parameters
-- Globality
+- Module
 - Lists
 - Values
 

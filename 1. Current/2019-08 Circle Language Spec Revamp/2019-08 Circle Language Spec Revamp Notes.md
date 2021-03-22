@@ -154,35 +154,37 @@ TODO
     - [x] `[ Preliminary documentation ]`
     - [x] `[ Out of scope ]`
 - [x] Spec readme: removing links to folders (confusing).
-- [ ] __Updating index pages.__
+- [x] Updating index pages
     - [x] Spec Overview
     - [x] Broader View root
     - [x] Construct Drafts root
-    - [ ] __Sub-folders' index pages__
-        - [ ] __WAS AT: Text Code README.MD__ reformulating.
-        - [ ] Also might move sub-folder descriptions from more general index pages to more specific ones.
-    - [ ] Links in all index pages?
-- [ ] Relative links
-- [ ] Reorganizing "Fundamental Principles"
-    - [x] Split "Fundamental Principles Overview" over "Exchangeability Principles", "Extensibility Principles" and "Achievability Principles".
-    - [x] Merging together flat-and-structured-interchange documents?
-    - [ ] One doc for Exchangeability?
-    - [ ] One doc for Extensibility?
-- [ ] Updating headings to reflect new folder organization.
+    - [x] Sub-folders' index pages
+        - [x] Broader View
+        - [x] Construct Drafts
+        - [x] Spec
+    - [x] Also might move sub-folder descriptions from more general index pages to more specific ones.
+    - [x] (Relative) links in all index pages
+- [x] Removing "Version History" documents from Archive?
+- [ ] Replacing "Module" with "Module"
+- [ ] Replacing "Concept" with "Aspect"
+- [ ] Replacing "new computer language" with "Circle programming language" and such
 - [ ] Perhaps "from-spec" sub-folders for things moved to "Construct Drafts" or "Broader View" from topics out of the Spec.
+- [ ] Updating headings to reflect new folder organization.
 - [ ] Some "Construct Drafts" may deserve a place in "Broader View", like "Multiple Language Layers" and "Object Storage".
 - [ ] Moving more to "Construct Drafts" > "Implementations"?
-- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
 - [ ] Spreading "Old Or Boring" topics over the documents.
+-----
+- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
 - [ ] All pointer topics to Pointers.
 - [ ] All Text Code topics to single place.
 - [ ] Splitting up Revamp project into topics.
 - [ ] Merging together goals of Revamp project with Main Project.
 - [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
-- [ ] Replacing "Globality" with "Module"
-- [ ] Replacing "Concept" with "Aspect"
-- [ ] Replacing "new computer language" with "Circle programming language" and such
-- [ ] Removing "Version History" documents from Archive?
+- [ ] Reorganizing "Fundamental Principles"
+    - [x] Split "Fundamental Principles Overview" over "Exchangeability Principles", "Extensibility Principles" and "Achievability Principles".
+    - [x] Merging together flat-and-structured-interchange documents?
+    - [ ] One doc for Exchangeability?
+    - [ ] One doc for Extensibility?
 
 ### 2021-02-09 TODO Publishing
 
@@ -191,6 +193,12 @@ TODO
 - [ ] Durable links:
     - [ ] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
 - [ ] Replacing swear words ("Symbol Language (2004).md")
+- [ ] The name "Circle" is in use by a similar product. Should I rename? And to what?
+    - [ ] "Symbol"?
+    - [ ] "Encircle"?
+    - [ ] "JJ's Computer Language"?
+    - [ ] "JJ's Visual Language"?
+    - [ ] Code name "This Computer Language"?
 
 Done
 ----
@@ -1146,7 +1154,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 
 ### 2020-06-01 Done Content Changes for Basic Diagram Elements
 
-- [x] Maybe replace the word 'globality' by 'module'. I seem to keep running into it.
+- [x] Maybe replace the word 'module' by 'module'. I seem to keep running into it.
 - [x] In the access marks sections, maybe add a picture of how it would look if it is connected to a symbol. That might not be that clear. You might not see the context there. You might just see a sort of kite like drawing.
 - [x] Some content changes:
     - [x] Is it nice to present the reasons for the shapes, or is it just superfluous text?
@@ -1374,7 +1382,7 @@ Still want to change the fonts.
     - [x] System Objects
     - [x] Commands
     - [x] Parameters
-    - [x] Globality
+    - [x] Module
     - [x] Execution Control
     - [x] Black Boxing
     - [x] Interfaces
@@ -1595,7 +1603,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - Unfinished drafts.
         - Might move these Circle Construct Drafts:
             - Level Limitation
-            - Globality Level Limitation
+            - Module Level Limitation
             - Downsides to Black Boxes
             - Get For Access and Get For Copy
             - Inaccessible System Aspects
@@ -2066,7 +2074,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] At first glance, this seems to have the same scope as the whole project Circle Language Spec.
         - [x] Maybe it can be thrown away (or archived), because it's already described by newer documents.
     - [x] `Execution Control Spec Update Ideas.md`
-    - [x] `Globality Spec Update Ideas.md`
+    - [x] `Module Spec Update Ideas.md`
     - [x] `Objects Multiplicity Spec Ideas.md`
     - [x] `Objects Spec Update Idea.md`
     - [x] `Parameters Spec Update Ideas.md`
@@ -2471,7 +2479,7 @@ The version folders I have left to convert to source control history are complex
 
 It was not expected that there would be such complexity in preserving rename history, but noticing that there is, makes me re-evaluate my plans.
 
-To get overview of the amount of version folders still to cover: The version folders are visible on the 'root' level per chapter. The amount of version control on *sub-*topics is limited to just one (24. Creation Behavior Of Calls). Its about the *main* topics: Commands, Parameters, Globality, Execution Control, Black Boxing, Interfaces, Events and    Inheritance. One of those topics has intensely many version folders (Black Boxing). About 3 topics have a 'normal' amount of version folders. The others have a quite small amount of version folders. If you ignore trying to preserve rename history, then you might be done today. If you try to preserve rename history, it will take you probably many days, like 4 or something. And I think the motivation will recede if I do that.
+To get overview of the amount of version folders still to cover: The version folders are visible on the 'root' level per chapter. The amount of version control on *sub-*topics is limited to just one (24. Creation Behavior Of Calls). Its about the *main* topics: Commands, Parameters, Module, Execution Control, Black Boxing, Interfaces, Events and    Inheritance. One of those topics has intensely many version folders (Black Boxing). About 3 topics have a 'normal' amount of version folders. The others have a quite small amount of version folders. If you ignore trying to preserve rename history, then you might be done today. If you try to preserve rename history, it will take you probably many days, like 4 or something. And I think the motivation will recede if I do that.
 
 So I have already made my choice. I will not make effort to preserve rename history. I will just methodically convert the version folders to source control commits.
 
