@@ -135,64 +135,13 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 TODO
 ----
 
-### 2021-03-14 TODO Rough Content Reorganization
-
-- [x] Moving "Previous Versions" and "Summaries of Other Languages" to "Construct Drafts"
-- [x] Folders more straightforward for "Broader View" and "Construct Drafts"
-- [x] Spec contents page (with links)
-- [x] 'Webby paths' / 'pretty URL's'
-    - [x] (shallow paths, lower-case, dashes, no spaces)
-    - [x] Spec elements
-    - [x] Main folders
-    - [x] Broader View
-    - [x] Construct Drafts
-    - [x] Archive
-- [x] Moving System Objects more to the top again.
-- [x] Calling "Ideas" "Loose Ideas".
-- [x] Adding things like:
-    - [x] `[ Deprecated documentation ]`
-    - [x] `[ Preliminary documentation ]`
-    - [x] `[ Out of scope ]`
-- [x] Spec readme: removing links to folders (confusing).
-- [x] Updating index pages
-    - [x] Spec Overview
-    - [x] Broader View root
-    - [x] Construct Drafts root
-    - [x] Sub-folders' index pages
-        - [x] Broader View
-        - [x] Construct Drafts
-        - [x] Spec
-    - [x] Also might move sub-folder descriptions from more general index pages to more specific ones.
-    - [x] (Relative) links in all index pages
-- [x] Removing "Version History" documents from Archive?
-- [ ] Replacing "Module" with "Module"
-- [ ] Replacing "Concept" with "Aspect"
-- [ ] Replacing "new computer language" with "Circle programming language" and such
-- [ ] Perhaps "from-spec" sub-folders for things moved to "Construct Drafts" or "Broader View" from topics out of the Spec.
-- [ ] Updating headings to reflect new folder organization.
-- [ ] Some "Construct Drafts" may deserve a place in "Broader View", like "Multiple Language Layers" and "Object Storage".
-- [ ] Moving more to "Construct Drafts" > "Implementations"?
-- [ ] Spreading "Old Or Boring" topics over the documents.
------
-- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
-- [ ] All pointer topics to Pointers.
-- [ ] All Text Code topics to single place.
-- [ ] Splitting up Revamp project into topics.
-- [ ] Merging together goals of Revamp project with Main Project.
-- [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
-- [ ] Reorganizing "Fundamental Principles"
-    - [x] Split "Fundamental Principles Overview" over "Exchangeability Principles", "Extensibility Principles" and "Achievability Principles".
-    - [x] Merging together flat-and-structured-interchange documents?
-    - [ ] One doc for Exchangeability?
-    - [ ] One doc for Extensibility?
-
 ### 2021-02-09 TODO Publishing
 
 - [x] Readme's?
 - [x] Just publishing it?
-- [ ] Durable links:
-    - [ ] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
-- [ ] Replacing swear words ("Symbol Language (2004).md")
+- [x] Durable links:
+    - [x] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
+- [ ] __Replacing swear words ("Symbol Language (2004).md")__
 - [ ] The name "Circle" is in use by a similar product. Should I rename? And to what?
     - [ ] "Symbol"?
     - [ ] "Encircle"?
@@ -203,6 +152,42 @@ TODO
 Done
 ----
 
+### 2021-03-23 Done Rough Content Reorganization
+
+- [x] Updating headings to reflect new folder organization.
+- [x] Moved images (after the folder organization changes).
+- [x] Spreading content of "Implementation Attempt 2002": Some to "Text Code", some to "Optimization".
+- [x] Moves from "Construct Drafts" to "Broader View":
+    - [x] "Commands & Classes Loosely Coupled"
+    - [x] "Multiple Language Layers"
+    - [x] "Object Storage"
+- [x] ~~Spreading "Old Or Boring" topics over the documents. > Cannot find it anymore.~~
+
+### 2021-03-14 Done Rough Content Reorganization
+
+- [x] Moves from "Spec" to "Construct Drafts":
+    - [x] "Previous Versions"
+    - [x] "Summaries of Other Languages"
+- [x] Folders more straightforward for "Broader View" and "Construct Drafts"
+- [x] Spec contents page (with links)
+    - [x] Removing links to folders (confusing).
+- [x] 'Webby paths' / 'pretty URL's' (shallow paths, lower-case, dashes, no spaces)
+- [x] Moving System Objects more to the top again.
+- [x] Calling "Ideas" "Loose Ideas".
+- [x] Adding things like:
+    - [x] `[ Deprecated documentation ]`
+    - [x] `[ Preliminary documentation ]`
+    - [x] `[ Out of scope ]`
+- [x] index pages:
+    - [x] Creating / updating.
+    - [x] One in each folder.
+    - [x] Also might move sub-folder descriptions from more general index pages to more specific ones.
+    - [x] (Relative) links in all index pages
+- [x] Removing "Version History" documents from Archive?
+- [x] Replacing "Globality" with "Module"
+- [x] "From Spec" sub-folders in "Construct Drafts" and "Broader View"
+- [x] Split "Fundamental Principles Overview" over "Exchangeability", "Extensibility" and "Achievability".
+- [x] Merging together "Flat and Structured Interchange" documents.
 
 ### 2021-02-09 Done MarkDown
 
@@ -2550,6 +2535,28 @@ JJ
 
 Postponed
 ---------
+
+### 2021-03-23 Postponed Rough Content Reorganization
+
+- [ ] ~ Moves to "Implementations"
+- [ ] All pointer topics to Pointers.
+- [ ] All Text Code topics to single place.
+- [ ] Replacing the name: "new computer language" with "Circle programming language" or "Encircle".
+- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
+- [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
+- [ ] Planning docs reorganization:
+    - [ ] Splitting up Revamp project into topics.
+    - [ ] Merging together goals of Revamp project with Main Project.
+    - [ ] Removing (totally) out-of-scope topics to Archive.
+- [ ] ->.. Replacing "Concept" with "Aspect"
+    - [ ] I have difficulty with this. 
+    - [ ] Only part of the occurrences seem replaceable.
+    - [ ] "Concept" had such a nice ring to it.
+    - [ ] Maybe some other way to be selective?
+    - [ ] Certain files perhaps?
+- [ ] ~ Reorganizing "Fundamental Principles"
+    - [ ] ~ One doc for Exchangeability?
+    - [ ] ~ One doc for Extensibility?
 
 ### 2020-08-21 Postponed Commands Chapter
 
