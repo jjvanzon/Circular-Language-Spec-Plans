@@ -69,6 +69,7 @@ Circle Language Spec tries to describe it.
     - [ ] ~ Reorganizing articles
     - [ ] ~ Language design issues
     - [ ] ~ Correcting for new insight / decisions
+- [ ] Correcting links from Plans repo's Readme to Spec repo.
 
 ### Language Design / Content Changes
 
@@ -147,18 +148,17 @@ TODO
     - [x] ~~Considered alternatives: "Symbol" / "JJ's Computer Language" / "JJ's Visual Language" / "This Computer Language".~~
     - [x] In main repo:
         - [x] Replacing "Circle" with "Encircle" in content
-        - [x] Replacing "circle" with "encircle" in content
-        - [x] Replacing "Circle" with "Encircle" in doc file names
+        - [x] Replacing "circle" with "encircle" in doc file names (and links to them)
         - [X] Correcting heading layout
         - [x] Replacing "Encircle 3" and with "Circle 3"
         - [x] Double-checking occurrences of "Encircle"
         - [x] Searching for "a Encircle" and correcting to "an Encircle" (and for "a *Encircle*" as well)
     - [ ] In planning docs repo:
-        - [ ] Replacing "Circle" with "Encircle" in content
-        - [ ] Replacing "circle" with "encircle" in content
-        - [ ] Replacing "Circle" with "Encircle" in doc file names
+        - [x] Replacing "Circle" with "Encircle" in content
+        - [ ] Replacing "circle" with "encircle" in doc file names ~~(and links to them)~~
         - [ ] Correcting heading layout
         - [ ] Correcting table layouts
+        - [ ] Searching for "a Encircle" and correcting to "an Encircle" (and for "a *Encircle*" as well)
         - [ ] Double-checking occurrences of "Encircle"
     - [ ] Renaming the repo's
     - [ ] Merging changes

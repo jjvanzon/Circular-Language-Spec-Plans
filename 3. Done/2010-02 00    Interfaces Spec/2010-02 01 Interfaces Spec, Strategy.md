@@ -1,11 +1,11 @@
-﻿Circle Language Spec Plan | Interfaces Spec | 2010-02 | Strategy
-================================================================
+﻿Encircle Language Spec Plan | Interfaces Spec | 2010-02 | Strategy
+==================================================================
 
 
 Parent Project
 ---------------
 
-*Circle Language Spec*
+*Encircle Language Spec*
 
 
 Goal

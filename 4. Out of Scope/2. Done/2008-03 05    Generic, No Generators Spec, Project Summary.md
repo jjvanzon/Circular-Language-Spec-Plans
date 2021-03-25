@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Generic, No Generators Spec | 2008-03 | Project Summary
-===================================================================================
+﻿Encircle Language Spec Plan | Generic, No Generators Spec | 2008-03 | Project Summary
+=====================================================================================
 
 Goal
 ----

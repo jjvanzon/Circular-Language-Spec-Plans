@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Fundamental Principles Spec Part A | 2008-03 | Project Summary
-==========================================================================================
+﻿Encircle Language Spec Plan | Fundamental Principles Spec Part A | 2008-03 | Project Summary
+============================================================================================
 
 
 Introduction
@@ -11,7 +11,7 @@ This is a super-project, consisting of multiple sub-projects.
 Goal
 ----
 
-Documented some of fundamental principles for the Circle programming language.
+Documented some of fundamental principles for the Encircle programming language.
 
 Not all fundamental principles were documented in this project. Only about half of the subjects were covered. This is because a number of fundamental principles could use some clearing up on other subjects first.
 
@@ -21,7 +21,7 @@ That’s why the follow-up project was *Get Clearer View over Difficult Topics*.
 Super-Project
 -------------
 
-This is a sub-project of the super-project *Circle Language Spec*.
+This is a sub-project of the super-project *Encircle Language Spec*.
 
 
 Date & Time
@@ -35,7 +35,7 @@ __66 ¾__ hours of work
 Products
 --------
 
-The following __*16*__ articles about fundamental principles for the Circle programming language were produced:
+The following __*16*__ articles about fundamental principles for the Encircle programming language were produced:
 
 - *Programming Language Programmed Within Itself* 
     - version  *2008-03-10 00  1.0*
@@ -59,7 +59,7 @@ The following __*16*__ articles about fundamental principles for the Circle prog
     - version  *2008-03-19 00  1.0*
 - *Clear Cut Coding Principles*
     - version  *2008-03-19 00  1.0*
-- *Internet as a Single Computer (later made out of scope of Circle Language Spec)*
+- *Internet as a Single Computer (later made out of scope of Encircle Language Spec)*
     - version  *2008-04-12 XX  0.9*  
         Topics:
         - A unified paradigm for all digital objects

@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | 2008-05 | Fundamental Principles | Concepts as External Modules Spec
-================================================================================================
+﻿Encircle Language Spec Plan | 2008-05 | Fundamental Principles | Concepts as External Modules Spec
+=================================================================================================
 
 *Date: May, 2008*  
 *Project postponed*

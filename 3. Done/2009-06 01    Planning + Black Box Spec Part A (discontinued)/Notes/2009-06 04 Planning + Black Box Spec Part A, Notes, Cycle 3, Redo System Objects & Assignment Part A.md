@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment A
-====================================================================================================================
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment A
+======================================================================================================================
 
 
 Purpose of This Document

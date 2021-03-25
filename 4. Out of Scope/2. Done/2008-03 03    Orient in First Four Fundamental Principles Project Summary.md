@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Orient in First Four Principles | 2008-03 | Project Summary
-======================================================================================
+﻿Encircle Language Spec Plan | Orient in First Four Principles | 2008-03 | Project Summary
+========================================================================================
 
 
 Goal
@@ -16,7 +16,7 @@ Orient in the documentation of the first four fundamental principles:
 Super-Project
 -------------
 
-This is a sub-project of the super-project *Circle Language Spec, Fundamental Principles Spec Part A.*
+This is a sub-project of the super-project *Encircle Language Spec, Fundamental Principles Spec Part A.*
 
 
 Date & Time

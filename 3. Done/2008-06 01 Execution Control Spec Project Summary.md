@@ -1,11 +1,11 @@
-﻿Circle Language Spec Plan | Execution Control Spec | 2008-06 | Project Summary
-==============================================================================
+﻿Encircle Language Spec Plan | Execution Control Spec | 2008-06 | Project Summary
+================================================================================
 
 
 Super-Project
 --------------
 
-Circle Language Spec
+Encircle Language Spec
 
 
 Main Goal

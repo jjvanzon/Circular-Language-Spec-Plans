@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Startup
-================================================================================
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Startup
+==================================================================================
 
 Purpose of This Document
 ------------------------
@@ -38,7 +38,7 @@ Orientation Plan
     - [x] You have to orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
     - [x] Idea Box
     - [x] Existing Black Box documentation
-    - [x] Consider the ‘writing efficiently’ rules in the project documentation of *Circle Language Spec*.
+    - [x] Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.
 - [x] Brainstorm about solutions
 - [x] Determine program elements
     - [x] (in the document *Software Development Elements & Time Estimation*)

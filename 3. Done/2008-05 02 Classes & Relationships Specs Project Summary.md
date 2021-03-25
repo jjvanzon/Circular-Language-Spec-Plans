@@ -1,17 +1,17 @@
-﻿Circle Language Spec Plan | Classes & Relationships Specs | 2008-05 | Project Summary
-====================================================================================
+﻿Encircle Language Spec Plan | Classes & Relationships Specs | 2008-05 | Project Summary
+======================================================================================
 
 
 Goal
 ----
 
-Originally the aim was to document all the coding principles and basic coding concepts and their diagram notation. That project turned out to be quite big, so then it was limited to the coding concepts about classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Circle Language Spec as of 2020.)
+Originally the aim was to document all the coding principles and basic coding concepts and their diagram notation. That project turned out to be quite big, so then it was limited to the coding concepts about classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Encircle Language Spec as of 2020.)
 
 
 Super-Project
 -------------
 
-Circle Language Spec
+Encircle Language Spec
 
 
 Date & Time
@@ -91,7 +91,7 @@ Project Steps
 
 - At first updated some project plan texts:
 
-    > *(Since 2020 some of these topics are out-of-scope of Circle Language Spec.)*
+    > *(Since 2020 some of these topics are out-of-scope of Encircle Language Spec.)*
 
     - Fundamental Principles A 
     - Clarify Automatic Execution Order & Diagram Notation

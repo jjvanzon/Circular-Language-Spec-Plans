@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Finish Small Code Base & Everything Only Spec | 2008-03 | Project Summary
-=====================================================================================================
+﻿Encircle Language Spec Plan | Finish Small Code Base & Everything Only Spec | 2008-03 | Project Summary
+=======================================================================================================
 
 
 Goal

@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Get Clearer View over Difficult Topics | 2008-04 | Project Summary (Out of Scope)
-=============================================================================================================
+﻿Encircle Language Spec Plan | Get Clearer View over Difficult Topics | 2008-04 | Project Summary (Out of Scope)
+===============================================================================================================
 
 
 Goal
@@ -23,7 +23,7 @@ So basically it is about flat & structured interchange, concepts and diagram exp
 Super-Project
 -------------
 
-*Circle Language Spec*
+*Encircle Language Spec*
 
 
 Means

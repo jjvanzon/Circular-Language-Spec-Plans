@@ -1,11 +1,11 @@
-﻿Circle Language Spec Plan | Diagram Notation Spec | 2008-05 | Project Summary
-=============================================================================
+﻿Encircle Language Spec Plan | Diagram Notation Spec | 2008-05 | Project Summary
+===============================================================================
 
 
 Super-Project
 -------------
 
-*Circle Language Spec*
+*Encircle Language Spec*
 
 (This project was originally intermixed with the sub-project *Clarify Automatic Execution Order 2008-05*, but then the scope was split in two.)
 

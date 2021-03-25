@@ -30,7 +30,7 @@ Products
 
 Ideas out of the idea box were scattered around the documentation, dumped into the development version of the article of the right subject.
 
-The description of the main project *Circle Language Spec* was updated, mainly its article list.
+The description of the main project *Encircle Language Spec* was updated, mainly its article list.
 
 
 Project steps

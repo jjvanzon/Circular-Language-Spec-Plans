@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Automatic Containment Spec | 2008-04 | Project Summary
-==================================================================================
+﻿Encircle Language Spec Plan | Automatic Containment Spec | 2008-04 | Project Summary
+====================================================================================
 
 
 Goal

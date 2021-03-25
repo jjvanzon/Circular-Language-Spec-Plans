@@ -1,5 +1,5 @@
-﻿Circle Language Spec | Inheritance Spec | 2010-05 | Strategy & Steps
-====================================================================
+﻿Encircle Language Spec | Inheritance Spec | 2010-05 | Strategy & Steps
+======================================================================
 
 
 Purpose of this Document

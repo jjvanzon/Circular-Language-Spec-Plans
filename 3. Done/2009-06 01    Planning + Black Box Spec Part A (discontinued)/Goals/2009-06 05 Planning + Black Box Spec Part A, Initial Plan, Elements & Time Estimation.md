@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Plan | Elements & Time Estimation
-==================================================================================================================
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Plan | Elements & Time Estimation
+====================================================================================================================
 
 
 Remark
@@ -11,7 +11,7 @@ This is the initial plan. The plan changed during the project. You will find the
 Products
 ---------
 
-- Time Planning for *Circle Language Spec*
+- Time Planning for *Encircle Language Spec*
 - Idea Box processed (over 60 pages of ideas)
 - Black Box article group
 
@@ -20,7 +20,7 @@ Project Steps
 -------------
 
 - Setup project folders  __(1)__
-- Time planning for super-project *Circle Language Spec* __(3)__
+- Time planning for super-project *Encircle Language Spec* __(3)__
 - Pick theme  __(0)__
 - Make goal description  __(2)__
     - \+ other startup issues

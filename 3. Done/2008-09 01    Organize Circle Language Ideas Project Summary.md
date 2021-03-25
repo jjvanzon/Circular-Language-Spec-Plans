@@ -1,4 +1,4 @@
-﻿Circle Language Spec Plan | Organize Computer Language Ideas | 2008-09 | Project Summary
+﻿Encircle Language Spec Plan | Organize Computer Language Ideas | 2008-09 | Project Summary
 ========================================================================================
 
 
@@ -13,7 +13,7 @@ and an attempt was made to look at the bigger whole of the computer language.
 Super-Project
 -------------
 
-*Circle Language Spec | Command as a Concept Spec*
+*Encircle Language Spec | Command as a Concept Spec*
 
 
 Date & Time
@@ -34,4 +34,4 @@ Project Steps
     - ~~Sub-categorized ideas.~~
     - Dropped ideas into the system documentation.
     - Moved all ideas from project planning descriptions to system documentation.
-- Reconsidered the primary goals with *Circle Language Spec*
+- Reconsidered the primary goals with *Encircle Language Spec*

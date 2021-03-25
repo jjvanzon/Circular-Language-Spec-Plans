@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 1: Process Idea Box
-==================================================================================================
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 1: Process Idea Box
+====================================================================================================
 
 
 Purpose of This Document
@@ -26,7 +26,7 @@ Custom Plan
 - [x] Drop ideas into the documentation
     - [x] Most go into system documentation
     - [x] Put ideas about projects in the main projects document of  
-    Circle Language Spec.
+    Encircle Language Spec.
 - [x] Look inside general documents to find ideas specific to the current project.
     - [x] \> None there
 

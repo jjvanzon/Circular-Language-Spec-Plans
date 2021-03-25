@@ -1,5 +1,5 @@
-Circle Language Spec Plans
-==========================
+Encircle Language Spec Plans
+============================
 
 Assignment Spec Update Ideas
 ----------------------------

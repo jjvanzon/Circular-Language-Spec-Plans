@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts (Out of Scope)
-========================================================================================
+﻿Encircle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts (Out of Scope)
+==========================================================================================
 
 *June, 2008*
 
@@ -7,7 +7,7 @@
 Goal
 ----
 
-*This document is an extract of notes taken out of original documentation of the Circle Language Spec planning docs, because these topics are now out of scope of Circle Language Spec.*
+*This document is an extract of notes taken out of original documentation of the Encircle Language Spec planning docs, because these topics are now out of scope of Encircle Language Spec.*
 
 ### Pros and cons for this project
 

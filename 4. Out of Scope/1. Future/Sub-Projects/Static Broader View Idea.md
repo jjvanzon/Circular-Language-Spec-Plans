@@ -1,9 +1,9 @@
-Circle Language Spec Plan | Static Broader View Idea
-====================================================
+Encircle Language Spec Plan | Static Broader View Idea
+======================================================
 
 *2020-04*
 
-Static may be a concept part of the Circle Language Spec, but the idea below incorporates concepts, that I want to put out of scope and save for documentation about a broader perspective or something.
+Static may be a concept part of the Encircle Language Spec, but the idea below incorporates concepts, that I want to put out of scope and save for documentation about a broader perspective or something.
 
 -----
 

@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 2: Black Box Part A
-==================================================================================================
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 2: Black Box Part A
+====================================================================================================
 
 
 Purpose of This Document

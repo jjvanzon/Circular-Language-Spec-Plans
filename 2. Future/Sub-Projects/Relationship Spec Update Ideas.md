@@ -1,5 +1,5 @@
-Circle Language Spec Plans
-==========================
+Encircle Language Spec Plans
+============================
 
 Relationships Spec Update Ideas
 -------------------------------
@@ -18,7 +18,7 @@ Relationships Spec Update Ideas
 
 -----
 
-- The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Circle Language Spec Strategy.
+- The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Encircle Language Spec Strategy.
 
 -----
 

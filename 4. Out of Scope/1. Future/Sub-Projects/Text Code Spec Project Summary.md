@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Text Code Spec | Project Summary
-============================================================
+﻿Encircle Language Spec Plan | Text Code Spec | Project Summary
+==============================================================
 
 *Date: 2008*
 

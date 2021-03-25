@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Programming Language = Database & Data = Code Spec | 2008-03 | Project Summary
-==========================================================================================================
+﻿Encircle Language Spec Plan | Programming Language = Database & Data = Code Spec | 2008-03 | Project Summary
+============================================================================================================
 
 
 Goal

@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan, Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary
-===========================================================================================================
+﻿Encircle Language Spec Plan, Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary
+=============================================================================================================
 
 
 Goal

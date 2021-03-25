@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Design Time = Run Time Spec a.o. | 2008-03 | Project Summary
-========================================================================================
+﻿Encircle Language Spec Plan | Design Time = Run Time Spec a.o. | 2008-03 | Project Summary
+==========================================================================================
 
 
 Goal

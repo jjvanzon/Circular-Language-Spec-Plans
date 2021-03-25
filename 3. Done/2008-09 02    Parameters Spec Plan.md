@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Parameters Spec | 2008-09 | Project Summary
-=======================================================================
+﻿Encircle Language Spec Plan | Parameters Spec | 2008-09 | Project Summary
+=========================================================================
 
 
 Goal
@@ -11,7 +11,7 @@ Worked out the Parameter articles, as part of working out Commands as a Concept.
 Super-Project
 -------------
 
-*Circle Language Spec | Command as a Concept Spec*
+*Encircle Language Spec | Command as a Concept Spec*
 
 
 Date & Time
@@ -170,7 +170,7 @@ Project Steps
 
 - (0h)
 -----
-- Considered the general approach, described in the super-project *Circle Language Spec.*
+- Considered the general approach, described in the super-project *Encircle Language Spec.*
 - Commands & classes loosely coupled was moved to the parameter articles.
 - Recorded the amount of articles, that was planned to be written at the beginning of the project.
 

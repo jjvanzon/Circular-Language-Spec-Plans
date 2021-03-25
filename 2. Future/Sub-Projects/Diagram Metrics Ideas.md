@@ -1,5 +1,5 @@
-Circle Language Spec Plans
-==========================
+Encircle Language Spec Plans
+============================
 
 Diagram Metrics Ideas
 ---------------------

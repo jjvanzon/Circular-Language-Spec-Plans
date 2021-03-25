@@ -1,11 +1,11 @@
-﻿Circle Language Spec Plan | Command as a Concept Spec | 2008-06 | Project Summary
-=================================================================================
+﻿Encircle Language Spec Plan | Command as a Concept Spec | 2008-06 | Project Summary
+===================================================================================
 
 
 Super-Project
 -------------
 
-Circle Language Spec
+Encircle Language Spec
 
 
 Goal

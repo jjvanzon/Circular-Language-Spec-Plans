@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Inheritance Spec | 2010-05 | Product List
-=====================================================================
+﻿Encircle Language Spec Plan | Inheritance Spec | 2010-05 | Product List
+=======================================================================
 
 
 Purpose of this Document

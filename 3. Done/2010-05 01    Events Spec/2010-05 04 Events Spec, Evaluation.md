@@ -1,4 +1,4 @@
-﻿Circle Language Spec Plan | Events Spec | 2010-05 | Evaluation
+﻿Encircle Language Spec Plan | Events Spec | 2010-05 | Evaluation
 ==============================================================
 
 
@@ -22,7 +22,7 @@ Future
 
 What will happen now is that I will make a new parent project description, basically replanning all my software development activities for the time to come.
 
-These activities will include updating document templates, studying and doing *Circle Language Spec* projects.
+These activities will include updating document templates, studying and doing *Encircle Language Spec* projects.
 
 
 Eventual Time Cost

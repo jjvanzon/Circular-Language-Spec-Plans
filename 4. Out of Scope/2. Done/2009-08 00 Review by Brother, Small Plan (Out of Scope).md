@@ -1,17 +1,17 @@
-﻿Circle Language Spec Plan | Review by Brother (Out of Scope) | 2009-08 | Small Plan
-===================================================================================
+﻿Encircle Language Spec Plan | Review by Brother (Out of Scope) | 2009-08 | Small Plan
+=====================================================================================
 
 
 Parent Project
 --------------
 
-*Circle Language Spec*
+*Encircle Language Spec*
 
 
 Goal
 ----
 
-*This document only has the notes taken out of the original document about the Circle Language Spec review, because the topics are now out of scope of Circle Language Spec.* 
+*This document only has the notes taken out of the original document about the Encircle Language Spec review, because the topics are now out of scope of Encircle Language Spec.* 
 
 
 General Planning

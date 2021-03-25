@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Clarify Command as a Concept Spec | 2008-06 | Project Summary
-=========================================================================================
+﻿Encircle Language Spec Plan | Clarify Command as a Concept Spec | 2008-06 | Project Summary
+===========================================================================================
 
 
 Goal

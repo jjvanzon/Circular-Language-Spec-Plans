@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Commands & Classes Loosely Coupled Spec | 2008-04 | Project Summary
-===============================================================================================
+﻿Encircle Language Spec Plan | Commands & Classes Loosely Coupled Spec | 2008-04 | Project Summary
+=================================================================================================
 
 
 Goal

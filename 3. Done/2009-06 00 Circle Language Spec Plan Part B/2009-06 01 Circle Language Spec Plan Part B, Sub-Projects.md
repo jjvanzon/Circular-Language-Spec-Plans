@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan Part B 2009-06 | Sub-Projects
-=======================================================
+﻿Encircle Language Spec Plan Part B 2009-06 | Sub-Projects
+=========================================================
 
 Purpose of this Document
 ------------------------

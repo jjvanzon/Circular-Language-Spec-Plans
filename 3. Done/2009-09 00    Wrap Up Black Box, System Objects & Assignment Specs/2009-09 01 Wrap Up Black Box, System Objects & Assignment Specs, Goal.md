@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Goal Description
-=============================================================================================================
+﻿Encircle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Goal Description
+===============================================================================================================
 
 Versions
 ---------
@@ -103,4 +103,4 @@ Future
 ------
 
 After this project, getting Microsoft certified might be picked up again.    
-It will only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Circle Language Spec project might be picked up again.
+It will only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Encircle Language Spec project might be picked up again.

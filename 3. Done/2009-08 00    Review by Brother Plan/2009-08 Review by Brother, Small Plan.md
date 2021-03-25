@@ -1,11 +1,11 @@
-﻿Circle Language Spec Plan | Review by Brother | 2009-08 | Small Plan
-====================================================================
+﻿Encircle Language Spec Plan | Review by Brother | 2009-08 | Small Plan
+======================================================================
 
 
 Parent Project
 --------------
 
-*Circle Language Spec*
+*Encircle Language Spec*
 
 
 Goal
@@ -16,7 +16,7 @@ Goals I have with letting my brother review the material are:
 - Check accessibility of material
 - Get an opinion about the material
 
-*The review used to have notes about topics not in scope of the Circle Language Spec. Notes about that were moved to another document.*
+*The review used to have notes about topics not in scope of the Encircle Language Spec. Notes about that were moved to another document.*
 
 
 What Do I Expect?
@@ -44,14 +44,14 @@ General Planning
         but most of it is accessible and finished  
         It is all sort of a secret. Do not go off to companies, or put details about it on the internet.  
         ‘Code name’ for the new computer language is ‘the new computer language’.  
-        The eventual names I have in mind are: Circle for the new computer language.
+        The eventual names I have in mind are: Encircle for the new computer language.
     - Let my brother discover the material for himself,  
       to check if the material is easily accessible.
     - But soon start showing him the main projects and the main products.
     - Specific things to show:
         - Project plans: __(4)__
-            - Circle Language Spec, Project Steps & Time Planning
-            - Circle Language Spec, Goal & Approach
+            - Encircle Language Spec, Project Steps & Time Planning
+            - Encircle Language Spec, Goal & Approach
         - Documentation: __(2)__
             - Code
                 - Basic Diagram Elements

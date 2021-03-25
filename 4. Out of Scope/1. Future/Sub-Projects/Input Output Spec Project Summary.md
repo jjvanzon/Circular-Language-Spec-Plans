@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Input Output Spec | Project Summary
-===============================================================
+﻿Encircle Language Spec Plan | Input Output Spec | Project Summary
+=================================================================
 
 *December, 2008*
 

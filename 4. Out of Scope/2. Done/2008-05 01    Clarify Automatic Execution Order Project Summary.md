@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Clarify Automatic Execution Order | 2008-05 | Project Summary
-=======================================================================================
+﻿Encircle Language Spec Plan | Clarify Automatic Execution Order | 2008-05 | Project Summary
+=========================================================================================
 
 
 Super-Project
