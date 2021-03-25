@@ -45,13 +45,13 @@ Circle Language Spec tries to describe it.
     - [x] Splitting off Planning Docs for Circle language into a separate git repository.
 - [x] Publishing to GitHub
 - [x] Converting from Word to MarkDown.
-- [ ] __Folder reorganization__
-    - [x] Reorganizing Planning Docs
+- [x] Folder reorganization
+    - [ ] Reorganizing Planning Docs
     - [x] Reorganizing "Circle Docs" roughly
     - [x] Reorganizing "Spec" roughly
-    - [ ] ~ Reorganizing "Broader View" roughly
-    - [ ] ~ Reorganizing "Construct Drafts" roughly
-    - [ ] ~ Moving topics out of "Spec"
+    - [x] Reorganizing "Broader View" roughly
+    - [x] Reorganizing "Construct Drafts" roughly
+    - [x] Moving topics out of "Spec"
 - [ ] .. Milder tone
     - [ ] .. Less resolute language, more wiggle room
     - [ ] .. (Perhaps search for definites such as 'have to', 'must', 'will', 'should', 'very'.)
@@ -141,13 +141,27 @@ TODO
 - [x] Just publishing it?
 - [x] Durable links:
     - [x] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
-- [ ] __Replacing swear words ("Symbol Language (2004).md")__
-- [ ] The name "Circle" is in use by a similar product. Should I rename? And to what?
-    - [ ] "Symbol"?
-    - [ ] "Encircle"?
-    - [ ] "JJ's Computer Language"?
-    - [ ] "JJ's Visual Language"?
-    - [ ] Code name "This Computer Language"?
+- [x] Replacing swear words
+- [ ] The name "Circle" is used by a similar product. Should I rename? And to what?
+    - [ ] "Encircle"
+    - [x] ~~Considered alternatives: "Symbol" / "JJ's Computer Language" / "JJ's Visual Language" / "This Computer Language".~~
+    - [x] In main repo:
+        - [x] Replacing "Circle" with "Encircle" in content
+        - [x] Replacing "circle" with "encircle" in content
+        - [x] Replacing "Circle" with "Encircle" in doc file names
+        - [X] Correcting heading layout
+        - [x] Replacing "Encircle 3" and with "Circle 3"
+        - [x] Double-checking occurrences of "Encircle"
+        - [x] Searching for "a Encircle" and correcting to "an Encircle" (and for "a *Encircle*" as well)
+    - [ ] In planning docs repo:
+        - [ ] Replacing "Circle" with "Encircle" in content
+        - [ ] Replacing "circle" with "encircle" in content
+        - [ ] Replacing "Circle" with "Encircle" in doc file names
+        - [ ] Correcting heading layout
+        - [ ] Correcting table layouts
+        - [ ] Double-checking occurrences of "Encircle"
+    - [ ] Renaming the repo's
+    - [ ] Merging changes
 
 Done
 ----
@@ -2538,16 +2552,16 @@ Postponed
 
 ### 2021-03-23 Postponed Rough Content Reorganization
 
+- [ ] Planning docs reorganization:
+    - [ ] Splitting up Revamp project into topics.
+    - [ ] Merging together goals of Revamp project with Main Project.
+    - [ ] Removing (totally) out-of-scope topics to Archive.
 - [ ] ~ Moves to "Implementations"
 - [ ] All pointer topics to Pointers.
 - [ ] All Text Code topics to single place.
 - [ ] Replacing the name: "new computer language" with "Circle programming language" or "Encircle".
 - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
 - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
-- [ ] Planning docs reorganization:
-    - [ ] Splitting up Revamp project into topics.
-    - [ ] Merging together goals of Revamp project with Main Project.
-    - [ ] Removing (totally) out-of-scope topics to Archive.
 - [ ] ->.. Replacing "Concept" with "Aspect"
     - [ ] I have difficulty with this. 
     - [ ] Only part of the occurrences seem replaceable.
