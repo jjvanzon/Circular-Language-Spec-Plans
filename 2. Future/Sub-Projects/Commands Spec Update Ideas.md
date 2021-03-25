@@ -1,4 +1,4 @@
-Circle Language Spec Plans
+Encircle Language Spec Plans
 ==========================
 
 Commands Spec Update Ideas

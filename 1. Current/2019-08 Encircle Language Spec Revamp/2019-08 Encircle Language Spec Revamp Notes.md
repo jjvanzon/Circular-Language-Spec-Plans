@@ -1,16 +1,16 @@
-﻿Circle Language Spec Revamp Notes 2019-08
-=========================================
+﻿Encircle Language Spec Revamp Notes 2019-08
+===========================================
 
 Project Outline
 ---------------
 
 ### Introduction
 
-Circle is an unfinished programming language.
+Encircle is an unfinished programming language.
 
 I spent a significant portion of spare time in my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
 
-Circle Language Spec tries to describe it.
+Encircle Language Spec tries to describe it.
 
 ### Goals
 
@@ -18,36 +18,36 @@ Circle Language Spec tries to describe it.
     - [ ] Work on project that seems to matter.
     - [ ] Keep my head occupied with something else.
 - [x] 'Hard' goals:
-    - [x] Isolate the Circle Language docs from the rest of the docs.
-    - [x] Open source the Circle Language docs.
+    - [x] Isolate the Encircle Language docs from the rest of the docs.
+    - [x] Open source the Encircle Language docs.
 - [ ] ~ Low priority:
     - [ ] ~ Get the documents in a state better accessible for others.
 
 ### Steps
 
 - [x] Reorganizing
-    - [x] Converted Circle Docs version folders to source control history.
+    - [x] Converted Encircle Docs version folders to source control history.
     - [x] Converted Planning Docs version folders to source control history.
 - [x] Reorientation
     - [x] Reading Planning Docs sequentially.
 - [x] Scoping
-    - [x] Splitting "Software System" / "Circle Language"
-    - [x] Splitting "Circle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
+    - [x] Splitting "Software System" / "Encircle Language"
+    - [x] Splitting "Encircle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
         - [x] Ideas.doc too
-    - [x] Splitting 'in scope' / 'out of scope' for Circle Language topics.
+    - [x] Splitting 'in scope' / 'out of scope' for Encircle Language topics.
     - [x] Splitting up 'phases in life' in planning docs.
     - [x] Removed studying goals.
     - [ ] ... Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
-        - [x] Circle-Language-Spec repository
-        - [ ] ~ Circle-Language-Spec-Plans repository
+        - [x] Encircle-Language-Spec repository
+        - [ ] ~ Encircle-Language-Spec-Plans repository
 - [x] Separating git repositories:
-    - [x] Splitting off Circle language docs into a separate git repository.
-    - [x] Splitting off Planning Docs for Circle language into a separate git repository.
+    - [x] Splitting off Encircle language docs into a separate git repository.
+    - [x] Splitting off Planning Docs for Encircle language into a separate git repository.
 - [x] Publishing to GitHub
 - [x] Converting from Word to MarkDown.
 - [x] Folder reorganization
     - [ ] Reorganizing Planning Docs
-    - [x] Reorganizing "Circle Docs" roughly
+    - [x] Reorganizing "Encircle Docs" roughly
     - [x] Reorganizing "Spec" roughly
     - [x] Reorganizing "Broader View" roughly
     - [x] Reorganizing "Construct Drafts" roughly
@@ -59,8 +59,8 @@ Circle Language Spec tries to describe it.
 - [ ] ~ Including hour sheet
     - [ ] ~ (Extracting from hour sheet about multiple projects)
 - [ ] ~ Improving Planning Docs:
-    - [ ] ~ Splitting "Circle Language Spec Revamp Notes" into a document per topic.
-- [ ] ~ Improving Circle Language Spec:
+    - [ ] ~ Splitting "Encircle Language Spec Revamp Notes" into a document per topic.
+- [ ] ~ Improving Encircle Language Spec:
     - [x] Reduce the number of articles, grouping topics together.
     - [x] Turn separate Concept / Diagram / Text Code articles into one.
     - [ ] .. Loose ideas (regroup or clear out)
@@ -95,7 +95,7 @@ Circle Language Spec tries to describe it.
     - [ ] Use common IT terms
     - [ ] Write unfinished articles
     - [ ] Is it a *notation* or is it a *run-time*?
-        - [ ] (Texts might insist that Circle is a run-time, while the notation might be the main point of things.)
+        - [ ] (Texts might insist that Encircle is a run-time, while the notation might be the main point of things.)
     - [ ] Over-awareness of pointers?
 
 ### Scope
@@ -110,7 +110,7 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 - [x] ~~Implementations~~
 - [x] ~~Creator projects~~
 - [x] ~~Precise underlying rules~~
-- [x] ~~Stand-alone Circle programming environment~~
+- [x] ~~Stand-alone Encircle programming environment~~
 - [x] ~~What apps might be programmed in it?~~
 - [x] ~~Could this run as a stand-alone OS?~~
 
@@ -154,7 +154,7 @@ TODO
         - [x] Double-checking occurrences of "Encircle"
         - [x] Searching for "a Encircle" and correcting to "an Encircle" (and for "a *Encircle*" as well)
     - [ ] In planning docs repo:
-        - [x] Replacing "Circle" with "Encircle" in content
+        - [ ] __Replacing "Circle" with "Encircle" in content__
         - [ ] Replacing "circle" with "encircle" in doc file names ~~(and links to them)~~
         - [ ] Correcting heading layout
         - [ ] Correcting table layouts
@@ -266,29 +266,29 @@ Done
 - [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm… If I didn't mention the source information it would not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down… not sure. > It think this is an unreasonable doubt.~~
 - [x] "Relational Structure"
     - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name.
-    - [x] I think I would be better off removing that document from the Circle-Language-Spec repository.
-- [x] Renaming Circle-Language-Spec-Plan to Circle-Language-Spec-Plans (plural).
+    - [x] I think I would be better off removing that document from the Encircle-Language-Spec repository.
+- [x] Renaming Encircle-Language-Spec-Plan to Encircle-Language-Spec-Plans (plural).
 - [x] Reorganizing Broader View and Construct Drafts knowing they would also be published?
 
 ### 2020-02-03 Done Notes Planning Docs Git Migration
 
-- [x] Isolating a git repository with just the Circle Docs planning out of a git repository with planning docs of misc subjects.
+- [x] Isolating a git repository with just the Encircle Docs planning out of a git repository with planning docs of misc subjects.
 - [x] Combining parts into 1 script,
 - [x] Rerunning scripts on the very latest version.
 - [x] Do checks by sampling.
     - [x] KDiff lists of files in history of previous and new run.
         - [x] I see newer files appear in the new list.
-    - [x] Checking out some commits and KDiff working folder of Circle-Language-Spec-Plan and JJs-Planning-Docs.
-    - [x] Use Visual Studio checking 'by hand' the histories of some files compared between Circle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Use Visual Studio checking 'by hand' the histories of some files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
 - [x] Archived things in JJs-Planning-Doc.
-- [x] Organizing Circle-Language-Spec-Plan (e.g. moving lost topics to an appropriate spot).
+- [x] Organizing Encircle-Language-Spec-Plan (e.g. moving lost topics to an appropriate spot).
 
 ### 2020-02-03 Done Planning Docs Git Migration
 
 - Folders in current version:
-    - \Circle Language Spec Plan
-    - \Other\2. Future\Postponed\1. Circle Language Spec (Out of Scope)
-    - \Other\3. Done\2008 - 2008 Circle Language Spec (Out of Scope)
+    - \Encircle Language Spec Plan
+    - \Other\2. Future\Postponed\1. Encircle Language Spec (Out of Scope)
+    - \Other\3. Done\2008 - 2008 Encircle Language Spec (Out of Scope)
 - [x] Might try to strip a git repository's major parts that are out of scope, just as a start.
     - [x] Scripted
     - [x] Ran
@@ -300,8 +300,8 @@ Done
 - [x] Rerun
 - [x] Checking:
     - [x] KDiff lists of files in history of previous and new run.
-    - [x] Use Visual Studio checking 'by hand' the histories of each files compared between Circle-Language-Spec-Plan and JJs-Planning-Docs.
-    - [x] Checking out some commits and KDiff working folder of Circle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Use Visual Studio checking 'by hand' the histories of each files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
 - [x] ~~Try removing content with my brother's first name in it.~~
 
 ### 2019-02-08 Done Git Migration: My Brother's First Name
@@ -309,8 +309,8 @@ Done
 - [x] Is in some sub-project planning doc.
 - [x] I can take it out of the current version.
 - [x] Should I ask him if he is OK with it staying in the source control history or if he wants it out of there?
-- [x] Also in "2009-06 01 Circle Language Spec Plan Part B, Sub-Projects" his first name is mentioned.
-- [x] I may be better off removing some items of history from Circle-Language-Spec-Plan completely for this purpose.
+- [x] Also in "2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects" his first name is mentioned.
+- [x] I may be better off removing some items of history from Encircle-Language-Spec-Plan completely for this purpose.
 - [x] There is also a split up between a doc for 'in-scope' and one for 'out-of-scope'.
 - [x] It is even in this document. This is really difficult to unravel. I think I can't without harming the integrity of the change history.
 - [x] I think I am better off asking my brother. If there was an easy option to take it out without harming the change history…
@@ -318,18 +318,18 @@ Done
 
 ### 2020-12-03 Done Git Migration: Removing "Creator"
 
-- [x] Considering removal of Creator 0.4 and 0.9 from Circle-Docs.
+- [x] Considering removal of Creator 0.4 and 0.9 from Encircle-Docs.
 - [x] Removing more seems doable with a smaller additional run at the end.
-- [x] I am quite unsure about involving the "Creator" topics. I once thought I might merge Creator and Circle Language into one. But now I think Creator might be much about framework (code generation, aspects, generated user interfaces). Framework was deemed out of scope. I am unsure, because the topics of Creator and Circle Language seems to overlap.
+- [x] I am quite unsure about involving the "Creator" topics. I once thought I might merge Creator and Encircle Language into one. But now I think Creator might be much about framework (code generation, aspects, generated user interfaces). Framework was deemed out of scope. I am unsure, because the topics of Creator and Encircle Language seems to overlap.
 - [x] Creator may partially be about programming language, but a lot might be considered better solvable by a framework/library solution. So this seems ambiguous.
-- [x] Creator 0.4 and 0.9 would be code generator / aspects / framework, while Creator 2.0 looks more like a bit a programming language. It has a text code and a parser and everything. But I guess a totally different programming language than Circle. Perhaps Creator 0.4 and 0.9 should be moved to framework , ~~while Creator 2.0 is actually more in scope as a programming language.~~
-- [x] Reading the Creator documentation I start having doubts. How would relational / aspect oriented look in Circle? If Circle could harbor constructs that make it possible to program things as was dreamed about with Creator, then would the goal Symbol = Creator be reached? And how would it look? I think I would have a way to define aspects in a general sense. I do not seem to know how yet precisely. Nor do I seem to have the time / priority / ability to work it out. ~~So in the meantime it seems Creator should still be part of this.~~
-- [x] I believe I saw in plans and documentation that comparing Creator with Circle actually seems to have enriched Circle the language. Concretely with multiplicity, creation/destruction/new/annul/null, a notation for bidirectional relations, reflection and extension ideas. Also some ideas that might only have complicated things a bit, that I was not quite able to work out (perhaps less recognizable ideas like: "automatic containment" and "flat & structure interchange"). I believe that the future Creator ideas could inspire more enrichment of the Circle language. Perhaps with aspect oriented and more system extensions features, I was once thinking about. I just cannot picture it yet. I think it might be best to leave that an open question and keep the Creator documentation involved in this repository, perhaps for future inspiration. > I might see it more like one system being inspiration for another. The planning also excluded Creator 2.0, so perhaps the product documentation should too. I think the article Symbol = Creator would introduce that idea. So I may leave that in there.
+- [x] Creator 0.4 and 0.9 would be code generator / aspects / framework, while Creator 2.0 looks more like a bit a programming language. It has a text code and a parser and everything. But I guess a totally different programming language than Encircle. Perhaps Creator 0.4 and 0.9 should be moved to framework , ~~while Creator 2.0 is actually more in scope as a programming language.~~
+- [x] Reading the Creator documentation I start having doubts. How would relational / aspect oriented look in Encircle? If Encircle could harbor constructs that make it possible to program things as was dreamed about with Creator, then would the goal Symbol = Creator be reached? And how would it look? I think I would have a way to define aspects in a general sense. I do not seem to know how yet precisely. Nor do I seem to have the time / priority / ability to work it out. ~~So in the meantime it seems Creator should still be part of this.~~
+- [x] I believe I saw in plans and documentation that comparing Creator with Encircle actually seems to have enriched Encircle the language. Concretely with multiplicity, creation/destruction/new/annul/null, a notation for bidirectional relations, reflection and extension ideas. Also some ideas that might only have complicated things a bit, that I was not quite able to work out (perhaps less recognizable ideas like: "automatic containment" and "flat & structure interchange"). I believe that the future Creator ideas could inspire more enrichment of the Encircle language. Perhaps with aspect oriented and more system extensions features, I was once thinking about. I just cannot picture it yet. I think it might be best to leave that an open question and keep the Creator documentation involved in this repository, perhaps for future inspiration. > I might see it more like one system being inspiration for another. The planning also excluded Creator 2.0, so perhaps the product documentation should too. I think the article Symbol = Creator would introduce that idea. So I may leave that in there.
 
 ### 2021-01-16 Done Git Migration
 
-- [x] Checkout a more recent commit and compare in KDiff the whole folder of Circle-Docs and Software-System-Docs.
-- [x] Moving around things in Circle-Docs
+- [x] Checkout a more recent commit and compare in KDiff the whole folder of Encircle-Docs and Software-System-Docs.
+- [x] Moving around things in Encircle-Docs
 - [x] Archiving things in Software-System-Docs
 
 ### 2020-01-16 Done Git Migrations
@@ -346,9 +346,9 @@ Done
         - [x] I was insecure about the first few commits. History does not seem to map back easily to those first few commits. ("Version 2008-07-13 XX: Before ordering it more by how you read it" seems the 'terminator' quite frequently.)
 - [x] More laborious checks?
     - [x] Checking each remaining file for completeness of history
-        - [x] 1.1. Circle Language Spec
-        - [x] 1.2. Circle Constructs Drafts
-        - [x] 1.3. Circle Broader View
+        - [x] 1.1. Encircle Language Spec
+        - [x] 1.2. Encircle Constructs Drafts
+        - [x] 1.3. Encircle Broader View
         - [x] 2. Framework
         - [x] 3. Operating System
         - [x] 5. Archive
@@ -359,7 +359,7 @@ Done
 - [x] Possible plan for next run:
     - [x] Scripting with new corrections.
     - [x] Running new script.
-    - [x] Random sampling some check-outs (+ folder diffs between Circle-Docs and Software-System-Docs).
+    - [x] Random sampling some check-outs (+ folder diffs between Encircle-Docs and Software-System-Docs).
     - [x] Random sampling of history of single files.
     - [x] Comparing 'before' and 'after' file lists.
 
@@ -386,7 +386,7 @@ I also do not seem to have inspected the total file list from history yet.
 
 - [x] Outline:
     - [x] It currently seems to be part of a Software System Docs repository.
-    - [x] The parts about Circle might be isolated into a separate Git Repository.
+    - [x] The parts about Encircle might be isolated into a separate Git Repository.
     - [x] With history intact.
     - [x] By copying the Software System Docs repository and stripping it down.
 - [x] NOTE:
@@ -397,8 +397,8 @@ I also do not seem to have inspected the total file list from history yet.
     - [x] "2019-12-29 Done Brainstorm Scope (Useful)"
     - [x] "2019-08-05 Brainstorm Open Source"
     - [x] Those still may not scope things clearly.
-    - [x] (Seems about Circle Language Spec vs 'the rest'.)
-    - [x] (I am looking for Circle Docs    vs 'the rest' now. (Circle Docs = language spec + construct drafts + broader view)
+    - [x] (Seems about Encircle Language Spec vs 'the rest'.)
+    - [x] (I am looking for Encircle Docs vs 'the rest' now. (Encircle Docs = language spec + construct drafts + broader view)
     - [x] Just winging it for now.
     - [x] Maybe define scope sharply later.
     - [x] May do multiple runs until it seems right.
@@ -472,7 +472,7 @@ I also do not seem to have inspected the total file list from history yet.
     - [x] "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
 - [x] Can remove:
     - [x] "1. Language/1. Language/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
-    - [x] "10. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+    - [x] "10. Encircle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
     - [x] "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
     - [x] "02. Code/3. Coding Concepts/05. System Objects/XXXX-XX-XX XX/60. Connectors/~WRL3057.tmp"
     - [x] "02. Code/3. Coding Concepts/11. Interfaces/2010-05-07 XX    0.95/1. Introduction/~WRL1420.tmp"
@@ -522,7 +522,7 @@ I also do not seem to have inspected the total file list from history yet.
 - [x] Collapsing individual picture file removals into more whole folder removals.
 - [x] Keeping index pages:
     - [x] In the area of 'broader view' perhaps.
-    - [x] With the general idea how it might work in Circle.
+    - [x] With the general idea how it might work in Encircle.
 - [x] "Integration" / "Legacy" (index pages)
     - [x] For instance: "2. Framework\0. Language\2. Integration\Integration.doc"
     - [x] Gathering paths.
@@ -562,8 +562,8 @@ I also do not seem to have inspected the total file list from history yet.
 - [x] Commands Main Concepts article:
     - [x] A lot seems to be hung up on definition of words and expression of concepts from other languages.
     - [x] But I think just the concepts and notation could become more centric.
-    - [x] From those concepts and notation might follow how existing constructs in the world might have a (unique?) expression in Circle.
-    - [x] I might want to take the reader along with *that* idea. A smaller set of elements in Circle might translate to a larger set of constructs known from other languages.
+    - [x] From those concepts and notation might follow how existing constructs in the world might have a (unique?) expression in Encircle.
+    - [x] I might want to take the reader along with *that* idea. A smaller set of elements in Encircle might translate to a larger set of constructs known from other languages.
 - [x] My main concern is that I do not like that much the main structure upon which the text is laid out.
     - [x] The current structure is based on constructs and rules from other languages.
     - [x] It is my opinion that that is not an impractical subdivision.
@@ -598,7 +598,7 @@ I also do not seem to have inspected the total file list from history yet.
     - [x] I might evaluate its state.
 - [x] The other things may be:
     - [x] Topics that may have been already covered by the new beginning.
-    - [x] Topics that might be details that had better be put in Circle Broader View.
+    - [x] Topics that might be details that had better be put in Encircle Broader View.
     - [x] Topics might be details that are unrequired, might cloud the main point. They might be removed.
     - [x] Details that might be kept in this chapter, but given more of a place at the bottom, rather than the top. Maybe even split it off as a separate chapter to keep this chapter 'clean'.
 - [x] Stereotyping text fragments.
@@ -618,7 +618,7 @@ I also do not seem to have inspected the total file list from history yet.
     - [x] << parameters >>
 - [x] I seem to be having difficulty judging how to stereotype pieces of texts. Perhaps reading over the 'main' again would help.
 - [x] Clause issues:
-    - [x] Clause might be displayed as a command reference. In-line command definitions is what it looks like now. You might not see the difference between code blocks other than a clause seems nameless, which is sort of not necessarily true. In Circle it does not seem to matter much, but to compare it to other languages, distinction might be sort of important for the explanation.
+    - [x] Clause might be displayed as a command reference. In-line command definitions is what it looks like now. You might not see the difference between code blocks other than a clause seems nameless, which is sort of not necessarily true. In Encircle it does not seem to matter much, but to compare it to other languages, distinction might be sort of important for the explanation.
     - [x] I could do the same correction to the Lambda Expression section.
     - [x] Maybe build up step by step in images would be better?
     - [x] I start doubting myself here and it is difficult for me now.
@@ -668,7 +668,7 @@ Misc Issues:
     - [x] There may be some naming purism that might have slipped in, which might be sort of subjective. Would "Get Object" not read more easily instead of "Object Get"? Ease in conveying the idea might be a good argument to write it that way. Fortunately no choice is set in stone anymore, which seems a bit of relief, meaning: even if you would name it Object Get later for some reason, stating it differently now, would not stand the main idea in the way. I may not have been entirely conscious of that when I wrote it. I was looking for rules to hold on to in a perhaps complicated task. I get it. But the idea can relax now.
     - [x] Might do for whole chapter.
     - [x] But skipping the images?
-    - [x] ~~Might not include the Circle Construct Draft version?~~
+    - [x] ~~Might not include the Encircle Construct Draft version?~~
     - [x] Done for System Objects article.
     - [x] Done for Assignment article.
     - [x] Done for System Command Call Notations article
@@ -689,7 +689,7 @@ Misc Issues:
 
 ### 2020-07-21 Done Content Changes for System Command Call Notations Article
 
-- [x] Assignment direction might be reversed in the section "Explicit Get & Set Argument Notation". > Checked    both Circle Language Spec and Circle Construct Drafts.
+- [x] Assignment direction might be reversed in the section "Explicit Get & Set Argument Notation". > Checked both Encircle Language Spec and Encircle Construct Drafts.
 - [x] Add a sentence? The "Explicit Get & Set" section goes into notations of the New and Add commands as well, even though the title of the section may not say it. Change the title? Or excuse it in the content?
 
 ### 2020-07-21 Done Content Changes for System Command Call Notations Article
@@ -701,11 +701,11 @@ Misc Issues:
 - [x] I seem to not have scanned them yet.
 - [x] Might cut and paste images from the paper scans into the "Explicit Get & Set" section.
 - [x] I might go to a next step, which might be adding the next section, based on the original text, but then changed to the currently preferred notation.
-- [x] I seem to be missing the original pictures in the original notation of Explicit Get & Set (with Arguments). Did I remove them, or did they never exist? I think I accidentally removed them and did not keep them in Circle Construct Drafts. I might look in the source control history trying to get them back for sort of archival purposes.
+- [x] I seem to be missing the original pictures in the original notation of Explicit Get & Set (with Arguments). Did I remove them, or did they never exist? I think I accidentally removed them and did not keep them in Encircle Construct Drafts. I might look in the source control history trying to get them back for sort of archival purposes.
 - [x] Found part of it in a previous version of… going back in history on the main doc, might lead to the actual original instead of an already altered one.
 - [x] It seems there was no systematic overview of any system interface call with explicit arguments in the version before. So I sort of went on a ghost hunt.
-- [x] Might there be things I want to polish up about the Circle Construct Drafts version up until the "Explicit Argument Notation"?
-- [x] There are some 'orange' markings left for extensions with more content, but I might not are much about that currently, because I chose to focus on Circle Language Spec and leave Circle Construct Drafts in a bit of a 'drafty' state if I must.
+- [x] Might there be things I want to polish up about the Encircle Construct Drafts version up until the "Explicit Argument Notation"?
+- [x] There are some 'orange' markings left for extensions with more content, but I might not are much about that currently, because I chose to focus on Encircle Language Spec and leave Encircle Construct Drafts in a bit of a 'drafty' state if I must.
 - [x] Clone in the "Explicit Get & Set" section seems to be missing its depth arguments.
 - [x] Explicitly drawn out assignment command:
     - [x] Made scaffolding to be finished up.
@@ -775,7 +775,7 @@ It may be worth to reconsider. Maybe the indicated direction in the assignment n
 - [x] How this assignment/result direction flip problem came to be might be that at first there might only have been value assignment notation where it seemed to make sense. Then e.g. object assignment may have been derived from that, which may have introduced this assignment/result direction flip problem. Did I introduce a new problem working backwards? Does assignment notation direction not make sense for the value assignment notation, or is it just something I might be used to? Especially when I replace it with an actual arrow? My attempt here is to introduce more consistency. Formerly I think I tried to introduce intuitiveness over consistency, which might be a contradiction. Consistency might lead to more intuitiveness.
 - [x] Consider not making an exception for the value aspect, that the call symbol might not be shown. The main reason that it might still be an idea to not show the diamond in a value assignment, might be because if value correspondence would have a direction, what else could it be but a value assignment. I might just not entirely agree that a value line should always mean assignment, because then you lose something: the possibility to differently express value assignment from value correspondence.
 - [x] Perhaps show the result of an assignment next to the assignment call.
-- [x] "Because assignments might be so common, they might be given an implicit, simplified notation in Circle."
+- [x] "Because assignments might be so common, they might be given an implicit, simplified notation in Encircle."
 - [x] Using the words 'source' and 'target' might not lead to an intuitive story.
 - [x] Once I invert the assignment direction notation cross-aspect assignment notation seems to fall apart? > No still has some intuitiveness to it, is my opinion.
 
@@ -817,7 +817,7 @@ It may be worth to reconsider. Maybe the indicated direction in the assignment n
 ### 2020-07-01 Done Content Changes for System Objects Chapter
 
 - [x] The chapter starts as if it is a run-time.
-- [x] "if Circle would function more like a stand-alone language, rather than mostly a diagram notation"
+- [x] "if Encircle would function more like a stand-alone language, rather than mostly a diagram notation"
 - [x] The Related Items and Related Lists collections inside the System Interface might be handy for reflective/aspect oriented/relational model logic. But in essence you might only need one collection of 'sub-objects' (that term might questionable). Possibly, certain characteristics that a sub-object might have could turn it into a Related Item, Related List or perhaps even an Attribute. And commands, etc. There may be one 'bag' of sub-items, while you may query for ones with certain characteristics. A set of those queries could be: Commands, Items, Lists or Attributes. But at least 2 times now I guess I changed my mind about the subdivision of those 'queries'. It looks like the .NET Type type with its members like Properties, Methods, etc.? That parallel feels nice. These might even be framework extensions. I wonder how to present this. Presenting alternatives. Leaving in this design choice or changing it? It should maybe be one of the use cases of the system interfaces. I think those might deserve mentioning. That this reflective data might be used for software design based on a relational model if you just see it as Related Lists and Related Items, that might be nice. But due to the detailed construct subdivisions that commands might cause, the view on the relational design might be lost if you do not put some sort of filter over it, that excludes maybe anything going on inside a command. These are just options. I would like to explore them. I am not sure if this would make the text unnecessarily long. Let's just see.
 - [x] I think I like the way the specific approach might shed light on flexibilities, because it could mean openness to alternative ideas, at the same time expressing that other variations are also possible too. Even though things in System Objects might seem specific implementation issues, I tend to want to keep all of that in there, because it seems a nice demonstration of how things might be (on a deeper level?)
 - [x] In the System Object article, there seems prominence of the 1 and n multiplicity concepts, that might only be interesting once you start talking about relationships or reflection or aspect oriented programming.
@@ -827,7 +827,7 @@ It may be worth to reconsider. Maybe the indicated direction in the assignment n
     - [x] The reason is that the terminology seems to get dizzying and confusing. For instance sort of clashing visually with terms like "Class Redirection" and "Class Reference" (already sort of ambiguous).
 - [x] I frequently have the opinion that some texts may have design choices not necessarily relevant to the notation design, that are presented as hard rules, while I could perhaps think of a few alternatives from the top of my head. Just admitting it is not set in stone might help. / (Perhaps leaving base code design / the design of a run time out of the story somehow, might help? I am not sure.) The example that is given might help, because it might give pointers towards various things you might use a system interface for, ideas that might otherwise not be considered, and perhaps relevant to the purpose in mind with system interfaces. Something that could be considered, though, is to then not try to design a perfect base code in writing, but to make some things simpler on purpose, since this seems for demonstration purposes, rather than to formulate a fixed set of rules anymore.
 - [x] Clone (2) seems a practical variation on the value aspect, because the case where there is a parent object, whose child objects are values or reference and those elements together might need a copy ('MemberwiseClone'). The value aspect might only copy a parent object's value, which it might not even have, just through its sub-objects/child value objects. But the depth parameter might be a bit creative. I think expressing this use case (maybe a bit more concisely than above), might help appreciate that the idea is proposed.
-- [x] The Execute aspect might be more generically applicable. In the section "Execute Aspect in the System Interface" I might say any object in Circle might become executable, instead of fixating on an object's definitely being a command or not.
+- [x] The Execute aspect might be more generically applicable. In the section "Execute Aspect in the System Interface" I might say any object in Encircle might become executable, instead of fixating on an object's definitely being a command or not.
 - [x] "The System Objects" section:
     - [x] I find terminology introduced dubious and ambiguous. For instance: related item would be a pointer, related object would be an undecorated object pointer: what would the difference be? The Related Item makes the connection with its parent. But how does the term Related Item even mean that? I just seemed to have picked some words and assign meaning to it. I think maybe the meaning of the terms could be kept pure. I might not need to abuse the term 'Related Item' in order to define that a parent object manages the relationships with its related objects. Item and object are almost synonymous, but as I translate that to terms related item and related object, all of a sudden they change meaning? Nah, not a great plan perhaps. I just wonder then: How am I supposed to present it then? They do seem clearly distinct concepts, just not clearly distinct terminology. This might be an age old problem in computer programming: finding good names. Basically the concept of 'wrapping a pointer' may need a name. Maybe Related Item wraps a Reference or is that abusing terminology again? Maybe not if you do not try to define a term but just say the concept the parent manages the connection to the related item, and that a Related Item might wrap a reference to the related object.
     - [x] Could I just pick a term and then say: these are all basically synonyms?
@@ -886,7 +886,7 @@ Plan:
 
 ### 2020-06-19 Done Brainstorm Bidirectional Relationship Notation
 
-I have some difficulty dealing with the following: I do not seem to have much hope anymore for the double-dashed bordered ring notation that would be proposed in the current text. I tend to like the explicit two line notation with a relational ring around it. I now 'fail' to see how that would be more convoluted. The double-bordered ring seems a tiny bit far fetched in its being derived from *automatic containment*, which does not seem to be part of the Circle Language Spec anymore. The derivation might be also difficult to understand without background about this difficult topic of automatic containment, which was (temporarily?) abandoned over its complexity and unresolved issues. (Might be an idea for the future, but not now was the current thought.) I am now failing to see how merging the lines together would create clarity or terseness. It was supposed to be easier on the eyes, less detail, for something that was supposed to be used all over the place. I am not so convinced it will be used all over the place, and not so convinced that the notation proposed is clearer. I like the lines to be a bit purer in what they express, as in, aspect correspondence. I, and maybe others at some point, might be confused that line connections change meaning just like that. I sort of like that you can see that the relationship from an OO point of view looks like two properties closely related. That's quite some talk about why I am not convinced about this notation.
+I have some difficulty dealing with the following: I do not seem to have much hope anymore for the double-dashed bordered ring notation that would be proposed in the current text. I tend to like the explicit two line notation with a relational ring around it. I now 'fail' to see how that would be more convoluted. The double-bordered ring seems a tiny bit far fetched in its being derived from *automatic containment*, which does not seem to be part of the Encircle Language Spec anymore. The derivation might be also difficult to understand without background about this difficult topic of automatic containment, which was (temporarily?) abandoned over its complexity and unresolved issues. (Might be an idea for the future, but not now was the current thought.) I am now failing to see how merging the lines together would create clarity or terseness. It was supposed to be easier on the eyes, less detail, for something that was supposed to be used all over the place. I am not so convinced it will be used all over the place, and not so convinced that the notation proposed is clearer. I like the lines to be a bit purer in what they express, as in, aspect correspondence. I, and maybe others at some point, might be confused that line connections change meaning just like that. I sort of like that you can see that the relationship from an OO point of view looks like two properties closely related. That's quite some talk about why I am not convinced about this notation.
 
 It sort of feels wrong to put effort into texts about a notation I do not seem to like that much anymore.
 
@@ -948,7 +948,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 
 ### 2020-06-15 Done Scoping/Changing Relationships Sections
 
-- [x] I feel there might be details of the Relationship chapter that may be postponed to Circle Construct Drafts or Circle Broader View or something.
+- [x] I feel there might be details of the Relationship chapter that may be postponed to Encircle Construct Drafts or Encircle Broader View or something.
 - [x] I feel that the relationships chapter could introduce the notation, maybe descriptions of the concept, what it is about, what it is for. Maybe how it could be applied. Something about a relationship being bidirectional and the the two ends of the relationship can be kept in sync.
 - [x] The sub-topics and what might be done with them:
     - [x] Relationships Between Classes
@@ -974,7 +974,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 - [x] The Relationships chapter is larger than the Classes chapter.
 - [x] I feel uneasy going through the text marking trigger words in red. It is a lot of text, and it sort of feels like wasted energy sometimes.
 - [x] For subjects to postpone I might not value trigger word marking as much as texts I might use at an earlier time.
-- [x] I had an uneasy feeling like that when I went through the Classes chapter. Eventually I feel I have boiled the Classes down to something more close to core of the subject and postponed half of the content to Circle Broader View.
+- [x] I had an uneasy feeling like that when I went through the Classes chapter. Eventually I feel I have boiled the Classes down to something more close to core of the subject and postponed half of the content to Encircle Broader View.
 - [x] I think I might do something similar with the Relationships chapter.
 - [x] I saw implementation details in the text. I saw some concepts, that either might be out of scope or maybe have a place in the System Objects chapter.
 - [x] I do not feel that rewording things is wasted energy as a whole.
@@ -985,7 +985,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 - [x] (I think I should rename relation to relationships, since it seems a more common thing to call it.)
 - [x] Sub-topics and what might be done with them:
     - [x] Referrers
-        - [x] Perhaps move to System Objects or otherwise to Circle Construct Drafts or maybe Circle Broader View?
+        - [x] Perhaps move to System Objects or otherwise to Encircle Construct Drafts or maybe Encircle Broader View?
     - [x] Class Referrers
         - [x] Probably the same as above.
     - [x] Relationships between Classes:
@@ -997,29 +997,29 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
     - [x] Bidirectional relationships
         - [x] Describes some points of view from a software design perspective I guess.
         - [x] Then goes into that Relationships sort of are bidirectional relationships, which maybe is not a given, so maybe I might not say it that way and may reformulate this.
-        - [x] The Diagram Notation part would start to go into that it is not quite solved to apply both *automatic containment* versus *ubiquitous bidirectional relationships* at the same time. Those two concepts may not be part of Circle Language Spec anymore, so that might be moved to Circle Construct Drafts or Circle Broader View. When the postponed concepts are taken out of the text, what might remain of the content? It may make it easier. Notational things might be in there still then.
+        - [x] The Diagram Notation part would start to go into that it is not quite solved to apply both *automatic containment* versus *ubiquitous bidirectional relationships* at the same time. Those two concepts may not be part of Encircle Language Spec anymore, so that might be moved to Encircle Construct Drafts or Encircle Broader View. When the postponed concepts are taken out of the text, what might remain of the content? It may make it easier. Notational things might be in there still then.
         - [x] I wonder where my idea went, for a relational ring around the two lines of the two counterparts of a bidirectional relationship. I may just want to introduce it there, even though I was not extending content currently, I am missing this.
         - [x] Besides the things I might like to change, I sort of like the text as I scrolled through it.
         - [x] Section "Counterpart out of Sight"
             - [x] Implicit notations seem to cause jeopardy for ambiguity.
             - [x] In my aim to express multiplicity that is out of sight, combined with my reverting to explicit relationship counterpart notation ("relational ring" notation), the notation looks like what I might have in mind for the notation for 'optional'.
-            - [x] I propose to leave this 'problem' unsolved: move the 'Counterpart of of Sight' to Circle Construct Drafts. The argument "something out of sight' is out of sight" seems to make sense enough for this 'problem' not to be considered a problem at all.
+            - [x] I propose to leave this 'problem' unsolved: move the 'Counterpart of of Sight' to Encircle Construct Drafts. The argument "something out of sight' is out of sight" seems to make sense enough for this 'problem' not to be considered a problem at all.
             - [x] In another way of viewing it, a proposed notation looks like it 'lies' about the containment structure.
         - [x] Section "No Reuse of Merged Imaginary References"
-            - [x] Only seems relevant when automatic containment is relevant and when the sort of deprecated double dashed ring notation would have been relevant. Because those 2 topics would not be considered relevant right now, the topic could move away from Circle Language Spec and into Circle Construct Drafts perhaps. Not even Circle Broader View?
+            - [x] Only seems relevant when automatic containment is relevant and when the sort of deprecated double dashed ring notation would have been relevant. Because those 2 topics would not be considered relevant right now, the topic could move away from Encircle Language Spec and into Encircle Construct Drafts perhaps. Not even Encircle Broader View?
     - [x] Dual and Unary
         - [x] Much of this might be moved or removed, because in essence this might have been covered under the section of Relationships. The issues raised there might be software design issues, perhaps not relevant to the notation. The Relationships section may be renamed to Bidirectional Relationships maybe.
         - [x] I might replace these terms with bidirectional and unidirectional. I think I was searching for shorter clear terms, but I sort of decided to try and use more common IT terminology.
         - [x] I might want to not push the bidirectional relationships too much to the foreground. I may want to make it more neutral on the subject. That should be in line with trying to use more open wording.
-        - [x] The Referrers concept seems to be mentioned there again. That might be moved to the System Objects chapter, or to Circle Broader View or Circle Construct Drafts.
+        - [x] The Referrers concept seems to be mentioned there again. That might be moved to the System Objects chapter, or to Encircle Broader View or Encircle Construct Drafts.
     - [x] Referrers Versus Related Objects
-        - [x] This might be moved away from Circle Language Spec, since the Referrers topic is too.
+        - [x] This might be moved away from Encircle Language Spec, since the Referrers topic is too.
     - [x] Relationship to a Pointer
         - [x] According to chapter subdivision ideas I have not, this might be moved to the Pointers chapter.
     - [x] Relationship Direction
-        - [x] May tap into a problem that comes with automatic containment, a concept I believe I decided to move away from the Circle Language Spec. So this sub-topic might too.
+        - [x] May tap into a problem that comes with automatic containment, a concept I believe I decided to move away from the Encircle Language Spec. So this sub-topic might too.
 - [x] Model-based / class-relational design:
-    - [x] I am guessing that after the content is changed like that, not that much notation would be introduced, but more an idea of thinking in terms of relationships between classes would be sort of pushed there. That idea might not serve the notation all that much. It may serve an idea I have for aspect oriented programming that might not become part of the Circle Language Spec. I have a question for myself: Would I leave out the topic of relationship-oriented software design, and just strip it to a notation introduction? The alternative seems to be to explain a way you might organize and model code, that to me seems an interesting topic, but does that have much to do with the Circle language notation? I think maybe this is one of those moments where you move a text you like out of the works, to serve the whole and the goal better? Not sure.
+    - [x] I am guessing that after the content is changed like that, not that much notation would be introduced, but more an idea of thinking in terms of relationships between classes would be sort of pushed there. That idea might not serve the notation all that much. It may serve an idea I have for aspect oriented programming that might not become part of the Encircle Language Spec. I have a question for myself: Would I leave out the topic of relationship-oriented software design, and just strip it to a notation introduction? The alternative seems to be to explain a way you might organize and model code, that to me seems an interesting topic, but does that have much to do with the Encircle language notation? I think maybe this is one of those moments where you move a text you like out of the works, to serve the whole and the goal better? Not sure.
     - [x] I think maybe I could get away with apparently squeezing in 'ideals' about software structuring while introducing the relationships notation? Or is that sleezy somehow? I think I would say nothing wrong and the notation is there to support that (common?) software design choice, so why not raise some points about it? They could shed light on why the notation exist in the first place.
 - [x] I might already be moving out about half of the (complicated?) text or so. I would consider moving the texts around first, before reformulating in more open wording, just so save some time.
 - [x] I think I pushed away the idea of 'what am I doing it all for' and found value in what might become the end result.
@@ -1052,7 +1052,7 @@ I think it is an interesting idea. But it seems presented in a way that all rela
 
 It seems to be more about an idea for ubiquitous bidirectional relationships. It seems that Relationships in my view back then was synonymous for bi-directional relationships and my idea was you should make most relationships bi-directional. But the problem with, that I have with that now, is that doing so sort of removes hierarchy: everything seems to land on the same level of the containment structure, if every relationship is mutual. I had some ideas how to then solve that again, with relationship direction. I think I still like that idea. But now I have a construct proposal, that seems to be pushed too hard to the foreground, that seems something you should be able to choose, not something you should be pushed down your throat, excuse the sarcasm. And unless I finish it, it seems to hinder the notation, that I find more important than having all relationships be bi-directional.
 
-Maybe I might demote the Relationships construct to Circle Construct Drafts entirely. Maybe. It seems about what you could do with these unfinished 'Creator' systems I once programmed. But what you could do with Creator had to do with aspects, relationships, libraries of aspects, that tap into a way to describe relationships. Possibly all those concepts will be put aside. Maybe to pick up at one point later, but not so much part of the Circle notation. I do think that in the Circle projects in the past, I had figured out that the Creator concepts are probably integrable with Circle, though the precise notation was not worked out to the last detail. I remember now, that I was quite keen to try and make sure the Circle and Creator ideas were to be combined into one. Later on I think I had it clearer in my head where these two ideas met, and how they could go together.
+Maybe I might demote the Relationships construct to Encircle Construct Drafts entirely. Maybe. It seems about what you could do with these unfinished 'Creator' systems I once programmed. But what you could do with Creator had to do with aspects, relationships, libraries of aspects, that tap into a way to describe relationships. Possibly all those concepts will be put aside. Maybe to pick up at one point later, but not so much part of the Encircle notation. I do think that in the Encircle projects in the past, I had figured out that the Creator concepts are probably integrable with Encircle, though the precise notation was not worked out to the last detail. I remember now, that I was quite keen to try and make sure the Encircle and Creator ideas were to be combined into one. Later on I think I had it clearer in my head where these two ideas met, and how they could go together.
 
 Maybe describing it more 'openly' would just make it usable as a proposed construct notation. Right now the aim is not so much that everything will work as a run-time or that automatic determination of containment structure is also let go of, which might simplify things. I just might not want to propose that this is a required thing.
 
@@ -1067,14 +1067,14 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 ### 2020-06-11 Done Content Changes for Classes Chapter
 
 - [x] Object-commands / command-objects exchangeability doubts.
-- [x] It seems to be used as the main idea, this exchangeability. But that seems demotable to Circle Broader View perhaps or maybe even Circle Construct Drafts.
+- [x] It seems to be used as the main idea, this exchangeability. But that seems demotable to Encircle Broader View perhaps or maybe even Encircle Construct Drafts.
 - [x] What might be left of the Classes story if the base of it would be deprecated? Almost a rewrite? Not sure.
-- [x] What if I move the exchangeability issue to Circle Broader View or Circle Construct Drafts? Will not much text be left?
+- [x] What if I move the exchangeability issue to Encircle Broader View or Encircle Construct Drafts? Will not much text be left?
 - [x] ~~Is there a version in the history that does not make the Object-commands / command-objects exchangeability issue centric? Could that text be used?~~
 - [x] Some of the text seems to address the design time = run time issues. That issue might also not be in scope anymore.
 - [x] I feel the same sentence is repeated a lot in just slightly different formulations.
 - [x] Class Reference seems a bit of an ambiguous term. You might reference a class with an object line, but here I mean when an object points out its class with a class line. Class redirection? Class pointer? I think I would rather make pointer and reference synonymous, so maybe not class pointer.
-- [x] The diagram explanation of Commands and Classes Loosely Coupled would be merged into the conceptual explanation, if I follow the editing ideas I had. But the issue might be moved from Circle Language Spec to Circle Broader View at some point, so perhaps this has less priority. Not sure. I could go either way.
+- [x] The diagram explanation of Commands and Classes Loosely Coupled would be merged into the conceptual explanation, if I follow the editing ideas I had. But the issue might be moved from Encircle Language Spec to Encircle Broader View at some point, so perhaps this has less priority. Not sure. I could go either way.
 
 ### 2020-06-11 Done Reformulating Classes Chapter
 
@@ -1082,7 +1082,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 - [x] Possibly mark questionable trigger words with a star (*) too.
 - [x] Finding replacement words, possibly using online thesaurus.
     - [x] I seem less motivated, because I question the validity of the idea, so this action may seem futile.
-    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Circle Language Spec, but a Circle Broader View idea. So even though I might not use it in Circle Language Spec, I might still appreciate it as an idea outside of that.
+    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Encircle Language Spec, but a Encircle Broader View idea. So even though I might not use it in Encircle Language Spec, I might still appreciate it as an idea outside of that.
     - [x] I get anxiety if something seems unuseful to me. It's a thing.
     - [x] I am done with this, but I feel uneasy about the ideas. 
 - [x] I might go over the loose ideas in the document and cross out or distribute those.
@@ -1122,10 +1122,10 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 
 ### 2020-06-07 Done Content Changes for Objects Chapter
 
-- [x] Maybe attributes can be introduced as perhaps not really a specific part of the Circle language. It is more of a concept with an explanation of how it might fit into the Circle programming language.
+- [x] Maybe attributes can be introduced as perhaps not really a specific part of the Encircle language. It is more of a concept with an explanation of how it might fit into the Encircle programming language.
 - [x] 'Target Objects' kind of puts aside a different interpretation of object references, where all symbols are references, even 'final target' symbols.
 - [x] Attributes section:
-    - [x] Enumeration of Attributes:    It has a text that might apply in an application where you might query for reflective data, perhaps for aspect oriented purposes? The issue might be a bit out of place there. Maybe elsewhere? In System Objects? Or otherwise in Circle Construct Drafts somewhere?
+    - [x] Enumeration of Attributes:    It has a text that might apply in an application where you might query for reflective data, perhaps for aspect oriented purposes? The issue might be a bit out of place there. Maybe elsewhere? In System Objects? Or otherwise in Encircle Construct Drafts somewhere?
 - [x] I might move Target Objects to Pointers now. I am pretty sure I want to give it a separate place and might not want to reformulate parts of it now?
     - [x] > Yes, I think I would do that.
 - [x] 'Related Objects': The picture has the labels A and B, which do not seem to serve a function at that particular spot.
@@ -1159,24 +1159,24 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
     - [x] Is it nice to present the reasons for the shapes, or is it just superfluous text?
     - [x] I do not know. The back story may show creativity, which might be nice. It may inspire the imagination of others. But more reasoning may be overwhelming so I am torn between arguments here. More text might not necessarily be bad. I like describing how I came to these choices, sort of artistic choices.
     - [x] It might give it feeling. More humanization.
-    - [x] I think the dashed square with the big red cross throught it, might be a bit harshly expressed. Maybe the *curl* with the solid square might also be left out. There might not be much reason to emphasize things so much.
-    - [x] I still have doubts about explaining the reason behind the shapes. It may just obscure things. It may be text for 'Circle Broader View' instead.
+    - [x] I think the dashed square with the big red cross through it, might be a bit harshly expressed. Maybe the *curl* with the solid square might also be left out. There might not be much reason to emphasize things so much.
+    - [x] I still have doubts about explaining the reason behind the shapes. It may just obscure things. It may be text for 'Encircle Broader View' instead.
 - [x] Maybe the object reference notation (the eye to another symbol) deserves specific mentioning. It is there under' Lines Pointing Outwards', but there is no specific highlighting of this notational issue. I feel it was sort of the aha moment that started my ideas about this possible notation flowing, so maybe nice to articulate. (There seem to be 2 interpretations of object reference. The eye notation may have one symbol be the object and the other be an object reference. But in another interpretation all the symbols are mere object references, and the lines just indicate correspondence of the aspect, that both symbols point to the same object.)
 - [x] 2x almost the same picture under 'Access Symbol Placement'.
 
-### 2020-05-31 Done Reformulating Circle Language Spec Overview
+### 2020-05-31 Done Reformulating Encircle Language Spec Overview
 
-- [x] Committing reformulations of tone of Circle Language Spec Overview.
+- [x] Committing reformulations of tone of Encircle Language Spec Overview.
 - [x] Maybe a 2nd phase of editing aimed at the content, not so much about the tone.
 - [x] Then there is Loose Ideas at the end. Do I want to put it in a separate document? Do I want to evaluate them one by one to see if they are relevant or might be moved or something?
-    - [x] Comparisons with other systems might be better off in Circle Broader View. I feel it is interesting, that I looked around at other systems for inspiration or comparison, but it might not be that interesting to share what my opinion about it was. But topic-wise I think is might not belong in Circle Language Spec, but in Circle Broader View.
+    - [x] Comparisons with other systems might be better off in Encircle Broader View. I feel it is interesting, that I looked around at other systems for inspiration or comparison, but it might not be that interesting to share what my opinion about it was. But topic-wise I think is might not belong in Encircle Language Spec, but in Encircle Broader View.
 - [x] Images in the overview page?
     - [x] For Object Order: Not sure about the notation yet, so not sure what picture might be suitable.
-    - [x] For Ponters: Current picture lies a little. This may be how you might express it with abused/abstracted notation, but this might not be a pointer in Circle, if I look at it from a puritan perspective. It might be supposed to point 'inward'? I am not even sure.
+    - [x] For Ponters: Current picture lies a little. This may be how you might express it with abused/abstracted notation, but this might not be a pointer in Encircle, if I look at it from a puritan perspective. It might be supposed to point 'inward'? I am not even sure.
 
-### 2020-05-28 Done Content Changes for Circle Language Spec Overview
+### 2020-05-28 Done Content Changes for Encircle Language Spec Overview
 
-- [x] I wonder how useful it is to mention what has been programmed or not. I would like to consider what the reasons of that were and if they still apply. I think I applied that as a general rule for these 'overview' or 'index' or 'contents' documents. The Circle Language Spec used to be part of a bigger whole that documented more pieces of software. Each contents page would mention what had been programmed and how far it was finished up. Now that the Circle Language Spec is intended to be more isolated from the rest, this rule might not apply anymore.
+- [x] I wonder how useful it is to mention what has been programmed or not. I would like to consider what the reasons of that were and if they still apply. I think I applied that as a general rule for these 'overview' or 'index' or 'contents' documents. The Encircle Language Spec used to be part of a bigger whole that documented more pieces of software. Each contents page would mention what had been programmed and how far it was finished up. Now that the Encircle Language Spec is intended to be more isolated from the rest, this rule might not apply anymore.
 - [x] Also the % state of finished up. Not sure if it necessarily adds much. Even when I say it is mostly finished, there are still loose ideas, and still adaptations I might want to make. And most topics do have some sort of description. Just some near the end are less finished up. I think I mention half-way the overview that 'now starts the ones that are less finished'.
 - [x] I think maybe the conclusion should be: just remove them.
 - [x] Outtake System Objects section:
@@ -1246,7 +1246,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 
 - [x] I have the idea, that I might copy and paste more content and search and replace certain basic trigger words like 'is' by 'could' and 'might' for instance. And also visually scan the text for trigger words, like superlatives, words that see express value or devalue.
 - [x] I would like to replace the word 'Procedure' by 'Command', also in the pictures.
-- [x] When I change notations, the call lines in the Circle Language Spec Introduction might become dashed.
+- [x] When I change notations, the call lines in the Encircle Language Spec Introduction might become dashed.
 
 ### 2020-05-28 Done Brainstorm New Intro: Word Stress
 
@@ -1270,9 +1270,9 @@ I feel that if I am not over-alert about the written text, I feel I might not re
 - [x] I guess I am not sure where to start.
 - [x] And I am also still a little surprised that I am at this stage. I feel I must have forgotten something that must be left to do, before I can do this.
 - [x] ~~I think maybe heavy redesign is off the table for now, because I estimate that would be too intense for now.~~
-- [x] I also have in mind marking work as postponed for 'Circle Broader View' and 'Circle Construct Drafts', cleaning up the brainstorms that covert those + Circle Language Spec. That way I might create overview over the TODO notes.
+- [x] I also have in mind marking work as postponed for 'Encircle Broader View' and 'Encircle Construct Drafts', cleaning up the brainstorms that covert those + Encircle Language Spec. That way I might create overview over the TODO notes.
 - [x] The feeling I forgot something, feels like it could be in the texts below, but the texts below seem to be too rough and unstructured to give me that insight and overview. If it were more structured and overviewable, and done stuff marked as done, postponed stuff marked as such and split into coherent chunks. I think I would like that.
-- [x] So structure the TODO and Postponed things about Circle Language Spec Revamp notes, might be what I want to do first.
+- [x] So structure the TODO and Postponed things about Encircle Language Spec Revamp notes, might be what I want to do first.
 
 ### 2019-08-05 Done Writing Style Mixed Issues
 
@@ -1281,9 +1281,9 @@ I feel that if I am not over-alert about the written text, I feel I might not re
 
 ### 2019-08-05 Done Brainstorm Scope
 
-- [x] Circle Broader View: Maybe the design of the programming language should lose some ambition and express that only as dreams.
-- [x] I notice I talk a lot about implementation rather than notation. For instance: Does a dashed circle mean it is used as a class, enforced to be a class, static inside its container, how does it work in the system interfaces? What if it is just the notation that is the main idea, what if the implementation isn't. That might even make system interfaces' precise definition not important or maybe just subjected to diagrams drawn out to represent things from another language, like C#. C# getters and setters might be in a system interface notation. But setting an object reference's interface dynamically in runtime… may be too much of an implementation detail. I think it is a language definition / runtime implementation separation. In think the engineers at Microsoft might be right about developing language spec / runtime / framework / compiler quasi-independently. Maybe I can be inspired by that and make my language definition a litte simpler. I am subjected to the pitfall of wanting to cover every little minor edge-case, of which I have a fear that it may make the whole system fall to pieces. I already warned myself about that in the Circle Language Spec Strategy document. But now I think other people might actually read this, I start to think: maybe limit the scope. Somehow define the diagram notation and what it represents and not want to work out how things would work in a runtime. Runtime would be a system where the diagrams and actually the data that internally describes the diagram, to be loaded and run as computer programs. I think I wanted to check the usability of the notation by shining light on any little aspect of it, I could find. But I think some details are not that important. Maybe those are to be demoted to possible implementation details, to keep the main part of the story clean. I am OK with apologizing in the documentation, that this might not be usable or something. The description in the Strategy document is pretty much spot on, I think.
-- [x] Circle Construct Drafts: I get the problem that next to introducing new notation, I also wanted to introduce new concepts. A new conceptual take on things. I think it all became a little much.
+- [x] Encircle Broader View: Maybe the design of the programming language should lose some ambition and express that only as dreams.
+- [x] I notice I talk a lot about implementation rather than notation. For instance: Does a dashed circle mean it is used as a class, enforced to be a class, static inside its container, how does it work in the system interfaces? What if it is just the notation that is the main idea, what if the implementation isn't. That might even make system interfaces' precise definition not important or maybe just subjected to diagrams drawn out to represent things from another language, like C#. C# getters and setters might be in a system interface notation. But setting an object reference's interface dynamically in runtime… may be too much of an implementation detail. I think it is a language definition / runtime implementation separation. In think the engineers at Microsoft might be right about developing language spec / runtime / framework / compiler quasi-independently. Maybe I can be inspired by that and make my language definition a little simpler. I am subjected to the pitfall of wanting to cover every little minor edge-case, of which I have a fear that it may make the whole system fall to pieces. I already warned myself about that in the Encircle Language Spec Strategy document. But now I think other people might actually read this, I start to think: maybe limit the scope. Somehow define the diagram notation and what it represents and not want to work out how things would work in a runtime. Runtime would be a system where the diagrams and actually the data that internally describes the diagram, to be loaded and run as computer programs. I think I wanted to check the usability of the notation by shining light on any little aspect of it, I could find. But I think some details are not that important. Maybe those are to be demoted to possible implementation details, to keep the main part of the story clean. I am OK with apologizing in the documentation, that this might not be usable or something. The description in the Strategy document is pretty much spot on, I think.
+- [x] Encircle Construct Drafts: I get the problem that next to introducing new notation, I also wanted to introduce new concepts. A new conceptual take on things. I think it all became a little much.
 
 ### 2020-05-24 Done Notes Planning
 
@@ -1360,10 +1360,10 @@ Still want to change the fonts.
 
 - [x] ~~Maybe put Type Control out of scope? > Deemed less important to consider right now.~~
 - [x] So, what's next?
-- [x] I think nothing to reorganize anymore about the file structure of Circle Language Spec.
+- [x] I think nothing to reorganize anymore about the file structure of Encircle Language Spec.
 - [x] Maybe start with the texts?
 - [x] ~~Option: Convert to docx. > Too many docs.~~
-- [x] Option: If there are still Text Code topics, they might be moved to Circle Construct Drafts.
+- [x] Option: If there are still Text Code topics, they might be moved to Encircle Construct Drafts.
 - [x] Structure changes:
     - [x] Making back ground black?
     - [x] Changing main headers?
@@ -1373,7 +1373,7 @@ Still want to change the fonts.
     - [x] Merging or redistributing articles?
     - [x] Putting each conceptual and diagram explanation together in an article.
 - [x] Chapters:
-    - [x] Circle Language Spec Overview
+    - [x] Encircle Language Spec Overview
     - [x] Basic Diagram Elements
     - [x] Objects
     - [x] Classes
@@ -1400,7 +1400,7 @@ Still want to change the fonts.
 ### 2020-05-24 Done Merging and Redistributing Remaining Articles
 
 Maybe going into detail about this is not part of the editing phase I am putting these articles through.
-This is what the Circle Language Spec Overview calls the 'unfinished' part. So for that reason it seems less straight forward.
+This is what the Encircle Language Spec Overview calls the 'unfinished' part. So for that reason it seems less straight forward.
 It is also harder to subdivide, because it is multiple different issues, unlike previous tasks I did, which were just about 1 main topic.
 The question I have for myself is how much is worth doing with regards to these topics.
 Some things I'd like to do.
@@ -1424,10 +1424,10 @@ But I might want to be selective about it.
     - [x] Makes me wonder if some topics are handy as a separate chapter or better grouped into another main topic.
     - [x] Eventually might move to the Objects chapter, but will keep it in its own folder for now.
 - [x] "This"
-    - [x] I think I already had a place in mind for that, to move this article to a different main topic. I think tso Commands, but I think I put that down in the planning doc Circle Language Spec Product List.
-    - [x] Circle Language Spec Product List says that it should belong in the Commands chapter.
+    - [x] I think I already had a place in mind for that, to move this article to a different main topic. I think tso Commands, but I think I put that down in the planning doc Encircle Language Spec Product List.
+    - [x] Encircle Language Spec Product List says that it should belong in the Commands chapter.
 - [x] "Redirection"
-    - [x] Circle Language Spec Product List does not seem to assign a specific existing Chapter to it. It says 'ref-ness'? Maybe that pointer to pointer situations might all be put in a separate chapter, this might also belong there?
+    - [x] Encircle Language Spec Product List does not seem to assign a specific existing Chapter to it. It says 'ref-ness'? Maybe that pointer to pointer situations might all be put in a separate chapter, this might also belong there?
     - [x] It talks about 'target symbols'.
     - [x] There are several target symbol topics in e.g. the chapters Objects, Classes and Interfaces.
     - [x] Maybe that can all go to a chapter about ref-ness, or whatever generic term I might find for it.
@@ -1448,7 +1448,7 @@ But I might want to be selective about it.
     - [x] Larger
 - [x] "32. Previous Versions"
     - [x] This folder structure seems off when there is essentially only one version, as one document in it.
-    - [x] (There used to be multiple versions in one folder. Those were put out of scope of the Circle Language Spec.)
+    - [x] (There used to be multiple versions in one folder. Those were put out of scope of the Encircle Language Spec.)
 
 ### 2020-05-23 Done Merging Inheritance Articles Together
 
@@ -1506,7 +1506,7 @@ Most of them are small.
 "13. Qualified Event Names" should be out of scope, since it is about text code?  
 The articles before 'System Events' might be put into one article.  
 I might put System Events in one article.  
-System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Circle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Circle would function more like a stand-alone language, rather than mostly a diagram notation).  
+System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Encircle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Encircle would function more like a stand-alone language, rather than mostly a diagram notation).  
 The last 3 articles might become a single 'misc' article. But perhaps some of them have a place in the main article.
 
 ```
@@ -1561,10 +1561,10 @@ None of the articles are that big. The size differences are a bit all over the p
 Logically I might group together all Interface Aspects articles.
 The Intro and Main Concepts seem logical to group.
 I think I'll just start with those and take it from there.
-There's something about text code in Interface Assignment Types. That could be moved to Circle Construct Drafts.
+There's something about text code in Interface Assignment Types. That could be moved to Encircle Construct Drafts.
 Maybe move the Loose Ideas all to a separate article at the end.
 
-I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Circle Language Spec, and perhaps leave as a topic for Circle Construct Drafts. But right now the idea seems embedded into the Circle Language Spec, and without significant modification, it does not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
+I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Encircle Language Spec, and perhaps leave as a topic for Encircle Construct Drafts. But right now the idea seems embedded into the Encircle Language Spec, and without significant modification, it does not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
 
 ### 2020-05-20 Done Merging Black Boxes Articles Together
 
@@ -1595,12 +1595,12 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - Objects Take Over Class Access Control: Might move to article Black Boxes, section Friend Declarations in Instances.
     - "21. Black Box Side-Issues"
         - Looks unfinished.
-        - Might move these Circle Broader View:
+        - Might move these Encircle Broader View:
             - Black Boxing and User Access Control
             - Programmers and Users
     - "22. Black Box Details, May Cover Last"
         - Unfinished drafts.
-        - Might move these Circle Construct Drafts:
+        - Might move these Encircle Construct Drafts:
             - Level Limitation
             - Module Level Limitation
             - Downsides to Black Boxes
@@ -1612,10 +1612,10 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - Simplified Access Connectors: I think those ideas could be moved to Simplified Access Control Notation, because that is what they are about. Big brainstorm though.
     - "23. Black Box Details, Might Not Cover"
         - Same as above.
-        - Moving it to Circle Construct Drafts after some considerations.
+        - Moving it to Encircle Construct Drafts after some considerations.
 - "23.3. Black Box Details, May Not Cover, Simplified Access Control Expression in a Diagram"
     - Left it for what it is. Am not calling it unfinished. It seems finished. Maybe might change in the future, but it looks like a worked out idea.
-- Moved from Circle Language Spec to Circle Construct Drafts:
+- Moved from Encircle Language Spec to Encircle Construct Drafts:
     - "23.1. Black Box Details, May Not Cover, Simplified Access Control Expression"
     - "23.2. Black Box Details, May Not Cover, Simplified Access Control Expression in Text Code"
 
@@ -1711,7 +1711,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] ~~Misc topics at the end:~~
     - [x] ~~Not sure yet if merging is appropriate.~~
 
-### 2020-05-16 Done Reorganize Circle Language Spec Files
+### 2020-05-16 Done Reorganize Encircle Language Spec Files
 
 - [x] The bulk of the content is in the Coding Concepts.
 - [x] Diagram Expression content:
@@ -1722,7 +1722,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] "6. Expression\1. Diagrams"
         - [x] Seems less finished up. I am not sure I would want to put that at the top of the documentation or at least not in this state.
     - [x] "7. Other Topics\9. Old or Boring\About Programming In General.doc"
-        - [x] This is old text, that when rewritten I might even want as the introduction text that the Circle Language Spec starts with, or maybe just part of it.
+        - [x] This is old text, that when rewritten I might even want as the introduction text that the Encircle Language Spec starts with, or maybe just part of it.
         - [x] Is not really a diagram expression topic specifically.
 - [x] ~~I might want to somehow merge those diagram topics together.~~
 - [x] And put the Coding Concepts sub-folders just in the root.
@@ -1732,7 +1732,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] 'About Programming In General.doc' 
         - [x] Could be put at the top as the introduction.
         - [x] Actually, just reading it over, I think it may be still to rough of a text, that I want to make a bit more neutral, before making it the main thing to start with.
-        - [x] It and other bits of texts from the original Symbol Language.doc may compose a new introduction to the Circle language after some reformulating.
+        - [x] It and other bits of texts from the original Symbol Language.doc may compose a new introduction to the Encircle language after some reformulating.
         - [x] All in all, I think this content is a but rough for putting at the beginning of the documentation.
 - [x] There is a clash in index pages. "Code Concepts.doc" and "Language.doc" may need to become one and cleaned up.
 - [x] Moving "Language.doc" content to "Code Concepts.doc" in a controlled fashion.
@@ -1742,7 +1742,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] "8.Previous Versions" folder:
     - [x] Has the version of the documentation: Symbol Language.doc.
     - [x] Also contains those Symbol Pictures. I do not want to publish all of them.
-    - [x] I do not think I want this document in the published material: D:\Source\JJs Software\Software System Docs\1.1. Circle Language Spec\8. Previous Versions\2004-00-00 XX    Symbol Language\Other Files\Coding.txt.
+    - [x] I do not think I want this document in the published material: D:\Source\JJs Software\Software System Docs\1.1. Encircle Language Spec\8. Previous Versions\2004-00-00 XX    Symbol Language\Other Files\Coding.txt.
     - [x] Or rather, this has some content in it, that I find questionable.
     - [x] I see two zips with pictures.
     - [x] How do I handle this? In the future I want to go list out all files in the history and remove things from the history that I do not want to publish. Those zips might become one of those files.
@@ -1779,31 +1779,31 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] I think I would remove most of them, and only keep a couple.
     - [x] Oh, I am done.
 
-### 2020-05-14 Done Split Up Circle Docs
+### 2020-05-14 Done Split Up Encircle Docs
 
-- [x] Next step might even be starting to split up the Circle Language Spec itself in 'in scope' and 'out of scope'.
+- [x] Next step might even be starting to split up the Encircle Language Spec itself in 'in scope' and 'out of scope'.
 - [x] Doing a git push.
-- [x] Renaming git repo Circle Docs to Software System Docs.
+- [x] Renaming git repo Encircle Docs to Software System Docs.
 - [x] Renaming git repo Project Docs to Planning Docs.
 - [x] Moving around folders.
 - [x] "Previous Versions\2005-07-28 00    Creator 0.4":
     - [x] For my own overview it might be useful.
-    - [x] But for a clear presentation of the Circle Language Spec, it seems to contribute much.
+    - [x] But for a clear presentation of the Encircle Language Spec, it seems to contribute much.
     - [x] It might obscure the whole to include this.
     - [x] An argument for including it, might be to prove it has a development history, but I might not value this that much.
-    - [x] Perhaps move it to one of the other parts of the Circle docs than the spec? Broader view or something?
+    - [x] Perhaps move it to one of the other parts of the Encircle docs than the spec? Broader view or something?
 - [x] Branching
 - [x] "Language\Integration" and " Language\Libraries"
     - [x] Under the Language folder: might I move those to the Framework part? They are not concept frameworks, but they don't need to be.
-- [x] "10. Circle Constructs Drafts\6. Expression\6. More Text Codes": 
-    - [x] Has the sub-folders "1. Parser" and "2. Text Templates". I do not think those topics belong in Circle Construct Drafts. Maybe in Circle Broader View. But maybe those topics do not belong in Circle Language docs at all. More like framework. The index page includes other sub-topics, that used to be in that folder: such as 'other text codes', 'math' and 'assembly'. So some time in the past those topics were all in one place. I am not sure to exclude all of those topics from Circle Language and then maybe move them to the Framework part of the Software System docs, or whether some of it somehow has a place in broader perspective.
-    - [x] They are probably there, because in the main subdivision of Software System, they would fall under 'Code' and that might be what made them end up in the proximity of Circle Language Spec. So it indeed probably does not belong under Circle at all, but it does belong under 'Code' in Software System.
+- [x] "10. Encircle Constructs Drafts\6. Expression\6. More Text Codes": 
+    - [x] Has the sub-folders "1. Parser" and "2. Text Templates". I do not think those topics belong in Encircle Construct Drafts. Maybe in Encircle Broader View. But maybe those topics do not belong in Encircle Language docs at all. More like framework. The index page includes other sub-topics, that used to be in that folder: such as 'other text codes', 'math' and 'assembly'. So some time in the past those topics were all in one place. I am not sure to exclude all of those topics from Encircle Language and then maybe move them to the Framework part of the Software System docs, or whether some of it somehow has a place in broader perspective.
+    - [x] They are probably there, because in the main subdivision of Software System, they would fall under 'Code' and that might be what made them end up in the proximity of Encircle Language Spec. So it indeed probably does not belong under Encircle at all, but it does belong under 'Code' in Software System.
 - [x] By now I have:
-    - [x] Categorized topics from "Language" over "Circle Language Spec", "Circle Constructs Drafts", "Circle Broader View" and "Framework". 
+    - [x] Categorized topics from "Language" over "Encircle Language Spec", "Encircle Constructs Drafts", "Encircle Broader View" and "Framework". 
 - [x] Checking if I like how topics ended up in one of 3 categories.
 - [x] I have deleted files in my commit. I only want to see renames.
 - [x] Commit
-- [x] Some 'Operating System' topics might belong in a Circle Language topic group.
+- [x] Some 'Operating System' topics might belong in a Encircle Language topic group.
 - [x] Some documents cover multiple topics. I would like to split those documents up. 
     - [x] I could just make copies.
     - [x] And then strip out content that does not apply.
@@ -1825,7 +1825,7 @@ So with that new perspective on the work, I was done and satisfied with the last
 
 ### 2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs
 
-(Circle 3 projects are software development projects, unlike Circle Docs projects, which are language design projects.)
+(Circle 3 projects are software development projects, unlike Encircle Docs projects, which are language design projects.)
 
 It appears around 2010 I started off with programming Circle 3 with the intention of a more rigorous planning methodology and higher quality technical documentation. Around the same time I switched employers. The new employer did not value my doing planning or documentation, just coding. In projects at home it seems I adopted that way of working. So planning docs and tech docs were no concern anymore. I focused on coding. I think I also stopped keeping an hour sheet at home. That felt was freeing. It felt too much like work logging the hours I spent at hobby projects. But the real motivation for the shift in way of working, seems to be that I cannot have 2 methodologies at the same time: one at home and another one at the office. That seems intrinsic to how my mind handles things.
 
@@ -1881,9 +1881,9 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - [x] Rewording the Done projects is getting a bit boring.
 - [x] ~~Maybe wrap up Parameters planning doc.~~
 - [x] Scoping was an alternative thing to focus on.
-- [x] ~~Something else could be actually digging into the Circle Language Spec docs themselves.~~
+- [x] ~~Something else could be actually digging into the Encircle Language Spec docs themselves.~~
 - [x] I think scoping is a better choice for now.
-- [x] I want to go over the Circle Language Spec Plan documents, moving things out of scope off the top of my head.
+- [x] I want to go over the Encircle Language Spec Plan documents, moving things out of scope off the top of my head.
 - [x] Side-goal: I read nicer docs, giving my head a bit of a break.
 - [x] I think I will mark things with red before actually moving content out.
 - [x] Still lots of definites in the wording of the main planning docs.
@@ -1902,44 +1902,44 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] "Diagrams, Coding Principles & Coding Concepts Plan (obsolete).docx": I may want to consider moving this out of scope, or at least part of it.
         - [x] Marked some content in red.
         - [x] Still want to split the document up in two.
-- [x] The other Circle Language Spec Plan docs seem fine regarding scoping for now.
+- [x] The other Encircle Language Spec Plan docs seem fine regarding scoping for now.
 - [x] Still want to move the things marked red in the documents, to the out-of-scope documents.
 - [x] ~~Or consider the 'Software System' topics to put in scope.~~
-    - [x] ~~The content seems of not much use for inclusion in Circle Language Spec, not the planning docs nor the produced 'specification' docs.~~
+    - [x] ~~The content seems of not much use for inclusion in Encircle Language Spec, not the planning docs nor the produced 'specification' docs.~~
     - [x] ~~Could be that this folder is relevant: "2001 - 2002 Symbol"~~
         - [x] ~~It is basically 4 empty folders to indicate projects, that took place, on the time line, without having a description. There is probably notes in hour sheets about this period.~~
     - [x] ~~Could be that this folder is relevant: "2003 - 2009 Software System Documentation"~~
         - [x] ~~"2007-10 Rethink Software System, Project Plan.doc":~~
-            - [x] There it seems to start interweaving with Circle Language Spec topics.
-            - [x] The goal does not really talk specifically about programming languages. The notes taken while doing that project, mention several topics about programming languages, but just naming larger parts, not details. Not really much can be found that goes specifically into Circle Language Spec and the diagram notation. I do not think much is of use in the Circle Language Spec Plan documentation. It seems 'Symbol attempts' is the real first effort put into the diagram notation, that is mentioned in these planning docs (perhaps aside from what's in the hour loggings, which have not been considered yet).
-            - [x] I do not think I can even formulate just a few sentences 'this and that' has been done regarding Circle Language Spec in this project, while the project was also about larger parts. It's just that inconcrete.
+            - [x] There it seems to start interweaving with Encircle Language Spec topics.
+            - [x] The goal does not really talk specifically about programming languages. The notes taken while doing that project, mention several topics about programming languages, but just naming larger parts, not details. Not really much can be found that goes specifically into Encircle Language Spec and the diagram notation. I do not think much is of use in the Encircle Language Spec Plan documentation. It seems 'Symbol attempts' is the real first effort put into the diagram notation, that is mentioned in these planning docs (perhaps aside from what's in the hour loggings, which have not been considered yet).
+            - [x] I do not think I can even formulate just a few sentences 'this and that' has been done regarding Encircle Language Spec in this project, while the project was also about larger parts. It's just that inconcrete.
         - [x] ~~"2009-04 01         Full Revision of Documentation    2009-04 - 2009-06"~~
             - [x] ~~"Software System Full Revision of Documentation, Goal.doc"~~
                 - [x] ~~Most things are actually about Software System as a whole.~~
-                - [x] ~~Only in general the Circle Language Spec is mentioned, but no content seems to be concretely about Circle Language Spec.~~
+                - [x] ~~Only in general the Encircle Language Spec is mentioned, but no content seems to be concretely about Encircle Language Spec.~~
             - [x] ~~"Full Revision of Doc, Elements & Time Estim.doc"~~
-                - [x] ~~"Main Modules: (19 articles, 90 sections)": There is the first time concrete work for Circle Language Spec is mentioned, done during the project "Full Revision of Documentation    2009-04 - 2009-06".~~
+                - [x] ~~"Main Modules: (19 articles, 90 sections)": There is the first time concrete work for Encircle Language Spec is mentioned, done during the project "Full Revision of Documentation    2009-04 - 2009-06".~~
                 - [x] ~~At "- Sub-Modules: (25 articles, 218 sections)" it starts going into a bit more detail about it.~~
-                - [x] ~~Up until now, just some main parts of Circle Language Spec are named. Not sure if it is really that significant information to tell about projects and their execution.~~
+                - [x] ~~Up until now, just some main parts of Encircle Language Spec are named. Not sure if it is really that significant information to tell about projects and their execution.~~
                 - [x] ~~It is recognizable for me, the topic subdivision. I could extract some info from it later. I could decide later what to do.~~
             - [x] ~~"Software System Full Revision of Documentation, Reflection.doc"~~
-                - [x] ~~Half way, this reflection turns into almost the literal content of what the goal is of the Circle Language Spec project.~~
-                - [x] I think I can remove it. It is basically the strategy doc of Circle Language spec. Consider that later.
-                - [x] ~~It is interesting to see that Circle Language Spec is exactly the next project after this.~~
-                - [x] ~~So this is indeed the interlude to the Circle Language Spec project. I like to see those connections.~~
+                - [x] ~~Half way, this reflection turns into almost the literal content of what the goal is of the Encircle Language Spec project.~~
+                - [x] I think I can remove it. It is basically the strategy doc of Encircle Language spec. Consider that later.
+                - [x] ~~It is interesting to see that Encircle Language Spec is exactly the next project after this.~~
+                - [x] ~~So this is indeed the interlude to the Encircle Language Spec project. I like to see those connections.~~
             - [x] ~~"02. Software System Full Revision of Documentation, Implementation, Reach Goal A.doc"~~
-                - [x] ~~Has some detail about Circle Language Spec, but not much.~~
+                - [x] ~~Has some detail about Encircle Language Spec, but not much.~~
             - [x] ~~"04. Software System Full Revision of Documentation, Implementation, Reach Goal B.doc"~~
-                - [x] ~~Among other things, lists main parts of Circle Language Spec again, for which contents/direction 'pages' were written.~~
+                - [x] ~~Among other things, lists main parts of Encircle Language Spec again, for which contents/direction 'pages' were written.~~
             - [x] ~~"06. Software System Full Revision of Documentation, Implementation, Finishing Touch.doc"~~
                 - [x] ~~Almost random details.~~
         - [x] ~~The other parts of "2003 - 2009 Software System Documentation" contained nothing relevant.~~
-    - [x] ~~Should any of that be included in the Circle Language Spec Plan docs?~~
-        - [x] ~~"2003 - 2009 Software System Documentation" is sort of the prequel to Circle Language Spec. Haha.~~
-        - [x] ~~And the "2001 - 2002 Symbol" phase starts with initial ideas about Circle language, and ends with the unfinished Symbol.doc, though not much was written down about the progress (though probably things are in hour loggings, not considered yet.)~~
+    - [x] ~~Should any of that be included in the Encircle Language Spec Plan docs?~~
+        - [x] ~~"2003 - 2009 Software System Documentation" is sort of the prequel to Encircle Language Spec. Haha.~~
+        - [x] ~~And the "2001 - 2002 Symbol" phase starts with initial ideas about Encircle language, and ends with the unfinished Symbol.doc, though not much was written down about the progress (though probably things are in hour loggings, not considered yet.)~~
     - [x] ~~Looking at "1. Software System.doc":~~
-        - [x] ~~If none of this part of the planning docs is usable for inclusion in Circle Language Spec planning docs, it may be worth a peek at the actual document Software System.doc or the 'redirection pages'.~~
-        - [x] ~~I like it. I do not think I see much content I would use for Circle Language Spec. From earlier ideas I had, I expected to find more. Perhaps I looked it over wrong. Or maybe now much is narrowed in scope, some more content from this document does not fall into scope anymore, making less of it very usable in Circle Language Spec. Just bits and pieces maybe, but I expect to find texts of similar content and quality near the topics of Circle Language Spec already.~~
+        - [x] ~~If none of this part of the planning docs is usable for inclusion in Encircle Language Spec planning docs, it may be worth a peek at the actual document Software System.doc or the 'redirection pages'.~~
+        - [x] ~~I like it. I do not think I see much content I would use for Encircle Language Spec. From earlier ideas I had, I expected to find more. Perhaps I looked it over wrong. Or maybe now much is narrowed in scope, some more content from this document does not fall into scope anymore, making less of it very usable in Encircle Language Spec. Just bits and pieces maybe, but I expect to find texts of similar content and quality near the topics of Encircle Language Spec already.~~
 
 ### 2020-04-18 Done Brainstorm Writing Style
 
@@ -1995,13 +1995,13 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - [x] > Was at 'Other Issues' taking out the more harsh wordings.
 - [x] I see the difficulty of using the words 'concept' vs. 'aspect'. I want to call it 'aspects' everywhere. But contradictory: 'aspects' is now considered out of scope, while I cannot easily prevent mentioning it at all, because it was in the back of my head during some of these projects. I also have this a little with the term 'code base' which I want to rename to 'base of the code', because 'code base' is a term often used differently in IT.
 - [x] Out of scope ideas:
-    - [x] I see this document talks about what I would rather call a runtime. Figuring out how Circle could work stand-alone up and running is probably not in the scope of this project anymore. Just describing the language, mostly the diagram notation, is.
-    - [x] I see a sentence where I call the System Objects essential for the workings of Circle. But if you see the notation as separate from the runtime it does not seem that essential.
+    - [x] I see this document talks about what I would rather call a runtime. Figuring out how Encircle could work stand-alone up and running is probably not in the scope of this project anymore. Just describing the language, mostly the diagram notation, is.
+    - [x] I see a sentence where I call the System Objects essential for the workings of Encircle. But if you see the notation as separate from the runtime it does not seem that essential.
     - [x] So how do I reword this putting these ideas out of scope, without harming the integrity of the content?
     - [x] Hyp: In the original text I express that I feel system objects are essential, as a run-time, not for the notation.
     - [x] I keep seeing the idea of a runtime back. It's an interesting idea, but not in the anymore scope as I want to isolate it. I am reluctant to remove the text, because it is so nicely descriptive about that idea.
     - [x] All in all, I am still uneasy about multiple subjects now considered out of scope, being intermixed in the texts of this sub-project description.
-    - [x] The 'other issues' seems to contain loose ideas not fully worked out, part of the aspects construct for instance, or about a run-time. It seems to me some of those ideas, e.g. under 'Other Issues' could be cut-pasted to out-of-scope Circle Language projects.
+    - [x] The 'other issues' seems to contain loose ideas not fully worked out, part of the aspects construct for instance, or about a run-time. It seems to me some of those ideas, e.g. under 'Other Issues' could be cut-pasted to out-of-scope Encircle Language projects.
     - [x] It seems the System Objects Spec Project Summary has a some content that is maybe lazily left in there, while they are also like future ideas?
     - [x] Q: The things that I now consider out of scope, that are mentioned in the sub-project planning documentation for System Objects, are those things even inside the actual language spec content for System Objects? Or is the language spec content also littered with now consider out of scope content?
     - [x] I read most of the content of the System Objects chapter. I forgot what for. To assess whether the topics in the planning docs about it even made it into the documentation. Maybe I can assess that later.
@@ -2009,7 +2009,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] As I read the first sentences of the sub-project planning doc, I tend to want to redescribe it, now I can put it into context. As I explain that context, the integrity of the planning doc seems in tact again.
     - [x] I want to keep reading over and reformulating.
 
-### 2020-04-18 Done Reword The Done Circle Language Spec Planning Docs
+### 2020-04-18 Done Reword The Done Encircle Language Spec Planning Docs
 
 - [x] Ideas document: ISNSE = Internet as a Single Computer > But why? Internet aS a[N] Single Entity?
 - [x] Brainstorm: Scope the Done projects?
@@ -2019,8 +2019,8 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Q: Will all 'fundamental principles' be put out of scope?
     - [x] Exp: Read some of the actual documentation.
     - [x] A: Yes, 'fundamental principles' is out of scope with the current ideas I have now.
-    - [x] By the way: I saw '2. Concurrency' under '3. Operating System' in the Circle Docs. I couldn't find that content before. Found it.
-- [x] I tend to want to subdivide all the Done projects into groups, like I did the Future projects. (in the Other folder, not Circle Language Spec).
+    - [x] By the way: I saw '2. Concurrency' under '3. Operating System' in the Encircle Docs. I couldn't find that content before. Found it.
+- [x] I tend to want to subdivide all the Done projects into groups, like I did the Future projects. (in the Other folder, not Encircle Language Spec).
     - [x] But I get cramps in my face.
     - [x] It's hard, because it means processing many disparate pieces of information, which takes too much energy/strain for me.
     - [x] Feels bad to leave a grouping/categorization half- finished.
@@ -2032,10 +2032,10 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] ~~2008-03 05             Generic, No Generators Spec, Project Summary.docx~~
     - [x] ~~2008-04 02        Get Clearer View over Difficult Topics Project Summary.docx~~
 
-### 2020-04-18 Done Circle Language Spec Planning Docs: Reword Main Project and Future Sub -Projects
+### 2020-04-18 Done Encircle Language Spec Planning Docs: Reword Main Project and Future Sub -Projects
 
 - [x] The aim is to use less definite, more open, language and to take out the personal 'I' form.
-- [x] I think a lot of documents do not contain as much prose as Circle Language Spec Strategy, so maybe things are doable after all. Also it does not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
+- [x] I think a lot of documents do not contain as much prose as Encircle Language Spec Strategy, so maybe things are doable after all. Also it does not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
 - [x] ~~Limitation: I choose to not reorganize/resubdivide the sub projects. I choose to just change the wording.~~
 - [x] Main Project
     - [x] Mostly finished rewriting the content.
@@ -2063,14 +2063,14 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] Or is it to shed new light on these topics in the area of automatic execution order?
         - [x] ~~Alternative: Split apart in two: The parts / product list items, that I know are about concurrency resolution / automatic execution order would be put out of scope and then parts I am not sure about, would stay in in-scope with some comment shedding light on that doubt.~~
         - [x] Exp: Read over a product list in the Future Sub-Project document "Input Output Spec Project Summary.docx".
-        - [x] Hyp: All the topics under Input / Output inside the main "Circle Language Spec Product List.docx" are not trivial parameter topics, but more a small ramp of parameter topics leading towards the automatic execution order concept.
+        - [x] Hyp: All the topics under Input / Output inside the main "Encircle Language Spec Product List.docx" are not trivial parameter topics, but more a small ramp of parameter topics leading towards the automatic execution order concept.
         - [x] ~~Hyp: But the Integration of Parameter Input/Output Concepts do seem already done topics.~~
         - [x] Hyp: But may fall under the same umbrella: now put into the light of automatic execution order.
         - [x] Parameters and input/output concepts entangle. The proposed product list would aim to disentangle those topics and explain their precise relationship.
         - [x] I had a brainstorm. I put that in the Future Sub-Project doc in the out of scope folder.
     - [x] Diagram Metrics Ideas.md
     - [x] Diagrams, Coding Principles & Coding Concepts Plan (old).docx
-        - [x] At first glance, this seems to have the same scope as the whole project Circle Language Spec.
+        - [x] At first glance, this seems to have the same scope as the whole project Encircle Language Spec.
         - [x] Maybe it can be thrown away (or archived), because it's already described by newer documents.
     - [x] `Execution Control Spec Update Ideas.md`
     - [x] `Module Spec Update Ideas.md`
@@ -2079,7 +2079,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] `Parameters Spec Update Ideas.md`
     - [x] `Relationships Spec Update Ideas.md`
     - [x] `Static Spec Idea.md`
-        - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Circle Language JJ's Construct Proposals' or something.
+        - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Encircle Language JJ's Construct Proposals' or something.
         - [x] I would not want to remove it, if I look at that it explains how I see 'static' in a broader view.
         - [x] But to understand my own doubts about the different ways to see the concept of 'static' that idea description explains a lot and otherwise I might think: where did that idea go and how does it work?
         - [x] I feel that this concept of static might have a place in the general descriptions, but to apply this to the concept of Code = Data, though interesting to me, might not have to be part of that, because it may confuse and alienate the reader, who might be more familiar with more regular implementations of the concept.
@@ -2088,7 +2088,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] Out of scope
         - [x] But change the main project description too.
 
-### 2020-04-18 Done Circle Language Spec Planning Docs: Format the Project Summaries
+### 2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries
 
 - [x] Change formatting in bulk (of Done Projects / Project Summaries)
     - [x] Change fonts and layout in bulk first.
@@ -2113,13 +2113,13 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
             - [x] > They use different templates, so this formatting and making consisntent, probably does not apply to those.
         - [x] Don't Future Sub-Projects also have documents in that 'project summary' format?
             - [x] Alternative: format those too.
-            - [x] Alternative: Go look for more project summaries in the Circle Language Spec Plan folders.
+            - [x] Alternative: Go look for more project summaries in the Encircle Language Spec Plan folders.
             - [x] ~~Alternative: Don't do it.~~
 
-### 2020-04-15 Done Circle Language Spec Planning Docs
+### 2020-04-15 Done Encircle Language Spec Planning Docs
 
-- [x] I finished 'Circle Language Spec Strategy'.
-- [x] 'Circle Language Spec Product List' seems finished.
+- [x] I finished 'Encircle Language Spec Strategy'.
+- [x] 'Encircle Language Spec Product List' seems finished.
 - [x] The word 'Legacy' is in there, which I tried to avoid.
     - [x] Integration was not the best word, it seemed.
     - [x] 'Inherited' is too ambiguous a term.
@@ -2131,7 +2131,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Why was integrate such a bad word according to my brother?
     - [x] Synonyms?
     - [x] I am going for 'integrate'.
-- [x] 'Circle Language Spec Steps & Time Planning' should be next.
+- [x] 'Encircle Language Spec Steps & Time Planning' should be next.
     - [x] Yeah, has definite language, that might need more wiggle room.
     - [x] Sometimes I don't even notice it, because I am so used to try and gain a sense of control over the situation, that I just speak in definites.
     - [x] Resolute language is solved.
@@ -2139,12 +2139,12 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Why is there even a separate list for 'Progress Monitoring'? It seems handy for quick overview, but why is the main list not quickly giving that overview then? Improve the main list instead and remove the 'Overview for Progress Monitoring'? Because it might just not be handy to have two things.
     - [x] Inheritance is already finished.
         - [x] Do I update that now? Or do I see that as replanning that should be done later? Don't know. It just looks inconsistent this way.
-- [x] Done Circle Language Spec Ideas.
+- [x] Done Encircle Language Spec Ideas.
     - [x] The wording is in rougher format, but it is not very long, so should be doable.
     - [x] It may have out-of-scope content.
     - [x] Maybe read over again. Second time around it still seems kind of resolute.
 
-### 2020-04-13 Done Circle Language Spec Planning Docs
+### 2020-04-13 Done Encircle Language Spec Planning Docs
 
 - [x] I made a slight beginning with a next phase of scoping the project. But I want to turn back. 
 - [x] Check if I can check this in.
@@ -2168,30 +2168,30 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - [x] Exp: search "*.doc"
 - [x] Obs: Now it does not match "*.docx".
 - [x] Hyp: I thought I saw that some times.
-- [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Circle Language Spec Plan". Search "content:Joost".
+- [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Encircle Language Spec Plan". Search "content:Joost".
 - [x] Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.
 - [x] Hyp: File properties?
 
-### 2020-04-01 Done Circle Language Spec Planning Docs
+### 2020-04-01 Done Encircle Language Spec Planning Docs
 
-- [x] Circle Language Specs Done projects:
+- [x] Encircle Language Specs Done projects:
     - [x] It is a lot of content. It is not practical for me to go into detail about it now. It is only the past plans, not the future, so less important.
 - [x] Details:
     - [x] Get rid of content about 'studying'?
     - [x] Command as a Concept Spec Plan seems a super project but later turns out not to be.
         - [x] Actually, it is a parent project.
     - [x] Done project "Document Internet as a Single Computer" is out-of-scope…
-        - [x] Lots of fundamental principles may become out-of-scope of the Circle Language Specs Project and might become part of a separate piece of documentation Circle Language Broader View or something.
+        - [x] Lots of fundamental principles may become out-of-scope of the Encircle Language Specs Project and might become part of a separate piece of documentation Encircle Language Broader View or something.
         - [x] Not sure if right now I want to dump it in a Done folder with all these many projects in it.
-        - [x] Does it matter? I am trying to isolate just Circle Language Spec from Other / anything else.
+        - [x] Does it matter? I am trying to isolate just Encircle Language Spec from Other / anything else.
 
-### 2020-04-01 Done Circle Language Spec Planning Docs
+### 2020-04-01 Done Encircle Language Spec Planning Docs
 
 - [x] Empty project folders:
     - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] To me it seems odd now, that 'Errors' is put out of scope.
-    - [x] I think I want to move the topics 'Errors' and 'Concept Construct' from the Out-of-Scope document to the Circle Language Spec Planning docs.
-    - [x] The 'Out-of-Scope' document os currently not just postponed items of the Circle Language Spec, but more than that: not even considered part of the Circle Language Spec proect at all anymore.
+    - [x] I think I want to move the topics 'Errors' and 'Concept Construct' from the Out-of-Scope document to the Encircle Language Spec Planning docs.
+    - [x] The 'Out-of-Scope' document os currently not just postponed items of the Encircle Language Spec, but more than that: not even considered part of the Encircle Language Spec proect at all anymore.
     - [x] It is still not a hard rule to be set. But putting Errors and Concepts out of view, makes it sort of not the same project for the sake of Concepts and putting my head into the sand when it is about Errors. If I have ideas about these things, they do belong in the project I think. I have a hard time thinking them away.
 - [x] Formatting:
     - [x] Phase-by-phase.
@@ -2203,15 +2203,15 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] Do the above for the Current and Future Projects
         - [x] 'Project' => 'Plan'
         - [x] Leave out the word 'Plan' if obvious.
-        - [x] Headings 'Circle Language Spec' + similar to folder and file name.
-        - [x] 'Computer Language' => 'Circle Language'
+        - [x] Headings 'Encircle Language Spec' + similar to folder and file name.
+        - [x] 'Computer Language' => 'Encircle Language'
         - [x] 'Articles' => 'Spec'
         - [x] No sub folders, just files?
             - [x] Some sub-projects contain many files.
             - [x] Flattening it out might make a big list.
             - [x] Keeping some folders but have other as loose files, makes you lose that time-line feeling.
             - [x] Too much doubt -> Postpone.
-        - [x] Maybe prefix all with Circle Language Spec Plan. Then simplify the rest of the title, because Plan is already implied.
+        - [x] Maybe prefix all with Encircle Language Spec Plan. Then simplify the rest of the title, because Plan is already implied.
             - [x] Getting path length problems. Collapsing sub-folders with only one file after all.
         - [x] Not sure if that prefixing looks so great.
             - [x] It looks cluttered. And I cannot apply it consistently, because of path length problems. Branch. Try without prefixes.
@@ -2223,7 +2223,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
             - [x] What use is that, if I want to convert it to MD instead?
             - [x] Conversion to MD is not great if I use color coding it the docs.
         - [x] Remove '& Copyright'
-            - [x] > Only found 1 occurrence: 'Circle Language Spec Ideas'.
+            - [x] > Only found 1 occurrence: 'Encircle Language Spec Ideas'.
         - [x] Remove unnecessary title page white space and 'version XXXX-XX' mentioning.
         - [x] Make main heading and such not take up so much space.
         - [x] Month in the headings, so it is clear that the fact that it is a time period is leading.
@@ -2254,71 +2254,71 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] ~~Headings do not have colors.~~
             - [x] ~~Are not going to work for me anyway, with the low brightness on my screen.~~
             - [x] ~~It starts being not so functional anymore, the changes.~~
-- [x] I somehow don't trust this is all there's to it about Circle Language Spec planning docs. Look over the state of it. It *would* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
+- [x] I somehow don't trust this is all there's to it about Encircle Language Spec planning docs. Look over the state of it. It *would* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
 
-### 2020-04-01 Done Circle Language Spec Planning Docs
+### 2020-04-01 Done Encircle Language Spec Planning Docs
 
-- [x] Circle Language Spec Products doc: Move postponed work from Done section to the Postponed section.
-- [x] The document "Circle 3 Excluded Requirements" has topics that might be interesting for the Circle Language Spec project.
-    - [x] Was at: Round Up looking for things to add/move from Circle 3 Programming to Circle Language Spec.
+- [x] Encircle Language Spec Products doc: Move postponed work from Done section to the Postponed section.
+- [x] The document "Circle 3 Excluded Requirements" has topics that might be interesting for the Encircle Language Spec project.
+    - [x] Was at: Round Up looking for things to add/move from Circle 3 Programming to Encircle Language Spec.
 - [x] Circle 3 Programming, Preliminary Designs:
-    - [x] Yes, definitely quite some useful texts in that document, that belong in the Circle Language Spec project.
-    - [x] The texts seem to belong in the actual Circle Language Spec docs, not its planning docs.
+    - [x] Yes, definitely quite some useful texts in that document, that belong in the Encircle Language Spec project.
+    - [x] The texts seem to belong in the actual Encircle Language Spec docs, not its planning docs.
     - [x] In the past I made effort to dump even unfinished ideas right inside the docs.
     - [x] I had doubts about it, since it would litter the docs with unfinished, lower quality material.
     - [x] But I remember doing it, because otherwise loose ideas would be spread over numerous sub-project documentation and would get out of view.
-    - [x] Do I move these texts to the appropriate spot in the Circle Docs now?
-    - [x] Do I also move ideas from Sub-Projects there? Maybe those are too short to matter. And not really loose texts, but goals. Somewhere in the middle. So maybe I should copy/move some texts to the loose idea boxes of Circle Language Spec.
+    - [x] Do I move these texts to the appropriate spot in the Encircle Docs now?
+    - [x] Do I also move ideas from Sub-Projects there? Maybe those are too short to matter. And not really loose texts, but goals. Somewhere in the middle. So maybe I should copy/move some texts to the loose idea boxes of Encircle Language Spec.
     - [x] I'm staring at 'Concepts' now. But Concepts is out-of-scope. Very out-of-scope. Does it matter? Any content about it is to be dumped into the appropriate spot in the documentation.
-    - [x] Object Order: Some of it is in Data Concepts. But I fundamentally need it in the Circle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding concepts and data concepts once. Now most coding concepts are just part of the programming language and most data concepts are not. Just the separation is not as precisely clear as that.
+    - [x] Object Order: Some of it is in Data Concepts. But I fundamentally need it in the Encircle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding concepts and data concepts once. Now most coding concepts are just part of the programming language and most data concepts are not. Just the separation is not as precisely clear as that.
 - [x] Circle 3 Programming, Requirements:
     - [x] Has technical design requirements.
-    - [x] I could look at them, take them out, compare them to the Circle Docs requirements, to see if they are in there or have a place in there.
+    - [x] I could look at them, take them out, compare them to the Encircle Docs requirements, to see if they are in there or have a place in there.
     - [x] Nah.
 - [x] Concepts construct:
     - [x] I am missing writing the Concepts construct documentation from the planning docs. I only see it in the Circle 3 Programming, Excluded Requirements.
 - [x] Lower contents:
-    - [x] The idea of lower contents is described in planning docs not in Circle Docs Planning, but in '1. Circle 3 Programming' planning.
+    - [x] The idea of lower contents is described in planning docs not in Encircle Docs Planning, but in '1. Circle 3 Programming' planning.
     - [x] You can also find some texts about it here: Circle 3, Lower Contents, TODO.doc
 
 ### 2020-03-22 Done Project Names
 
 - [x] Inspecting the sub-projects just to find whether documentation was of any concern in those projects, might be too intense for me right now.
 - [x] The question I was trying to answer with that was: Is it accurate to call the super-project 'Circle 3 Programming'?
-- [x] The reason for calling it that, is to make it clearer what the project entains, separating it better from the super-project with the name 'Circle Docs', so that there is a clear distinction that one is about programming and the other is about documentation.
+- [x] The reason for calling it that, is to make it clearer what the project entains, separating it better from the super-project with the name 'Encircle Docs', so that there is a clear distinction that one is about programming and the other is about documentation.
 - [x] But from the top of my head I kind of already know that the focus of those Circle 3 projects was programming, not documentation.
-- [x] I just want clarity on the distinction between projects Circle Docs and Circle 3 Programming, but giving it a clearly distinctive name.
+- [x] I just want clarity on the distinction between projects Encircle Docs and Circle 3 Programming, but giving it a clearly distinctive name.
 
 ### 2020-03-22 Done Organize Planning Docs
 
-- [x] I moved around folders, for a preliminary split up between Circle Docs and Circle 3 Programming projects.
+- [x] I moved around folders, for a preliminary split up between Encircle Docs and Circle 3 Programming projects.
 - [x] I could change titles of projects inside the doc content too.
-    - [x] I am unsure whether I want to call the projects 'Circle Docs'. Maybe 'Circle Language Specification'.
-    - [x] I do want to go for the name 'Circle' as opposed to 'New Computer Language'.
+    - [x] I am unsure whether I want to call the projects 'Encircle Docs'. Maybe 'Encircle Language Specification'.
+    - [x] I do want to go for the name 'Encircle' as opposed to 'New Computer Language'.
         - [x] I don't mind that this makes my documentation stick to a name that in theory might later change. It probably will not change at all.
-    - [x] But Circle Docs is too general, I think. It should be Circle Language Specification.
+    - [x] But Encircle Docs is too general, I think. It should be Encircle Language Specification.
     - [x] I don't care for the abbreviation 'Spec'. I am not a fan of abbreviation and I don’t think it makes it much more concise or clear.
     - [x] Also: I am hitting my limit here. I'm tired and getting all sorts of symptoms.
-    - [x] Circle Language Design is also an option. 'Specification' may raise expectations about finishedness.
-    - [x] Circle Language Design Planning
-    - [x] Circle Language Specification
+    - [x] Encircle Language Design is also an option. 'Specification' may raise expectations about finishedness.
+    - [x] Encircle Language Design Planning
+    - [x] Encircle Language Specification
     - [x] 'Specification': suggests finishedness, but does it? CSS is all sorts unfinished modules.
     - [x] Leaving out 'Specification' or 'Design': Makes distinction with Circle 3 Programming hard to see.
-    - [x] The word 'Circle' should be in it.
+    - [x] The word 'Encircle' should be in it.
     - [x] The word 'Language' at least sheds light a bit on what it actually is.
-    - [x] But Circle Language Specification Plan is just a long name.
+    - [x] But Encircle Language Specification Plan is just a long name.
     - [x] But 'New Computer Language Functional Design' was too, so that is not an argument?
     - [x] 'Spec': Is an abbreviation. I generally dislike those, but I think in this case it is appropriate. It is adopted as a word by the community.
 - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] The 'update … articles' sub-projects
-        - [x] Defined as empty project doc folders: I see some of it back in the Circle Language Spec's Strategy doc, Project Steps and Time Planning, but not in the Products doc. Some redo's are defined, be it not in Products doc. It seems the reason for redoing is not always stated. I think I should make the list complete in all the planning docs where appropriate. Then I can get rid of the remaining empty sub-project folders.
+        - [x] Defined as empty project doc folders: I see some of it back in the Encircle Language Spec's Strategy doc, Project Steps and Time Planning, but not in the Products doc. Some redo's are defined, be it not in Products doc. It seems the reason for redoing is not always stated. I think I should make the list complete in all the planning docs where appropriate. Then I can get rid of the remaining empty sub-project folders.
         - [x] Mentioned them in the Products doc now.
         - [x] Removed the empty project doc folders.
-        - [x] Look at Circle Language Spec Strategy for things to put in Circle Language Spec Products.
-        - [x] Look at Circle Language Spec Project Steps & Time Planning for things to put in Circle Language Spec Products.
+        - [x] Look at Encircle Language Spec Strategy for things to put in Encircle Language Spec Products.
+        - [x] Look at Encircle Language Spec Project Steps & Time Planning for things to put in Encircle Language Spec Products.
             - [x] There is a lot there that specifies the reasons to change the articles.
-        - [x] Consider that some elaborations in the Circle Language Spec Products document might belong elsewhere.
-            - [x] Do they belong in Circle Language Spec Strategy?
+        - [x] Consider that some elaborations in the Encircle Language Spec Products document might belong elsewhere.
+            - [x] Do they belong in Encircle Language Spec Strategy?
             - [x] Sort of collides with the Sub-Project folders idea. Maybe details belong in a sub-project folder and a general reference to it in the strategy doc.
             - [x] Maybe go the other way: put sub-projects strategy in the main strategy doc and get rid of separate sub-projects. (My gut says: no, keep sub-project descriptions. That's what they are for: elaboration on a sub-project's scope.)
             - [x] Decision: Rule: Any elaboration now in the Products planning doc, belongs in a sub-project document.
@@ -2349,13 +2349,13 @@ The requirement group 'Priority C: Classes' has 1 language design feature: < Dia
 
 'Priority E: Integration' contains brainstorming instead of a list of items.
 
-> (I notice I get inspired to like implementation projects for Circle 3. I feel the enthusiasm in it. I somehow stopped working on it, though. Also it is not my goal right now. The goal is publish Circle language design eventually.)
+> (I notice I get inspired to like implementation projects for Circle 3. I feel the enthusiasm in it. I somehow stopped working on it, though. Also it is not my goal right now. The goal is publish Encircle language design eventually.)
 
 Some of the content in 'Priority E: Integration' could be part of language design, at least diagram metrics design and automatic containment. 
 
 'Priority F: Large Amounts of Items': Spiraling could be part of diagram metrics documentation. And object order.
 
-'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Circle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming planning docs, because I wasn't going to do them anyway.
+'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Encircle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming planning docs, because I wasn't going to do them anyway.
 
 I ran over all the content of Circle 3 Requirements and above are the conclusions of what to possibly do.
 
@@ -2368,11 +2368,11 @@ That does not take away I want to split topics in these planning docs between la
 
 ### 2020-02-23 Done Reading Circle 3 Strategy
 
-An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Circle Docs.  
-"Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Circle Planning Docs.  
+An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Encircle Docs.  
+"Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Encircle Planning Docs.  
 Was at "More Tips" processing things.
 
-At what point am I going to be more rigorous in splitting off the Circle Planning Docs from the rest? Not yet, I think. It's still a mash up of both in the planning docs I am reading now.
+At what point am I going to be more rigorous in splitting off the Encircle Planning Docs from the rest? Not yet, I think. It's still a mash up of both in the planning docs I am reading now.
 
 ### 2020-02-20 Done
 
@@ -2424,11 +2424,11 @@ I had those plans with it, but did nothing about them this day.
 - [x] Proposed constructs: 
     - [x] Another example is the automatic diagram organization topics. The diagram notation idea can live without some of the wild ideas in that. For instance, interchangeability between containment and referential structure or inversibility of containment in case of bidirectional relationships. Also the striving to want almost all relationships between objects to be bidirectional, does not apply if you want to use the diagrams to express systems in which you have a choice if relationships are bidirectional or unidirectional. Also giving things a different name (aspects are all of a sudden called concepts) is not a priority, and perhaps even alienating. Those are just some ideas I have about how to pull things apart. 
 - [x] I think maybe those differences in application call for a rigorous split up: *diagram notation / constructs drafts / gap lifting*. Diagram notation is a bit of a grey area, because it wants to use constructs. Some of the notation capabilities imply different variations of otherwise fixed constructs. I think a separation of some main groups of concepts is appropriate here, so the ideas are better transferable and perhaps better usable and applicable. It might make the general idea about the diagram notation more pure and also more freely usable, not in a fixed way. An argument that falls away when you open sourcing and not patenting or something, is that things do not need to have a closed, unambiguous definition. Things can be just part usable, using and replacing rules as one wishes. You can say at some point the diagram notation surpassed the original goal on two ends. I had somewhat of an explosion of ideas then surrounding this notation. Boundaries between ideas were not well defined. That's a (good?/bad?) quality of my way of thinking, I guess. But I tend to want to focus things, by splitting things apart in the main blocks, so it that it might become more practical (for others or myself).
-- [x] "Circle Language Spec" / "Circle Language Broader View" / "Circle Language JJ's Construct Proposals"
+- [x] "Encircle Language Spec" / "Encircle Language Broader View" / "Encircle Language JJ's Construct Proposals"
 - [x] I don't like the last name. It seems long.
 - [x] Proposals seems more community-based, not single authorish.
 - [x] Language Spec vs Broader View:
-    - [x] The idea that the diagram expression should be canonical and unambiguously express anything from any computer language, might not be a rule I want to uphold in the Circle Language Spec docs. For instance if C# has certain rules for scoping of implied accessibility rules of members, you might not want to express that in a diagram. It sort of would make no sense if the diagrams are applied like a helper tool in Visual Studio to visualize certain aspects of C# code, to have symbols that disambiguate something, that is not ambiguous according to C#. The concept of canonicalizing things, may have a better place in Circle Language Broader View docs, I mean to isolate from the Circle Language Spec. A reason for unambiguous expression may only become clear, if you look at those ideas about possible broader applications of this notation: specifically where in a diagram you just switch from one source language to the next, by navigating the symbols. (E.g.: Now the diagram expresses something with C# as the source, navigate onward and you may see some diagram expressing something that came from JavaScript… the rules change, maybe the diagram expression should be unambiguous.) I think it is good and keeps it simpler and ideas less stuck on each other, to speak in options for diagram expression. There is a general theme in the expression. It is not all wishy washy, but there is wiggle room for how to use it. I just want to share the idea, not impose how it should be used.
+    - [x] The idea that the diagram expression should be canonical and unambiguously express anything from any computer language, might not be a rule I want to uphold in the Encircle Language Spec docs. For instance if C# has certain rules for scoping of implied accessibility rules of members, you might not want to express that in a diagram. It sort of would make no sense if the diagrams are applied like a helper tool in Visual Studio to visualize certain aspects of C# code, to have symbols that disambiguate something, that is not ambiguous according to C#. The concept of canonicalizing things, may have a better place in Encircle Language Broader View docs, I mean to isolate from the Encircle Language Spec. A reason for unambiguous expression may only become clear, if you look at those ideas about possible broader applications of this notation: specifically where in a diagram you just switch from one source language to the next, by navigating the symbols. (E.g.: Now the diagram expresses something with C# as the source, navigate onward and you may see some diagram expressing something that came from JavaScript… the rules change, maybe the diagram expression should be unambiguous.) I think it is good and keeps it simpler and ideas less stuck on each other, to speak in options for diagram expression. There is a general theme in the expression. It is not all wishy washy, but there is wiggle room for how to use it. I just want to share the idea, not impose how it should be used.
 
 ### 2019-12-29 Done Scope: Diagram Topics
 
@@ -2446,8 +2446,8 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
     - [x] 'Software System': an abstraction layer above the new computer language.
         - [x] ~~Even the large 'introduction' document to 'Software System': you might put part of it in one for 'language' and just refer to it from the main document.~~
         - [x] I think I should take interesting parts from the general Software System documentation.
-        - [x] Then drop them somewhere in the Circle Language Spec documentation.
-        - [x] Also for the planning docs: there are Software System Documentation out-of-scope projects. Perhaps part of it was Circle Language Design.
+        - [x] Then drop them somewhere in the Encircle Language Spec documentation.
+        - [x] Also for the planning docs: there are Software System Documentation out-of-scope projects. Perhaps part of it was Encircle Language Design.
         - [x] > Not much usable content is still in scope.
     - [x] Computer language topics out-of-scope:
         - [x] Concepts / aspect oriented programming
@@ -2514,20 +2514,20 @@ Idea bout converting version folder to source control history:
 
 ### 2019-08-05 Done Brainstorm Restructuring Docs
 
-The Circle Planning Docs took a turn at some point in time. At one point it was mostly about documentation, then it became about both documentation and programming. But the planning docs folders do not seem to be fully updated to that change. Maybe I can do that in the context of *this* project. First some more reorientation.
+The Encircle Planning Docs took a turn at some point in time. At one point it was mostly about documentation, then it became about both documentation and programming. But the planning docs folders do not seem to be fully updated to that change. Maybe I can do that in the context of *this* project. First some more reorientation.
 
 'Program Software System' now looks 'outdated', compared to the programming work described in 'Document Software System'.  
 I might actually move many of those topics from 'Future\Interesting Now' to 'Postponed'.  
 I also would want to put a cut into all the planning docs and all the circle docs: this is the language and this is the rest.  
 So it gets isolated. In the past I wanted to put everything I did (and will ever do) with software development at home in a single system so general that I called it 'Software System'. Many docs are general and describe both that language + OS-like topics and applications. I might want to cut that in two: language and the rest. I might like to open source the language at one point and just leave the rest out of it.
 
-I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Circle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Circle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
+I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Encircle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Encircle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
 
 ### 2019-08-04 Done Notes converting version folders to source control history
 
 This is a lot of work.
 
-- [x] Exp: Search for XXXX in the folder "Circle Docs\1. Language".
+- [x] Exp: Search for XXXX in the folder "Encircle Docs\1. Language".
 - [x] Obs: 54 matches.
 - [x] Hyp: 54x a version folder structure to convert to source control history.
 - [x] Less than I thought and probably doable.
@@ -2539,7 +2539,7 @@ There is a folder 'Previous Versions' that would make you think you forgot to pu
 
 ### 2008-08-31 Done Writing Style Ideas
 
-Circle Language Spec, Writing Style,  
+Encircle Language Spec, Writing Style,  
 2008-08-31
 
 Sometimes it is just clearer to have an article, with diagrams in it straight away, without any article with just textual explanations. In the future, the whole form of the documentation might change as such and have diagram expression be more present in the conceptual explanations.
@@ -2559,9 +2559,10 @@ Postponed
 - [ ] ~ Moves to "Implementations"
 - [ ] All pointer topics to Pointers.
 - [ ] All Text Code topics to single place.
-- [ ] Replacing the name: "new computer language" with "Circle programming language" or "Encircle".
+- [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
 - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
 - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
+- [ ] Replacing "the new computer language" with "Encircle"
 - [ ] ->.. Replacing "Concept" with "Aspect"
     - [ ] I have difficulty with this. 
     - [ ] Only part of the occurrences seem replaceable.
@@ -2588,13 +2589,13 @@ Postponed
 - [ ] ~ But it may have resulted in a bit of an overwhelming set of situations being shed light on.
 - [ ] ~ Not sure to what extent this is a problem.
 - [ ] ~ It's more of a content issue, rather than a formatting issue. I was focusing on formatting issues for now, so maybe postpone this.
-- [ ] ~ The rules seem simpler in Circle than in e.g. C#. It seems that derived from basics, several construct from e.g. C# might have a corresponding expression in Circle using more basic rules. I seem to go through an effort to describe how supposedly more familiar constructs might be represented in Circle. It seems quite an effort to explain something that might be simpler, in terms that might be more complicated. But it might have a purpose as to build a bridge between what a reader might already be familiar with, to a different idea, that the reader is attempted to be introduced to. I have some doubt about whether the story could be simpler. Maybe it could be simpler by adding something: first the basic rules with no edge cases, then an admission of it e.g.: "Familiar constructs from other programming languages might be expressed using these basic building blocks from Circle. Each of those familiar constructs seems to be a specific use-case of basic building blocks in Circle."
+- [ ] ~ The rules seem simpler in Encircle than in e.g. C#. It seems that derived from basics, several construct from e.g. C# might have a corresponding expression in Encircle using more basic rules. I seem to go through an effort to describe how supposedly more familiar constructs might be represented in Encircle. It seems quite an effort to explain something that might be simpler, in terms that might be more complicated. But it might have a purpose as to build a bridge between what a reader might already be familiar with, to a different idea, that the reader is attempted to be introduced to. I have some doubt about whether the story could be simpler. Maybe it could be simpler by adding something: first the basic rules with no edge cases, then an admission of it e.g.: "Familiar constructs from other programming languages might be expressed using these basic building blocks from Encircle. Each of those familiar constructs seems to be a specific use-case of basic building blocks in Encircle."
 - [ ] ~ "Changing Inactive to Executable" section:
-    - Seems quite Circle Broader View-ish. Use-cases of how you might use it in a less conventional setting. What it might be like if the internet was a single computer that everyone was programming and using at the same time, with more parts changeable and accessible to multiple people at the same time.
-- [ ] ~ The 'many rules' around commands seem circumstantial: practical behavior that might be found in other programming languages. At the other end of the spectrum might be a hypothetical system, in which no control is imposed with rules as such, which may only cause possibly inconveniences of e.g. concurrency issues like reading out half-written objects and such. The 'rule richness' might already be in place if the notation were to be used in an existing system or a new system might be developed that uses the notation and the programmers might use their own heads on how to make it practical. The 'rule free' variation might also be an experimentally funny thing to develop. It might still function as a coherent base for programming, be it there could be concurrency issues for instance. I really wonder if the rules might have to be embedded in the text. I might be more comfortable to extract these rules as a separate article that just aims to expose a system of rules that a programming environment might impose onto command objects, to make it more practically workable and evasive of troublesome situations. Some programming environments just support this behavior out of the box. "Local variables and parameters are automatically thread-safe" is one of those rules that I come to rely on when programming concurrent systems. (I personally find concurrency one of the more difficult issues to deal with in programming.) If rules are not imposed in Circle, that thread safety could fall to pieces in a way. I just think a description of the notation does not need to rely on the existence of those rules. If I want to go into it, I might want to separate that from the main article, because it might make the idea easier to absorb. The rules I state were maybe just my attempt to prove to myself what would it take for objects and commands to be exchangeable and what rules does it take to make object behave like commands in an orderly fashion and does this notation work at all for the many command-oriented constructs that exist in programming languages today. Now I am more confident that it works, the main explanation might not have to be a stack-up of 'proof', just an exposition of the main point.
+    - Seems quite Encircle Broader View-ish. Use-cases of how you might use it in a less conventional setting. What it might be like if the internet was a single computer that everyone was programming and using at the same time, with more parts changeable and accessible to multiple people at the same time.
+- [ ] ~ The 'many rules' around commands seem circumstantial: practical behavior that might be found in other programming languages. At the other end of the spectrum might be a hypothetical system, in which no control is imposed with rules as such, which may only cause possibly inconveniences of e.g. concurrency issues like reading out half-written objects and such. The 'rule richness' might already be in place if the notation were to be used in an existing system or a new system might be developed that uses the notation and the programmers might use their own heads on how to make it practical. The 'rule free' variation might also be an experimentally funny thing to develop. It might still function as a coherent base for programming, be it there could be concurrency issues for instance. I really wonder if the rules might have to be embedded in the text. I might be more comfortable to extract these rules as a separate article that just aims to expose a system of rules that a programming environment might impose onto command objects, to make it more practically workable and evasive of troublesome situations. Some programming environments just support this behavior out of the box. "Local variables and parameters are automatically thread-safe" is one of those rules that I come to rely on when programming concurrent systems. (I personally find concurrency one of the more difficult issues to deal with in programming.) If rules are not imposed in Encircle, that thread safety could fall to pieces in a way. I just think a description of the notation does not need to rely on the existence of those rules. If I want to go into it, I might want to separate that from the main article, because it might make the idea easier to absorb. The rules I state were maybe just my attempt to prove to myself what would it take for objects and commands to be exchangeable and what rules does it take to make object behave like commands in an orderly fashion and does this notation work at all for the many command-oriented constructs that exist in programming languages today. Now I am more confident that it works, the main explanation might not have to be a stack-up of 'proof', just an exposition of the main point.
 - [ ] ~ Where I use parameter notation with connectors, I might want to be honest to for now ignore what those connectors mean, just accept that it makes them public and makes them parameters.
 - [ ] ~ I see an analogy between the lifecycle of running a command and an object's creation, constructor, initial setting of required values, and running of active commands directly in it.
-- [ ] ~ Outtakes, perhaps for Circle Broader View:
+- [ ] ~ Outtakes, perhaps for Encircle Broader View:
     - [ ] ~ It seems it might be possible to make combinations of symbols that might not have an equivalent in another language.
 
 ### 2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article
@@ -2660,8 +2661,8 @@ Postponed
 - [ ] ~ Reformulating:
     - [ ] ~ More open, less resolute language
     - [ ] ~ I could start reading and reformulating top to bottom.
-    - [x] Circle Language Spec Overview
-    - [ ] ~ Circle Language Spec Introduction: Applying trigger word marking technique to this already reworded document?
+    - [x] Encircle Language Spec Overview
+    - [ ] ~ Encircle Language Spec Introduction: Applying trigger word marking technique to this already reworded document?
     - [x] Basic Diagram Elements
     - [x] Objects chapter
     - [x] Classes chapter
@@ -2700,11 +2701,11 @@ Postponed
 - [x] 2008-07 01        System Objects Spec Project Summary.docx
 - [x] 2008-07 02        Assignment Spec Project Summary.docx
 - [x] 2008-08 00        Commands Spec Project Summary.docx
-- [x] 2008-09 01        Organize Circle Language Ideas Project Summary.docx
+- [x] 2008-09 01        Organize Encircle Language Ideas Project Summary.docx
 - [x] 2008-09 02        Parameters Spec Plan.docx
 - [x] 2008-10 01 Scatter Symbol Language Documentation Content Project Summmary.docx
-- [x] 2009-06 01 Circle Language Spec Plan Part B, Sub-Projects.docx
-- [ ] ~ 2009-06 02 Circle Language Spec Plan Part B, Evaluation.docx
+- [x] 2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects.docx
+- [ ] ~ 2009-06 02 Encircle Language Spec Plan Part B, Evaluation.docx
     - [ ] ~ > Stopped, because I seem panicky about which words to pick and whether someone might be rubbed the wrong way with it somehow.
 - [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Eventual Plan, Goal Description.docx
 - [ ] ~ 2009-06 02 Planning + Black Box Spec Part A, Eventual Plan, Elements.docx
@@ -2740,7 +2741,7 @@ Postponed
 
 - [ ] ~ One point of failure I see in this computer language, is that it works well when there are a limited number of symbols, but as lists get big, the language seems to lose its effectivity. One way to still make it useful, is perhaps to filter, or only partially display lists in the diagrams, just like a normal grid or list would. There was a prototype app that would generate diagrams out of vast sources of symbols. The problem became apparent there and it has been in the back of my head since then.
 
-The 'large lists' problem in Circle also applies to large lists of commands, that might apply to an object.  
+The 'large lists' problem in Encircle also applies to large lists of commands, that might apply to an object.  
 Also that UI's are often optimized to show the most relevant options and then I (with poor judgement?) just say: no none of that, everything only.  
 Maybe it's just that this UI will have its place along side other techniques.  
 It's just that the large lists problem should be solved in my view.  
@@ -2785,7 +2786,7 @@ But if you would accidentally bend the half triangle at the end the wrong way, i
 
 - [ ] ~ A jagged line type for the Name aspect I would like.
 - [ ] ~ Maybe choices for shapes with different line types could become less iffy. (See Basic Diagram Elements.)
-- [ ] ~ Maybe less rules for line direction, even though an effort for this may already have been done in moving from the previous version Symbol Language.doc to the newer definition Circle Language Spec.
+- [ ] ~ Maybe less rules for line direction, even though an effort for this may already have been done in moving from the previous version Symbol Language.doc to the newer definition Encircle Language Spec.
 - [ ] ~ The access marks may become arrows instead, after considering if that works out with the rest of the notation rules.
 - [ ] ~ Maybe accept that the system interface may be visible more, while letting go of implicit notations to avoid them. Maybe not all the implicit notations for e.g. system commands calls would be scratched. Maybe the less usual ones, that seem to look the most ambiguous of all, if I may express it that black and white.
 - [ ] ~ The line merge and symbol merge notations may be let go of. (See Basic Diagram Elements.) But maybe later it was let go of already, I cannot remember that clearly anymore. Those notations look quite ambiguous with more basic notation ideas. I think I introduced those, because my idea was to make bidirectional relationships more common, and I perhaps disliked how many symbols and lines you might use to express bidirectional relationships, because in my view they would be used everywhere. I let go of that idea of bidirectional relationships everywhere. Only in use case ideas I might have for aspect oriented programming ideas it may become handy. In general it may be handy: bidirectional relationships, but they do not seem to be used ubiquitously in technology, so... So long story, but just leaving the explicit 'forward' and 'backward' relationship references drawn out explicitly, might be a good idea. And I believe that I already came up with something somewhere, where I put a 'relational ring' around the two lines of a bidirectional relationship, to indicate they would be kept in sync automatically.
@@ -2794,12 +2795,12 @@ But if you would accidentally bend the half triangle at the end the wrong way, i
 ### 2020-05-12 Postponed Fully OO?
 
 - [ ] ~ Here and there I mention that the diagram notation could 'fully describe' an OO system. But I do not mention that it stops at arithmetic, comparative, logical operators and such. You might display that as an object graph. An idea was that 'Math' would be an external module that describes all the basic operators, but another idea was for expressions like that could be just included as bits of text code inside the diagram. Maybe not be too strict about this towards myself.
-- [ ] ~ Also when I look at Circle Construct Drafts, I see topics one might expect in a language spec, that are not addressed. I guess it does not have to have everything any other language spec might have…
-- [ ] ~ The "Summaries of Other Languages" lists constructs, that I might have deemed 'obvious' how to express them in Circle, but that might not be the case: enums, structs, union types, other sorts of types, all sorts of operators, all the modifiers. If it turns out explainable under one umbrella, maybe one article would suffice. Maybe called "Imported Constructs" but perhaps that name would demote these constructs too much?
+- [ ] ~ Also when I look at Encircle Construct Drafts, I see topics one might expect in a language spec, that are not addressed. I guess it does not have to have everything any other language spec might have…
+- [ ] ~ The "Summaries of Other Languages" lists constructs, that I might have deemed 'obvious' how to express them in Encircle, but that might not be the case: enums, structs, union types, other sorts of types, all sorts of operators, all the modifiers. If it turns out explainable under one umbrella, maybe one article would suffice. Maybe called "Imported Constructs" but perhaps that name would demote these constructs too much?
 - [ ] ~ I have some notations in mind for 'operators' which may cover a portion of the constructs in the "Sumarries of Other Languages":
-    - [ ] Drawing out operators and operands as function calls with the command and paramater notation of Circle.
+    - [ ] Drawing out operators and operands as function calls with the command and paramater notation of Encircle.
     - [ ] Writing down the expression as text (for instance "X < Y" inside a diamond maybe.
-    - [ ] Using a commands and parameters notation of Circle, also try to write the expression almost as text "X < Y" but then the X and Y operands perhaps replaced by a shape (circle or 'cookie' shape) with the name in or near the shapes, or perhaps no names at all, just circle's that redirect to the wanted value.
+    - [ ] Using a commands and parameters notation of Encircle, also try to write the expression almost as text "X < Y" but then the X and Y operands perhaps replaced by a shape (circle or 'cookie' shape) with the name in or near the shapes, or perhaps no names at all, just circle's that redirect to the wanted value.
     - [ ] Perhaps try to make an attempt to an exhaustive table, even when that might mean repeating the same sort of notation multiple times. It might clarify where there might be doubt.
 - [ ] Some C or C++ keywords I might not have a specific replacement for. Is there a kind of catch all solution for that?
     - [ ] For instance ones I do not know the meaning of.
@@ -2837,7 +2838,7 @@ I think that for now, it might be a better idea not to express such notational c
 
 - [ ] ~ 'Connecting Command Symbols' stories may be a bit long?
 - [ ] ~ Maybe there are so many rules in there, because of the idea that this would become the base for a patent? Patenting is sort of off the table now.
-- [ ] ~ Some things might be implementation details, movable to the Circle Construct Draft part?
+- [ ] ~ Some things might be implementation details, movable to the Encircle Construct Draft part?
 - [ ] ~ Certain rules might change and simplify, but that might not be for now.
 - [ ] ~ Outtakes:
     - [ ] ~ Lines do have a direction, going from one symbol to the next, which will be explained later.
@@ -2886,7 +2887,7 @@ I think that for now, it might be a better idea not to express such notational c
 ### 2020-06-15 Postponed Content Changes for Relationships Chapter
 
 - [ ] ~ The Relationships chapter is now before the System Objects chapter. I question whether the Relationships chapter would not better go after the System Interface chapter. 
-- [ ] ~ The file '2. Relational Structure (Use As Cross Out Later).docx' might be placed in a 'previous versions' folder? I wonder how needed it is for Circle. It might be interesting to keep, not to rip apart as the file name seems to suggest should be done.
+- [ ] ~ The file '2. Relational Structure (Use As Cross Out Later).docx' might be placed in a 'previous versions' folder? I wonder how needed it is for Encircle. It might be interesting to keep, not to rip apart as the file name seems to suggest should be done.
 - [ ] ~ I also miss, that classes might contain (static) data that looks like object relationships. This means I think, basically that you could see a mix of class and object structure. Perhaps a picture of that may take away some uneasiness and insecurity about applicability of this notation.
 - [ ] ~ The idea of multiple types of objects in a single list, might be pushed to the background?
 - [ ] ~ Special notations such as 'related to itself', maybe put those a separate part, so the main point may flow better?
@@ -2901,7 +2902,7 @@ I think that for now, it might be a better idea not to express such notational c
 ### 2020-05-20 Postponed Content Changes for Parameters
 
 - [ ] ~ Maybe make the idea of ubiquitous bidirectional relationships between commands and objects less centric. Or perhaps at least diverge into other approaches, so attempting to make room for expressing what goes on in other languages, rather than replacing the construct by another take on it.
-- [ ] ~ I think maybe that bidirectionality is not of much use in this Circle Language Spec. It seems better off being placed in Circle Construct Drafts, because it just does not resonate much with other languages, programming seems to be able to live without it, and it seems alienating and full of implications, that seems to make concepts fall apart that did not seem to need to be ripped apart in the first place. I might be too harsh about it here. It is an interesting idea, I think, but it just complicates the idea of the diagram notation, which seems centric, not drastically changing how constructs work.
+- [ ] ~ I think maybe that bidirectionality is not of much use in this Encircle Language Spec. It seems better off being placed in Encircle Construct Drafts, because it just does not resonate much with other languages, programming seems to be able to live without it, and it seems alienating and full of implications, that seems to make concepts fall apart that did not seem to need to be ripped apart in the first place. I might be too harsh about it here. It is an interesting idea, I think, but it just complicates the idea of the diagram notation, which seems centric, not drastically changing how constructs work.
 - [ ] ~ The Imported Parameter Concepts could be tidied up. The ideas from the original Symbol Language.doc might be processed: discarded or embedded into the main text. Merging the texts of the conceptual explanation and diagram notation might make things more overviewable and shorter / less text.
 - [ ] ~ The approach of in/out/thru may be a more appropriate description.
 - [ ] ~ Thru parameters had a particular implicit notation introduced in "Symbol Language (2004)": an object line that goes in both directions. Perhaps one implicit notation too many. But perhaps it can be introduced as an alternative.
@@ -2909,14 +2910,14 @@ I think that for now, it might be a better idea not to express such notational c
 
 ### 2020-05-20 Postponed Content Changes for Execution Control
 
-- [ ] ~ Execution Control sort of seems an application of Circle Language rather than an intrinsic part. Arithmetic and other operators were supposed to be something like that too: an application of Circle diagrams. I wonder why I explain execution control in detail, while for math operations I leave that out. Maybe an article about that would make things clearer/complete/make you not wonder where all the operators have gone in this language.
+- [ ] ~ Execution Control sort of seems an application of Encircle Language rather than an intrinsic part. Arithmetic and other operators were supposed to be something like that too: an application of Encircle diagrams. I wonder why I explain execution control in detail, while for math operations I leave that out. Maybe an article about that would make things clearer/complete/make you not wonder where all the operators have gone in this language.
 - [ ] ~ I saw 'execution flow' somewhere. I want to consider using that term instead of execution control. I just like the word flow. It makes me feel better than 'control'. But maybe it will somehow not work in sentences. Not sure. Maybe execution flow can mean the normal flow, while execution 'control' can actually change the flow. Still maybe flow as a general term feel nicer.
 
 ### 2020-05-20 Postponed Content Changes for Black Boxes
 
 Black box is a notation I have reservations about. It works, but it might not be not elegant. Also, if you take C# as a source, rules about private/public are set, and some things just don't have to be denoted, because they are implied. A method contained by a a class can access all the other private members of that class. In my efforts to generalize and make things interchangeable, this 'had to be' explicitly denoted…
 
-There are topics, I probably want to move away from the Circle Language Spec at one point and go for something simpler. The whole friend notation is something I scratch my head about. I am not sure, if I like it or not.  
+There are topics, I probably want to move away from the Encircle Language Spec at one point and go for something simpler. The whole friend notation is something I scratch my head about. I am not sure, if I like it or not.  
 I am not sure if the topics I dislike can be left in separate articles or something.
 
 - [ ] ~ Obs: One of the first few headings is that 'friends' idea in the 'Black Box Main Concepts' article.
@@ -2930,7 +2931,7 @@ I am not sure if the topics I dislike can be left in separate articles or someth
 - [ ] ~ I do not worry as much though. I think it is appropriate to introduce a simpler scheme for the most common cases and do that at the beginning. Perhaps saying next, that it is based on a more elaborate notation covered after that, which explicitly denotes things that are just given in certain other languages, or a possibly broader range of access controlling possibilities than offered in other languages.
 - [ ] ~ I also feel that there could be more than one way to denote public and private with or without connectors. Not showing connectors at all might denote that something is private. Or not showing the members at all might imply things are private. Or showing a connector with a cross might say 'private', but that would imply the ones without a connector would be public? Is it bothersome to show public access connectors for everything public while all you are showing is the public members? Not sure. Maybe not.
 - [ ] ~ Maybe this detail is not even that important if you just present the options and leave the rest up to the imagination. My goal might not be to use this literally as described. I would be glad if anyone would even use bits and pieces, if at all.
-- [ ] ~ In the document Circle Language Spec Strategy one of the 'guidelines' for 'writing efficiently' was to not try to compare it to other systems too much. I am beginning to think that it might be useful to do the opposite when it comes to the Black Box principles. I think a demonstration of common cases in other programming languages might be more useful to start with, and then maybe later go into a systematic approach of maybe a broader view on what access modifiers actually do. That last bit might even be more something for Circle Construct Drafts, but I am beginning to think, that access modifiers from other programming languages, could be specific cases, of an underlying more general pattern and perhaps richer set of options. Why I now push that in the foreground in my story, is because I possibly would like to base notations of specific cases on this more general underlying pattern. The friend access thing… I might want to demote that to a special case, or specialized idea of special situations that might occur in other languages (friend access modifier in C++) for instance, and the philosophical idea of consequences of drawing a complete parallel between commands and objects. Maybe that idea might even be too alienating for Circle Language Spec. Maybe Circle Construct Drafts might be where you want to move that over to. But maybe if you just save it for last, and introduce it as the role I think it could have (not necessarily a big one), it might be OK to leave it in there.
+- [ ] ~ In the document Encircle Language Spec Strategy one of the 'guidelines' for 'writing efficiently' was to not try to compare it to other systems too much. I am beginning to think that it might be useful to do the opposite when it comes to the Black Box principles. I think a demonstration of common cases in other programming languages might be more useful to start with, and then maybe later go into a systematic approach of maybe a broader view on what access modifiers actually do. That last bit might even be more something for Encircle Construct Drafts, but I am beginning to think, that access modifiers from other programming languages, could be specific cases, of an underlying more general pattern and perhaps richer set of options. Why I now push that in the foreground in my story, is because I possibly would like to base notations of specific cases on this more general underlying pattern. The friend access thing… I might want to demote that to a special case, or specialized idea of special situations that might occur in other languages (friend access modifier in C++) for instance, and the philosophical idea of consequences of drawing a complete parallel between commands and objects. Maybe that idea might even be too alienating for Encircle Language Spec. Maybe Encircle Construct Drafts might be where you want to move that over to. But maybe if you just save it for last, and introduce it as the role I think it could have (not necessarily a big one), it might be OK to leave it in there.
 - [ ] ~ It's just that the Black Box story might be the chapter I am least satisfied with. Not sure yet.
 - [ ] ~ Note that the Events chapter has an item 'Black Boxed Events' in it.
 
@@ -2974,8 +2975,8 @@ has something missing. In C# you can also refer to the parent object as if it we
 - [x] An idea is to have the system interface be there if you need it, and optimized away if not needed or just be a view on it, not necessarily a non-optimal way of object representation in runtime. I am going too far with this now, I think. Too many edge-cases. Lots of ideas come to mind.
 - [ ] ~ System Objects seem to lead to Assignment, Connectors and Connections, but one is sort of the internals, while the other is just basics of notation, so not sure to keep them intermixed like that.
 - [ ] ~ I just keep thinking the chapter could be split into a neutral view on system aspects, leading to connections, connectors and assignment, and separating out the specific implementation, which I do not find uninteresting, but… it does not seem to be 'the language', it seems 'the runtime', which can expose itself through the system interface. It may even be demoted to Construct Drafts. It might be more than a draft, but… maybe for that reason put it in Broader View.
-- [ ] ~ (Also about Pointers): The distinction between system interfaces for references and for objects might also be derived from the impression that in the object reference notation it may be implied what is the object and what is the reference. I feel uneasy that I seem to change opinion of what makes a symbol a reference. It is a story of subtleties that might lurk under the hood, that could be the subject of the Pointers chapter and may be better pretending the problem does not exist. I have multiple interpretations I sort of equally like, that might not even be in each other's way. It may just create an odd rule set of when something is a reference and when something is an object. If I keep comparing it with 'text code' I seem to find answers. How it works in text code, I feel there is often a parallel to be found in this diagram notation. If it is a reference or an object may also be 'weird' in C#, so Circle might be excused for it too.
-- [ ] ~ Elaborations on reasons might be moved to Circle Broader View.
+- [ ] ~ (Also about Pointers): The distinction between system interfaces for references and for objects might also be derived from the impression that in the object reference notation it may be implied what is the object and what is the reference. I feel uneasy that I seem to change opinion of what makes a symbol a reference. It is a story of subtleties that might lurk under the hood, that could be the subject of the Pointers chapter and may be better pretending the problem does not exist. I have multiple interpretations I sort of equally like, that might not even be in each other's way. It may just create an odd rule set of when something is a reference and when something is an object. If I keep comparing it with 'text code' I seem to find answers. How it works in text code, I feel there is often a parallel to be found in this diagram notation. If it is a reference or an object may also be 'weird' in C#, so Encircle might be excused for it too.
+- [ ] ~ Elaborations on reasons might be moved to Encircle Broader View.
 
 #### Less Difficult Perhaps
 
@@ -3033,8 +3034,8 @@ has something missing. In C# you can also refer to the parent object as if it we
 ### 2020-05-22 Postponed Content Changes for Type Control
 
 - [ ] ~ It seems part of it is from the old Symbol Language.doc. It seems to attempt to demonstrate how the terms generic and explicit apply to the diagram notation. It seems to attempt to demonstrate any possible variation of it. But in doing so, it seems to explain things already explained elsewhere, but now insisting the terms generic and explicit are so centric they must be systematically demonstrated. That was a bit sarcastic, sorry, but I question if feeling the terms generic and explicit are important are reason enough to explain things twice from a different angle.
-- [ ] ~ What I sort of expected to see when I opened this document, was an explanation on how type safety might be enforced in Circle. But what I saw was the different forms of generic and explicit, that explain things I already saw in other chapters.
-- [ ] ~ I think maybe I try to prove in this text too much that the idea of generic and explicit works in Circle.
+- [ ] ~ What I sort of expected to see when I opened this document, was an explanation on how type safety might be enforced in Encircle. But what I saw was the different forms of generic and explicit, that explain things I already saw in other chapters.
+- [ ] ~ I think maybe I try to prove in this text too much that the idea of generic and explicit works in Encircle.
 - [ ] ~ I cannot say it is bad. I am not sure where to go with this.
 - [ ] ~ It almost seems to me, that pieces of these explanations could be spread among chapters Objects, Classes, Interfaces, Commands etc. Type systems seem sort of cross-cutting and centric in object oriented languages.
 - [ ] ~ I once seemed to feel it was a main issue. Now I am not so sure.
@@ -3047,8 +3048,8 @@ has something missing. In C# you can also refer to the parent object as if it we
 
 ### 2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled
 
-- [ ] ~ (Moved to Circle Broader View\Classes)
-- [ ] ~ What might be mentioned if the text would be built up from the ground up? I think I would just talk about the static concept, because that seems to me the number 1 candidate for what classes might have a lot to do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I would move the more creative concepts away from the Circle Language Spec.
+- [ ] ~ (Moved to Encircle Broader View\Classes)
+- [ ] ~ What might be mentioned if the text would be built up from the ground up? I think I would just talk about the static concept, because that seems to me the number 1 candidate for what classes might have a lot to do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I would move the more creative concepts away from the Encircle Language Spec.
 - [ ] ~ I have questions about the dashed line usage of lines of the smaller squares:  
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)  
 I do not understand why the class would point out the external command definition with a dashed line, while the objects point out the external command definition with a solid line. I think I might have followed a style choice more than an exact depiction of things? Would both lines express something that kind of works, leaving the options open for a stylistics choice to have class structure be more with dashed lines and object structure be more with solid lines? I suspect that I might leave this doubt open.
@@ -3093,18 +3094,18 @@ I do feel it might be quite something to burden the reader with. I am hoping for
     - [ ] ~ I might as well just copy paste to a text document and then do it myself.
     - [ ] ~ But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
 
-### 2020-05-14 Postponed Circle Broader View / Construct Drafts Neater Folders
+### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 
-- [ ] ~ Make folder subdivision neater, now that the topics have found a new place. ("Circle Language Spec", "Circle Constructs Drafts", "Circle Broader View" and "Framework".)
-- [ ] ~ Circle Language Spec has priority over the other main folders.
+- [ ] ~ Make folder subdivision neater, now that the topics have found a new place. ("Encircle Language Spec", "Encircle Constructs Drafts", "Encircle Broader View" and "Framework".)
+- [ ] ~ Encircle Language Spec has priority over the other main folders.
 - [ ] ~ The others are postponed for now.
 
-### 2019-12-29 Postponed Circle Broader View / Gap Lifting
+### 2019-12-29 Postponed Encircle Broader View / Gap Lifting
 
 Also I had ideas on the other end of the spectrum, more macroscopically: how far can I take the application of this diagram notation? Could they even substitute user-interfaces? Could boundaries be lifted, for instance, between things running on different computers and the boundary between users and programmers. The language gaps between things like files and folders, databases, programming languages, user interfaces… gaps between the physical and the logical. All that. I thought that was interesting to think about.
 
-### 2021-01-23 Postponed Circle Broader View / Object Storage
+### 2021-01-23 Postponed Encircle Broader View / Object Storage
 
 I kind of like this sentence:
 *"Object Storage* basically turns lists on storage devices into a landscape of digital objects."
-I think I got caught in the deletion process when isolating Circle Language Docs out of Software System Docs.
+I think I got caught in the deletion process when isolating Encircle Language Docs out of Software System Docs.

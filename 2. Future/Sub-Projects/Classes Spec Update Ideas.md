@@ -1,5 +1,5 @@
-Circle Language Spec Plans
-==========================
+Encircle Language Spec Plans
+============================
 
 Classes Spec Update Ideas
 -------------------------
@@ -12,4 +12,4 @@ Classes Spec Update Ideas
 -----
 - The split up into a conceptual explanation and then separately an article for the diagram notation, might have been easy for writing the docs, but could be merged into a single article again for readability.
 -----
-- The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Circle Language Spec Strategy.
+- The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Encircle Language Spec Strategy.

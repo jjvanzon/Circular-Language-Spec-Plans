@@ -1,5 +1,5 @@
-﻿Circle Language Spec Plan | Automatic Containment
-=================================================
+﻿Encircle Language Spec Plan | Automatic Containment
+===================================================
 
 *Date: June, 2008*
 
