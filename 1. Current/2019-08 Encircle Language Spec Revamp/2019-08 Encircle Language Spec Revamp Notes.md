@@ -153,12 +153,12 @@ TODO
         - [x] Replacing "Encircle 3" and with "Circle 3"
         - [x] Double-checking occurrences of "Encircle"
         - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
-    - [ ] __In planning docs repo:__
+    - [x] In planning docs repo:
         - [x] Replacing "Circle" with "Encircle" in content
         - [x] Replacing "circle" with "encircle" in doc file names
         - [x] Correcting heading layout
         - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
-        - [ ] Double-checking occurrences of "Encircle"
+        - [x] ~ Double-checking occurrences of "Encircle"
     - [ ] Renaming the repo's
     - [ ] Merging changes
 
