@@ -1,0 +1,563 @@
+# Turning JJs-Planning-Docs repo into Circle-Language-Spec-Plan repo (v1)
+# =======================================================================
+
+git remote remove origin
+
+# Listing Files (Without Renames)
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# Listing Files (With Renames)
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory-withrenames.txt
+
+# Listing Files (Without History)
+git ls-tree -r master --name-only > allfiles-inlatest.txt
+
+# --------------------
+
+# Removing:
+
+1. Current/2013-09 Multi-Platform Architecture and Q&A App
+1. Current/2015-03 Synthesizer
+1. Current/2016-08 Software Architecture
+1. Current/2018-03 Source Control Restructuring/2018-03 Source Control Restructuring Notes.docx
+1. Current/4.0.00.    Update Working Methods
+1. Current/4.0.01.       Update Templates 2010-04
+1. Current/Music Thumper
+2. Future/0. Ideas/Shortcut to Ideas.doc.lnk
+2. Future/1. Interesting Now/1.2.00.       Finish Core Documentation
+2. Future/1. Interesting Now/2.0.00.    Repair Older Material
+2. Future/1. Interesting Now/2.2.01.       Repair Creator 0.9 Programs
+2. Future/1. Interesting Now/2.2.02.          Repair Creator 0.9 Reference Counting
+2. Future/1. Interesting Now/2.2.03.          Repair Creator 0.9 Remaining Programs/Repair Creator 0.9 Remaining Programs Goal Description.doc
+2. Future/1. Interesting Now/2.2.05.       Repair QB71 Programs
+2. Future/1. Interesting Now/2.2.06.       Repair VB3 Programs
+2. Future/1. Interesting Now/2.2.07.       Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
+2. Future/1. Interesting Now/2.2.08.       Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
+2. Future/1. Interesting Now/2.2.09.       Repair Other Programs/Repair Other Programs.doc
+2. Future/1. Interesting Now/2.2.10.       Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
+2. Future/1. Interesting Now/2.2.11.       Define More Projects/Repair Older Material, Define More Projects.doc
+2. Future/1. Interesting Now/2.2.12.       Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
+2. Future/1. Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
+2. Future/1. Interesting Now/2.2.14.       Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
+2. Future/1. Interesting Now/2.2.16.       Document Old Basic Data Structures Version/Document Old Basic Data Structures Version.txt
+2. Future/1. Interesting Now/2.2.17.       Document Undocumented Old Versions/Document Undocumented Old Versions.txt
+2. Future/1. Interesting Now/2.2.18.       Reprogram Old Versions/Reprogram Old Versions.txt
+2. Future/1. Interesting Now/3.0.00.    Program Software System/Ideas.doc
+2. Future/1. Interesting Now/3.1.00.       Program Intermediate Creator Version
+2. Future/1. Interesting Now/3.2.00.       Program Code Base
+2. Future/1. Interesting Now/3.3.00.       Program Computer Language Concepts
+2. Future/1. Interesting Now/3.4.00.       Program Applications
+2. Future/1. Interesting Now/3.5.00.       Program Difficult Modules
+2. Future/1. Interesting Now/3.6.00.       Program Core
+2. Future/1. Interesting Now/3.7.00.       Program Computer Language Utilities
+2. Future/1. Interesting Now/3.8.00.       Program Computer Language Optimizations
+2. Future/1. Interesting Now/4.0.00.    Update Working Methods
+2. Future/2. Postponed/2. Framework
+2. Future/2. Postponed/3. OS/Circle.OS.Data.Collections Postponed.doc
+2. Future/2. Postponed/4. Applications & Media
+2. Future/4. Postponed Indefinitely/Business Programs/Business Programs, Project Summaries.doc
+2. Future/4. Postponed Indefinitely/Finney/Next Projects, Round Up & Make Commercially Exploitable/Finney, Next Projects, Round Up & Make Comm. Exploitable, Projects Summary.doc
+2. Future/4. Postponed Indefinitely/Mandelbrot/Mandelbrot, Project Summary.doc
+2. Future/4. Postponed Indefinitely/Other/Other Projects, Project Summaries.doc
+2. Future/4. Postponed Indefinitely/Piano CD/Piano CD, Project Summary.doc
+2. Future/4. Postponed Indefinitely/Play Piano/Play Piano, Project Summary.doc
+2. Future/4. Postponed Indefinitely/Template Text Generator/Template Text Generator, Project Summary.doc
+2. Future/Ideas/Shortcut to Ideas.doc.lnk
+2. Future/Interesting Now/1.1.08.             Refactoring
+2. Future/Interesting Now/1.2.00.       Finish Core Documentation
+2. Future/Interesting Now/1.2.01.          Finish Storage Documentation/empty.txt
+2. Future/Interesting Now/1.2.02.          Make New Threads Documentation/empty.txt
+2. Future/Interesting Now/1.2.03.          Restructure & Redo Basic Data Structures Documentation/empty.txt
+2. Future/Interesting Now/1.2.04.          Create Primitive Hardware Management Documentation/empty.txt
+2. Future/Interesting Now/1.2.05.          Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
+2. Future/Interesting Now/1.2.06.          Document New Cache Module/empty.txt
+2. Future/Interesting Now/1.2.07.          Document Implementation Of Internet Protocol/empty.txt
+2. Future/Interesting Now/1.2.08.          Document the Hardware Module/empty.txt
+2. Future/Interesting Now/1.2.09.          Make User Input Documentation/empty.txt
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Quick Basic 7.1.pif
+2. Future/Interesting Now/2.0.00.    Repair Older Material/Visual Basic 3.0.lnk
+2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Quick Basic 7.1.pif
+2. Future/Interesting Now/2.0.00.    Repair Older Material/XXXX-XX-XX XX/Visual Basic 3.0.lnk
+2. Future/Interesting Now/2.2.01.       Repair Creator 0.9 Programs
+2. Future/Interesting Now/2.2.02.          Repair Creator 0.9 Reference Counting
+2. Future/Interesting Now/2.2.03.          Repair Creator 0.9 Remaining Programs
+2. Future/Interesting Now/2.2.05.       Repair QB71 Programs/Repair QB71 Programs.doc
+2. Future/Interesting Now/2.2.06.       Repair VB3 Programs/Repair VB3 Programs.doc
+2. Future/Interesting Now/2.2.07.       Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
+2. Future/Interesting Now/2.2.08.       Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
+2. Future/Interesting Now/2.2.09.       Repair Other Programs/Repair Other Programs.doc
+2. Future/Interesting Now/2.2.10.       Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
+2. Future/Interesting Now/2.2.11.       Define More Projects/Repair Older Material, Define More Projects.doc
+2. Future/Interesting Now/2.2.12.       Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
+2. Future/Interesting Now/2.2.13.       Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
+2. Future/Interesting Now/2.2.14.       Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
+2. Future/Interesting Now/2.2.16.       Document Old Basic Data Structures Version/Document Old Basic Data Structures Version.txt
+2. Future/Interesting Now/2.2.17.       Document Undocumented Old Versions/Document Undocumented Old Versions.txt
+2. Future/Interesting Now/2.2.18.       Reprogram Old Versions/Reprogram Old Versions.txt
+2. Future/Interesting Now/3.1.00.       Program Intermediate Creator Version
+2. Future/Interesting Now/3.2.00.       Program Code Base
+2. Future/Interesting Now/3.3.00.       Program Computer Language Concepts
+2. Future/Interesting Now/3.4.00.       Program Applications
+2. Future/Interesting Now/3.5.00.       Program Difficult Modules
+2. Future/Interesting Now/3.6.00.       Program Core
+2. Future/Interesting Now/3.7.00.       Program Computer Language Utilities
+2. Future/Interesting Now/3.8.00.       Program Computer Language Optimizations
+2. Future/Interesting Now/4.0.00.    Update Working Methods/Project Description Elsewhere
+2. Future/Interesting Now/4.0.01.       Update Templates 2010-04
+2. Future/Interesting Now/Software System/1. Document Software System/1.08.       Refactoring
+2. Future/Interesting Now/Software System/1. Document Software System/1.21.       Handy Access/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.23.       Extend Fundamental Principles/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.24.       Apply/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.26.       Some Data Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.70.       Internet Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/1.70.       More Data Concepts/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.00. Finish Core Documentation
+2. Future/Interesting Now/Software System/1. Document Software System/2.01.    Finish Storage Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.02.    Make New Threads Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.03.    Restructure & Redo Basic Data Structures Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.04.    Create Primitive Hardware Management Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.05.    Wrap Up Cross Out Copy of Old Core Documentation/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.06.    Document New Cache Module/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.07.    Document Implementation Of Internet Protocol/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.08.    Document the Hardware Module/empty.txt
+2. Future/Interesting Now/Software System/1. Document Software System/2.09.    Make User Input Documentation/empty.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/01. Repair Creator 0.9 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/02.    Repair Creator 0.9 Reference Counting
+2. Future/Interesting Now/Software System/2. Repair Older Material/03.    Repair Creator 0.9 Remaining Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/05. Repair QB71 Programs/Repair QB71 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/06. Repair VB3 Programs/Repair VB3 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/08. Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/09. Repair Other Programs/Repair Other Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/11. Define More Projects/Repair Older Material, Define More Projects.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/14. Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/15. Wrap Up/Repair Older Material, Wrap Up.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/16. Document Old Basic Data Structures Version/Document Old Basic Data Structures Version.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/17. Document Undocumented Old Versions/Document Undocumented Old Versions.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/18. Reprogram Old Versions/Reprogram Old Versions.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.01. Repair Creator 0.9 Programs
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.02.    Repair Creator 0.9 Reference Counting
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.03.    Repair Creator 0.9 Remaining Programs/Repair Creator 0.9 Remaining Programs Goal Description.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.05. Repair QB71 Programs/Repair QB71 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.06. Repair VB3 Programs/Repair VB3 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.07. Repair Easy VB6 Programs/Repair Easy VB6 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.08. Repair Other Creator 2.0 Programs/Repair Other Creator 2.0 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.09. Repair Other Programs/Repair Other Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.10. Repair Hard VB6 Programs/Repair Hard VB6 Programs.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.11. Define More Projects/Repair Older Material, Define More Projects.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.12. Create Small Program Documentation/Repair Older Material, Create Small Program Documentation.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.13. Fix Not To Crash & Extend Beyond Original Form/Repair Older Material, Fix Not To Crash & Extend.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.14. Update Administration & Working Methods/Repair Older Material, Update Admin & Working Methods.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.15. Wrap Up/Repair Older Material, Wrap Up.doc
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.16. Document Old Basic Data Structures Version/Document Old Basic Data Structures Version.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.17. Document Undocumented Old Versions/Document Undocumented Old Versions.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/2.2.18. Reprogram Old Versions/Reprogram Old Versions.txt
+2. Future/Interesting Now/Software System/2. Repair Older Material/Quick Basic 7.1.pif
+2. Future/Interesting Now/Software System/2. Repair Older Material/Visual Basic 3.0.lnk
+2. Future/Interesting Now/Software System/2. Repair Older Material
+2. Future/Interesting Now/Software System/3. Program Software System/1. Program Intermediate Creator Version
+2. Future/Interesting Now/Software System/3. Program Software System/2. Program Code Base
+2. Future/Interesting Now/Software System/3. Program Software System/3. Program Computer Language Concepts
+2. Future/Interesting Now/Software System/3. Program Software System/3.1.00. Program Intermediate Creator Version
+2. Future/Interesting Now/Software System/3. Program Software System/3.2.00. Program Code Base
+2. Future/Interesting Now/Software System/3. Program Software System/3.3.00. Program Computer Language Concepts
+2. Future/Interesting Now/Software System/3. Program Software System/3.4.00. Program Applications
+2. Future/Interesting Now/Software System/3. Program Software System/3.5.00. Program Difficult Modules
+2. Future/Interesting Now/Software System/3. Program Software System/3.6.00. Program Core
+2. Future/Interesting Now/Software System/3. Program Software System/3.7.00. Program Computer Language Utilities
+2. Future/Interesting Now/Software System/3. Program Software System/3.8.00. Program Computer Language Optimizations
+2. Future/Interesting Now/Software System/3. Program Software System/4. Program Applications
+2. Future/Interesting Now/Software System/3. Program Software System/5. Program Difficult Modules
+2. Future/Interesting Now/Software System/3. Program Software System/6. Program Core
+2. Future/Interesting Now/Software System/3. Program Software System/7. Program Computer Language Utilities
+2. Future/Interesting Now/Software System/3. Program Software System/8. Program Computer Language Optimizations
+2. Future/Interesting Now/Software System/3. Program Software System/9. Design & Program Artificial Intelligence, Natural Language, Neural Networks
+2. Future/Interesting Now/Software System/4. Update Working Methods
+2. Future/Postponed Indefinitely/AnaLib 2016-11.txt
+2. Future/Postponed Indefinitely/Business Programs/Business Programs, Project Summaries.doc
+2. Future/Postponed Indefinitely/Finney/Next Projects, Round Up & Make Commercially Exploitable/Finney, Next Projects, Round Up & Make Comm. Exploitable, Projects Summary.doc
+2. Future/Postponed Indefinitely/Mandelbrot/Mandelbrot, Project Summary.doc
+2. Future/Postponed Indefinitely/Other/Other Projects, Project Summaries.doc
+2. Future/Postponed Indefinitely/Piano CD/Piano CD, Project Summary.doc
+2. Future/Postponed Indefinitely/Play Piano/Play Piano, Project Summary.doc
+2. Future/Postponed Indefinitely/Template Text Generator/Template Text Generator, Project Summary.doc
+2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App
+2. Future/Postponed/2015-03 Synthesizer
+2. Future/Postponed/2016-08 Software Architecture
+2. Future/Postponed/2018-03 Source Control Restructuring/2018-03 Source Control Restructuring Notes.docx
+2. Future/Postponed/Circle 3 Basic Data Structures/Circle.OS.Data.Collections Postponed.doc
+2. Future/Postponed/Circle 3 Framework
+2. Future/Postponed/Circle Basic Data Structures/Circle.OS.Data.Collections Postponed.doc
+2. Future/Postponed/Circle Framework
+2. Future/Postponed/German Thumper/empty.txt
+2. Future/Postponed/Music Thumper
+2. Future/Postponed/Pre# 2016-11.txt
+2. Future/Postponed/Update Working Methods
+3. Done/0.1. Software System/3. Program Creator 0.9 Modules/Programmed Creator 0.9 Modules.doc
+3. Done/0.1. Software System/4. Version Control Creator 0.9 Modules/Version Control Creator 0.9 Modules.doc
+3. Done/0.1. Software System/7. Doc/Doc Comp Lang & Co/Doc Comp Lang/Project Description Elsewhere
+3. Done/0.1. Software System/7. Doc/Doc Comp Lang & Co/Project Description Elsewhere
+3. Done/0.3. Creator & Symbol 2.0/A Single & Complete Program
+3. Done/1. Finney/Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
+3. Done/1995-00 00  DOS Menu/empty.txt
+3. Done/1995-09 00  Jay Tracker/empty.txt
+3. Done/1997-00 00  DIG III (Windows)/empty.txt
+3. Done/1997-00 00  Genarrator/empty.txt
+3. Done/1997-00 00  High Equalizer/empty.txt
+3. Done/1997-08 28  Music Theory Test (Attempt) (VB3)/empty.txt
+3. Done/1998 00 00  DOS Sound Design Idea/empty.txt
+3. Done/1998-00 00  Dimensional Tracker/empty.txt
+3. Done/1998-09 00  Sine Control/empty.txt
+3. Done/1998-11 04  Slendro/empty.txt
+3. Done/1999-00 00  Composition Interface Idea/empty.txt
+3. Done/1999-00 00  Drawer VB3/empty.txt
+3. Done/1999-00 00  Filterer/empty.txt
+3. Done/1999-00 00  Font Maker VB3/empty.txt
+3. Done/1999-00 00  Quick Resample/empty.txt
+3. Done/1999-00 01  Envelope Follower 1/empty.txt
+3. Done/1999-00 02  Envelope Follower 2/empty.txt
+3. Done/1999-00 03  Envelope Editor/empty.txt
+3. Done/1999-00 04  Envelope Transformer Idea/empty.txt
+3. Done/1999-04 00  SD Scape Idea/empty.txt
+3. Done/1999-04 00  Sample Modulator/empty.txt
+3. Done/1999-04 00  Shaper Attempt/empty.txt
+3. Done/1999-05 00  Resample/empty.txt
+3. Done/1999-06 00  High Equalizer C++ (without UI)/empty.txt
+3. Done/1999-08 00  MAKSMPA/empty.txt
+3. Done/1999-08 00  MAKSMPB/empty.txt
+3. Done/1999-08-18  Simulate, Acoustic/Incorporate.txt
+3. Done/1999-09 00  Math Misc/empty.txt
+3. Done/1999-10-12  Simulate, Dynamic/199X-XX 19  Wave projector (plotting waves with interference)/empty.txt
+3. Done/1999-10-12  Simulate, Dynamic/Incorporate.txt
+3. Done/1999-11 00  JJ's Sound System/empty.txt
+3. Done/199X-XX 01  DIG I/empty.txt
+3. Done/199X-XX 02  DIG II/empty.txt
+3. Done/199X-XX 03  3D Experiments/empty.txt
+3. Done/2. Update Methods/Better ( 2007-01-04 - 2007-01-18 )/Update Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+3. Done/2000-00 01  JJ's Component Services (Controls)/empty.txt
+3. Done/2000-00 02  Controls 1.0 (J Tabular Old)/empty.txt
+3. Done/2000-01-10  Simulate, Electric/Incorporate.txt
+3. Done/2000-03 00  Drawer VB6/empty.txt
+3. Done/2000-06 23  Alarm Idea/empty.txt
+3. Done/2000-08 00  3DS Analysis Attempt/empty.txt
+3. Done/2000-08 00  Color Grade/empty.txt
+3. Done/2000-08 00  Sketch Recognition Idea/empty.txt
+3. Done/2000-08 02  Hexadecimal Add (QB7)/empty.txt
+3. Done/2000-08 05  Money Clock (never finished)/empty.txt
+3. Done/2000-08 28  Alarm Clock/empty.txt
+3. Done/2000-10 01  Eat/empty.txt
+3. Done/2000-10 02  MakeValid/empty.txt
+3. Done/2000-11 00  Lifeline/empty.txt
+3. Done/2000-12 00  File Divider Idea/empty.txt
+3. Done/2001-00 00  Controls 2.0 (J Tabular)/empty.txt
+3. Done/2001-00 00  J Draw/empty.txt
+3. Done/2001-02 01  Sonar/2001-02-01  Sonar.doc
+3. Done/2001-04 00  Controls 3.0 (Controls Old) (e.g. MapBox)/empty.txt
+3. Done/2001-06 00  Count Enters/empty.txt
+3. Done/2001-07 00  Textual Code Analysis/Incorporate.txt
+3. Done/2001-12 00  Anti-Aliased Box/empty.txt
+3. Done/2001-12 00  Iteration/empty.txt
+3. Done/2001-12-22  J3D/Incorporate.txt
+3. Done/2002-00 00  Controls 3.0 (Drawn Objects)/empty.txt
+3. Done/2002-01 00  Symbol Serious Attempt 1/empty.txt
+3. Done/2002-01-08  Calendar (Idea)/empty.txt
+3. Done/2002-07 03  Balances/empty.txt
+3. Done/2002-08 00  Folder Statisics Attempt/empty.txt
+3. Done/2002-08 00  J File (Basic Data Structures)/empty.txt
+3. Done/2002-09 00  Symbol Serious Attempt 2/empty.txt
+3. Done/2002-10 00  J Array/empty.txt
+3. Done/2002-10 00  Search & Replace File Contents/empty.txt
+3. Done/2002-11 14  Stop Watch/empty.txt
+3. Done/2002-12 00  Compare Files/empty.txt
+3. Done/2002-12 21  Stolen Calendar/empty.txt
+3. Done/2003-01 00  Sound/empty.txt
+3. Done/2003-03 00  J Document (Basic Data Structures)/empty.txt
+3. Done/2003-04 00  Character Category Idea/empty.txt
+3. Done/2003-04 00  Develop Core/Incorporate.txt
+3. Done/2003-04-00  Generate IntelliTamper Dictionary 1/empty.txt
+3. Done/2003-05 00  Math, Number Bases/empty.txt
+3. Done/2003-05 00  New Kind Of Keyboard/Incorporate.txt
+3. Done/2003-06 00     Read HTML for Dummies/Incorporate.txt
+3. Done/2003-07 00     C & C++ Language Summaries/Incorporate.txt
+3. Done/2003-07 00     Work on Controls briefly/empty.txt
+3. Done/2003-07 01  Data VB6 (Basic Data Structures)/empty.txt
+3. Done/2003-08 00  Hole, 1 month, hardly anything/Incorporate.txt
+3. Done/2003-09 00  Hole, 1 month, limited 26.5 h/Incorporate.txt
+3. Done/2003-09 01  Data .NET/Incorporate.txt
+3. Done/2003-11 00  Hole, 2 months, limited +,- 27 h,month/Incorporate.txt
+3. Done/2003-12 00     Generate String Series/empty.txt
+3. Done/2004-01 00     Clear Desktop/empty.txt
+3. Done/2004-01 19     Alarm Clock/empty.txt
+3. Done/2004-02 00     Math or Organizer, Saving with Interest/empty.txt
+3. Done/2004-04 00  Hole, 1 month, hardly anything/Incorporate.txt
+3. Done/2004-05 00     Picture Viewer/empty.txt
+3. Done/2004-05 01     Generate IntelliTamper Dictionary 2/empty.txt
+3. Done/2004-05 01     Graphics 0.1 ('Object Draw')/Incorporate.txt
+3. Done/2004-05 02     Make Basic Data Structures Better/Incorporate.txt
+3. Done/2004-05 02  Graphics 0.3/empty.txt
+3. Done/2004-05 03     Adapt Controls (1)/Incorporate.txt
+3. Done/2004-05 04     Graphics 0.3 (1)/Incorporate.txt
+3. Done/2004-06 01     Graphics 0.3, Get 3D Vibration/Incorporate.txt
+3. Done/2004-06 02     Graphics 0.3 (2)/Incorporate.txt
+3. Done/2004-07 01  Creator 0.4 (Data 1.0)/Incorporate.txt
+3. Done/2004-07 02     Initiate Creator 0.4 & Graphics 0.4/Incorporate.txt
+3. Done/2004-08 01     Adapt Controls (2)/Incorporate.txt
+3. Done/2004-08 02     Creator 0.4 & Graphics 0.4 (1)/Incorporate.txt
+3. Done/2004-09 01     Creator 0.4 & Graphics 0.4 (2)/Incorporate.txt
+3. Done/2004-09 02     Code VB 0.4/Incorporate.txt
+3. Done/2004-09 03     Math 0.4/Incorporate.txt
+3. Done/2004-09 04     Syntax 0.4 (Booleans, Integers, Floating Points) (1)/Incorporate.txt
+3. Done/2004-10 01     Initiate Symbol 0.4/empty.txt
+3. Done/2004-10 02     Syntax 0.4 (Booleans, Integers, Floating Points) (2)/empty.txt
+3. Done/2004-10 03     Initiate Sound 0.4/empty.txt
+3. Done/2004-10 04     Syntax 0.4 (Booleans, Integers, Floating Points) (3)/empty.txt
+3. Done/2004-10 05     Math 0.4 Syntax/empty.txt
+3. Done/2004-10 06     Creator 0.4/empty.txt
+3. Done/2004-10 07     Creator 0.4, Use Code VB for Item Classes (1)/Incorporate.txt
+3. Done/2004-10 08     Color 0.4/Incorporate.txt
+3. Done/2004-10 09     Creator 0.4, Use Code VB for Item Classes (2)/Incorporate.txt
+3. Done/2004-10 10     Creator 0.4, Graphics/Incorporate.txt
+3. Done/2004-11 00     Hole, 2 months, limited +,- 29 h,month/Incorporate.txt
+3. Done/2004-11 02     Creator 0.4, Math & Syntax/Incorporate.txt
+3. Done/2004-12 01     Creator 0.4, Organizer VB/Incorporate.txt
+3. Done/2004-12 02     Creator 0.4, Use Code VB Everywhere (1)/Incorporate.txt
+3. Done/2005-01 01     Think About Main Module Subdivision (short but thorough)/empty.txt
+3. Done/2005-01 02     Creator 0.4, Use Code VB Everywhere (2)/empty.txt
+3. Done/2005-01 03     Creator 0.4, Mixed Issues (1)/empty.txt
+3. Done/2005-02 01     Sound 0.4 (1)/Incorporate.txt
+3. Done/2005-02 02     Creator 0.4, Mixed Issues (2)/Incorporate.txt
+3. Done/2005-02 03     Creator 0.4, XML/Incorporate.txt
+3. Done/2005-03 01     Sound 0.4 (2)/Incorporate.txt
+3. Done/2005-03 02     Creator 0.4, Mixed Issues (3)/Incorporate.txt
+3. Done/2005-04 01  Document Creator 0.9 (Data 2.0) (1)/Incorporate.txt
+3. Done/2005-04 02     Hole, 2 months, very limited +,- 19 h,month/Incorporate.txt
+3. Done/2005-04 03     Document Creator 0.9 (1), Organize Brainstorm Items/empty.txt
+3. Done/2005-05 00     Document Creator 0.9 (2), Concept Sections (1)/Creator 0.9, Document All Concepts.doc
+3. Done/2005-06 00  Music Thumper 1/empty.txt
+3. Done/2005-07 00  Document Creator 0.9 (Data 2.0) (2)/empty.txt
+3. Done/2005-07 01     Document Creator 0.9 (2), Concept Sections (2)/empty.txt
+3. Done/2005-07 02     Dir 0.4/empty.txt
+3. Done/2005-07 03     Number Files Tool/empty.txt
+3. Done/2005-07 04     Document Creator 0.9 (2), Concept Sections (3)/empty.txt
+3. Done/2005-07 05  Develop Creator 0.9/empty.txt
+3. Done/2005-07 06     Creator 0.9, Generating C++ & Organizer C++ (1), Orientation & Preparation/empty.txt
+3. Done/2005-07 08     Bank Account Analysis 0.1/empty.txt
+3. Done/2005-08 00     Volume Maximizer (for Music CD)/empty.txt
+3. Done/2005-08 01     Creator 0.9, Generating C++ & Organizer C++ (2), Lists & Trees C++/empty.txt
+3. Done/2005-08 02     Creator 0.9, Generating C++ & Organizer C++ (3), Class Generator & Code C++/empty.txt
+3. Done/2005-08 03     Creator 0.9, Generating C++ & Organizer C++ (4), Control Generator & Code C++/empty.txt
+3. Done/2005-08 04     Software System, Some Thinking in Between/empty.txt
+3. Done/2005-08 05     Creator 0.9, Generating C++ (5), Control Generator (2)/empty.txt
+3. Done/2005-09 01     Initiate Controls 0.9/empty.txt
+3. Done/2005-09 02     Version Control Creator 0.9 Applications/Version Control Creator 0.9 Applications.doc
+3. Done/2005-09 03     Develop Creator 0.9, Globality (unfinished)/empty.txt
+3. Done/2005-09 04     Something with Graphics Objects (2)/empty.txt
+3. Done/2005-09 05     Creator 0.9, Easier Custom Code/empty.txt
+3. Done/2005-10 00     Creator 0.9, Several Concepts ( Mainly Filter Indexes ) & Correct Custom Code Insertion/Dev Creator 0.9, Several Concepts & Correct.txt
+3. Done/2005-10 00     Hole, 1 month, nothing/Incorporate.txt
+3. Done/2005-11 00     Creator 0.9, Isolate Concepts in Modules (1)/Creator 0.9, Centralize Concepts & Finish Up Primary Concepts.doc
+3. Done/2005-12 01     Worked on Syntax (briefly)/Incorporate.txt
+3. Done/2005-12 02     Creator 0.9, Isolate Concepts in Modules (2)/empty.txt
+3. Done/2006-01 00     Hole, 4 months, hardly anything/Incorporate.txt
+3. Done/2006-05 01     Creator 0.9, Basic Concepts & Format Generated Code/empty.txt
+3. Done/2006-05 02     Creator 0.9, Synchronization (postponed)/empty.txt
+3. Done/2006-06 00     Hole, 1 month, very limited, 15h/Incorporate.txt
+3. Done/2006-07 00     Hole, 3 months, almost nothing/Incorporate.txt
+3. Done/2006-08 00     Adapt Controls 0.9 (playing around)/empty.txt
+3. Done/2006-10 00  Finney & Music Thumper/2006-10 00  Finney & Music Thumper.doc
+3. Done/2006-10 02     Finney, Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
+3. Done/2007-01 01     Update Working Methods/Update Working Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Plan.doc
+3. Done/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Summary.doc
+3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Plan.doc
+3. Done/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Summary.doc
+3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Plan.doc
+3. Done/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Summary.doc
+3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
+3. Done/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
+3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
+3. Done/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
+3. Done/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc
+3. Done/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Plan.doc
+3. Done/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Summary.doc
+3. Done/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc
+3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
+3. Done/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
+3. Done/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Plan.doc
+3. Done/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Summary.doc
+3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
+3. Done/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
+3. Done/2007-12 00     Preliminary Storage Documentation/2007-12 Preliminary Storage Documentation, Project Plan.doc
+3. Done/2007-12 00     Preliminary Storage Documentation/2007-12 Preliminary Storage Documentation, Project Summary.doc
+3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Project Summary.doc
+3. Done/2008-10 00  Repair Older Material 2008-10 - 2009-03/Repair Older Material 2008-10 - 2009-03, Reflection.doc
+3. Done/2008-10 03     Define Old Projects/2008-10 03 Repair Older Material, Define Old Projects.doc
+3. Done/2008-10-13 00/0.1. Software System/3. Program Creator 0.9 Modules/Programmed Creator 0.9 Modules.doc
+3. Done/2008-10-13 00/0.1. Software System/4. Version Control Creator 0.9 Modules/Version Control Creator 0.9 Modules.doc
+3. Done/2008-10-13 00/0.3. Creator & Symbol 2.0/A Single & Complete Program
+3. Done/2008-10-13 00/1. Finney/Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
+3. Done/2008-10-13 00/2. Update Methods/Better ( 2007-01-04 - 2007-01-18 )/Update Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+3. Done/2008-10-13 00/3. Music Thumper/Test Settings More Specific/Phase A; Reach Goal & Complete Functionality/Music Thumper, Test Settings More Specific, Phase A, Projects Summary.doc
+3. Done/2008-12 01     Repair Creator 2.0 Programs
+3. Done/2008-12 03     Repair Creator 0.9 First Programs
+3. Done/2009-01 00     Update Basic Working Methods
+3. Done/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects/Repair Creator 0.9 Split Up Into Sub-Projects.doc
+3. Done/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
+3. Done/2010-10 00 PictureViewer2/PictureViewer2.txt
+Other/3. Done/2011-02 00     Control Classes + Framework + Scope Creep/Incidents
+Other/3. Done/2012 - 2016 Other/2012-07 New Computer
+Other/3. Done/2012 - 2016 Other/2016-11 Open Source
+Other/3. Done/2012-01 00        Wrap up Sound and ValidReference
+Other/3. Done/2012-07 01        Sound Multiple Outlets
+Other/3. Done/2012-07 02           Sound Multiple Outlets First Attempts
+Other/3. Done/2012-07 New Computer
+Other/3. Done/2012-10 01           Roles
+Other/3. Done/2012-10 02           Conditions
+Other/3. Done/2012-10 03           Sound Multiple Outlets Round-Up
+Other/3. Done/2013-01 00     Remaining Sound Features & Framework Issues
+Other/3. Done/2013-02 01        Events Adaptation
+Other/3. Done/2016-11 Open Source
+Other/3. Done/Creator 0.4 (Data 1.0) 2004-07 - 2005-03
+Other/3. Done/Creator 2.0 2007-02 - 2007-09
+Other/3. Done/Develop Creator 0.9 2005-07 - 2006-08
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-10 03     Define Old Projects/2008-10 03 Repair Older Material, Define Old Projects.doc
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-11 01     Isolate Versions of Old Programs/2008-11 01 Repair Older Material, Isolate Versions of Old Programs.doc
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-12 01     Repair Creator 2.0 Programs/2008-12 01  Repair Creator 2.0 Programs, Proj Smry.doc
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2008-12 03     Repair Creator 0.9 First Programs
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 00     Update Basic Working Methods
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects/Repair Creator 0.9 Split Up Into Sub-Projects.doc
+Other/3. Done/Repair Older Material 2008-10 - 2009-03/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
+Other/4. Archive/2016-11 AnaLib.txt
+Other/4. Archive/Repair Creator 0.9 First Programs Project Docs Version History.doc
+Other/4. Archive/Repair Creator 0.9 Programs Project Docs Version History.doc
+Other/4. Archive/Repair Creator 0.9 Wrap Up First Programs Project Docs Version History.doc
+Other/4. Archive/Repair Older Material Project Docs Version History.doc
+3. Done/2008-11 01     Isolate Versions of Old Programs/2008-11 01 Repair Older Material, Isolate Versions of Old Programs.doc
+3. Done/2012-01 00        Wrap up Sound and ValidReference
+3. Done/2012-07 01        Sound Multiple Outlets
+3. Done/2012-07 02           Sound Multiple Outlets First Attempts
+3. Done/2012-07 New Computer
+3. Done/2012-10 01           Roles/ircle 3 Roles Project 2012-10.doc
+3. Done/2012-10 02           Conditions/Circle 3 Conditions Project 2012-10.doc
+3. Done/2012-10 02           Conditions/Circle.Framework.Code.Conditions.Advanced Technical Design.doc
+3. Done/2012-10 03           Sound Multiple Outlets Round-Up/Circle 3 Sound Multiple Outlets Round-Up Project 2012-10.doc
+3. Done/2013-01 00     Remaining Sound Features & Framework Issues/Project Description Elsewhere
+3. Done/2016-11 Open Source/2016-11 Open Source.doc
+3. Done/2016-11 Open Source/2016-12-20 BeginCollection license maybe.txt
+3. Done/3. Music Thumper/Test Settings More Specific/Phase A; Reach Goal & Complete Functionality/Music Thumper, Test Settings More Specific, Phase A, Projects Summary.doc
+3. Done/XXXX-XX-XX XX/1999-08-18  Simulate, Acoustic/Incorporate.txt
+3. Done/XXXX-XX-XX XX/1999-10-12  Simulate, Dynamic/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2000-01-10  Simulate, Electric/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2001-02 01  Sonar/2001-02-01  Sonar.doc
+3. Done/XXXX-XX-XX XX/2001-07 00  Textual Code Analysis/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2001-12-22  J3D/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-04 00  Develop Core/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-05 00  New Kind Of Keyboard/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-06 00     Read HTML for Dummies/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-08 00  Hole, 1 month, hardly anything/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-09 00  Hole, 1 month, limited 26.5 h/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-09 01  Data .NET/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2003-11 00  Hole, 2 months, limited +,- 27 h,month/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-04 00  Hole, 1 month, hardly anything/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 01     Graphics 0.1 ('Object Draw')/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 02     Make Basic Data Structures Better/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 03     Adapt Controls (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-05 04     Graphics 0.3 (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-06 01     Graphics 0.3, Get 3D Vibration/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-06 02     Graphics 0.3 (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-07 01  Creator 0.4 (Data 1.0)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-07 02     Initiate Creator 0.4 & Graphics 0.4/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-08 01     Adapt Controls (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-08 02     Creator 0.4 & Graphics 0.4 (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-09 01     Creator 0.4 & Graphics 0.4 (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-09 02     Code VB 0.4/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-09 03     Math 0.4/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-09 04     Syntax 0.4 (Booleans, Integers, Floating Points) (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-10 07     Creator 0.4, Use Code VB for Item Classes (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-10 08     Color 0.4/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-10 09     Creator 0.4, Use Code VB for Item Classes (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-10 10     Creator 0.4, Graphics/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-11 00     Hole, 2 months, limited +,- 29 h,month/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-11 02     Creator 0.4, Math & Syntax/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-12 01     Creator 0.4, Organizer VB/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2004-12 02     Creator 0.4, Use Code VB Everywhere (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-02 01     Sound 0.4 (1)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-02 02     Creator 0.4, Mixed Issues (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-02 03     Creator 0.4, XML/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-03 01     Sound 0.4 (2)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2005-03 02     Creator 0.4, Mixed Issues (3)/Incorporate.txt
+3. Done/XXXX-XX-XX XX/2006-10 00  Finney & Music Thumper/2006-10 00  Finney & Music Thumper.doc
+3. Done/XXXX-XX-XX XX/2006-10 01     Music Thumper 2/Music Thumper 2 Documentation, Plan.doc
+3. Done/XXXX-XX-XX XX/2006-10 02     Finney, Get Overview of Personal Finances/Finney, Get Overview of Personal Finances, Projects Summary.doc
+3. Done/XXXX-XX-XX XX/2007-01 01     Update Working Methods/Update Working Methods, Better ( 2007-01-04 - 2007-01-18 ), Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-01 02     Music Thumper, Test Settings More Specific A/Music Thumper, Test Settings More Specific A, Reach Goal & Complete Funct, Projects Summary.doc
+3. Done/XXXX-XX-XX XX/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-02 02  Creator 2.0/Develop Creator & Symbol 2.0, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-02 03     Creator 2.0, Improvise & Reach Direct Goal/Develop Creator & Symbol 2.0, Improvise & Reach Direct Goal, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-05 01     Creator 2.0, View & Edit Data/Develop Creator & Symbol 2.0, View & Edit Data, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-05 02        Creator 2.0, View Data ( Tree Control )/Develop Creator & Symbol 2.0, View Data, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-05 03        Creator 2.0, Edit Data ( Buttons In Tree Control )/Develop Creator & Symbol 2.0, Edit Data, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-06 00     Hole, 1 month, nothing/2007-06 00 Hole, 1 month, nothing.doc
+3. Done/XXXX-XX-XX XX/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-07 00     Creator 2.0, Disk Based A/Develop Creator & Symbol 2.0, Disk Based A, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-07 00     Hole, 1 month, nothing/2007-07 00 Hole, 1 month, nothing.doc
+3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-08 01     Creator 2.0, Program An Application ( Sound )/Develop Creator & Symbol 2.0, Program An Application, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-08 02     Creator 2.0, Methods/Develop Creator & Symbol 2.0, Methods, Project Summary.doc
+3. Done/XXXX-XX-XX XX/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Plan.doc
+3. Done/XXXX-XX-XX XX/2007-09 00     Creator 2.0, Program Some Applications ( Sound , Math Objects , Controls , XML )/Develop Creator & Symbol 2.0, Program Some Applications, Project Smry.doc
+3. Done/XXXX-XX-XX XX/2007-12 00     Preliminary Storage Documentation
+3. Done/XXXX-XX-XX XX/2008-10 03     Define Old Projects/2008-10 03 Repair Older Material, Define Old Projects.doc
+3. Done/XXXX-XX-XX XX/2008-11 01     Isolate Versions of Old Programs/2008-11 01 Repair Older Material, Isolate Versions of Old Programs.doc
+3. Done/XXXX-XX-XX XX/2008-12 01     Repair Creator 2.0 Programs/2008-12 01  Repair Creator 2.0 Programs, Proj Smry.doc
+3. Done/XXXX-XX-XX XX/2008-12 03     Repair Creator 0.9 First Programs
+3. Done/XXXX-XX-XX XX/2009-01 00     Update Basic Working Methods
+3. Done/XXXX-XX-XX XX/2009-01 01     Repair Creator 0.9 Split Up Into Sub-Projects/Repair Creator 0.9 Split Up Into Sub-Projects.doc
+3. Done/XXXX-XX-XX XX/2009-01 02     Repair Creator 0.9 Wrap Up First Programs
+3. Done/XXXX-XX-XX XX/2009-04 00  Document Software System B/Project Description Elsewhere
+3. Done/XXXX-XX-XX XX/2010-10 00 PictureViewer2/PictureViewer2.txt
+3. Done/XXXX-XX-XX XX/2011-02 00     Control Classes + Framework + Scope Creep
+3. Done/XXXX-XX-XX XX/2011-02 01        Control Classes + Framework + Scope Creep Part A
+3. Done/XXXX-XX-XX XX/2012-01 00        Wrap up Sound and ValidReference
+3. Done/XXXX-XX-XX XX/2012-07 01        Sound Multiple Outlets
+3. Done/XXXX-XX-XX XX/2012-07 02           Sound Multiple Outlets First Attempts
+3. Done/XXXX-XX-XX XX/2012-07 New Computer
+3. Done/XXXX-XX-XX XX/2012-10 01           Roles/ircle 3 Roles Project 2012-10.doc
+3. Done/XXXX-XX-XX XX/2012-10 02           Conditions/Circle 3 Conditions Project 2012-10.doc
+3. Done/XXXX-XX-XX XX/2012-10 02           Conditions/Circle.Framework.Code.Conditions.Advanced Technical Design.doc
+3. Done/XXXX-XX-XX XX/2012-10 03           Sound Multiple Outlets Round-Up/Circle 3 Sound Multiple Outlets Round-Up Project 2012-10.doc
+3. Done/XXXX-XX-XX XX/2013-01 00     Remaining Sound Features & Framework Issues/Project Description Elsewhere
+3. Done/XXXX-XX-XX XX/2013-02 01        Events Adaptation/2013-02 Events Adaptation Project.doc
+3. Done/XXXX-XX-XX XX/2016-11 Open Source/2016-11 Open Source.doc
+3. Done/XXXX-XX-XX XX/2016-11 Open Source/2016-12-20 BeginCollection license maybe.txt
+4. Archive/2016-11 AnaLib.txt
+4. Archive/Repair Creator 0.9 First Programs Project Docs Version History.doc
+4. Archive/Repair Creator 0.9 Programs Project Docs Version History.doc
+4. Archive/Repair Creator 0.9 Wrap Up First Programs Project Docs Version History.doc
+Other/1. Current
+Other/2. Future/Ideas/Shortcut to Ideas.doc.lnk
+Other/2. Future/Interesting Now/2. Circle 3 Programming
+Other/2. Future/Interesting Now/3. Software System Core Documentation
+Other/2. Future/Interesting Now/4. Software System Core Documentation
+Other/2. Future/Interesting Now/4. Software System Programming
+Other/2. Future/Interesting Now/5. Repair Older Material
+Other/2. Future/Interesting Now/5. Software System Programming
+Other/2. Future/Interesting Now/6. Repair Older Material
+Other/2. Future/Postponed Indefinitely
+Other/3. Done/2008 - 2009 Repair Older Material
+Other/2. Future/Postponed/2013-09 Multi-Platform Architecture and Q&A App
+Other/2. Future/Postponed/2015-03 Synthesizer
+Other/2. Future/Postponed/2016-08 Software Architecture
+Other/2. Future/Postponed/3. Software System Core Documentation
+Other/2. Future/Postponed/4. Software System Programming
+Other/2. Future/Postponed/5. Repair Older Material
+Other/2. Future/Postponed/Music Thumper

@@ -1,0 +1,1895 @@
+# Turning Software System Docs repo into Circle Docs repo
+# =======================================================
+
+# *Restarted, because too many Operating System topics were removed.*
+
+git remote remove origin
+
+# Listing Files (With Renames)
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles_with_renames.txt
+
+# Listing Files (Without Renames)
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# Listing Files (Without History)
+git ls-tree -r master --name-only > allfiles_in_latest.txt
+
+# --------------------
+
+# Removing:
+# - Zips with pictures
+# - Content related to former employers
+# - Misc Creator files
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/6. Diagrams/2005-00-00 XX/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "01. Code/6. Diagrams/XXXX-XX-XX XX/99. Symbol '\(' Cross Out Copy '\)'/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "01. Code/8. Other Topics/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Example Modules '\('Aldoc'\)' '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/4. Expression/1. Diagrams/8. Example Diagrams/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/6. Expression/1. Diagrams/8. Example Diagrams/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/7. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "02. Code/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "03. Code/05. Expression/3. Diagrams/2005-00-00 XX/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "03. Code/05. Expression/3. Diagrams/XXXX-XX-XX XX/Symbol '\(' Cross Out Copy '\)'/SYMBOL~2.ZIP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/EXAMPL~1.ZIP"
+rm -rf "1. Language/1. Language/6. Expression/1. Diagrams/5. Example Diagrams/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1. Language/1. Language/6. Expression/1. Diagrams/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1. Language/1. Language/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/30. Other Diagram Topics/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/6. Diagram Expression Other Topics/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/6. Expression/1. Diagrams/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "1.1. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "9. Circle Language Spec/6. Expression/1. Diagrams/6.1. Example Diagrams '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "9. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Symbol Pictures '\('Keep Packed, Paths Too Long'\)'.zip"
+rm -rf "Code/Creator/Other Files/License Plate Database"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/1. Parser/Example Modules/Aldoc IPC Parse.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/3. Parser/Example Modules/Aldoc IPC Parse.doc"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLHUSK C++ Sample"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLTRACE C++ Sample"
+rm -rf "Code/Creator/Miscellaneous Documents/J Syntax.txt"
+rm -rf "Code/Creator/Miscellaneous Documents/Methods in J Sound.txt"
+' --prune-empty HEAD --all
+
+# --------------------
+
+# [x] Obs: Got unexpected messages: Ref 'refs/heads/master' was rewritten, # Could not rewrite refs/heads/master
+# [x] Hyp: Character escaping problems?
+# [x] Exp: Checked escape characters.
+# [x] Obs: Did not find problems.
+# [x] Exp: Just try again?
+# [x] Obs: 2nd time seemed to work.
+# [x] ~~Hyp: Is + sign a special character?~~
+
+# --------------------
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Main Topics:
+
+# Software System Introduction (+ related files), "Framework", "Applications & Media",
+# "Sound", "Graphics", "Video", "Controls", "Editing & Authoring", "Pages",
+# "Mathematics", "Organizer",  "Game", "Simulate", "Statistics & Lookups", "Integration", "Legacy",
+# Operating System concepts (except Internet as a Single Computer and Concurrency):
+# "Storage", "Core", "Hardware", "Security & Safety", "Communicate", "User Input", Cache, Configure
+
+git filter-branch --tree-filter '
+rm -rf "Contents.doc"
+rm -rf "0. Introduction"
+rm -rf "00. Introduction"
+rm -rf "01. Introduction"
+rm -rf "5. Archive/Introduction Version History.doc"
+rm -rf "00. General"
+rm -rf "Sigma General.doc"
+rm -rf "2. Framework"
+rm -rf "4. Applications & Media"
+rm -rf "Sound"
+rm -rf "04. Sound"
+rm -rf "05. Sound"
+rm -rf "06. Sound"
+rm -rf "07. Sound"
+rm -rf "Graphics"
+rm -rf "03. Graphics"
+rm -rf "04. Graphics"
+rm -rf "05. Graphics"
+rm -rf "06. Graphics"
+rm -rf "Video"
+rm -rf "05. Video"
+rm -rf "06. Video"
+rm -rf "07. Video"
+rm -rf "08. Video"
+rm -rf "Controls"
+rm -rf "07. Controls"
+rm -rf "08. Controls"
+rm -rf "09. Controls"
+rm -rf "10. Controls"
+rm -rf "Framework/4. Controls"
+rm -rf "5. Archive/Controls Concepts Version History.doc"
+rm -rf "03. Editing & Authoring"
+rm -rf "08. Editing & Authoring"
+rm -rf "10. Editing & Authoring"
+rm -rf "Sigma Text.doc"
+rm -rf "Sigma Video.doc"
+rm -rf "09. Pages"
+rm -rf "11. Pages"
+rm -rf "10. Mathematics"
+rm -rf "12. Mathematics"
+rm -rf "Math"
+rm -rf "Organizer"
+rm -rf "11. Organizer"
+rm -rf "13. Organizer"
+rm -rf "13. Game"
+rm -rf "15. Game"
+rm -rf "Sigma Game.doc"
+rm -rf "14. Simulate"
+rm -rf "16. Simulate"
+rm -rf "Sigma Simulate.doc"
+rm -rf "3. Operating System/Operating System.doc"
+rm -rf "17. Storage"
+rm -rf "5. Archive/Storage Allocation Version History.doc"
+rm -rf "14. Statistics & Lookups"
+rm -rf "15. Statistics & Lookups"
+rm -rf "16. Statistics & Lookups"
+rm -rf "17. Statistics & Lookups"
+rm -rf "15. Integration"
+rm -rf "15. Legacy"
+rm -rf "17. Legacy"
+rm -rf "19. Legacy"
+rm -rf "01. Storage"
+rm -rf "3. Operating System/4. Storage"
+rm -rf "File"
+rm -rf "Code/Creator/Other Files/JFile.doc"
+rm -rf "01. Core"
+rm -rf "18. Core"
+rm -rf "19. Core"
+rm -rf "Sigma Core.doc"
+rm -rf "3. Operating System/5. Core '\('Threads'\)'"
+rm -rf "5. Archive/Core Version History.doc"
+rm -rf "04. Hardware"
+rm -rf "18. Hardware"
+rm -rf "19. Hardware"
+rm -rf "3. Operating System/6. Hardware"
+rm -rf "Sigma Hardware.doc"
+rm -rf "04. Security & Safety"
+rm -rf "16. Security & Safety"
+rm -rf "18. Security & Safety"
+rm -rf "3. Operating System/3. Security & Safety"
+rm -rf "Sigma Security and Safety.doc"
+rm -rf "06. User Input"
+rm -rf "07. User Input"
+rm -rf "08. User Input"
+rm -rf "09. User Input"
+rm -rf "3. Operating System/7. User Input"
+rm -rf "Sigma User Input.doc"
+rm -rf "Communicate"
+rm -rf "12. Communicate"
+rm -rf "14. Communicate"
+rm -rf "3. Operating System/8. Communicate"
+rm -rf "02. Cache"
+rm -rf "Sigma Cache.doc"
+rm -rf "Sigma Configure.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing:
+# "Language\Integration"
+# "Language\Libraries"
+# "Text Codes"
+# "Text Operations"
+# "Text Statistics"
+
+git filter-branch --tree-filter '
+rm -rf "1. Language/2. Integration"
+rm -rf "1. Language/3. Libraries"
+rm -rf "02. Code/4. Expression/6. More Text Codes"
+rm -rf "02. Code/6. Expression/6. More Text Codes"
+rm -rf "03. Code/05. Expression/1. Parser"
+rm -rf "03. Code/05. Expression/2. Text Code/Template Text Generator"
+rm -rf "03. Code/05. Expression/4. Legacy Text Codes"
+rm -rf "03. Code/07. Text Operations"
+rm -rf "Code/Other/temp Template Text Generator.txt"
+rm -rf "Code/Other/Template Text Generator, Software Engineering.doc"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/3. Parser"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/4. Other Text Codes"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/5. Legacy Text Codes"
+rm -rf "01. Code/8. Other Topics/08. Other Expression Topics/8. Text Templates"
+rm -rf "01. Code/8. Other Topics/09. Text Operations"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes"
+rm -rf "1. Language/1. Language/6. Expression/6. More Text Codes/1. Parser"
+rm -rf "Code/Sigma C++ Code.doc"
+rm -rf "Code/Sigma Syntax/Sigma Syntax.doc"
+rm -rf "Code/Sigma VB Code.doc"
+rm -rf "01. Code/8. Other Topics/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "02. Code/6. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "02. Code/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "03. Code/06. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "1. Language/1. Language/7. Other Topics/1. Utilities/4.2. Text Statistics/Text Statistics.doc"
+rm -rf "1.2. Circle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing "Data Concepts" (except "Object Order", "Binaral")
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/5. Data Concepts/7.2. Custom Sorting Methods/Custom Sorting Methods.doc"
+rm -rf "01. Code/5. Data Concepts/7.3. User Sorting/User Sorting.doc"
+rm -rf "01. Code/5. Data Concepts/8.0. Strings/Strings.doc"
+rm -rf "01. Code/5. Data Concepts/9.0. Multi-Lingual/Multi-Lingual.doc"
+rm -rf "01. Code/5. Data Concepts/9.1. Is Deleted/Is Deleted.doc"
+rm -rf "01. Code/5. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/3. Data Concepts/0.0. Clear"
+rm -rf "02. Code/3. Data Concepts/1.1. Registration Lists"
+rm -rf "02. Code/3. Data Concepts/1.2. Item Remove"
+rm -rf "02. Code/3. Data Concepts/10.01. Defaults"
+rm -rf "02. Code/3. Data Concepts/10.02. Enums"
+rm -rf "02. Code/3. Data Concepts/10.03. Boolean & Enum Methods"
+rm -rf "02. Code/3. Data Concepts/11.01. Delete only when no references"
+rm -rf "02. Code/3. Data Concepts/11.02. Collection Operations"
+rm -rf "02. Code/3. Data Concepts/11.03. Extended Multiplicity"
+rm -rf "02. Code/3. Data Concepts/2.0. Undouble"
+rm -rf "02. Code/3. Data Concepts/3.0. Collection"
+rm -rf "02. Code/3. Data Concepts/4.0. Search"
+rm -rf "02. Code/3. Data Concepts/5.0. Import & Export"
+rm -rf "02. Code/3. Data Concepts/6.0. Persistance Delay"
+rm -rf "02. Code/3. Data Concepts/7.2. Custom Sorting Methods"
+rm -rf "02. Code/3. Data Concepts/7.3. User Sorting"
+rm -rf "02. Code/3. Data Concepts/8.0. Strings"
+rm -rf "02. Code/3. Data Concepts/9.0. Multi-Lingual"
+rm -rf "02. Code/3. Data Concepts/9.1. Is Deleted"
+rm -rf "02. Code/3. Data Concepts/9.2. Attributes As Tree Layers"
+rm -rf "02. Code/3. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/4. Data Concepts/0.0. Clear"
+rm -rf "02. Code/4. Data Concepts/1.1. Registration Lists"
+rm -rf "02. Code/4. Data Concepts/1.2. Item Remove"
+rm -rf "02. Code/4. Data Concepts/10.01. Defaults"
+rm -rf "02. Code/4. Data Concepts/10.02. Enums"
+rm -rf "02. Code/4. Data Concepts/10.03. Boolean & Enum Methods"
+rm -rf "02. Code/4. Data Concepts/11.01. Delete only when no references"
+rm -rf "02. Code/4. Data Concepts/11.02. Collection Operations"
+rm -rf "02. Code/4. Data Concepts/11.03. Extended Multiplicity"
+rm -rf "02. Code/4. Data Concepts/2.0. Undouble"
+rm -rf "02. Code/4. Data Concepts/3.0. Collection"
+rm -rf "02. Code/4. Data Concepts/4.0. Search"
+rm -rf "02. Code/4. Data Concepts/5.0. Import & Export"
+rm -rf "02. Code/4. Data Concepts/6.0. Persistance Delay"
+rm -rf "02. Code/4. Data Concepts/7.2. Custom Sorting Methods"
+rm -rf "02. Code/4. Data Concepts/7.3. User Sorting"
+rm -rf "02. Code/4. Data Concepts/8.0. Strings"
+rm -rf "02. Code/4. Data Concepts/9.0. Multi-Lingual"
+rm -rf "02. Code/4. Data Concepts/9.1. Is Deleted"
+rm -rf "02. Code/4. Data Concepts/9.2. Attributes As Tree Layers"
+rm -rf "02. Code/4. Data Concepts/Data Concepts.doc"
+rm -rf "02. Code/4. Data Concepts/10.03. Boolean & Enum Commands"
+rm -rf "02. Code/4. Data Concepts/6.0. Persistence Delay"
+rm -rf "03. Code/04. Concepts/Data Concepts/1.1. Registration Lists/Registration Lists.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/1.2. Item Remove/Item Remove.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/2.0. Undouble/2.2. Undoubled Relations/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/FILTER~1.DOC"
+rm -rf "03. Code/04. Concepts/Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/4.0. Search/4.1. Find/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/5.0. Import & Export/5.2. XML/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.1. Locking/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.4. Streaming Access/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/7.2. Custom Sorting Methods/Custom Sorting Methods.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/7.3. User Sorting/empty.txt"
+rm -rf "03. Code/04. Concepts/Data Concepts/8.0. Strings/Strings.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/9.0. Multi-Lingual/Multi-Lingual.doc"
+rm -rf "03. Code/04. Concepts/Data Concepts/Data Concepts.doc"
+rm -rf "2. Framework/2. Data Concepts/0.0. Clear/Incorporate.doc"
+rm -rf "2. Framework/2. Data Concepts/1.1. Registration Lists/Registration Lists.doc"
+rm -rf "2. Framework/2. Data Concepts/1.2. Item Remove/Item Remove.doc"
+rm -rf "2. Framework/2. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
+rm -rf "2. Framework/2. Data Concepts/10.01. Defaults/12.02. Create Objects/Create Objects.doc"
+rm -rf "2. Framework/2. Data Concepts/10.01. Defaults/12.03. Ensure Objects/Ensure Objects.doc"
+rm -rf "2. Framework/2. Data Concepts/10.02. Enums/Enums.doc"
+rm -rf "2. Framework/2. Data Concepts/10.03. Boolean & Enum Commands/Boolean & Enum Methods.doc"
+rm -rf "2. Framework/2. Data Concepts/11.01. Delete only when no references/Delete only when no references.doc"
+rm -rf "2. Framework/2. Data Concepts/11.03. Extended Multiplicity/Ideas.txt"
+rm -rf "2. Framework/2. Data Concepts/12. Scans/Image4.jpg"
+rm -rf "2. Framework/2. Data Concepts/12. Scans/Image62.jpg"
+rm -rf "2. Framework/2. Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/Filters, Sorts, Searches, Joins & Indexes.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/3.4. Collection Operations/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/3.0. Collection/Collection.doc"
+rm -rf "2. Framework/2. Data Concepts/4.0. Search/4.1. Find/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
+rm -rf "2. Framework/2. Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
+rm -rf "2. Framework/2. Data Concepts/5.0. Import & Export/5.2. XML/XML.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.1. Locking/Locking.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
+rm -rf "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.4. Streaming Access/Streaming Access.doc"
+rm -rf "2. Framework/2. Data Concepts/7.2. Custom Sorting Methods/Custom Sorting Methods.doc"
+rm -rf "2. Framework/2. Data Concepts/7.3. User Sorting/User Sorting.doc"
+rm -rf "2. Framework/2. Data Concepts/8.0. Strings/Strings.doc"
+rm -rf "2. Framework/2. Data Concepts/8.1. Text Operations/Text Operations.doc"
+rm -rf "2. Framework/2. Data Concepts/8.2. Text Validation/empty.txt"
+rm -rf "2. Framework/2. Data Concepts/9.0. Multi-Lingual/Multi-Lingual.doc"
+rm -rf "2. Framework/2. Data Concepts/9.1. Is Deleted/Is Deleted.doc"
+rm -rf "2. Framework/2. Data Concepts/9.2. Attributes As Tree Layers/Attributes As Tree Layers.doc"
+rm -rf "2. Framework/2. Data Concepts/Data Concepts.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Storage-Related Fundamental Principles
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/1. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "01. Code/1. Fundamental Principles/5.2.    Caching/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/5.3.    Reference Counting/Reference Counting.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.0.  ID'\''s/ID'\''s.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.1.  Positions/Positions.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.2.  Removing Fields/Removing Fields.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.3.  Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.4.  Primary Identification/Primary Identification.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.5.  Size Of Object/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/6.8.  Do Not Store Empty Lists/Do not store empty lists.doc"
+rm -rf "03. Code/01. Fundamental Principles/5.1.    Unify Disk & Memory/Unify Disk & Memory.doc"
+rm -rf "03. Code/01. Fundamental Principles/5.2.    Caching/empty.txt"
+rm -rf "03. Code/01. Fundamental Principles/5.3.    Reference Counting/Reference Counting.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.0.  ID'\''s/ID'\''s.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.1.  Positions/Positions.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.2.  Removing Fields/Removing Fields.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.3.  Changing Field Sizes/Changing Field Sizes.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.4.  Primary Identification/Primary Identification.doc"
+rm -rf "03. Code/01. Fundamental Principles/6.5.  Size Of Object/empty.txt"
+rm -rf "03. Code/01. Fundamental Principles/6.7.  Speed/Speed.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Gray Area Concepts:
+#
+# - Coding Concepts (Out of Scope):
+#     - Handy Access 
+#     - Apply Mechanisms 
+#     - Default Values 
+#     - Create Objects
+#     - Ensure Objects
+#     - Enums
+#     - Booleans
+#     - "Delete only when no references"
+# - Fundamental principe (Out of Scope): 
+#     - "C++", 
+#     - "Speed"
+#     - "Attributes as Tree Layers"
+# - Lost psp file
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/4. Coding Concepts/09.00. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "01. Code/4. Coding Concepts/09.00. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "03. Code/04. Concepts/Coding Concepts/10.0. Handier Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/62. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/93. Handy Access"
+rm -rf "02. Code/2. Coding Concepts/23. Handy Access"
+rm -rf "02. Code/3. Coding Concepts/61. Handy Access"
+rm -rf "01. Code/4. Coding Concepts/10.01. Apply Mechanisms/Apply Mechanisms.doc"
+rm -rf "02. Code/2. Coding Concepts/24. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/63. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/64. Apply/Apply Mechanisms.doc"
+rm -rf "02. Code/3. Coding Concepts/94. Apply/Apply Mechanisms.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/11.1. Apply Mechanisms/Apply Mechanisms.doc"
+rm -rf "01. Code/4. Coding Concepts/03.01. Default Values/Default Values.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.1. Default Values/Default Values.doc"
+rm -rf "01. Code/4. Coding Concepts/03.00. Command Concepts/03.02. Create Objects"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.2. Create Objects"
+rm -rf "01. Code/4. Coding Concepts/03.03. Ensure Objects"
+rm -rf "03. Code/04. Concepts/Coding Concepts/4.3. Ensure Objects"
+rm -rf "01. Code/4. Coding Concepts/04.04. Enums"
+rm -rf "01. Code/4. Coding Concepts/04.05. Boolean & Enum Methods"
+rm -rf "03. Code/04. Concepts/Coding Concepts/5.4. Enums"
+rm -rf "03. Code/04. Concepts/Coding Concepts/5.5. Boolean & Enum Methods"
+rm -rf "01. Code/4. Coding Concepts/12.00. Delete only when no references/Delete only when no references.doc"
+rm -rf "03. Code/04. Concepts/Coding Concepts/13.0. Delete only when no references/empty.txt"
+rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+rm -rf "01. Code/1. Fundamental Principles/6.7.  Speed/Speed.doc"
+rm -rf "02. Code/1. Fundamental Principles/7.0.   Speed/Speed.doc"
+rm -rf "01. Code/1. Fundamental Principles/5.0.    C++"
+rm -rf "02. Code/1. Fundamental Principles/5.0.   C++"
+rm -rf "02. Code/2. Fundamental Principles/3. Achievability/5. C++"
+rm -rf "02. Code/5. Fundamental Principles B/1. Achievability/5. C++"
+rm -rf "03. Code/01. Fundamental Principles/5.0.    C++"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5. C++"
+rm -rf "1.3. Circle Broader View/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+rm -rf "11. Circle Broader View/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+rm -rf "5. Archive/C++ Version History.doc"
+rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+rm -rf "01. Code/2. Flat & Struct. Interchanged/5. Attributes As Tree Layers/Attributes As Tree Layers.doc"
+rm -rf "03. Code/03. Flat & Structured Interchanged '\(' Fundamental Concepts '\)'/5. Attributes As Tree Layers/empty.txt"
+rm -rf "Pictures/Code/Language/Splines/Peels/1.psp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 1
+
+# Details: A list of pictures was generated with help of a tool. 
+# The pictures file names (png, bmp, jpg) still in master would not be deleted,
+# but all other picture file names would.
+# The deletion is split up in batches: 
+# Less than 32000 characters: The max bash command length:
+# Error "Argument list too long". Max of 32000 obtained with "getconf ARG_MAX".
+# The tree filter command seems to have another max.
+# The error message seemed to indicate show a cut-off command, indicating the limit.
+# Some characters needed to be escaped:
+# ' would become '\''
+# ( would become '\('
+# ) would become '\)'
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/2. Flat & Struct. Interchanged/2. Commands & Classes Loosely Coupled/XXXX-XX-XX XX/Pictures/Class 2 method interf. from different sites.png"
+rm -rf "01. Code/2. Flat & Struct. Interchanged/2. Commands & Classes Loosely Coupled/XXXX-XX-XX XX/Pictures/Class data & class methods target definitions.png"
+rm -rf "01. Code/2. Flat & Struct. Interchanged/2. Commands & Classes Loosely Coupled/XXXX-XX-XX XX/Pictures/Class data & class methods target defs 2.png"
+rm -rf "01. Code/6. Diagrams/2005-00-00 XX/Other Files/Symbol Book Cover.JPG"
+rm -rf "01. Code/6. Diagrams/XXXX-XX-XX XX/02. Coding Conc in a Dia/Interfaces/Using a specific interface.png"
+rm -rf "01. Code/6. Diagrams/XXXX-XX-XX XX/99. Symbol '\(' Cross Out Copy '\)'/Symbol Book Cover.JPG"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.0.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 4.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 5.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 2. Allocation Information 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 2. Allocation Information 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 4.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 5.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 6.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 4. When Fragmentation Starts Taking Place 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 5. Two Forms Of Fragmentation 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 5. Two Forms Of Fragmentation 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 6. Inserting 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 6. Inserting 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 6. Inserting 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 6. Inserting 4.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 6. Inserting 5.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 6. Inserting, Scribbling.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 7. Deleting 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 7. Deleting 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 7. Deleting 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-14 00/Pictures/Storage, Storage In RAM, Picture 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.0.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 4.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 5.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 2. Allocation Information 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 2. Allocation Information 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 4.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 5.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 6.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 4. When Fragmentation Starts Taking Place 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 5. Two Forms Of Fragmentation 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 5. Two Forms Of Fragmentation 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 6. Inserting 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 6. Inserting 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 6. Inserting 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 6. Inserting 4.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 6. Inserting 5.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 6. Inserting, Scribbling.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 7. Deleting 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 7. Deleting 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 7. Deleting 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 1.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 2.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 3.bmp"
+rm -rf "01. Storage/2. Allocation/2008-01-19 00/Pictures/Storage, Storage In RAM, Picture 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 2.bmp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 2
+
+git filter-branch --tree-filter '
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.0.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 3.2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 4.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 1. Storage Space Sizing & Fragmentation 5.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 2. Allocation Information 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 2. Allocation Information 2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 3.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 4.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 5.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 3. Freeing & Reusing 6.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 4. When Fragmentation Starts Taking Place 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 5. Two Forms Of Fragmentation 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 5. Two Forms Of Fragmentation 2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 6. Inserting 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 6. Inserting 2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 6. Inserting 3.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 6. Inserting 4.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 6. Inserting 5.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 6. Inserting, Scribbling.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 7. Deleting 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 7. Deleting 2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 7. Deleting 3.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 1.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 2.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Fragmentation, 8. Inserting & Deleting Continued 3.bmp"
+rm -rf "01. Storage/2. Allocation/XXXX-XX-XX XX/Pictures/Storage, Storage In RAM, Picture 1.bmp"
+rm -rf "02. Code/2. Coding Concepts/08. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic1.png"
+rm -rf "02. Code/2. Coding Concepts/08. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic2.png"
+rm -rf "02. Code/2. Coding Concepts/08. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic3.png"
+rm -rf "02. Code/2. Coding Concepts/10. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic1.png"
+rm -rf "02. Code/2. Coding Concepts/10. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic2.png"
+rm -rf "02. Code/2. Coding Concepts/10. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic3.png"
+rm -rf "02. Code/2. Coding Concepts/12. Interfaces/1. Introduction/2. Diagram/Using a specific interface.png"
+rm -rf "02. Code/3. Coding Concepts/06. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic1.png"
+rm -rf "02. Code/3. Coding Concepts/06. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic2.png"
+rm -rf "02. Code/3. Coding Concepts/06. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic3.png"
+rm -rf "02. Code/3. Coding Concepts/07. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic1.png"
+rm -rf "02. Code/3. Coding Concepts/07. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic2.png"
+rm -rf "02. Code/3. Coding Concepts/07. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic3.png"
+rm -rf "02. Code/3. Coding Concepts/08. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic1.png"
+rm -rf "02. Code/3. Coding Concepts/08. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic2.png"
+rm -rf "02. Code/3. Coding Concepts/08. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic3.png"
+rm -rf "02. Code/3. Coding Concepts/11. Interfaces/2008-00-00 XX  0.9/1. Introduction/2. Diagram/Using a specific interface.png"
+rm -rf "02. Code/3. Coding Concepts/13. Inheritance/2010-05-18 00  0.2/Pictures.png"
+rm -rf "02. Code/3. Coding Concepts/13. Inheritance/2010-05-31 00  0.4/Pictures.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 2/2009-07-07 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 2/2009-07-07 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 2/2009-07-07 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 2/2009-07-07 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 3/2009-07-08 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 3/2009-07-08 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 3/2009-07-08 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans 4/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 05.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 06.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 07.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 08.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 09.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 10.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 11.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01 12.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''16.png"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 3
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\''24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 2/2009-07-07 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 2/2009-07-07 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 2/2009-07-07 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 2/2009-07-07 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 3/2009-07-08 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 3/2009-07-08 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 3/2009-07-08 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans 4/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 05.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 06.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 07.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 08.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 09.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 10.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 11.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01 12.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\''24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 2/2009-07-07 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 2/2009-07-07 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 2/2009-07-07 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 2/2009-07-07 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 3/2009-07-08 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 3/2009-07-08 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 3/2009-07-08 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans 4/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 05.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 06.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 07.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 08.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 09.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 10.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 11.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01 12.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\''24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 05.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 06.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 07.png"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 4
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 08.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 09.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 10.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 11.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01 12.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\''24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-07/2009-07-07 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-07/2009-07-07 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-07/2009-07-07 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-07/2009-07-07 04.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-08 '\('1'\)'/2009-07-08 01.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-08 '\('1'\)'/2009-07-08 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-08 '\('1'\)'/2009-07-08 03.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-08 '\('2'\)'/2009-07-08 43.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-24/2009-07-24 02.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-24/2009-07-24 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-24/2009-07-24 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-24/2009-07-24 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-24/2009-07-24 17.png"
+rm -rf "02. Code/3. Coding Concepts/51. Interfaces/1. Introduction/2. Diagram/Using a specific interface.png"
+rm -rf "02. Code/3. Coding Concepts/52. Inheritance/Pictures.png"
+rm -rf "02. Code/3. Coding Concepts/82. Interfaces/1. Introduction/2. Diagram/Using a specific interface.png"
+rm -rf "02. Code/3. Coding Concepts/84. Inheritance/Pictures.png"
+rm -rf "02. Code/7. Other Topics/Ideas, Picture 5.bmp"
+rm -rf "02. Code/7. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "02. Code/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "02. Code/Ideas, Picture 5.bmp"
+rm -rf "03. Code/05. Expression/3. Diagrams/2005-00-00 XX/Other Files/Symbol Book Cover.JPG"
+rm -rf "03. Code/05. Expression/3. Diagrams/XXXX-XX-XX XX/Symbol '\(' Cross Out Copy '\)'/Symbol Book Cover.JPG"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Pictures/SMALL1~3.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Pictures/SMALL1~4.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Pictures/SMALLN~1.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Pictures/SMALLN~2.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Pictures/SMALLN~3.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2005-08-31 00  0.9/Pictures/SMALLN~4.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2007-10-12 XX/Pictures/SMALL1~3.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2007-10-12 XX/Pictures/SMALL1~4.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2007-10-12 XX/Pictures/SMALLN~2.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2007-10-12 XX/Pictures/SMALLN~3.BMP"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'/2007-10-12 XX/Pictures/SMALLN~4.BMP"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic1.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic2.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic3.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic1.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic2.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/2008-07-28 00/09.01. Comm & Class Loose Couple/XXXX-XX-XX XX/Pix/Pic3.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/07. Parameters/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic1.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/07. Parameters/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic2.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/07. Parameters/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic3.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/07. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic1.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/07. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic2.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/07. Parameters/2008-09-16 XX/01. Relations Between Commands & Objects/2008-09-04 XX/Pix/Pic3.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/11. Interfaces/1. Introduction/2. Diagram/Using a specific interface.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/11. Interfaces/2008-00-00 XX  0.9/1. Introduction/2. Diagram/Using a specific interface.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/13. Inheritance/2010-05-18 00  0.2/Pictures.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/13. Inheritance/2010-05-31 00  0.4/Pictures.png"
+rm -rf "1. Language/1. Language/3. Code Concepts/13. Inheritance/Pictures.png"
+rm -rf "1. Language/1. Language/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing More Pictures Part 5
+
+git filter-branch --tree-filter '
+rm -rf "1.1. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "9. Circle Language Spec/8. Previous Versions/2004-00-00 XX  Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "Code/Creator/Miscellaneous Documents/DLLHUSK C++ Sample/res/toolbar.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Dynamic Two Level Tree File Structure Almost Clean With Exa.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Dynamic Two Level Tree File Structure Blue Background.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Dynamic Two Level Tree File Structure.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Static Two Level Tree File Structure.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Tree with more explanations.bmp"
+rm -rf "Code/Creator/Other Files/Pictures about Lists and Trees/Tree.bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/JQueryList Test Situation Without Propert Multiple Parentin.bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/Opening w_rai_select_lev_klasse start of extended .bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/Opening w_rai_select_lev_klasse.bmp"
+rm -rf "Code/Symbol Language/Diagram Examples/ue_trigger calling wf_select_lev_group or wf_choos.bmp"
+rm -rf "Code/Symbol Language/Other Files/Symbol Book Cover.JPG"
+rm -rf "Pictures/Code/Language/20030117.bmp"
+rm -rf "Pictures/Code/Language/20031209.bmp"
+rm -rf "Pictures/Code/Language/20031211 '\('2'\)'.bmp"
+rm -rf "Pictures/Code/Language/20031211.bmp"
+rm -rf "Pictures/Code/Language/20031212.bmp"
+rm -rf "Pictures/Code/Language/20031214.bmp"
+rm -rf "Pictures/Code/Language/20031216.bmp"
+rm -rf "Pictures/Code/Language/20040107.bmp"
+rm -rf "Pictures/Code/Language/20040109.bmp"
+rm -rf "Pictures/Code/Language/20040110.bmp"
+rm -rf "Pictures/Code/Language/20040112.bmp"
+rm -rf "Pictures/Code/Language/20040113.bmp"
+rm -rf "Pictures/Code/Language/20040115.bmp"
+rm -rf "Pictures/Code/Language/20040116.bmp"
+rm -rf "Pictures/Code/Language/20040121.bmp"
+rm -rf "Pictures/Code/Language/20040124.bmp"
+rm -rf "Pictures/Code/Language/20040125 '\('2'\)'.bmp"
+rm -rf "Pictures/Code/Language/20040125.bmp"
+rm -rf "Pictures/Code/Language/20040126.bmp"
+rm -rf "Pictures/Code/Language/20040203.bmp"
+rm -rf "Pictures/Code/Language/20040207.bmp"
+rm -rf "Pictures/Code/Language/20040208.bmp"
+rm -rf "Pictures/Code/Language/20040209.bmp"
+rm -rf "Pictures/Code/Language/20040211.bmp"
+rm -rf "Pictures/Code/Language/20040216.bmp"
+rm -rf "Pictures/Code/Language/Access/A Big Load of Accesses and Redirection with Identifiers.bmp"
+rm -rf "Pictures/Code/Language/Access/A Big Load of Accesses and Redirection.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Calls in Annulling Spline.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Calls in Changing Spline, After Change.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Calls in Changing Spline, Before Change.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Calls in Changing Spline.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Clause Accessing Definition Members.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Clause Accessing Parent Clause Members and Definition Members.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Clause No Access to Sibbling Clause.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Embedded Globalities.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Global Access.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Globality Reference.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/In a Globality Every Object can Reference the Globality '\('Pentagons become circles'\)'.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/In a Globality Every Object can Reference the Globality '\('Traingular References'\)' 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/In a Globality Every Object can Reference the Globality '\('Traingular References.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/In a Globality Every Object can Reference the Globality.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Interface Access, Call to Interface Member through Circle and Triangle.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Interface Access, Call to Interface Member through Circle.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Interface Access, Call to Interface Member through Triangle.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Interface Access, Circle with Separate Interfaces, Interface Member Called.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Interface Access, Circle with Separate Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Multiply Pealed Pentagon Around Global Call.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Pealed Pentagon Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Pentagon with Contents, Globals Highlit.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Pentagon with Contents.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modes/Simple notation of Global Access.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Accessible.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/A Procedure'\''s Access Controller Stack.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Abstract Class.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Abstract Class1 .bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Accessible 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Accessible.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Deep Exclusion.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Inaccessible 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Inaccessible.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Deeper Exclusion Object Level Limitation Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Deeper Exclusion Object Level Limitation.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Globality/Public Globality Up 1 Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Globality/Public Globality Up 1.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Globality/Public Globality Up 2 Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Globality/Public Globality Up 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Globality/Public, No Globality Level Limitation Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Globality/Public, No Globality Level Limitation.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/No Level Limitation Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/No Level Limitation.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Protected Object Level Limitation Example 1 Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Protected Object Level Limitation Example 1.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Protected Object Level Limitation Example 2 Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Protected Object Level Limitation Example 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Protected Object Level Limitation Example 3 Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Protected Object Level Limitation Example 3.bmp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 6
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Public Object Level Limitation Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Public Object Level Limitation.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Shallower Object Level Limitation Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Level Limitation/Shallower Object Level Limitation.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Multiple Containment Access Marks.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Primary Access Modifiers Only.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Primary and a Deep Access Modifier.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Primary and a Secondary Access Modifier.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Private 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Private 3.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Private Notation that Won'\''t Do 1.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Private Notation that Won'\''t Do 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Private.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Privatisation is the Last Access Modification.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Procedure'\''s Set of Access Controllers.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected In Ancestry Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected In Ancestry.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected In Circle Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected In Circle.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected In Triangle Meaning.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected In Triangle.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Protected.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Public 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Public Notation that Won'\''t Do 1.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Public Notation that Won'\''t Do 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Public.bmp"
+rm -rf "Pictures/Code/Language/Access/Access Modifiers/Exclusion/Rigorous Spline Grouping.bmp"
+rm -rf "Pictures/Code/Language/Access/Access with Class Spline.bmp"
+rm -rf "Pictures/Code/Language/Access/Access with Object Spline and Class Spline.bmp"
+rm -rf "Pictures/Code/Language/Access/Access with Object Spline.bmp"
+rm -rf "Pictures/Code/Language/Access/After Design Time Spline Instatiation.bmp"
+rm -rf "Pictures/Code/Language/Access/Breaking a Created Bidirection.bmp"
+rm -rf "Pictures/Code/Language/Access/Breaking Chain to Created Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Broken Chain to Created Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Call to Child Procedure.bmp"
+rm -rf "Pictures/Code/Language/Access/Call to Grandchild Procedure.bmp"
+rm -rf "Pictures/Code/Language/Access/Call to Greatgrandchild Procedure.bmp"
+rm -rf "Pictures/Code/Language/Access/Call to Own Procedure.bmp"
+rm -rf "Pictures/Code/Language/Access/Chain to Created Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Child Access, Referee Access.bmp"
+rm -rf "Pictures/Code/Language/Access/Child Access.bmp"
+rm -rf "Pictures/Code/Language/Access/Child Call with Procedure Redirection with an Access.bmp"
+rm -rf "Pictures/Code/Language/Access/Child Call with Procedure Redirection.bmp"
+rm -rf "Pictures/Code/Language/Access/Destroyed Target Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Destroying Target Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Following Redirection for Target Class and Target Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Class Has Interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Class Interface Genericity Silent Spline Extension.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Class Supports Interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Explicit Class with Interface, Object wrong Class.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Explicit Class with Interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Generic Interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/Same Object, Different Interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/You can Call Only Members of the Interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Interface Genericity/You can'\''t Call Members of the Class that aren'\''t part of the interface.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Object A with Explicit Class B and Object B and Not C.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Object A with Explicit Class B and Object C, Invalid.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Object A with Explicit Class B and Object C, Object C'\''s Class is Class B.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Object A with Object B, Generic Class B and Not C.bmp"
+rm -rf "Pictures/Code/Language/Access/Genericity/Object A with Object C, Generic Class C and Not B.bmp"
+rm -rf "Pictures/Code/Language/Access/Interface Problem.bmp"
+rm -rf "Pictures/Code/Language/Access/Mutual Parent Sets Spline Rule Flaw.bmp"
+rm -rf "Pictures/Code/Language/Access/Not an Outward Call.bmp"
+rm -rf "Pictures/Code/Language/Access/Object Access Representation 1.bmp"
+rm -rf "Pictures/Code/Language/Access/Object Access Representation 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Object Symbols Tied Together with Object Splines and Class Splines 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Object Symbols Tied Together with Object Splines and Class Splines 3.bmp"
+rm -rf "Pictures/Code/Language/Access/Object Symbols Tied Together with Object Splines and Class Splines.bmp"
+rm -rf "Pictures/Code/Language/Access/Object= Nothing Result.bmp"
+rm -rf "Pictures/Code/Language/Access/Partial Embedded Access Representation with Calls.bmp"
+rm -rf "Pictures/Code/Language/Access/Procedure Access Representation 1.bmp"
+rm -rf "Pictures/Code/Language/Access/Procedure in Object.bmp"
+rm -rf "Pictures/Code/Language/Access/Set Design Time Splines on Creation.bmp"
+rm -rf "Pictures/Code/Language/Access/Setting Splines Example Base.bmp"
+rm -rf "Pictures/Code/Language/Access/Setting Splines Mutual Ancestor.bmp"
+rm -rf "Pictures/Code/Language/Access/Simultanious Class Representation and Access Representation 2.bmp"
+rm -rf "Pictures/Code/Language/Access/Simultanious Class Representation and Access Representation.bmp"
+rm -rf "Pictures/Code/Language/Access/Symbol with Contents.bmp"
+rm -rf "Pictures/Code/Language/Access/System Procedures with Creation.bmp"
+rm -rf "Pictures/Code/Language/Access/Target Class has an Object Itself.bmp"
+rm -rf "Pictures/Code/Language/Access/Wrong Method, First Follow Object Redirections Then Class Redirections.bmp"
+rm -rf "Pictures/Code/Language/Encapsulates Math Operator.bmp"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access 2, Terms.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/1.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/10.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/2.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/3.jpg"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 7
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/4.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/5.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/6.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/7.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/8.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/9.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/Distincting Assignment Source and Target.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/Read.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Access/Write.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 1.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 2.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 3.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 4.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 5.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Argument Reference and Execution Order/Page 6.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/1.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/2.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/3.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/4.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Assignment/5.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/1.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/2.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/3.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/4.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/5.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/6.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/7.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Brainstorm/1/8.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/26.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/27.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/28.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/29.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/30.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/31.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/32.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/33.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/34.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/35.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 1.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 10.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 11.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 12.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 13.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 14.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 15.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 16.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 17.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 17b.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 18.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 19.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 2.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 20.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 21.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 22.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 23.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 24.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 25.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 26.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 3.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 4.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 5.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 6.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 7.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 8.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Procedure Situations/Picture 9.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Terms 2.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Terms 3.jpg"
+rm -rf "Pictures/Code/Language/Execution & Arguments/Terms 4.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Abstract Button.jpg"
+rm -rf "Pictures/Code/Language/Introduction/An Employee'\''s Two Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Button with a Base.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Button with Set Text Procedure with Text Parameter.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Button with Set Text Sub Procedures Separately Defined.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Button with Text and Set Text with Sub Procedures.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Button with Text and Set Text.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Button with Two Layer Procedure Call Depth.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Call Parameter'\''s Procedure.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Call Sub Procedures.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Call Text Parameter Members.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Call Tree Out.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Computer Buttons.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Computer Idea Subdivision.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Kitchen Subdivision Detailed.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Kitchen Subdivision Rough.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Kitchen Subdivision.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Microwave Buttons.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Object Ancestry with Procedures.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Objects with Sub Objects and Procedures.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Pass a Parameter on to the next Procedures.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Pass on Text Parameter.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Procedure Call.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Procedure Symbol Containment.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Procedure Symbol Redirection.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Procedure Symbols.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Set Text with Calls to Separately Defined Procedures.bmp"
+rm -rf "Pictures/Code/Language/Introduction/Sub Procedures Separately Defined.jpg"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 8
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Introduction/Sub Procedures.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Text Parameter.jpg"
+rm -rf "Pictures/Code/Language/Introduction/Two Interfaces.jpg"
+rm -rf "Pictures/Code/Language/Mixed 1.jpg"
+rm -rf "Pictures/Code/Language/Mixed 2.jpg"
+rm -rf "Pictures/Code/Language/Objects/Circle and Triangle.bmp"
+rm -rf "Pictures/Code/Language/Objects/Circle in Circle.bmp"
+rm -rf "Pictures/Code/Language/Objects/Circle.bmp"
+rm -rf "Pictures/Code/Language/Objects/Code, Notation, Objects, Splines.bmp"
+rm -rf "Pictures/Code/Language/Objects/Code, Notation, Objects, Triangle and Circle.bmp"
+rm -rf "Pictures/Code/Language/Objects/Code, Notation, Objects, Triangle in Circle.bmp"
+rm -rf "Pictures/Code/Language/Objects/Code, Notation, Objects.bmp"
+rm -rf "Pictures/Code/Language/Objects/Containment and Splines.bmp"
+rm -rf "Pictures/Code/Language/Objects/Containment.bmp"
+rm -rf "Pictures/Code/Language/Objects/Created Object 2.bmp"
+rm -rf "Pictures/Code/Language/Objects/Created Object 3.bmp"
+rm -rf "Pictures/Code/Language/Objects/Created Object with Created Base with Letters.bmp"
+rm -rf "Pictures/Code/Language/Objects/Created Object with Created Base.bmp"
+rm -rf "Pictures/Code/Language/Objects/Created Object.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/After Creation with Class.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/After Creation with Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/After Creation with own Class.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Before Creation with Class.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Before Creation with Interface 2.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Before Creation with Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Different Class with Supporting Interface, After Creation.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Illegal Interface, After Creation.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Illegal Interface, Before Creation.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Interface the Same, but Implementation Different.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Same Sub Interfaces After Creation.bmp"
+rm -rf "Pictures/Code/Language/Objects/Creation/Same Sub Interfaces Before Creation.bmp"
+rm -rf "Pictures/Code/Language/Objects/Inheritance.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interface, External Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interface, Inheritance with Existing Base Object.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interface, Inheritance, Same Base Object.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interface, Triangle instead of Circle.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interface'\''s Object.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interfaces, Same Interface with Triangles.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interfaces, Two Interfaces with Identifiers.bmp"
+rm -rf "Pictures/Code/Language/Objects/Interfaces, Two Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Class Same Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Class with Mutliple Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Class, Same Mutliple Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Class.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Object Same Class.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Object, Same Class Same Interface.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Object, Same Class, Same Mutliple Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Objects/Same Object.bmp"
+rm -rf "Pictures/Code/Language/Page 1.jpg"
+rm -rf "Pictures/Code/Language/Page 2.jpg"
+rm -rf "Pictures/Code/Language/Page 3.jpg"
+rm -rf "Pictures/Code/Language/Page 4.jpg"
+rm -rf "Pictures/Code/Language/Page 5.jpg"
+rm -rf "Pictures/Code/Language/Pentagonical Placement.bmp"
+rm -rf "Pictures/Code/Language/Procedures/~Procedure Relations.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Call Domino.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Call to Procedure Reference.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Calls.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Exclusion Base.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Exclusion.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Procedure Reference Regular Notation.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Procedure Reference Shorthand.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Scribble.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Call with All Clauses in Conversional Symbol without Triangles.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Call with All Clauses in Conversional Symbol.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Call with All Clauses.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, If X Then A Else B.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, If X Then A Else If Y Then B Else C.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, If X Then A Else If Y Then B.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, If X Then A.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Nested.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Procedure with All Clauses.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Select X, If = 0 Then A, If =1 Then B, Else C.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Execution Control/Selection, Select X, If = 0 Then A, If =1 Then B.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Call Spline, Same Interface.jpg"
+rm -rf "Pictures/Code/Language/Procedures/General/Call with Letters.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Call.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Dashed line and dotted line.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Procedure Call Spline.jpg"
+rm -rf "Pictures/Code/Language/Procedures/General/Procedure Reference Spline.jpg"
+rm -rf "Pictures/Code/Language/Procedures/General/Procedure Reference.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Reference Spline, Same Interface.jpg"
+rm -rf "Pictures/Code/Language/Procedures/General/Same Procedure, Reference Spline.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Same Procedure.bmp"
+rm -rf "Pictures/Code/Language/Procedures/General/Square.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Image6.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Image8.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Each Implicit Parameter Reference is a Call.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Explicit Calls with Blue.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Explicit Calls.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Implicit Call.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Implicit Return Value Reference, Explicit Call.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Implicit Return Value Reference, Explicit Out Parameter Reference.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/Implicit Return Value Reference.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Implicit Calls/One Call, Two Parameters Referenced, Requires Explicit Call.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Picture 2.Bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Containment and Splines.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Containment.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Interface/Procedure with Object Symbol'\''s Interface.bmp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 9
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Procedures/Procedure Interface/Procedure with Two Interfaces.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Interface/Procedures with Same Interface.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/An Embedded Procedure Reference.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Call to a Procedure Reference.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Call to Square Clause.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Calls Execute, References Don'\''t.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Delegated Execution.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Procedure Contents.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Rhomb without a Spline.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Reference/Undelegeted Square.jpg"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 1, Drawing Stage 1.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 1, Drawing Stage 2.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 1, Drawing Stage 3.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 1, Drawing Stage 4.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 1.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 2.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overloading/Overloading 3.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overriding/Overridable Procedure.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overriding/Overridden Procedure.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Overriding/Procedure Extended by Override.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing 1.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing 2.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Child Calls Shadowed Member with extra Identifiers.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Child Calls Shadowed Member with Interface Identifier.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Child Calls Shadowed Member.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Not Shadowed with Calls.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Not Shadowed.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Parent Calls Shadowed Member with Extra Identifiers.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Parent Calls Shadowed Member with Interface Identifier.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Parent Calls Shadowed Member.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Shadowed with Calls.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure Resolution/Shadowing/Shadowing, Shadowed.bmp"
+rm -rf "Pictures/Code/Language/Procedures/Procedure with Objects.bmp"
+rm -rf "Pictures/Code/Language/Procedures/References aren'\''t Calls.bmp"
+rm -rf "Pictures/Code/Language/Splines/Access Symbol at Both Ends.bmp"
+rm -rf "Pictures/Code/Language/Splines/Access Symbols at Both Ends, No Identifiers.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Added Class Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Border, One Object Spline Crossing, Two Class Spline Crossings.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Capsule type.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Object Symbol Meaning 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Square Meaning 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Square Meaning 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dashed Square.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dotted Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dotted Object Symbol Meaning 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dotted Object Symbol Meaning 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dotted Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Dotted Sqyare.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dashed Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dashed Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dashed Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dashed Square in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dashed Square Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dashed Square.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dotted Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dotted Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Dotted Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Object Symbol In Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Square in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Square Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Double Square.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Enter Nor Exit Capsules.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Enter One Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Enter Two Capsules.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Enters a Triangle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Enters and Exits Many Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Enters Many Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Entrance and Exit Division.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Exit One Border.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Exits a Triangle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Exits Border and Enters Many Borders.bmp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 10
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Exits Many Borders and Enters Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Exits Many Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Multiple Peel Types, Exit-Enter Separators, No Peel Type Spacing.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Multiple Peel Types, Exit-Enter Separators.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Object Peel and Class Peel.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Object Spline Exits 1, Enters 2, Class Spline Exits 1, Enters 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/One Object Spline Crossing, Two Class Spline Crossings.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Peal Notation Larger Symbol, One Object Exit, Two Class Exits.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Peal Notation without Peal Type Spacing,, Border, One Object Spline Crossing, Two Class Spline Crossings.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Peel Notation of Object Spline Exits 1, Enters 2, Class Spline Exits 1, Enters 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Peel Notation without Peal Type Spacing of Object Spline Exits 1, Enters 2, Class Spline Exits 1, Enters 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Peels not seeming 2 objects.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Quadriple Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Quadriple Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Quadriple Square.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Single Object Symbol Meaning 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Single Object Symbol Meaning 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Single Square Meaning 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Single Square Meaning 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Spline Exits and Enters Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Three Object Spline Crossings, Two Class Spline Crossings.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Three Procedure Interface Peels.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dashed Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dashed Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dashed Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dashed Square in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dashed Square Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dashed Square.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dotted Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dotted Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Dotted Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol Blue.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol Meaning 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol Meaning 3.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol Meaning 4.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Object Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Square in Capsule.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Square in Circle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Square Meaning.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Triple Square.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Shape Borders/Two Exits, One Entrance Blue.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Spline Peels/Double Spline.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Spline Peels/Multiple Spline Peel Types and Spline Peel Mark.bmp"
+rm -rf "Pictures/Code/Language/Splines/Alternative Notations/Spline Peels/Spline Peels and Shape Peels.bmp"
+rm -rf "Pictures/Code/Language/Splines/Ambiguous, Children pointing of two parents connected.bmp"
+rm -rf "Pictures/Code/Language/Splines/Ambiguous, Object to object outside but both sides access symbo.bmp"
+rm -rf "Pictures/Code/Language/Splines/Ambiguous, Object to object outside but both sides access symbol, no identifiers.bmp"
+rm -rf "Pictures/Code/Language/Splines/Call to call, Illegal 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Call to Call, Illegal.bmp"
+rm -rf "Pictures/Code/Language/Splines/Call to Clause.bmp"
+rm -rf "Pictures/Code/Language/Splines/Call to Definition.bmp"
+rm -rf "Pictures/Code/Language/Splines/Call to Reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/Call.bmp"
+rm -rf "Pictures/Code/Language/Splines/Child object reference to inner circle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Child procedure reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/Circle in circle, contained circle connected to outward circle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Circularity by Ambiguity.bmp"
+rm -rf "Pictures/Code/Language/Splines/Circularity by pointing to itself.bmp"
+rm -rf "Pictures/Code/Language/Splines/Class Instance.bmp"
+rm -rf "Pictures/Code/Language/Splines/Clause.bmp"
+rm -rf "Pictures/Code/Language/Splines/Comples 2.4.bmp"
+rm -rf "Pictures/Code/Language/Splines/Complex 1.2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Complex 1.bmp"
+rm -rf "Pictures/Code/Language/Splines/Complex 2.2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Complex 2.3.bmp"
+rm -rf "Pictures/Code/Language/Splines/Complex 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Complex 3.bmp"
+rm -rf "Pictures/Code/Language/Splines/Copy of Procedure Sooner Exists a Procedure.bmp"
+rm -rf "Pictures/Code/Language/Splines/Definition.bmp"
+rm -rf "Pictures/Code/Language/Splines/Direction Access Symbol between entrances and exits.bmp"
+rm -rf "Pictures/Code/Language/Splines/Direction/Drawn on Paper/Picture 3.jpg"
+rm -rf "Pictures/Code/Language/Splines/Direction/Drawn on Paper/Picture 4.jpg"
+rm -rf "Pictures/Code/Language/Splines/Direction/Drawn on Paper/Picture 5.jpg"
+rm -rf "Pictures/Code/Language/Splines/Direction/You Sooner Point To a Triangle than From a Triangle 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Direction/You Sooner Point To a Triangle than From a Triangle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Dissector when Target out of View.bmp"
+rm -rf "Pictures/Code/Language/Splines/Exit the Most Borders.bmp"
+rm -rf "Pictures/Code/Language/Splines/Exits and Entrances Division out of View.bmp"
+rm -rf "Pictures/Code/Language/Splines/Exits and Entrances with Letters.bmp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 11
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Splines/Exits and Entrances, Division Out of View, Wrong Access Symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Exits and Entrances.bmp"
+rm -rf "Pictures/Code/Language/Splines/First Exits then Entrances.bmp"
+rm -rf "Pictures/Code/Language/Splines/Genericity/1.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/10.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/11.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/12.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/13.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/14.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/15.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/16.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/17.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/18.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/19.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/20.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/21.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/22.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/23.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/24.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/25.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/26.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/27.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/28.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/29.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/3.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/30.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/31.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/32.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/33.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/4.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/5.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/6.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/7.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/8b.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/9.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/1.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/1a.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/1b.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/3.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/4.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/5.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/6.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 2/7.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 3/1.jpg"
+rm -rf "Pictures/Code/Language/Splines/Genericity/Series 3/2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Illegal, Object tied to Procedure.bmp"
+rm -rf "Pictures/Code/Language/Splines/Illegal, Procedure with call and reference spline.bmp"
+rm -rf "Pictures/Code/Language/Splines/Interface Implementation.bmp"
+rm -rf "Pictures/Code/Language/Splines/Inward object reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/Less Common to Exit an Object.bmp"
+rm -rf "Pictures/Code/Language/Splines/Less Common to Reference a Procedure Clause from an Object.bmp"
+rm -rf "Pictures/Code/Language/Splines/Less Common to Reference a Procedure Parameter Directly From an Object.bmp"
+rm -rf "Pictures/Code/Language/Splines/Object reference to inner circle.bmp"
+rm -rf "Pictures/Code/Language/Splines/Object reference to outer circle with access symbol.bmp"
+rm -rf "Pictures/Code/Language/Splines/Object Reference with Dissector.bmp"
+rm -rf "Pictures/Code/Language/Splines/Object Reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/One Spline of Each Type.bmp"
+rm -rf "Pictures/Code/Language/Splines/Peels/1.jpg"
+rm -rf "Pictures/Code/Language/Splines/Peels/2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Peels/3.jpg"
+rm -rf "Pictures/Code/Language/Splines/Peels/4.jpg"
+rm -rf "Pictures/Code/Language/Splines/Peels/5.jpg"
+rm -rf "Pictures/Code/Language/Splines/Procedure Reference Member with Dashed Spline.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Reference Member with Solid Spline.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Sooner Exists a Procedure.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Splines/Call to Child Procedure.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Splines/Event Object.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Splines/Overridden Procedure.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedure Splines/Seeming Call to Parent Procedure.bmp"
+rm -rf "Pictures/Code/Language/Splines/Procedures for Procedures, Objects to Objects/13.jpg"
+rm -rf "Pictures/Code/Language/Splines/Procedures for Procedures, Objects to Objects/14.jpg"
+rm -rf "Pictures/Code/Language/Splines/Procedures for Procedures, Objects to Objects/15.jpg"
+rm -rf "Pictures/Code/Language/Splines/Procedures for Procedures, Objects to Objects/17.jpg"
+rm -rf "Pictures/Code/Language/Splines/Procedures for Procedures, Objects to Objects/6.jpg"
+rm -rf "Pictures/Code/Language/Splines/Procedures for Procedures, Objects to Objects/7.jpg"
+rm -rf "Pictures/Code/Language/Splines/Redirection of a call 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Redirection of a call.bmp"
+rm -rf "Pictures/Code/Language/Splines/Redirection of a reference 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Redirection of a Reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/Redirection of Reference 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Redirection.bmp"
+rm -rf "Pictures/Code/Language/Splines/Reference 2.bmp"
+rm -rf "Pictures/Code/Language/Splines/Reference to Ancestor.bmp"
+rm -rf "Pictures/Code/Language/Splines/Reference to Call, Illegal.bmp"
+rm -rf "Pictures/Code/Language/Splines/Reference to Clause.bmp"
+rm -rf "Pictures/Code/Language/Splines/Reference to Definition.bmp"
+rm -rf "Pictures/Code/Language/Splines/Reference to Reference.bmp"
+rm -rf "Pictures/Code/Language/Splines/Refernce to Call, Illegal.bmp"
+rm -rf "Pictures/Code/Language/Splines/Sooner to Exit a Procedure, Object Reference Parameter.bmp"
+rm -rf "Pictures/Code/Language/Splines/Sooner to Exit A Procedure, Procedure Call.bmp"
+rm -rf "Pictures/Code/Language/Splines/Sooner to Exit an Object.bmp"
+rm -rf "Pictures/Code/Language/Splines/Spline Direction First Picture.bmp"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Call Restriction/Call can serve as interface.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Call Restriction/Call to Internal Procedure Reference.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Call Restriction/Internal Call to Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Active Clause '\('In Container'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call 2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call or Reference to  Inward Inactive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call or Reference to Inward Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Active Sub Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Active Sub-Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Inactive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to inactive Sub Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Inward Inactive Clause.jpg"
+' --prune-empty HEAD --all
+
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 12
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Outward Call.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Sibling Active Clause '\('In Container'\)', a Jump.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Sibling Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Sibling Inactive Clause '\('In Container'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call to Sibling Inactive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Call.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Embedded Procedure Reference.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Illegal, Call to Rhomb Directly in a Circle.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Illegal, Call to Square Directly in a Circle.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Illegal, reference to rhomb directly in a circle.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Illegal, Rhomb directly in a circle.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive Clause 2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive Clause Calling Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive Clause Calling Inacrive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive Clause Calling.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive clause referencing active clause, step 1.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive clause referencing active clause, step 2.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive clause referencing active clause, step 3.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Inactive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Procedure Definition '\('In Container'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Procedure Definition, Inactive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Inward Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Inward Inactive Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Outward Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Outward Definition.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Sibling Active Clause '\('In Container'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Sibling Active Clause.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Sibling Definition '\('In Container'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Sibling Definition '\('or Inactive Clause'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Procedure Roles/Reference to Sibling Inactive Clause '\('In Container'\)'.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Target Symbols/Call and Definition.bmp"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Target Symbols/Reference and Definition.bmp"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Target Symbols/Square S with call spline to square I.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Target Symbols/Square S with interface spline to square I.jpg"
+rm -rf "Pictures/Code/Language/Splines/Spline Rules/Target Symbols/Square S with reference spline to square I.jpg"
+rm -rf "Pictures/Code/Language/Splines/Symbol connected to multiple splines, with identifiers.bmp"
+rm -rf "Pictures/Code/Language/Splines/Symbol connected to multiple splines.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Interface Trace.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Object-Class Trace, Containing Object Spline.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Object-Class Trace, Pointed to with Class Spline Containing only Class Splines.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Object-Class Trace.jpg"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 13
+
+git filter-branch --tree-filter '
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Object-Class Tracem Pointed to With Object Spline.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Procedure Interface Trace.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Procedure Trace.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Circularity in Tracing.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Class Trace and Object-Class Trace Lead to Same Symbol.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Class Trace, Interface Spline Not Followed.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/19.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/20.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/21.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/22.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/24.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/25.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/26.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/27.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/28.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/30.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/31.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/32.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Drawn on Paper/33.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Interface Tracing with Letters by Kind.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Interface Tracing.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Object Class Trace.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Object Trace.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Object-Class Trace Longer than Class Trace Negative.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Object-Class Trace Longer than Class Trace.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Object-Class Trace Longer than Class Trace.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Procedure Interface Tracing.bmp"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Target Class a Single Object, Multiple Instancs.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Target Class a Single Object.jpg"
+rm -rf "Pictures/Code/Language/Splines/Target Symbols/Tracing Definition.bmp"
+rm -rf "Pictures/Code/Language/Splines/Two circles connected, one of which has an access symbol near.bmp"
+rm -rf "Pictures/Code/Language/Splines/Two circles connected.bmp"
+rm -rf "Pictures/Code/Language/Splines/Two clauses connected.bmp"
+rm -rf "Pictures/Code/Language/Splines/Two connected circles, access symbol near B.bmp"
+rm -rf "Pictures/Code/Language/Splines/Two object children connected with access symbols at both ends.bmp"
+rm -rf "Pictures/Code/Language/Splines/Two Squares Connected.bmp"
+rm -rf "Pictures/Code/Language/System Aspects/Operators/Object Assignment 2.bmp"
+rm -rf "Pictures/Code/Language/System Aspects/Operators/Object Assignment 3.bmp"
+rm -rf "Pictures/Code/Language/System Aspects/Operators/Object Assignment.bmp"
+rm -rf "Pictures/Code/Language/System Aspects/Operators/State Assignment.bmp"
+rm -rf "Pictures/Code/Language/System Aspects/System Procedures/1.jpg"
+rm -rf "Pictures/Code/Language/System Aspects/System Procedures/2.jpg"
+rm -rf "Pictures/Code/Language/System Aspects/System Procedures/3.jpg"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism01.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism02 small.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism02.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism02.jpg"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03 small without captions.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03 without captions.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03.bmp"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Diagrams ADirChangedMechanism03.jpg"
+rm -rf "Pictures/Code/Pictures/Unused/Symbol Extra Boring.bmp"
+rm -rf "Pictures/Controls/prompting structure.JPG"
+rm -rf "Pictures/Sound/Add Sine To Level Curve, Level Curve.bmp"
+rm -rf "Pictures/Sound/Add Sine To Level Curve, With Elements.bmp"
+rm -rf "Pictures/Sound/Add Sine To Level Curve.bmp"
+rm -rf "Pictures/Sound/Curve.bmp"
+rm -rf "Pictures/Sound/Pitch Curve'\''s Phase Passage.bmp"
+rm -rf "Pictures/Sound/Something with Noise.bmp"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+
+# Removing Pictures Part 14
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.6/temp Scans/2009-07-01'\'' 24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.7/temp Scans/2009-07-01'\'' 24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 23.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/2009-07-23 XX  0.8/temp Scans/2009-07-01'\'' 24.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 13.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 14.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 15.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 16.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 17.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 18.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 19.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 20.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 21.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 22.png"
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 23.png"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles.txt
+
+# --------------------
+#
+# WAS HERE rerunning script
+#
+# --------------------
+
+# - [x] Checked picture removal with the 'preparation Excel' again (Cross-referenced before and after, and current state with the history.)
+
+# This one remained:
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/50. Black Box/XXXX-XX-XX XX  X.X/Scans 2009-07-01/2009-07-01'\'' 24.png"
+' --prune-empty HEAD --all

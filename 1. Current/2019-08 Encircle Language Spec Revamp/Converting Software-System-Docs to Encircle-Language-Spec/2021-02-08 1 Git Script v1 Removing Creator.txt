@@ -1,0 +1,171 @@
+# Turning Software System Docs repo into Circle Docs repo
+# =======================================================
+
+git remote remove origin
+
+# Listing Files (Without Renames)
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# Listing Files (With Renames)
+git log --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory-withrenames.txt
+
+# Listing Files (Without History)
+git ls-tree -r master --name-only > allfiles-inlatest.txt
+
+# --------------------
+
+# Removing:
+# - "Creator" documentation
+# - "Previous versions" documents
+# - "Slower and Slower after Replace Creator"
+# - "Relational Structure" + Pictures
+
+git filter-branch --tree-filter '
+rm -rf "01. Code/8. Other Topics/10. Old Or Boring/Creator '\(' Content Redistributed '\)'"
+rm -rf "02. Code/7. Previous Versions/2005-07-28 00  Creator 0.4"
+rm -rf "02. Code/7. Previous Versions/2006-08-28 XX  Creator 0.9"
+rm -rf "02. Code/7. Previous Versions/2007-10-12 XX  Creator 2.0"
+rm -rf "02. Code/8. Previous Versions/2005-07-28 00  Creator 0.4"
+rm -rf "02. Code/8. Previous Versions/2006-08-28 XX  Creator 0.9"
+rm -rf "02. Code/8. Previous Versions/2007-10-12 XX  Creator 2.0"
+rm -rf "03. Code/10. Old Or Boring/Creator '\(' Content Redistributed '\)'"
+rm -rf "1. Language/1. Language/8. Previous Versions/2005-07-28 00  Creator 0.4"
+rm -rf "1. Language/1. Language/8. Previous Versions/2006-08-28 XX  Creator 0.9"
+rm -rf "1. Language/1. Language/8. Previous Versions/2007-10-12 XX  Creator 2.0/"
+rm -rf "1.3. Circle Broader View/0. Language/1. Language/8. Previous Versions"
+rm -rf "1.3. Circle Broader View/8. Previous Versions"
+rm -rf "11. Circle Broader View/8. Previous Versions"
+rm -rf "2. Broader View/0. Language/1. Language/8. Previous Versions"
+rm -rf "4. Archive/Creator Globality.doc"
+rm -rf "4. Archive/Default Values in Creator.doc"
+rm -rf "5. Archive/Creator Globality.doc"
+rm -rf "5. Archive/Default Values in Creator.doc"
+rm -rf "Code/Creator/Creator Documentation '\('before 2007-02-23, before new project administration'\)'.doc"
+rm -rf "Code/Creator/Creator Documentation, Plan.doc"
+rm -rf "Code/Creator/Creator Documentation.doc"
+rm -rf "Code/Creator/Miscellaneous Documents"
+rm -rf "4. Archive/2007-09-18 00  Creator 2.0 Preliminary Methods Implementation.doc"
+rm -rf "4. Archive/2007-12-09 XX Creator 2.0 Methods Loose Ideas.doc"
+rm -rf "5. Archive/2007-09-18 00  Creator 2.0 Preliminary Methods Implementation.doc"
+rm -rf "5. Archive/2007-12-09 XX Creator 2.0 Methods Loose Ideas.doc"
+rm -rf "02. Code/7. Previous Versions/Code documentation previous versions.doc"
+rm -rf "02. Code/8. Previous Versions/Code documentation previous versions.doc"
+rm -rf "1. Language/1. Language/8. Previous Versions/Code Documentation Previous Versions.doc"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/Code Documentation Previous Versions.doc"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/Previous Version.doc"
+rm -rf "1.1. Circle Language Spec/32. Previous Versions/Previous Version.docx"
+rm -rf "1.1. Circle Language Spec/8. Previous Versions/Code Documentation Previous Versions.doc"
+rm -rf "02. Code/7. Previous Versions/Code documentation previous versions.doc"
+rm -rf "02. Code/8. Previous Versions/Code documentation previous versions.doc"
+rm -rf "1. Language/1. Language/8. Previous Versions/Code Documentation Previous Versions.doc"
+rm -rf "02. Code/1. Fundamental Principles/1.0. Achievability/1. Comp Lang Prog Within Itself/XXXX-XX-XX XX/slower and slower after replace creator.txt"
+rm -rf "02. Code/2. Fundamental Principles/3. Achievability/3. Comp Lang Prog Within Itself/XXXX-XX-XX XX/slower and slower after replace creator.txt"
+rm -rf "02. Code/5. Fundamental Principles B/1. Achievability/1. Comp Lang Prog Within Itself/XXXX-XX-XX XX/slower and slower after replace creator.txt"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/3. Comp Lang Prog Within Itself/XXXX-XX-XX XX/slower and slower after replace creator.txt"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/3. Comp Lang Prog Within Itself/slower and slower after replace creator.txt"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/3.2. Comp Lang Prog Within Itself, Slower and Slower after Replace Creator.txt"
+rm -rf "1. Language/1. Language/2. Fundamental Principles/3. Achievability/3.2. Programming Language Programmed Within Itself, Slower and Slower after Replace Creator.txt"
+rm -rf "1.3. Circle Broader View/0. Language/1. Language/2. Fundamental Principles/3. Achievability/3.2. Programming Language Programmed Within Itself, Slower and Slower after Replace Creator.txt"
+rm -rf "1.3. Circle Broader View/2. Fundamental Principles/3. Achievability/3.2. Programming Language Programmed Within Itself, Slower and Slower after Replace Creator.txt"
+rm -rf "11. Circle Broader View/2. Fundamental Principles/3. Achievability/3.2. Programming Language Programmed Within Itself, Slower and Slower after Replace Creator.txt"
+rm -rf "2. Broader View/0. Language/1. Language/2. Fundamental Principles/3. Achievability/3.2. Programming Language Programmed Within Itself, Slower and Slower after Replace Creator.txt"
+rm -rf "01. Code/3. Coding Principles/XXXX-XX-XX XX/Relational Structure '\(' Use As Cross Out Later '\)'/Relational Structure.doc"
+rm -rf "02. Code/2. Coding Concepts/07. Relations/Relational Structure '\('Use As Cross Out Later'\)'/Relational Structure.doc"
+rm -rf "02. Code/3. Coding Concepts/04. Relations/Relational Structure '\('Use As Cross Out Later'\)'/Relational Structure.doc"
+rm -rf "03. Code/02. Grammar '\(' Coding Principles '\)'/XXXX-XX-XX XX/Relational Structure '\(' Use As Cross Out Later '\)'/RELATI~1.DOC"
+rm -rf "1. Language/1. Language/3. Code Concepts/04. Relations/11.0. Relational Structure '\('Use As Cross Out Later'\)'.doc"
+rm -rf "1. Language/1. Language/3. Code Concepts/04. Relations/Relational Structure '\('Use As Cross Out Later'\)'/Relational Structure.doc"
+rm -rf "1. Spec/06. Relationships/2. Relational Structure '\('Use As Cross Out Later'\)'.docx"
+rm -rf "1.1. Circle Language Spec/04. Relations/11.0. Relational Structure '\('Use As Cross Out Later'\)'.doc"
+rm -rf "1.1. Circle Language Spec/04. Relations/12. Relational Structure '\('Use As Cross Out Later'\)'.doc"
+rm -rf "1.1. Circle Language Spec/04. Relations/12. Relational Structure '\('Use As Cross Out Later'\)'.docx"
+rm -rf "1.1. Circle Language Spec/04. Relations/2. Relational Structure '\('Use As Cross Out Later'\)'.docx"
+rm -rf "1.1. Circle Language Spec/06. Relations/2. Relational Structure '\('Use As Cross Out Later'\)'.docx"
+rm -rf "1.1. Circle Language Spec/06. Relationships/2. Relational Structure '\('Use As Cross Out Later'\)'.docx"
+rm -rf "1.1. Circle Language Spec/3. Coding Concepts/04. Relations/11.0. Relational Structure '\('Use As Cross Out Later'\)'.doc"
+rm -rf "9. Circle Language Spec/3. Coding Concepts/04. Relations/11.0. Relational Structure '\('Use As Cross Out Later'\)'.doc"
+rm -rf "01. Code/3. Coding Principles/XXXX-XX-XX XX/Pictures"
+rm -rf "02. Code/2. Coding Concepts/07. Relations/Pictures"
+rm -rf "02. Code/3. Coding Concepts/04. Relations/Pictures"
+rm -rf "02. Code/7. Previous Versions/2006-08-28 XX  Creator 0.9/Pictures"
+rm -rf "02. Code/8. Previous Versions/2006-08-28 XX  Creator 0.9/Pictures"
+rm -rf "03. Code/02. Grammar '\(' Coding Principles '\)'/XXXX-XX-XX XX/Pictures"
+rm -rf "1. Language/1. Language/3. Code Concepts/04. Relations/Pictures"
+rm -rf "1.1. Circle Language Spec/04. Relations/Pictures"
+rm -rf "1.1. Circle Language Spec/3. Coding Concepts/04. Relations/Pictures"
+rm -rf "9. Circle Language Spec/3. Coding Concepts/04. Relations/Pictures"
+rm -rf "Pictures/Data"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing:
+# - "Code . Old Or Boring.doc"
+# - "Preliminary Methods Implementation.doc"
+
+git filter-branch --tree-filter '
+rm -rf "03. Code/10. Old Or Boring/Code . Old Or Boring.doc"
+rm -rf "01. Code/8. Other Topics/10. Old Or Boring/Code . Old Or Boring.doc"
+rm -rf "02. Code/6. Other Topics/8. Old Or Boring/Code . Old Or Boring.doc"
+rm -rf "02. Code/7. Other Topics/7. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "02. Code/7. Other Topics/8. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "03. Code/10. Old Or Boring/Code . Old Or Boring.doc"
+rm -rf "1. Language/1. Language/7. Other Topics/7. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "1. Language/1. Language/7. Other Topics/9. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "1.2. Circle Constructs Drafts/0. Language/1. Language/7. Other Topics/9. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "1.2. Circle Constructs Drafts/7. Other Topics/9. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "10. Circle Constructs Drafts/7. Other Topics/9. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "3. Constructs Drafts/0. Language/1. Language/7. Other Topics/9. Old or Boring/Code . Old Or Boring.doc"
+rm -rf "02. Code/2. Coding Concepts/08. Commands/2007-09-18 00/Preliminary Methods Implementation.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
+
+# --------------------
+
+# Removing:
+# - "Preliminary Methods Implementation.doc" (more)
+
+git filter-branch --tree-filter '
+rm -rf "02. Code/3. Coding Concepts/06. Commands/2007-09-18 00/Preliminary Methods Implementation.doc"
+rm -rf "03. Code/02. Grammar '\(' Coding Principles '\)'/2007-09-18 00  Preliminary Methods/Preliminary Methods.doc"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/2007-09-18 00/Preliminary Methods Implementation.doc"
+rm -rf "1. Language/1. Language/3. Code Concepts/06. Commands/Preliminary Methods Implementation.doc"
+' --prune-empty HEAD --all
+
+# Clean-Up Tasks
+
+git update-ref -d refs/original/refs/heads/master
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git fsck --full --unreachable
+git repack -A -d
+git gc --aggressive --prune=now
+
+# Listing Files
+
+git log --no-renames --pretty=format: --name-status | cut -f2- | sort -u > allfiles-inhistory.txt
