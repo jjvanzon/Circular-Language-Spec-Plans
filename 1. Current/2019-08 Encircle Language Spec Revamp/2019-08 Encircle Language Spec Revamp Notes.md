@@ -69,7 +69,6 @@ Encircle Language Spec tries to describe it.
     - [ ] ~ Reorganizing articles
     - [ ] ~ Language design issues
     - [ ] ~ Correcting for new insight / decisions
-- [ ] Correcting links from Plans repo's Readme to Spec repo.
 
 ### Language Design / Content Changes
 
@@ -136,14 +135,41 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 TODO
 ----
 
-### 2021-02-09 TODO Publishing
+### 2021-03-23 Postponed Rough Content Reorganization
+
+- [ ] __Correcting links from Plans repo's Readme to Spec repo.__
+- [ ] Planning docs reorganization:
+    - [ ] Splitting up Revamp project into topics.
+    - [ ] Merging together goals of Revamp project with Main Project.
+    - [ ] Removing (totally) out-of-scope topics to Archive.
+- [ ] ~ Moves to "Implementations"
+- [ ] All pointer topics to Pointers.
+- [ ] All Text Code topics to single place.
+- [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
+- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
+- [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
+- [ ] Replacing "the new computer language" with "Encircle"
+- [ ] ->.. Replacing "Concept" with "Aspect"
+    - [ ] I have difficulty with this. 
+    - [ ] Only part of the occurrences seem replaceable.
+    - [ ] "Concept" had such a nice ring to it.
+    - [ ] Maybe some other way to be selective?
+    - [ ] Certain files perhaps?
+- [ ] ~ Reorganizing "Fundamental Principles"
+    - [ ] ~ One doc for Exchangeability?
+    - [ ] ~ One doc for Extensibility?
+
+Done
+----
+
+### 2021-02-09 Done Publishing
 
 - [x] Readme's?
 - [x] Just publishing it?
 - [x] Durable links:
     - [x] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
 - [x] Replacing swear words
-- [ ] The name "Circle" is used by a similar product. Should I rename? And to what?
+- [x] The name "Circle" is used by a similar product. Should I rename? And to what?
     - [x] "Encircle"
     - [x] ~~Considered alternatives: "Symbol" / "JJ's Computer Language" / "JJ's Visual Language" / "This Computer Language".~~
     - [x] In main repo:
@@ -159,11 +185,8 @@ TODO
         - [x] Correcting heading layout
         - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
         - [x] ~ Double-checking occurrences of "Encircle"
-    - [ ] Renaming the repo's
-    - [ ] Merging changes
-
-Done
-----
+    - [x] Renaming the repo's
+    - [x] Merging changes
 
 ### 2021-03-23 Done Rough Content Reorganization
 
@@ -2548,30 +2571,6 @@ JJ
 
 Postponed
 ---------
-
-### 2021-03-23 Postponed Rough Content Reorganization
-
-- [ ] Planning docs reorganization:
-    - [ ] Splitting up Revamp project into topics.
-    - [ ] Merging together goals of Revamp project with Main Project.
-    - [ ] Removing (totally) out-of-scope topics to Archive.
-- [ ] ~ Moves to "Implementations"
-- [ ] All pointer topics to Pointers.
-- [ ] All Text Code topics to single place.
-- [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
-- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
-- [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
-- [ ] Replacing "the new computer language" with "Encircle"
-- [ ] ->.. Replacing "Concept" with "Aspect"
-    - [ ] I have difficulty with this. 
-    - [ ] Only part of the occurrences seem replaceable.
-    - [ ] "Concept" had such a nice ring to it.
-    - [ ] Maybe some other way to be selective?
-    - [ ] Certain files perhaps?
-- [ ] ~ Reorganizing "Fundamental Principles"
-    - [ ] ~ One doc for Exchangeability?
-    - [ ] ~ One doc for Extensibility?
-
 ### 2020-08-21 Postponed Commands Chapter
 
 - [ ] ~ Moving or removing marked out texts.
