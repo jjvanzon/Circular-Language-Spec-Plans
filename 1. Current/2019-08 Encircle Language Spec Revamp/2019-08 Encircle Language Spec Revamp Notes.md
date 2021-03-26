@@ -144,7 +144,7 @@ TODO
     - [x] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
 - [x] Replacing swear words
 - [ ] The name "Circle" is used by a similar product. Should I rename? And to what?
-    - [ ] "Encircle"
+    - [x] "Encircle"
     - [x] ~~Considered alternatives: "Symbol" / "JJ's Computer Language" / "JJ's Visual Language" / "This Computer Language".~~
     - [x] In main repo:
         - [x] Replacing "Circle" with "Encircle" in content
@@ -152,13 +152,12 @@ TODO
         - [X] Correcting heading layout
         - [x] Replacing "Encircle 3" and with "Circle 3"
         - [x] Double-checking occurrences of "Encircle"
-        - [x] Searching for "a Encircle" and correcting to "an Encircle" (and for "a *Encircle*" as well)
-    - [ ] In planning docs repo:
-        - [ ] __Replacing "Circle" with "Encircle" in content__
-        - [ ] Replacing "circle" with "encircle" in doc file names ~~(and links to them)~~
-        - [ ] Correcting heading layout
-        - [ ] Correcting table layouts
-        - [ ] Searching for "a Encircle" and correcting to "an Encircle" (and for "a *Encircle*" as well)
+        - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
+    - [ ] __In planning docs repo:__
+        - [x] Replacing "Circle" with "Encircle" in content
+        - [x] Replacing "circle" with "encircle" in doc file names
+        - [x] Correcting heading layout
+        - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
         - [ ] Double-checking occurrences of "Encircle"
     - [ ] Renaming the repo's
     - [ ] Merging changes
@@ -1082,7 +1081,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
 - [x] Possibly mark questionable trigger words with a star (*) too.
 - [x] Finding replacement words, possibly using online thesaurus.
     - [x] I seem less motivated, because I question the validity of the idea, so this action may seem futile.
-    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Encircle Language Spec, but a Encircle Broader View idea. So even though I might not use it in Encircle Language Spec, I might still appreciate it as an idea outside of that.
+    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Encircle Language Spec, but an Encircle Broader View idea. So even though I might not use it in Encircle Language Spec, I might still appreciate it as an idea outside of that.
     - [x] I get anxiety if something seems unuseful to me. It's a thing.
     - [x] I am done with this, but I feel uneasy about the ideas. 
 - [x] I might go over the loose ideas in the document and cross out or distribute those.
@@ -1172,7 +1171,7 @@ I think I remember that some other chapters do tap into it. Maybe it is nicer to
     - [x] Comparisons with other systems might be better off in Encircle Broader View. I feel it is interesting, that I looked around at other systems for inspiration or comparison, but it might not be that interesting to share what my opinion about it was. But topic-wise I think is might not belong in Encircle Language Spec, but in Encircle Broader View.
 - [x] Images in the overview page?
     - [x] For Object Order: Not sure about the notation yet, so not sure what picture might be suitable.
-    - [x] For Ponters: Current picture lies a little. This may be how you might express it with abused/abstracted notation, but this might not be a pointer in Encircle, if I look at it from a puritan perspective. It might be supposed to point 'inward'? I am not even sure.
+    - [x] For Pointers: Current picture lies a little. This may be how you might express it with abused/abstracted notation, but this might not be a pointer in Encircle, if I look at it from a puritan perspective. It might be supposed to point 'inward'? I am not even sure.
 
 ### 2020-05-28 Done Content Changes for Encircle Language Spec Overview
 
@@ -1803,7 +1802,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] Checking if I like how topics ended up in one of 3 categories.
 - [x] I have deleted files in my commit. I only want to see renames.
 - [x] Commit
-- [x] Some 'Operating System' topics might belong in a Encircle Language topic group.
+- [x] Some 'Operating System' topics might belong in an Encircle Language topic group.
 - [x] Some documents cover multiple topics. I would like to split those documents up. 
     - [x] I could just make copies.
     - [x] And then strip out content that does not apply.
