@@ -46,7 +46,7 @@ Encircle Language Spec tries to describe it.
 - [x] Publishing to GitHub
 - [x] Converting from Word to MarkDown.
 - [x] Folder reorganization
-    - [ ] Reorganizing Planning Docs
+    - [ ] __Reorganizing Planning Docs__
     - [x] Reorganizing "Encircle Docs" roughly
     - [x] Reorganizing "Spec" roughly
     - [x] Reorganizing "Broader View" roughly
@@ -133,7 +133,14 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 
 
 TODO
-----
+====
+
+Rough Content Reorganization
+----------------------------
+
+### 2021-03-26 Brainstorm
+
+Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
 
 ### 2021-03-23 Postponed Rough Content Reorganization
 
@@ -158,6 +165,9 @@ TODO
 - [ ] ~ Reorganizing "Fundamental Principles"
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
+
+Done
+====
 
 Publishing
 ----------
@@ -884,8 +894,8 @@ So it gets isolated. In the past I wanted to put everything I did (and will ever
 I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Encircle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Encircle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
 
 
-Rough Reorganization
---------------------
+Rough Content Reorganization
+----------------------------
 
 ### 2021-03-23 Done Rough Content Reorganization
 
@@ -2641,15 +2651,6 @@ Planning Docs | Tone Change
 I read over New Computer Language, Strategy.doc and reformulated stuff.
 I am cleaning up New Computer Language, Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description would *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.
 
-
-Aspects | Language Design
--------------------------
-
-### 2020-01-13 Do Not Do: Brainstorm Aspects / Concepts
-
-'Concepts' are almost exactly like 'aspects' from 'aspect oriented programming', except maybe the idea of whether just about everything can be elevated to become an 'aspect' even things that aren't the aspect oriented programming construct. Even hand-written, coded out aspects, such as those System Aspects in the New Computer Language. Cross-cutting concerns that you couldn't isolate out of the system using an aspect, but are still clearly an aspect from a conceptual point of view. Can new programming constructs be found, that can do that, isolate concerns like that? It is hard to express my ideas about it and explain them well. I don't even have it all clearly in my mind myself yet. Also the comparison requires I know all the details about aspect oriented programming, which I don't.
-
-
 Planning Docs | Content Changes
 -------------------------------
 
@@ -2682,6 +2683,14 @@ Planning Docs | Content Changes
     - [x] Maybe read over again. Second time around it still seems kind of resolute.
 
 
+Aspects | Language Design
+-------------------------
+
+### 2020-01-13 Do Not Do: Brainstorm Aspects / Concepts
+
+'Concepts' are almost exactly like 'aspects' from 'aspect oriented programming', except maybe the idea of whether just about everything can be elevated to become an 'aspect' even things that aren't the aspect oriented programming construct. Even hand-written, coded out aspects, such as those System Aspects in the New Computer Language. Cross-cutting concerns that you couldn't isolate out of the system using an aspect, but are still clearly an aspect from a conceptual point of view. Can new programming constructs be found, that can do that, isolate concerns like that? It is hard to express my ideas about it and explain them well. I don't even have it all clearly in my mind myself yet. Also the comparison requires I know all the details about aspect oriented programming, which I don't.
+
+
 Search Tools
 ------------
 
@@ -2704,7 +2713,11 @@ Search Tools
 
 
 Postponed
----------
+=========
+
+
+Commands | Content Changes
+--------------------------
 
 ### 2020-08-21 Postponed Commands Chapter
 
@@ -2730,6 +2743,9 @@ Postponed
 - [ ] ~ I see an analogy between the lifecycle of running a command and an object's creation, constructor, initial setting of required values, and running of active commands directly in it.
 - [ ] ~ Outtakes, perhaps for Encircle Broader View:
     - [ ] ~ It seems it might be possible to make combinations of symbols that might not have an equivalent in another language.
+
+Commands | Tone Change
+----------------------
 
 ### 2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article
 
@@ -2766,6 +2782,10 @@ Postponed
 - [ ] ~ I might go over the loose ideas in the document and cross out or distribute those.
 - [ ] ~ Spell check.
 
+
+Tone Change | in General
+------------------------
+
 ### 2020-06-01 Postponed Checklist Tone Change
 
 - [ ] ~ (More helpers are in my personal development notes, not here, sorry.)
@@ -2784,6 +2804,7 @@ Postponed
 - [ ] ~ Remove links, since they break so easily.
 - [ ] ~ Casual mentionings of article titles are also fragile. They break quite easily.
 - [ ] ~ That seems quite a lot to check. Maybe that is why it is not easy.
+
 
 ### 2020-05-27 Postponed Checklist Reformulating Chapters
 
@@ -2815,14 +2836,44 @@ Postponed
     - [ ] ~ Interfaces chapter
     - [ ] ~ Inheritance chapter
 
+### 2019-08-05 Postponed Mixed Writing Style Issues
+
+- [ ] ~ The read uses terminology in a very specific way, that is not shared with my peers, therefor not easing readers into the material.
+- [ ] ~ Rename the term 'Code Base' to something like 'Base Code' or 'Base of the Code'.
+- [ ] ~ I seem to have had several goals fighting over each other, in projects done long ago about this documentation:
+    - [ ] ~ Explaining it to myself.
+    - [ ] ~ Designing the concepts, separately from the notation.
+    - [ ] ~ Tying together loose ends.
+    - [ ] ~ Making it easy to read for someone else.
+
+### 2019-08-27 Postponed Simpler Rules
+
+- [ ] ~ I think the 'being blunt' might help. It is not blunt unfriendly, because the explanations might become so much simpler if you say: this is that, this is that, instead of and this far-fetched edge case is solved in this difficult, abstract, theoretical, but precisely determined way, that I'm not sure I even understand anymore... : )
+
+
+Pointers | Separate Chapter | Language Design
+---------------------------------------------
+
 ### 2020-06-11 Postponed Over-Awareness of Pointers
 
 - [ ] ~ Some texts may also make a bit of an issue out of something almost always being related to a *parent* *object*. It may have gone a bit far incorporating that concept in pictures, usage of terminology. In pictures by displaying a parent object, where it might not add much and it might be an idea to remove it for clarity. In terminology, awareness of ref-ness might have slipped in by calling things related items and related lists more often than perhaps required. The terms 'object' or 'item' and 'list' might do in cases and that may make the text easier to absorb.
+
+### 2020-05-27 Postponed Pointers Chapter
+
+- [ ] ~ Maybe pointer-to-pointer situations might all be moved away from each chapter and into a separate chapter. It seems a specific issue and many things seem to be able to live without it.
+
+
+More Pictures | Language Design
+-------------------------------
 
 ### 2019-08-05 Postponed More Pictures
 
 - [ ] ~ Explaining more with images is also something I would value. That might be more intense for me, because it requires some more 'mixed' tasks, which could be more difficult for me right now: reading, determine places to put pictures, draw pictures, scan, cut them out, paste them in text.
 - [ ] ~ Reading over the Interfaces planning docs I noticed I said there I like how the Interfaces chapter reads. I started reading it over. I notice, I only like how it reads where lots of little diagrams are shown. I like it not so much when I just see walls of texts. I think it is my 'brain type' so to say. But I think having both text and pictures would help a lot of brain types. So: more pictures. I like pictures.
+
+
+Planning Docs | Tone Change
+---------------------------
 
 ### 2020-04-18 Postponed Reword 'Done' Planning Docs
 
@@ -2866,9 +2917,9 @@ Postponed
 - [ ] ~ 2010-05 01 Inheritance Spec, Strategy & Steps.docx
 - [ ] ~ 2010-05 02 Inheritance Spec, Products List.docx
 
-### 2020-05-27 Postponed Pointers Chapter
 
-- [ ] ~ Maybe pointer-to-pointer situations might all be moved away from each chapter and into a separate chapter. It seems a specific issue and many things seem to be able to live without it.
+Large List Problem | Language Design
+------------------------------------
 
 ### 2019-08-05 Postponed Large Lists Problem
 
@@ -2881,9 +2932,19 @@ It's just that the large lists problem should be solved in my view.
 Maybe permanent filtering and reordering, which is often hard to customize in windows programs. Like a menu customizer.  
 Try to make it easier to do that. Construct your own limited view.
 
+
+Comment Notation | Language Design
+----------------------------------
+
 ### 2019-12-29 Postponed Comment Notation
 
 - [ ] ~ I am missing the notation for comment. Would be welcome. I think it is simple, unambiguous and would be a shame if it were overlooked as an option. Just a line from the text to the wherever, as long as nothing's directly connected to it, there should be nothing else that would clash with that symbolism.
+
+
+Purity Lost? | Language Design
+------------------------------
+
+With implicit notations?
 
 ### 2019-12-29 Postponed Purity Lost?
 
@@ -2925,6 +2986,9 @@ But if you would accidentally bend the half triangle at the end the wrong way, i
 - [ ] ~ The line merge and symbol merge notations may be let go of. (See Basic Diagram Elements.) But maybe later it was let go of already, I cannot remember that clearly anymore. Those notations look quite ambiguous with more basic notation ideas. I think I introduced those, because my idea was to make bidirectional relationships more common, and I perhaps disliked how many symbols and lines you might use to express bidirectional relationships, because in my view they would be used everywhere. I let go of that idea of bidirectional relationships everywhere. Only in use case ideas I might have for aspect oriented programming ideas it may become handy. In general it may be handy: bidirectional relationships, but they do not seem to be used ubiquitously in technology, so... So long story, but just leaving the explicit 'forward' and 'backward' relationship references drawn out explicitly, might be a good idea. And I believe that I already came up with something somewhere, where I put a 'relational ring' around the two lines of a bidirectional relationship, to indicate they would be kept in sync automatically.
 - 'Modifiers' (from C#) like protected, internal, static might be represented simpler by using 'condition' notation, by drawing through an connector line (or connection line too?) a triangle (for protected), a pentagon (for internal) and a dashed circle (for static)? Perhaps other modifiers too. This might prevent difficult theory of other more exact(?) (-ish) representations of the concepts.
 
+Fully OO? (Is It?) | Language Design
+------------------------------------
+
 ### 2020-05-12 Postponed Fully OO?
 
 - [ ] ~ Here and there I mention that the diagram notation could 'fully describe' an OO system. But I do not mention that it stops at arithmetic, comparative, logical operators and such. You might display that as an object graph. An idea was that 'Math' would be an external module that describes all the basic operators, but another idea was for expressions like that could be just included as bits of text code inside the diagram. Maybe not be too strict about this towards myself.
@@ -2943,19 +3007,9 @@ But if you would accidentally bend the half triangle at the end the wrong way, i
     - [ ] Perhaps some keywords might be notated in 'Condition' notation ('Condition' notation may not have been worked out yet).
     - [ ] The option to simply leave out those details from the diagram might do for some applications.
 
-### 2019-08-27 Postponed Simpler Rules
 
-- [ ] ~ I think the 'being blunt' might help. It is not blunt unfriendly, because the explanations might become so much simpler if you say: this is that, this is that, instead of and this far-fetched edge case is solved in this difficult, abstract, theoretical, but precisely determined way, that I'm not sure I even understand anymore... : )
-
-### 2019-08-05 Postponed Mixed Writing Style Issues
-
-- [ ] ~ The read uses terminology in a very specific way, that is not shared with my peers, therefor not easing readers into the material.
-- [ ] ~ Rename the term 'Code Base' to something like 'Base Code' or 'Base of the Code'.
-- [ ] ~ I seem to have had several goals fighting over each other, in projects done long ago about this documentation:
-    - [ ] ~ Explaining it to myself.
-    - [ ] ~ Designing the concepts, separately from the notation.
-    - [ ] ~ Tying together loose ends.
-    - [ ] ~ Making it easy to read for someone else.
+Static Notation | Language Design
+---------------------------------
 
 ### 2020-06-18 Postponed Static Notation
 
@@ -2963,9 +3017,17 @@ I also tend to go into when circles are displayed dashed. There I imply that sym
 
 I think that for now, it might be a better idea not to express such notational choices where I use notational choices, because it seems not the subject at hand, and discussed elsewhere already and might obscure the main point.
 
+
+Overview | Content Changes
+--------------------------
+
 ### 2020-06-24 Postponed Content Changes for Overview Article
 
 - [ ] ~ The descriptions of each chapter may have more detail in it, than 'required', which may make it a tougher read. I find it a bit tiring to read it, though I might tire easily. I suggest some details might be moved or left up to the actual chapter content?
+
+
+Basic Diagram Elements | Content Changes
+----------------------------------------
 
 ### 2020-06-01 Postponed Content Changes for Basic Diagram Elements
 
@@ -3007,6 +3069,10 @@ I think that for now, it might be a better idea not to express such notational c
         - [ ] ~ Perhaps an association like that might lead to something along the idea of "Automatic Object Formation" that seems to be hiding the "Broader View" section perhaps without much of a description.
         - [ ] ~ Perhaps disambiguation of commands based on parameter types might be an example of this.
 
+
+Objects | Content Changes
+-------------------------
+
 ### 2020-06-11 Postponed Content Changes for Objects Chapter
 
 - [ ] ~ Attributes might get the 'cookie' notation.
@@ -3016,6 +3082,10 @@ I think that for now, it might be a better idea not to express such notational c
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
 
 (minus the wiggly line)
+
+
+Relationships | Content Changes
+-------------------------------
 
 ### 2020-06-15 Postponed Content Changes for Relationships Chapter
 
@@ -3032,6 +3102,10 @@ I think that for now, it might be a better idea not to express such notational c
 
 - [ ] ~ Would that work for bidirectional relationships too?
 
+
+Parameters | Content Changes
+----------------------------
+
 ### 2020-05-20 Postponed Content Changes for Parameters
 
 - [ ] ~ Maybe make the idea of ubiquitous bidirectional relationships between commands and objects less centric. Or perhaps at least diverge into other approaches, so attempting to make room for expressing what goes on in other languages, rather than replacing the construct by another take on it.
@@ -3041,10 +3115,35 @@ I think that for now, it might be a better idea not to express such notational c
 - [ ] ~ Thru parameters had a particular implicit notation introduced in "Symbol Language (2004)": an object line that goes in both directions. Perhaps one implicit notation too many. But perhaps it can be introduced as an alternative.
 - [ ] It seems the parameter connections might be implicit assignments (perhaps readable in "Symbol Language (2004)". It might only be implied in "Commands" > "Creation Behavior of Commands" in the Spec currently (2021-03-03). Perhaps it might deserve to be mentioned this possible implicit behavior of the lines (that cross command boundaries?). It might not be like that in all cases (clauses?). Introducting the concept lightly surrounded with maybe's may help.
 
+
+### 2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled
+
+- [ ] ~ (Moved to Encircle Broader View\Classes)
+- [ ] ~ What might be mentioned if the text would be built up from the ground up? I think I would just talk about the static concept, because that seems to me the number 1 candidate for what classes might have a lot to do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I would move the more creative concepts away from the Encircle Language Spec.
+- [ ] ~ I have questions about the dashed line usage of lines of the smaller squares:  
+![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)  
+I do not understand why the class would point out the external command definition with a dashed line, while the objects point out the external command definition with a solid line. I think I might have followed a style choice more than an exact depiction of things? Would both lines express something that kind of works, leaving the options open for a stylistics choice to have class structure be more with dashed lines and object structure be more with solid lines? I suspect that I might leave this doubt open.
+I am a bit amused by my own typical behavior, because half an hour later, I see that the explanation was already in the text.
+I do feel it might be quite something to burden the reader with. I am hoping for a more clear meaning for dashed shapes in the future.
+
+- [ ] ~ Another point of doubt might be:  
+  ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.017.png)  
+  Why is the line on the right no extended to the circle, so class structure and object structure look more alike except for the dashed and solid lines?
+
+- [ ] ~ This "Command and Classes Loosely Coupled" idea (exchangeability between class-commands and command-parameters) might be moved to construct drafts. An approach with centric concepts of "Value In", "Value Out", "Object In", "Object Out" might be more practical. There might be (draft) content on that for instance in the "Symbol Language (2004)" document and perhaps elsewhere too. The idea of "Command and Classes Loosely Coupled" might have unnecessarily complicated things.
+
+
+Execution Control | Content Changes
+-----------------------------------
+
 ### 2020-05-20 Postponed Content Changes for Execution Control
 
 - [ ] ~ Execution Control sort of seems an application of Encircle Language rather than an intrinsic part. Arithmetic and other operators were supposed to be something like that too: an application of Encircle diagrams. I wonder why I explain execution control in detail, while for math operations I leave that out. Maybe an article about that would make things clearer/complete/make you not wonder where all the operators have gone in this language.
 - [ ] ~ I saw 'execution flow' somewhere. I want to consider using that term instead of execution control. I just like the word flow. It makes me feel better than 'control'. But maybe it will somehow not work in sentences. Not sure. Maybe execution flow can mean the normal flow, while execution 'control' can actually change the flow. Still maybe flow as a general term feel nicer.
+
+
+Black Boxes | Content Changes
+-----------------------------
 
 ### 2020-05-20 Postponed Content Changes for Black Boxes
 
@@ -3068,6 +3167,10 @@ I am not sure if the topics I dislike can be left in separate articles or someth
 - [ ] ~ It's just that the Black Box story might be the chapter I am least satisfied with. Not sure yet.
 - [ ] ~ Note that the Events chapter has an item 'Black Boxed Events' in it.
 
+
+Interfaces | Content Changes
+----------------------------
+
 ### 2020-05-22 Postponed Content Changes for Interfaces
 
 - [ ] ~ Interfaces Main Concept, section Explicit Interfaces:
@@ -3075,6 +3178,10 @@ I am not sure if the topics I dislike can be left in separate articles or someth
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.014.png)
 
 has something missing. In C# you can also refer to the parent object as if it were of the type of the interface, right? And it is also not an accessible sub-object, right?
+
+
+Inheritance | Content Changes
+----------------------------
 
 ### 2020-05-22 Postponed Content Changes for Inheritance
 
@@ -3087,6 +3194,10 @@ has something missing. In C# you can also refer to the parent object as if it we
 
 (Originally from the end of the System Objects article.)
 (It is about the tiny piece of dashed line at the bottom/center.)
+
+
+System Objects | Content Changes
+--------------------------------
 
 ### 2020-05-18 Postponed Content Changes for System Objects Chapter
 
@@ -3123,11 +3234,8 @@ has something missing. In C# you can also refer to the parent object as if it we
 - [ ] ~ I also like where you can open the system interface and it just shows a dashed circle to indicate the class. I like that for the item class of a list.
 - [ ] ~ Alternative Clone notation as like a value assignment with a depth, might be something to put somewhere.
 
-### 2020-05-18 Postponed Content Changes for Assignment Article
 
-- [ ] ~ What about getting the class and assigning it as a class? Would it be strange to call that cross aspect assignment? Maybe mention it. How would it look? I would say explicitly using the system interface? O here it is mentioned: "3. System Command Call Notations" just before the section "Explicit Get & Set Notation". I think it might be worth reconsidering that notation, and mentioning it in the main Assignments article.
-- [ ] ~ The implicit notation for cross-aspect assignment might be let go of? Might I just use the system interface notation? Ambiguity seems to arise a bit, for class to object assignment vs 'normal' class assignment (Get Object, Use as Class).
-- [ ] ~ Evaluate what the access connector for the Data access would look like compared to an imaginary assignment notation for the Data aspect and if direction indicators seem consistent and intuitive once gotten used to the way described in the Assignment article.
+
 
 ### 2020-07-21 Postponed Content Changes for System Command Call Notations Article
 
@@ -3140,6 +3248,19 @@ has something missing. In C# you can also refer to the parent object as if it we
     - [ ] ~ Would inward connections imply assignment?
     - [ ] ~ I would imply a get.
     - [ ] ~ My thinking error might be, assuming a hard rule that get and set goes together into an assignment and that would be the only application of getters and setters. I think I may at one point have forgotten that there is also a Get for *member access* possible e.g. Object.MemberA.MemberB might triggers 2 or 3 getters, while not necessarily causing any setters to go off. Those might be the only 2 cases that cause getters other than explicit calling. It may seem that every time I assume a set of options is complete, I may be mistaken. If I assume the set is incomplete and relax the story so that it might not be a problem, could often be the solution for conveying these ideas. But once aware of a different case, it seems to gain importance in my mind and I would like to be a bit more specific about it. 'A bit' might not only be polite talking here. A bit would do perhaps, just being honest (to myself) that I might not have it all worked out could be enough. It may not make this idea any more or less relevant.
+
+Assignment | Content Changes
+----------------------------
+
+### 2020-05-18 Postponed Content Changes for Assignment Article
+
+- [ ] ~ What about getting the class and assigning it as a class? Would it be strange to call that cross aspect assignment? Maybe mention it. How would it look? I would say explicitly using the system interface? O here it is mentioned: "3. System Command Call Notations" just before the section "Explicit Get & Set Notation". I think it might be worth reconsidering that notation, and mentioning it in the main Assignments article.
+- [ ] ~ The implicit notation for cross-aspect assignment might be let go of? Might I just use the system interface notation? Ambiguity seems to arise a bit, for class to object assignment vs 'normal' class assignment (Get Object, Use as Class).
+- [ ] ~ Evaluate what the access connector for the Data access would look like compared to an imaginary assignment notation for the Data aspect and if direction indicators seem consistent and intuitive once gotten used to the way described in the Assignment article.
+
+
+System Objects | Tone Change
+----------------------------
 
 ### 2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article
 
@@ -3164,6 +3285,10 @@ has something missing. In C# you can also refer to the parent object as if it we
 - [ ] ~ Going over the document again to reformulate.
 - [ ] ~ Spell check.
 
+
+Type Control | Content Changes
+------------------------------
+
 ### 2020-05-22 Postponed Content Changes for Type Control
 
 - [ ] ~ It seems part of it is from the old Symbol Language.doc. It seems to attempt to demonstrate how the terms generic and explicit apply to the diagram notation. It seems to attempt to demonstrate any possible variation of it. But in doing so, it seems to explain things already explained elsewhere, but now insisting the terms generic and explicit are so centric they must be systematically demonstrated. That was a bit sarcastic, sorry, but I question if feeling the terms generic and explicit are important are reason enough to explain things twice from a different angle.
@@ -3174,26 +3299,18 @@ has something missing. In C# you can also refer to the parent object as if it we
 - [ ] ~ I once seemed to feel it was a main issue. Now I am not so sure.
 - [ ] ~ I do kind of like it. I like systematic overviews. It probably is redundant information. Perhaps I can say that in an intro paragraph eventually. But for overview: I think it's nice. I think maybe I was prejudiced about it being mostly from the previous documentation Symbol Language.doc. Prejudiced about it being old. The argument that it seems redundant info I stand by, but I think it can serves a purpose.
 
+
+Object Order | Content Changes
+------------------------------
+
 ### 2020-05-24 Postponed Content Changes for Object Order
 
 - [ ] ~ I might move that Object Order issue to the chapter Objects. It's single lone topic now. It starts with the word 'Object', so maybe therefore Objects is the chapter for it. It's just right now (2020-05-24) it is unfinished and unfinished things tend to be put at the bottom of the documentation right now and do not want to do anything about it right now, I think.
 - [ ] ~ Automatic execution order may not be something to hide from Object Order. It does not seem much to describe and perhaps is just low hanging fruit.
 
-### 2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled
 
-- [ ] ~ (Moved to Encircle Broader View\Classes)
-- [ ] ~ What might be mentioned if the text would be built up from the ground up? I think I would just talk about the static concept, because that seems to me the number 1 candidate for what classes might have a lot to do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I would move the more creative concepts away from the Encircle Language Spec.
-- [ ] ~ I have questions about the dashed line usage of lines of the smaller squares:  
-![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.016.png)  
-I do not understand why the class would point out the external command definition with a dashed line, while the objects point out the external command definition with a solid line. I think I might have followed a style choice more than an exact depiction of things? Would both lines express something that kind of works, leaving the options open for a stylistics choice to have class structure be more with dashed lines and object structure be more with solid lines? I suspect that I might leave this doubt open.
-I am a bit amused by my own typical behavior, because half an hour later, I see that the explanation was already in the text.
-I do feel it might be quite something to burden the reader with. I am hoping for a more clear meaning for dashed shapes in the future.
-
-- [ ] ~ Another point of doubt might be:  
-  ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.017.png)  
-  Why is the line on the right no extended to the circle, so class structure and object structure look more alike except for the dashed and solid lines?
-
-- [ ] ~ This "Command and Classes Loosely Coupled" idea (exchangeability between class-commands and command-parameters) might be moved to construct drafts. An approach with centric concepts of "Value In", "Value Out", "Object In", "Object Out" might be more practical. There might be (draft) content on that for instance in the "Symbol Language (2004)" document and perhaps elsewhere too. The idea of "Command and Classes Loosely Coupled" might have unnecessarily complicated things.
+MarkDown
+--------
 
 ### 2020-04-19 Postponed Conversion to MD
 
@@ -3227,11 +3344,21 @@ I do feel it might be quite something to burden the reader with. I am hoping for
     - [ ] ~ I might as well just copy paste to a text document and then do it myself.
     - [ ] ~ But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
 
+
+
+
+Rough Content Organization
+--------------------------
+
 ### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 
 - [ ] ~ Make folder subdivision neater, now that the topics have found a new place. ("Encircle Language Spec", "Encircle Constructs Drafts", "Encircle Broader View" and "Framework".)
 - [ ] ~ Encircle Language Spec has priority over the other main folders.
 - [ ] ~ The others are postponed for now.
+
+
+Broader View
+------------
 
 ### 2019-12-29 Postponed Encircle Broader View / Gap Lifting
 
