@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Objects Spec Update Idea
-------------------------
+Execution Flow Spec | Content Changes
+-------------------------------------
 
 Maybe only merge conceptual explanation with diagram notation explanation.
 

@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-System Objects Spec Update Ideas
---------------------------------
+System Objects Spec | Content Changes
+-------------------------------------
 
 The System Objects article group may need extensions in the future. It could be revisited to make complete the set of system aspects and system commands and cross out remaining ideas and topics.
 

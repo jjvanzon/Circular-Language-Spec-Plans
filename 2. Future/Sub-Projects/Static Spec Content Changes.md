@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Static Spec Idea
-----------------
+Static Spec | Content Changes
+-----------------------------
 
 The concept of Static could be worked out.
 

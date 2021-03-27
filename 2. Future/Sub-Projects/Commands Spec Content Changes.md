@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Parameters Spec Update Ideas
-----------------------------
+Commands Spec | Content Changes
+-------------------------------
 
 Maybe only merge conceptual explanation with diagram notation explanation.
 

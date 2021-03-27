@@ -121,6 +121,10 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 - More about existing content, rather than new ideas.
 - Only "Language" topics (not "Framework", "Operating System" or "Applications & Media")
 
+### Strategy
+
+- When changing a topic's *tone*, perhaps consider *content changes* too.
+
 ### Information
 
 - Tools:
@@ -142,7 +146,6 @@ Rough Content Reorganization
 - [x] Correcting links from Plans repo's Readme to Spec repo.
 - [ ] Planning docs reorganization:
     - [ ] __Splitting up Revamp project into topics.__
-        - [ ] __WAS AT: "Basic Diagram Elements | Content Changes"__ creating TODO / Done / Postponed sub-sections.
     - [ ] Merging together goals of Revamp project with Main Project.
     - [ ] Removing (totally) out-of-scope topics to Archive.
 - [ ] ~ Moves to "Implementations"

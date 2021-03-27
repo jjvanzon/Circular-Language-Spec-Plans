@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Diagram Metrics Ideas
----------------------
+Diagram Metrics | Content Changes
+---------------------------------
 
 This document contains some loose ideas about diagram metrics. That means positioning the shapes automatically for instance. Specifically excluded, are the ideas about Automatic Containment. Those ideas got a little side-tracked, because it's complex and has loose ends.
 

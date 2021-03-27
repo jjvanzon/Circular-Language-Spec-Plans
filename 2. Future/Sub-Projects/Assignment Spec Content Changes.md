@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Assignment Spec Update Ideas
-----------------------------
+Assignment Spec | Content Changes
+---------------------------------
 
 2008-09-29
 

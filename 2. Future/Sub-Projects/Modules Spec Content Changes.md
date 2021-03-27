@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Module Spec Update Ideas
----------------------------
+Module Spec | Content Changes
+-----------------------------
 
 - Not sure if this will have to change. Maybe change the term 'Module' to 'Modules' instead to prevent introducing alienating terminology.
 
