@@ -1,6 +1,36 @@
 ﻿Encircle Language Spec Revamp Notes 2019-08
 ===========================================
 
+Contents
+--------
+
+- [Project Outline](#project-outline)
+    - [Introduction](#introduction)
+    - [Goals](#goals)
+    - [Steps](#steps)
+    - [Language Design / Content Changes](#language-design--content-changes)
+    - [Scope](#scope)
+    - [Strategy](#strategy)
+    - [Information](#information)
+- [Rough Content Reorganization](#rough-content-reorganization)
+- [Scoping](#scoping)
+- [MarkDown](#markdown)
+- [Tone Change | in General](#tone-change--in-general)
+- [Planning | in General](#planning--in-general)
+- [Commands | Tone Change](#commands--tone-change)
+- [System Objects | Tone Change](#system-objects--tone-change)
+- [Planning Docs | Tone Change](#planning-docs--tone-change)
+- [Done](#done-7)
+    - [Git Migration](#git-migration)
+    - [Search Tools](#search-tools)
+    - [Publishing](#publishing)
+    - [Planning Docs | Content Changes](#planning-docs--content-changes)
+    - [Basic Diagram Elements | Tone Change](#basic-diagram-elements--tone-change)
+    - [Objects | Tone Change](#objects--tone-change)
+    - [Classes | Tone Change](#classes--tone-change)
+    - [Relationships | Tone Change](#relationships--tone-change)
+    - [Assignment | Tone Change](#assignment--tone-change)
+
 Project Outline
 ---------------
 
@@ -8,7 +38,7 @@ Project Outline
 
 Encircle is an unfinished programming language.
 
-I spent a significant portion of spare time in my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
+I spent quite a portion of the spare time of my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
 
 Encircle Language Spec tries to describe it.
 
@@ -145,17 +175,17 @@ Rough Content Reorganization
 
 - [x] Correcting links from Plans repo's Readme to Spec repo.
 - [ ] Planning docs reorganization:
-    - [ ] __Splitting up Revamp project into topics.__
-        - [ ] __WAS AT: "Black Boxes | Content Changes (Postponed)"__ moving topics to their own separate documents
+    - [x] Splitting up Revamp project into topics.
+        - [x] Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
     - [ ] Merging together goals of Revamp project with Main Project.
     - [ ] Removing (totally) out-of-scope topics to Archive.
+- [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"
 - [ ] All pointer topics to Pointers.
 - [ ] All Text Code topics to single place.
 - [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
 - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
 - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
-- [ ] Replacing "the new computer language" with "Encircle"
 - [ ] ->.. Replacing "Concept" with "Aspect"
     - [ ] I have difficulty with this. 
     - [ ] Only part of the occurrences seem replaceable.
@@ -165,10 +195,6 @@ Rough Content Reorganization
 - [ ] ~ Reorganizing "Fundamental Principles"
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
-
-#### 2021-03-26 Brainstorm
-
-Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
 
 ### Done
 
@@ -188,7 +214,10 @@ Some work might be Done project, bot others might be half Done, half TODO, which
 - [x] Moves from "Spec" to "Construct Drafts":
     - [x] "Previous Versions"
     - [x] "Summaries of Other Languages"
-- [x] Folders more straightforward for "Broader View" and "Construct Drafts"
+- [x] Make folder subdivision neater, now that the topics have found a new place. 
+    - [x] "Encircle Language Spec"
+    - [x] "Encircle Constructs Drafts"
+    - [x] "Encircle Broader View"
 - [x] Spec contents page (with links)
     - [x] Removing links to folders (confusing).
 - [x] 'Webby paths' / 'pretty URL's' (shallow paths, lower-case, dashes, no spaces)
@@ -809,9 +838,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 
-- [ ] ~ Make folder subdivision neater, now that the topics have found a new place. ("Encircle Language Spec", "Encircle Constructs Drafts", "Encircle Broader View" and "Framework".)
-- [ ] ~ Encircle Language Spec has priority over the other main folders.
-- [ ] ~ The others are postponed for now.
+- Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 
 Scoping
