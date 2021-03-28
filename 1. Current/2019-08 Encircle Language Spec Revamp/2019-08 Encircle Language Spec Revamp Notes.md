@@ -814,339 +814,6 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [ ] ~ The others are postponed for now.
 
 
-Publishing (Done)
------------------
-
-### 2021-02-09 Done Publishing
-
-- [x] Readme's?
-- [x] Just publishing it?
-- [x] Durable links:
-    - [x] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
-- [x] Replacing swear words
-- [x] The name "Circle" is used by a similar product. Should I rename? And to what?
-    - [x] "Encircle"
-    - [x] ~~Considered alternatives: "Symbol" / "JJ's Computer Language" / "JJ's Visual Language" / "This Computer Language".~~
-    - [x] In main repo:
-        - [x] Replacing "Circle" with "Encircle" in content
-        - [x] Replacing "circle" with "encircle" in doc file names (and links to them)
-        - [X] Correcting heading layout
-        - [x] Replacing "Encircle 3" and with "Circle 3"
-        - [x] Double-checking occurrences of "Encircle"
-        - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
-    - [x] In planning docs repo:
-        - [x] Replacing "Circle" with "Encircle" in content
-        - [x] Replacing "circle" with "encircle" in doc file names
-        - [x] Correcting heading layout
-        - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
-        - [x] ~ Double-checking occurrences of "Encircle"
-    - [x] Renaming the repo's
-    - [x] Merging changes
-
-### 2019-08-05 Done Open Source
-
-- [x] How do you even license documentation?
-    - [x] I wanted to throw an MIT license against it, but that is for code... hmm...
-    - [x] Here is some information: <https://dreamsongs.com/IHE/IHE-50.html> 
-    - [x] This might be something: FreeBSD Documentation License
-    - [x] It basically seems an MIT license, but then for documentation.
-- [x] ~~Is it really such a good plan to open source it? Am I really not just throwing away money? Maybe it is better to wait with that decision, after I know where things are heading with work and income? > Think I will do it anyway.~~
-- [x] There is an '... IPC Parse.doc' text in the source control history. It should be deleted. I guess I have to search for intellectual property problems. This in docs that are so intellectual property sensitive. Before open sourcing it, you need to do this intellectual property check.
-- [x] 2004-00-00 XX    Symbol Language\Symbol Pictures (Keep Packed, Paths Too Long).zip has intellectual property problems in Pictures\Diagram Examples.
-- [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm... If I didn't mention the source information it would not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down... not sure. > It think this is an unreasonable doubt.~~
-- [x] "Relational Structure"
-    - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name.
-    - [x] I think I would be better off removing that document from the Encircle-Language-Spec repository.
-- [x] Renaming Encircle-Language-Spec-Plan to Encircle-Language-Spec-Plans (plural).
-- [x] Reorganizing Broader View and Construct Drafts knowing they would also be published?
-
-
-
-### 2019-02-08 Done Publishing: My Brother's First Name
-
-- [x] Is in some sub-project planning doc.
-- [x] I can take it out of the current version.
-- [x] Should I ask him if he is OK with it staying in the source control history or if he wants it out of there?
-- [x] Also in "2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects" his first name is mentioned.
-- [x] I may be better off removing some items of history from Encircle-Language-Spec-Plan completely for this purpose.
-- [x] There is also a split up between a doc for 'in-scope' and one for 'out-of-scope'.
-- [x] It is even in this document. This is really difficult to unravel. I think I can't without harming the integrity of the change history.
-- [x] I think I am better off asking my brother. If there was an easy option to take it out without harming the change history...
-- [x] > Waiting on brother's response. > He's fine with it.
-
-
-Git Migration (Done)
---------------------
-
-### 2020-02-03 Done Notes Planning Docs Git Migration
-
-- [x] Isolating a git repository with just the Encircle Docs planning out of a git repository with planning docs of misc subjects.
-- [x] Combining parts into 1 script,
-- [x] Rerunning scripts on the very latest version.
-- [x] Do checks by sampling.
-    - [x] KDiff lists of files in history of previous and new run.
-        - [x] I see newer files appear in the new list.
-    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
-    - [x] Use Visual Studio checking 'by hand' the histories of some files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
-- [x] Archived things in JJs-Planning-Doc.
-- [x] Organizing Encircle-Language-Spec-Plan (e.g. moving lost topics to an appropriate spot).
-
-### 2020-02-03 Done Planning Docs Git Migration
-
-- Folders in current version:
-    - \Encircle Language Spec Plan
-    - \Other\2. Future\Postponed\1. Encircle Language Spec (Out of Scope)
-    - \Other\3. Done\2008 - 2008 Encircle Language Spec (Out of Scope)
-- [x] Might try to strip a git repository's major parts that are out of scope, just as a start.
-    - [x] Scripted
-    - [x] Ran
-    - [x] Checked diff of lists of files in full history.
-- [x] Might weed out major blocks with exceptional cases in it.
-- [x] May check document contents for that to make decisions.
-- [x] Checking: KDiff full lists of files in history of before and after.
-- [x] Corrected script
-- [x] Rerun
-- [x] Checking:
-    - [x] KDiff lists of files in history of previous and new run.
-    - [x] Use Visual Studio checking 'by hand' the histories of each files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
-    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
-- [x] ~~Try removing content with my brother's first name in it.~~
-
-### 2020-12-03 Done Git Migration: Removing "Creator"
-
-- [x] Considering removal of Creator 0.4 and 0.9 from Encircle-Docs.
-- [x] Removing more seems doable with a smaller additional run at the end.
-- [x] I am quite unsure about involving the "Creator" topics. I once thought I might merge Creator and Encircle Language into one. But now I think Creator might be much about framework (code generation, aspects, generated user interfaces). Framework was deemed out of scope. I am unsure, because the topics of Creator and Encircle Language seems to overlap.
-- [x] Creator may partially be about programming language, but a lot might be considered better solvable by a framework/library solution. So this seems ambiguous.
-- [x] Creator 0.4 and 0.9 would be code generator / aspects / framework, while Creator 2.0 looks more like a bit a programming language. It has a text code and a parser and everything. But I guess a totally different programming language than Encircle. Perhaps Creator 0.4 and 0.9 should be moved to framework , ~~while Creator 2.0 is actually more in scope as a programming language.~~
-- [x] Reading the Creator documentation I start having doubts. How would relational / aspect oriented look in Encircle? If Encircle could harbor constructs that make it possible to program things as was dreamed about with Creator, then would the goal Symbol = Creator be reached? And how would it look? I think I would have a way to define aspects in a general sense. I do not seem to know how yet precisely. Nor do I seem to have the time / priority / ability to work it out. ~~So in the meantime it seems Creator should still be part of this.~~
-- [x] I believe I saw in plans and documentation that comparing Creator with Encircle actually seems to have enriched Encircle the language. Concretely with multiplicity, creation/destruction/new/annul/null, a notation for bidirectional relations, reflection and extension ideas. Also some ideas that might only have complicated things a bit, that I was not quite able to work out (perhaps less recognizable ideas like: "automatic containment" and "flat & structure interchange"). I believe that the future Creator ideas could inspire more enrichment of the Encircle language. Perhaps with aspect oriented and more system extensions features, I was once thinking about. I just cannot picture it yet. I think it might be best to leave that an open question and keep the Creator documentation involved in this repository, perhaps for future inspiration. > I might see it more like one system being inspiration for another. The planning also excluded Creator 2.0, so perhaps the product documentation should too. I think the article Symbol = Creator would introduce that idea. So I may leave that in there.
-
-
-### 2021-01-16 Done Git Migration
-
-- [x] Checkout a more recent commit and compare in KDiff the whole folder of Encircle-Docs and Software-System-Docs.
-- [x] Moving around things in Encircle-Docs
-- [x] Archiving things in Software-System-Docs
-
-### 2020-01-16 Done Git Migrations
-
-- [x] Finishing analysis of things to remove.
-- [x] Changing the scripting with corrected removals
-- [x] Rerunning the script
-- [x] More practical checks?
-    - [x] Using KDiff to compare this run and previous run's lists of all files in history.
-    - [x] ~~The 'preparation' Excel, for the pictures.~~ > Diff between two runs might say enough.
-    - [x] ~~Viewing all pictures in master.~~ > Diff between two runs might say enough.
-    - [x] Comparing *master's* lists of files (using KDiff and/or JJ Utilities)
-    - [x] Checking out some commits and looking at the checked out file tree?
-        - [x] I was insecure about the first few commits. History does not seem to map back easily to those first few commits. ("Version 2008-07-13 XX: Before ordering it more by how you read it" seems the 'terminator' quite frequently.)
-- [x] More laborious checks?
-    - [x] Checking each remaining file for completeness of history
-        - [x] 1.1. Encircle Language Spec
-        - [x] 1.2. Encircle Constructs Drafts
-        - [x] 1.3. Encircle Broader View
-        - [x] 2. Framework
-        - [x] 3. Operating System
-        - [x] 5. Archive
-    - [x] Comparing lists of all files in history.
-    - [x] ~~Do over inspections of file trees of each commit?~~
-    - [x] ~~Inspecting what more might be erroneously removed from the first 'large' commits?~~
-    - [x] ~~Incremental commits may harbor things to remove too.~~
-- [x] Possible plan for next run:
-    - [x] Scripting with new corrections.
-    - [x] Running new script.
-    - [x] Random sampling some check-outs (+ folder diffs between Encircle-Docs and Software-System-Docs).
-    - [x] Random sampling of history of single files.
-    - [x] Comparing 'before' and 'after' file lists.
-
-### 2021-01-16 Done Brainstorm Git Migration
-
-I seemed to have removed "Operating System" topics. With that the version history of internet as a single computer.
-
-I might have been focusing on what remains, less on what was removed.
-
-Brainstorm:
-
-There seem to be 3 categories of commits:
-
-1) large version folders at the beginning
-2) smaller version folders in the middle
-3) incremental commits at the end
-
-For the large ones I seem to have mostly inspected the file trees.  
-For the middle one I seem to have mostly inspected the commit's (file) list.  
-The last incremental one I do not seem to have inspected yet.  
-I also do not seem to have inspected the total file list from history yet.
-
-
-
-### 2020-02-02 Done Git Migration Corrections
-
-- [x] Could keep:
-    - [x] "0. Introduction/2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
-    - [x] "0. Introduction/Interesting Old Introduction To J Data.doc"
-    - [x] "00. General/00. 2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
-    - [x] "00. Introduction/2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
-    - [x] "01. Introduction/2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
-    - [x] "01. Code/4. Coding Concepts/03.01. Default Values/Default Values.doc"
-    - [x] "02. Code/3. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
-    - [x] "02. Code/4. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
-    - [x] "03. Code/04. Concepts/Coding Concepts/4.1. Default Values/Default Values.doc"
-    - [x] "2. Framework/2. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
-    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
-    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
-    - [x] "02. Code/3. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
-    - [x] "02. Code/3. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
-    - [x] "02. Code/4. Data Concepts/6.0. Persistence Delay/6.1. Locking/Locking.doc"
-    - [x] "02. Code/4. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
-    - [x] "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.1. Locking/empty.txt"
-    - [x] "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
-    - [x] "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.1. Locking/Locking.doc"
-    - [x] "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
-- [x] Can remove:
-    - [x] "1. Language/1. Language/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
-    - [x] "10. Encircle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
-    - [x] "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
-    - [x] "02. Code/3. Coding Concepts/05. System Objects/XXXX-XX-XX XX/60. Connectors/~WRL3057.tmp"
-    - [x] "02. Code/3. Coding Concepts/11. Interfaces/2010-05-07 XX    0.95/1. Introduction/~WRL1420.tmp"
-    - [x] "1. Language/1. Language/3. Code Concepts/05. System Objects/XXXX-XX-XX XX/60. Connectors/~WRL3057.tmp"
-    - [x] "1. Language/1. Language/3. Code Concepts/11. Interfaces/2010-05-07 XX    0.95/1. Introduction/~WRL1420.tmp"
-
-### 2021-01-24 Done Git Migration Corrections
-
-- [x] Did the analysis it wrong? Sort of? The reasons this is so intense, might be that I am comparing full file lists in history now instead of master file lists.
-- [x] Kept a few extra pictures that seemed harmless.
-- [x] Should probably keep:
-- [x] "3. Operating System/4. Storage/1. Object Storage/Object Storage.doc"
-- [x] "17. Storage/1. Object Storage/Object Storage.doc"
-- [x] Might remove:
-    - [x] "01. Code/5. Data Concepts/1.1. Registration Lists/Registration Lists.doc"
-    - [x] "01. Code/5. Data Concepts/1.2. Item Remove/Item Remove.doc"
-    - [x] "01. Code/5. Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
-    - [x] "01. Code/5. Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
-    - [x] "01. Code/5. Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/Filters, Sorts, Searches, Joins & Indexes.doc"
-    - [x] "01. Code/5. Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
-    - [x] "01. Code/5. Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
-    - [x] "01. Code/5. Data Concepts/3.0. Collection/Collection.doc"
-    - [x] "01. Code/5. Data Concepts/4.0. Search/4.1. Find/empty.txt"
-    - [x] "01. Code/5. Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
-    - [x] "01. Code/5. Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
-    - [x] "01. Code/5. Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
-    - [x] "01. Code/5. Data Concepts/5.0. Import & Export/5.2. XML/XML.doc"
-    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
-    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
-    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
-    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.4. Streaming Access/Streaming Access.doc"
-- [x] Might like to keep:
-    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/1. Circularities/empty.txt"
-    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/2. Circularity Handling/empty.txt"
-    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/3. Pointer Circularity/Pointer Circularity.doc"
-    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/Circularity.doc"
-    - [x] "2. Framework/1. Code Concepts Extended/Code Concepts Extended.doc"
-- [x] Might keep:
-    - [x] "04. Security & Safety/1. Access Control/Access Control.doc"
-    - [x] "16. Security & Safety/1. Access Control/Access Control Ideas.doc"
-    - [x] "16. Security & Safety/1. Access Control/Access Control.doc"
-    - [x] "18. Security & Safety/Access Control/Access Control.doc"
-    - [x] "3. Operating System/3. Security & Safety/1. Access Control/Access Control Ideas.doc"
-
-### 2021-01-23 Done Git Migration Corrections
-
-- [x] Collapsing individual picture file removals into more whole folder removals.
-- [x] Keeping index pages:
-    - [x] In the area of 'broader view' perhaps.
-    - [x] With the general idea how it might work in Encircle.
-- [x] "Integration" / "Legacy" (index pages)
-    - [x] For instance: "2. Framework\0. Language\2. Integration\Integration.doc"
-    - [x] Gathering paths.
-    - [x] Commenting out paths to keep.
-    - [x] ~~Collapsing some things to whole folders.~~
-- [x] "Expression" (index pages)
-    - [x] For instance: "2. Framework\0. Language\1. Language\6. Expression\Expression.doc"
-    - [x] Seems already there, except a *copy* placed under "Framework".
-- [x] "More Text Codes" / "Legacy Text Codes" / "Additional Text Codes" (index pages)
-    - [x] For instance: "2. Framework\0. Language\1. Language\6. Expression\6. More Text Codes\More Text Codes.doc"
-    - [x] Gathering paths.
-    - [x] Commenting out paths to keep.
-    - [x] Collapsing some things to whole folders.
-- [x] "Protocols" (index pages)
-    - [x] For instance: "2. Framework\0. Language\2. Integration\7. Protocols\Protocols.doc"
-    - [x] Gathering paths.
-    - [x] Commenting out paths to keep.
-    - [x] ~~Collapsing some things to whole folders.~~
-    - [x] ~Stripping subsequent removals.
-- [x] "Framework" (index pages)
-    - [x] Framework seems deleted as a whole somewhere. Trying to be more selective.
-- [x] "Libraries" (index pages)
-    - [x] For instance: "2. Framework\0. Language\3. Libraries\Libraries.doc"
-    - [x] Gathering paths.
-    - [x] Commenting out paths to keep.
-    - [x] Collapsing some things to whole folders.
-    - [x] Stripping subsequent removals.
-- [x] "Object Storage" (index pages)
-    - [x] For instance: "3. Operating System\4. Storage\1. Object Storage\Object Storage.doc"
-    - [x] Gathering paths.
-    - [x] Commenting out paths to keep.
-    - [x] Collapsing some things to whole folders.
-    - [x] Stripping subsequent removals.
-
-### 2019-08-04 Done Notes converting version folders to source control history
-
-This is a lot of work.
-
-- [x] Exp: Search for XXXX in the folder "Encircle Docs\1. Language".
-- [x] Obs: 54 matches.
-- [x] Hyp: 54x a version folder structure to convert to source control history.
-- [x] Less than I thought and probably doable.
-- [x] Maybe rename all commits, putting the version number in front, so it is more apparent that it is alternative source control history.
-
-### 2019-08-05 Done Version Control
-
-There is a folder 'Previous Versions' that would make you think you forgot to put those at the beginning of the conversion from version folders source control history. But they are not necessarily previous versions of documentation, but more like previous versions of systems.
-
-
-### 2019-08-10 Done Brainstorm complexity in preserving rename history
-
-The version folders I have left to convert to source control history are complex, if you also try to get a rename mapping in check. Even if you ignore the rename mapping, you have quite some work to do.
-
-It was not expected that there would be such complexity in preserving rename history, but noticing that there is, makes me re-evaluate my plans.
-
-To get overview of the amount of version folders still to cover: The version folders are visible on the 'root' level per chapter. The amount of version control on *sub-*topics is limited to just one (24. Creation Behavior Of Calls). Its about the *main* topics: Commands, Parameters, Module, Execution Control, Black Boxing, Interfaces, Events and    Inheritance. One of those topics has intensely many version folders (Black Boxing). About 3 topics have a 'normal' amount of version folders. The others have a quite small amount of version folders. If you ignore trying to preserve rename history, then you might be done today. If you try to preserve rename history, it will take you probably many days, like 4 or something. And I think the motivation will recede if I do that.
-
-So I have already made my choice. I will not make effort to preserve rename history. I will just methodically convert the version folders to source control commits.
-
-### 2019-08-11 Done Basic Math Version Folder to Source Control History?
-
-The 2 versions' contents:
-
-2005-01-06 00 Former Documentation:
-
-> Any programming topic about math I had at the time is thrown into one document here:
->
-> - JMath 0.9 docs in Dutch
-> - Simple Math operators
-> - Ideas about 'regulated systems'
-> - Number Bases
-> - Brainstorm: Some alternative wordings and loose ideas written down.
-> 
-> The XXX version is only Simple math operators and how they can be implemented as objects.
-
-Idea bout converting version folder to source control history:
-
-> So they are not mutually exclusive at all.  
-> I have doubt whether I should even do the conversion from version folders to source control history here.
-> Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.  
->
-> The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of the new computer language. But... none of this documentation is well worded to support that concept...
-
-### 2019-08-11 Done Controls Concepts Version Folders to Source Control History
-
-- [x] I can convert the version folders to source control history the regular way, because each successive version does seem to replace the former version.
-- [x] Where is that navigation model brainstorm?
-    - [x] It is in the control concepts' root folder. It has a doc in it directly, which I overlooked.
-
-
 Scoping
 -------
 
@@ -1625,27 +1292,6 @@ MarkDown
     - [ ] ~ But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
 
 
-Search Tools (Done)
--------------------
-
-### 2020-04-09 Done Explore (Content) Search Options
-
-- [x] Exp: Visual Studio Find in Files
-- [x] Obs~ Some paths are too long...
-- [x] The file had a path of 260, which I think is the max for Windows 7, but some API's use 255 as a max.
-- [x] Exp: Shorten to 255. Find in Files again
-- [x] Obs~ Error is gone.
-- [x] Exp: Get rid of an intermediate folder to shorten the path and still keep descriptive names.
-- [x] Obs~ Visual Studio Find in Files will not search doc contents.
-- [x] Hyp:    Windows 7 File Explorer will not find whole words. For some things that's relevant for other things it is not. (I thought I saw it).
-- [x] Exp: search "*.doc"
-- [x] Obs: Now it does not match "*.docx".
-- [x] Hyp: I thought I saw that some times.
-- [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Encircle Language Spec Plan". Search "content:Joost".
-- [x] Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.
-- [x] Hyp: File properties?
-
-
 Tone Change | in General
 ------------------------
 
@@ -1909,33 +1555,6 @@ Commands | Tone Change
 - [ ] ~ Spell check.
 
 
-Assignment | Tone Change (Done)
--------------------------------
-
-### 2020-07-04 Done Checklist Reformulating Assignment Article
-
-- [x] Fine-tune styling.
-- [x] Evaluating if texts are in scope, possibly moving them.
-    - [x] Moved pointer assignment topics to the Pointers chapter.
-    - [x] Cross-Aspect Assignments still seems to have pointer-related parts.
-- [x] Marking trigger words in red.
-    - [x] With find and replace
-    - [x] Manually
-    - [x] Over-used words? "The"?
-- [x] Finding replacement words, possibly using online thesaurus.
-- [x] Put subjectivity in perspective.
-- [x] Change the orange markings (pictures, texts to move or change).
-- [x] Pictures:
-    - [x] Maybe draw new ones in one go, on paper and then scan it.
-    - [x] Sometimes borrow (pieces of) other pictures
-    - [x] Or simplify pictures by editing them.
-- [x] Merge conceptual/diagram explanations:
-    - [x] When I reformulate things top to bottom, I might at one point feel that the merging of conceptual explanation and diagram explanation is actually finished, because right now, often they are put near each other, but not really became one merged text.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
-- [x] Going over the document again to reformulate.
-- [x] Spell check.
-
-
 System Objects | Tone Change
 ----------------------------
 
@@ -2000,104 +1619,6 @@ System Objects | Tone Change
 - [ ] ~ I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
 - [ ] ~ Going over the document again to reformulate.
 - [ ] ~ Spell check.
-
-
-Relationships | Tone Change (Done)
-----------------------------------
-
-### 2020-06-26 Done Reformulating Relationships Chapter
-
-- [x] Redo trigger word analysis?
-    - [x] I do think I see the pitfall of trigger words.
-    - [x] Maybe do another trigger word analysis.
-    - [x] I think I wanted to reconsider how I perform these trigger word analyses.
-    - [x] Perhaps a standard list of words might be marked.
-    - [x] I might want to reconsider the list of standard words, that I might mark with find and replace.
-    - [x] Then manually spotting words of resoluteness.
-    - [x] Replacing trigger words.
-- [x] I do not seem to emphasize "bidirectional" much in the text of section "Bidirectional Relationships Between Objects". In "Bidirectional Relationships" from "1 to N Relationship" onward I also do not seem to mention the word "bidirectional" very much anymore. It might be welcome to repeat that every now and again, perhaps in each section have the word "bidirectional" in there at least once if it has anything to do with that.
-- [x] Possible over-use of the word 'related'?
-- [x] Read over top to bottom and made minor changes.
-
-### 2020-06-14 Done Checklist Reformulating Relationships Chapter
-
-- [x] Marking standard trigger words in red, with search and replace, possibly marking questionable trigger words with a star (*) too.
-- [x] ~~Manually marking trigger words in red:~~
-    - [x] ~~Might not give high priority to marking trigger words manually anymore.~~
-- [x] ~~Possibly manually mark questionable trigger words with a star (*) too.~~
-- [x] ~~Finding replacement words, possibly using online thesaurus.~~
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
-
-
-Classes | Tone Change (Done)
-----------------------------
-
-### 2020-06-11 Done Reformulating Classes Chapter
-
-- [x] I made text changes, which may have resulted in more trigger words again. Maybe mark those and solve those.
-    - [x] Hoping to do the last time of marking and reformulating trigger words.
-- [x] I am not sure this open language stuff made it much clearer. It looks to me like using more words than necessary, which may make reading it harder. But that might be specifically how I would see it. I may just be tired. Often.
-
-### 2020-06-11 Done Reformulating Classes Chapter
-
-- [x] Marking trigger words in red.
-- [x] Possibly mark questionable trigger words with a star (*) too.
-- [x] Finding replacement words, possibly using online thesaurus.
-    - [x] I seem less motivated, because I question the validity of the idea, so this action may seem futile.
-    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Encircle Language Spec, but an Encircle Broader View idea. So even though I might not use it in Encircle Language Spec, I might still appreciate it as an idea outside of that.
-    - [x] I get anxiety if something seems unuseful to me. It's a thing.
-    - [x] I am done with this, but I feel uneasy about the ideas. 
-- [x] I might go over the loose ideas in the document and cross out or distribute those.
-- [x] Going over the document again to reformulate.
-    - [x] I also have second thoughts about the order of subjects.
-    - [x] I am not well able to follow text right now, it appears, so this might be for later.
-    - [x] Maybe not literally follow the words, maybe shift around topics and draw pictures, to make it better.
-- [x] Pictures:
-    - [x] Maybe draw new ones in one go, on paper and then scan it.
-    - [x] Sometimes borrow (pieces of) other pictures
-    - [x] Or simplify pictures by editing them.
-    - [x] Maybe write out more what the pictures mean precisely.
-        - [x] Now that I do that, some fragments seem duplicates. 'Using Dashed Shapes' now seems a repetition of things said elsewhere.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
-
-
-Objects | Tone Change (Done)
-----------------------------
-
-### 2020-06-11 Done Content Changes for Objects Chapter
-
-- [x] Object Reference section may start with a more basic image of the concept, / along side the more composite picture it might display now.
-- [x] I might be explaining multiplicity as a concept in quite some detail. Should it be more about the notation?
-- [x] Outtakes:
-    - [x] ~~From 'Multiplicity' (might use this text in the future again): There might be different words that can be used to express the concepts of single and multiple.~~
-
-### 2020-06-07 Done Reformulating Objects Chapter
-
-- [x] Marking trigger words in red.
-- [x] Possibly mark questionable trigger words with a star (*) too.
-- [x] Finding replacement words, possibly using online thesaurus.
-    - [x] Changes to the 'Multiplicity' topic went a bit overboard. Trying to revert it a bit.
-- [x] I might go over the loose ideas in the document and cross out or distribute those.
-- [x] Going over the document again to reformulate.
-    - [x] Would I replace 'related object' with just 'object' in certain cases for simplicity?
-- [x] Pictures:
-    - [x] Maybe draw new ones in one go, on paper and then scan it.
-    - [x] Sometimes borrow (pieces of) other pictures
-    - [x] Or simplify pictures by editing them.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
-
-
-Basic Diagram Elements | Tone Change (Done)
--------------------------------------------
-
-### 2020-06-01 Done Reformulating Basic Diagram Elements
-
-- [x] Marking trigger words in red.
-- [x] Possibly mark questionable trigger words with a star (*) too.
-- [x] Finding replacement words, possibly using online thesaurus.
-- [x] I might go over the loose ideas in the document and cross out or distribute those.
-- [x] Going over the document again to reformulate.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea disrupts anything, when I may not entirely agree with it myself.
 
 
 Planning Docs | Tone Change
@@ -2331,10 +1852,354 @@ I am cleaning up New Computer Language, Products.doc: simplified color coding, r
 - [ ] ~ 2010-05 02 Inheritance Spec, Products List.docx
 
 
-Planning Docs | Content Changes (Done)
---------------------------------------
+Done
+----
 
-### 2020-04-15 Done Encircle Language Spec Planning Docs
+### Git Migration
+
+#### 2020-02-03 Done Notes Planning Docs Git Migration
+
+- [x] Isolating a git repository with just the Encircle Docs planning out of a git repository with planning docs of misc subjects.
+- [x] Combining parts into 1 script,
+- [x] Rerunning scripts on the very latest version.
+- [x] Do checks by sampling.
+    - [x] KDiff lists of files in history of previous and new run.
+        - [x] I see newer files appear in the new list.
+    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Use Visual Studio checking 'by hand' the histories of some files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+- [x] Archived things in JJs-Planning-Doc.
+- [x] Organizing Encircle-Language-Spec-Plan (e.g. moving lost topics to an appropriate spot).
+
+#### 2020-02-03 Done Planning Docs Git Migration
+
+- Folders in current version:
+    - \Encircle Language Spec Plan
+    - \Other\2. Future\Postponed\1. Encircle Language Spec (Out of Scope)
+    - \Other\3. Done\2008 - 2008 Encircle Language Spec (Out of Scope)
+- [x] Might try to strip a git repository's major parts that are out of scope, just as a start.
+    - [x] Scripted
+    - [x] Ran
+    - [x] Checked diff of lists of files in full history.
+- [x] Might weed out major blocks with exceptional cases in it.
+- [x] May check document contents for that to make decisions.
+- [x] Checking: KDiff full lists of files in history of before and after.
+- [x] Corrected script
+- [x] Rerun
+- [x] Checking:
+    - [x] KDiff lists of files in history of previous and new run.
+    - [x] Use Visual Studio checking 'by hand' the histories of each files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+- [x] ~~Try removing content with my brother's first name in it.~~
+
+#### 2020-12-03 Done Git Migration: Removing "Creator"
+
+- [x] Considering removal of Creator 0.4 and 0.9 from Encircle-Docs.
+- [x] Removing more seems doable with a smaller additional run at the end.
+- [x] I am quite unsure about involving the "Creator" topics. I once thought I might merge Creator and Encircle Language into one. But now I think Creator might be much about framework (code generation, aspects, generated user interfaces). Framework was deemed out of scope. I am unsure, because the topics of Creator and Encircle Language seems to overlap.
+- [x] Creator may partially be about programming language, but a lot might be considered better solvable by a framework/library solution. So this seems ambiguous.
+- [x] Creator 0.4 and 0.9 would be code generator / aspects / framework, while Creator 2.0 looks more like a bit a programming language. It has a text code and a parser and everything. But I guess a totally different programming language than Encircle. Perhaps Creator 0.4 and 0.9 should be moved to framework , ~~while Creator 2.0 is actually more in scope as a programming language.~~
+- [x] Reading the Creator documentation I start having doubts. How would relational / aspect oriented look in Encircle? If Encircle could harbor constructs that make it possible to program things as was dreamed about with Creator, then would the goal Symbol = Creator be reached? And how would it look? I think I would have a way to define aspects in a general sense. I do not seem to know how yet precisely. Nor do I seem to have the time / priority / ability to work it out. ~~So in the meantime it seems Creator should still be part of this.~~
+- [x] I believe I saw in plans and documentation that comparing Creator with Encircle actually seems to have enriched Encircle the language. Concretely with multiplicity, creation/destruction/new/annul/null, a notation for bidirectional relations, reflection and extension ideas. Also some ideas that might only have complicated things a bit, that I was not quite able to work out (perhaps less recognizable ideas like: "automatic containment" and "flat & structure interchange"). I believe that the future Creator ideas could inspire more enrichment of the Encircle language. Perhaps with aspect oriented and more system extensions features, I was once thinking about. I just cannot picture it yet. I think it might be best to leave that an open question and keep the Creator documentation involved in this repository, perhaps for future inspiration. > I might see it more like one system being inspiration for another. The planning also excluded Creator 2.0, so perhaps the product documentation should too. I think the article Symbol = Creator would introduce that idea. So I may leave that in there.
+
+#### 2021-01-16 Done Git Migration
+
+- [x] Checkout a more recent commit and compare in KDiff the whole folder of Encircle-Docs and Software-System-Docs.
+- [x] Moving around things in Encircle-Docs
+- [x] Archiving things in Software-System-Docs
+
+#### 2020-01-16 Done Git Migrations
+
+- [x] Finishing analysis of things to remove.
+- [x] Changing the scripting with corrected removals
+- [x] Rerunning the script
+- [x] More practical checks?
+    - [x] Using KDiff to compare this run and previous run's lists of all files in history.
+    - [x] ~~The 'preparation' Excel, for the pictures.~~ > Diff between two runs might say enough.
+    - [x] ~~Viewing all pictures in master.~~ > Diff between two runs might say enough.
+    - [x] Comparing *master's* lists of files (using KDiff and/or JJ Utilities)
+    - [x] Checking out some commits and looking at the checked out file tree?
+        - [x] I was insecure about the first few commits. History does not seem to map back easily to those first few commits. ("Version 2008-07-13 XX: Before ordering it more by how you read it" seems the 'terminator' quite frequently.)
+- [x] More laborious checks?
+    - [x] Checking each remaining file for completeness of history
+        - [x] 1.1. Encircle Language Spec
+        - [x] 1.2. Encircle Constructs Drafts
+        - [x] 1.3. Encircle Broader View
+        - [x] 2. Framework
+        - [x] 3. Operating System
+        - [x] 5. Archive
+    - [x] Comparing lists of all files in history.
+    - [x] ~~Do over inspections of file trees of each commit?~~
+    - [x] ~~Inspecting what more might be erroneously removed from the first 'large' commits?~~
+    - [x] ~~Incremental commits may harbor things to remove too.~~
+- [x] Possible plan for next run:
+    - [x] Scripting with new corrections.
+    - [x] Running new script.
+    - [x] Random sampling some check-outs (+ folder diffs between Encircle-Docs and Software-System-Docs).
+    - [x] Random sampling of history of single files.
+    - [x] Comparing 'before' and 'after' file lists.
+
+#### 2021-01-16 Done Brainstorm Git Migration
+
+I seemed to have removed "Operating System" topics. With that the version history of internet as a single computer.
+
+I might have been focusing on what remains, less on what was removed.
+
+Brainstorm:
+
+There seem to be 3 categories of commits:
+
+1) large version folders at the beginning
+2) smaller version folders in the middle
+3) incremental commits at the end
+
+For the large ones I seem to have mostly inspected the file trees.  
+For the middle one I seem to have mostly inspected the commit's (file) list.  
+The last incremental one I do not seem to have inspected yet.  
+I also do not seem to have inspected the total file list from history yet.
+
+#### 2020-02-02 Done Git Migration Corrections
+
+- [x] Could keep:
+    - [x] "0. Introduction/2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
+    - [x] "0. Introduction/Interesting Old Introduction To J Data.doc"
+    - [x] "00. General/00. 2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
+    - [x] "00. Introduction/2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
+    - [x] "01. Introduction/2007-09-23 00    0.9a/Interesting Old Introduction To J Data.doc"
+    - [x] "01. Code/4. Coding Concepts/03.01. Default Values/Default Values.doc"
+    - [x] "02. Code/3. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
+    - [x] "02. Code/4. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
+    - [x] "03. Code/04. Concepts/Coding Concepts/4.1. Default Values/Default Values.doc"
+    - [x] "2. Framework/2. Data Concepts/10.01. Defaults/12.01. Default Values/Default Values.doc"
+    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
+    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+    - [x] "02. Code/3. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
+    - [x] "02. Code/3. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+    - [x] "02. Code/4. Data Concepts/6.0. Persistence Delay/6.1. Locking/Locking.doc"
+    - [x] "02. Code/4. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
+    - [x] "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.1. Locking/empty.txt"
+    - [x] "03. Code/04. Concepts/Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+    - [x] "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.1. Locking/Locking.doc"
+    - [x] "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
+- [x] Can remove:
+    - [x] "1. Language/1. Language/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+    - [x] "10. Encircle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+    - [x] "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
+    - [x] "02. Code/3. Coding Concepts/05. System Objects/XXXX-XX-XX XX/60. Connectors/~WRL3057.tmp"
+    - [x] "02. Code/3. Coding Concepts/11. Interfaces/2010-05-07 XX    0.95/1. Introduction/~WRL1420.tmp"
+    - [x] "1. Language/1. Language/3. Code Concepts/05. System Objects/XXXX-XX-XX XX/60. Connectors/~WRL3057.tmp"
+    - [x] "1. Language/1. Language/3. Code Concepts/11. Interfaces/2010-05-07 XX    0.95/1. Introduction/~WRL1420.tmp"
+
+#### 2021-01-24 Done Git Migration Corrections
+
+- [x] Did the analysis it wrong? Sort of? The reasons this is so intense, might be that I am comparing full file lists in history now instead of master file lists.
+- [x] Kept a few extra pictures that seemed harmless.
+- [x] Should probably keep:
+- [x] "3. Operating System/4. Storage/1. Object Storage/Object Storage.doc"
+- [x] "17. Storage/1. Object Storage/Object Storage.doc"
+- [x] Might remove:
+    - [x] "01. Code/5. Data Concepts/1.1. Registration Lists/Registration Lists.doc"
+    - [x] "01. Code/5. Data Concepts/1.2. Item Remove/Item Remove.doc"
+    - [x] "01. Code/5. Data Concepts/2.0. Undouble/2.1. Undouble/empty.txt"
+    - [x] "01. Code/5. Data Concepts/2.0. Undouble/2.2. Undoubled Relations/Undoubled Relations.doc"
+    - [x] "01. Code/5. Data Concepts/3.0. Collection/3.1. Filters, Sorts, Searches, Joins & Indexes/Filters, Sorts, Searches, Joins & Indexes.doc"
+    - [x] "01. Code/5. Data Concepts/3.0. Collection/3.2. Collection/Collection.doc"
+    - [x] "01. Code/5. Data Concepts/3.0. Collection/3.3. SQL & Tables/SQL & Table Approach.doc"
+    - [x] "01. Code/5. Data Concepts/3.0. Collection/Collection.doc"
+    - [x] "01. Code/5. Data Concepts/4.0. Search/4.1. Find/empty.txt"
+    - [x] "01. Code/5. Data Concepts/4.0. Search/4.2. Find Or Add/empty.txt"
+    - [x] "01. Code/5. Data Concepts/4.0. Search/4.3. Wildcards/Wildcards.doc"
+    - [x] "01. Code/5. Data Concepts/5.0. Import & Export/5.1. Import & Export/Import & Export.doc"
+    - [x] "01. Code/5. Data Concepts/5.0. Import & Export/5.2. XML/XML.doc"
+    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.1. Locking/Locking.doc"
+    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.2. Transactions/Transactions.doc"
+    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.3. Apply, Ok, Cancel/Apply, Ok, Cancel.doc"
+    - [x] "01. Code/5. Data Concepts/6.0. Persistance Delay/6.4. Streaming Access/Streaming Access.doc"
+- [x] Might like to keep:
+    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/1. Circularities/empty.txt"
+    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/2. Circularity Handling/empty.txt"
+    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/3. Pointer Circularity/Pointer Circularity.doc"
+    - [x] "2. Framework/1. Code Concepts Extended/2. Circularity/Circularity.doc"
+    - [x] "2. Framework/1. Code Concepts Extended/Code Concepts Extended.doc"
+- [x] Might keep:
+    - [x] "04. Security & Safety/1. Access Control/Access Control.doc"
+    - [x] "16. Security & Safety/1. Access Control/Access Control Ideas.doc"
+    - [x] "16. Security & Safety/1. Access Control/Access Control.doc"
+    - [x] "18. Security & Safety/Access Control/Access Control.doc"
+    - [x] "3. Operating System/3. Security & Safety/1. Access Control/Access Control Ideas.doc"
+
+#### 2021-01-23 Done Git Migration Corrections
+
+- [x] Collapsing individual picture file removals into more whole folder removals.
+- [x] Keeping index pages:
+    - [x] In the area of 'broader view' perhaps.
+    - [x] With the general idea how it might work in Encircle.
+- [x] "Integration" / "Legacy" (index pages)
+    - [x] For instance: "2. Framework\0. Language\2. Integration\Integration.doc"
+    - [x] Gathering paths.
+    - [x] Commenting out paths to keep.
+    - [x] ~~Collapsing some things to whole folders.~~
+- [x] "Expression" (index pages)
+    - [x] For instance: "2. Framework\0. Language\1. Language\6. Expression\Expression.doc"
+    - [x] Seems already there, except a *copy* placed under "Framework".
+- [x] "More Text Codes" / "Legacy Text Codes" / "Additional Text Codes" (index pages)
+    - [x] For instance: "2. Framework\0. Language\1. Language\6. Expression\6. More Text Codes\More Text Codes.doc"
+    - [x] Gathering paths.
+    - [x] Commenting out paths to keep.
+    - [x] Collapsing some things to whole folders.
+- [x] "Protocols" (index pages)
+    - [x] For instance: "2. Framework\0. Language\2. Integration\7. Protocols\Protocols.doc"
+    - [x] Gathering paths.
+    - [x] Commenting out paths to keep.
+    - [x] ~~Collapsing some things to whole folders.~~
+    - [x] ~Stripping subsequent removals.
+- [x] "Framework" (index pages)
+    - [x] Framework seems deleted as a whole somewhere. Trying to be more selective.
+- [x] "Libraries" (index pages)
+    - [x] For instance: "2. Framework\0. Language\3. Libraries\Libraries.doc"
+    - [x] Gathering paths.
+    - [x] Commenting out paths to keep.
+    - [x] Collapsing some things to whole folders.
+    - [x] Stripping subsequent removals.
+- [x] "Object Storage" (index pages)
+    - [x] For instance: "3. Operating System\4. Storage\1. Object Storage\Object Storage.doc"
+    - [x] Gathering paths.
+    - [x] Commenting out paths to keep.
+    - [x] Collapsing some things to whole folders.
+    - [x] Stripping subsequent removals.
+
+#### 2019-08-04 Done Notes converting version folders to source control history
+
+This is a lot of work.
+
+- [x] Exp: Search for XXXX in the folder "Encircle Docs\1. Language".
+- [x] Obs: 54 matches.
+- [x] Hyp: 54x a version folder structure to convert to source control history.
+- [x] Less than I thought and probably doable.
+- [x] Maybe rename all commits, putting the version number in front, so it is more apparent that it is alternative source control history.
+
+#### 2019-08-05 Done Version Control
+
+There is a folder 'Previous Versions' that would make you think you forgot to put those at the beginning of the conversion from version folders source control history. But they are not necessarily previous versions of documentation, but more like previous versions of systems.
+
+#### 2019-08-10 Done Brainstorm complexity in preserving rename history
+
+The version folders I have left to convert to source control history are complex, if you also try to get a rename mapping in check. Even if you ignore the rename mapping, you have quite some work to do.
+
+It was not expected that there would be such complexity in preserving rename history, but noticing that there is, makes me re-evaluate my plans.
+
+To get overview of the amount of version folders still to cover: The version folders are visible on the 'root' level per chapter. The amount of version control on *sub-*topics is limited to just one (24. Creation Behavior Of Calls). Its about the *main* topics: Commands, Parameters, Module, Execution Control, Black Boxing, Interfaces, Events and    Inheritance. One of those topics has intensely many version folders (Black Boxing). About 3 topics have a 'normal' amount of version folders. The others have a quite small amount of version folders. If you ignore trying to preserve rename history, then you might be done today. If you try to preserve rename history, it will take you probably many days, like 4 or something. And I think the motivation will recede if I do that.
+
+So I have already made my choice. I will not make effort to preserve rename history. I will just methodically convert the version folders to source control commits.
+
+#### 2019-08-11 Done Basic Math Version Folder to Source Control History?
+
+The 2 versions' contents:
+
+2005-01-06 00 Former Documentation:
+
+> Any programming topic about math I had at the time is thrown into one document here:
+>
+> - JMath 0.9 docs in Dutch
+> - Simple Math operators
+> - Ideas about 'regulated systems'
+> - Number Bases
+> - Brainstorm: Some alternative wordings and loose ideas written down.
+> 
+> The XXX version is only Simple math operators and how they can be implemented as objects.
+
+Idea bout converting version folder to source control history:
+
+> So they are not mutually exclusive at all.  
+> I have doubt whether I should even do the conversion from version folders to source control history here.
+> Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.  
+>
+> The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of the new computer language. But... none of this documentation is well worded to support that concept...
+
+#### 2019-08-11 Done Controls Concepts Version Folders to Source Control History
+
+- [x] I can convert the version folders to source control history the regular way, because each successive version does seem to replace the former version.
+- [x] Where is that navigation model brainstorm?
+    - [x] It is in the control concepts' root folder. It has a doc in it directly, which I overlooked.
+
+### Search Tools
+
+#### 2020-04-09 Done Explore (Content) Search Options
+
+- [x] Exp: Visual Studio Find in Files
+- [x] Obs~ Some paths are too long...
+- [x] The file had a path of 260, which I think is the max for Windows 7, but some API's use 255 as a max.
+- [x] Exp: Shorten to 255. Find in Files again
+- [x] Obs~ Error is gone.
+- [x] Exp: Get rid of an intermediate folder to shorten the path and still keep descriptive names.
+- [x] Obs~ Visual Studio Find in Files will not search doc contents.
+- [x] Hyp:    Windows 7 File Explorer will not find whole words. For some things that's relevant for other things it is not. (I thought I saw it).
+- [x] Exp: search "*.doc"
+- [x] Obs: Now it does not match "*.docx".
+- [x] Hyp: I thought I saw that some times.
+- [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Encircle Language Spec Plan". Search "content:Joost".
+- [x] Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.
+- [x] Hyp: File properties?
+
+### Publishing
+
+#### 2021-02-09 Done Publishing
+
+- [x] Readme's?
+- [x] Just publishing it?
+- [x] Durable links:
+    - [x] Renumbering the sections, the URL's might not stay constant. A not-numbered file name and an index/contents page with links might be an alternative.
+- [x] Replacing swear words
+- [x] The name "Circle" is used by a similar product. Should I rename? And to what?
+    - [x] "Encircle"
+    - [x] ~~Considered alternatives: "Symbol" / "JJ's Computer Language" / "JJ's Visual Language" / "This Computer Language".~~
+    - [x] In main repo:
+        - [x] Replacing "Circle" with "Encircle" in content
+        - [x] Replacing "circle" with "encircle" in doc file names (and links to them)
+        - [X] Correcting heading layout
+        - [x] Replacing "Encircle 3" and with "Circle 3"
+        - [x] Double-checking occurrences of "Encircle"
+        - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
+    - [x] In planning docs repo:
+        - [x] Replacing "Circle" with "Encircle" in content
+        - [x] Replacing "circle" with "encircle" in doc file names
+        - [x] Correcting heading layout
+        - [x] Correcting articles ("a" / "an"): Correcting "a Encircle" to "an Encircle" (and "a *Encircle*" as well)
+        - [x] ~ Double-checking occurrences of "Encircle"
+    - [x] Renaming the repo's
+    - [x] Merging changes
+
+#### 2019-08-05 Done Open Source
+
+- [x] How do you even license documentation?
+    - [x] I wanted to throw an MIT license against it, but that is for code... hmm...
+    - [x] Here is some information: <https://dreamsongs.com/IHE/IHE-50.html> 
+    - [x] This might be something: FreeBSD Documentation License
+    - [x] It basically seems an MIT license, but then for documentation.
+- [x] ~~Is it really such a good plan to open source it? Am I really not just throwing away money? Maybe it is better to wait with that decision, after I know where things are heading with work and income? > Think I will do it anyway.~~
+- [x] There is an '... IPC Parse.doc' text in the source control history. It should be deleted. I guess I have to search for intellectual property problems. This in docs that are so intellectual property sensitive. Before open sourcing it, you need to do this intellectual property check.
+- [x] 2004-00-00 XX    Symbol Language\Symbol Pictures (Keep Packed, Paths Too Long).zip has intellectual property problems in Pictures\Diagram Examples.
+- [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm... If I didn't mention the source information it would not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down... not sure. > It think this is an unreasonable doubt.~~
+- [x] "Relational Structure"
+    - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name.
+    - [x] I think I would be better off removing that document from the Encircle-Language-Spec repository.
+- [x] Renaming Encircle-Language-Spec-Plan to Encircle-Language-Spec-Plans (plural).
+- [x] Reorganizing Broader View and Construct Drafts knowing they would also be published?
+
+#### 2019-02-08 Done Publishing: My Brother's First Name
+
+- [x] Is in some sub-project planning doc.
+- [x] I can take it out of the current version.
+- [x] Should I ask him if he is OK with it staying in the source control history or if he wants it out of there?
+- [x] Also in "2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects" his first name is mentioned.
+- [x] I may be better off removing some items of history from Encircle-Language-Spec-Plan completely for this purpose.
+- [x] There is also a split up between a doc for 'in-scope' and one for 'out-of-scope'.
+- [x] It is even in this document. This is really difficult to unravel. I think I can't without harming the integrity of the change history.
+- [x] I think I am better off asking my brother. If there was an easy option to take it out without harming the change history...
+- [x] > Waiting on brother's response. > He's fine with it.
+
+### Planning Docs | Content Changes
+
+#### 2020-04-15 Done Encircle Language Spec Planning Docs
 
 - [x] I finished 'Encircle Language Spec Strategy'.
 - [x] 'Encircle Language Spec Product List' seems finished.
@@ -2361,3 +2226,118 @@ Planning Docs | Content Changes (Done)
     - [x] The wording is in rougher format, but it is not very long, so should be doable.
     - [x] It may have out-of-scope content.
     - [x] Maybe read over again. Second time around it still seems kind of resolute.
+
+### Basic Diagram Elements | Tone Change
+
+#### 2020-06-01 Done Reformulating Basic Diagram Elements
+
+- [x] Marking trigger words in red.
+- [x] Possibly mark questionable trigger words with a star (*) too.
+- [x] Finding replacement words, possibly using online thesaurus.
+- [x] I might go over the loose ideas in the document and cross out or distribute those.
+- [x] Going over the document again to reformulate.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea disrupts anything, when I may not entirely agree with it myself.
+
+### Objects | Tone Change
+
+#### 2020-06-11 Done Content Changes for Objects Chapter
+
+- [x] Object Reference section may start with a more basic image of the concept, / along side the more composite picture it might display now.
+- [x] I might be explaining multiplicity as a concept in quite some detail. Should it be more about the notation?
+- [x] Outtakes:
+    - [x] ~~From 'Multiplicity' (might use this text in the future again): There might be different words that can be used to express the concepts of single and multiple.~~
+
+#### 2020-06-07 Done Reformulating Objects Chapter
+
+- [x] Marking trigger words in red.
+- [x] Possibly mark questionable trigger words with a star (*) too.
+- [x] Finding replacement words, possibly using online thesaurus.
+    - [x] Changes to the 'Multiplicity' topic went a bit overboard. Trying to revert it a bit.
+- [x] I might go over the loose ideas in the document and cross out or distribute those.
+- [x] Going over the document again to reformulate.
+    - [x] Would I replace 'related object' with just 'object' in certain cases for simplicity?
+- [x] Pictures:
+    - [x] Maybe draw new ones in one go, on paper and then scan it.
+    - [x] Sometimes borrow (pieces of) other pictures
+    - [x] Or simplify pictures by editing them.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+
+### Classes | Tone Change
+
+#### 2020-06-11 Done Reformulating Classes Chapter
+
+- [x] I made text changes, which may have resulted in more trigger words again. Maybe mark those and solve those.
+    - [x] Hoping to do the last time of marking and reformulating trigger words.
+- [x] I am not sure this open language stuff made it much clearer. It looks to me like using more words than necessary, which may make reading it harder. But that might be specifically how I would see it. I may just be tired. Often.
+
+#### 2020-06-11 Done Reformulating Classes Chapter
+
+- [x] Marking trigger words in red.
+- [x] Possibly mark questionable trigger words with a star (*) too.
+- [x] Finding replacement words, possibly using online thesaurus.
+    - [x] I seem less motivated, because I question the validity of the idea, so this action may seem futile.
+    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Encircle Language Spec, but an Encircle Broader View idea. So even though I might not use it in Encircle Language Spec, I might still appreciate it as an idea outside of that.
+    - [x] I get anxiety if something seems unuseful to me. It's a thing.
+    - [x] I am done with this, but I feel uneasy about the ideas. 
+- [x] I might go over the loose ideas in the document and cross out or distribute those.
+- [x] Going over the document again to reformulate.
+    - [x] I also have second thoughts about the order of subjects.
+    - [x] I am not well able to follow text right now, it appears, so this might be for later.
+    - [x] Maybe not literally follow the words, maybe shift around topics and draw pictures, to make it better.
+- [x] Pictures:
+    - [x] Maybe draw new ones in one go, on paper and then scan it.
+    - [x] Sometimes borrow (pieces of) other pictures
+    - [x] Or simplify pictures by editing them.
+    - [x] Maybe write out more what the pictures mean precisely.
+        - [x] Now that I do that, some fragments seem duplicates. 'Using Dashed Shapes' now seems a repetition of things said elsewhere.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+
+### Relationships | Tone Change
+
+#### 2020-06-26 Done Reformulating Relationships Chapter
+
+- [x] Redo trigger word analysis?
+    - [x] I do think I see the pitfall of trigger words.
+    - [x] Maybe do another trigger word analysis.
+    - [x] I think I wanted to reconsider how I perform these trigger word analyses.
+    - [x] Perhaps a standard list of words might be marked.
+    - [x] I might want to reconsider the list of standard words, that I might mark with find and replace.
+    - [x] Then manually spotting words of resoluteness.
+    - [x] Replacing trigger words.
+- [x] I do not seem to emphasize "bidirectional" much in the text of section "Bidirectional Relationships Between Objects". In "Bidirectional Relationships" from "1 to N Relationship" onward I also do not seem to mention the word "bidirectional" very much anymore. It might be welcome to repeat that every now and again, perhaps in each section have the word "bidirectional" in there at least once if it has anything to do with that.
+- [x] Possible over-use of the word 'related'?
+- [x] Read over top to bottom and made minor changes.
+
+#### 2020-06-14 Done Checklist Reformulating Relationships Chapter
+
+- [x] Marking standard trigger words in red, with search and replace, possibly marking questionable trigger words with a star (*) too.
+- [x] ~~Manually marking trigger words in red:~~
+    - [x] ~~Might not give high priority to marking trigger words manually anymore.~~
+- [x] ~~Possibly manually mark questionable trigger words with a star (*) too.~~
+- [x] ~~Finding replacement words, possibly using online thesaurus.~~
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+
+### Assignment | Tone Change
+
+#### 2020-07-04 Done Checklist Reformulating Assignment Article
+
+- [x] Fine-tune styling.
+- [x] Evaluating if texts are in scope, possibly moving them.
+    - [x] Moved pointer assignment topics to the Pointers chapter.
+    - [x] Cross-Aspect Assignments still seems to have pointer-related parts.
+- [x] Marking trigger words in red.
+    - [x] With find and replace
+    - [x] Manually
+    - [x] Over-used words? "The"?
+- [x] Finding replacement words, possibly using online thesaurus.
+- [x] Put subjectivity in perspective.
+- [x] Change the orange markings (pictures, texts to move or change).
+- [x] Pictures:
+    - [x] Maybe draw new ones in one go, on paper and then scan it.
+    - [x] Sometimes borrow (pieces of) other pictures
+    - [x] Or simplify pictures by editing them.
+- [x] Merge conceptual/diagram explanations:
+    - [x] When I reformulate things top to bottom, I might at one point feel that the merging of conceptual explanation and diagram explanation is actually finished, because right now, often they are put near each other, but not really became one merged text.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
+- [x] Going over the document again to reformulate.
+- [x] Spell check.
