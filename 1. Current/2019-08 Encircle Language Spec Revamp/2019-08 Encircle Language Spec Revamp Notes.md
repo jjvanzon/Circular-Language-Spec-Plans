@@ -12,14 +12,15 @@ Contents
     - [Scope](#scope)
     - [Strategy](#strategy)
     - [Information](#information)
-- [Rough Content Reorganization](#rough-content-reorganization)
-- [Scoping](#scoping)
-- [MarkDown](#markdown)
-- [Tone Change | in General](#tone-change--in-general)
-- [Planning | in General](#planning--in-general)
-- [Commands | Tone Change](#commands--tone-change)
-- [System Objects | Tone Change](#system-objects--tone-change)
-- [Planning Docs | Tone Change](#planning-docs--tone-change)
+- [TODO](#todo)
+    - [Rough Content Reorganization](#rough-content-reorganization)
+    - [Scoping](#scoping)
+    - [MarkDown](#markdown)
+    - [Tone Change | in General](#tone-change--in-general)
+    - [Planning | in General](#planning--in-general)
+    - [Commands | Tone Change](#commands--tone-change)
+    - [System Objects | Tone Change](#system-objects--tone-change)
+    - [Planning Docs | Tone Change](#planning-docs--tone-change)
 - [Done](#done-7)
     - [Git Migration](#git-migration)
     - [Search Tools](#search-tools)
@@ -166,12 +167,14 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
     - Google Translate: <https://translate.google.com/>
 
 
-Rough Content Reorganization
-----------------------------
+TODO
+----
 
-### TODO
+### Rough Content Reorganization
 
-#### 2021-03-23 TODO Rough Content Reorganization
+#### TODO
+
+##### 2021-03-23 TODO Rough Content Reorganization
 
 - [x] Correcting links from Plans repo's Readme to Spec repo.
 - [ ] Planning docs reorganization:
@@ -196,9 +199,9 @@ Rough Content Reorganization
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
 
-### Done
+#### Done
 
-#### 2021-03-23 Done Rough Content Reorganization
+##### 2021-03-23 Done Rough Content Reorganization
 
 - [x] Updating headings to reflect new folder organization.
 - [x] Moved images (after the folder organization changes).
@@ -209,7 +212,7 @@ Rough Content Reorganization
     - [x] "Object Storage"
 - [x] ~~Spreading "Old Or Boring" topics over the documents. > Cannot find it anymore.~~
 
-#### 2021-03-14 Done Rough Content Reorganization
+##### 2021-03-14 Done Rough Content Reorganization
 
 - [x] Moves from "Spec" to "Construct Drafts":
     - [x] "Previous Versions"
@@ -238,7 +241,7 @@ Rough Content Reorganization
 - [x] Split "Fundamental Principles Overview" over "Exchangeability", "Extensibility" and "Achievability".
 - [x] Merging together "Flat and Structured Interchange" documents.
 
-#### 2020-05-24 Done Merge More Articles
+##### 2020-05-24 Done Merge More Articles
 
 - [x] More articles from the first chapters might be merged together.
 - [x] Structure changes:
@@ -255,7 +258,7 @@ Rough Content Reorganization
     - [x] System Objects
     - [x] Commands
 
-#### 2020-05-27 Done Merging More Commands Articles Together
+##### 2020-05-27 Done Merging More Commands Articles Together
 
 - [x] Redirection and recursion seem to have some overlap conceptually.
 - [x] Maybe "05. Comparison to CPU-Like Calls belongs in 04. Creation Behavior Of Commands."
@@ -271,7 +274,7 @@ Rough Content Reorganization
 - [x] "10. Commands Ideas" > Larger > Keep separate
 - [x] "11. This (unfinished)" > Smaller > Misc-ish
 
-#### 2020-05-26 Done Merging More System Objects Articles Together
+##### 2020-05-26 Done Merging More System Objects Articles Together
 
 - [x] Last time it seems I only merged together a few large groups of articles into their main topic.
 - [x] Right now I feel maybe the first 5 could be merged into one.
@@ -292,7 +295,7 @@ Rough Content Reorganization
 - [x] "10. List Concept" > Medium sized > Keep separate
 - [x] "11. System Objects Ideas" > Larger > Keep separate
 
-#### 2020-05-25 Done Merging More Relationships Articles Together
+##### 2020-05-25 Done Merging More Relationships Articles Together
 
 I feel merging the articles together is not something I necessarily want to do right now. I am not sure why those two things are connected to each other in my view.
 
@@ -302,7 +305,7 @@ Some articles are smallish or sort of medium sized. I think I could just make it
 
 Still want to change the fonts.
 
-#### 2020-05-16 Done Formatting and Article Merging and Distributing
+##### 2020-05-16 Done Formatting and Article Merging and Distributing
 
 - [x] ~~Maybe put Type Control out of scope? > Deemed less important to consider right now.~~
 - [x] So, what's next?
@@ -343,7 +346,7 @@ Still want to change the fonts.
     - [x] Summaries of Other Languages
     - [x] Previous Versions
 
-#### 2020-05-24 Done Merging and Redistributing Remaining Articles
+##### 2020-05-24 Done Merging and Redistributing Remaining Articles
 
 Maybe going into detail about this is not part of the editing phase I am putting these articles through.
 This is what the Encircle Language Spec Overview calls the 'unfinished' part. So for that reason it seems less straight forward.
@@ -396,7 +399,7 @@ But I might want to be selective about it.
     - [x] This folder structure seems off when there is essentially only one version, as one document in it.
     - [x] (There used to be multiple versions in one folder. Those were put out of scope of the Encircle Language Spec.)
 
-#### 2020-05-23 Done Merging Inheritance Articles Together
+##### 2020-05-23 Done Merging Inheritance Articles Together
 
 Most of them are quite small.
 Grouping together main concepts into one article might make sense.
@@ -445,7 +448,7 @@ The articles that follow do not seem to be many or they are already larger ones 
 - 31. Inheritance Ideas > Medium-sized
 ```
 
-#### 2020-05-22 Done Merging Events Articles Together
+##### 2020-05-22 Done Merging Events Articles Together
 
 Possibly this is one you want to put into a single document.  
 Most of them are small.
@@ -475,7 +478,7 @@ The last 3 articles might become a single 'misc' article. But perhaps some of th
 - 99. Ideas > Smallish
 ```
 
-#### 2020-05-22 Done Merging Interfaces Articles Together
+##### 2020-05-22 Done Merging Interfaces Articles Together
 
 ```
 - 01. Interfaces Introduction > Small
@@ -512,7 +515,7 @@ Maybe move the Loose Ideas all to a separate article at the end.
 
 I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Encircle Language Spec, and perhaps leave as a topic for Encircle Construct Drafts. But right now the idea seems embedded into the Encircle Language Spec, and without significant modification, it does not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
 
-#### 2020-05-20 Done Merging Black Boxes Articles Together
+##### 2020-05-20 Done Merging Black Boxes Articles Together
 
 There are quite a few relatively small articles.
 But I have doubts how to group them to bigger articles.
@@ -565,7 +568,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - "23.1. Black Box Details, May Not Cover, Simplified Access Control Expression"
     - "23.2. Black Box Details, May Not Cover, Simplified Access Control Expression in Text Code"
 
-#### 2020-05-20 Done Merging Execution Control Articles Together
+##### 2020-05-20 Done Merging Execution Control Articles Together
 
 - [x] I think I want to merge it into the following set of articles:
     - [x] "1.0.1. Introduction to Execution Control"
@@ -577,7 +580,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] I just wanted to save some time merging each pair of documents lots of times only to merge them into a larger document again.
 - [x] Taking a look at how it looks now.
 
-#### 2020-05-20 Done Merging Parameters Articles Together
+##### 2020-05-20 Done Merging Parameters Articles Together
 
 - [x] ~~Maybe merge all the Parameters content into one article if it is not too much.~~
 - [x] Relatively small:
@@ -592,7 +595,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Merging together seems appropriate.
 - [x] ~~I think I want to merge things together in phases, before I decide whether or not I want to turn it into just one bigger article.~~
 
-#### 2020-05-18 Done Merging Commands Articles Together
+##### 2020-05-18 Done Merging Commands Articles Together
 
 - [x] I still mean to rename the docs so the 'in a Diagram suffixes are gone.
 - [x] Could not see a pattern in what I would want browsing the first few documents.
@@ -640,7 +643,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] "17. Command Object Referrers.docx"
     - [x] "18. Command Definition Referrers.docx"
 
-#### 2020-05-18 Done Merging System Objects Articles Together
+##### 2020-05-18 Done Merging System Objects Articles Together
 
 - [x] Deciding what to do with these, was a bit intense. Especially when I hit a part of the content I have reservations about.
 - [x] System Commands:
@@ -657,7 +660,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] ~~Misc topics at the end:~~
     - [x] ~~Not sure yet if merging is appropriate.~~
 
-#### 2020-05-16 Done Reorganize Encircle Language Spec Files
+##### 2020-05-16 Done Reorganize Encircle Language Spec Files
 
 - [x] The bulk of the content is in the Coding Concepts.
 - [x] Diagram Expression content:
@@ -725,7 +728,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] I think I would remove most of them, and only keep a couple.
     - [x] Oh, I am done.
 
-#### 2020-04-01 Done Encircle Language Spec Planning Docs
+##### 2020-04-01 Done Encircle Language Spec Planning Docs
 
 - [x] Empty project folders:
     - [x] I could evaluate whether those empty planning docs folders are needed.
@@ -796,7 +799,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - [x] ~~It starts being not so functional anymore, the changes.~~
 - [x] I somehow don't trust this is all there's to it about Encircle Language Spec planning docs. Look over the state of it. It *would* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
 
-#### 2020-03-22 Done Organize Planning Docs
+##### 2020-03-22 Done Organize Planning Docs
 
 - [x] I moved around folders, for a preliminary split up between Encircle Docs and Circle 3 Programming projects.
 - [x] I could change titles of projects inside the doc content too.
@@ -834,19 +837,18 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Then it is basically just loose ideas, that might have been given a too prominent place. Maybe put it elsewhere, if it is just unhelpful for visual overview, perhaps. > Some are more than that. I keep em this way.
 - [x] I like that I seem to build tolerance (back) for not exactly knowing where I am going with it, gradually shaping it, and just taking my time to make things more overviewable, regardless of whether someone might think it is time well spent or not. I myself just create more overview and understanding of the material that way.
 
-### Postponed
+#### Postponed
 
-#### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
+##### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 
-Scoping
--------
+### Scoping
 
-### Done
+#### Done
 
-#### 2020-12-05 Done Scope (for Git Migration)
+##### 2020-12-05 Done Scope (for Git Migration)
 
 - [x] Outline:
     - [x] It currently seems to be part of a Software System Docs repository.
@@ -911,13 +913,13 @@ Scoping
         - [x] "C:\Repositories\Software System Docs\2. Framework\2. Data Concepts\12. Scans\Image62.jpg"
     - [x] Archive: Might be selective about files in "Archive" folder.
 
-#### 2019-08-05 Done Brainstorm Scope
+##### 2019-08-05 Done Brainstorm Scope
 
 - [x] Encircle Broader View: Maybe the design of the programming language should lose some ambition and express that only as dreams.
 - [x] I notice I talk a lot about implementation rather than notation. For instance: Does a dashed circle mean it is used as a class, enforced to be a class, static inside its container, how does it work in the system interfaces? What if it is just the notation that is the main idea, what if the implementation isn't. That might even make system interfaces' precise definition not important or maybe just subjected to diagrams drawn out to represent things from another language, like C#. C# getters and setters might be in a system interface notation. But setting an object reference's interface dynamically in runtime... may be too much of an implementation detail. I think it is a language definition / runtime implementation separation. In think the engineers at Microsoft might be right about developing language spec / runtime / framework / compiler quasi-independently. Maybe I can be inspired by that and make my language definition a little simpler. I am subjected to the pitfall of wanting to cover every little minor edge-case, of which I have a fear that it may make the whole system fall to pieces. I already warned myself about that in the Encircle Language Spec Strategy document. But now I think other people might actually read this, I start to think: maybe limit the scope. Somehow define the diagram notation and what it represents and not want to work out how things would work in a runtime. Runtime would be a system where the diagrams and actually the data that internally describes the diagram, to be loaded and run as computer programs. I think I wanted to check the usability of the notation by shining light on any little aspect of it, I could find. But I think some details are not that important. Maybe those are to be demoted to possible implementation details, to keep the main part of the story clean. I am OK with apologizing in the documentation, that this might not be usable or something. The description in the Strategy document is pretty much spot on, I think.
 - [x] Encircle Construct Drafts: I get the problem that next to introducing new notation, I also wanted to introduce new concepts. A new conceptual take on things. I think it all became a little much.
 
-#### 2020-05-14 Done Scoping | Split Up Encircle Docs
+##### 2020-05-14 Done Scoping | Split Up Encircle Docs
 
 - [x] Next step might even be starting to split up the Encircle Language Spec itself in 'in scope' and 'out of scope'.
 - [x] Doing a git push.
@@ -947,7 +949,7 @@ Scoping
     - [x] And then strip out content that does not apply.
     - [x] ~~To what degree is it useful to rephrase those directory indexes to reflect the contents better? > It might be better to not do that right now.~~
 
-#### 2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs
+##### 2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs
 
 (Circle 3 projects are software development projects, unlike Encircle Docs projects, which are language design projects.)
 
@@ -957,7 +959,7 @@ So I have these near-perfect planning docs for Circle 3, while the execution of 
 
 I don't think I want to reformulate the goals of Circle 3 programming projects, to exclude software design. It is not about making those planning docs good.
 
-#### 2020-03-22 Do Not Do: Circle 3 Programming Planning Docs
+##### 2020-03-22 Do Not Do: Circle 3 Programming Planning Docs
 
 - [x] I could change titles of projects inside the doc content too.
     - [x] Also for Circle 3 Programming, though less importantly.
@@ -966,7 +968,7 @@ I don't think I want to reformulate the goals of Circle 3 programming projects, 
 - [x] I was going over some sub-project docs to check if any documentation was written during those projects.
 - [x] Other sub-projects I scanned were not clearly any doc issues in them. 
 
-#### 2020-04-13 Done Brainstorm Scope
+##### 2020-04-13 Done Brainstorm Scope
 
 - Scope:
     - Some content in the idea box is also out-of-scope.
@@ -985,7 +987,7 @@ Also the new split up would give the wilder ideas a place, not on the big pile '
 
 Maybe it is better to put off fine-tuning the scope for now. First make it neat the way it is. I was making such nice progress with that, wasn't I?
 
-#### 2020-05-10 Done Scoping: Symbol Language and Software System Planning Docs
+##### 2020-05-10 Done Scoping: Symbol Language and Software System Planning Docs
 
 - [x] Scope the planning docs even further.
 - [x] I went through all the planning docs.
@@ -1037,7 +1039,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] ~~If none of this part of the planning docs is usable for inclusion in Encircle Language Spec planning docs, it may be worth a peek at the actual document Software System.doc or the 'redirection pages'.~~
         - [x] ~~I like it. I do not think I see much content I would use for Encircle Language Spec. From earlier ideas I had, I expected to find more. Perhaps I looked it over wrong. Or maybe now much is narrowed in scope, some more content from this document does not fall into scope anymore, making less of it very usable in Encircle Language Spec. Just bits and pieces maybe, but I expect to find texts of similar content and quality near the topics of Encircle Language Spec already.~~
 
-#### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
+##### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
 
 - [x] Encircle Language Specs Done projects:
     - [x] It is a lot of content. It is not practical for me to go into detail about it now. It is only the past plans, not the future, so less important.
@@ -1050,7 +1052,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] Not sure if right now I want to dump it in a Done folder with all these many projects in it.
         - [x] Does it matter? I am trying to isolate just Encircle Language Spec from Other / anything else.
 
-#### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
+##### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
 
 - [x] Encircle Language Spec Products doc: Move postponed work from Done section to the Postponed section.
 - [x] The document "Circle 3 Excluded Requirements" has topics that might be interesting for the Encircle Language Spec project.
@@ -1075,7 +1077,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] The idea of lower contents is described in planning docs not in Encircle Docs Planning, but in '1. Circle 3 Programming' planning.
     - [x] You can also find some texts about it here: Circle 3, Lower Contents, TODO.doc
 
-#### 2020-03-22 Done Scoping, Project Names
+##### 2020-03-22 Done Scoping, Project Names
 
 - [x] Inspecting the sub-projects just to find whether documentation was of any concern in those projects, might be too intense for me right now.
 - [x] The question I was trying to answer with that was: Is it accurate to call the super-project 'Circle 3 Programming'?
@@ -1083,7 +1085,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 - [x] But from the top of my head I kind of already know that the focus of those Circle 3 projects was programming, not documentation.
 - [x] I just want clarity on the distinction between projects Encircle Docs and Circle 3 Programming, but giving it a clearly distinctive name.
 
-#### 2020-03-16 Done Scoping Circle 3 Requirements Docs
+##### 2020-03-16 Done Scoping Circle 3 Requirements Docs
 
 - [x] I moved content from Circle 3 Requirements to New Computer Language Products doc.
 - [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using the new language. But I am OK with it.)
@@ -1093,7 +1095,7 @@ This is spreading my attention over too many different things. Is there a more p
 
 This is too intense. I have to stop again.
 
-#### 2020-03-08 Done Reading Circle 3 Requirements Docs
+##### 2020-03-08 Done Reading Circle 3 Requirements Docs
 
 The requirement group 'Priority C: Classes' has 1 language design feature: < Diagram Notation Design > Static. So that is to be moved to the language design planning docs.
 
@@ -1109,14 +1111,14 @@ Some of the content in 'Priority E: Integration' could be part of language desig
 
 I ran over all the content of Circle 3 Requirements and above are the conclusions of what to possibly do.
 
-#### 2020-03-07 Done No Planning or Docs Back Then
+##### 2020-03-07 Done No Planning or Docs Back Then
 
 Circle 3 Strategy is pretty much done.
 Circle 3 Requirements: change coloring and formatting.
 
 That does not take away I want to split topics in these planning docs between language design one one end and programming at the other.
 
-#### 2020-02-23 Done Reading Circle 3 Strategy
+##### 2020-02-23 Done Reading Circle 3 Strategy
 
 An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Encircle Docs.  
 "Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Encircle Planning Docs.  
@@ -1124,15 +1126,15 @@ Was at "More Tips" processing things.
 
 At what point am I going to be more rigorous in splitting off the Encircle Planning Docs from the rest? Not yet, I think. It's still a mash up of both in the planning docs I am reading now.
 
-#### 2020-02-20 Done Scoping
+##### 2020-02-20 Done Scoping
 
 Today finished splitting time planning and projects step into in-scope and out-of-scope documents.
 
-#### 2020-02-16 Done Notes
+##### 2020-02-16 Done Notes
 
 Working on splitting time planning and projects step into in-scope and out-of-scope documents. (worked on it for 45 minutes this day.
 
-#### 2020-02-13 Done Scoping
+##### 2020-02-13 Done Scoping
 
 Working on New Computer Language, Products.docx:
 
@@ -1148,12 +1150,12 @@ Now I still want to weed out the 'Topics Roughly' moving things to the 'out-of-s
 
 Also the Strategy can be stripped of things 'out-of-scope'.
 
-#### 2020-01-13 Done Scoping
+##### 2020-01-13 Done Scoping
 
 I read and reformulated some texts from "New Computer Language, Strategy.doc". 2 hours or so. I am now too tired.  
 That document does not cover many things out of scope of language specification. It just briefly talks about programming experimental versions and licensing it and stuff, but little enough to keep it in there, were I to isolate this into a pure language specification writing project, which I intend it to.
 
-#### 2020-01-04 Done Rough Plan
+##### 2020-01-04 Done Rough Plan
 
 Rough plan:
 
@@ -1163,7 +1165,7 @@ Rough plan:
 
 I had those plans with it, but did nothing about them this day.
 
-#### 2019-12-29 Done Brainstorm Scope: Diagrams / Constructs / Gap Lifting
+##### 2019-12-29 Done Brainstorm Scope: Diagrams / Constructs / Gap Lifting
 
 - [x] The application of them are different (of *diagrams, conceptual constructs* and *boundaries lifting*).
 - [x] Proposed constructs: 
@@ -1175,11 +1177,11 @@ I had those plans with it, but did nothing about them this day.
 - [x] Language Spec vs Broader View:
     - [x] The idea that the diagram expression should be canonical and unambiguously express anything from any computer language, might not be a rule I want to uphold in the Encircle Language Spec docs. For instance if C# has certain rules for scoping of implied accessibility rules of members, you might not want to express that in a diagram. It sort of would make no sense if the diagrams are applied like a helper tool in Visual Studio to visualize certain aspects of C# code, to have symbols that disambiguate something, that is not ambiguous according to C#. The concept of canonicalizing things, may have a better place in Encircle Language Broader View docs, I mean to isolate from the Encircle Language Spec. A reason for unambiguous expression may only become clear, if you look at those ideas about possible broader applications of this notation: specifically where in a diagram you just switch from one source language to the next, by navigating the symbols. (E.g.: Now the diagram expresses something with C# as the source, navigate onward and you may see some diagram expressing something that came from JavaScript... the rules change, maybe the diagram expression should be unambiguous.) I think it is good and keeps it simpler and ideas less stuck on each other, to speak in options for diagram expression. There is a general theme in the expression. It is not all wishy washy, but there is wiggle room for how to use it. I just want to share the idea, not impose how it should be used.
 
-#### 2019-12-29 Done Scope: Diagram Topics
+##### 2019-12-29 Done Scope: Diagram Topics
 
 Eventually, you might split the now in-scope topics apart in pieces that are in-scope and others that are out-of-scope. Some ideas just aren't the original ones, not a hot idea, and not prone to be adopted. For instance: The spaces in identifiers, text code ideas... I might have done good by keeping conceptual thoughts apart from diagram thoughts. I tend to want to merge those two aspects for the benefit of the reader. But I also tend to want a diagram notation that can be applied to other programming languages as a source for the diagrams. In that case, not all wild conceptual ideas are relevant. I did have thoughts: how would I implement this if I did it from the ground up, how would I implement that if I did it from the ground up, like interfaces, inheritance, ref-ness etc.
 
-#### 2019-12-29 Done Brainstorm Scope (Useful)
+##### 2019-12-29 Done Brainstorm Scope (Useful)
 
 - [x] Out of scope:
     - [x] 'Operating system' like components
@@ -1203,7 +1205,7 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
         - [x] So many things, but I want to leave them out.
 - [x] The data concepts and coding concepts thing, and the aspect oriented-like thing, I may want to put that out of scope. I might want to accept that the idea I present has limited potential, and might not apply to what you can do with a database, or ambitious aspect oriented programming ideas... just object oriented programming expressed in diagrams is enough. I did not have a clear idea back then how to merge the two or three concepts into that diagram language. I had some general ideas, but not entirely concrete. I should just leave it at that. That seems more achievable.
 
-#### 2019-12-29 Done Brainstorm Scope
+##### 2019-12-29 Done Brainstorm Scope
 
 - [x] What do I do with things, that are out-of-scope? Do I just bluntly remove them from the documentation, or do I go through the trouble of parking the texts elsewhere?
 - [x] Would I rename 'Computer Language' to something else, admitting it is a programming language, and only expressing the hope that it would become a language to a user to, where constructs are simpler. Do I simply admit that these were my ambitions with the project, and if people claim arrogance, then let them?
@@ -1213,11 +1215,11 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
 - [x] The time planning document ("New Computer Language, Project Steps & Time Planning.doc") looks far more overviewable and less intimidating. It all seems so manageable there.
 - [x] The document with the list of products ("New Computer Language, Products.doc") is overwhelming, because each article written is mentioned separately and that means almost each paragraph of produced writing is mentioned separately. If I would just mention the basic outlines, this might be better. Earlier, back then, it may have helped me see what I did and see how much I wanted to do. But with the goal I have now, I think it loses its purpose, and simplicity of the planning docs is more important than rigorous tooling for detailed planning of my own work.
 
-#### 2019-12-15 Done Scoping
+##### 2019-12-15 Done Scoping
 
 - [x] I read over the document "New Computer Language, Strategy.doc" in full and did some reformulations, also removing my never realized studying goals.
 
-#### 2019-08-05 Done Brainstorm Restructuring Docs
+##### 2019-08-05 Done Brainstorm Restructuring Docs
 
 The Encircle Planning Docs took a turn at some point in time. At one point it was mostly about documentation, then it became about both documentation and programming. But the planning docs folders do not seem to be fully updated to that change. Maybe I can do that in the context of *this* project. First some more reorientation.
 
@@ -1228,13 +1230,11 @@ So it gets isolated. In the past I wanted to put everything I did (and will ever
 
 I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Encircle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Encircle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
 
+### MarkDown
 
-MarkDown
---------
+#### Done
 
-### Done
-
-#### 2021-02-09 Done MarkDown
+##### 2021-02-09 Done MarkDown
 
 - [x] Trying MarkDown with images.
     - [x] URL's seem case sensitive on GitHub.
@@ -1284,9 +1284,9 @@ MarkDown
 - [x] Removing Word documents.
 - [x] Making version history document titles more consistent.
 
-### Postponed
+#### Postponed
 
-#### 2020-04-19 Postponed Conversion to MD
+##### 2020-04-19 Postponed Conversion to MD
 
 - [ ] ~ I thought MD would be the way to go with this project compared to docx. But I have doubts if MD is the better way to go. I keep getting stressed out about those doubts. It makes my decisions on what to do with the documents (formatting) harder, because I just am so unsure about this. What I would like is to have a good MD editor. I just hope some of the difficulties editing MD compared to docx can be taken away by a good tool. Also: I think MD will be vieweable and better indexeable on the internet, but I have not really thoroughly seen that confirmed. The main problems with MD editing I have is navigating headings and sections around and viewing the outcome of my formattings better as I type the MD in. The doubts about indexing: I know GitHub can show the MD in nice formatting, but will a lot of MD's actually be nicely navigatable? Will those MD's actually be indexed, or does that only count for e.g. the `README.MD` in the root dir of a git repository? another doubt about MD is: can I be satisfied with some of the tools that convert docx to MD? Will that all be doable? It's so many articles. Can I do it in bulk? Will I merge more articles into one making converting one by one by hand better. How does it work with links but especially with images? All those doubts made me postpone decisions about converting things to MD, but that makes me burdened with formatting docx's making them look nice, which is not that useful if I am going to convert all of that to MD anyway. That last argument does not seem very strong to me. If I know that MD indexes well, that might already make some decisions to go for MD easier, when I decide e.g. about small documents.
 - [ ] ~ So with all those doubts, I want to explore MD options a little.
@@ -1318,13 +1318,11 @@ MarkDown
     - [ ] ~ I might as well just copy paste to a text document and then do it myself.
     - [ ] ~ But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
 
+### Tone Change | in General
 
-Tone Change | in General
-------------------------
+#### Done
 
-### Done
-
-#### 2020-06-18 Done Brainstorm Reconsidering Writing Style
+##### 2020-06-18 Done Brainstorm Reconsidering Writing Style
 
 I seem to not like it when I make the rules for reformulating things so strict. It is sort of paradoxical too. The text produced is supposed to be not as strict, but the rule for making the text not strict, is strict.
 
@@ -1345,7 +1343,7 @@ I used to aim to be concise. In doing so, some thing might start to seem a bit c
 
 I would like to feel comfortable writing again. I would like to not do it 'wrong' like before, if that was even wrong.
 
-#### 2020-05-31 Done Wiggle Word Difficulty
+##### 2020-05-31 Done Wiggle Word Difficulty
 
 - [x] A less pleasant experience yesterday with the trigger word marking.
 - [x] Still the problem that formulations not necessarily come naturally to me.
@@ -1380,7 +1378,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
     - [x] Yes, when I cannot find a word, it is hard on me.
     - [x] Sometimes a text might be deprecated. Saves some reformulation, but may personally mean more information processing > more easily tired.
 
-#### 2020-04-18 Done Brainstorm Writing Style
+##### 2020-04-18 Done Brainstorm Writing Style
 
 - [x] ~~It kind of bothers me that the story starts in the middle. Where are the other sub-project descriptions? Maybe mixed with other big projects, like 'Software System Documentation'. Maybe.~~
 - [x] Brainstorm: I worry a lot if the words come off too strongly. On top of that I am not in a very subtle mood right now. If I was feeling more calm and friendly, I might have better judgement about it. Maybe I cannot do this right now. I can only judge language constructions, not whether it feels right. When my base line mood would be calm and friendly, I can just feel whether the words bump with that or not. That might be easier. Sometimes just using calmer language, makes me calmer, but right now it does not seem to be working.
@@ -1401,7 +1399,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
     - [x] Maybe I am looking for clues in texts where there are none. Sort of like when I am driving and see no other traffic, I am scared that there may be traffic, that I am not seeing.
     - [x] Words like 'annoying' or 'constantly' trigger more easily. Stating something as definite, without 'maybe's seems a more subtle 'problem'.
 
-#### 2008-08-31 Done Writing Style Ideas
+##### 2008-08-31 Done Writing Style Ideas
 
 Encircle Language Spec, Writing Style,  
 2008-08-31
@@ -1410,9 +1408,9 @@ Sometimes it is just clearer to have an article, with diagrams in it straight aw
 
 JJ
 
-### Postponed
+#### Postponed
 
-#### 2020-06-01 Postponed Checklist Tone Change
+##### 2020-06-01 Postponed Checklist Tone Change
 
 - [ ] ~ (More helpers are in my personal development notes, not here, sorry.)
 - [ ] ~ Marking trigger words in red.
@@ -1421,7 +1419,7 @@ JJ
 - [ ] ~ Vary natural language grammar constructs?
 - [ ] ~ Going over the document again to reformulate.
 
-#### 2020-04-18 Postponed Brainstorm Writing Style
+##### 2020-04-18 Postponed Brainstorm Writing Style
 
 - [ ] ~ The aim is to use less definite, more open language.
 - [ ] ~ (I can view ideas on how in my personal development notes, not here, sorry.)
@@ -1431,7 +1429,7 @@ JJ
 - [ ] ~ Casual mentionings of article titles are also fragile. They break quite easily.
 - [ ] ~ That seems quite a lot to check. Maybe that is why it is not easy.
 
-#### 2020-05-27 Postponed Checklist Reformulating Chapters
+##### 2020-05-27 Postponed Checklist Reformulating Chapters
 
 - [x] Done projects:
     - [x] The postponed reformulation of the done projects is on my mind.
@@ -1461,7 +1459,7 @@ JJ
     - [ ] ~ Interfaces chapter
     - [ ] ~ Inheritance chapter
 
-#### 2019-08-05 Postponed Mixed Writing Style Issues
+##### 2019-08-05 Postponed Mixed Writing Style Issues
 
 - [ ] ~ The read uses terminology in a very specific way, that is not shared with my peers, therefor not easing readers into the material.
 - [ ] ~ Rename the term 'Code Base' to something like 'Base Code' or 'Base of the Code'.
@@ -1471,17 +1469,16 @@ JJ
     - [ ] ~ Tying together loose ends.
     - [ ] ~ Making it easy to read for someone else.
 
-#### 2019-08-27 Postponed Simpler Rules
+##### 2019-08-27 Postponed Simpler Rules
 
 - [ ] ~ I think the 'being blunt' might help. It is not blunt unfriendly, because the explanations might become so much simpler if you say: this is that, this is that, instead of and this far-fetched edge case is solved in this difficult, abstract, theoretical, but precisely determined way, that I'm not sure I even understand anymore... : )
 
 
-Planning | in General
----------------------
+### Planning | in General
 
-### Done
+#### Done
 
-#### 2020-05-27 Done Brainstorm Priorities
+##### 2020-05-27 Done Brainstorm Priorities
 
 - [x] I am not sure how to approach things right now.
 - [x] ~~I could also try and pick a design issue from the list 'Language Design / Content Changes' above.~~
@@ -1495,19 +1492,19 @@ Planning | in General
 - [x] The feeling I forgot something, feels like it could be in the texts below, but the texts below seem to be too rough and unstructured to give me that insight and overview. If it were more structured and overviewable, and done stuff marked as done, postponed stuff marked as such and split into coherent chunks. I think I would like that.
 - [x] So structure the TODO and Postponed things about Encircle Language Spec Revamp notes, might be what I want to do first.
 
-#### 2019-08-05 Done Writing Style Mixed Issues
+##### 2019-08-05 Done Writing Style Mixed Issues
 
 - [x] ~~The work might be modularized. I am not attracted to how CSS3 is modularized, each piece of specs with a different state of being finished up. It seems messy. But I can employ the same organization to accept certain concepts are just more crystalized out than others, making it easier to share, even in an unfinished state, and stimulating keeping things separated and separately usable even when other parts are just really still messy. > Scoped things more sharply instead, so more is finished up better percentually.~~
 - [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends will make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually does the trick. Might tell people clearly not to expect too much from the text that follows. Just being clear about that might be enough.~~
 
-#### 2020-05-24 Done Notes Planning
+##### 2020-05-24 Done Notes Planning
 
 - [x] Maybe merge more article together in the first chapters.
 - [x] Maybe list out main language design issues.
 - [x] ~~Some work in Future Sub-Projects may already be done.~~
     - [x] ~~> Applies to the TODO item 'Merge conceptual explanation with diagram explanation'. Those 2 things may now be put into the same article, but the explanations are still often 2 explanations instead of one. So I do not think I can call it done.~~
 
-#### 2020-05-10 Done Brainstorm Effort
+##### 2020-05-10 Done Brainstorm Effort
 
 It may not be within my capacity to do some of the things I plan to do. Thinking critically about word usage and whether I am stating things too strictly... I feel this might not correspond with my energy budget. I made a careful conclusion about that before. Publishing might be more important, than if I might come off too strongly in the text. It feels like this effort is pulling me down more than I might be able to handle. It seems to be weighing on me.
 
@@ -1521,7 +1518,7 @@ I feel like I recognize a personality in my own texts, that I adopted to hopeful
 
 So with that new perspective on the work, I was done and satisfied with the last page of the text I was working on within like a minute. Perhaps now I can focus more on what I actually chose to do: scope the project some more.
 
-#### 2020-05-08 Done Brainstorm Priorities
+##### 2020-05-08 Done Brainstorm Priorities
 
 - [x] Rewording the Done projects is getting a bit boring.
 - [x] ~~Maybe wrap up Parameters planning doc.~~
@@ -1534,19 +1531,17 @@ So with that new perspective on the work, I was done and satisfied with the last
 - [x] Still lots of definites in the wording of the main planning docs.
 - [x] I do like too see it reworded it to nothing being a strict rule anymore and you can always make up your own mind. It seems this does not harm the integrity of the idea.
 
-#### 2020-03-15 Done Planning
+##### 2020-03-15 Done Planning
 
 I read over notes to know where I was, and mark some things of as 'done'.
 
 This was too intense. I wonder if starting to change documentation will be too intense too or if I should stop now. Or if other activities or non-activities will be even more intense. I choose to stop for a while now. After a little over 20 minutes.
 
+### Commands | Tone Change
 
-Commands | Tone Change
-----------------------
+#### Postponed
 
-### Postponed
-
-#### 2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article
+##### 2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article
 
 - [x] Fine-tune styling.
 - [ ] ~ Evaluating if texts are in scope, possibly moving them.
@@ -1582,12 +1577,11 @@ Commands | Tone Change
 - [ ] ~ Spell check.
 
 
-System Objects | Tone Change
-----------------------------
+### System Objects | Tone Change
 
-### Done
+#### Done
 
-#### 2020-06-26 Done Reformulating System Objects Article
+##### 2020-06-26 Done Reformulating System Objects Article
 
 - [x] Fine-tune styling.
 - [x] Evaluating if texts are in scope, possibly moving them.
@@ -1622,9 +1616,9 @@ System Objects | Tone Change
     - [x] (I wonder if System Commands and System Interfaces could become 1 section, because is the System Interfaces section(s) the visualization of the System Commands? I tend to not like conceptual explanations without accompanying diagrams anymore, so perhaps.)
 - [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
 
-### Postponed
+#### Postponed
 
-#### 2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article
+##### 2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article
 
 - [x] Fine-tune styling.
 - [ ] ~ Evaluating if texts are in scope, possibly moving them.
@@ -1648,12 +1642,11 @@ System Objects | Tone Change
 - [ ] ~ Spell check.
 
 
-Planning Docs | Tone Change
----------------------------
+### Planning Docs | Tone Change
 
-### Done
+#### Done
 
-#### 2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs
+##### 2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs
 
 - Reformulate:
     - I would want to read over those Done projects content before publishing. I should know what I publish exactly and have evaluated it and made some adaptations possibly. Probably nothing in it is a secret, so you don't need to remove it from source control history, but slight changes might be good.
@@ -1664,18 +1657,18 @@ Planning Docs | Tone Change
     - I worry what people would think of me. If they'd think I'm arrogant... maybe I should not worry about that.
     - Cockiness/speaking in definites, and scope/out-of-scope are 2 different things. My intermediate goal now was to change the tone, not to change the scope covered by the documents? There are still gray areas of scope. I think I should deal with that later?
 
-#### 2020-04-18 Done Reword 2008-07 02        Assignment Spec Project Summary.docx
+##### 2020-04-18 Done Reword 2008-07 02        Assignment Spec Project Summary.docx
 
 - [x] Adding maybe's and perhapses.
 - [x] Second phase reformulating > Did not change much, but did change a few things.
 - [x] The word 'you' seems overly used. Try to reformulate to object-centric grammar, instead of person-centric.
 - [x] Maybe read one more time for possible small typing errors.
 
-#### 2020-04-18 Done Reword 2008-05 02 Classes & Relationships Specs Project Summary.docx
+##### 2020-04-18 Done Reword 2008-05 02 Classes & Relationships Specs Project Summary.docx
 
 - [x] ~~Rename "Relationship" => "Relationship" > I would keep the term relationship in there for now, otherwise I would have to go through so much documentation. If I refer to a product with the work relationship in it and change it in the planning docs, then I also would have to change it in the language spec docs and that is just a whole lot of work. I briefly looked up a discussion online about these words, and it does not seem people can find a really clear distinction or rule, just wishy washy hand wavy stuff, I think. It's just that in IT the term is usually 'relationship'. In the spirit of not alienating readers you might change it, but it does not seem semantically incorrect would you accidentally use the word 'relationship' instead.~~
 
-#### 2020-04-18 Done Reword 2008-06 02 Command as a Concept Spec Project Summary.docx
+##### 2020-04-18 Done Reword 2008-06 02 Command as a Concept Spec Project Summary.docx
 
 - [x] It mentions topics very much out of scope.
 - [x] I think it might not be harmful to keep that mentioning in there.
@@ -1684,14 +1677,14 @@ Planning Docs | Tone Change
 - [x] Reconsider to split into in-scope and out-of-scope parts.
 - [x] Brainstorm: The input / output topics is so present in this sub-project description. It does not seem lightly touching the topic. Sometimes it is half a paragraph that goes on about just that, while it is not in-scope anymore. Maybe it is worth trying to extract it out, so the summaries of the work become simpler.
 
-#### 2020-04-18 Done Reword 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
+##### 2020-04-18 Done Reword 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
 
 - [x] I would like to look at the end-result of the project 'Clarify Command as a Concept Spec' to see if the description of the work done still makes sense if you split it in two.
 - [x] Maybe the sub-project Clarify Command as a Concept is mostly out-of-scope.
 - [x] That whole project should be out of scope, because the end-result is just about input/output and concurrency resolution.
 - [x] That would change the super project description too.
 
-#### 2020-04-18 Done Reword 2008-07 01        System Objects Spec Project Summary.docx
+##### 2020-04-18 Done Reword 2008-07 01        System Objects Spec Project Summary.docx
 
 - [x] Maybe reformulate harsher words, rather than understanding the text of all the notes. The notes are really unpolished.
 - [x] > Was at 'Other Issues' taking out the more harsh wordings.
@@ -1711,7 +1704,7 @@ Planning Docs | Tone Change
     - [x] As I read the first sentences of the sub-project planning doc, I tend to want to redescribe it, now I can put it into context. As I explain that context, the integrity of the planning doc seems in tact again.
     - [x] I want to keep reading over and reformulating.
 
-#### 2020-04-18 Done Reword The Done Encircle Language Spec Planning Docs
+##### 2020-04-18 Done Reword The Done Encircle Language Spec Planning Docs
 
 - [x] Ideas document: ISNSE = Internet as a Single Computer > But why? Internet aS a[N] Single Entity?
 - [x] Brainstorm: Scope the Done projects?
@@ -1734,7 +1727,7 @@ Planning Docs | Tone Change
     - [x] ~~2008-03 05             Generic, No Generators Spec, Project Summary.docx~~
     - [x] ~~2008-04 02        Get Clearer View over Difficult Topics Project Summary.docx~~
 
-#### 2020-04-18 Done Encircle Language Spec Planning Docs: Reword Main Project and Future Sub-Projects
+##### 2020-04-18 Done Encircle Language Spec Planning Docs: Reword Main Project and Future Sub-Projects
 
 - [x] The aim is to use less definite, more open, language and to take out the personal 'I' form.
 - [x] I think a lot of documents do not contain as much prose as Encircle Language Spec Strategy, so maybe things are doable after all. Also it does not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
@@ -1790,7 +1783,7 @@ Planning Docs | Tone Change
         - [x] Out of scope
         - [x] But change the main project description too.
 
-#### 2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries
+##### 2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries
 
 - [x] Change formatting in bulk (of Done Projects / Project Summaries)
     - [x] Change fonts and layout in bulk first.
@@ -1818,7 +1811,7 @@ Planning Docs | Tone Change
             - [x] Alternative: Go look for more project summaries in the Encircle Language Spec Plan folders.
             - [x] ~~Alternative: Don't do it.~~
 
-#### 2020-04-13 Done Encircle Language Spec Planning Docs
+##### 2020-04-13 Done Encircle Language Spec Planning Docs
 
 - [x] I made a slight beginning with a next phase of scoping the project. But I want to turn back. 
 - [x] Check if I can check this in.
@@ -1829,14 +1822,14 @@ Planning Docs | Tone Change
 - [x] In my efforts to speak in a non-personal tense, I sometimes switch to the 'you' form and then it just sounds like I can't even keep the terms 'I' and 'you' apart... maybe I am over-conscientious and insecure here. 'You' is fine if you explain how one might experience something.
 - [x] I read some articles over personal and impersonal forms of language like that.
 
-#### 2020-01-30 Done Reformulating Planning Docs
+##### 2020-01-30 Done Reformulating Planning Docs
 
 I read over New Computer Language, Strategy.doc and reformulated stuff.
 I am cleaning up New Computer Language, Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description would *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.
 
-### Postponed
+#### Postponed
 
-#### 2020-04-18 Postponed Reword 'Done' Planning Docs
+##### 2020-04-18 Postponed Reword 'Done' Planning Docs
 
 - [x] 2008-05 01 Diagram Expression Specs Project Summary.docx
 - [x] 2008-05 02 Classes & Relationships Specs Project Summary.docx
