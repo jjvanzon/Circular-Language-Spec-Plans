@@ -1,5 +1,5 @@
-﻿Encircle Language Spec Plan | Assignment Spec | 2008-07 | Project Summary
-=======================================================================
+﻿Encircle Language Spec Plans | Assignment Spec | 2008-07 | Project Summary
+==========================================================================
 
 
 Super-Project
