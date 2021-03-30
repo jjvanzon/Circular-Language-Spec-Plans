@@ -178,9 +178,13 @@ TODO
 ##### 2021-03-30 TODO Rough Content Reorganization
 
 - [ ] __Merging together goals of Revamp project with Main Project.__
-    - [ ] ~x Reformulating __Goals__ section.
+    - [x] Reformulating Main Project "Goals" sections.
+    - [x] Reformulating Main Project "Theme Picking" section.
+    - [ ] __Reformulating Main Project "Productive Writing" section.__
     - [ ] Perhaps do not describe goals *once had* but *never reached*.
     - [ ] Perhaps better describe what *happened* and goals *now*.
+    - [ ] *Time planning* issues may not be appropriate anymore.
+    - [ ] I cannot do *efficient* anymore.
 
 #### Postponed
 
