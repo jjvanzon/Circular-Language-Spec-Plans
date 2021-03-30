@@ -39,22 +39,42 @@ Project Outline
 
 ### Introduction
 
-Encircle is an unfinished programming language.
+*Encircle* is an unfinished programming language.
 
-I spent quite a portion of the spare time of my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
+I spent quite a portion of my 20's spare time thinking about this idea of how to visually express the internals of computers and programming languages.
 
-Encircle Language Spec tries to describe it.
+*Encircle Language Spec* tries to describe it.
 
 ### Goals
 
 - [ ] 'Soft' goals:
-    - [ ] Work on project that seems to matter.
-    - [ ] Keep my head occupied with something else.
+    - [ ] Occupying my head
+    - [ ] Working on a project that seems to matter.
 - [x] 'Hard' goals:
     - [x] Isolate the Encircle Language docs from the rest of the docs.
     - [x] Open source the Encircle Language docs.
 - [ ] ~ Low priority:
     - [ ] ~ Get the documents in a state better accessible for others.
+
+### Scope
+
+Around 2004 the idea may have been to cover *everything*.
+Now (2021-03-04) a scoping it to large blocks might be considered better:
+
+- [ ] Diagram notation
+- [ ] ~ Programming language vs standard libraries
+- [ ] ~ Integration with other systems  
+        (e.g. using diagrams to express C# code, folder structures, etc.)
+- [x] ~~Implementations~~
+- [x] ~~Creator projects~~
+- [x] ~~Precise underlying rules~~
+- [x] ~~Stand-alone Encircle programming environment~~
+- [x] ~~What apps might be programmed in it?~~
+- [x] ~~Could this run as a stand-alone OS?~~
+
+### Strategy
+
+- When changing a topic's *tone*, perhaps consider *content changes* too.
 
 ### Steps
 
@@ -129,22 +149,6 @@ Encircle Language Spec tries to describe it.
         - [ ] (Texts might insist that Encircle is a run-time, while the notation might be the main point of things.)
     - [ ] Over-awareness of pointers?
 
-### Scope
-
-Around 2004 the idea may have been to cover *everything*.
-Now (2021-03-04) a scoping it to large blocks might be considered better:
-
-- [ ] Diagram notation
-- [ ] ~ Programming language vs standard libraries
-- [ ] ~ Integration with other systems  
-        (e.g. using diagrams to express C# code, folder structures, etc.)
-- [x] ~~Implementations~~
-- [x] ~~Creator projects~~
-- [x] ~~Precise underlying rules~~
-- [x] ~~Stand-alone Encircle programming environment~~
-- [x] ~~What apps might be programmed in it?~~
-- [x] ~~Could this run as a stand-alone OS?~~
-
 #### More about Scope
 
 - No programming
@@ -152,10 +156,6 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 - Just documentation
 - More about existing content, rather than new ideas.
 - Only "Language" topics (not "Framework", "Operating System" or "Applications & Media")
-
-### Strategy
-
-- When changing a topic's *tone*, perhaps consider *content changes* too.
 
 ### Information
 
@@ -175,19 +175,18 @@ TODO
 
 #### TODO
 
-##### 2021-03-23 TODO Rough Content Reorganization
+##### 2021-03-30 TODO Rough Content Reorganization
 
-- [x] Correcting links from Plans repo's Readme to Spec repo.
-- [ ] Planning docs reorganization:
-    - [x] Splitting up Revamp project into topics.
-        - [x] Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
-    - [ ] __Merging together goals of Revamp project with Main Project.__
-    - [ ] Removing (totally) out-of-scope topics to Archive.
+- [ ] __Merging together goals of Revamp project with Main Project.__
+    - [ ] ~x Reformulating __Goals__ section.
+    - [ ] Perhaps do not describe goals *once had* but *never reached*.
+    - [ ] Perhaps better describe what *happened* and goals *now*.
 
 #### Postponed
 
 ##### 2021-03-23 Postponed Rough Content Reorganization
 
+- [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
 - [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"
 - [ ] All pointer topics to Pointers.
@@ -221,6 +220,9 @@ TODO
     - [x] "Multiple Language Layers"
     - [x] "Object Storage"
 - [x] ~~Spreading "Old Or Boring" topics over the documents. > Cannot find it anymore.~~
+- [x] Correcting links from Plans repo's Readme to Spec repo.
+- [x] Planning docs: Splitting up Revamp project into topics.
+    - [x] Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
 
 ##### 2021-03-14 Done Rough Content Reorganization
 
