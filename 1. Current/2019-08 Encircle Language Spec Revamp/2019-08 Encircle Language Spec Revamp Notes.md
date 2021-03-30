@@ -15,7 +15,6 @@ Contents
 - [TODO](#todo)
     - [Rough Content Reorganization](#rough-content-reorganization)
     - [Scoping](#scoping)
-    - [MarkDown](#markdown)
     - [Tone Change | in General](#tone-change--in-general)
     - [Planning | in General](#planning--in-general)
 - [Postponed](#postponed-2)
@@ -23,8 +22,9 @@ Contents
     - [System Objects | Tone Change](#system-objects--tone-change)
     - [Planning Docs | Tone Change](#planning-docs--tone-change)
 - [Done](#done-7)
-    - [Git Migration](#git-migration)
+    - [Source Control Migration](#source-control-migration)
     - [Search Tools](#search-tools)
+    - [MarkDown](#markdown)
     - [Publishing](#publishing)
     - [Planning Docs | Content Changes](#planning-docs--content-changes)
     - [Basic Diagram Elements | Tone Change](#basic-diagram-elements--tone-change)
@@ -32,6 +32,7 @@ Contents
     - [Classes | Tone Change](#classes--tone-change)
     - [Relationships | Tone Change](#relationships--tone-change)
     - [Assignment | Tone Change](#assignment--tone-change)
+
 
 Project Outline
 ---------------
@@ -57,9 +58,6 @@ Encircle Language Spec tries to describe it.
 
 ### Steps
 
-- [x] Reorganizing
-    - [x] Converted Encircle Docs version folders to source control history.
-    - [x] Converted Planning Docs version folders to source control history.
 - [x] Reorientation
     - [x] Reading Planning Docs sequentially.
 - [x] Scoping
@@ -72,7 +70,9 @@ Encircle Language Spec tries to describe it.
     - [ ] ... Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
         - [x] Encircle-Language-Spec repository
         - [ ] ~ Encircle-Language-Spec-Plans repository
-- [x] Separating git repositories:
+- [x] Source control migration:
+    - [x] Converted Encircle Docs version folders to source control history.
+    - [x] Converted Planning Docs version folders to source control history.
     - [x] Splitting off Encircle language docs into a separate git repository.
     - [x] Splitting off Planning Docs for Encircle language into a separate git repository.
 - [x] Publishing to GitHub
@@ -181,8 +181,13 @@ TODO
 - [ ] Planning docs reorganization:
     - [x] Splitting up Revamp project into topics.
         - [x] Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
-    - [ ] Merging together goals of Revamp project with Main Project.
+    - [ ] __Merging together goals of Revamp project with Main Project.__
     - [ ] Removing (totally) out-of-scope topics to Archive.
+
+#### Postponed
+
+##### 2021-03-23 Postponed Rough Content Reorganization
+
 - [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"
 - [ ] All pointer topics to Pointers.
@@ -199,6 +204,10 @@ TODO
 - [ ] ~ Reorganizing "Fundamental Principles"
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
+
+##### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
+
+- Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 #### Done
 
@@ -838,14 +847,14 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Then it is basically just loose ideas, that might have been given a too prominent place. Maybe put it elsewhere, if it is just unhelpful for visual overview, perhaps. > Some are more than that. I keep em this way.
 - [x] I like that I seem to build tolerance (back) for not exactly knowing where I am going with it, gradually shaping it, and just taking my time to make things more overviewable, regardless of whether someone might think it is time well spent or not. I myself just create more overview and understanding of the material that way.
 
-#### Postponed
-
-##### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
-
-- Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
-
-
 ### Scoping
+
+#### TODO
+
+##### 2021-03-30 TODO Scoping Encircle-Language-Spec-Plans
+
+- [ ] Encircle-Language-Spec-Plans repository
+    - [ ] 'Out-of-scope' things might need distinction between "Broader View", "Construct Drafts" and not to be part of the Encircle-Language-Spec-Plans at all.
 
 #### Done
 
@@ -1230,94 +1239,6 @@ I also would want to put a cut into all the planning docs and all the circle doc
 So it gets isolated. In the past I wanted to put everything I did (and will ever do) with software development at home in a single system so general that I called it 'Software System'. Many docs are general and describe both that language + OS-like topics and applications. I might want to cut that in two: language and the rest. I might like to open source the language at one point and just leave the rest out of it.
 
 I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Encircle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Encircle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 
-
-### MarkDown
-
-#### Done
-
-##### 2021-02-09 Done MarkDown
-
-- [x] Trying MarkDown with images.
-    - [x] URL's seem case sensitive on GitHub.
-- [x] Converting things to MarkDown
-- [x] Aspose seems good: (https://products.aspose.app/words/conversion/word-to-md)
-- [x] Considering a phased bulk approach (for quicker results)
-- [x] Converting
-- [x] Unzipping
-- [x] Committing
-- [x] Moving images to sub-folder
-- [x] Changing image markup to point at sub-folder
-- [x] Prettifying headings serially: until "3. Creation Behavior Of Commands.md"
-- [x] Switching to a phased bulk approach
-- [x] Heading 1 double underline
-- [x] Heading 2 single underline, 2 empty lines above, 1 below
-- [X] Headings 3 and up: surround with enters (using find "##")
-- [x] Headings 3 and up: removing bold/italic start tokens (using search and replace "## *" => "## ")
-- [x] Headings 3 and up: removing ending tokens of bolds/italics (using find "##")
-- [x] Replacing bold ** with __
-- [x] Checking the italics (*)
-- [x] Checking the bolds (__)
-- [x] Prettifying bulleted lists
-- [x] Removing excessive empty lines
-- [x] Prettifying code blocks
-- [x] Black backgrounds in "Broader View" and "Construct Drafts"
-- [x] Prettifying tables
-- [x] Try correcting < and > interpretation as XML/HTML by surrounding them with spaces
-- [x] Correcting arrows replacing à and ß with `=>` or `<=`
-- [x] Checking the headings.
-- [x] Did these in one blow until "4. Command Redirection":
-    - [x] Checking the pictures
-          (words that may express things too strongly).  
-          (Used red in Word. Using `inline code` in MarkDown.)
-    - [x] Manually checking differences between rendered MarkDown and Word document.
-    - [x] Last check if markup looks ok
-    - [x] Removing Word documents
-- [x] Switching to a more phased approach
-- [x] Checking the pictures
-- [x] Copying red markings of 'trigger words' 
-      (words that may express things too strongly).  
-      (Used red in Word. Using `inline code` in MarkDown.)
-- [x] Limitation: Not coming up with new header texts
-- [x] Limitation: Not solving errors in previous work.
-- [x] Checking the markup for obvious improvements.
-- [x] Manually checking differences between rendered MarkDown and Word document.
-- [x] Last checks if markup looks ok.
-- [x] Removing Word documents.
-- [x] Making version history document titles more consistent.
-
-#### Postponed
-
-##### 2020-04-19 Postponed Conversion to MD
-
-- [ ] ~ I thought MD would be the way to go with this project compared to docx. But I have doubts if MD is the better way to go. I keep getting stressed out about those doubts. It makes my decisions on what to do with the documents (formatting) harder, because I just am so unsure about this. What I would like is to have a good MD editor. I just hope some of the difficulties editing MD compared to docx can be taken away by a good tool. Also: I think MD will be vieweable and better indexeable on the internet, but I have not really thoroughly seen that confirmed. The main problems with MD editing I have is navigating headings and sections around and viewing the outcome of my formattings better as I type the MD in. The doubts about indexing: I know GitHub can show the MD in nice formatting, but will a lot of MD's actually be nicely navigatable? Will those MD's actually be indexed, or does that only count for e.g. the `README.MD` in the root dir of a git repository? another doubt about MD is: can I be satisfied with some of the tools that convert docx to MD? Will that all be doable? It's so many articles. Can I do it in bulk? Will I merge more articles into one making converting one by one by hand better. How does it work with links but especially with images? All those doubts made me postpone decisions about converting things to MD, but that makes me burdened with formatting docx's making them look nice, which is not that useful if I am going to convert all of that to MD anyway. That last argument does not seem very strong to me. If I know that MD indexes well, that might already make some decisions to go for MD easier, when I decide e.g. about small documents.
-- [ ] ~ So with all those doubts, I want to explore MD options a little.
-- [ ] ~ Main points:
-    - [ ] ~ MD editor
-    - [ ] ~ Will MD show and index better on the internet?
-- [ ] ~ Notes:
-    - [ ] ~ Trying to research this puts a strain on me.
-    - [ ] ~ I found out relative links to images work nicely in MD on github.
-    - [ ] ~ I cannot find if google will index the content well.
-    - [ ] ~ I do know that clicking an MD in GitHub leads to nicely readable page. That's something you cannot say about docx's.
-    - [ ] ~ That last point may actually convince me already to make MD's more often.
-- [ ] ~ MD editors:
-    - [ ] ~ Visual Studio code has a preview view and outline view: <https://code.visualstudio.com/Docs/languages/markdown> 
-    - [ ] ~ <https://duckduckgo.com/?q=MD+editor&t=opera&ia=web>
-    - [ ] ~ <https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor>
-    - [ ] ~ There seem to be options.
-- [ ] ~ Alternative: Convert the Future Sub-Project Summaries to MD.
-    - [ ] ~ Pro: Those future docs are short and don't need much formatting.
-    - [ ] ~ Con: MD is harder to edit (?) > Needs research.
-    - [ ] ~ Pro: MD is more accessible on the internet (?) > Needs test.
-    - [x] I would like to have the arguments for and against better proven.
-    - [x] But it is also not directly my goal right now.
-    - [x] It would help me to know if MD really has those advantages. Otherwise I would keep being confused about whether or not I should convert to MD.
-    - [x] But pragmatically: That was not what I was doing. It was formatting the docx's, what I was doing. But pragmatism is sometimes something I feel others have determined for me. Maybe knowing something for sure is more pragmatic for me, because the doubt causes me so much stress.
-- [ ] ~ Concession: Do both. First format the 4 remaining Summary's. Then research MD more.
-- [ ] ~ Conversion programs:
-    - [x] ~~Pandoc: I did not like it. It was expecting a user interface, but I got a command line interface. Also, the output from docx to MD is not what I expected. I got quote markup > for just indentation and a dashed bulleted list got the dashes escaped or something. The check list style for GitHub that's kind a sorta already MD format, got escaped it seemed. I get not everything is unambiguously translatable, but this was too far removed of what I would type in myself. So sorry, pandoc. Moving on.~~
-    - [ ] ~ I might as well just copy paste to a text document and then do it myself.
-    - [ ] ~ But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
 
 ### Planning | in General
 
@@ -1879,7 +1800,7 @@ I am cleaning up New Computer Language, Products.doc: simplified color coding, r
 Done
 ----
 
-### Git Migration
+### Source Control Migration
 
 #### 2020-02-03 Done Notes Planning Docs Git Migration
 
@@ -2163,6 +2084,92 @@ Idea bout converting version folder to source control history:
 - [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Encircle Language Spec Plan". Search "content:Joost".
 - [x] Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.
 - [x] Hyp: File properties?
+
+### MarkDown
+
+#### 2021-02-09 Done MarkDown
+
+- [x] Trying MarkDown with images.
+    - [x] URL's seem case sensitive on GitHub.
+- [x] Converting things to MarkDown
+- [x] Aspose seems good: (https://products.aspose.app/words/conversion/word-to-md)
+- [x] Considering a phased bulk approach (for quicker results)
+- [x] Converting
+- [x] Unzipping
+- [x] Committing
+- [x] Moving images to sub-folder
+- [x] Changing image markup to point at sub-folder
+- [x] Prettifying headings serially: until "3. Creation Behavior Of Commands.md"
+- [x] Switching to a phased bulk approach
+- [x] Heading 1 double underline
+- [x] Heading 2 single underline, 2 empty lines above, 1 below
+- [X] Headings 3 and up: surround with enters (using find "##")
+- [x] Headings 3 and up: removing bold/italic start tokens (using search and replace "## *" => "## ")
+- [x] Headings 3 and up: removing ending tokens of bolds/italics (using find "##")
+- [x] Replacing bold ** with __
+- [x] Checking the italics (*)
+- [x] Checking the bolds (__)
+- [x] Prettifying bulleted lists
+- [x] Removing excessive empty lines
+- [x] Prettifying code blocks
+- [x] Black backgrounds in "Broader View" and "Construct Drafts"
+- [x] Prettifying tables
+- [x] Try correcting < and > interpretation as XML/HTML by surrounding them with spaces
+- [x] Correcting arrows replacing à and ß with `=>` or `<=`
+- [x] Checking the headings.
+- [x] Did these in one blow until "4. Command Redirection":
+    - [x] Checking the pictures
+          (words that may express things too strongly).  
+          (Used red in Word. Using `inline code` in MarkDown.)
+    - [x] Manually checking differences between rendered MarkDown and Word document.
+    - [x] Last check if markup looks ok
+    - [x] Removing Word documents
+- [x] Switching to a more phased approach
+- [x] Checking the pictures
+- [x] Copying red markings of 'trigger words' 
+      (words that may express things too strongly).  
+      (Used red in Word. Using `inline code` in MarkDown.)
+- [x] Limitation: Not coming up with new header texts
+- [x] Limitation: Not solving errors in previous work.
+- [x] Checking the markup for obvious improvements.
+- [x] Manually checking differences between rendered MarkDown and Word document.
+- [x] Last checks if markup looks ok.
+- [x] Removing Word documents.
+- [x] Making version history document titles more consistent.
+
+#### 2020-04-19 Done Conversion to MD
+
+- [x] I thought MD would be the way to go with this project compared to docx. But I have doubts if MD is the better way to go. I keep getting stressed out about those doubts. It makes my decisions on what to do with the documents (formatting) harder, because I just am so unsure about this. What I would like is to have a good MD editor. I just hope some of the difficulties editing MD compared to docx can be taken away by a good tool. Also: I think MD will be viewable and better indexable on the internet, but I have not really thoroughly seen that confirmed. The main problems with MD editing I have is navigating around headings and sections and viewing the outcome of my formattings better as I type the MD in. The doubts about indexing: I know GitHub can show the MD in nice formatting, but will a lot of MD's actually be nicely navigatable? Will those MD's actually be indexed, or does that only count for e.g. the `README.MD` in the root dir of a git repository? another doubt about MD is: can I be satisfied with some of the tools that convert docx to MD? Will that all be doable? It's so many articles. Can I do it in bulk? Will I merge more articles into one making converting one by one by hand better. How does it work with links but especially with images? All those doubts made me postpone decisions about converting things to MD, but that makes me burdened with formatting docx's making them look nice, which is not that useful if I am going to convert all of that to MD anyway. That last argument does not seem very strong to me. If I know that MD indexes well, that might already make some decisions to go for MD easier, when I decide e.g. about small documents.
+- [x] So with all those doubts, I want to explore MD options a little.
+- [x] Main points:
+    - [x] MD editor
+    - [x] Will MD show and index better on the internet?
+- [x] Notes:
+    - [x] Trying to research this puts a strain on me.
+    - [x] I found out relative links to images work nicely in MD on github.
+    - [x] I cannot find if Google will index the content well.
+    - [x] I do know that clicking an MD in GitHub leads to nicely readable page. That's something you cannot say about docx's.
+    - [x] That last point may actually convince me already to make MD's more often.
+- [x] MD editors:
+    - [x] Visual Studio code has a preview view and outline view: <https://code.visualstudio.com/Docs/languages/markdown> 
+    - [x] <https://duckduckgo.com/?q=MD+editor&t=opera&ia=web>
+    - [x] <https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor>
+    - [x] There seem to be options.
+- [x] Alternative: Convert the Future Sub-Project Summaries to MD.
+    - [x] Pro: Those future docs are short and don't need much formatting.
+    - [x] ~~Con: MD is harder to edit (?) > Needs research.~~
+    - [x] Pro: MD is more accessible on the internet (?) > Needs test.
+    - [x] I would like to have the arguments for and against better proven.
+    - [x] But it is also not directly my goal right now.
+    - [x] It would help me to know if MD really has those advantages. Otherwise I would keep being confused about whether or not I should convert to MD.
+    - [x] But pragmatically: That was not what I was doing. It was formatting the docx's, what I was doing. But pragmatism is sometimes something I feel others have determined for me. Maybe knowing something for sure is more pragmatic for me, because the doubt causes me so much stress.
+- [x] Concession: Do both. First format the 4 remaining Summary's. Then research MD more.
+- [x] Conversion programs:
+    - [x] ~~Pandoc: I did not like it. It was expecting a user interface, but I got a command line interface. Also, the output from docx to MD is not what I expected. I got quote markup > for just indentation and a dashed bulleted list got the dashes escaped or something. The check list style for GitHub that's kind a sorta already MD format, got escaped it seemed. I get not everything is unambiguously translatable, but this was too far removed of what I would type in myself. So sorry, pandoc. Moving on.~~
+    - [x] ~~I might as well just copy paste to a text document and then do it myself.~~
+    - [x] But I am going into research again, and that is not what I want to deeply into. I do not have the energy.
+    - [x] Online Aspose conversion tool worked ok. I did spend a while dotting the i's though, metaphorically.
+
 
 ### Publishing
 
