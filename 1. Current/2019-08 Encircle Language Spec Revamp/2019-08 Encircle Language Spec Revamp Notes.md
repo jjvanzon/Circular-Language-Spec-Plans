@@ -178,13 +178,19 @@ TODO
 ##### 2021-03-30 TODO Rough Content Reorganization
 
 - [ ] __Merging together goals of Revamp project with Main Project.__
-    - [x] Reformulating Main Project "Goals" sections.
-    - [x] Reformulating Main Project "Theme Picking" section.
-    - [ ] __Reformulating Main Project "Productive Writing" section.__
-    - [ ] Perhaps do not describe goals *once had* but *never reached*.
-    - [ ] Perhaps better describe what *happened* and goals *now*.
-    - [ ] *Time planning* issues may not be appropriate anymore.
-    - [ ] I cannot do *efficient* anymore.
+    - [ ] Encircle Language Spec Strategy
+        - [x] Reformulating Main Project "Goals" sections.
+        - [x] Reformulating Main Project "Theme Picking" section.
+        - [x] Reformulating Main Project "Productive Writing" section.
+        - [x] Perhaps do not describe goals *once had* but *never reached*.
+        - [x] Perhaps better describe what *happened* and goals *now*.
+        - [x] *Time planning* issues may not be appropriate anymore.
+        - [x] I cannot do *efficient* anymore.
+        - [ ] Perhaps read over again later.
+    - [ ] Encircle Language Spec Products List
+        - [ ] Might build up a new list.
+        - [ ] And go over old list items and cross them out.
+    - [ ] Encircle Language Spec Steps & Time Planning
 
 #### Postponed
 
@@ -1315,6 +1321,54 @@ Postponed
 
 ### Tone Change | in General
 
+#### Postponed
+
+##### 2020-06-01 Postponed Checklist Tone Change
+
+- [ ] ~ (More helpers are in my personal development notes, not here, sorry.)
+- [ ] ~ Marking trigger words in red.
+- [ ] ~ Possibly mark questionable trigger words with a star (*) too.
+- [ ] ~ Finding replacement words, possibly using online thesaurus.
+- [ ] ~ Vary natural language grammar constructs?
+- [ ] ~ Going over the document again to reformulate.
+
+##### 2020-04-18 Postponed Brainstorm Writing Style
+
+- [ ] ~ The aim is to use less definite, more open language.
+- [ ] ~ (I can view ideas on how in my personal development notes, not here, sorry.)
+- [ ] ~ Also check: whether the stories make sense.
+- [ ] ~ And whether the content is still in scope.
+- [ ] ~ Remove links, since they break so easily.
+- [ ] ~ Casual mentionings of article titles are also fragile. They break quite easily.
+- [ ] ~ That seems quite a lot to check. Maybe that is why it is not easy.
+
+##### 2020-05-27 Postponed Checklist Reformulating Chapters
+
+- [x] Done projects:
+    - [x] The postponed reformulation of the done projects is on my mind.
+- [x] New Intro:
+    - [x] But that makes me think: I want to give it a new beginning in the first place: use some of the old Symbol Language documentation and reformulate a gentler intro.
+- [ ] ~ Reformulating:
+    - [ ] ~ More open, less resolute language
+    - [ ] ~ I could start reading and reformulating top to bottom.
+    - [ ] ~ Introduction
+        - [ ]  Applying trigger word marking technique to this already reworded document?
+    - [ ] ~ For topics TODO / Done: See *Encircle Language Spec Product List*.
+
+##### 2019-08-05 Postponed Mixed Writing Style Issues
+
+- [ ] ~ The read uses terminology in a very specific way, that is not shared with my peers, therefor not easing readers into the material.
+- [ ] ~ Rename the term 'Code Base' to something like 'Base Code' or 'Base of the Code'.
+- [ ] ~ I seem to have had several goals fighting over each other, in projects done long ago about this documentation:
+    - [ ] ~ Explaining it to myself.
+    - [ ] ~ Designing the concepts, separately from the notation.
+    - [ ] ~ Tying together loose ends.
+    - [ ] ~ Making it easy to read for someone else.
+
+##### 2019-08-27 Postponed Simpler Rules
+
+- [ ] ~ I think the 'being blunt' might help. It is not blunt unfriendly, because the explanations might become so much simpler if you say: this is that, this is that, instead of and this far-fetched edge case is solved in this difficult, abstract, theoretical, but precisely determined way, that I'm not sure I even understand anymore... : )
+
 #### Done
 
 ##### 2020-06-18 Done Brainstorm Reconsidering Writing Style
@@ -1402,71 +1456,6 @@ Encircle Language Spec, Writing Style,
 Sometimes it is just clearer to have an article, with diagrams in it straight away, without any article with just textual explanations. In the future, the whole form of the documentation might change as such and have diagram expression be more present in the conceptual explanations.
 
 JJ
-
-#### Postponed
-
-##### 2020-06-01 Postponed Checklist Tone Change
-
-- [ ] ~ (More helpers are in my personal development notes, not here, sorry.)
-- [ ] ~ Marking trigger words in red.
-- [ ] ~ Possibly mark questionable trigger words with a star (*) too.
-- [ ] ~ Finding replacement words, possibly using online thesaurus.
-- [ ] ~ Vary natural language grammar constructs?
-- [ ] ~ Going over the document again to reformulate.
-
-##### 2020-04-18 Postponed Brainstorm Writing Style
-
-- [ ] ~ The aim is to use less definite, more open language.
-- [ ] ~ (I can view ideas on how in my personal development notes, not here, sorry.)
-- [ ] ~ Also check: whether the stories make sense.
-- [ ] ~ And whether the content is still in scope.
-- [ ] ~ Remove links, since they break so easily.
-- [ ] ~ Casual mentionings of article titles are also fragile. They break quite easily.
-- [ ] ~ That seems quite a lot to check. Maybe that is why it is not easy.
-
-##### 2020-05-27 Postponed Checklist Reformulating Chapters
-
-- [x] Done projects:
-    - [x] The postponed reformulation of the done projects is on my mind.
-- [x] New Intro:
-    - [x] But that makes me think: I want to give it a new beginning in the first place: use some of the old Symbol Language documentation and reformulate a gentler intro.
-- [ ] ~ Reformulating:
-    - [ ] ~ More open, less resolute language
-    - [ ] ~ I could start reading and reformulating top to bottom.
-    - [x] Encircle Language Spec Overview
-    - [ ] ~ Encircle Language Spec Introduction: Applying trigger word marking technique to this already reworded document?
-    - [x] Basic Diagram Elements
-    - [x] Objects chapter
-    - [x] Classes chapter
-    - [x] Relationships chapter
-    - [ ] ~ System Interfaces chapter
-        - [x] System Objects article
-        - [x] Assignment article
-        - [ ] ~ System Command Call Notations article
-        - [ ] ~ Connectors & Connections article
-        - [ ] ~ System Objects Misc Issues article
-        - [ ] ~ List Concept article
-    - [ ] ~ Commands chapter (part done)
-    - [ ] ~ Parameters chapter
-    - [ ] ~ Modules chapter
-    - [ ] ~ Execution Flow chapter
-    - [ ] ~ Black Boxes chapter
-    - [ ] ~ Interfaces chapter
-    - [ ] ~ Inheritance chapter
-
-##### 2019-08-05 Postponed Mixed Writing Style Issues
-
-- [ ] ~ The read uses terminology in a very specific way, that is not shared with my peers, therefor not easing readers into the material.
-- [ ] ~ Rename the term 'Code Base' to something like 'Base Code' or 'Base of the Code'.
-- [ ] ~ I seem to have had several goals fighting over each other, in projects done long ago about this documentation:
-    - [ ] ~ Explaining it to myself.
-    - [ ] ~ Designing the concepts, separately from the notation.
-    - [ ] ~ Tying together loose ends.
-    - [ ] ~ Making it easy to read for someone else.
-
-##### 2019-08-27 Postponed Simpler Rules
-
-- [ ] ~ I think the 'being blunt' might help. It is not blunt unfriendly, because the explanations might become so much simpler if you say: this is that, this is that, instead of and this far-fetched edge case is solved in this difficult, abstract, theoretical, but precisely determined way, that I'm not sure I even understand anymore... : )
 
 ### Commands | Tone Change
 
