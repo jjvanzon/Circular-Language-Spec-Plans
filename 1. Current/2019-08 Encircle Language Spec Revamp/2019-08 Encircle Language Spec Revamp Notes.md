@@ -45,33 +45,6 @@ I spent quite a portion of my 20's spare time thinking about this idea of how to
 
 *Encircle Language Spec* tries to describe it.
 
-### Goals
-
-- [ ] 'Soft' goals:
-    - [ ] Occupying my head
-    - [ ] Working on a project that seems to matter.
-- [x] 'Hard' goals:
-    - [x] Isolate the Encircle Language docs from the rest of the docs.
-    - [x] Open source the Encircle Language docs.
-- [ ] ~ Low priority:
-    - [ ] ~ Get the documents in a state better accessible for others.
-
-### Scope
-
-Around 2004 the idea may have been to cover *everything*.
-Now (2021-03-04) a scoping it to large blocks might be considered better:
-
-- [ ] Diagram notation
-- [ ] ~ Programming language vs standard libraries
-- [ ] ~ Integration with other systems  
-        (e.g. using diagrams to express C# code, folder structures, etc.)
-- [x] ~~Implementations~~
-- [x] ~~Creator projects~~
-- [x] ~~Precise underlying rules~~
-- [x] ~~Stand-alone Encircle programming environment~~
-- [x] ~~What apps might be programmed in it?~~
-- [x] ~~Could this run as a stand-alone OS?~~
-
 ### Strategy
 
 - When changing a topic's *tone*, perhaps consider *content changes* too.
@@ -124,22 +97,6 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
 
 ### Language Design / Content Changes
 
-- [x] Gentler intro
-- [ ] Static notation
-- [ ] Large lists problem
-- [ ] Friend notation (too prominent?)
-- [ ] Fully OO (is it?)
-- [ ] Purity lost? (with implicit notations?)
-- [ ] Simplify rules
-- [ ] Comment notation
-- [ ] List concept more generic
-- [ ] Pointers (separate chapter)
-- [ ] Relationships 'always' bidirectional (might not be a good choice)
-- [ ] Doubts about Command and Classes Loosely Coupled  
-      (object-commands / command-objects interchangeability)
-- [ ] Enriching misc diagram topics
-- [ ] Access marks: Make them arrows by default? think of something different for protected?
-- [ ] Open ended topics ("Object Resolution", "Conditions", "Object Order")
 - [ ] Writing style:
     - [ ] More pictures
     - [ ] More open, less resolute language
@@ -148,14 +105,6 @@ Now (2021-03-04) a scoping it to large blocks might be considered better:
     - [ ] Is it a *notation* or is it a *run-time*?
         - [ ] (Texts might insist that Encircle is a run-time, while the notation might be the main point of things.)
     - [ ] Over-awareness of pointers?
-
-#### More about Scope
-
-- No programming
-- No apps
-- Just documentation
-- More about existing content, rather than new ideas.
-- Only "Language" topics (not "Framework", "Operating System" or "Applications & Media")
 
 ### Information
 
@@ -196,6 +145,7 @@ TODO
 
 ##### 2021-03-23 Postponed Rough Content Reorganization
 
+- [ ] Sub-project docs for more parts of "Encircle Language Spec Revamp", like tone change, source control migration.
 - [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
 - [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"
