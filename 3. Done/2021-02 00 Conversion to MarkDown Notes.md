@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-MarkDown | 2021-02 | Notes
---------------------------
+Conversion to MarkDown | 2021-02 | Notes
+-----------------------------------------
 
 Converting Word documents to MarkDown.
 

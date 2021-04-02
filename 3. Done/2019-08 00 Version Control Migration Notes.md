@@ -1,8 +1,11 @@
 Encircle Language Spec Plans
 ============================
 
-Source Control Migration | 2019-08 | Notes
+Version Control Migration | 2019-08 | Notes
 ------------------------------------------
+
+- Converting 'version folders' to source control history.
+- Isolating Encircle language content in separate git repositories.
 
 ### Rough Plan
 
