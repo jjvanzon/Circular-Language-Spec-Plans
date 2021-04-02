@@ -6,21 +6,14 @@ Revamp | 2019-08 | Notes
 
 ### Introduction
 
-*Encircle* is an unfinished programming language.
-
-I spent quite some time in my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
-
-*Encircle Language Spec* tries to describe it.
-
-This project *Encircle Language Spec | Revamp* might be an umbrella project about multiple topics. The main point may be to change the *form* of the spec documents:
+This project *Encircle Language Spec | Revamp* might be an umbrella-project about multiple topics. The main point may be to change the *form* of the Encircle Language Spec documents:
 
 - Scoping more sharply
 - Converting to web-friendly format
 - Publishing
 - Changing tone
  
-When changing a topic's *tone*, perhaps *content changes* might be addressed too.
-
+When changing a topic's *tone*, perhaps *content changes* might be addressed too.  
 There might be separate sub-project documents about specific topics.
 
 ### Steps
@@ -30,7 +23,7 @@ There might be separate sub-project documents about specific topics.
 - [x] Source Control Migration
 - [x] Publishing to GitHub
 - [x] Conversion to MarkDown
-- [ ] .. Planning | in General
 - [ ] __Rough Content Reorganization__
+- [ ] .. Planning | in General
 - [ ] .. Scoping
 - [ ] .. Tone Change
