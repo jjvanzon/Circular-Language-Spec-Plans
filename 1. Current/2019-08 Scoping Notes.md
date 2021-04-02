@@ -4,6 +4,18 @@ Encircle Language Spec Plans
 Scoping | 2019-08 | Notes
 -------------------------
 
+### Rough Plan
+
+- [x] Splitting "Software System" / "Encircle Language"
+- [x] Splitting "Encircle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
+    - [x] Ideas.doc too
+- [x] Splitting 'in scope' / 'out of scope' for Encircle Language topics.
+- [x] Splitting up 'phases in life' in planning docs.
+- [x] Removed studying goals.
+- [ ] .. Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
+    - [x] Encircle-Language-Spec repository
+    - [ ] ~ Encircle-Language-Spec-Plans repository
+
 ### TODO
 
 #### 2020-06 ~ Scoping
