@@ -15,6 +15,7 @@ Pointers | Separate Chapter | Language Design
 #### 2020-06-11 Postponed Over-Awareness of Pointers
 
 - [ ] ~ Some texts may also make a bit of an issue out of something almost always being related to a *parent* *object*. It may have gone a bit far incorporating that concept in pictures, usage of terminology. In pictures by displaying a parent object, where it might not add much and it might be an idea to remove it for clarity. In terminology, awareness of ref-ness might have slipped in by calling things related items and related lists more often than perhaps required. The terms 'object' or 'item' and 'list' might do in cases and that may make the text easier to absorb.
+- [ ] ~ Redirection ('ref-ness'?) might be part of the Pointers topic.
 
 ### Done
 

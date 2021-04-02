@@ -28,3 +28,14 @@ I am not sure if the topics I dislike can be left in separate articles or someth
 - [ ] ~ It's just that the Black Box story might be the chapter I am least satisfied with. Not sure yet.
 - [ ] ~ Note that the Events chapter has an item 'Black Boxed Events' in it.
 
+#### 2010 Unfinished Misc Issues
+
+- [ ] ~ Inclusion
+- [ ] ~ Deeper Exclusion
+- [ ] ~ Protected
+- [ ] ~ Internal
+- [ ] ~ Objects Take Over Class Access Control
+- [ ] ~ Private Names
+- [ ] ~ Black Boxing and User Access Control
+- [ ] ~ Programmers and Users
+- [ ] ~ Topics in "Black Boxes Unfinished"

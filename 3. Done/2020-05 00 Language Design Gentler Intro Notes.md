@@ -1,8 +1,8 @@
 Encircle Language Spec Plans | Language Design
 ==============================================
 
-New Intro | 2020-05 | Notes
----------------------------
+Gentler Intro | 2020-05 | Notes
+-------------------------------
 
 ### Done
 

@@ -19,6 +19,7 @@ Parameters | Content Changes
 - [ ] ~ The approach of in/out/thru may be a more appropriate description.
 - [ ] ~ Thru parameters had a particular implicit notation introduced in "Symbol Language (2004)": an object line that goes in both directions. Perhaps one implicit notation too many. But perhaps it can be introduced as an alternative.
 - [ ] It seems the parameter connections might be implicit assignments (perhaps readable in "Symbol Language (2004)". It might only be implied in "Commands" > "Creation Behavior of Commands" in the Spec currently (2021-03-03). Perhaps it might deserve to be mentioned this possible implicit behavior of the lines (that cross command boundaries?). It might not be like that in all cases (clauses?). Introducting the concept lightly surrounded with maybe's may help.
+- [ ] ~ This Argument: Making a mention of this.
 
 #### 2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled
 

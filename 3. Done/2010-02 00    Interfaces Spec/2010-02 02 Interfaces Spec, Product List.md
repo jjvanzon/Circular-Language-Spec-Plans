@@ -19,7 +19,7 @@ The following were produced:
     - Interface = Objects Melting Together
     - Interface = Contract
     - Multiple Interfaces
-    - Interface Type Controls
+    - Interface Type Control
     - Explicit Interfaces
     - Implicit Interfaces
     - Polymorphism

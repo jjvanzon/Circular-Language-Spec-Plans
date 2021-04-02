@@ -4,9 +4,11 @@ Encircle Language Spec Plans
 Diagram Metrics | Content Changes
 ---------------------------------
 
-This document contains some loose ideas about diagram metrics.
+This document contains some loose ideas about diagram metrics. Or 'automatic diagram organization'.
 
-Or 'Documentation: Automatic Diagram Organization'. The thing is: when diagrams do not organize themselves automatically (for instance positioning of the shapes and curving of the lines), the effectivity of the language might be reduced, possibly to a point that the intentions with the language might not be reached as much. If the diagrams would organize themselves automatically, the usability of the language might increase.
+If the diagrams were to be organized automatically, this may increase the effectivity of the language.
+
+The thing is: when diagrams do not organize themselves automatically (for instance positioning of the shapes and curving of the lines), the effectivity of the language might be reduced, possibly to a point that the intentions with the language might not be reached as much. If the diagrams would organize themselves automatically, the usability of the language might increase.
 
 That means positioning the shapes automatically for instance. Specifically excluded, are the ideas about Automatic Containment. That idea got a little side-tracked, because it's complex and has loose ends.
 
@@ -25,3 +27,10 @@ Other topics:
 - Inward references
 - Access marks (when to show them, when not to show them...)
 - Lines exiting the diagram
+
+More topics:
+
+- Spiraling
+- Force-Based Ordering
+- Object Order Metrics
+- Simplification Slider
