@@ -70,7 +70,7 @@ I spent quite a portion of my 20's spare time thinking about this idea of how to
     - [x] Splitting off Planning Docs for Encircle language into a separate git repository.
 - [x] Publishing to GitHub
 - [x] Converting from Word to MarkDown.
-- [x] Folder reorganization
+- [x] Rough content reorganization
     - [ ] __Reorganizing Planning Docs__
     - [x] Reorganizing "Encircle Docs" roughly
     - [x] Reorganizing "Spec" roughly
@@ -136,7 +136,7 @@ TODO
         - [x] *Time planning* issues may not be appropriate anymore.
         - [x] I cannot do *efficient* anymore.
         - [ ] Perhaps read over again later.
-    - [ ] Encircle Language Spec Products List
+    - [ ] __Encircle Language Spec Products List__
         - [ ] Might build up a new list.
         - [ ] And go over old list items and cross them out.
     - [ ] Encircle Language Spec Steps & Time Planning
@@ -145,7 +145,7 @@ TODO
 
 ##### 2021-03-23 Postponed Rough Content Reorganization
 
-- [ ] Sub-project docs for more parts of "Encircle Language Spec Revamp", like tone change, source control migration.
+- [ ] Separate sub-project docs for more general things like Tone Change, Source Control Migration, etc.
 - [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
 - [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"
