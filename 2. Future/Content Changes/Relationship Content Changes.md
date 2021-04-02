@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Relationships Spec | Content Changes
-------------------------------------
+Relationships | Content Changes
+-------------------------------
 
 - [ ] ~ Relationship Direction
 - [ ] ~ Relationships with Pointers

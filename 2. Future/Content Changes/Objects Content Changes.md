@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Objects Spec | Content Changes
-------------------------------
+Objects | Content Changes
+-------------------------
 
 ### Postponed
 

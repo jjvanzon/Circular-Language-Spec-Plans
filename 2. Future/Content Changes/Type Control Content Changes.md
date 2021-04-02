@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Type Control Spec | Content Changes
------------------------------------
+Type Control | Content Changes
+------------------------------
 
 ### Postponed
 

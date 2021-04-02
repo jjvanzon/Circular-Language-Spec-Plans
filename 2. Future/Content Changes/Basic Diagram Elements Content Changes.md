@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Basic Diagram Elements Spec | Content Changes
----------------------------------------------
+Basic Diagram Elements | Content Changes
+----------------------------------------
 
 ### Postponed
 

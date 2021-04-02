@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Black Boxes Spec | Content Changes
-----------------------------------
+Black Boxes | Content Changes
+-----------------------------
 
 ### Postponed
 

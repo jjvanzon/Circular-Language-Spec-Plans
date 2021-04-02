@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Execution Flow Spec | Content Changes
--------------------------------------
+Execution Flow | Content Changes
+--------------------------------
 
 ### Postponed
 

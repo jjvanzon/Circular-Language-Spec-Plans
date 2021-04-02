@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Inheritance Spec | Content Changes
-----------------------------------
+Inheritance | Content Changes
+-----------------------------
 
 ### Postponed
 

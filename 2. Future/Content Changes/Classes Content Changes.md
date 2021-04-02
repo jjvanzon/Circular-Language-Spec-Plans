@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Classes Spec | Content Changes
-------------------------------
+Classes | Content Changes
+-------------------------
 
 ### TODO
 

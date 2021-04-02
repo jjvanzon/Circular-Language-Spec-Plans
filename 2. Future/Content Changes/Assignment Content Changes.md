@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Assignment Spec | Content Changes
----------------------------------
+Assignment | Content Changes
+----------------------------
 
 ### Postponed
 

@@ -1,10 +1,10 @@
 Encircle Language Spec Plans
 ============================
 
-System Objects Spec | Content Changes
--------------------------------------
+System Interfaces | Content Changes
+-----------------------------------
 
-The System Objects article group may need extensions in the future. It could be revisited to make complete the set of system aspects and system commands and cross out remaining ideas and topics.
+The System Interfaces article group may need extensions in the future. It could be revisited to make complete the set of system aspects and system commands and cross out remaining ideas and topics.
 
 Somewhere written down is the idea that Getters & Setters should be a sub-topic inside System Objects, but I am not sure why. It seems that is already covered by the content? Maybe just to compare it to getters and setters and how those look in Encircle Language, just in case there was any doubt.
 
