@@ -65,6 +65,21 @@ Converting Word documents to MarkDown.
 - [x] Removing Word documents.
 - [x] Making version history document titles more consistent.
 
+#### 2021-02-10 Image did not show in rendered MarkDown on GitHub
+
+- Image does not show in rendered MarkDown on GitHub.
+- MarkDown: `![Image in Sub Folder](images/ImageInSubFolder2.jpg)`
+- Folder itself is "Images" (starts with upper case letter).
+- Resolved URL has "images" (starts with lower case letter): `https://github.com/jjvanzon/JJ.Demos.MarkDownTest/blob/master/Sub-Folder%20with%20MD's/images/ImageInSubFolder2.jpg`
+- Changing resolved URL's "images" to "Images" leads to the (not raw) image page.
+-----
+- Exp: Changing image reference to starting with capital letter.
+- Image does show in rendered MarkDown on GitHub.
+- MarkDown: `![Image in Sub Folder](Images/ImageInSubFolder2.jpg)`
+-----
+- Hyp: precise casing matters in image URL's.
+- Exp: I might stick to URL-friendlier notation: lower case letters, dashes between words.
+
 #### 2020-04-19 Done Brainstorm Conversion to MD
 
 - [x] I thought MD would be the way to go with this project compared to docx. But I have doubts if MD is the better way to go. I keep getting stressed out about those doubts. It makes my decisions on what to do with the documents (formatting) harder, because I just am so unsure about this. What I would like is to have a good MD editor. I just hope some of the difficulties editing MD compared to docx can be taken away by a good tool. Also: I think MD will be viewable and better indexable on the internet, but I have not really thoroughly seen that confirmed. The main problems with MD editing I have is navigating around headings and sections and viewing the outcome of my formattings better as I type the MD in. The doubts about indexing: I know GitHub can show the MD in nice formatting, but will a lot of MD's actually be nicely navigatable? Will those MD's actually be indexed, or does that only count for e.g. the `README.MD` in the root dir of a git repository? another doubt about MD is: can I be satisfied with some of the tools that convert docx to MD? Will that all be doable? It's so many articles. Can I do it in bulk? Will I merge more articles into one making converting one by one by hand better. How does it work with links but especially with images? All those doubts made me postpone decisions about converting things to MD, but that makes me burdened with formatting docx's making them look nice, which is not that useful if I am going to convert all of that to MD anyway. That last argument does not seem very strong to me. If I know that MD indexes well, that might already make some decisions to go for MD easier, when I decide e.g. about small documents.
