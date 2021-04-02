@@ -4,15 +4,17 @@ Encircle Language Spec Plans
 Pointers | Separate Chapter | Language Design
 ---------------------------------------------
 
+*Over-awareness of pointers?*
+
 ### Postponed
-
-#### 2020-06-11 Postponed Over-Awareness of Pointers
-
-- [ ] ~ Some texts may also make a bit of an issue out of something almost always being related to a *parent* *object*. It may have gone a bit far incorporating that concept in pictures, usage of terminology. In pictures by displaying a parent object, where it might not add much and it might be an idea to remove it for clarity. In terminology, awareness of ref-ness might have slipped in by calling things related items and related lists more often than perhaps required. The terms 'object' or 'item' and 'list' might do in cases and that may make the text easier to absorb.
 
 #### 2020-05-27 Postponed Pointers Chapter
 
 - [ ] ~ Maybe pointer-to-pointer situations might all be moved away from each chapter and into a separate chapter. It seems a specific issue and many things seem to be able to live without it.
+
+#### 2020-06-11 Postponed Over-Awareness of Pointers
+
+- [ ] ~ Some texts may also make a bit of an issue out of something almost always being related to a *parent* *object*. It may have gone a bit far incorporating that concept in pictures, usage of terminology. In pictures by displaying a parent object, where it might not add much and it might be an idea to remove it for clarity. In terminology, awareness of ref-ness might have slipped in by calling things related items and related lists more often than perhaps required. The terms 'object' or 'item' and 'list' might do in cases and that may make the text easier to absorb.
 
 ### Done
 
