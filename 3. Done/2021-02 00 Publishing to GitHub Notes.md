@@ -1,7 +1,7 @@
 Encircle Language Spec Plans
 ============================
 
-Publishing on GitHub | 2020-02 | Notes
+Publishing to GitHub | 2020-02 | Notes
 --------------------------------------
 
 ### Done

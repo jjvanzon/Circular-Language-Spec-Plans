@@ -11,7 +11,7 @@ Rough Content Reorganization | 2020-03 | Notes
 - [x] Reorganizing "Broader View" roughly
 - [x] Reorganizing "Construct Drafts" roughly
 - [x] Moving topics out of "Spec"
-- [ ] __Reorganizing Planning Docs__
+- [ ] __Reorganizing Planning Docs roughly__
 - [x] Index pages for "Encircle-Language-Spec"
 - [ ] Index pages for "Encircle-Language-Spec-Plans"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec"
@@ -39,10 +39,12 @@ Rough Content Reorganization | 2020-03 | Notes
         - [ ] Grouping folders for "Sub-Projects"?
         - [ ] README.MD in some folders / "Sub-Projects" folder?
     - [ ] Encircle Language Spec Steps & Time Planning
-- [ ] Splitting Revamp Notes into sub-project docs for more specific things
+- [ ] __Splitting Revamp Notes into sub-project docs for more specific things__
     - [x] "Encircle Language Spec Revamp" > "Writing Style" section may have things for sub-projects.
     - [x] like Tone Change, Source Control Migration, etc.
-    - [ ] __More general things too__
+    - [x] More general things too
+    - [ ] Last part of "Steps" may be too specific.
+    - [ ] Loose Files
 
 ### Postponed
 

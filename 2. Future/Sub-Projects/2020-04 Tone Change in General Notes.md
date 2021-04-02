@@ -13,6 +13,12 @@ Tone Change | in General | 2020-04 | Notes
 - [ ] .. (Perhaps search for definites such as 'have to', 'must', 'will', 'should', 'very'.)
 - [ ] .. (Maybe I am being too strict towards myself, about having to rewrite everything in a milder tone.)
 
+### Information
+
+- Tools:
+    - Thesaurus: <https://www.thesaurus.com/>
+    - Google Translate: <https://translate.google.com/>
+
 ### Postponed
 
 #### 2020-06-01 Postponed Checklist Tone Change
