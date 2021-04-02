@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Rough Content Reorganization | 2020-03 | Notes
-----------------------------------------------
+Content Reorganization | 2020-03 | Notes
+----------------------------------------
 
 ### Rough Plan
 
@@ -22,7 +22,7 @@ Rough Content Reorganization | 2020-03 | Notes
 
 ### TODO
 
-#### 2021-03-30 TODO Rough Content Reorganization
+#### 2021-03-30 TODO Content Reorganization
 
 - [ ] .. Merging together goals of Revamp project with Main Project.
     - [ ] Encircle Language Spec Strategy
@@ -34,24 +34,19 @@ Rough Content Reorganization | 2020-03 | Notes
         - [x] *Time planning* issues may not be appropriate anymore.
         - [x] I cannot do *efficient* anymore.
         - [ ] Perhaps read over again later.
-    - [ ] .. Encircle Language Spec Products List
-        - [ ] .. Might build up a new list.
-        - [ ] And go over old list items and cross them out.
+    - [ ] __Encircle Language Spec Products List__
+        - [x] Might build up a new list.
         - [ ] Sub-elaborations may go to sub-project docs.
+        - [ ] And go over old list items and cross them out.
     - [ ] Sub-Projects
-        - [ ] Grouping folders for "Sub-Projects"?
+        - [x] Grouping folders for "Sub-Projects"?
         - [ ] README.MD in some folders / "Sub-Projects" folder?
     - [ ] Encircle Language Spec Steps & Time Planning
-- [ ] __Splitting Revamp Notes into sub-project docs for more specific things__
-    - [x] "Encircle Language Spec Revamp" > "Writing Style" section may have things for sub-projects.
-    - [x] like Tone Change, Source Control Migration, etc.
-    - [x] More general things too
-    - [ ] Last part of "Steps" may be too specific.
-    - [ ] Loose Files
+- [x] Splitting Revamp Notes into sub-project docs for more specific things
 
 ### Postponed
 
-#### 2021-03-23 Postponed Rough Content Reorganization
+#### 2021-03-23 Postponed Content Reorganization
 
 - [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
 - [ ] Contents sections in documents?
@@ -71,6 +66,8 @@ Rough Content Reorganization | 2020-03 | Notes
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
 - [ ] ~ Renaming "System Objects" chapter to "System Interfaces"?
+- [ ] ~ Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
+- [ ] ~ Loose ideas: regroup or clear out
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 
@@ -78,7 +75,7 @@ Rough Content Reorganization | 2020-03 | Notes
 
 ### Done
 
-#### 2021-03-23 Done Rough Content Reorganization
+#### 2021-03-23 Done Content Reorganization
 
 - [x] Updating headings to reflect new folder organization.
 - [x] Moved images (after the folder organization changes).
@@ -92,7 +89,7 @@ Rough Content Reorganization | 2020-03 | Notes
 - [x] Planning docs: Splitting up Revamp project into topics.
     - [x] Some work might be Done project, bot others might be half Done, half TODO, which might make it a Current project. Perhaps Moving Done, TODO and Postponed together under a topic might create overview to see the distiction, before spreading things over multiple documents.
 
-#### 2021-03-14 Done Rough Content Reorganization
+#### 2021-03-14 Done Content Reorganization
 
 - [x] Moves from "Spec" to "Construct Drafts":
     - [x] "Previous Versions"
