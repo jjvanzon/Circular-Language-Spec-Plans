@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Planning in General | 2019-08 | Notes
--------------------------------------
+Planning in General | 2019-08
+-----------------------------
 
 ### Done
 
