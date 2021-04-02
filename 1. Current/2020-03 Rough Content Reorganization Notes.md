@@ -8,6 +8,8 @@ Rough Content Reorganization | 2020-03 | Notes
 
 - [x] Reorganizing "Encircle Docs" roughly
 - [x] Reorganizing "Spec" roughly
+    - [x] Reduced the number of articles, grouping topics together.
+    - [x] ~ Turned separate Concept / Diagram / Text Code articles into one.
 - [x] Reorganizing "Broader View" roughly
 - [x] Reorganizing "Construct Drafts" roughly
 - [x] Moving topics out of "Spec"
@@ -16,6 +18,7 @@ Rough Content Reorganization | 2020-03 | Notes
 - [ ] Index pages for "Encircle-Language-Spec-Plans"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec"
 - [ ] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
+- [ ] Loose ideas: regroup or clear out
 
 ### TODO
 

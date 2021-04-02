@@ -30,18 +30,7 @@ There might be separate sub-project documents about specific topics.
 - [x] Source Control Migration
 - [x] Publishing to GitHub
 - [x] Conversion to MarkDown
+- [ ] .. Planning | in General
 - [ ] __Rough Content Reorganization__
 - [ ] .. Scoping
-- [ ] .. Planning | in General
 - [ ] .. Tone Change
-- [ ] ~ Including hour sheet
-    - [ ] ~ (Extracting from hour sheet about multiple projects)
-- [ ] ~ Improving Encircle Language Spec:
-    - [x] Reduce the number of articles, grouping topics together.
-    - [x] Turn separate Concept / Diagram / Text Code articles into one.
-    - [ ] .. Loose ideas (regroup or clear out)
-    - [ ] ~ Start reading / writing / reformulating.
-    - [ ] ~ Generally go through content reformulating things?
-    - [ ] ~ Reorganizing articles
-    - [ ] ~ Language design issues
-    - [ ] ~ Correcting for new insight / decisions
