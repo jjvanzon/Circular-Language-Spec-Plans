@@ -39,11 +39,22 @@ Content Reorganization | 2020-03 | Notes
         - [x] Going over older list items and cross them out.
         - [x] Sub-elaborations may go to sub-project docs.
         - [x] Giving each section a small introductory sentence?
+    - [x] Archived: Encircle Language Spec Steps & Time Planning.
+        - [x] \> I cannot do (strict) time planning.
+    - [ ] __Brainstorm:__
+        - [ ] Merging the Revamp goals might not apply as much to "Out of Scope" topics.
+        - [ ] But moving things from In Scope to Out of Scope might be relevant.
+        - [ ] That might not apply to Strategy
+        - [ ] May apply to Out of Scope > Product List,
+        - [ ] Time Planning might be moved to Archive. (I cannot do (strict) time planning.)
+        - [ ] Loose Ideas might be separated between In Scope and Out of Scope.
+    - [ ] __Out of Scope > Strategy: Read over__
+    - [ ] Out of Scope > Product List
+    - [ ] Out of Scope > Time Planning
+    - [ ] Out of Scope > Loose Ideas
     - [ ] Sub-Projects
         - [x] Grouping folders for "Sub-Projects"?
         - [ ] README.MD in some folders / "Sub-Projects" folder?
-    - [ ] Encircle Language Spec Steps & Time Planning
-    - [ ] Cleaning up the Out of Scope section / perhaps defining more sharply.
 - [x] Splitting Revamp Notes into sub-project docs for more specific things
 
 ### Postponed
