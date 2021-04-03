@@ -1,6 +1,7 @@
 ﻿Encircle Language Spec | Steps & Time Planning
 ==============================================
 
+`[ Deprecated documentation ]`
 
 Purpose of this Document
 ------------------------
