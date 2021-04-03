@@ -45,7 +45,10 @@ Content Reorganization | 2020-03 | Notes
     - [x] ~ Out of Scope > Strategy
         - [ ] Perhaps do not describe goals *once had* but *never reached*.
         - [ ] Perhaps better describe what *happened* and goals *now*.
-    - [ ] Out of Scope > Product List
+    - [ ] __Out of Scope > Product List__
+        - [ ] Might build up new lists.
+        - [ ] Going over older list items and cross them out.
+        - [ ] Sub-elaborations may go to sub-project docs.
     - [ ] Out of Scope > Time Planning
         - [ ] Archive it?
     - [ ] Out of Scope > Loose Ideas
@@ -55,7 +58,6 @@ Content Reorganization | 2020-03 | Notes
         - [ ] README.MD in some folders / "Sub-Projects" folder?
     - [ ] Interesting phrase for strategy?
         - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
-
 
 ### Postponed
 
