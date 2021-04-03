@@ -115,9 +115,9 @@ I used to think expressing doubt or uncertainty might make people dismiss an ide
         - [x] I might want to change the order so it starts with a simpler picture, where the relationship is indeed synchronized at first and then try and cover what would happen if it was not. > I feel that it reads alright currently and the order change might not be needed. I did remove some redundant sentences for brevity.
 - [x] I think I do have a plan.
     - [x] Moving around texts as described above per sub-topic.
-    - [x] Keep in the description of class-relational design ideas.
-    - [x] Reformulate what remains in more open language.
-    - [x] Introduce the notation for relational rings + explicitly showing the two 'counterparts' of the relationship.
+    - [x] Kept in the description of class-relational design ideas.
+    - [x] Reformulated what remains in more open language.
+    - [x] Introduced the notation for relational rings + explicitly showing the two 'counterparts' of the relationship.
 
 #### 2020-06-15 Done Content Changes Relationships Chapter
 
