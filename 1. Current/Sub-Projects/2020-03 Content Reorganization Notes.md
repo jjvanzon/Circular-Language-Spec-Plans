@@ -37,7 +37,8 @@ Content Reorganization | 2020-03 | Notes
     - [ ] __Encircle Language Spec Products List__
         - [x] Might build up a new list.
         - [x] Going over older list items and cross them out.
-        - [ ] Sub-elaborations may go to sub-project docs.
+        - [x] Sub-elaborations may go to sub-project docs.
+        - [ ] Giving each section a small introductory sentence?
     - [ ] Sub-Projects
         - [x] Grouping folders for "Sub-Projects"?
         - [ ] README.MD in some folders / "Sub-Projects" folder?
