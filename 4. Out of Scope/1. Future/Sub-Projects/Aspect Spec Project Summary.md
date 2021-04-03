@@ -1,5 +1,5 @@
-﻿Encircle Language Spec Plan | Concept Construct Spec | Project Summary
-======================================================================
+﻿Encircle Language Spec Plan | Aspect Spec | Project Summary
+===========================================================
 
 *Date: 2008*
 
