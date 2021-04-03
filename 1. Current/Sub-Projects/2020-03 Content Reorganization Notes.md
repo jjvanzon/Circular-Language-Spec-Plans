@@ -34,11 +34,11 @@ Content Reorganization | 2020-03 | Notes
         - [x] *Time planning* issues may not be appropriate anymore.
         - [x] I cannot do *efficient* anymore.
         - [ ] Perhaps read over again later.
-    - [ ] __Encircle Language Spec Products List__
+    - [x] Encircle Language Spec Products List
         - [x] Might build up a new list.
         - [x] Going over older list items and cross them out.
         - [x] Sub-elaborations may go to sub-project docs.
-        - [ ] Giving each section a small introductory sentence?
+        - [x] Giving each section a small introductory sentence?
     - [ ] Sub-Projects
         - [x] Grouping folders for "Sub-Projects"?
         - [ ] README.MD in some folders / "Sub-Projects" folder?
