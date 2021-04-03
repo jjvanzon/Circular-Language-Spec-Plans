@@ -25,7 +25,7 @@ Content Reorganization | 2020-03 | Notes
 #### 2021-03-30 TODO Content Reorganization
 
 - [ ] .. Merging together goals of Revamp project with Main Project.
-    - [ ] Encircle Language Spec Strategy
+    - [ ] __Encircle Language Spec Strategy__
         - [x] Reformulating Main Project "Goals" sections.
         - [x] Reformulating Main Project "Theme Picking" section.
         - [x] Reformulating Main Project "Productive Writing" section.
@@ -33,7 +33,7 @@ Content Reorganization | 2020-03 | Notes
         - [x] Perhaps better describe what *happened* and goals *now*.
         - [x] *Time planning* issues may not be appropriate anymore.
         - [x] I cannot do *efficient* anymore.
-        - [ ] Perhaps read over again later.
+        - [ ] __Perhaps read over again later.__
     - [x] Encircle Language Spec Products List
         - [x] Might build up a new list.
         - [x] Going over older list items and cross them out.
@@ -43,6 +43,7 @@ Content Reorganization | 2020-03 | Notes
         - [x] Grouping folders for "Sub-Projects"?
         - [ ] README.MD in some folders / "Sub-Projects" folder?
     - [ ] Encircle Language Spec Steps & Time Planning
+    - [ ] Cleaning up the Out of Scope section / perhaps defining more sharply.
 - [x] Splitting Revamp Notes into sub-project docs for more specific things
 
 ### Postponed
