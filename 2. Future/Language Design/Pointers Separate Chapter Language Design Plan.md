@@ -6,6 +6,9 @@ Pointers | Separate Chapter | Language Design | Plan
 
 *Over-awareness of pointers?*
 
+*2009-08-26:*  
+Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move everything about pointers-to-pointers. But for now you might have to consider pointers-to-pointers every time you work out a theme.
+
 ### Postponed
 
 #### 2020-05-27 Postponed Pointers Chapter

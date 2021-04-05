@@ -27,22 +27,19 @@ Content Reorganization | 2020-03 | Notes
 - [x] Out of Scope > Time Planning > Archiving it.
 - [x] Out of Scope > Product List
     - [x] Moving sub-elaborations to sub-project docs.
-    - [x] Giving each section a small introductory text.
-- [ ] Cleaning up "Sub Projects (Out of Scope)" formatting.
-- [ ] Out of Scope > Loose Ideas
-    - [ ] Might separate In Scope and Out of Scope ideas.
-- [ ] Sub-Projects
-    - [ ] README.MD in some folders / "Sub-Projects" folder?
-- [ ] Interesting phrase for strategy?
-    - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
+    - [x] Small introductory texts for the sections.
+- [ ] Moving things out of Main Projects to Out of Scope.
+    - [ ] Done Projects
 - [ ] Planning docs: Moving (totally) out-of-scope topics to Archive.
-- Moving things out of Main Projects to Out of Scope.
 
 #### 2021-04-05 TODO Reorganizing Planning Docs roughly
 
 - [x] The term "Language Design"
     - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
 - [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
+- [ ] Cleaning up "Sub Projects (Out of Scope)" formatting.
+- [ ] Sub-Projects
+    - [ ] README.MD in some folders / "Sub-Projects" folder?
 
 ### Postponed
 
