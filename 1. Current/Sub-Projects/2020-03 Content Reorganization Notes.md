@@ -22,16 +22,6 @@ Content Reorganization | 2020-03 | Notes
 
 ### TODO
 
-#### 2021-04-05 TODO Merging Together Goals of Revamp Project with Main Project.
-
-- [x] Out of Scope > Time Planning > Archiving it.
-- [x] Out of Scope > Product List
-    - [x] Moving sub-elaborations to sub-project docs.
-    - [x] Small introductory texts for the sections.
-- [ ] Moving things out of Main Projects to Out of Scope.
-    - [ ] Done Projects
-- [ ] Planning docs: Moving (totally) out-of-scope topics to Archive.
-
 #### 2021-04-05 TODO Reorganizing Planning Docs roughly
 
 - [x] The term "Language Design"
@@ -70,6 +60,15 @@ Content Reorganization | 2020-03 | Notes
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-05 Done Merging Together Goals of Revamp Project with Main Project.
+
+- [x] Out of Scope > Time Planning > Archiving it.
+- [x] Out of Scope > Product List
+    - [x] Moving sub-elaborations to sub-project docs.
+    - [x] Small introductory texts for the sections.
+- [x] Moving things out of Main Projects to Out of Scope.
+    - [x] Done Projects seems to have some Out of Scope things.
 
 #### 2021-03-30 Done Merging together goals of Revamp project with Main Project.
 

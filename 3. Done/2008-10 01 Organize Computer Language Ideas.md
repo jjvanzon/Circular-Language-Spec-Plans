@@ -1,5 +1,5 @@
-﻿Organize Computer Language Ideas (2) General | Project Summary 
-===============================================================
+﻿Organize Computer Language Ideas | Project Summary 
+==================================================
 
 *This project is part of a super project.*  
 *This entire project has a character of an organizing content.*
@@ -14,7 +14,7 @@ In between projects, process the ideas in the idea box, putting in the right pla
 Super-project
 -------------
 
-*Organize Computer Language Ideas (2)*
+*Encircle Language Spec*
 
 
 Time

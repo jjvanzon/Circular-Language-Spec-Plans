@@ -1,7 +1,7 @@
 Encircle Language Spec Plans
 ============================
 
-Version Control Migration | 2019-08 | Notes
+Source Control Migration | 2019-08 | Notes
 ------------------------------------------
 
 - Converting 'version folders' to source control history.
