@@ -85,8 +85,9 @@ Project Steps
 Products
 --------
 
-- Updated Automatic Containment article
-
+- [ ] Updated Automatic Containment article
+    - [ ] Artificial Promotion, Esthetic Reference
+    - [ ] Fixed Logical Residence
 
 More Ideas
 ----------
