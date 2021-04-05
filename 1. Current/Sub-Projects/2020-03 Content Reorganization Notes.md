@@ -30,9 +30,8 @@ Content Reorganization | 2020-03 | Notes
 - [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
 - [ ] README.MD in some folders 
     - [x] Current
-    - [ ] __Future__
-        - [ ] Still might read over.
-    - [ ] Out of Scope
+    - [x] Future
+    - [ ] __Out of Scope__
     - [ ] Out of Scope > Future
 
 ### Postponed

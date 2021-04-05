@@ -5,7 +5,7 @@ What might be done in the future.
 
 - [Tone Change](Tone%20Change)
 
-    - Plans around desiring changing the tone of the documentation to milder language.
+    - Plans for the desire to change the tone of the documentation to milder language.
 
 - [Content Changes](Content%20Changes)
 
