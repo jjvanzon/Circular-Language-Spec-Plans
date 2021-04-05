@@ -22,7 +22,7 @@ Content Reorganization | 2020-03 | Notes
 
 ### TODO
 
-#### 2021-04-05 TODO Merging together goals of Revamp project with Main Project.
+#### 2021-04-05 TODO Merging Together Goals of Revamp Project with Main Project.
 
 - [ ] __Out of Scope > Product List__
     - [ ] __Sub-elaborations may go to sub-project docs.__
@@ -38,11 +38,13 @@ Content Reorganization | 2020-03 | Notes
 - [ ] Interesting phrase for strategy?
     - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
 - [ ] Planning docs: Moving (totally) out-of-scope topics to Archive.
+- Moving things out of Main Projects to Out of Scope.
 
 #### 2021-04-05 TODO Reorganizing Planning Docs roughly
 
-- [ ] __The term "Language Design"__
-    - [ ] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
+- [x] The term "Language Design"
+    - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
+- [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
 
 ### Postponed
 
