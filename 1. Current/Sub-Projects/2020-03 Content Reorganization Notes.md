@@ -29,6 +29,7 @@ Content Reorganization | 2020-03 | Notes
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
 - [x] Out of Scope > Time Planning > Archiving it.
+- [ ] Cleaning up Out of Scope Sub Projects formatting.
 - [ ] Out of Scope > Loose Ideas
     - [ ] Might separate In Scope and Out of Scope ideas.
 - [ ] Sub-Projects

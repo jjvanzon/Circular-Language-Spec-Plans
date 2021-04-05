@@ -3,6 +3,12 @@
 
 *Date: 2008*
 
+Introduction
+------------
+
+This phase finally introduces the aspect coding construct, which might replace code generation by an alternative solution. The aspects is pretty much equal to the aspect construct known from aspect oriented programming.
+
+
 Brainstorm
 ----------
 

@@ -8,9 +8,9 @@ Semantic Modeling | Broader View | Plan
 
 May be about how Encircle language might be used to express or model meaning from reality, a possible link to artificial intelligence, natural language and (bulk) manipulation of semantic models.
 
-This document tries to list the topics these ideas might entail.
+This document tries to list some topics these ideas might entail.
 
-### Product List
+### Topic List
 
 - [ ] Artificial Intelligence
 - [ ] Natural Language

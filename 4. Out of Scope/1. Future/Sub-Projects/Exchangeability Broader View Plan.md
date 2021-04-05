@@ -8,9 +8,9 @@ Exchangeability | Broader View | Plan
 
 The *Exchangeability Principles* describe things in the area of computer technology, that may traditionally be separate, that might be combined to form one thing.
 
-This document tries to list the topics these ideas might entail.
+This document tries to list some topics these ideas might entail.
 
-### Product List
+### Topic List
 
 - [x] Exchangeability Index Page
 - [ ] Diagram & Text Code Expression

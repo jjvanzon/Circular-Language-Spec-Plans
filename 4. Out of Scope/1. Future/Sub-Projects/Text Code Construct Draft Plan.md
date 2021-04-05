@@ -8,9 +8,16 @@ Text Code | Construct Draft | Plan
 
 Basically each element of the language specification might be given a textual representation as well.
 
-This document tries to list the topics these ideas might entail.
+This document tries to list some topics these ideas might entail.
 
-### Product List
+### Brainstorm
+
+Before starting this project, most coding concepts might already have been worked out.  
+The diagrammatic expression of those coding concepts may also have been described.  
+In this project all textual expressions might be worked out of all the coding concepts, that were already worked out.  
+The 'literals' approach might be left alone for now.
+
+### Topic List
 
 - [x] Text Code Index Page
 - [ ] Identifiers Articles
