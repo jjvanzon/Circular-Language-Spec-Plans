@@ -1,5 +1,8 @@
-Encircle Language Spec Plan | Static Broader View Idea
-======================================================
+Encircle Language Spec Plans | Broader View
+===========================================
+
+Static | Broader View | Idea
+----------------------------
 
 *2020-04*
 

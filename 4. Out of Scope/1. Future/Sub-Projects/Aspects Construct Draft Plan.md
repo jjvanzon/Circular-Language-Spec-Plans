@@ -1,24 +1,24 @@
-﻿Encircle Language Spec Plan | Aspect Spec | Project Summary
-===========================================================
+﻿Encircle Language Spec Plan | Construct Drafts
+==============================================
+
+Aspects | Construct Draft | Plan
+--------------------------------
 
 *Date: 2008*
 
-Introduction
-------------
+### Introduction
 
 This phase finally introduces the aspect coding construct, which might replace code generation by an alternative solution. The aspects is pretty much equal to the aspect construct known from aspect oriented programming.
 
 
-Brainstorm
-----------
+### Brainstorm
 
-The reason for the sub-project *Work Out Concepts As External Modules* might have been that it might play a role in a possibly powerful concept of 'aspects' (which I once called 'concepts').
+The reason for the sub-project *Work Out Aspects As External Modules* might have been that it might play a role in a possibly powerful concept of 'aspects' (which I once called 'concepts').
 
-But I already have an idea how concepts as external modules will be, and even though it then might be relevant to document it, another idea seemed unclearer so may have shifted the focus.
+But I already have an idea how aspects as external modules will be, and even though it then might be relevant to document it, another idea seemed unclearer so may have shifted the focus.
 
 
-Not Working Out the 'Aspects' Topic First
------------------------------------------
+### Not Working Out the 'Aspects' Topic First
 
 *Note that the concept construct is still in scope of the Encircle Language Spec project, though a postponed work item. The descriptions about it here, seem too confusing to share, though.*
 

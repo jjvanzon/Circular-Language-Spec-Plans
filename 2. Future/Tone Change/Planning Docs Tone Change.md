@@ -106,7 +106,7 @@ Planning Docs | Tone Change
     - [x] Commands Spec Update Ideas.md
     - [x] Concept Construct Spec Project Summary.docx
         - [x] Move out-of-scope.
-    - [x] Concepts as External Modules Spec Goal (2008-05) (postponed).docx
+    - [x] Aspects as External Modules Spec Goal (2008-05) (postponed).docx
         - [x] Move out-of-scope.
     - [x] Concurrency Resolution Spec Project Summary.docx
         - [x] Move out-of-scope.

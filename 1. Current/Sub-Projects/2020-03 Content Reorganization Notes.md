@@ -27,7 +27,7 @@ Content Reorganization | 2020-03 | Notes
 - [x] The term "Language Design"
     - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
 - [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
-- [ ] Cleaning up "Sub Projects (Out of Scope)" formatting.
+- [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
 - [ ] Sub-Projects
     - [ ] README.MD in some folders / "Sub-Projects" folder?
 
@@ -695,7 +695,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
                 - [x] Light grey used to mean do not do. Now it means done.
             - [x] Normalize the legends.
             - [x] Make it 1 central document
-            - [x] This document has a legend right inside it: Concepts as External Modules Spec Goal (2008-05) (postponed).docx
+            - [x] This document has a legend right inside it: Aspects as External Modules Spec Goal (2008-05) (postponed).docx
         - [x] Font Calibri
             - [x] Just the normal font, not the headings.
         - [x] ~~Headings do not have colors.~~

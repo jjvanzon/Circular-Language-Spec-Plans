@@ -1,17 +1,17 @@
-﻿Encircle Language Spec Plan | Automatic Containment
-===================================================
+﻿Encircle Language Spec Plan | Construct Drafts
+==============================================
+
+Automatic Containment | Construct Draft | Plan
+----------------------------------------------
 
 *Date: June, 2008*
 
 
-Goal
-----
+### Goal
 
 The ideas behind *Automatic Containment* got a bit complex with quite a few loose ends. Working on this topic could include incorporating ideas, found during the project *Diagram Expression for Classes & Relations*.
 
-
-Automatic Containment for Relations
------------------------------------
+### Automatic Containment for Relations
 
 The desire to have most relationships become bidirectional, seemed to lead to a bit of a problem. The notation for a bidirectional relationship could be a *line merge* and a *symbol merge*.
 
@@ -29,8 +29,7 @@ Some of the possible solutions:
 - Lists may tend to be displayed as children, which may automatically define what is a child, and what is a sibling.
 
 
-Lower Contents Brainstorm
--------------------------
+### Lower Contents Brainstorm
 
 *This brainstorm was written in the context of efforts to program a prototype app 'Circle 3'. It might not be very readable.*
 
@@ -41,8 +40,7 @@ That last reference line would be a qualified reference line, but that will not 
 To get this right you have to make the process visually debuggable. And while you are at it make processes separately debuggable.
 
 
-Fixed Logical Residence Brainstorm
-----------------------------------
+### Fixed Logical Residence Brainstorm
 
 *This brainstorm was written in the context of efforts to program a prototype app 'Circle 3'. It might not be very readable.*
 
@@ -64,8 +62,7 @@ Do note that fixed logical residence requires qualification, but that does not m
 \>
 
 
-Project Steps
--------------
+### Project Steps
 
 - Look at Computer Language Coding Principles.doc
 - Maybe go through all ideas you can find.
@@ -82,15 +79,14 @@ Project Steps
         - You have to do a line merge between the reference and the referrers.
 
 
-Products
---------
+### Products
 
 - [ ] Updated Automatic Containment article
     - [ ] Artificial Promotion, Esthetic Reference
     - [ ] Fixed Logical Residence
 
-More Ideas
-----------
+
+### More Ideas
 
 An option to ignore fixed logical residence would be welcome.  
 In that case the fixed logical residence might only be pointed out with an empty reference to the imaginary residence. That way automatic containment will work, but publicly-accessible classes are still available with just the namespace qualifier. (-> Lower Contents)
