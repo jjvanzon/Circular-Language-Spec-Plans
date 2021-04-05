@@ -49,7 +49,7 @@ Content Reorganization | 2020-03 | Notes
     - [x] Extending with topics from the Encircle-Language-Spec documentation folders.
         - [x] Cross checked with doc folders.
         - [x] Cross checking with index pages.
-    - [ ] Eliminating "Topics Roughly"
+    - [x] Eliminating section "Topics Roughly"
     - [ ] Sub-elaborations may go to sub-project docs.
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
