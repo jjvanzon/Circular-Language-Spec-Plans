@@ -18,12 +18,11 @@ There might be separate sub-project documents about specific topics.
 
 ### Steps
 
-- [x] Reorientation
-    - [x] Reading Planning Docs sequentially.
+- [x] Reorientation | reading some of the Planning Docs
 - [x] Source Control Migration
 - [x] Publishing to GitHub
 - [x] Conversion to MarkDown
 - [ ] __Content Reorganization__
+- [ ] __Scoping__
 - [ ] .. Planning | in General
-- [ ] .. Scoping
 - [ ] .. Tone Change

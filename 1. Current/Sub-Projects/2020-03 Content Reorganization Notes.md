@@ -22,50 +22,54 @@ Content Reorganization | 2020-03 | Notes
 
 ### TODO
 
-#### 2021-03-30 TODO Content Reorganization
+#### 2021-03-30 TODO Merging together goals of Revamp project with Main Project.
 
-- [ ] __Merging together goals of Revamp project with Main Project.__
-    - [x] Splitting Revamp Notes into sub-project docs for more specific things
-    - [x] Encircle Language Spec Strategy
-        - [x] Perhaps do not describe goals *once had* but *never reached*.
-        - [x] Perhaps better describe what *happened* and goals *now*.
-        - [x] I cannot do *efficient* anymore.
-    - [x] Encircle Language Spec Products List
-        - [x] Might build up a new list.
-        - [x] Going over older list items and cross them out.
-        - [x] Sub-elaborations may go to sub-project docs.
-        - [x] Giving each section a small introductory sentence.
-    - [x] Archived: Encircle Language Spec Steps & Time Planning.
-        - [x] \> I cannot do (strict) time planning anymore.
-    - [ ] __Brainstorm:__
-        - [ ] Merging the Revamp goals might not apply as much to "Out of Scope" topics.
-        - [ ] But moving things from 'In Scope' to 'Out of Scope' might be relevant.
-        - [ ] Reasons WHY something might be out of scope may become relevant here.
-        - [ ] This might become leading in resubdividing this.
-    - [x] ~ Out of Scope > Strategy
-        - [ ] Perhaps do not describe goals *once had* but *never reached*.
-        - [ ] Perhaps better describe what *happened* and goals *now*.
-    - [ ] __Out of Scope > Product List__
-        - [ ] Might build up new lists.
-        - [ ] Going over older list items and cross them out.
-        - [ ] Sub-elaborations may go to sub-project docs.
-    - [ ] Out of Scope > Time Planning
-        - [ ] Archive it?
-    - [ ] Out of Scope > Loose Ideas
-        - [ ] Might separate In Scope and Out of Scope ideas.
-    - [ ] Sub-Projects
-        - [x] Grouping folders for "Sub-Projects"?
-        - [ ] README.MD in some folders / "Sub-Projects" folder?
-    - [ ] Interesting phrase for strategy?
-        - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
+- [x] Splitting Revamp Notes into sub-project docs for more specific things
+- [x] Encircle Language Spec Strategy
+    - [x] Perhaps do not describe goals *once had* but *never reached*.
+    - [x] Perhaps better describe what *happened* and goals *now*.
+    - [x] I cannot do *efficient* anymore.
+- [x] Encircle Language Spec Products List
+    - [x] Might build up a new list.
+    - [x] Going over older list items and cross them out.
+    - [x] Sub-elaborations may go to sub-project docs.
+    - [x] Giving each section a small introductory text.
+- [x] Archived: Encircle Language Spec Steps & Time Planning.
+    - [x] \> I cannot do (strict) time planning anymore.
+- [ ] Brainstorm:
+    - [ ] Merging the Revamp goals might not apply as much to "Out of Scope" topics.
+    - [ ] But moving things from 'In Scope' to 'Out of Scope' might be relevant.
+    - [ ] Reasons WHY something might be out of scope may become relevant here.
+    - [ ] This might become leading in resubdividing this.
+- [x] ~ Out of Scope > Strategy
+    - [ ] Perhaps do not describe goals *once had* but *never reached*.
+    - [ ] Perhaps better describe what *happened* and goals *now*.
+- [ ] __Out of Scope > Product List__
+    - [x] Ordered older items by newer categories.
+    - [ ] __Extending with topics from the Encircle-Language-Spec documentation folders.__
+        - [ ] May go through index pages too (may have topics without a separate document)
+    - [ ] Eliminating "Topics Roughly"
+    - [ ] Sub-elaborations may go to sub-project docs.
+    - [ ] Reformulations
+    - [ ] Giving each section a small introductory text.
+- [ ] Out of Scope > Time Planning
+    - [ ] Archive it?
+- [ ] Out of Scope > Loose Ideas
+    - [ ] Might separate In Scope and Out of Scope ideas.
+- [ ] Sub-Projects
+    - [x] Grouping folders for "Sub-Projects"?
+    - [ ] README.MD in some folders / "Sub-Projects" folder?
+- [ ] Interesting phrase for strategy?
+    - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
+
+- [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
 
 ### Postponed
 
 #### 2021-03-23 Postponed Content Reorganization
 
-- [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
 - [ ] Contents sections in documents?
-- [ ] ~ Moves to "Implementations"
+- [ ] ~ Moves to "Implementations"?
 - [ ] All pointer topics to Pointers.
 - [ ] All Text Code topics to single place.
 - [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
