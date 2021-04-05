@@ -64,8 +64,7 @@ Content Reorganization | 2020-03 | Notes
     - [ ] README.MD in some folders / "Sub-Projects" folder?
 - [ ] Interesting phrase for strategy?
     - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
-
-- [ ] Planning docs: Removing (totally) out-of-scope topics to Archive.
+- [ ] Planning docs: Moving (totally) out-of-scope topics to Archive.
 
 ### Postponed
 
