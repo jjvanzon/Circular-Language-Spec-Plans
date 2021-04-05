@@ -13,4 +13,5 @@ What might be done in the future.
 
 - [Language Design](Language%20Design)
 
-    - More significant changes to the language or desired constructs that may hardly be described yet.
+    - More significant changes to the language
+    - Or desired constructs that may hardly be described yet.
