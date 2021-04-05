@@ -13,45 +13,18 @@ Content Reorganization | 2020-03 | Notes
 - [x] Reorganizing "Broader View" roughly
 - [x] Reorganizing "Construct Drafts" roughly
 - [x] Moving topics out of "Spec"
-- [ ] __Reorganizing Planning Docs roughly__
 - [x] Index pages for "Encircle-Language-Spec"
-- [ ] Index pages for "Encircle-Language-Spec-Plans"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec"
+- [ ] __Reorganizing Planning Docs roughly__
+- [ ] Index pages for "Encircle-Language-Spec-Plans"
 - [ ] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
 - [ ] Loose ideas: regroup or clear out
 
 ### TODO
 
-#### 2021-03-30 TODO Merging together goals of Revamp project with Main Project.
+#### 2021-04-05 TODO Merging together goals of Revamp project with Main Project.
 
-- [x] Splitting Revamp Notes into sub-project docs for more specific things
-- [x] Encircle Language Spec Strategy
-    - [x] Perhaps do not describe goals *once had* but *never reached*.
-    - [x] Perhaps better describe what *happened* and goals *now*.
-    - [x] I cannot do *efficient* anymore.
-- [x] Encircle Language Spec Products List
-    - [x] Might build up a new list.
-    - [x] Going over older list items and cross them out.
-    - [x] Sub-elaborations may go to sub-project docs.
-    - [x] Giving each section a small introductory text.
-- [x] Archived: Encircle Language Spec Steps & Time Planning.
-    - [x] \> I cannot do (strict) time planning anymore.
-- [ ] Brainstorm:
-    - [ ] Merging the Revamp goals might not apply as much to "Out of Scope" topics.
-    - [ ] But moving things from 'In Scope' to 'Out of Scope' might be relevant.
-    - [ ] Reasons WHY something might be out of scope may become relevant here.
-    - [ ] This might become leading in resubdividing this.
-- [x] ~ Out of Scope > Strategy
-    - [ ] Perhaps do not describe goals *once had* but *never reached*.
-    - [ ] Perhaps better describe what *happened* and goals *now*.
 - [ ] __Out of Scope > Product List__
-    - [x] Ordered older items by newer categories.
-    - [x] Extending with topics from the Encircle-Language-Spec documentation folders.
-        - [x] Cross checked with doc folders.
-        - [x] Cross checking with index pages.
-    - [x] Eliminating section "Topics Roughly"
-    - [x] Moving "Totally out of Scope" topics
-    - [x] Removing "In Scope Anyway" topics
     - [ ] __Sub-elaborations may go to sub-project docs.__
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
@@ -65,11 +38,15 @@ Content Reorganization | 2020-03 | Notes
 - [ ] Interesting phrase for strategy?
     - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
 - [ ] Planning docs: Moving (totally) out-of-scope topics to Archive.
-- [ ] The term "Language Design" alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
+
+#### 2021-04-05 TODO Reorganizing Planning Docs roughly
+
+- [ ] __The term "Language Design"__
+    - [ ] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
 
 ### Postponed
 
-#### 2021-03-23 Postponed Content Reorganization
+#### 2021-04-05 Postponed Content Reorganization
 
 - [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"?
@@ -96,6 +73,38 @@ Content Reorganization | 2020-03 | Notes
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+
+#### 2021-03-30 Done Merging together goals of Revamp project with Main Project.
+
+- [x] Splitting Revamp Notes into sub-project docs for more specific things
+- [x] Encircle Language Spec Strategy
+    - [x] Perhaps do not describe goals *once had* but *never reached*.
+    - [x] Perhaps better describe what *happened* and goals *now*.
+    - [x] I cannot do *efficient* anymore.
+- [x] Encircle Language Spec Products List
+    - [x] Might build up a new list.
+    - [x] Going over older list items and cross them out.
+    - [x] Sub-elaborations may go to sub-project docs.
+    - [x] Giving each section a small introductory text.
+- [x] Archived: Encircle Language Spec Steps & Time Planning.
+    - [x] \> I cannot do (strict) time planning anymore.
+- [x] Brainstorm:
+    - [x] Merging the Revamp goals might not apply as much to "Out of Scope" topics.
+    - [x] But moving things from 'In Scope' to 'Out of Scope' might be relevant.
+    - [x] Reasons WHY something might be out of scope may become relevant here.
+    - [x] This might become leading in resubdividing this.
+- [x] ~ Out of Scope > Strategy
+    - [x] Perhaps do not describe goals *once had* but *never reached*.
+    - [x] Perhaps better describe what *happened* and goals *now*.
+- [x] ~ Out of Scope > Product List
+    - [x] Ordered older items by newer categories.
+    - [x] Extending with topics from the Encircle-Language-Spec documentation folders.
+        - [x] Cross checked with doc folders.
+        - [x] Cross checking with index pages.
+    - [x] Eliminating section "Topics Roughly"
+    - [x] Moving "Totally out of Scope" topics
+    - [x] Removing "In Scope Anyway" topics
 
 #### 2021-03-23 Done Content Reorganization
 
