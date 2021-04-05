@@ -46,8 +46,9 @@ Content Reorganization | 2020-03 | Notes
     - [ ] Perhaps better describe what *happened* and goals *now*.
 - [ ] __Out of Scope > Product List__
     - [x] Ordered older items by newer categories.
-    - [ ] __Extending with topics from the Encircle-Language-Spec documentation folders.__
-        - [ ] May go through index pages too (may have topics without a separate document)
+    - [x] Extending with topics from the Encircle-Language-Spec documentation folders.
+        - [x] Cross checked with doc folders.
+        - [x] Cross checking with index pages.
     - [ ] Eliminating "Topics Roughly"
     - [ ] Sub-elaborations may go to sub-project docs.
     - [ ] Reformulations
