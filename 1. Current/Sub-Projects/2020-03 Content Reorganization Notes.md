@@ -50,9 +50,13 @@ Content Reorganization | 2020-03 | Notes
         - [x] Cross checked with doc folders.
         - [x] Cross checking with index pages.
     - [x] Eliminating section "Topics Roughly"
+    - [ ] __Moving "Totally out of Scope" topics__
+        - [ ] I am a bit confused where things might go.
+        - [ ] I think I was looking in *JJs-Project-Docs* for a *documentation* project, while a *programming* project might be more relevant.
     - [ ] Sub-elaborations may go to sub-project docs.
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
+    - [ ] Moving "In Scope Anyway" topics
 - [ ] Out of Scope > Time Planning
     - [ ] Archive it?
 - [ ] Out of Scope > Loose Ideas
