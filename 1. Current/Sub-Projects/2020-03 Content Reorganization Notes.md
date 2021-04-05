@@ -28,8 +28,7 @@ Content Reorganization | 2020-03 | Notes
     - [ ] __Moving sub-elaborations to sub-project docs.__
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
-- [ ] Out of Scope > Time Planning
-    - [ ] Archive it?
+- [x] Out of Scope > Time Planning > Archiving it.
 - [ ] Out of Scope > Loose Ideas
     - [ ] Might separate In Scope and Out of Scope ideas.
 - [ ] Sub-Projects
