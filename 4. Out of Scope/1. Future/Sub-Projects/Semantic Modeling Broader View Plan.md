@@ -10,7 +10,7 @@ May be about how Encircle language might be used to express or model meaning fro
 
 This document tries to list some topics these ideas might entail.
 
-### Topic List
+### Topics
 
 - [ ] Artificial Intelligence
 - [ ] Natural Language

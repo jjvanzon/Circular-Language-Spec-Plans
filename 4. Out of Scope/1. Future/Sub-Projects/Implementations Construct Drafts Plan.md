@@ -8,7 +8,7 @@ Implementations | Construct Drafts | Plan
 
 This document tries to list some topics these ideas might entail.
 
-### Topic List
+### Topics
 
 - [ ] Achievability
 - [ ] Several texts about attempts to create an application that would involved Encircle might be found here.

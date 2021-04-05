@@ -10,7 +10,7 @@ The *Exchangeability Principles* describe things in the area of computer technol
 
 This document tries to list some topics these ideas might entail.
 
-### Topic List
+### Topics
 
 - [x] Exchangeability Index Page
 - [ ] Diagram & Text Code Expression

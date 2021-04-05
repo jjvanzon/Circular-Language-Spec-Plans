@@ -14,7 +14,7 @@ Might introduce a way to handle input/output and concurrency.
 
 This may include an exact specification of the terms input and output. This might lead to the definition of how automatic execution order might be established. Also, there may be looked at, to which extent this might help solve concurrency issues.
 
-### Topic List
+### Topics
 
 These may once correspond to articles or sub-sections of documentation.
 

@@ -17,7 +17,7 @@ The diagrammatic expression of those coding concepts may also have been describe
 In this project all textual expressions might be worked out of all the coding concepts, that were already worked out.  
 The 'literals' approach might be left alone for now.
 
-### Topic List
+### Topics
 
 - [x] Text Code Index Page
 - [ ] Identifiers Articles
