@@ -28,8 +28,11 @@ Content Reorganization | 2020-03 | Notes
     - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
 - [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
 - [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
-- [ ] Sub-Projects
-    - [ ] README.MD in some folders / "Sub-Projects" folder?
+- [ ] README.MD in some folders 
+    - [ ] ~~Current > Main Project~~
+    - [ ] Future
+    - [ ] Out of Scope
+    - [ ] ~~Out of Scope > Future~~
 
 ### Postponed
 
