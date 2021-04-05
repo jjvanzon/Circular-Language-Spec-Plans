@@ -1,7 +1,7 @@
 ﻿Encircle Language Spec Plans | Construct Drafts
 ===============================================
 
-Input Output | Language Design | Plan
+Input Output | Construct Draft | Plan
 -------------------------------------
 
 *December, 2008*

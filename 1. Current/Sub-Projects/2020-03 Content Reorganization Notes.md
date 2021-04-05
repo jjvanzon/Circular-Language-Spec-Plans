@@ -25,7 +25,7 @@ Content Reorganization | 2020-03 | Notes
 #### 2021-04-05 TODO Merging Together Goals of Revamp Project with Main Project.
 
 - [ ] __Out of Scope > Product List__
-    - [ ] __Sub-elaborations may go to sub-project docs.__
+    - [ ] __Moving sub-elaborations to sub-project docs.__
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
 - [ ] Out of Scope > Time Planning
@@ -33,7 +33,6 @@ Content Reorganization | 2020-03 | Notes
 - [ ] Out of Scope > Loose Ideas
     - [ ] Might separate In Scope and Out of Scope ideas.
 - [ ] Sub-Projects
-    - [x] Grouping folders for "Sub-Projects"?
     - [ ] README.MD in some folders / "Sub-Projects" folder?
 - [ ] Interesting phrase for strategy?
     - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
@@ -76,7 +75,6 @@ Content Reorganization | 2020-03 | Notes
 
 ### Done
 
-
 #### 2021-03-30 Done Merging together goals of Revamp project with Main Project.
 
 - [x] Splitting Revamp Notes into sub-project docs for more specific things
@@ -91,6 +89,7 @@ Content Reorganization | 2020-03 | Notes
     - [x] Giving each section a small introductory text.
 - [x] Archived: Encircle Language Spec Steps & Time Planning.
     - [x] \> I cannot do (strict) time planning anymore.
+- [x] Grouping folders for "Sub-Projects" (group might be Language Design / Content Changes / Tone Change)
 - [x] Brainstorm:
     - [x] Merging the Revamp goals might not apply as much to "Out of Scope" topics.
     - [x] But moving things from 'In Scope' to 'Out of Scope' might be relevant.
