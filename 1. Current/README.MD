@@ -5,8 +5,7 @@ Things actively busy with.
 
 - [Strategy](1.%20Strategy.md)
     
-    - Main strategy document of the *Encircle Language Spec* project.
-    - Strategies that may be used for some of the work.
+    - Main strategy document of the *Encircle Language Spec* project. Strategies that may be used for some of the work.
 
 - [Topic List](2.%20Topic%20List.md)
 
