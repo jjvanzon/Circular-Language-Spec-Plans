@@ -24,12 +24,12 @@ Content Reorganization | 2020-03 | Notes
 
 #### 2021-04-05 TODO Merging Together Goals of Revamp Project with Main Project.
 
+- [x] Out of Scope > Time Planning > Archiving it.
 - [ ] __Out of Scope > Product List__
     - [ ] __Moving sub-elaborations to sub-project docs.__
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
-- [x] Out of Scope > Time Planning > Archiving it.
-- [ ] Cleaning up Out of Scope Sub Projects formatting.
+- [ ] Cleaning up "Sub Projects (Out of Scope)" formatting.
 - [ ] Out of Scope > Loose Ideas
     - [ ] Might separate In Scope and Out of Scope ideas.
 - [ ] Sub-Projects
