@@ -29,7 +29,7 @@ Content Reorganization | 2020-03 | Notes
 - [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
 - [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
 - [ ] README.MD in some folders 
-    - [ ] Current
+    - [ ] __Current__
     - [ ] Future
     - [ ] Out of Scope
     - [ ] Out of Scope > Future
