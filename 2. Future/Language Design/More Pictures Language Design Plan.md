@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-More Pictures | Language Design
--------------------------------
+More Pictures | Language Design | Plan
+--------------------------------------
 
 ### 2019-08-05 Postponed More Pictures
 

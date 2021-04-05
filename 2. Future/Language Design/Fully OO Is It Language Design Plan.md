@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Fully OO. Is It? | Language Design
-----------------------------------
+Fully OO. Is It? | Language Design | Plan
+-----------------------------------------
 
 ### 2020-05-12 Postponed Fully OO?
 

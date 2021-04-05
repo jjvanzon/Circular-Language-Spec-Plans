@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Large Lists Problem | Language Design
--------------------------------------
+Large Lists Problem | Language Design | Plan
+--------------------------------------------
 
 ### 2019-08-05 Postponed Large Lists Problem
 

@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Pointers | Separate Chapter | Language Design
----------------------------------------------
+Pointers | Separate Chapter | Language Design | Plan
+----------------------------------------------------
 
 *Over-awareness of pointers?*
 

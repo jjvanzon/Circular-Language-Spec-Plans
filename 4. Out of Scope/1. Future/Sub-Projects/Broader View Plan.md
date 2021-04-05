@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Broader View
-------------
+Broader View Plan
+-----------------
 
 ### 2019-12-29 Postponed Encircle Broader View / Gap Lifting
 

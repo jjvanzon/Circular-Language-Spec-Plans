@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Comment Notation | Language Design
-----------------------------------
+Comment Notation | Language Design | Plan
+-----------------------------------------
 
 ### 2019-12-29 Postponed Comment Notation
 

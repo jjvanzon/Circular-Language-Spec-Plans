@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Object Order | Language Design
-------------------------------
+Object Order | Language Design | Plan
+-------------------------------------
 
 ### Postponed
 

@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Static Notation | Language Design
----------------------------------
+Static Notation | Language Design | Plan
+----------------------------------------
 
 The concept of Static could be worked out.
 

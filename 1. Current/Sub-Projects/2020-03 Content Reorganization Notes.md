@@ -52,7 +52,7 @@ Content Reorganization | 2020-03 | Notes
     - [x] Eliminating section "Topics Roughly"
     - [x] Moving "Totally out of Scope" topics
     - [x] Removing "In Scope Anyway" topics
-    - [ ] Sub-elaborations may go to sub-project docs.
+    - [ ] __Sub-elaborations may go to sub-project docs.__
     - [ ] Reformulations
     - [ ] Giving each section a small introductory text.
 - [ ] Out of Scope > Time Planning
@@ -65,6 +65,7 @@ Content Reorganization | 2020-03 | Notes
 - [ ] Interesting phrase for strategy?
     - [ ] You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. 
 - [ ] Planning docs: Moving (totally) out-of-scope topics to Archive.
+- [ ] The term "Language Design" alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
 
 ### Postponed
 

@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Purity Lost? (With Implicit Notations?) | Language Design
----------------------------------------------------------
+Purity Lost? (With Implicit Notations?) | Language Design | Plan
+----------------------------------------------------------------
 
 ### 2019-12-29 Postponed Purity Lost?
 

@@ -1,8 +1,8 @@
 Encircle Language Spec Plans
 ============================
 
-Aspects | Language Design
--------------------------
+Aspects | Language Design | Plan
+--------------------------------
 
 ### 2020-01-13 Do Not Do: Brainstorm Aspects / Concepts
 
