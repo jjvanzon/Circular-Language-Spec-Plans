@@ -1,8 +1,5 @@
-Encircle Language Spec Plans
-============================
-
-Current
--------
+Encircle Language Spec Plans | Current
+======================================
 
 Things actively busy with.
 
