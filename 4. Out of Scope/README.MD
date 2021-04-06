@@ -1,7 +1,7 @@
 Encircle Language Spec Plans | Out of Scope
 ===========================================
 
-The planning around topics that did not make it into the spec, but might be found near the spec in [Broader View](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/broader-view) or [Construct Drafts](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/constructs-drafts).
+The planning around topics that did not make it into the spec. Those can be topics about a [broader view](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/broader-view) on the uses of the Encircle language. They can also be [construct drafts](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/constructs-drafts), that might not be ripe for the spec.
 
 - [Future](1.%20Future)
 

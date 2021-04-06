@@ -31,8 +31,9 @@ Content Reorganization | 2020-03 | Notes
 - [ ] README.MD in some folders 
     - [x] Current
     - [x] Future
-    - [ ] __Out of Scope__
-    - [ ] Out of Scope > Future
+    - [x] Out of Scope
+    - [ ] __Out of Scope > Future__
+- [ ] Removing irrelevant things from Out of Scope Strategy.
 
 ### Postponed
 
