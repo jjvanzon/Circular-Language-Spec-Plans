@@ -23,7 +23,7 @@ You may find the following sub-folders here:
 
 - [Out of Scope](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/4.%20Out%20of%20Scope)
     
-    - Notes about topics that did not make it into the spec. That could be things part of the [Broader View](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/broader-view) sub-folder in the Encircle-Language-Spec repository. Or notes about [Construct Drafts](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/constructs-drafts).
+    - Notes about topics that did not make it into the spec. Those might be topics about a [broader view](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/broader-view) on the uses of the Encircle language. They might also be [construct drafts](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/constructs-drafts), that may not be ripe for the spec yet.
 
 - [Archive](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/5.%20Archive)
 
