@@ -11,8 +11,12 @@ Things that might be done in the future for topics that did not make it into the
 
     - Raw list of topics that might be addressed.
 
-- [Sub-Products](Sub-Projects)
+- [Broader View](Broader%20View)
 
-    - Sub-projects planning for topics deemed out of scope of the spec.
+    - Planning for sub-project about for topics that might be part of a broader perspective on possible applications of the language.
+
+- [Construct Drafts](Construct%20Drafts)
+
+    - Planning for sub-project about for constructs perhaps not fully worked out yet.
 
 - [Loose Ideas](3.%20Loose%20Ideas%20(Out%20of%20Scope).md)
