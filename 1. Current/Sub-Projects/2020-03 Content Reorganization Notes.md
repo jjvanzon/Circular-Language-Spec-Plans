@@ -28,12 +28,13 @@ Content Reorganization | 2020-03 | Notes
     - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
 - [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
 - [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
-- [ ] README.MD in some folders 
+- [x] README.MD in some folders 
     - [x] Current
     - [x] Future
     - [x] Out of Scope
-    - [ ] __Out of Scope > Future__
-- [ ] Removing irrelevant things from Out of Scope Strategy.
+    - [x] Out of Scope > Future
+- [x] Removing less relevant things from Out of Scope Strategy.
+- [ ] Splitting Out of Scope > Future > Sub Projects up in Broader View and Construct Drafts.
 
 ### Postponed
 

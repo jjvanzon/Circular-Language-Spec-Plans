@@ -15,6 +15,7 @@ This document tries to list some topics these ideas might entail.
 - [ ] Code Editor
 - [ ] Some topics might be recognizable from the spec, but then moved here in case it went more into *implementation* than aimed for.
 - [ ] Optimization
+- [ ] Compilation
 
 #### Achievability Topics
 
