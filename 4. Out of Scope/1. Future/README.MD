@@ -13,10 +13,10 @@ Things that might be done in the future for topics that did not make it into the
 
 - [Broader View](Broader%20View)
 
-    - Planning for sub-project about for topics that might be part of a broader perspective on possible applications of the language.
+    - Sub-project planning for ideas might form a broader perspective on possible applications of the language.
 
 - [Construct Drafts](Construct%20Drafts)
 
-    - Planning for sub-project about for constructs perhaps not fully worked out yet.
+    - Planning for sub-projects about constructs, perhaps not fully worked out yet.
 
 - [Loose Ideas](3.%20Loose%20Ideas%20(Out%20of%20Scope).md)
