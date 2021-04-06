@@ -12,23 +12,16 @@ Scoping | 2019-08 | Notes
 - [x] Splitting 'in scope' / 'out of scope' for Encircle Language topics.
 - [x] Splitting up 'phases in life' in planning docs.
 - [x] Removed studying goals.
-- [ ] .. Splitting up "Language Spec" / "Broader View" / "Construct Drafts"
+- [x] Splitting up "Language Spec" / "Broader View" / "Construct Drafts" / "Totally out of Scope"
     - [x] Encircle-Language-Spec repository
-    - [ ] ~ Encircle-Language-Spec-Plans repository
-
-### TODO
-
-#### 2020-06 ~ Scoping
-
-- [ ] Is it a *notation* or is it a *run-time*?
-    - [ ] (Texts might insist that Encircle is a run-time, while the notation might be the main point of things.)
-
-#### 2021-03-30 TODO Scoping Encircle-Language-Spec-Plans
-
-- [ ] Encircle-Language-Spec-Plans repository
-    - [ ] 'Out-of-scope' things might need distinction between "Broader View", "Construct Drafts" and not to be part of the Encircle-Language-Spec-Plans at all.
+    - [x] Encircle-Language-Spec-Plans repository
 
 ### Done
+
+#### 2021-03-30 Done Scoping Encircle-Language-Spec-Plans
+
+- [x] Encircle-Language-Spec-Plans repository
+    - [x] 'Out-of-scope' things might need distinction between "Broader View", "Construct Drafts" and not to be part of the Encircle-Language-Spec-Plans at all.
 
 #### 2020-12-05 Done Scope (for Git Migration)
 

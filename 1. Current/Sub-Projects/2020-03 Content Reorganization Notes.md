@@ -15,26 +15,16 @@ Content Reorganization | 2020-03 | Notes
 - [x] Moving topics out of "Spec"
 - [x] Index pages for "Encircle-Language-Spec"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec"
-- [ ] __Reorganizing Planning Docs roughly__
-- [ ] Index pages for "Encircle-Language-Spec-Plans"
-- [ ] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
+- [x] Reorganizing Planning Docs roughly
+- [x] Index pages / README's for "Encircle-Language-Spec-Plans"
+- [ ] __Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"__
 - [ ] Loose ideas: regroup or clear out
 
 ### TODO
 
-#### 2021-04-05 TODO Reorganizing Planning Docs roughly
+#### 2021-04-05 TODO Pretty URL's for Planning Docs
 
-- [x] The term "Language Design"
-    - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
-- [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
-- [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
-- [x] README.MD in some folders 
-    - [x] Current
-    - [x] Future
-    - [x] Out of Scope
-    - [x] Out of Scope > Future
-- [x] Removing less relevant things from Out of Scope Strategy.
-- [ ] Splitting Out of Scope > Future > Sub Projects up in Broader View and Construct Drafts.
+- [ ] ~ Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
 
 ### Postponed
 
@@ -57,7 +47,6 @@ Content Reorganization | 2020-03 | Notes
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
 - [ ] ~ Renaming "System Objects" chapter to "System Interfaces"?
-- [ ] ~ Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
 - [ ] ~ Loose ideas: regroup or clear out
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
@@ -65,6 +54,20 @@ Content Reorganization | 2020-03 | Notes
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-05 Done Reorganizing Planning Docs roughly
+
+- [x] The term "Language Design"
+    - [x] That alone might not distinguish it as a planning doc. It may still look like a title for a doc in the spec.
+- [x] Shorter file names for Main Project docs (+ the ones in Out of Scope).
+- [x] Cleaning up "Sub Projects (Out of Scope)" formatting.
+- [x] README.MD in some folders 
+    - [x] Current
+    - [x] Future
+    - [x] Out of Scope
+    - [x] Out of Scope > Future
+- [x] Removing less relevant things from Out of Scope Strategy.
+- [x] Splitting Out of Scope > Future > Sub Projects up in Broader View and Construct Drafts.
 
 #### 2021-04-05 Done Merging Together Goals of Revamp Project with Main Project.
 
