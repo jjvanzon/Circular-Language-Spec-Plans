@@ -9,4 +9,4 @@ The planning around topics that did not make it into the spec. Those might be to
 
 - [Done](2.%20Done)
 
-    - Notes about activities from the past.
+    - Activities from the past.

@@ -13,7 +13,7 @@ Things that might be done in the future for topics that did not make it into the
 
 - [Broader View](Broader%20View)
 
-    - Sub-project planning for dreams about possible applications of the language.
+    - Sub-project planning for dreams about possible applications of this language.
 
 - [Construct Drafts](Construct%20Drafts)
 
