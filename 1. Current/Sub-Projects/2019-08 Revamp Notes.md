@@ -22,7 +22,7 @@ There might be separate sub-project documents about specific topics.
 - [x] Source Control Migration
 - [x] Publishing to GitHub
 - [x] Conversion to MarkDown
+- [x] Scoping
 - [ ] __Content Reorganization__
-- [ ] __Scoping__
 - [ ] .. Planning | in General
 - [ ] .. Tone Change
