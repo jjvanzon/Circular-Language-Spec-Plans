@@ -13,6 +13,6 @@ Things that might be done in the future for topics that did not make it into the
 
 - [Sub-Products](Sub-Projects)
 
-    - Sub-projects topics deemed out of scope of the spec.
+    - Sub-projects planning for topics deemed out of scope of the spec.
 
 - [Loose Ideas](3.%20Loose%20Ideas%20(Out%20of%20Scope).md)
