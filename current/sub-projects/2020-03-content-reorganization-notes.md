@@ -17,14 +17,13 @@ Content Reorganization | 2020-03 | Notes
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec"
 - [x] Reorganizing Planning Docs roughly
 - [x] Index pages / README's for "Encircle-Language-Spec-Plans"
-- [ ] __Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"__
+- [x] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
 - [ ] Loose ideas: regroup or clear out
 
 ### TODO
 
-#### 2021-04-05 TODO Pretty URL's for Planning Docs
+...
 
-- [ ] ~ Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
 
 ### Postponed
 
@@ -54,6 +53,11 @@ Content Reorganization | 2020-03 | Notes
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-05 Done Pretty URL's for Planning Docs
+
+- [x] Webby paths for planning docs:
+    - [x] Checking readme's / links.
 
 #### 2021-04-05 Done Reorganizing Planning Docs roughly
 

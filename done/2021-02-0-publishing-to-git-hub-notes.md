@@ -4,6 +4,17 @@ Encircle Language Spec Plans
 Publishing to GitHub | 2020-02 | Notes
 --------------------------------------
 
+### TODO
+
+#### 2021-04-06 TODO Publishing Details
+
+- [ ] GitHub description:
+    - [ ] Older: "Spec for a visual programming language made from shapes and lines"
+    - [ ] Newer: "Diagram notation for visualizing computer code"
+    - [ ] Older: "Planning docs for making the spec for a visual programming language made from shapes and lines"
+    - [ ] Newer: "Planning for a diagram notation for visualizing computer code"
+- [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
+
 ### Done
 
 #### 2019-08-05 Done Open Source Brainstorm
