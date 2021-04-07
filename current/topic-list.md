@@ -1,7 +1,6 @@
 ﻿Encircle Language Spec | Topic List
 ===================================
 
-
 Introduction
 ------------
 

@@ -4,6 +4,16 @@ Encircle Language Spec Plans
 Planning in General | 2019-08
 -----------------------------
 
+### Contents
+
+- [Done](#done)
+    - [2020-05-27 Done Brainstorm Priorities](#2020-05-27-done-brainstorm-priorities)
+    - [2019-08-05 Done Writing Style Mixed Issues](#2019-08-05-done-writing-style-mixed-issues)
+    - [2020-05-24 Done Notes Planning](#2020-05-24-done-notes-planning)
+    - [2020-05-10 Done Brainstorm Effort](#2020-05-10-done-brainstorm-effort)
+    - [2020-05-08 Done Brainstorm Priorities](#2020-05-08-done-brainstorm-priorities)
+    - [2020-03-15 Done Planning](#2020-03-15-done-planning)
+
 ### Done
 
 #### 2020-05-27 Done Brainstorm Priorities

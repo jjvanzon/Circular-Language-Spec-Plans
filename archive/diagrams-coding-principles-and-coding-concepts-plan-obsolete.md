@@ -4,6 +4,17 @@
 *June, 2008*
 
 
+Contents
+--------
+
+- [Goal](#goal)
+    - [Pros and cons for this project](#pros-and-cons-for-this-project)
+    - [Rules](#rules)
+- [Steps](#steps)
+- [Approach](#approach)
+- [Elements](#elements)
+- [Ideas](#ideas)
+
 Goal
 ----
 

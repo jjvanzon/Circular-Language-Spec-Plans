@@ -4,6 +4,39 @@ Encircle Language Spec Plans
 Content Reorganization | 2020-03 | Notes
 ----------------------------------------
 
+__Contents__
+
+- [Rough Plan](#rough-plan)
+- [TODO](#todo)
+    - [2021-04-07 TODO Content Reorganization](#2021-04-07-todo-content-reorganization)
+- [Postponed](#postponed)
+    - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
+    - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
+- [Done](#done)
+    - [2021-04-05 Done Pretty URL's for Planning Docs](#2021-04-05-done-pretty-urls-for-planning-docs)
+    - [2021-04-05 Done Reorganizing Planning Docs roughly](#2021-04-05-done-reorganizing-planning-docs-roughly)
+    - [2021-04-05 Done Merging Together Goals of Revamp Project with Main Project.](#2021-04-05-done-merging-together-goals-of-revamp-project-with-main-project)
+    - [2021-03-30 Done Merging together goals of Revamp project with Main Project.](#2021-03-30-done-merging-together-goals-of-revamp-project-with-main-project)
+    - [2021-03-23 Done Content Reorganization](#2021-03-23-done-content-reorganization)
+    - [2021-03-14 Done Content Reorganization](#2021-03-14-done-content-reorganization)
+    - [2020-05-24 Done Merge More Articles](#2020-05-24-done-merge-more-articles)
+    - [2020-05-27 Done Merging More Commands Articles Together](#2020-05-27-done-merging-more-commands-articles-together)
+    - [2020-05-26 Done Merging More System Objects Articles Together](#2020-05-26-done-merging-more-system-objects-articles-together)
+    - [2020-05-25 Done Merging More Relationships Articles Together](#2020-05-25-done-merging-more-relationships-articles-together)
+    - [2020-05-16 Done Formatting and Article Merging and Distributing](#2020-05-16-done-formatting-and-article-merging-and-distributing)
+    - [2020-05-24 Done Merging and Redistributing Remaining Articles](#2020-05-24-done-merging-and-redistributing-remaining-articles)
+    - [2020-05-23 Done Merging Inheritance Articles Together](#2020-05-23-done-merging-inheritance-articles-together)
+    - [2020-05-22 Done Merging Events Articles Together](#2020-05-22-done-merging-events-articles-together)
+    - [2020-05-22 Done Merging Interfaces Articles Together](#2020-05-22-done-merging-interfaces-articles-together)
+    - [2020-05-20 Done Merging Black Boxes Articles Together](#2020-05-20-done-merging-black-boxes-articles-together)
+    - [2020-05-20 Done Merging Execution Control Articles Together](#2020-05-20-done-merging-execution-control-articles-together)
+    - [2020-05-20 Done Merging Parameters Articles Together](#2020-05-20-done-merging-parameters-articles-together)
+    - [2020-05-18 Done Merging Commands Articles Together](#2020-05-18-done-merging-commands-articles-together)
+    - [2020-05-18 Done Merging System Objects Articles Together](#2020-05-18-done-merging-system-objects-articles-together)
+    - [2020-05-16 Done Reorganize Encircle Language Spec Files](#2020-05-16-done-reorganize-encircle-language-spec-files)
+    - [2020-04-01 Done Encircle Language Spec Planning Docs](#2020-04-01-done-encircle-language-spec-planning-docs)
+    - [2020-03-22 Done Organize Planning Docs](#2020-03-22-done-organize-planning-docs)
+
 ### Rough Plan
 
 - [x] Reorganizing "Encircle Docs" roughly
@@ -18,18 +51,21 @@ Content Reorganization | 2020-03 | Notes
 - [x] Reorganizing Planning Docs roughly
 - [x] Index pages / README's for "Encircle-Language-Spec-Plans"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
+- [ ] __Contents sections in documents__
 - [ ] Loose ideas: regroup or clear out
 
 ### TODO
 
-...
+#### 2021-04-07 TODO Content Reorganization
 
+- [ ] __Contents sections in documents__
+    - [x] Encircle-Language-Spec
+    - [ ] __Encircle-Language-Spec-Plan__
 
 ### Postponed
 
 #### 2021-04-05 Postponed Content Reorganization
 
-- [ ] Contents sections in documents?
 - [ ] ~ Moves to "Implementations"?
 - [ ] All pointer topics to Pointers.
 - [ ] All Text Code topics to single place.
@@ -47,6 +83,8 @@ Content Reorganization | 2020-03 | Notes
     - [ ] ~ One doc for Extensibility?
 - [ ] ~ Renaming "System Objects" chapter to "System Interfaces"?
 - [ ] ~ Loose ideas: regroup or clear out
+- [ ] "In a Diagram" sections might just be called "Diagram"
+- [ ] Overview might be given links.
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 

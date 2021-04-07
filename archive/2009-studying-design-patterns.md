@@ -1,7 +1,7 @@
 Studying Design Patterns
 ========================
 
-*2009 +/-*
+*2009 ~*
 
 I have already given some design patterns quite a central place in the Encircle language.
 Before I knew people had already come up with the pattern, I seemed to have introduced the multimethod pattern, in the programming language.

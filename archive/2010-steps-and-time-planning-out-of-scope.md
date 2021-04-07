@@ -1,6 +1,15 @@
 ﻿Encircle Language Spec Plan | Steps & Time Planning (Out of Scope)
 ==================================================================
 
+Contents
+--------
+
+- [Purpose of this Document](#purpose-of-this-document)
+- [Work Items](#work-items)
+- [Total Points](#total-points)
+- [Reverse Planning](#reverse-planning)
+- [Velocity](#velocity)
+
 
 Purpose of this Document
 ------------------------
