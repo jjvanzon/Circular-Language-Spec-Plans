@@ -9,22 +9,22 @@ Encircle would be an unfinished programming language. It aims to once become a d
 
 You may find the following sub-folders here:
 
-- [Current](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/1.%20Current)
+- [Current](current)
     
     - Things actively busy with.
 
-- [Future](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/2.%20Future)
+- [Future](future)
 
     - What might be done in the future.
 
-- [Done](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/3.%20Done)
+- [Done](done)
 
     - Activities from the past.
 
-- [Out of Scope](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/4.%20Out%20of%20Scope)
+- [Out of Scope](out-of-scope)
     
     - Notes about topics that did not make it into the spec. Those might be topics about a [broader view](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/broader-view) on the uses of the Encircle language. They might also be [construct drafts](https://github.com/jjvanzon/Encircle-Language-Spec/tree/master/constructs-drafts), that may not be ripe for the spec yet.
 
-- [Archive](https://github.com/jjvanzon/Encircle-Language-Spec-Plans/tree/master/5.%20Archive)
+- [Archive](archive)
 
     - Content that might not be relevant anymore. It may be one step away from being deleted. It is still kept in this folder in case something would become relevant again.
