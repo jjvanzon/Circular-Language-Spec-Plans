@@ -13,7 +13,7 @@ Things actively busy with.
 
 - [Sub-Products](sub-projects)
 
-    - Sub-projects for the *Encircle Language Spec* project.
+    - Sub-project documents for the *Encircle Language Spec*.
 
 - [Loose Ideas](loose-ideas.md)
 
