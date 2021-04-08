@@ -4,6 +4,21 @@
 Planning + Black Box Spec Part A | 2009-06 | Eventual Plan | Strategy
 ---------------------------------------------------------------------
 
+__Contents__
+
+- [Remark](#remark)
+- [Parent Project](#parent-project)
+- [Character of the Work](#character-of-the-work)
+- [Goal](#goal)
+- [Side-Goals](#side-goals)
+- [Limitations](#limitations)
+- [Approach](#approach)
+- [Benefits](#benefits)
+- [Conditions](#conditions)
+- [Particular Difficulties](#particular-difficulties)
+- [Future](#future)
+- [Time Planning](#time-planning)
+
 ### Remark
 
 This is the eventual plan. The plan changed during the project. The initial plan can still be found in a different document.
