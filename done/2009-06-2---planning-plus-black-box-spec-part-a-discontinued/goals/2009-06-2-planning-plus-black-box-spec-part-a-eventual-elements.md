@@ -1,8 +1,8 @@
 ﻿Encircle Language Spec Plans
 ============================
 
-Planning + Black Box Spec Part A | 2009-06 | Eventual Plan | Project Elements
------------------------------------------------------------------------------
+Planning + Black Box Spec Part A | 2009-06 | Eventual Elements
+--------------------------------------------------------------
 
 ### Remark
 

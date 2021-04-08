@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Plan | Goal
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Strategy
 ==============================================================================================
 
 

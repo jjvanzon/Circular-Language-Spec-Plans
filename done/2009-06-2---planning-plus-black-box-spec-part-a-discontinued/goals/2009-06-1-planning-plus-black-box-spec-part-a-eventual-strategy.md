@@ -1,8 +1,8 @@
 ﻿Encircle Language Spec Plans
 ============================
 
-Planning + Black Box Spec Part A | 2009-06 | Eventual Plan | Strategy
----------------------------------------------------------------------
+Planning + Black Box Spec Part A | 2009-06 | Eventual Strategy
+--------------------------------------------------------------
 
 __Contents__
 

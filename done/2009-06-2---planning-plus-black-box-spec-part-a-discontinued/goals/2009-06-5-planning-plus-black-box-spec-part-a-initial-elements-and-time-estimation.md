@@ -1,5 +1,5 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Plan | Elements & Time Estimation
-====================================================================================================================
+﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Elements & Time Estimation
+=============================================================================================================
 
 
 Remark
