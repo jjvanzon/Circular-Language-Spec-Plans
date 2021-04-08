@@ -1,9 +1,10 @@
-﻿New Computer Language Functional Design, Planning + Black Box A | 2009-06 | Eventual Plan | Project Elements
-====================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Planning + Black Box Spec Part A | 2009-06 | Eventual Plan | Project Elements
+-----------------------------------------------------------------------------
 
-Remark
--------
+### Remark
 
 This is the eventual plan. The plan changed during the project. The initial plan can still be found in a different document.
 

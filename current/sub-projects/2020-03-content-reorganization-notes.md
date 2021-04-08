@@ -58,10 +58,13 @@ __Contents__
 
 #### 2021-04-07 TODO Content Reorganization
 
-- [ ] __Contents sections in documents__
+- [ ] Contents sections in documents
     - [x] Encircle-Language-Spec
-    - [ ] __Encircle-Language-Spec-Plan__
-        - [ ] __WAS AT: done__
+    - [ ] .. Encircle-Language-Spec-Plan
+        - [ ] .. WAS AT: 2009-06-2-planning-plus-black-box-spec-part-a-eventual-plan-elements
+- [ ] __Making headings more uniform__
+    - [ ] __WAS AT: 2009-06-2-planning-plus-black-box-spec-part-a-eventual-plan-elements__
+
 
 ### Postponed
 
