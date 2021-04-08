@@ -1,8 +1,23 @@
-﻿Encircle Language Spec | Topic List
-===================================
+﻿Encircle Language Spec
+======================
 
-Introduction
-------------
+Topic List
+----------
+
+__Contents__
+
+- [Introduction](#introduction)
+- [TODO](#todo)
+    - [General Things](#general-things)
+    - [Tone Change](#tone-change)
+    - [Content Changes](#content-changes)
+    - [Constructs Unfinished](#constructs-unfinished)
+    - [Language Design](#language-design)
+- [Done](#done)
+    - [Language Design](#language-design-1)
+    - [General Things](#general-things-1)
+
+### Introduction
 
 This document tries to list the things that might be produced in the project *Encircle Language Spec*.
 

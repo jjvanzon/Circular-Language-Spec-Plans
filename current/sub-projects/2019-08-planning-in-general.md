@@ -4,7 +4,7 @@ Encircle Language Spec Plans
 Planning in General | 2019-08
 -----------------------------
 
-### Contents
+__Contents__
 
 - [Done](#done)
     - [2020-05-27 Done Brainstorm Priorities](#2020-05-27-done-brainstorm-priorities)

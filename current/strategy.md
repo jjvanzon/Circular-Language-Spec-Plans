@@ -1,8 +1,29 @@
-﻿Encircle Language Spec | Strategy
-=================================
+﻿Encircle Language Spec
+======================
 
-Introduction
-------------
+Strategy
+--------
+
+__Contents__
+
+- [Introduction](#introduction)
+- [Earlier Goals](#earlier-goals)
+- [Later Goals](#later-goals)
+- [Scope](#scope)
+    - [More about Scope](#more-about-scope)
+- [Theme Picking](#theme-picking)
+    - [Focusing on Easier Themes](#focusing-on-easier-themes)
+    - [Redoing Easier Themes](#redoing-easier-themes)
+    - [Rules of Thumb](#rules-of-thumb)
+    - [Plan the Specifics](#plan-the-specifics)
+    - [Project Order](#project-order)
+- [Productive Writing](#productive-writing)
+    - [Creative vs. Productive](#creative-vs-productive)
+    - [Tasks](#tasks)
+    - [Standard Work in Next Projects](#standard-work-in-next-projects)
+    - [Conceptual Explanations vs. Diagram Explanations](#conceptual-explanations-vs-diagram-explanations)
+
+### Introduction
 
 *Encircle* aims to become a programming language once.
 
@@ -12,9 +33,7 @@ I spent quite some time in my 20's thinking about this idea of how to visually e
 
 It is an idea for a new computer programming language, mostly about a diagram notation that might show things, that go on inside a computer. It might once become a way to navigate and write code.
 
-
-Earlier Goals
--------------
+### Earlier Goals
 
 A while ago the goal of the project was to describe ideas locked up my head. It was meant to preserve my thoughts about this language. This was done, by attempting to make a specification of the new programming language, adequate as a starting point for turning it into a usable product. Then the idea was that it might be given away, sold, implemented or not worked on for years and then the ideas might not fade away. Theoretically if anyone wanted to, they might be able to continue working on it from that point on. That might create some peace of mind and possibilities for the future. Around __2010__ that goal seemed mostly realized.
 
@@ -25,8 +44,7 @@ Between 2012 and 2019 the project went into a __sleep state__. New job. Differen
 Between 2019 and 2021 the goal was to __open source__ it. It took some time to untangle the project from other docs. Eventually it was published. The goal used to be to patent it, but that is no longer the case. Not sure how to make money off of this, and it seems no use tucked away on a hard drive.
 
 
-Later Goals
------------
+### Later Goals
 
 More personal goals might be:
 
@@ -47,8 +65,7 @@ In the future goals might extend to:
 To get the documents in a state better accessible for others. But for now that does not seem in the cards. Tight time planning does does not seem an option either.
 
 
-Scope
------
+### Scope
 
 Around 2004 the idea may have been to cover *everything*. Now (2021-03) a scoping it to large blocks might be considered better:
 
@@ -63,7 +80,7 @@ Around 2004 the idea may have been to cover *everything*. Now (2021-03) a scopin
 - [x] ~~Could this run as a stand-alone OS?~~
 - [x] ~~Aspect Framework / "Creator" projects~~
 
-### More about Scope
+#### More about Scope
 
 - No programming
 - No apps
@@ -72,12 +89,11 @@ Around 2004 the idea may have been to cover *everything*. Now (2021-03) a scopin
 - Only "Language" topics (not "Framework", "Operating System" or "Applications & Media")
 
 
-Theme Picking
--------------
+### Theme Picking
 
 This section tries to cover strategies for rough planning and *theme picking*. This may mostly apply to *language design* and not so much to *content reorganization*.
 
-### Focusing on Easier Themes
+#### Focusing on Easier Themes
 
 Less finished-up documentation was moved to the bottom of the documentation. If a topic is more complete and polished, it might be moved back up again.
 
@@ -85,7 +101,7 @@ The idea is to first describe things, that are already clear ideas, first skippi
 
 One reason for this might be, to get more work done quicker. Another reason might be, that the current projects are about making *existing* ideas easier to pick up, instead of *newer* ideas. Another argument can be: documenting harder topics, might create documentation of lesser quality, less accessible. So a good decision seems to be, to do easier topics first.
 
-### Redoing Easier Themes
+#### Redoing Easier Themes
 
 Some of the more recently done documentation still seems tough to read.
 
@@ -100,7 +116,7 @@ Hazards that might make a reader loose confidence in you:
 
 But that might be a bit unforgiving.
 
-### Rules of Thumb
+#### Rules of Thumb
 
 - Perhaps try to focus on themes easier to work out.
 - Perhaps give more priority to existing chapters.
@@ -108,7 +124,7 @@ But that might be a bit unforgiving.
 - Documenting existing ideas seems more important.
 - Maybe not planning more difficult topics; those might become easier in the future.
 
-### Plan the Specifics
+#### Plan the Specifics
 
 - Perhaps it is a good idea to define more specifically:
     - Which easier subjects?
@@ -118,7 +134,7 @@ But that might be a bit unforgiving.
 
 Maybe plan for easier topics only. The idea is: you might not know how difficult the harder topics will be in the future. They may become easier as time passes by and after the basics would be worked out better.
 
-### Project Order
+#### Project Order
 
 This paragraph may be short, but this might be relavant for some focus. As a rule of thumb, this might be the planned order in which to do language design issues:
 
@@ -128,14 +144,13 @@ This paragraph may be short, but this might be relavant for some focus. As a rul
     - (Perhaps by the time you get to them, it will be easier.)
 
 
-Productive Writing
-------------------
+### Productive Writing
 
 In contrast to the previous section, this section is not so much about theme picking, but more about possible strategies for when a theme has been picked and you might want to start working out the content.
 
 This section covers mostly strategies about writing texts.
 
-### Creative vs. Productive
+#### Creative vs. Productive
 
 - Try to form a clear idea in your head.
 - You might need to have it clear in your head,  
@@ -145,7 +160,7 @@ This section covers mostly strategies about writing texts.
 - You might not be able to make this, if you only focus on producing text and not so much on understanding a concept.
 - When you have forgotten the workings of an (important) concept, then maybe the focus may have been too much on producing documentation, rather than forming an idea in your head.
 
-### Tasks
+#### Tasks
 
 There might be different kinds of tasks involved when writing these texts. Each could have a different strategy.
 
@@ -166,21 +181,21 @@ There might be different kinds of tasks involved when writing these texts. Each 
 
 Below, some of these task are commented on. The focus may lie on *content*.
 
-- #### Collecting Existing Ideas
+- #$### Collecting Existing Ideas
 
     - You might give some importance to collecting existing ideas first (notes, 'idea boxes'). It might be quiet some work. The collection of those ideas may be a good starting point, for the eventual content. You might miss out on something good, when you skip it.
 
-- #### Organizing & Reformulating Brainstorm Texts
+- ##### Organizing & Reformulating Brainstorm Texts
 
     - The method employed for organizing and reformulating brainstorm texts seems ok, but sometimes it might be better to just derive a topic list from the idea texts and start over with the texts.
 
-- #### Creative Thinking
+- ##### Creative Thinking
 
     - Brainstorming about systematics might not be easy. You might not want to see this as production work. You may want to do creative thinking and take some time for it to become clear.
     
     - It may be a good idea, to not just stick to the frame of the project. It should be *one* programming language. You may want to keep the bigger picture in mind, even when a project is working a specific subject (for instance: Interfaces). It should be a good idea to look at a broader perspective too.
 
-- #### Determining Document / Section Subdivision
+- ##### Determining Document / Section Subdivision
 
     - Sometimes there seemed too much focus on explaining each concept in its own separate article.
     - That may be too *form*-oriented.
@@ -193,11 +208,11 @@ Below, some of these task are commented on. The focus may lie on *content*.
     - Sometimes, when things are too complicated, you might ‘artificially’ split up the story into separate articles. This can be done, to get a clearer view on things, not so much because it reads better.
     - Sometimes effort went into making the article list a set of concrete tangible concepts, which might not always be required. Sometimes when there were rules, that applied to multiple concepts, the rules were repeated in multiple articles. It should be ok to isolate a rule into a separate place and to not repeat it.
 
-- #### Converting Brainstorms to the Eventual Text
+- ##### Converting Brainstorms to the Eventual Text
 
     - You might want to be more satisfied with having a set of stories, the way they were in the brainstorm texts. You might not want to give the articles an entirely different subdivision, than brainstorm texts had.
 
-- #### Document Content
+- ##### Document Content
 
     - __defend__:
         - Maybe try not to *defend* the system too much.
@@ -232,15 +247,15 @@ Below, some of these task are commented on. The focus may lie on *content*.
      
     - Perhaps it is wise to not cover details, because that also might make things easier for the reader.
 
-- #### Starting Over
+- ##### Starting Over
 
     - Sometimes when you have a rather large collection of ideas and brainstorms, it may work better, to just extract a topic list out of it and start over.
 
-- #### Cross Out
+- ##### Cross Out
 
     - Later you might use older material as a cross-out list, to delete older things already covered by a newer story and perhaps delete things that have become less interesting and extract stuff that might still be interesting.
 
-- #### Adapting Text to Different Approach
+- ##### Adapting Text to Different Approach
 
     - Adapting text to a different approach may take a while.
     - But sometimes putting more effort into this might be ok.
@@ -250,32 +265,32 @@ Below, some of these task are commented on. The focus may lie on *content*.
     - Sometimes facts seem left in, that just might not be right, just to get it over with.
     - Otherwise it may leave the story in a state of lesser quality than you want.
 
-- #### Document Form
+- ##### Document Form
 
     - Adding references to other articles might not be a goal. It seems high maintenance.
     - Perhaps let go of some worry, whether everything referred to, had already been explained or not.
     - 'Perfect' form may not be a requirement for the articles.
 
-- #### Processing Details
+- ##### Processing Details
 
     - At the end of the project there might be a list of details left. You first might want to consider, not to adapt the texts to those details at all.
 
-- #### Reading Over
+- ##### Reading Over
 
     - The efficiency aspect is loosened up for now. So perhaps read over as much as you like.
 
-- #### Folder Organization
+- ##### Folder Organization
 
     - Simplification in folder organization usually seems a good plan.
 
 The story above, might actually also try to break things up into logical units too much. That might be too form-oriented. Sometimes the rules seem to contradict. Perhaps just use them as guidelines.
 
-### Standard Work in Next Projects
+#### Standard Work in Next Projects
 
 In each next project you pick, consider processing the idea box / loose ideas you might have, even if it seems time-costly. Reformulation of loose ideas, might actually result in a readable, structured article covering the topic. That might be one of the strategies, that could lead to good text.
 
 A project in which you update documentation, might be trailed by an update to the redirection pages, that tell something about that documentation.
 
-### Conceptual Explanations vs. Diagram Explanations
+#### Conceptual Explanations vs. Diagram Explanations
 
 Conceptual explanation and the demonstration of the diagram notation were separated in the past. This was done, because sometimes conceptually explaining something went without problems, and the problem may only have been, how to express it in a diagram. In that case it might be easier to first draw out a conceptual point of view, and next that might make it easier to work out a diagram notation. The conceptual point of view then might not change, but an (imperfect) diagram notation may be changed later, when your vision on it becomes clearer. Also: sometimes when you work out the conceptual explanation first, it becomes easier to figure out a proper diagram notation. However, you might later want to merge conceptual explanation with diagram notation explanation in certain cases, because this might be easier on the reader, to have a conceptual explanation decorated with pictures.

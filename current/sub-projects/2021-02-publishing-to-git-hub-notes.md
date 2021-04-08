@@ -4,6 +4,15 @@ Encircle Language Spec Plans
 Publishing to GitHub | 2020-02 | Notes
 --------------------------------------
 
+__Contents__
+
+- [TODO](#todo)
+    - [2021-04-06 TODO Publishing Details](#2021-04-06-todo-publishing-details)
+- [Done](#done)
+    - [2019-08-05 Done Open Source Brainstorm](#2019-08-05-done-open-source-brainstorm)
+    - [2021-02-09 Done Publishing](#2021-02-09-done-publishing)
+    - [2021-02-08 Done Publishing: My Brother's First Name](#2021-02-08-done-publishing-my-brothers-first-name)
+
 ### TODO
 
 #### 2021-04-06 TODO Publishing Details

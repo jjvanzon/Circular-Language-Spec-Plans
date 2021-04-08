@@ -61,6 +61,7 @@ __Contents__
 - [ ] __Contents sections in documents__
     - [x] Encircle-Language-Spec
     - [ ] __Encircle-Language-Spec-Plan__
+        - [ ] __WAS AT: done__
 
 ### Postponed
 

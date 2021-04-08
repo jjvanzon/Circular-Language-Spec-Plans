@@ -1,5 +1,8 @@
-﻿Encircle Language Spec Plan Part B | Evaluation
-===============================================
+﻿Encircle Language Spec Plans
+============================
+
+Part B | Evaluation
+-------------------
 
 *May, 2010*
 

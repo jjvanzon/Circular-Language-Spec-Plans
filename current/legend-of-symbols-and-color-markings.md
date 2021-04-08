@@ -1,14 +1,23 @@
-﻿Encircle Language Spec Plans | Legend of Symbols and Color Markings
-===================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Legend of Symbols & Color Markings
+----------------------------------
 
-Introduction
-------------
+__Contents__
+
+- [Introduction](#introduction)
+- [MarkDown Check Boxes](#markdown-check-boxes)
+- [Symbols](#symbols)
+- [Colors](#colors)
+- [Scientific Method](#scientific-method)
+- [Template Markings](#template-markings)
+
+### Introduction
 
 You may find these symbols and color markings in the planning docs, that indicate the status of things done/not done.
 
-MarkDown Check Boxes
---------------------
+### MarkDown Check Boxes
 
 - [ ] TODO
 - [ ] __In progress__
@@ -18,8 +27,7 @@ MarkDown Check Boxes
 - [x] ~ Sort of done
 - [x] ~~Don't do~~ 
 
-Symbols
--------
+### Symbols
 
 | Symbol | Meaning                                    |
 |--------|--------------------------------------------|
@@ -54,8 +62,7 @@ Symbols
 | ~      | Maybe do, maybe don't                      |
 | <<  >> | Stereotype e.g. << use case >>             |
 
-Colors
-------
+### Colors
 
 | Color    | Meaning                            |
 |----------|------------------------------------|
@@ -69,9 +76,7 @@ Colors
 
 Slight variations in colors should have no meaning.
 
-
-Scientific Method
------------------
+### Scientific Method
 
 | Abbreviation | Meaning     |
 |--------------| ------------|
@@ -82,9 +87,7 @@ Scientific Method
 | Q            | Question    |
 | A            | Answer      |
 
-
-Template Markings
------------------
+### Template Markings
 
 These markings may appear in templates.
 
