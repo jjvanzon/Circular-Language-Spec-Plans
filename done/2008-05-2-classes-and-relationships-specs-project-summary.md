@@ -1,29 +1,24 @@
-﻿Encircle Language Spec Plan | Classes & Relationships Specs | 2008-05 | Project Summary
-======================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Classes & Relationships Specs | 2008-05 | Project Summary
+---------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Originally the aim was to document all the coding principles and basic coding concepts and their diagram notation. That project turned out to be quite big, so then it was limited to the coding concepts about classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Encircle Language Spec as of 2020.)
 
-
-Super-Project
--------------
+### Super-Project
 
 Encircle Language Spec
 
-
-Date & Time
------------
+### Date & Time
 
 May 27, 2008 – June 21, 2008  
 3 weeks and 5 days  
 40 hours of work  
 
-
-Products
---------
+### Products
 
 The following __26__ articles were produced:
 
@@ -85,9 +80,7 @@ Extra articles:
 - System Interface in a Diagram
     - version  *2008-06-21 00  1.0*
 
-
-Project Steps
--------------
+### Project Steps
 
 - At first updated some project plan texts:
 

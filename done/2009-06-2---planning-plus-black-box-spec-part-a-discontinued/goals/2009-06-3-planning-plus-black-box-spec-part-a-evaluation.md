@@ -1,10 +1,12 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Evaluation
-=====================================================================================
+﻿Encircle Language Spec Plans
+============================
+
+Planning + Black Box Spec Part A | 2009-06 | Evaluation
+-------------------------------------------------------
 
 *September, 2009*
 
-Reflection On Strategy, Time Planning & Progress Monitoring
------------------------------------------------------------
+### Reflection On Strategy, Time Planning & Progress Monitoring
 
 It was not clear at the beginning of the project how much work it was going to be. There was a ton of ideas to organize before you could know the extent of the project.
 
@@ -32,18 +34,14 @@ The current project will be discontinued. The remaining work will be turned into
 
 To kick off reprioritising: the System Objects cross-outs was what I was last working on, but that might just have to be given lower priority.
 
-
-Personal Feeling
------------------
+### Personal Feeling
 
 I was getting an overall feeling of messiness in the time planning and step-by-step planning.  
 It did not feel good to work at it anymore. I had lost touch with proportions of work and felt I had lost control over the amount of work. I did not know what laid ahead anymore and how much work it was still going to be. The good in-control feeling you get from finishing up one phase after another was completely gone.
 
 It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That will give you a feeling of getting stuck...
 
-
-Reflection On Functionality
----------------------------
+### Reflection On Functionality
 
 The thing is: the material produced is not that bad. But I was not going straight towards my goal anymore.
 

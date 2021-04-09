@@ -1,9 +1,10 @@
-﻿Encircle Language Spec Plan | Clarify Command as a Concept Spec | 2008-06 | Project Summary
-===========================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Clarify Command as a Concept Spec | 2008-06 | Project Summary
+-------------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Clarify everything unclear about:
 
@@ -15,31 +16,23 @@ And their diagram expression.
 
 To which extent this can solve concurrency issues was also looked at but not fully worked out.
 
-
-Super-Project
--------------
+### Super-Project
 
 This project used to be the beginning of the project ‘Command As A Concept’, which proved to be too large, so it was split up into multiple projects.
 
-
-Date & Time
------------
+### Date & Time
 
 June 23, 2008 – July 13, 2008  
 __3__ weeks  
 __52 ¼__ hours of work
 
-
-Products
---------
+### Products
 
 A document was produced: *Command As A Concept Brainstorm Texts*  
 It is put in the documentation as the *Commands*  article group version *2008-07-13 XX .*  
 It is approximately __32__ pages of brainstorm texts trying to clarify commands as a concept.
 
-
-Project Steps
--------------
+### Project Steps
 
 - [x] Go through all ideas you can find
 - [x] Organize brainstorm items

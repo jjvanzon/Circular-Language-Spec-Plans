@@ -1,19 +1,19 @@
-﻿Encircle Language Spec | Strategy (Out of Scope)
-================================================
+﻿Encircle Language Spec
+======================
 
+Strategy (Out of Scope)
+-----------------------
 
-Contents
---------
+__Contents__
 
-- [Contents](#contents)
 - [Introduction](#introduction)
 - [Higher Goal](#higher-goal)
 - [Scope](#scope)
 - [Implementation Strategy](#implementation-strategy)
+    - [How Much Designing Before You Implement](#how-much-designing-before-you-implement)
+    - [Principles & Aspects](#principles--aspects)
 
-
-Introduction
-------------
+### Introduction
 
 This document describes strategy and goals of the project *Encircle Language Spec*, but then topics that were deemed *out of scope*.
 
@@ -21,9 +21,7 @@ At first it was content moved from the document *Encircle Language Spec Strategy
 
 *Out of Scope* might not mean *deprecated*, but more like *not part of the spec* or *not for now*. They might be construct drafts, or topics about a broader perspective on things.
 
-
-Higher Goal
------------
+### Higher Goal
 
 One of my worries, is that I have not learned enough constructs, that exist in the world, to really make a unified language for all digital objects. The language was supposed to give a different view onto any digital data: folders, scheduled tasks, object oriented code, the web, databases or any complicated referential structure. It is supposed to combine all of it into a single landscape in a single language, and serve as an entry-point for all other types of digital expression, such as opening data in the app it is intended for, displaying that view on top of the diagram, that is a map of everything going on inside the computer.
 
@@ -43,9 +41,7 @@ What might prove that the diagram language fails:
 
 There were more hopes for the language, but the goals above might be some highlights.
 
-
-Scope
------
+### Scope
 
 There may be specific reasons why something might be *out of scope*. Those might be organized into the following categories:
 
@@ -70,9 +66,7 @@ These might be the more specific reasons things may be out of scope:
     - Dreams about the future
     - Integrating systems
 
-
-Implementation Strategy
------------------------
+### Implementation Strategy
 
 Implementing Encircle Language in software is deemed out of scope.
 
@@ -82,7 +76,7 @@ Implementing Encircle Language in software is deemed out of scope.
 
 This was a point at which, it seemed a good plan to program some software. While not all pieces of the language were designed yet, some experimental things had been programmed. One fear was: making something, that would later be thrown away, would the language change completely. But the base of the language was not expected to change drastically. Another fear was to lose time programming, that was better spent on the language design. The hope was, that a working version would tell where the big problems are would indicate solutions to problems initially not possible to get your head around.
 
-### How Much Designing Before You Implement
+#### How Much Designing Before You Implement
 
 You might want to see a concept running, in a conceptual implementation, to be able to see where the design fails. That is kind of a flaw in designing everything first. You might not be able work out everything in theory first. The design may be imperfect, until it is proven by a conceptual version.  Working out too much in theory can lead to results inefficiently, compared to working out the idea roughly, and then building a conceptual version.  
 Human beings may much more easily identify flaws in running system, than they can before anything has even been made.
@@ -93,6 +87,6 @@ But when the next conceptual implementation will be created is unclear. That wou
 
 Sometimes it can be demotivating, that making the design takes so much time and seems to render so little result. But it may be relevant, that the ideas could be picked up by others. More arguably it may be relevant, that it becomes the *final* design of the base, not an *intermediate* one again, in which important things have been left out, that I know I am going to have to do over again. I left that idea behind, when I decided it did not need to be perfect.
 
-### Principles & Aspects
+#### Principles & Aspects
 
 Earlier, the principles that need to be present in the base code, were separated from the *aspects*, that might be programmed using the base code itself. But from a functional point of view it might not matter how much can be left out of the base code. How as much as possible may be left out of the base code, could be pondered about as the product may be further developed. The subjects might be grouped by functionality. The functionality, that needs to be present in the base code, might spread out all over the functional needs. From a functional point of view it might not really matter whether something is implemented as a plugged-in aspect or as an intrinsic language principle.

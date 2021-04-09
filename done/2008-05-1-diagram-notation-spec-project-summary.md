@@ -1,29 +1,24 @@
-﻿Encircle Language Spec Plan | Diagram Notation Spec | 2008-05 | Project Summary
-===============================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Diagram Notation Spec | 2008-05 | Project Summary
+-------------------------------------------------
 
-Super-Project
--------------
+### Super-Project
 
 *Encircle Language Spec*
 
 (This project was originally intermixed with the sub-project *Clarify Automatic Execution Order 2008-05*, but then the scope was split in two.)
 
-
-Goal
-----
+### Goal
 
 There was some frustration, because it was unclear, what the diagram notation was going to be like. The goal of the project was to get a clear view on that. A clean up of the diagram notation content.
 
-
-Limitation
-----------
+### Limitation
 
 A limitation was, to only get the rules clear, not necessarily finish all the documentation. 
 
-
-Date & Time
------------
+### Date & Time
 
 *(Includes out-of-scope work not talked about here.)*
 
@@ -31,9 +26,7 @@ May 19, 2008 – May 27, 2008
 1 week and 2 days  
 18 hours of work
 
-
-Products
---------
+### Products
 
 The following __*47*__ articles were produced:
 

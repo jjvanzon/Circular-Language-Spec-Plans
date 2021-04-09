@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Command as a Concept Spec | 2008-06 | Project Summary (Out of Scope)
-==================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Command as a Concept Spec | 2008-06 | Project Summary (Out of Scope)
+--------------------------------------------------------------------
 
-Super-Project
--------------
+### Super-Project
 
 *Encircle Language Spec*
 
-
-Goal
-----
+### Goal
 
 This describes the part of the project Command as a Concept Spec, that was later put 'out of scope' of the Encircle Language Spec super-project.
 
@@ -17,22 +16,16 @@ The original goal also included input, output and throughput, automatic executio
 
 Disregarding input/output was taken out of the project, preparation was done for it in this project anyway. Because input/output parameters and command input/output are dependent on assignment, and assignment is dependent on the system interface, the topics about the system interface and assignment were also fully worked out.
 
-
-Date & Time
------------
+### Date & Time
 
 June 23, 2008 – July 13, 2008  
 __3__ weeks  
 __52 ¼__ hours of work
 
-
-Sub-Projects
-------------
+### Sub-Projects
 
 *Clarify Command as a Concept*
 
-
-Products
---------
+### Products
 
 See sub-project description.

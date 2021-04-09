@@ -1,9 +1,10 @@
-﻿Encircle Language Spec Plan | Design Time = Run Time Spec a.o. | 2008-03 | Project Summary
-==========================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Design Time = Run Time Spec a.o. | 2008-03 | Project Summary
+------------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Make the articles:
 
@@ -12,9 +13,7 @@ Make the articles:
 - *Hyperlinks = Referential Structure  2008-03-19 00  1.0*
 - *Clear Cut Coding Principles  2008-03-19 00  1.0*
 
-
-Date & Time
------------
+### Date & Time
 
 2008-03-14 – 2008-03-19  
 __10__ hours of work

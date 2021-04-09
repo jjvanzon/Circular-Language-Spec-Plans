@@ -1,9 +1,10 @@
-﻿Encircle Language Spec Plan | Orient in First Four Principles | 2008-03 | Project Summary
-========================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Orient in First Four Principles | 2008-03 | Project Summary
+-----------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Orient in the documentation of the first four fundamental principles:
 
@@ -12,22 +13,16 @@ Orient in the documentation of the first four fundamental principles:
 - Small Code Base
 - Everything Only (Lack Of Choice = Guarantees)
 
-
-Super-Project
--------------
+### Super-Project
 
 This is a sub-project of the super-project *Encircle Language Spec, Fundamental Principles Spec Part A.*
 
-
-Date & Time
------------
+### Date & Time
 
 2008-03-05 – 2008-03-06  
 2 hours of work
 
-
-Project Plan
-------------
+### Project Plan
 
 - Work on ‘Small Code Base’
 - Work on ‘Everything Only (Lack of Choice = Guarantees)’

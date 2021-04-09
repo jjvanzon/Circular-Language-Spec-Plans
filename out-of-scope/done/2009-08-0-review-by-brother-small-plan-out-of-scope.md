@@ -1,21 +1,18 @@
-﻿Encircle Language Spec Plan | Review by Brother (Out of Scope) | 2009-08 | Small Plan
-=====================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Review by Brother (Out of Scope) | 2009-08 | Small Plan
+-------------------------------------------------------
 
-Parent Project
---------------
+### Parent Project
 
 *Encircle Language Spec*
 
-
-Goal
-----
+### Goal
 
 *This document only has the notes taken out of the original document about the Encircle Language Spec review, because the topics are now out of scope of Encircle Language Spec.* 
 
-
-General Planning
------------------
+### General Planning
 
 Presentation:
 
@@ -61,9 +58,7 @@ Presentation:
         - VB6 Generator 0.9
         - C++ Generator 0.9
 
-
-Reflection
-----------
+### Reflection
 
 The documentation of the Software System framework introduction was covered almost completely.
 The following concepts were covered:

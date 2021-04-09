@@ -1,40 +1,34 @@
-﻿Organize Encircle Language Ideas (2) | Project Summary 
-==================================================
+﻿Encircle Language Spec Plan
+===========================
 
-*This project is part of a super project.*  
-*This entire project has a character of an organizing content.*
+Organize Encircle Language Ideas (2) | 2008-10 | Project Summary 
+----------------------------------------------------------------
 
-
-Goal
-----
+### Goal
 
 In between projects, process the ideas in the idea box, putting in the right place, and update the project description of the main project.
 
-
-Super-project
--------------
+### Super-project
 
 *Encircle Language Spec*
 
+### Character of the Work
 
-Time
-----
+*This entire project has a character of an organizing content.*
+
+### Time
 
 October 2, 2008 – October 3, 2008  
 __2__ days  
 __4__ hours of work
 
-
-Products
---------
+### Products
 
 Ideas out of the idea box were scattered around the documentation, dumped into the development version of the article of the right subject.
 
 The description of the main project *Encircle Language Spec* was updated, mainly its article list.
 
-
-Project steps
--------------
+### Project steps
 
 - Process idea box
     - Gather ideas

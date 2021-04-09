@@ -1,37 +1,30 @@
-﻿Encircle Language Spec Plan | Execution Control Spec | 2008-06 | Project Summary
-================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Execution Control Spec | 2008-06 | Project Summary
+--------------------------------------------------
 
-Super-Project
---------------
+### Super-Project
 
 Encircle Language Spec
 
-
-Main Goal
----------
+### Main Goal
 
 The goal was to work out the execution control articles.
 
-
-Side-Goals
-----------
+### Side-Goals
 
 A side-goal was to take a break from the project *Classes & Relationships Specs*.
 
 During the project clues were found about *automatic containment* and other command topics. Those ideas would later be used in the project *Commands as a Concept Spec*. 
 
-
-Date & Time
------------
+### Date & Time
 
 June 6, 2008 – June 12, 2008  
 1 week  
 34 ½ hours of work
 
-
-Products
---------
+### Products
 
 The following __44__ articles were produced:
 

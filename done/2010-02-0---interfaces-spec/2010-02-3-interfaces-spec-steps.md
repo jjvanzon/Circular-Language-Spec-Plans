@@ -1,9 +1,10 @@
-﻿Encircle Language Spec Plan | Interfaces Spec | 2010-02 | Steps
-===============================================================
+﻿Encircle Language Spec Plans
+============================
 
+Interfaces Spec | 2010-02 | Steps
+---------------------------------
 
-Custom Plan
------------
+### Custom Plan
 
 - [x] Setup project folders
 - [x] Set out strategy
@@ -47,9 +48,7 @@ Custom Plan
         - [x] Put the version in the products document
         - [x] Really wrap up project documentation
 
-
-Topic List
------------
+### Topic List
 
 - [x] Interfaces main concepts  
       \> Easy

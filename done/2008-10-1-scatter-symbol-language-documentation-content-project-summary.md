@@ -1,20 +1,18 @@
-﻿Encircle Language Spec Plan | Scatter Symbol Language Documentation Content | 2008-10 | Project Summary
-=======================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
-Super-Project
--------------
+Scatter Symbol Language Documentation Content | 2008-10 | Project Summary
+-------------------------------------------------------------------------
+
+### Super-Project
 
 *Encircle Language Spec*
 
-
-Character of the Work
----------------------
+### Character of the Work
 
 Organizing things
 
-
-Goal
-----
+### Goal
 
 Scattering around the content from the original *Symbol Language* documentation over the articles of the *Encircle Language* documentation in its newer form.
 
@@ -22,17 +20,13 @@ The original *Symbol Language* documentation was last worked on in 2004 and was 
 
 Each piece of text in the original *Symbol Language* documentation was placed into the development version of an article inside the newer documentation.
 
-
-Date & Time
------------
+### Date & Time
 
 October 3, 2008 – October 13, 2008  
 __11__ days  
 __16__ hours of work
 
-
-Project Notes
--------------
+### Project Notes
 
 - By placing an idea in an appropriate article, the content is at least in a logical place, even though it might make the article seem less 'finished up'.
 - It might not be easy to change all those ideas to a more 'finished up' state, but the work to do that might be split up in more than one project.

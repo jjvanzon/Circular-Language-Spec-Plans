@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Inheritance Spec | 2010-05 | Product List
-=======================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Inheritance Spec | 2010-05 | Product List
+-----------------------------------------
 
-Purpose of this Document
-------------------------
+### Purpose of this Document
 
 The current document gives an overview of the realized products in the project *Inheritance Spec 2010-05*.
 
-
-Products
---------
+### Products
 
 The following article was added to the *System Objects* chapter:
 

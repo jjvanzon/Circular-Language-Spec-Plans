@@ -4,6 +4,8 @@ Encircle Language Spec Plans
 Relationships | Content Changes
 -------------------------------
 
+### Postponed
+
 - [ ] ~ Relationship Direction
 - [ ] ~ Relationships with Pointers
 
@@ -23,8 +25,6 @@ Relationships | Content Changes
 -----
 
 - [ ] ~ Maybe change the term 'relation' to 'relationship'. That is the term commonly used for it in IT.
-
-### Postponed
 
 #### 2020-06-15 Postponed Content Changes for Relationships Chapter
 

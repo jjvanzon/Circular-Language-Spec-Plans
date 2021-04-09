@@ -1,22 +1,19 @@
-﻿Encircle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Implementation
-=============================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Implementation
+-------------------------------------------------------------------------------
 
-Purpose of This Document
-------------------------
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Approach
---------
+### Approach
 
 The original idea was to first read over all the material, and then decide what to change about it.  
 But eventually the changes were made while reading it over. That seemed faster to do, and it was.
 
-
-Checklist
----------
+### Checklist
 
 - [x] Analyze existing material / wrap up article groups:
     - [x] Read over Parent Project description

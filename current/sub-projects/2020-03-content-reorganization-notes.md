@@ -65,7 +65,6 @@ __Contents__
 - [ ] __Making headings more uniform__
     - [ ] __WAS AT: 2009-06-2-planning-plus-black-box-spec-part-a-eventual-plan-elements__
 
-
 ### Postponed
 
 #### 2021-04-05 Postponed Content Reorganization
@@ -89,6 +88,7 @@ __Contents__
 - [ ] ~ Loose ideas: regroup or clear out
 - [ ] "In a Diagram" sections might just be called "Diagram"
 - [ ] Overview might be given links.
+- [ ] Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 

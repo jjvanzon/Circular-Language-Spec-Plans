@@ -1,14 +1,14 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Startup
-==================================================================================
+﻿Encircle Language Spec Plans
+============================
 
-Purpose of This Document
-------------------------
+Planning + Black Box Spec Part A | 2009-06 | Start Up
+-----------------------------------------------------
+
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Rough Plan
-----------
+### Rough Plan
 
 - [x] Setup project folders  __(1)__
 - [x] Time planning for super-project  __(3)__
@@ -16,9 +16,7 @@ Rough Plan
 - [x] Make goal description  __(2)__
     - [x] \+ Other startup issues
 
-
-Orientation Plan
-----------------
+### Orientation Plan
 
 - [x] ~~Estimate how long you will be working on the orientation phase.~~
 - [x] ~~Possibly communicate how long you will be working on the orientation phase.~~
@@ -50,9 +48,7 @@ Intermediate planning:
 - [x] Make a rough time estimation, based on the elements of the project (in the document *Software Development Elements & Time Estimation*).  
 You can really only make a good estimation of the time-cost after the research stage, but the research stage may take too long to deliver a time-cost estimation only after that.
 
-
-Research Plan
--------------
+### Research Plan
 
 - [x] Investigate conditions that need to be met to make the project succeed
 - [x] ~~Make test-output files for other parties~~
@@ -63,9 +59,7 @@ Research Plan
 - [x] ~~Possibly build something improvised~~
     - [x] ~~(only if it is not clear yet what elements the program has to consist of)~~
 
-
-Planning & Design Plan
-----------------------
+### Planning & Design Plan
 
 - [x] Make an implementation plan
     - [x] Think of approach

@@ -1,23 +1,20 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 2: Black Box Part A
-====================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Planning + Black Box Spec Part A | 2009-06 | Cycle 2: Black Box Part A
+----------------------------------------------------------------------
 
-Purpose of This Document
-------------------------
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Rough Plan
-----------
+### Rough Plan
 
 - [x] Reach goal  __(3)__
     - [x] Organize ideas (29 pages)
     - [x] Work out the implementation in mind now
 
-
-Approach
---------
+### Approach
 
 - Existing material:
 
@@ -44,9 +41,7 @@ Writing-efficiently issues you have to consider when making these articles:
 By rule you should not do that. Perhaps I do need to look at the implications, to see if things make sense, but you should not keep those contemplations in the documentation.
 - I think some ideas just need to be deleted, because they introduce discussion where no discussion is required. It introduces confusion.
 
-
-Steps
------
+### Steps
 
 - [x] Organize ideas
 

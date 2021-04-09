@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Wrap-Up
-======================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Wrap-Up
+------------------------------------------------------------------------
 
-Purpose of This Document
-------------------------
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Custom Issues
--------------
+### Custom Issues
 
 - [x] Change goal description
 - [x] Cross-out loose some issues
@@ -29,9 +28,7 @@ Custom Issues
         - [x] Black Box articles
         - [x] Parameters articles
 
-
-Isolate Version Checklist
--------------------------
+### Isolate Version Checklist
 
 - [x] Isolate a version of the documentation
     - [x] Documentation folders:
@@ -46,9 +43,7 @@ Isolate Version Checklist
     - [x] Details:
         - [x] Make sure you mention in the Black Box version description, what specifically still needs to change.
 
-
-Documentation Last Issues Checklist
------------------------------------
+### Documentation Last Issues Checklist
 
 - [ ] Tidy up software development project plan documents
 - [ ] Make entry in project list tidy

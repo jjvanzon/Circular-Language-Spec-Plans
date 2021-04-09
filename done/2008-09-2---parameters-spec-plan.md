@@ -1,29 +1,24 @@
-﻿Encircle Language Spec Plan | Parameters Spec | 2008-09 | Project Summary
-=========================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Parameters Spec | 2008-09 | Project Summary
+-------------------------------------------
 
-Goal
-----
+### Goal
 
 Worked out the Parameter articles, as part of working out Commands as a Concept.
 
-
-Super-Project
--------------
+### Super-Project
 
 *Encircle Language Spec | Command as a Concept Spec*
 
-
-Date & Time
------------
+### Date & Time
 
 September 4, 2008 – October 1, 2008  
 __4__ weeks  
 __60__ hours of work
 
-
-Background
-----------
+### Background
 
 Parameters can be considered the connection between commands and objects.
 
@@ -33,9 +28,7 @@ When a command definition gets an object with a class, this seems to create a re
 
 It looks like, when you turn a command into an executable object, without any additional effort automatically seems establishes the interchangeability between class commands and command parameters. That was an unexpected turn. If two seemingly independent concepts confirm each other, maybe it's on the right track.
 
-
-Products
---------
+### Products
 
 At the beginning of the project, the amount of articles to produce or adapt was __47__.  
 Eventually the amount of articles produced or adapted was __27__.  
@@ -94,9 +87,7 @@ The original list was __47__ articles, which included:
 
 The original list did not include the idea of Joint Display of Access Connectors & Object Relations.
 
-
-Means
------
+### Means
 
 The idea was set aside, that parameter notations might have discrepancies with automatic containment.  
 The idea was set aside, that the notation of automatic containment for relations was not much worked out yet.
@@ -109,9 +100,7 @@ Some key phrases out of the super-project description:
 - Maybe do not go for producing the articles as fast as possible.
 - Consider to not dismiss an idea, when it might not be easy to work out.
 
-
-Reflection
-----------
+### Reflection
 
 This reflection attempts to sum up which turns were taken in the project.
 
@@ -163,10 +152,9 @@ In this project things were stressful at work. It influenced the amount of time 
 
 It was quite a difficult project. Needing to dig deep to try and come up with the right ideas.
 
-Project Steps
--------------
+### Project Steps
 
-### Preparation Work "Parameters"
+#### Preparation Work "Parameters"
 
 - (0h)
 -----
@@ -174,7 +162,7 @@ Project Steps
 - Commands & classes loosely coupled was moved to the parameter articles.
 - Recorded the amount of articles, that was planned to be written at the beginning of the project.
 
-### Reading over Existing Texts
+#### Reading over Existing Texts
 
 - (9h)
 -----
@@ -185,7 +173,7 @@ Project Steps
     - Verbal brainstorming.
     - It would later be used as a cross out list.
 
-### Prepared Texts
+#### Prepared Texts
 
 - Adapted parameter texts
     - The Input, Output, Throughput, Downput introduction seemed to consist of multiple disparate details, that could be moved to more specific articles, because the ideas were later repeated.
@@ -228,7 +216,7 @@ Project Steps
     - ~ Tried to cover the use of each reference situation.
     - ~ Then wrote about access control literals.
 
-### Changed Approach
+#### Changed Approach
 
 The approach was changed, because starting at Relations Between Commands & Objects the idea about reference situations changed. After brainstorming, a direction was found again.
 
@@ -251,7 +239,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
         - \> It could be seen as another system aspect.
     - Joint Display of Access Connectors & Object Relations
 
-### Crossed Out Old Material
+#### Crossed Out Old Material
 
 - Crossed out ideas in project document.
 - Crossed out Commands & Classes Loosely Coupled.
@@ -288,7 +276,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
 - Crossed out older parameter articles.
     - The older articles contain mostly information about Commands & Objects Loosely Coupled, and were integrated into the story.
 
-### Misc Articles
+#### Misc Articles
 
 - Mainly texts of miscellaneous articles were considered as an option to write.
 
@@ -318,9 +306,9 @@ The approach was changed, because starting at Relations Between Commands & Objec
 
 - Reading them over
 
-### Processed Left-Over Ideas
+#### Processed Left-Over Ideas
 
-### Wrap up
+#### Wrap up
 
 - Gave articles a parameters-specific article name.
 - Setting up article list.

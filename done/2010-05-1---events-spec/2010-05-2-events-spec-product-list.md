@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Events Spec | 2010-05 | Products
-============================================================
+﻿Encircle Language Spec Plans
+============================
 
+Events Spec | 2010-05 | Products
+--------------------------------
 
-Purpose of this document
-------------------------
+### Purpose of this document
 
 The goal and strategy of the job was already described in the strategy document. The current document gives an overview of the realized products.
 
-
-Products
----------
+### Products
 
 The following was produced:
 

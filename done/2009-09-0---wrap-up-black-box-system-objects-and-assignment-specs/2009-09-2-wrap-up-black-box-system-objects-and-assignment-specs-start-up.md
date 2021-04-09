@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Startup
-======================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Start Up
+-------------------------------------------------------------------------
 
-Purpose of This Document
-------------------------
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Orientation Checklist
----------------------
+### Orientation Checklist
 
 - [x] Create a new project out of it and start planning.
 - [x] Do not hold on too much to original step plannings and project-related brainstorms. Make an entirely new plan.

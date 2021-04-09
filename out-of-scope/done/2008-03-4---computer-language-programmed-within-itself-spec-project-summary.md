@@ -1,21 +1,18 @@
-﻿Encircle Language Spec Plan | Programming Language Programmed Within Itself Spec | 2008-03 | Project Summary
-============================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Programming Language Programmed Within Itself Spec | 2008-03 | Project Summary
+------------------------------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Write the article *Programming Language Programmed Within Itself,* which produced version  2008-03-10 00  1.0 .
 
-
-Super-Project
--------------
+### Super-Project
 
 This is a sub-project of the super-project *Encircle Language Spec, Fundamental Principles Spec Part A.*
 
-
-Date & Time
-------------
+### Date & Time
 
 2008-03-06 – 2008-03-09  
 __8__ hours of work

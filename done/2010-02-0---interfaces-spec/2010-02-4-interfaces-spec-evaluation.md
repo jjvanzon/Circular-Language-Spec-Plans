@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Interfaces Spec | 2010-02 | Evaluation
-====================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Interfaces Spec | 2010-02 | Evaluation
+--------------------------------------
 
-Introduction
-------------
+### Introduction
 
 This evaluation will be kept very limited.
 
-
-General Evaluation
-------------------
+### General Evaluation
 
 To create a topic list, start over and cross-out worked quite well. It seemed to take  less energy, less time time, less frustration and it may have created a fresher new story.  
 It just worked quite well not to hold on too tight to an existing structure when the existing structure seems questionable.
@@ -18,22 +17,16 @@ The next project for *Encircle Language Spec* might be *Work Out Static, Redo Re
 
 Starting with easier stuff and saving the harder stuff for last or when the solution comes to you also seems an energy saver and feels more relaxed.
 
-
-Eventual Time Cost
-------------------
+### Eventual Time Cost
 
 About __35__ hours.
 
 A little in February 2010, most of it end April 2010, beginning of May 2010.
 
-
-Reflection On Approach
-----------------------
+### Reflection On Approach
 
 I feel I was quite practical and strategic perhaps.
 
-
-Reflection On Functionality
----------------------------
+### Reflection On Functionality
 
 I quite like the chapter. I feel it might be nice to read.

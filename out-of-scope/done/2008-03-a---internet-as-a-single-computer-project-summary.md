@@ -1,17 +1,16 @@
-﻿Encircle Language Spec Plan, Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary
-=============================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary
+--------------------------------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Make the article *Internet as a single computer*.  
 I gathered and described a lot of ideas, but I can’t be satisfied with the article right now. But I can’t make it any better, because the ideas are too new and unclear. The article is to be revised later.  
 Version *2008-04-12 XX  0.9*  was produced
 
-
-Steps
------
+### Steps
 
 - Brainstormed
 - Make a list of principles, concepts and modules that are involved
@@ -39,9 +38,7 @@ Steps
     - Later it will be revised, but not now.
     - I’m sure that one day it will become a crystal clear concept.
 
-
-Dates
------
+### Dates
 
 2008-03-19 – 2008-04-12  
 __37__ hours of work

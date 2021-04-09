@@ -1,9 +1,10 @@
-﻿Encircle Language Spec Plan | Get Clearer View over Difficult Topics | 2008-04 | Project Summary (Out of Scope)
-===============================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Get Clearer View over Difficult Topics | 2008-04 | Project Summary (Out of Scope)
+---------------------------------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Get clear view on ideas not thought through as well.
 
@@ -19,15 +20,11 @@ The goal of the project *Get Clearer View* is to get a clear view on the ideas t
 The idea was that most of flat & structured interchange and aspects as external modules would mess up the original way of thinking, and that flat & structure interchange would mess up the diagram expression.  
 So basically it is about flat & structured interchange, concepts and diagram expression. They tie together relational and object oriented, and add concept oriented to it.
 
-
-Super-Project
--------------
+### Super-Project
 
 *Encircle Language Spec*
 
-
-Means
------
+### Means
 
 It was thought, that getting a clearer view would mean writing articles for the following topics:
 
@@ -39,9 +36,7 @@ It was thought, that getting a clearer view would mean writing articles for the 
 
 But first of all: the goal did *not* require writing all of these articles, but it was important for me to get a *clear view* on the topics. Second of all, some topics didn’t need to be worked out at all: aspects as external modules didn’t need to be worked out, and automatic object formation did not need to be worked out.
 
-
-Date & Time
------------
+### Date & Time
 
 *(This includes hours of the sub-project Diagram Notation Spec 2008-05, later put out of scope of this super-project.)*
 
@@ -49,9 +44,7 @@ April 13, 2008 – May 27, 2008
 6 weeks and 3 days  
 __94 ½__ hours of work
 
-
-Products
---------
+### Products
 
 The following topics got fully worked out articles:
 
@@ -69,9 +62,7 @@ The following topics were not considered, because they will have less impact on 
 - Aspects As External Modules
 - Automatic Object Formation
 
-
-Sub-Projects
-------------
+### Sub-Projects
 
 The work was split up into the following __*4*__  sub-projects:
 

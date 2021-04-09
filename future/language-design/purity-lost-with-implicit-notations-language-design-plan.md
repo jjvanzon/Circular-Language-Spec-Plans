@@ -4,7 +4,9 @@ Encircle Language Spec Plans
 Purity Lost? (With Implicit Notations?) | Language Design | Plan
 ----------------------------------------------------------------
 
-### 2019-12-29 Postponed Purity Lost?
+### Postponed
+
+#### 2019-12-29 Postponed Purity Lost?
 
 - [ ] ~ I think that somewhere along the way, the language lost its purity. Hypothetically, I may have gotten carried away a few times. For instance, using the dashed line as a conceptual expression of the idea of 'classes' or 'types': I think I tend to introduce ideas about notations that might simplify things visually, but possibly introducing ambiguity. At first, the language was an attempt at the purest form that I could find, in which you could draw out an object oriented system with shapes and lines. What happened to that as I started to make, drawing something with dashed lines, something ambiguous? I am not sure: this might be a non-issue. But maybe I want to be wary of where I got carried away and not think in definites about the final form of the language. This also counts for e.g. System Command Call with Argument Notation: I introduced simplified, yet slightly abused ambiguous notation for something you probably will never see used. What if at some point I find use case for this simplified notation that also looks like something it's not? E.g. a call to an object getter:
 

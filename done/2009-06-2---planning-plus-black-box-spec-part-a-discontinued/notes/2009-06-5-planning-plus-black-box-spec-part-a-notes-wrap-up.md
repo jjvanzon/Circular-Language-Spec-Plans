@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Wrap Up
-==================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Planning + Black Box Spec Part A | 2009-06 | Wrap Up
+----------------------------------------------------
 
-Purpose of This Document
-------------------------
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Standard Issues
----------------
+### Standard Issues
 
 - [x] Evaluation by software developer:
     - [x] \> A template is available for this: *Software Development Reflection Template.doc*.
@@ -37,9 +36,7 @@ Investigate if the current functionality is adequate and possibly define a *new*
 ↑ Possibly a next programming trajectory (or save it for a later project.)
 (Start over the whole trajectory. See it as a new project.)
 
-
-Custom Plan
------------
+### Custom Plan
 
 - [x] Make evaluation document
 - [x] Postpone everything left to do.

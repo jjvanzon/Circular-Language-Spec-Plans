@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Commands Spec | 2008-08 | Project Summary
-=====================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Commands Spec | 2008-08 | Project Summary
+-----------------------------------------
 
-Super-Project
--------------
+### Super-Project
 
 *Encircle Language Spec | Command as a Concept Spec*
 
-
-Goal
-----
+### Goal
 
 Working out the basic command topics.  
 Not going deeply into parameters.  
@@ -17,17 +16,13 @@ Advanced command topics can be left out.
 
 One of the main issues worked out in this project would be commands being 'as free' as an object.
 
-
-Date & Time
------------
+### Date & Time
 
 June 28, 2008 – August 31, 2008  
 1 month and 3 days  
 __120__ hours of work
 
-
-Means
------
+### Means
 
 Something challenging was to come up with the creation behavior of calls.  
 Several times the article list changed.  
@@ -35,9 +30,7 @@ At one point a change in style was to try and isolate rules into separate articl
 That helped shape the content.  
 In the end it seemed more work than initially thought.
 
-
-Products
---------
+### Products
 
 At the beginning of the project, the amount of articles to produce or adapt was __43__.  
 Eventually the amount of articles produced or adapted was __110__.  

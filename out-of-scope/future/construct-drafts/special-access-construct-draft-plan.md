@@ -1,8 +1,8 @@
 Encircle Language Spec Plans | Construct Drafts
 ===============================================
 
-Special Access  | Construct Drafts | Plan
------------------------------------------
+Special Access | Construct Drafts | Plan
+----------------------------------------
 
 ### Introduction
 

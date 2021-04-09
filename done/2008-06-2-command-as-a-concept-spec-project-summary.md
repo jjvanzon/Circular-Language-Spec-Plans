@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Command as a Concept Spec | 2008-06 | Project Summary
-===================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Command as a Concept Spec | 2008-06 | Project Summary
+-----------------------------------------------------
 
-Super-Project
--------------
+### Super-Project
 
 Encircle Language Spec
 
-
-Goal
-----
+### Goal
 
 Document the implementation of *commands as a concept*, and a chapter about parameters.
 
@@ -17,17 +16,13 @@ Rather than a single topic, *commands as a concept* is considered a group of top
 
 The project proved to be quite some work, so it was split up into sub-projects.
 
-
-Date & Time
------------
+### Date & Time
 
 July 14, 2008 – October 1, 2008  
 2 ½ months  
 235 hours of work
 
-
-Sub-Projects
-------------
+### Sub-Projects
 
 The work was split up into the following sub-projects:
 
@@ -39,8 +34,6 @@ The work was split up into the following sub-projects:
 
 (The sub-project *Clarify Command as a Concept Spec* used to be part of this super-project, but was later moved out of scope.)
 
-
-Products
---------
+### Products
 
 See sub-project descriptions.

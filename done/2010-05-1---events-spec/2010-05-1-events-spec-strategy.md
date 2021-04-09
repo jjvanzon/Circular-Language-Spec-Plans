@@ -1,33 +1,26 @@
-﻿Encircle Language Spec Plan | Events Spec | 2010-05 | Strategy
-============================================================
+﻿Encircle Language Spec Plans
+============================
 
+Events Spec | 2010-05 | Strategy
+--------------------------------
 
-Background
------------
+### Background
 
 I had an idea about the basic diagram notation for Events since 2002, but an idea about an acceptable notation for drawing out a multicast event popped into my head now in 2010. Then after having studied and updated document templates for 6 ½ hours, I decided to reward myself with doing another *Encircle Language* project: *Events*.
 
-
-Parent Project
---------------
+### Parent Project
 
 *Encircle Language Spec*
 
-
-Character of the Work
----------------------
+### Character of the Work
 
 Working out a chapter of documentation.
 
-
-Goal
-----
+### Goal
 
 The goal of this project is to work out the *Events* articles.
 
-
-Strategy
----------
+### Strategy
 
 The strategy mostly was: *improvise*.
 
@@ -37,9 +30,7 @@ But lessons learned from the previous project were kept in mind:
 - Make a topic list out of existing rough texts, starting over,  
 and then using the existing text as a cross out
 
-
-Before
-------
+### Before
 
 Before the project the material was quite limited:
 
@@ -47,14 +38,10 @@ Before the project the material was quite limited:
 - loose texts coming out of a ± 2005 design of the code generator version,
 - loose material coming out of a ± 2003 design of the diagram notation.
 
-
-After
------
+### After
 
 After the project the *Events* concept was fully worked out including the diagram notation.
 
-
-Time Planning
--------------
+### Time Planning
 
 No particular time planning was used.

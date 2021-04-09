@@ -4,6 +4,50 @@ Encircle Language Spec Plans
 Planning Docs | Tone Change
 ---------------------------
 
+### Postponed
+
+#### 2020-04-18 Postponed Reword 'Done' Planning Docs
+
+- [x] 2008-05 01 Diagram Expression Specs Project Summary.docx
+- [x] 2008-05 02 Classes & Relationships Specs Project Summary.docx
+- [x] 2008-06 01 Execution Control Spec Project Summary.docx
+- [x] 2008-06 02 Command as a Concept Spec Project Summary.docx
+- [x] 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
+- [x] 2008-07 01        System Objects Spec Project Summary.docx
+- [x] 2008-07 02        Assignment Spec Project Summary.docx
+- [x] 2008-08 00        Commands Spec Project Summary.docx
+- [x] 2008-09 01        Organize Encircle Language Ideas Project Summary.docx
+- [x] 2008-09 02        Parameters Spec Plan.docx
+- [x] 2008-10 01 Scatter Symbol Language Documentation Content Project Summmary.docx
+- [x] 2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects.docx
+- [ ] ~ 2009-06 02 Encircle Language Spec Plan Part B, Evaluation.docx
+    - [ ] ~ > Stopped, because I seem panicky about which words to pick and whether someone might be rubbed the wrong way with it somehow.
+- [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Eventual Plan, Goal Description.docx
+- [ ] ~ 2009-06 02 Planning + Black Box Spec Part A, Eventual Plan, Elements.docx
+- [ ] ~ 2009-06 03 Planning + Black Box Spec Part A, Evaluation.docx
+- [ ] ~ 2009-06 04 Planning + Black Box Spec Part A, Initial Plan, Goal Description.docx
+- [ ] ~ 2009-06 05 Planning + Black Box Spec Part A, Initial Plan, Elements & Time Estimation.docx
+- [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Notes, Startup.docx
+- [ ] ~ 2009-06 02 Planning + Black Box Spec Part A, Notes, Cycle 1, Process Idea Box.docx
+- [ ] ~ 2009-06 03 Planning + Black Box Spec Part A, Notes, Cycle 2, Black Box Part A.docx
+- [ ] ~ 2009-06 04 Planning + Black Box Spec Part A, Notes, Cycle 3, Redo System Objects & Assignment Part A.docx
+- [ ] ~ 2009-06 05 Planning + Black Box Spec Part A, Notes, Wrap Up.docx
+- [ ] ~ 2009-08 Review by Ramses, Small Plan.docx
+- [ ] ~ 2009-09 01 Wrap Up Black Box, System Objects & Assignment Specs, Goal.docx
+- [ ] ~ 2009-09 02 Wrap Up Black Box, System Objects & Assignment Specs, Startup.docx
+- [ ] ~ 2009-09 03 Wrap Up Black Box, System Objects & Assignment Specs, Implementation.docx
+- [ ] ~ 2009-09 04 Wrap Up Black Box, System Objects & Assignment Specs, Wrap-Up.docx
+- [ ] ~ 2010-02 01 Interfaces Spec, Strategy.docx
+- [ ] ~ 2010-02 02 Interfaces Spec, Product List.docx
+- [ ] ~ 2010-02 03 Interfaces Spec, Steps.docx
+- [ ] ~ 2010-02 04 Interfaces Spec, Evaluation.docx
+- [ ] ~ 2010-05 01 Events Spec, Strategy.docx
+- [ ] ~ 2010-05 02 Events Spec, Product List.docx
+- [ ] ~ 2010-05 03 Events Spec, Steps.docx
+- [ ] ~ 2010-05 04 Events Spec, Evaluation.docx
+- [ ] ~ 2010-05 01 Inheritance Spec, Strategy & Steps.docx
+- [ ] ~ 2010-05 02 Inheritance Spec, Products List.docx
+
 ### Done
 
 #### 2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs
@@ -186,48 +230,3 @@ Planning Docs | Tone Change
 
 I read over New Computer Language, Strategy.doc and reformulated stuff.
 I am cleaning up New Computer Language, Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description would *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.
-
-### Postponed
-
-#### 2020-04-18 Postponed Reword 'Done' Planning Docs
-
-- [x] 2008-05 01 Diagram Expression Specs Project Summary.docx
-- [x] 2008-05 02 Classes & Relationships Specs Project Summary.docx
-- [x] 2008-06 01 Execution Control Spec Project Summary.docx
-- [x] 2008-06 02 Command as a Concept Spec Project Summary.docx
-- [x] 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
-- [x] 2008-07 01        System Objects Spec Project Summary.docx
-- [x] 2008-07 02        Assignment Spec Project Summary.docx
-- [x] 2008-08 00        Commands Spec Project Summary.docx
-- [x] 2008-09 01        Organize Encircle Language Ideas Project Summary.docx
-- [x] 2008-09 02        Parameters Spec Plan.docx
-- [x] 2008-10 01 Scatter Symbol Language Documentation Content Project Summmary.docx
-- [x] 2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects.docx
-- [ ] ~ 2009-06 02 Encircle Language Spec Plan Part B, Evaluation.docx
-    - [ ] ~ > Stopped, because I seem panicky about which words to pick and whether someone might be rubbed the wrong way with it somehow.
-- [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Eventual Plan, Goal Description.docx
-- [ ] ~ 2009-06 02 Planning + Black Box Spec Part A, Eventual Plan, Elements.docx
-- [ ] ~ 2009-06 03 Planning + Black Box Spec Part A, Evaluation.docx
-- [ ] ~ 2009-06 04 Planning + Black Box Spec Part A, Initial Plan, Goal Description.docx
-- [ ] ~ 2009-06 05 Planning + Black Box Spec Part A, Initial Plan, Elements & Time Estimation.docx
-- [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Notes, Startup.docx
-- [ ] ~ 2009-06 02 Planning + Black Box Spec Part A, Notes, Cycle 1, Process Idea Box.docx
-- [ ] ~ 2009-06 03 Planning + Black Box Spec Part A, Notes, Cycle 2, Black Box Part A.docx
-- [ ] ~ 2009-06 04 Planning + Black Box Spec Part A, Notes, Cycle 3, Redo System Objects & Assignment Part A.docx
-- [ ] ~ 2009-06 05 Planning + Black Box Spec Part A, Notes, Wrap Up.docx
-- [ ] ~ 2009-08 Review by Ramses, Small Plan.docx
-- [ ] ~ 2009-09 01 Wrap Up Black Box, System Objects & Assignment Specs, Goal.docx
-- [ ] ~ 2009-09 02 Wrap Up Black Box, System Objects & Assignment Specs, Startup.docx
-- [ ] ~ 2009-09 03 Wrap Up Black Box, System Objects & Assignment Specs, Implementation.docx
-- [ ] ~ 2009-09 04 Wrap Up Black Box, System Objects & Assignment Specs, Wrap-Up.docx
-- [ ] ~ 2010-02 01 Interfaces Spec, Strategy.docx
-- [ ] ~ 2010-02 02 Interfaces Spec, Product List.docx
-- [ ] ~ 2010-02 03 Interfaces Spec, Steps.docx
-- [ ] ~ 2010-02 04 Interfaces Spec, Evaluation.docx
-- [ ] ~ 2010-05 01 Events Spec, Strategy.docx
-- [ ] ~ 2010-05 02 Events Spec, Product List.docx
-- [ ] ~ 2010-05 03 Events Spec, Steps.docx
-- [ ] ~ 2010-05 04 Events Spec, Evaluation.docx
-- [ ] ~ 2010-05 01 Inheritance Spec, Strategy & Steps.docx
-- [ ] ~ 2010-05 02 Inheritance Spec, Products List.docx
-

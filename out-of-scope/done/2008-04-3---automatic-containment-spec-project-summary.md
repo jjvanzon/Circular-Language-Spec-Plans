@@ -1,9 +1,10 @@
-﻿Encircle Language Spec Plan | Automatic Containment Spec | 2008-04 | Project Summary
-====================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Automatic Containment Spec | 2008-04 | Project Summary
+------------------------------------------------------
 
-Goal
-----
+### Goal
 
 Fully understand automatic containment again and fully document the idea.
 
@@ -28,9 +29,7 @@ However hard or simple it was to solve the problem: I solved an important discre
 The article "Automatic Containment" was produced,  
 version *2008-04-24 00  1.0*
 
-
-Date & Time
------------
+### Date & Time
 
 2008-04-15 – 2008-04-24  
 __10__ days  

@@ -8,9 +8,7 @@ Planning + Black Box Spec Part A | 2009-06 | Eventual Elements
 
 This is the eventual plan. The plan changed during the project. The initial plan can still be found in a different document.
 
-
-Products
---------
+### Products
 
 - Time Planning for New Computer Language Functional Design
 - Idea Box processed (over 60 pages of ideas)
@@ -18,9 +16,7 @@ Products
 - ~ Redone System Objects article group
 - ~ Redone Assignment article group
 
-
-Project Steps
--------------
+### Project Steps
 
 - Setup project folders
 - Time planning for super-project New Computer Language Functional Design

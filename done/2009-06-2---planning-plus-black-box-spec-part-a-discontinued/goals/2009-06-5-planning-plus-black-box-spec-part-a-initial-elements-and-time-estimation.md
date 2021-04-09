@@ -1,23 +1,20 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Initial Elements & Time Estimation
-=============================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Planning + Black Box Spec Part A | 2009-06 | Initial Elements & Time Estimation
+-------------------------------------------------------------------------------
 
-Remark
-------
+### Remark
 
 This is the initial plan. The plan changed during the project. You will find the changed plan in a different document. But the initial plan still matters for overview of the project.
 
-
-Products
----------
+### Products
 
 - Time Planning for *Encircle Language Spec*
 - Idea Box processed (over 60 pages of ideas)
 - Black Box article group
 
-
-Project Steps
--------------
+### Project Steps
 
 - Setup project folders  __(1)__
 - Time planning for super-project *Encircle Language Spec* __(3)__
@@ -33,9 +30,7 @@ Project Steps
         - Cross out ideas
 - Wrap up  __(1)__
 
-
-Time Estimation
----------------
+### Time Estimation
 
 At first glance, it was estimated that it should take 1 week, 10 days tops.  
 It is a reverse time-planning. You might not make it.

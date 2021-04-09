@@ -1,15 +1,14 @@
-﻿Encircle Language Spec | Topic List (Out of Scope)
-====================================================
+﻿Encircle Language Spec Plans
+============================
 
+Topic List (Out of Scope)
+-------------------------
 
-Purpose of this Document
-------------------------
+### Purpose of this Document
 
 This document may be a raw list of the products to produce in a project. The topics mentioned here are put out of scope of the *spec* part of the *Encircle-Language-Spec*. These topics might not be part of the spec (yet). They may be found under the *Construct Drafts* or *Broader View* sections of the *Encircle-Language-Spec* documentation.
 
-
-Construct Drafts Topics
------------------------
+### Construct Drafts Topics
 
 Drafts of ideas that might not become part of the spec. Or language constructs that are just not as clearly worked out yet.
 
@@ -35,9 +34,7 @@ Drafts of ideas that might not become part of the spec. Or language constructs t
 - [ ] Transactions
 - [ ] Libraries
 
-
-Broader View Topics
--------------------
+### Broader View Topics
 
 Draft texts that might once describe a story: ideas about how this Encircle language might be used in practice.
 

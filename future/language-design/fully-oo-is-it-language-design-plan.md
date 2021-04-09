@@ -4,7 +4,9 @@ Encircle Language Spec Plans
 Fully OO. Is It? | Language Design | Plan
 -----------------------------------------
 
-### 2020-05-12 Postponed Fully OO?
+### Postponed
+
+#### 2020-05-12 Postponed Fully OO?
 
 - [ ] ~ Topics that the spec might be extended with, to make it more 'fully OO':
 - [ ] ~ Here and there I mention that the diagram notation could 'fully describe' an OO system. But I do not mention that it stops at arithmetic, comparative, logical operators and such. You might display that as an object graph. An idea was that 'Math' would be an external module that describes all the basic operators, but another idea was for expressions like that could be just included as bits of text code inside the diagram. Maybe not be too strict about this towards myself.

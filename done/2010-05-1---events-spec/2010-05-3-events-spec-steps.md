@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Events Spec | 2010-05 | Steps
-=========================================================
+﻿Encircle Language Spec Plans
+============================
 
+Events Spec | 2010-05 | Steps
+-----------------------------
 
-Purpose of this Document
--------------------------
+### Purpose of this Document
 
 This document is not meant as reading material. It is a list of steps undertaken in a project, as a reference for how a project was executed.
 
-
-TO DO
------
+### TO DO
 
 - [x] First freeze a version
 - [x] Add Introduction article

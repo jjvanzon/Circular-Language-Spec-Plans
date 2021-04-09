@@ -1,9 +1,8 @@
-﻿Encircle Language Spec Plan | Interfaces Spec | 2010-02 | Product List
-======================================================================
+﻿Encircle Language Spec Plans
+============================
 
-
-Products
---------
+Interfaces Spec | 2010-02 | Product List
+----------------------------------------
 
 The following were produced:
 

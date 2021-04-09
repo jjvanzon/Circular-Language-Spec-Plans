@@ -1,21 +1,18 @@
-﻿Encircle Language Spec Plan | Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment A
-======================================================================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment Part A
+---------------------------------------------------------------------------------------------
 
-Purpose of This Document
-------------------------
+### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.
 
-
-Reflection
-----------
+### Reflection
 
 This phase is where it went wrong. Work spiraled out of control.
 
-
-Rough Plan
-----------
+### Rough Plan
 
 Black boxing has a lot to do with assignment and system aspects. The black boxing notations need to match with the assignment notation and the system objects notation, so you have to make the notation in the Assignment articles and in the System Objects articles ok.
 
@@ -28,9 +25,7 @@ Also, parts out of the Black Boxing documentation need to be moved to the Assign
 
 In the end, the Assignment articles were integrated into the System Objects article group, because it was easier to explain those together.
 
-
-Approach
---------
+### Approach
 
 I introduce things in wrongly composed chunks in the System Objects documentation.
 
@@ -53,11 +48,9 @@ This should be the new order:
   \> Without system commands in it?
 - System commands in the system interface notation
 
+### Steps
 
-Steps
------
-
-### Additions
+#### Additions
 
 - [x] Object-Bound and Reference-Bound
 
@@ -114,7 +107,7 @@ Steps
       \> (a new addition)
     - [x] You would also want Connections to have an article in the system objects article group.
 
-### Reorganizations
+#### Reorganizations
 
 - [x] Topic list:
     - [x] System Objects
@@ -206,7 +199,7 @@ Steps
 \> At this point you have a fairly well finished up chapter,
 except for a lot of cross-out material.
 
-### Cross-Out + Additions
+#### Cross-Out + Additions
 
 - [x] Cross out old articles
 
@@ -224,7 +217,7 @@ except for a lot of cross-out material.
 - [x] Cross out Ideas (+/- 60 pages)
     - [x] \> I was worried about a lot of extra aspects, to control other system object members, and a lot of extra Get purposes, but there are not that many left. Just a couple.
 
-### Work Discontinued
+#### Work Discontinued
 
 There were other cross-outs, but they are postponed.  
 At this point work had spiraled out of control.  

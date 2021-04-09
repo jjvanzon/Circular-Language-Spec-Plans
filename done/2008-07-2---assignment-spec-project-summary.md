@@ -1,29 +1,24 @@
-﻿Encircle Language Spec Plans | Assignment Spec | 2008-07 | Project Summary
-==========================================================================
+﻿Encircle Language Spec Plans 
+============================
 
+Assignment Spec | 2008-07 | Project Summary
+-------------------------------------------
 
-Super-Project
--------------
+### Super-Project
 
 *Encircle Language Spec | Command as a Concept Spec*
 
-
-Goal
-----
+### Goal
 
 Work out the *Assignment* article group, as it might be needed for working out *Commands as a Concept*.
 
-
-Date & Time
------------
+### Date & Time
 
 July 24, 2008 – July 28, 2008  
 5 days  
 12 hours of work
 
-
-Products
---------
+### Products
 
 The following was produced:
 
@@ -31,7 +26,7 @@ __32__ articles were produced
 __2__ articles were adapted  
 __1__ other item of work was done  
 
-### Assignment Article Group
+#### Assignment Article Group
 
 version *2008-07-28 00  2.0*
 
@@ -70,7 +65,7 @@ __30__ articles:
 - *Alternative Assignments in a Diagram*
 - *Alternative Assignments in Text Code*  (not finished)
 
-### Object Articles
+#### Object Articles
 
 __2__ articles:
     
@@ -79,7 +74,7 @@ __2__ articles:
 -----
 - *(Only added to the development version of the Objects article group.)*
 
-### Adapted Articles
+#### Adapted Articles
 
 __2__ articles:
 
@@ -91,7 +86,7 @@ __2__ articles:
 
     - The definition of 'sub-object' does not seem to be right anymore, because the Object Reference article said, that object references are no longer called sub-objects.
 
-### Other Work
+#### Other Work
 
 __1__ item:
 
@@ -99,9 +94,7 @@ __1__ item:
 
     - (Has nothing to do with the project, but It might be nice to do that too.)
 
-
-Project Steps
--------------
+### Project Steps
 
 The notation for assignment was made simpler.  
 Command assignments was made the same as object assignments.  

@@ -1,15 +1,14 @@
-﻿Encircle Language Spec Plan | Review by Brother | 2009-08 | Plan
-================================================================
+﻿Encircle Language Spec Plans
+============================
 
+Review by Brother | 2009-08 | Plan
+----------------------------------
 
-Parent Project
---------------
+### Parent Project
 
 *Encircle Language Spec*
 
-
-Goal
-----
+### Goal
 
 Goals I have with letting my brother review the material are:
 
@@ -18,17 +17,13 @@ Goals I have with letting my brother review the material are:
 
 *The review used to have notes about topics not in scope of the Encircle Language Spec. Notes about that were moved to another document.*
 
-
-What Do I Expect?
------------------
+### What Do I Expect?
 
 I expect it to not be so accessible right now, though. A lot is just under construction and might needs a redo.
 
 I also expect it to be too much to just look into for a couple of hours, even to flip through the folders here and there.
 
-
-General Planning
-----------------
+### Steps
 
 - Preparation:
     - Make small plan
@@ -66,9 +61,7 @@ General Planning
     - ~~Maybe a video recording tool~~
     - ~~Get as much as possible in shape for review?~~
 
-
-Reflection
------------
+### Reflection
 
 We covered the project plans, the documentation, but not the software.  
 The documentation seemed clear and well organized.  
@@ -112,9 +105,7 @@ Next to it being fun to be discussing the diagram notation, there were also a co
 - The first diagram in Basic Diagram Elements might be ineffective in my brother's opinion. 'It could be an elephant.' Find a more concrete example. Something that is something for real.
 - 'Analogy to the real world' was unnecessary according to my brother.
 
-
-Eventual Time-Cost
-------------------
+### Eventual Time-Cost
 
 Time span of __2__ weeks  
 August 10, 2009 – August 24,2009  
