@@ -4,6 +4,13 @@ Encircle Language Spec Plans
 Basic Diagram Elements | Content Changes
 ----------------------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-06-01 Postponed Content Changes for Basic Diagram Elements](#2020-06-01-postponed-content-changes-for-basic-diagram-elements)
+- [Done](#done)
+    - [2020-06-01 Done Content Changes for Basic Diagram Elements](#2020-06-01-done-content-changes-for-basic-diagram-elements)
+
 ### Postponed
 
 #### 2020-06-01 Postponed Content Changes for Basic Diagram Elements

@@ -4,6 +4,14 @@
 Interfaces Spec | 2010-02 | Evaluation
 --------------------------------------
 
+__Contents__
+
+- [Introduction](#introduction)
+- [General Evaluation](#general-evaluation)
+- [Eventual Time Cost](#eventual-time-cost)
+- [Reflection On Approach](#reflection-on-approach)
+- [Reflection On Functionality](#reflection-on-functionality)
+
 ### Introduction
 
 This evaluation will be kept very limited.

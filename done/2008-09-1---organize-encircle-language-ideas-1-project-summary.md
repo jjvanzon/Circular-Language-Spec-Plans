@@ -4,6 +4,13 @@
 Organize Encircle Language Ideas (1) | 2008-09 | Project Summary
 ----------------------------------------------------------------
 
+__Contents__
+
+- [Goal](#goal)
+- [Super-Project](#super-project)
+- [Date & Time](#date--time)
+- [Project Steps](#project-steps)
+
 ### Goal
 
 In between the projects Commands Spec and Parameter Spec,  

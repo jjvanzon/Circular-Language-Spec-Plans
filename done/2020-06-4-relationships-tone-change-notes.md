@@ -4,6 +4,12 @@ Encircle Language Spec Plans
 Relationships | Tone Change | 2020-06 | Notes
 ---------------------------------------------
 
+__Contents__
+
+- [Done](#done)
+    - [2020-06-14 Done Checklist Reformulating Relationships Chapter](#2020-06-14-done-checklist-reformulating-relationships-chapter)
+    - [2020-06-26 Done Reformulating Relationships Chapter](#2020-06-26-done-reformulating-relationships-chapter)
+
 ### Done
 
 #### 2020-06-14 Done Checklist Reformulating Relationships Chapter

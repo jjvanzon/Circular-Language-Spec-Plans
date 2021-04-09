@@ -4,6 +4,23 @@ Encircle Language Spec Plans
 Planning Docs | Tone Change
 ---------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-04-18 Postponed Reword 'Done' Planning Docs](#2020-04-18-postponed-reword-done-planning-docs)
+- [Done](#done)
+    - [2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs](#2020-04-13-done-brainstorm-reword-circle-language-spec-planning-docs)
+    - [2020-04-18 Done Reword 2008-07 02        Assignment Spec Project Summary.docx](#2020-04-18-done-reword-2008-07-02--------assignment-spec-project-summarydocx)
+    - [2020-04-18 Done Reword 2008-05 02 Classes & Relationships Specs Project Summary.docx](#2020-04-18-done-reword-2008-05-02-classes--relationships-specs-project-summarydocx)
+    - [2020-04-18 Done Reword 2008-06 02 Command as a Concept Spec Project Summary.docx](#2020-04-18-done-reword-2008-06-02-command-as-a-concept-spec-project-summarydocx)
+    - [2020-04-18 Done Reword 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx](#2020-04-18-done-reword-2008-06-03--------clarify-command-as-a-concept-spec-project-summarydocx)
+    - [2020-04-18 Done Reword 2008-07 01        System Objects Spec Project Summary.docx](#2020-04-18-done-reword-2008-07-01--------system-objects-spec-project-summarydocx)
+    - [2020-04-18 Done Reword The Done Encircle Language Spec Planning Docs](#2020-04-18-done-reword-the-done-encircle-language-spec-planning-docs)
+    - [2020-04-18 Done Encircle Language Spec Planning Docs: Reword Main Project and Future Sub-Projects](#2020-04-18-done-encircle-language-spec-planning-docs-reword-main-project-and-future-sub-projects)
+    - [2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries](#2020-04-18-done-encircle-language-spec-planning-docs-format-the-project-summaries)
+    - [2020-04-13 Done Encircle Language Spec Planning Docs](#2020-04-13-done-encircle-language-spec-planning-docs)
+    - [2020-01-30 Done Reformulating Planning Docs](#2020-01-30-done-reformulating-planning-docs)
+
 ### Postponed
 
 #### 2020-04-18 Postponed Reword 'Done' Planning Docs

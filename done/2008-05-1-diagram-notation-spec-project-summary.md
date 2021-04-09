@@ -4,6 +4,14 @@
 Diagram Notation Spec | 2008-05 | Project Summary
 -------------------------------------------------
 
+__Contents__
+
+- [Super-Project](#super-project)
+- [Goal](#goal)
+- [Limitation](#limitation)
+- [Date & Time](#date--time)
+- [Products](#products)
+
 ### Super-Project
 
 *Encircle Language Spec*

@@ -4,6 +4,11 @@
 Automatic Containment Spec | 2008-04 | Project Summary
 ------------------------------------------------------
 
+__Contents__
+
+- [Goal](#goal)
+- [Date & Time](#date--time)
+
 ### Goal
 
 Fully understand automatic containment again and fully document the idea.

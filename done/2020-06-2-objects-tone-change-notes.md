@@ -4,6 +4,12 @@ Encircle Language Spec Plans
 Objects | Tone Change | 2020-06 | Notes
 ---------------------------------------
 
+__Contents__
+
+- [Done](#done)
+    - [2020-06-07 Done Reformulating Objects Chapter](#2020-06-07-done-reformulating-objects-chapter)
+    - [2020-06-11 Done Content Changes for Objects Chapter](#2020-06-11-done-content-changes-for-objects-chapter)
+
 ### Done
 
 #### 2020-06-07 Done Reformulating Objects Chapter

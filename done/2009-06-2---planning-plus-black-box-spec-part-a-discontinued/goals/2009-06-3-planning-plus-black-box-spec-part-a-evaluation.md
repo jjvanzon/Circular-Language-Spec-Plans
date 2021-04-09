@@ -6,6 +6,12 @@ Planning + Black Box Spec Part A | 2009-06 | Evaluation
 
 *September, 2009*
 
+__Contents__
+
+- [Reflection On Strategy, Time Planning & Progress Monitoring](#reflection-on-strategy-time-planning--progress-monitoring)
+- [Personal Feeling](#personal-feeling)
+- [Reflection On Functionality](#reflection-on-functionality)
+
 ### Reflection On Strategy, Time Planning & Progress Monitoring
 
 It was not clear at the beginning of the project how much work it was going to be. There was a ton of ideas to organize before you could know the extent of the project.

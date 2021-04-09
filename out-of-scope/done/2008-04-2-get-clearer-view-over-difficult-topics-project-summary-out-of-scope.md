@@ -4,6 +4,15 @@
 Get Clearer View over Difficult Topics | 2008-04 | Project Summary (Out of Scope)
 ---------------------------------------------------------------------------------
 
+__Contents__
+
+- [Goal](#goal)
+- [Super-Project](#super-project)
+- [Means](#means)
+- [Date & Time](#date--time)
+- [Products](#products)
+- [Sub-Projects](#sub-projects)
+
 ### Goal
 
 Get clear view on ideas not thought through as well.

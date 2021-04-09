@@ -4,6 +4,14 @@
 Command as a Concept Spec | 2008-06 | Project Summary (Out of Scope)
 --------------------------------------------------------------------
 
+__Contents__
+
+- [Super-Project](#super-project)
+- [Goal](#goal)
+- [Date & Time](#date--time)
+- [Sub-Projects](#sub-projects)
+- [Products](#products)
+
 ### Super-Project
 
 *Encircle Language Spec*

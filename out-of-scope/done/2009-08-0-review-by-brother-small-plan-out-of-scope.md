@@ -4,6 +4,13 @@
 Review by Brother (Out of Scope) | 2009-08 | Small Plan
 -------------------------------------------------------
 
+__Contents__
+
+- [Parent Project](#parent-project)
+- [Goal](#goal)
+- [General Planning](#general-planning)
+- [Reflection](#reflection)
+
 ### Parent Project
 
 *Encircle Language Spec*

@@ -4,6 +4,14 @@
 Scatter Symbol Language Documentation Content | 2008-10 | Project Summary
 -------------------------------------------------------------------------
 
+__Contents__
+
+- [Super-Project](#super-project)
+- [Character of the Work](#character-of-the-work)
+- [Goal](#goal)
+- [Date & Time](#date--time)
+- [Project Notes](#project-notes)
+
 ### Super-Project
 
 *Encircle Language Spec*

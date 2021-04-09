@@ -4,6 +4,12 @@ Encircle Language Spec Plans | Construct Drafts
 Text Code | Construct Draft | Plan
 ----------------------------------
 
+__Contents__
+
+- [Introduction](#introduction)
+- [Brainstorm](#brainstorm)
+- [Topics](#topics)
+
 ### Introduction
 
 Basically each element of the language specification might be given a textual representation as well.

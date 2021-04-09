@@ -4,6 +4,12 @@
 Planning + Black Box Spec Part A | 2009-06 | Cycle 1: Process Idea Box
 ----------------------------------------------------------------------
 
+__Contents__
+
+- [Purpose of This Document](#purpose-of-this-document)
+- [Custom Plan](#custom-plan)
+- [Leftover Issues](#leftover-issues)
+
 ### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.

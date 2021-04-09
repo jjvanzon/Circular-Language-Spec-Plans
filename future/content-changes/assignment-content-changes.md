@@ -4,6 +4,14 @@ Encircle Language Spec Plans
 Assignment | Content Changes
 ----------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2008-09-29 Postponed](#2008-09-29-postponed)
+    - [2020-05-18 Postponed Content Changes for Assignment Article](#2020-05-18-postponed-content-changes-for-assignment-article)
+- [Done](#done)
+    - [2020-05-18 Done Content Changes for Assignment Article](#2020-05-18-done-content-changes-for-assignment-article)
+
 ### Postponed
 
 #### 2008-09-29 Postponed

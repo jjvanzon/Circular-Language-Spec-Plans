@@ -6,6 +6,15 @@ Automatic Containment | Construct Draft | Plan
 
 *Date: June, 2008*
 
+__Contents__
+
+- [Goal](#goal)
+- [Automatic Containment for Relations](#automatic-containment-for-relations)
+- [Lower Contents Brainstorm](#lower-contents-brainstorm)
+- [Fixed Logical Residence Brainstorm](#fixed-logical-residence-brainstorm)
+- [Project Steps](#project-steps)
+- [Products](#products)
+- [More Ideas](#more-ideas)
 
 ### Goal
 

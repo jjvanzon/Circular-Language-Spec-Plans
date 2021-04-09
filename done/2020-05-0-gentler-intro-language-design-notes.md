@@ -4,6 +4,13 @@ Encircle Language Spec Plans | Language Design
 Gentler Intro | 2020-05 | Notes
 -------------------------------
 
+__Contents__
+
+- [Done](#done)
+    - [2019-08-05 Done New Intro](#2019-08-05-done-new-intro)
+    - [2020-05-28 Done New Intro](#2020-05-28-done-new-intro)
+    - [2020-05-28 Done Brainstorm New Intro: Word Stress](#2020-05-28-done-brainstorm-new-intro-word-stress)
+
 ### Done
 
 #### 2019-08-05 Done New Intro

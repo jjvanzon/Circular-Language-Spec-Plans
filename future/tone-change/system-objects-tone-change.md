@@ -4,6 +4,13 @@ Encircle Language Spec Plans
 System Objects | Tone Change
 ----------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article](#2020-07-04-postponed-checklist-reformulating-system-command-call-notations-article)
+- [Done](#done)
+    - [2020-06-26 Done Reformulating System Objects Article](#2020-06-26-done-reformulating-system-objects-article)
+
 ### Postponed
 
 #### 2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article

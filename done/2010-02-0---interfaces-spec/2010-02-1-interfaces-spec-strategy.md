@@ -4,6 +4,19 @@
 Interfaces Spec | 2010-02 | Strategy
 ------------------------------------
 
+__Contents__
+
+- [Parent Project](#parent-project)
+- [Goal](#goal)
+- [Means](#means)
+- [Character of the Work](#character-of-the-work)
+- [Big Issue](#big-issue)
+- [Strategy](#strategy)
+- [Approach](#approach)
+- [Limitations](#limitations)
+- [Time Planning](#time-planning)
+- [Future](#future)
+
 ### Parent Project
 
 *Encircle Language Spec*

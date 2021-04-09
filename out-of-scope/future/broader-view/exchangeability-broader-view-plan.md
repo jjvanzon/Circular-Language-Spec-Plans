@@ -4,6 +4,12 @@ Encircle Language Spec Plans | Broader View
 Exchangeability | Broader View | Plan
 -------------------------------------
 
+__Contents__
+
+- [Introduction](#introduction)
+- [Topics](#topics)
+    - [Internet Aspects](#internet-aspects)
+
 ### Introduction
 
 The *Exchangeability Principles* describe things in the area of computer technology, that may traditionally be separate, that might be combined to form one thing.

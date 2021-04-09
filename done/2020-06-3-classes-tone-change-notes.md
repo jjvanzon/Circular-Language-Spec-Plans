@@ -4,6 +4,12 @@ Encircle Language Spec Plans
 Classes | Tone Change | 2020-06 | Notes
 ---------------------------------------
 
+__Contents__
+
+- [Done](#done)
+    - [2020-06-11 Done Reformulating Classes Chapter](#2020-06-11-done-reformulating-classes-chapter)
+    - [2020-06-11 Done Reformulating Classes Chapter](#2020-06-11-done-reformulating-classes-chapter-1)
+
 ### Done
 
 #### 2020-06-11 Done Reformulating Classes Chapter

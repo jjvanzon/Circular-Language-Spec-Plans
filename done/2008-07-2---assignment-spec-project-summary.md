@@ -4,6 +4,18 @@
 Assignment Spec | 2008-07 | Project Summary
 -------------------------------------------
 
+__Contents__
+
+- [Super-Project](#super-project)
+- [Goal](#goal)
+- [Date & Time](#date--time)
+- [Products](#products)
+    - [Assignment Article Group](#assignment-article-group)
+    - [Object Articles](#object-articles)
+    - [Adapted Articles](#adapted-articles)
+    - [Other Work](#other-work)
+- [Project Steps](#project-steps)
+
 ### Super-Project
 
 *Encircle Language Spec | Command as a Concept Spec*

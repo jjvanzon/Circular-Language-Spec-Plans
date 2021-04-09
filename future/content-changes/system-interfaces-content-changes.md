@@ -4,6 +4,23 @@ Encircle Language Spec Plans
 System Interfaces | Content Changes
 -----------------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [Getters & Setters Brainstorm](#getters--setters-brainstorm)
+    - [2020-05-18 Postponed Content Changes for System Objects Chapter](#2020-05-18-postponed-content-changes-for-system-objects-chapter)
+        - [More Difficult Perhaps](#more-difficult-perhaps)
+        - [Less Difficult Perhaps](#less-difficult-perhaps)
+    - [2020-07-21 Postponed Content Changes for System Command Call Notations Article](#2020-07-21-postponed-content-changes-for-system-command-call-notations-article)
+- [Done](#done)
+    - [2020-07-22 Done Prioritization for System Objects Chapter](#2020-07-22-done-prioritization-for-system-objects-chapter)
+    - [2020-05-18 Done Content Changes for System Objects Chapter](#2020-05-18-done-content-changes-for-system-objects-chapter)
+    - [2020-07-21 Done Content Changes for System Command Call Notations Article](#2020-07-21-done-content-changes-for-system-command-call-notations-article)
+    - [2020-07-21 Done Content Changes for System Command Call Notations Article](#2020-07-21-done-content-changes-for-system-command-call-notations-article-1)
+    - [2020-05-18 Done Content Changes for System Command Call Notations Article](#2020-05-18-done-content-changes-for-system-command-call-notations-article)
+    - [2020-07-01 Done Content Changes for System Objects Chapter](#2020-07-01-done-content-changes-for-system-objects-chapter)
+    - [2020-06-26 Done Brainstorm Next Step](#2020-06-26-done-brainstorm-next-step)
+
 ### Postponed
 
 The System Interfaces article group may need extensions in the future. It could be revisited to make complete the set of system aspects and system commands and cross out remaining ideas and topics.

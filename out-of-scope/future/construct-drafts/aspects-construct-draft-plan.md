@@ -6,17 +6,21 @@ Aspects | Construct Draft | Plan
 
 *Date: 2008*
 
+__Contents__
+
+- [Introduction](#introduction)
+- [Brainstorm](#brainstorm)
+- [Not Working Out the 'Aspects' Topic First](#not-working-out-the-aspects-topic-first)
+
 ### Introduction
 
 This phase finally introduces the aspect coding construct, which might replace code generation by an alternative solution. The aspects is pretty much equal to the aspect construct known from aspect oriented programming.
-
 
 ### Brainstorm
 
 The reason for the sub-project *Work Out Aspects As External Modules* might have been that it might play a role in a possibly powerful concept of 'aspects' (which I once called 'concepts').
 
 But I already have an idea how aspects as external modules will be, and even though it then might be relevant to document it, another idea seemed unclearer so may have shifted the focus.
-
 
 ### Not Working Out the 'Aspects' Topic First
 

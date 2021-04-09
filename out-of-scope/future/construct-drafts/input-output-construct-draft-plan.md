@@ -6,6 +6,12 @@ Input Output | Construct Draft | Plan
 
 *December, 2008*
 
+__Contents__
+
+- [Goal](#goal)
+- [Topics](#topics)
+- [Brainstorm](#brainstorm)
+
 ### Goal
 
 Work out the Input Output article group.

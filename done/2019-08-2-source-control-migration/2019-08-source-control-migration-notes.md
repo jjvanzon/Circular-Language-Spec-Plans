@@ -7,6 +7,25 @@ Source Control Migration | 2019-08 | Notes
 - Converting 'version folders' to source control history.
 - Isolating Encircle language content in separate git repositories.
 
+__Contents__
+
+- [Rough Plan](#rough-plan)
+- [Done](#done)
+    - [2019-08-04 Done Notes Converting Version Folders to Source Control History](#2019-08-04-done-notes-converting-version-folders-to-source-control-history)
+    - [2019-08-05 Done Version Control](#2019-08-05-done-version-control)
+    - [2019-08-10 Done Brainstorm Complexity Preserving Rename History](#2019-08-10-done-brainstorm-complexity-preserving-rename-history)
+    - [2019-08-11 Done Basic Math Version Folder to Source Control History?](#2019-08-11-done-basic-math-version-folder-to-source-control-history)
+    - [2019-08-11 Done Controls Concepts Version Folders to Source Control History](#2019-08-11-done-controls-concepts-version-folders-to-source-control-history)
+    - [2020-02-03 Done Notes Planning Docs Git Migration](#2020-02-03-done-notes-planning-docs-git-migration)
+    - [2020-02-03 Done Planning Docs Git Migration](#2020-02-03-done-planning-docs-git-migration)
+    - [2020-12-03 Done Git Migration: Removing "Creator"](#2020-12-03-done-git-migration-removing-creator)
+    - [2021-01-16 Done Git Migration](#2021-01-16-done-git-migration)
+    - [2021-01-16 Done Git Migrations](#2021-01-16-done-git-migrations)
+    - [2021-01-16 Done Brainstorm Git Migration](#2021-01-16-done-brainstorm-git-migration)
+    - [2021-01-23 Done Git Migration Corrections](#2021-01-23-done-git-migration-corrections)
+    - [2021-01-24 Done Git Migration Corrections](#2021-01-24-done-git-migration-corrections)
+    - [2021-02-02 Done Git Migration Corrections](#2021-02-02-done-git-migration-corrections)
+
 ### Rough Plan
 
 - [x] Converted Encircle Docs version folders to source control history.

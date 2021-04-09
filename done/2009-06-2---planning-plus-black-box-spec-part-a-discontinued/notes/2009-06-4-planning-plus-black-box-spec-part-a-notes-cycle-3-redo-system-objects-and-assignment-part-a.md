@@ -4,6 +4,18 @@
 Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment Part A
 ---------------------------------------------------------------------------------------------
 
+__Contents__
+
+- [Purpose of This Document](#purpose-of-this-document)
+- [Reflection](#reflection)
+- [Rough Plan](#rough-plan)
+- [Approach](#approach)
+- [Steps](#steps)
+    - [Additions](#additions)
+    - [Reorganizations](#reorganizations)
+    - [Cross-Out + Additions](#cross-out--additions)
+    - [Work Discontinued](#work-discontinued)
+
 ### Purpose of This Document
 
 This document is a checklist for software development-related work, for a good approach and to not forget anything. It is not to be read over literally. Later it serves as a reference for looking up how exactly something was done.

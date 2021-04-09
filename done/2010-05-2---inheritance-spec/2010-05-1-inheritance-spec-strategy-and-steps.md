@@ -4,6 +4,12 @@
 Inheritance Spec | 2010-05 | Strategy & Steps
 ---------------------------------------------
 
+__Contents__
+
+- [Purpose of this Document](#purpose-of-this-document)
+- [Strategy](#strategy)
+- [Steps](#steps)
+
 ### Purpose of this Document
 
 This document is not meant as reading material. It is a list of steps undertaken in the project, later serving as a reference for how the project was executed.

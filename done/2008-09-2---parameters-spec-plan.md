@@ -4,6 +4,25 @@
 Parameters Spec | 2008-09 | Project Summary
 -------------------------------------------
 
+__Contents__
+
+- [Goal](#goal)
+- [Super-Project](#super-project)
+- [Date & Time](#date--time)
+- [Background](#background)
+- [Products](#products)
+- [Means](#means)
+- [Reflection](#reflection)
+- [Project Steps](#project-steps)
+    - [Preparation Work "Parameters"](#preparation-work-parameters)
+    - [Reading over Existing Texts](#reading-over-existing-texts)
+    - [Prepared Texts](#prepared-texts)
+    - [Changed Approach](#changed-approach)
+    - [Crossed Out Old Material](#crossed-out-old-material)
+    - [Misc Articles](#misc-articles)
+    - [Processed Left-Over Ideas](#processed-left-over-ideas)
+    - [Wrap up](#wrap-up)
+
 ### Goal
 
 Worked out the Parameter articles, as part of working out Commands as a Concept.

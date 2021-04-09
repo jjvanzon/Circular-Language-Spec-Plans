@@ -4,6 +4,11 @@ Encircle Language Spec Plans
 Commands | Tone Change
 ----------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article](#2020-07-24-postponed-checklist-reformulating-commands-main-concepts-article)
+
 ### Postponed
 
 #### 2020-07-24 Postponed Checklist Reformulating Commands Main Concepts Article

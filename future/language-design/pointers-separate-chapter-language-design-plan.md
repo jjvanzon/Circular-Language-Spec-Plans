@@ -6,6 +6,15 @@ Pointers | Separate Chapter | Language Design | Plan
 
 *Over-awareness of pointers?*
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2009-08-26 Postponed Pointers](#2009-08-26-postponed-pointers)
+    - [2020-05-27 Postponed Pointers Chapter](#2020-05-27-postponed-pointers-chapter)
+    - [2020-06-11 Postponed Over-Awareness of Pointers](#2020-06-11-postponed-over-awareness-of-pointers)
+- [Done](#done)
+    - [2020-06-26 Done Scoping System Objects Article: Move Pointer-to-Pointer Issues](#2020-06-26-done-scoping-system-objects-article-move-pointer-to-pointer-issues)
+
 ### Postponed
 
 #### 2009-08-26 Postponed Pointers

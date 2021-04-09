@@ -4,6 +4,13 @@
 Planning + Black Box Spec Part A | 2009-06 | Initial Elements & Time Estimation
 -------------------------------------------------------------------------------
 
+__Contents__
+
+- [Remark](#remark)
+- [Products](#products)
+- [Project Steps](#project-steps)
+- [Time Estimation](#time-estimation)
+
 ### Remark
 
 This is the initial plan. The plan changed during the project. You will find the changed plan in a different document. But the initial plan still matters for overview of the project.

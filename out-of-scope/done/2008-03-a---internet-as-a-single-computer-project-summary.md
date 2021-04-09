@@ -4,6 +4,12 @@
 Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary
 --------------------------------------------------------------------------------
 
+__Contents__
+
+- [Goal](#goal)
+- [Steps](#steps)
+- [Dates](#dates)
+
 ### Goal
 
 Make the article *Internet as a single computer*.  

@@ -4,6 +4,17 @@
 Events Spec | 2010-05 | Strategy
 --------------------------------
 
+__Contents__
+
+- [Background](#background)
+- [Parent Project](#parent-project)
+- [Character of the Work](#character-of-the-work)
+- [Goal](#goal)
+- [Strategy](#strategy)
+- [Before](#before)
+- [After](#after)
+- [Time Planning](#time-planning)
+
 ### Background
 
 I had an idea about the basic diagram notation for Events since 2002, but an idea about an acceptable notation for drawing out a multicast event popped into my head now in 2010. Then after having studied and updated document templates for 6 ½ hours, I decided to reward myself with doing another *Encircle Language* project: *Events*.

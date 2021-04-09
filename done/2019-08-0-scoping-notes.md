@@ -4,6 +4,37 @@ Encircle Language Spec Plans
 Scoping | 2019-08 | Notes
 -------------------------
 
+__Contents__
+
+- [Rough Plan](#rough-plan)
+- [Done](#done)
+    - [2021-03-30 Done Scoping Encircle-Language-Spec-Plans](#2021-03-30-done-scoping-encircle-language-spec-plans)
+    - [2020-12-05 Done Scope (for Git Migration)](#2020-12-05-done-scope-for-git-migration)
+    - [2019-08-05 Done Brainstorm Scope](#2019-08-05-done-brainstorm-scope)
+    - [2020-05-14 Done Scoping | Split Up Encircle Docs](#2020-05-14-done-scoping--split-up-encircle-docs)
+    - [2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs](#2020-03-07-do-not-do-brainstorm-circle-3-programming-planning-docs)
+    - [2020-03-22 Do Not Do: Circle 3 Programming Planning Docs](#2020-03-22-do-not-do-circle-3-programming-planning-docs)
+    - [2020-04-13 Done Brainstorm Scope](#2020-04-13-done-brainstorm-scope)
+    - [2020-05-10 Done Scoping: Symbol Language and Software System Planning Docs](#2020-05-10-done-scoping-symbol-language-and-software-system-planning-docs)
+    - [2020-04-01 Done Scoping Encircle Language Spec Planning Docs](#2020-04-01-done-scoping-encircle-language-spec-planning-docs)
+    - [2020-04-01 Done Scoping Encircle Language Spec Planning Docs](#2020-04-01-done-scoping-encircle-language-spec-planning-docs-1)
+    - [2020-03-22 Done Scoping, Project Names](#2020-03-22-done-scoping-project-names)
+    - [2020-03-16 Done Scoping Circle 3 Requirements Docs](#2020-03-16-done-scoping-circle-3-requirements-docs)
+    - [2020-03-08 Done Reading Circle 3 Requirements Docs](#2020-03-08-done-reading-circle-3-requirements-docs)
+    - [2020-03-07 Done No Planning or Docs Back Then](#2020-03-07-done-no-planning-or-docs-back-then)
+    - [2020-02-23 Done Reading Circle 3 Strategy](#2020-02-23-done-reading-circle-3-strategy)
+    - [2020-02-20 Done Scoping](#2020-02-20-done-scoping)
+    - [2020-02-16 Done Notes](#2020-02-16-done-notes)
+    - [2020-02-13 Done Scoping](#2020-02-13-done-scoping)
+    - [2020-01-13 Done Scoping](#2020-01-13-done-scoping)
+    - [2020-01-04 Done Rough Plan](#2020-01-04-done-rough-plan)
+    - [2019-12-29 Done Brainstorm Scope: Diagrams / Constructs / Gap Lifting](#2019-12-29-done-brainstorm-scope-diagrams--constructs--gap-lifting)
+    - [2019-12-29 Done Scope: Diagram Topics](#2019-12-29-done-scope-diagram-topics)
+    - [2019-12-29 Done Brainstorm Scope (Useful)](#2019-12-29-done-brainstorm-scope-useful)
+    - [2019-12-29 Done Brainstorm Scope](#2019-12-29-done-brainstorm-scope)
+    - [2019-12-15 Done Scoping](#2019-12-15-done-scoping)
+    - [2019-08-05 Done Brainstorm Restructuring Docs](#2019-08-05-done-brainstorm-restructuring-docs)
+
 ### Rough Plan
 
 - [x] Splitting "Software System" / "Encircle Language"

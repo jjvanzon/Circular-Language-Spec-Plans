@@ -4,6 +4,15 @@
 Organize Encircle Language Ideas (2) | 2008-10 | Project Summary 
 ----------------------------------------------------------------
 
+__Contents__
+
+- [Goal](#goal)
+- [Super-project](#super-project)
+- [Character of the Work](#character-of-the-work)
+- [Time](#time)
+- [Products](#products)
+- [Project steps](#project-steps)
+
 ### Goal
 
 In between projects, process the ideas in the idea box, putting in the right place, and update the project description of the main project.

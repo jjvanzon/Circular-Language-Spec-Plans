@@ -4,6 +4,22 @@ Encircle Language Spec Plans
 Tone Change | in General | 2020-04 | Notes 
 ------------------------------------------
 
+__Contents__
+
+- [Rough Plan](#rough-plan)
+- [Information](#information)
+- [Postponed](#postponed)
+    - [2020-06-01 Postponed Checklist Tone Change](#2020-06-01-postponed-checklist-tone-change)
+    - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
+    - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
+    - [2019-08-05 Postponed Mixed Writing Style Issues](#2019-08-05-postponed-mixed-writing-style-issues)
+    - [2019-08-27 Postponed Simpler Rules](#2019-08-27-postponed-simpler-rules)
+- [Done](#done)
+    - [2020-06-18 Done Brainstorm Reconsidering Writing Style](#2020-06-18-done-brainstorm-reconsidering-writing-style)
+    - [2020-05-31 Done Wiggle Word Difficulty](#2020-05-31-done-wiggle-word-difficulty)
+    - [2020-04-18 Done Brainstorm Writing Style](#2020-04-18-done-brainstorm-writing-style)
+    - [2008-08-31 Done Writing Style Ideas](#2008-08-31-done-writing-style-ideas)
+
 ### Rough Plan
 
 - [ ] .. Milder tone

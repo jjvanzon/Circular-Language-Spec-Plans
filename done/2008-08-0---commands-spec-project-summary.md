@@ -4,6 +4,14 @@
 Commands Spec | 2008-08 | Project Summary
 -----------------------------------------
 
+__Contents__
+
+- [Super-Project](#super-project)
+- [Goal](#goal)
+- [Date & Time](#date--time)
+- [Means](#means)
+- [Products](#products)
+
 ### Super-Project
 
 *Encircle Language Spec | Command as a Concept Spec*

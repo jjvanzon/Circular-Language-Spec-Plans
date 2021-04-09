@@ -4,6 +4,14 @@ Encircle Language Spec Plans
 Objects | Content Changes
 -------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-06-11 Postponed Content Changes for Objects Chapter](#2020-06-11-postponed-content-changes-for-objects-chapter)
+- [Done](#done)
+    - [2020-06-07 Done](#2020-06-07-done)
+    - [2020-06-07 Done Content Changes for Objects Chapter](#2020-06-07-done-content-changes-for-objects-chapter)
+
 ### Postponed
 
 #### 2020-06-11 Postponed Content Changes for Objects Chapter

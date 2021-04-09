@@ -4,6 +4,15 @@
 Review by Brother | 2009-08 | Plan
 ----------------------------------
 
+__Contents__
+
+- [Parent Project](#parent-project)
+- [Goal](#goal)
+- [What Do I Expect?](#what-do-i-expect)
+- [Steps](#steps)
+- [Reflection](#reflection)
+- [Eventual Time-Cost](#eventual-time-cost)
+
 ### Parent Project
 
 *Encircle Language Spec*

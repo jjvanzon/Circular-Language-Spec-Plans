@@ -4,6 +4,14 @@ Encircle Language Spec Plans
 Overview | Content Changes
 --------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-06-24 Postponed Content Changes for Overview Article](#2020-06-24-postponed-content-changes-for-overview-article)
+- [Done](#done)
+    - [2020-05-31 Done Reformulating Encircle Language Spec Overview](#2020-05-31-done-reformulating-encircle-language-spec-overview)
+    - [2020-05-28 Done Content Changes for Encircle Language Spec Overview](#2020-05-28-done-content-changes-for-encircle-language-spec-overview)
+
 ### Postponed
 
 #### 2020-06-24 Postponed Content Changes for Overview Article

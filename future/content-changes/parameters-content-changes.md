@@ -4,6 +4,13 @@ Encircle Language Spec Plans
 Parameters | Content Changes
 ----------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+  - [2019 Postponed](#2019-postponed)
+  - [2020-05-20 Postponed Content Changes for Parameters](#2020-05-20-postponed-content-changes-for-parameters)
+  - [2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled](#2020-06-11-postponed-content-changes-for-parameters--command-and-classes-loosely-coupled)
+
 ### Postponed
 
 #### 2019 Postponed

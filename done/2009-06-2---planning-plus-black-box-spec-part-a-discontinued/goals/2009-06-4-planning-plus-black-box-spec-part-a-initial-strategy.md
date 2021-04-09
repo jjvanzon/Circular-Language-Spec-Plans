@@ -4,6 +4,21 @@
 Planning + Black Box Spec Part A | 2009-06 | Initial Strategy
 -------------------------------------------------------------
 
+__Contents__
+
+- [Remark](#remark)
+- [Parent Project](#parent-project)
+- [Character of the Work](#character-of-the-work)
+- [Goal](#goal)
+- [Side-goals](#side-goals)
+- [Limitations](#limitations)
+- [Approach](#approach)
+- [Benefits](#benefits)
+- [Future](#future)
+- [Conditions](#conditions)
+- [Time Planning](#time-planning)
+- [Particular Difficulty](#particular-difficulty)
+
 ### Remark
 
 This is the initial plan. The plan changed during the project. You will find the changed plan in a different document. But the initial plan still matters for overview of the project.

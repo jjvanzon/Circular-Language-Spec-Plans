@@ -4,6 +4,17 @@ Encircle Language Spec Plans
 Commands | Content Changes
 --------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2019 Postponed](#2019-postponed)
+    - [2020-08-21 Postponed Commands Chapter](#2020-08-21-postponed-commands-chapter)
+    - [2020-05-18 Postponed Content Changes for Commands Chapter](#2020-05-18-postponed-content-changes-for-commands-chapter)
+- [Done](#done)
+    - [2020-05-18 Done Content Changes for Commands Chapter](#2020-05-18-done-content-changes-for-commands-chapter)
+    - [2020-08-07 Done Content Changes for Commands Chapter](#2020-08-07-done-content-changes-for-commands-chapter)
+    - [2020-07-24 Done Reformulating Commands Chapter](#2020-07-24-done-reformulating-commands-chapter)
+
 ### Postponed
 
 #### 2019 Postponed

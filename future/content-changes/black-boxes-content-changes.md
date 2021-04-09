@@ -4,6 +4,12 @@ Encircle Language Spec Plans
 Black Boxes | Content Changes
 -----------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-05-20 Postponed Content Changes for Black Boxes](#2020-05-20-postponed-content-changes-for-black-boxes)
+    - [2010 Unfinished Misc Issues](#2010-unfinished-misc-issues)
+
 ### Postponed
 
 #### 2020-05-20 Postponed Content Changes for Black Boxes

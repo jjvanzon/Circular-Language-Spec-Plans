@@ -4,6 +4,12 @@ Encircle Language Spec Plans
 Classes | Content Changes
 -------------------------
 
+__Contents__
+
+- [TODO](#todo)
+- [Done](#done)
+    - [2020-06-11 Done Content Changes for Classes Chapter](#2020-06-11-done-content-changes-for-classes-chapter)
+
 ### TODO
 
 - [ ] ~ Classes articles might need an update considering that the notation(s) for static might change things.

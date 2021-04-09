@@ -4,6 +4,11 @@ Encircle Language Spec Plans
 Static Notation | Language Design | Plan
 ----------------------------------------
 
+__Contents__
+
+- [Postponed](#postponed)
+    - [2020-06-18 Postponed Static Notation](#2020-06-18-postponed-static-notation)
+
 ### Postponed
 
 The concept of Static could be worked out.
