@@ -1,8 +1,8 @@
 ﻿Encircle Language Spec Plans
 ============================
 
-Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Goal Description
----------------------------------------------------------------------------------
+Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Strategy
+-------------------------------------------------------------------------
 
 ### Versions
 
