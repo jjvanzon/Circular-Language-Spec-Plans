@@ -14,7 +14,7 @@ __Contents__
 
 ### Goal
 
-Originally the aim was to document all the coding principles and basic coding concepts and their diagram notation. That project turned out to be quite big, so then it was limited to the coding concepts about classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Encircle Language Spec as of 2020.)
+Originally the aim was to document all the coding principles and basic coding aspects and their diagram notation. That project turned out to be quite big, so then it was limited to the coding aspects classes and relationships and their diagram notation. The original plan was also to update the concept of *automatic containment,* but that was postponed. (*Automatic containment* is no longer part of the Encircle Language Spec as of 2020.)
 
 ### Super-Project
 
@@ -99,7 +99,7 @@ Extra articles:
     - Get Clearer View
     - Future project descriptions
     - Computer Language Principles
-    - Computer Language Concepts
+    - Computer Language Aspects
     - Diagrams, Coding Principles & Coding Aspects
      
 - Then wrote the articles

@@ -94,7 +94,7 @@ __Contents__
             - [x] "Object Storage" (index page)
             - [x] ~~"Unifying Disk & Memory" > Content seems chaotic brainstorming.~~
     - [x] No "Framework" topics
-        - [x] But keeping the "Data Concepts":
+        - [x] But keeping the "Data Aspects":
             - [x] "Object Order"
             - [x] "Binaral"
             - [x] "Defaults" / "Default Values"
@@ -116,7 +116,7 @@ __Contents__
         - [x] Except the ones remaining in master.
     - [x] Removing things with intellectual property ambiguities:
         - [x] Removing "IPC" topic
-        - [x] "C:\Repositories\Software System Docs\2. Framework\2. Data Concepts\12. Scans\Image62.jpg"
+        - [x] \12. Scans\Image62.jpg"
     - [x] Archive: Might be selective about files in "Archive" folder.
 
 #### 2019-08-05 Done Brainstorm Scope
@@ -140,7 +140,7 @@ __Contents__
     - [x] Perhaps move it to one of the other parts of the Encircle docs than the spec? Broader view or something?
 - [x] Branching
 - [x] "Language\Integration" and " Language\Libraries"
-    - [x] Under the Language folder: might I move those to the Framework part? They are not concept frameworks, but they don't need to be.
+    - [x] Under the Language folder: might I move those to the Framework part? They are not aspect frameworks, but they don't need to be.
 - [x] "10. Encircle Constructs Drafts\6. Expression\6. More Text Codes": 
     - [x] Has the sub-folders "1. Parser" and "2. Text Templates". I do not think those topics belong in Encircle Construct Drafts. Maybe in Encircle Broader View. But maybe those topics do not belong in Encircle Language docs at all. More like framework. The index page includes other sub-topics, that used to be in that folder: such as 'other text codes', 'math' and 'assembly'. So some time in the past those topics were all in one place. I am not sure to exclude all of those topics from Encircle Language and then maybe move them to the Framework part of the Software System docs, or whether some of it somehow has a place in broader perspective.
     - [x] They are probably there, because in the main subdivision of Software System, they would fall under 'Code' and that might be what made them end up in the proximity of Encircle Language Spec. So it indeed probably does not belong under Encircle at all, but it does belong under 'Code' in Software System.
@@ -203,7 +203,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] Marked some content in red.
         - [x] Take out the person's name.
         - [x] Still want to split the document up in two.
-    - [x] "Diagrams, Coding Principles & Coding Concepts Plan (obsolete).docx": I may want to consider moving this out of scope, or at least part of it.
+    - [x] "Diagrams, Coding Principles & Coding Aspects Plan (obsolete).docx": I may want to consider moving this out of scope, or at least part of it.
         - [x] Marked some content in red.
         - [x] Still want to split the document up in two.
 - [x] The other Encircle Language Spec Plan docs seem fine regarding scoping for now.
@@ -251,7 +251,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] It is a lot of content. It is not practical for me to go into detail about it now. It is only the past plans, not the future, so less important.
 - [x] Details:
     - [x] Get rid of content about 'studying'?
-    - [x] Command as a Concept Spec Plan seems a super project but later turns out not to be.
+    - [x] Command as an Aspect Spec Plan seems a super project but later turns out not to be.
         - [x] Actually, it is a parent project.
     - [x] Done project "Document Internet as a Single Computer" is out-of-scope...
         - [x] Lots of fundamental principles may become out-of-scope of the Encircle Language Specs Project and might become part of a separate piece of documentation Encircle Language Broader View or something.
@@ -271,14 +271,14 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] But I remember doing it, because otherwise loose ideas would be spread over numerous sub-project documentation and would get out of view.
     - [x] Do I move these texts to the appropriate spot in the Encircle Docs now?
     - [x] Do I also move ideas from Sub-Projects there? Maybe those are too short to matter. And not really loose texts, but goals. Somewhere in the middle. So maybe I should copy/move some texts to the loose idea boxes of Encircle Language Spec.
-    - [x] I'm staring at 'Concepts' now. But Concepts is out-of-scope. Very out-of-scope. Does it matter? Any content about it is to be dumped into the appropriate spot in the documentation.
-    - [x] Object Order: Some of it is in Data Concepts. But I fundamentally need it in the Encircle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding concepts and data concepts once. Now most coding concepts are just part of the programming language and most data concepts are not. Just the separation is not as precisely clear as that.
+    - [x] I'm staring at 'Aspects' now. But Aspects is out-of-scope. Would it matter? Any content about it might be moved into an appropriate spot in the documentation.
+    - [x] Object Order: Some of it is in Data Aspects. But I fundamentally need it in the Encircle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding aspects and data aspects once. Now most coding aspects are just part of the programming language and most data aspects are not. Just the separation is not as precisely clear as that.
 - [x] Circle 3 Programming, Requirements:
     - [x] Has technical design requirements.
     - [x] I could look at them, take them out, compare them to the Encircle Docs requirements, to see if they are in there or have a place in there.
     - [x] Nah.
-- [x] Concepts construct:
-    - [x] I am missing writing the Concepts construct documentation from the planning docs. I only see it in the Circle 3 Programming, Excluded Requirements.
+- [x] Aspect construct:
+    - [x] I am missing writing the Aspects construct documentation from the planning docs. I only see it in the Circle 3 Programming, Excluded Requirements.
 - [x] Lower contents:
     - [x] The idea of lower contents is described in planning docs not in Encircle Docs Planning, but in '1. Circle 3 Programming' planning.
     - [x] You can also find some texts about it here: Circle 3, Lower Contents, TODO.doc
@@ -403,20 +403,20 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
         - [x] Also for the planning docs: there are Software System Documentation out-of-scope projects. Perhaps part of it was Encircle Language Design.
         - [x] > Not much usable content is still in scope.
     - [x] Computer language topics out-of-scope:
-        - [x] Concepts / aspect oriented programming
+        - [x] Aspect oriented programming
         - [x] Database principles
-        - [x] Concept libraries
+        - [x] Aspect libraries
         - [x] Machine language
         - [x] Internet as a single computer
         - [x] So many things, but I want to leave them out.
-- [x] The data concepts and coding concepts thing, and the aspect oriented-like thing, I may want to put that out of scope. I might want to accept that the idea I present has limited potential, and might not apply to what you can do with a database, or ambitious aspect oriented programming ideas... just object oriented programming expressed in diagrams is enough. I did not have a clear idea back then how to merge the two or three concepts into that diagram language. I had some general ideas, but not entirely concrete. I should just leave it at that. That seems more achievable.
+- [x] The data aspects and coding aspects thing, and the aspect oriented-like thing, I may want to put that out of scope. I might want to accept that the idea I present has limited potential, and might not apply to what you can do with a database, or ambitious aspect oriented programming ideas... just object oriented programming expressed in diagrams is enough. I did not have a clear idea back then how to merge the two or three aspects into that diagram language. I had some general ideas, but not entirely concrete. I should just leave it at that. That seems more achievable.
 
 #### 2019-12-29 Done Brainstorm Scope
 
 - [x] What do I do with things, that are out-of-scope? Do I just bluntly remove them from the documentation, or do I go through the trouble of parking the texts elsewhere?
 - [x] Would I rename 'Computer Language' to something else, admitting it is a programming language, and only expressing the hope that it would become a language to a user to, where constructs are simpler. Do I simply admit that these were my ambitions with the project, and if people claim arrogance, then let them?
 - [x] I am hoping at some point, the planning docs get smaller... because these documents are huge and intimidating.
-- [x] Maybe I should just make 2 project folders eventually in the Planning Docs repository: one for the new computer language and one for the rest, that are much like eachother, but one stripped down to computer language functional design topics, and the other in which to dump the rest: anything deemed out-of-scope of the entire new computer language topic. Those are different than topics out-of-scope because postponed, but still much to do with the new computer language. Maybe at first, even 'worse', I make 2 documents in each folder: One with topics that belong to the new computer language, and another document much like it, in which the rest is put, that I would want to leave out of it.
+- [x] Maybe I should just make 2 project folders eventually in the Planning Docs repository: one for the new computer language and one for the rest, that are much like each other, but one stripped down to computer language functional design topics, and the other in which to dump the rest: anything deemed out-of-scope of the entire new computer language topic. Those are different than topics out-of-scope because postponed, but still much to do with the new computer language. Maybe at first, even 'worse', I make 2 documents in each folder: One with topics that belong to the new computer language, and another document much like it, in which the rest is put, that I would want to leave out of it.
 - [x] I think a new concept to me, introduced in this new project is that: I do not need to do everything. Like this from "New Computer Language, Products.doc: "You have to be able to introduce new basic data structures and give them the nonagon symbol, and have different kinds of possible indexers, etcetera." I don't have to. I could do without. Ideas might be viable and interesting without all details being covered, without all proofs being given. I wanted to work out *everything* at some point. I also was a afraid, that if I didn't, people would not believe in the idea. Maybe I got over-ambitious, because I saw so much potential. I think I was able to work out a lot, but then I would get distracted by another project and then it turned out, I never got back to it. Scoping is a trick for that, when managing projects. Setting the boundaries and limitations of what the project would cover. I never wanted to do that back then. I wanted a framework in which everything would fit and then choose seemingly randomly what I would cover next. In one way I like the freedom of that. But on the other hand, it becomes a never ending story. I sometimes had the ambition of actually making *all* of it. I might have been able to create a playground in which I can go wild, but someone else would never want to cover all of that. Someone else would never take over your programming life, just a scoped programming project and then maybe. So I want to scope it. And lose the 'programming it out' part. And loose 'it is also a framework and an OS and any commonly used application'. It is actually quite hard for me to let go of that idea. I liked my playground back then. I wanted proof, that this could be used to realize software quicker, so one man can do what would have taken an army of programmers to do before. But I don't have that ambition anymore. Right now I just want to publically give away the programming language idea. I think I notice a lot of insecurities about people thinking it is a good idea or not. Maybe because I was trying to sell the idea, rather than just give it away? I get that I wanted a framework into which all of my ideas fit. I like some of the modularization of the concepts. But I do want to just cut away a few things. I think I am still trying to sell an idea, but then in a different way. I do not have the intention to sell it for cash, but I do want to not make it too ambitious, cover too much, so large in scope, that no one would pick it up anymore. 
 - [x] The time planning document ("New Computer Language, Project Steps & Time Planning.doc") looks far more overviewable and less intimidating. It all seems so manageable there.
 - [x] The document with the list of products ("New Computer Language, Products.doc") is overwhelming, because each article written is mentioned separately and that means almost each paragraph of produced writing is mentioned separately. If I would just mention the basic outlines, this might be better. Earlier, back then, it may have helped me see what I did and see how much I wanted to do. But with the goal I have now, I think it loses its purpose, and simplicity of the planning docs is more important than rigorous tooling for detailed planning of my own work.

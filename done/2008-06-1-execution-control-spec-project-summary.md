@@ -24,7 +24,7 @@ The goal was to work out the execution control articles.
 
 A side-goal was to take a break from the project *Classes & Relationships Specs*.
 
-During the project clues were found about *automatic containment* and other command topics. Those ideas would later be used in the project *Commands as a Concept Spec*. 
+During the project clues were found about *automatic containment* and other command topics. Those ideas would later be used in the project *Commands as an Aspect Spec*. 
 
 ### Date & Time
 

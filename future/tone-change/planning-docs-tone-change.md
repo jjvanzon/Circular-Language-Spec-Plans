@@ -7,29 +7,29 @@ Planning Docs | Tone Change
 __Contents__
 
 - [Postponed](#postponed)
-    - [2020-04-18 Postponed Reword 'Done' Planning Docs](#2020-04-18-postponed-reword-done-planning-docs)
+    - [2020-04-18 Postponed Rewording 'Done' Planning Docs](#2020-04-18-postponed-rewording-done-planning-docs)
 - [Done](#done)
-    - [2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs](#2020-04-13-done-brainstorm-reword-circle-language-spec-planning-docs)
-    - [2020-04-18 Done Reword 2008-07 02        Assignment Spec Project Summary.docx](#2020-04-18-done-reword-2008-07-02--------assignment-spec-project-summarydocx)
-    - [2020-04-18 Done Reword 2008-05 02 Classes & Relationships Specs Project Summary.docx](#2020-04-18-done-reword-2008-05-02-classes--relationships-specs-project-summarydocx)
-    - [2020-04-18 Done Reword 2008-06 02 Command as a Concept Spec Project Summary.docx](#2020-04-18-done-reword-2008-06-02-command-as-a-concept-spec-project-summarydocx)
-    - [2020-04-18 Done Reword 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx](#2020-04-18-done-reword-2008-06-03--------clarify-command-as-a-concept-spec-project-summarydocx)
-    - [2020-04-18 Done Reword 2008-07 01        System Objects Spec Project Summary.docx](#2020-04-18-done-reword-2008-07-01--------system-objects-spec-project-summarydocx)
-    - [2020-04-18 Done Reword The Done Encircle Language Spec Planning Docs](#2020-04-18-done-reword-the-done-encircle-language-spec-planning-docs)
-    - [2020-04-18 Done Encircle Language Spec Planning Docs: Reword Main Project and Future Sub-Projects](#2020-04-18-done-encircle-language-spec-planning-docs-reword-main-project-and-future-sub-projects)
+    - [2020-04-13 Done Brainstorm Rewording Circle Language Spec Planning Docs](#2020-04-13-done-brainstorm-rewording-circle-language-spec-planning-docs)
+    - [2020-04-18 Done Rewording 2008-07 02        Assignment Spec Project Summary.docx](#2020-04-18-done-rewording-2008-07-02--------assignment-spec-project-summarydocx)
+    - [2020-04-18 Done Rewording 2008-05 02 Classes & Relationships Specs Project Summary.docx](#2020-04-18-done-rewording-2008-05-02-classes--relationships-specs-project-summarydocx)
+    - [2020-04-18 Done Rewording 2008-06 02 Command as an Aspect Spec Project Summary.docx](#2020-04-18-done-rewording-2008-06-02-command-as-an-aspect-spec-project-summarydocx)
+    - [2020-04-18 Done Rewording 2008-06 03        Clarify Command as an Aspect Spec Project Summary.docx](#2020-04-18-done-rewording-2008-06-03--------clarify-command-as-an-aspect-spec-project-summarydocx)
+    - [2020-04-18 Done Rewording 2008-07 01        System Objects Spec Project Summary.docx](#2020-04-18-done-rewording-2008-07-01--------system-objects-spec-project-summarydocx)
+    - [2020-04-18 Done Rewording The Done Encircle Language Spec Planning Docs](#2020-04-18-done-rewording-the-done-encircle-language-spec-planning-docs)
+    - [2020-04-18 Done Encircle Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects](#2020-04-18-done-encircle-language-spec-planning-docs-rewording-main-project-and-future-sub-projects)
     - [2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries](#2020-04-18-done-encircle-language-spec-planning-docs-format-the-project-summaries)
     - [2020-04-13 Done Encircle Language Spec Planning Docs](#2020-04-13-done-encircle-language-spec-planning-docs)
     - [2020-01-30 Done Reformulating Planning Docs](#2020-01-30-done-reformulating-planning-docs)
 
 ### Postponed
 
-#### 2020-04-18 Postponed Reword 'Done' Planning Docs
+#### 2020-04-18 Postponed Rewording 'Done' Planning Docs
 
 - [x] 2008-05 01 Diagram Expression Specs Project Summary.docx
 - [x] 2008-05 02 Classes & Relationships Specs Project Summary.docx
 - [x] 2008-06 01 Execution Control Spec Project Summary.docx
-- [x] 2008-06 02 Command as a Concept Spec Project Summary.docx
-- [x] 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
+- [x] 2008-06 02 Command as an Aspect Spec Project Summary.docx
+- [x] 2008-06 03        Clarify Command as an Aspect Spec Project Summary.docx
 - [x] 2008-07 01        System Objects Spec Project Summary.docx
 - [x] 2008-07 02        Assignment Spec Project Summary.docx
 - [x] 2008-08 00        Commands Spec Project Summary.docx
@@ -67,7 +67,7 @@ __Contents__
 
 ### Done
 
-#### 2020-04-13 Done Brainstorm Reword Circle Language Spec Planning Docs
+#### 2020-04-13 Done Brainstorm Rewording Circle Language Spec Planning Docs
 
 - Reformulate:
     - I would want to read over those Done projects content before publishing. I should know what I publish exactly and have evaluated it and made some adaptations possibly. Probably nothing in it is a secret, so you don't need to remove it from source control history, but slight changes might be good.
@@ -78,18 +78,18 @@ __Contents__
     - I worry what people would think of me. If they'd think I'm arrogant... maybe I should not worry about that.
     - Cockiness/speaking in definites, and scope/out-of-scope are 2 different things. My intermediate goal now was to change the tone, not to change the scope covered by the documents? There are still gray areas of scope. I think I should deal with that later?
 
-#### 2020-04-18 Done Reword 2008-07 02        Assignment Spec Project Summary.docx
+#### 2020-04-18 Done Rewording 2008-07 02        Assignment Spec Project Summary.docx
 
 - [x] Adding maybe's and perhapses.
 - [x] Second phase reformulating > Did not change much, but did change a few things.
 - [x] The word 'you' seems overly used. Try to reformulate to object-centric grammar, instead of person-centric.
 - [x] Maybe read one more time for possible small typing errors.
 
-#### 2020-04-18 Done Reword 2008-05 02 Classes & Relationships Specs Project Summary.docx
+#### 2020-04-18 Done Rewording 2008-05 02 Classes & Relationships Specs Project Summary.docx
 
 - [x] ~~Rename "Relationship" => "Relationship" > I would keep the term relationship in there for now, otherwise I would have to go through so much documentation. If I refer to a product with the work relationship in it and change it in the planning docs, then I also would have to change it in the language spec docs and that is just a whole lot of work. I briefly looked up a discussion online about these words, and it does not seem people can find a really clear distinction or rule, just wishy washy hand wavy stuff, I think. It's just that in IT the term is usually 'relationship'. In the spirit of not alienating readers you might change it, but it does not seem semantically incorrect would you accidentally use the word 'relationship' instead.~~
 
-#### 2020-04-18 Done Reword 2008-06 02 Command as a Concept Spec Project Summary.docx
+#### 2020-04-18 Done Rewording 2008-06 02 Command as an Aspect Spec Project Summary.docx
 
 - [x] It mentions topics very much out of scope.
 - [x] I think it might not be harmful to keep that mentioning in there.
@@ -98,14 +98,14 @@ __Contents__
 - [x] Reconsider to split into in-scope and out-of-scope parts.
 - [x] Brainstorm: The input / output topics is so present in this sub-project description. It does not seem lightly touching the topic. Sometimes it is half a paragraph that goes on about just that, while it is not in-scope anymore. Maybe it is worth trying to extract it out, so the summaries of the work become simpler.
 
-#### 2020-04-18 Done Reword 2008-06 03        Clarify Command as a Concept Spec Project Summary.docx
+#### 2020-04-18 Done Rewording 2008-06 03        Clarify Command as an Aspect Spec Project Summary.docx
 
-- [x] I would like to look at the end-result of the project 'Clarify Command as a Concept Spec' to see if the description of the work done still makes sense if you split it in two.
-- [x] Maybe the sub-project Clarify Command as a Concept is mostly out-of-scope.
+- [x] I would like to look at the end-result of the project 'Clarify Command as an Aspect Spec' to see if the description of the work done still makes sense if you split it in two.
+- [x] Maybe the sub-project Clarify Command as an Aspect is mostly out-of-scope.
 - [x] That whole project should be out of scope, because the end-result is just about input/output and concurrency resolution.
 - [x] That would change the super project description too.
 
-#### 2020-04-18 Done Reword 2008-07 01        System Objects Spec Project Summary.docx
+#### 2020-04-18 Done Rewording 2008-07 01        System Objects Spec Project Summary.docx
 
 - [x] Maybe reformulate harsher words, rather than understanding the text of all the notes. The notes are really unpolished.
 - [x] > Was at 'Other Issues' taking out the more harsh wordings.
@@ -125,7 +125,7 @@ __Contents__
     - [x] As I read the first sentences of the sub-project planning doc, I tend to want to redescribe it, now I can put it into context. As I explain that context, the integrity of the planning doc seems in tact again.
     - [x] I want to keep reading over and reformulating.
 
-#### 2020-04-18 Done Reword The Done Encircle Language Spec Planning Docs
+#### 2020-04-18 Done Rewording The Done Encircle Language Spec Planning Docs
 
 - [x] Ideas document: ISNSE = Internet as a Single Computer > But why? Internet aS a[N] Single Entity?
 - [x] Brainstorm: Scope the Done projects?
@@ -148,7 +148,7 @@ __Contents__
     - [x] ~~2008-03 05             Generic, No Generators Spec, Project Summary.docx~~
     - [x] ~~2008-04 02        Get Clearer View over Difficult Topics Project Summary.docx~~
 
-#### 2020-04-18 Done Encircle Language Spec Planning Docs: Reword Main Project and Future Sub-Projects
+#### 2020-04-18 Done Encircle Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects
 
 - [x] The aim is to use less definite, more open, language and to take out the personal 'I' form.
 - [x] I think a lot of documents do not contain as much prose as Encircle Language Spec Strategy, so maybe things are doable after all. Also it does not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
@@ -161,11 +161,11 @@ __Contents__
         - [x] ~~Split up topics about Diagram Metrics from Automatic Containment: two topics. Those intertwine in those two documents.~~
         - [x] ~~Automatic Containment was going to be put out of scope, because it is so difficult and really in the way of explaining how to use these diagrams normally.~~
         - [x] ~~I said I would focus on reformulating, not on scoping, but I just don't want to reformulate this content, it is so unclear.~~
-        - [x] ~~Would I simply move more to the 'out-of-scope' document? I doubt, because I moved 'Errors' and the 'Concept Construct' from out-of-scope to in-scope but postponed, because they 'felt' part of the language. Now the scoping rules change and I am wondering about how to organize things for a moment.~~
-        - [x] ~~Looking at the folder subdivision of the planning docs, it does seem like it should be moved there. And so does the concept construct. Moved back again.~~
+        - [x] ~~Would I simply move more to the 'out-of-scope' document? I doubt, because I moved 'Errors' and the 'Aspect Construct' from out-of-scope to in-scope but postponed, because they 'felt' part of the language. Now the scoping rules change and I am wondering about how to organize things for a moment.~~
+        - [x] ~~Looking at the folder subdivision of the planning docs, it does seem like it should be moved there. And so does the aspect construct. Moved back again.~~
     - [x] Classes Spec Update Ideas.md
     - [x] Commands Spec Update Ideas.md
-    - [x] Concept Construct Spec Project Summary.docx
+    - [x] Aspect Construct Spec Project Summary.docx
         - [x] Move out-of-scope.
     - [x] Aspects as External Modules Spec Goal (2008-05) (postponed).docx
         - [x] Move out-of-scope.
@@ -185,7 +185,7 @@ __Contents__
         - [x] Parameters and input/output concepts entangle. The proposed product list would aim to disentangle those topics and explain their precise relationship.
         - [x] I had a brainstorm. I put that in the Future Sub-Project doc in the out of scope folder.
     - [x] Diagram Metrics Ideas.md
-    - [x] Diagrams, Coding Principles & Coding Concepts Plan (old).docx
+    - [x] Diagrams, Coding Principles & Coding Aspects Plan (old).docx
         - [x] At first glance, this seems to have the same scope as the whole project Encircle Language Spec.
         - [x] Maybe it can be thrown away (or archived), because it's already described by newer documents.
     - [x] `Execution Control Spec Update Ideas.md`

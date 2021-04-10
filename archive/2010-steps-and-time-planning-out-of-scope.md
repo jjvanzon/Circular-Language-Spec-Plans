@@ -38,7 +38,7 @@ The orange items are postponed and not counted up in the planning.
     - [ ] Math & Integration __(2 items)  (14 points)__
     - [ ] Input Output __(2 items)  (20 points)__
     - [ ] Internet Complete __(2 items)  (13 points)__
-    - [ ] Concepts __(5 items)  (19 points)__
+    - [ ] Aspects __(5 items)  (19 points)__
     - [ ] Querying & Collection Operations __(8 points)__
     - [ ] Politically Correct __(3 items)  (18 points)__
     -----
@@ -72,13 +72,13 @@ The orange items are postponed and not counted up in the planning.
         - [ ] ~ Linkage of the Physical and the Logical
         - [ ] ~ Storage Caching
 
-    - [ ] Concepts: __(5 items)  (19 points)__
+    - [ ] Aspects: __(5 items)  (19 points)__
 
-        - [ ] Concept Construct __(5)__
-        - [ ] Editing Concepts __(4)__
-        - [ ] Controls Concepts __(4)__
-        - [ ] Coding Concepts Misc __(3)__
-        - [ ] Data Concepts __(3)__
+        - [ ] Aspect Construct __(5)__
+        - [ ] Editing Aspects __(4)__
+        - [ ] Controls Aspects __(4)__
+        - [ ] Coding Aspects Misc __(3)__
+        - [ ] Data Aspects __(3)__
 
     - [ ] Querying & Collection Operations __(8)__
 
@@ -95,7 +95,7 @@ The orange items are postponed and not counted up in the planning.
     - [ ] ~ Medium theme: Handy Access  __(2)__
     - [ ] ~ Medium theme: Circularity  __(2)__
     - [ ] ~ Medium theme: Apply  __(4)__
-    - [ ] ~ Medium theme: Some Data Concepts  __(7)__  
+    - [ ] ~ Medium theme: Some Data Aspects  __(7)__  
          (7 points, because it is so much, not because it is hard)
 
 - [ ] Hard topics: __(4 topics)__  
@@ -104,8 +104,8 @@ The orange items are postponed and not counted up in the planning.
     - [ ] ~ Fundamental principles
     - [ ] ~ Text Code Topics
     - [ ] ~ Other Expression Topics
-    - [ ] ~ Certain Data Concepts
-    - [ ] ~ Internet Concepts
+    - [ ] ~ Certain Data Aspects
+    - [ ] ~ Internet Aspects
 
 
 Total Points

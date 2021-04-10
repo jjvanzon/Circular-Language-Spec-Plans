@@ -9,6 +9,7 @@ __Contents__
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
     - [2021-04-07 TODO Content Reorganization](#2021-04-07-todo-content-reorganization)
+    - [WAS HERE](#was-here)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
@@ -51,58 +52,15 @@ __Contents__
 - [x] Reorganizing Planning Docs roughly
 - [x] Index pages / README's for "Encircle-Language-Spec-Plans"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
-- [ ] __Contents sections in documents__
+- [x] Tables of contents
+- [ ] __Replacing some terms__
 - [ ] Loose ideas: regroup or clear out
 
 ### TODO
 
-#### 2021-04-07 TODO Content Reorganization
+#### 2021-04-10 Done Content Reorganization
 
-- [x] Headings more uniform
-- [x] Encircle-Language-Spec tables of contents
-- [x] Encircle-Language-Spec-Plan tables of contents
-- [x] Overview might be given links.
-- [x] Renaming "In a Diagram" sections to just "Diagram"
-- [x] Renaming "System Objects" chapter to "System Interfaces"
-- [x] Increased Pointers heading levels for table of contents.
-- [ ] __Replacing "Concept" with "Aspect"__
-    - [ ] I have difficulty with this. 
-    - [ ] Only part of the occurrences seem replaceable.
-    - [ ] "Concept" had such a nice ring to it.
-    - [ ] Maybe some other way to be selective?
-    - [ ] Certain files perhaps?
-    - [x] Encircle-Language-Spec
-        - [x] "Construct Drafts" README
-        - [x] "Aspects"
-        - [x] "Command as an Aspect Brainstorm Texts"
-        - [x] "Broader View Loose Ideas"
-        - [x] "Concepts as External Modules"
-        - [x] "Access Control Loose Ideas"
-        - [x] "Referrers Implementation"
-        - [x] "System Commands Implementation"
-        - [x] "Programming Language Programmed Within Itself"
-        - [x] "Input Output | Loose Ideas"
-        - [x] "Type Safety, Genericity, Explicit" (some occurrences)
-        - [x] "Diagram Expression Introduction" (some occurrences)
-        - [x] "System Interfaces | Loose Ideas" (some occurrences)
-        - [x] "Concepts as External Modules"
-        - [x] "Text Code" README
-        - [x] "Aspect Literals"
-        - [x] "Fundamental Principles | Loose Ideas"
-        - [x] Search for "as a concept"
-        - [x] Search for "Concept Literal"
-        - [x] Search for "Concept Construct"
-        - [x] Searching for "Coding Concept" (some occurrences replaced)
-        - [x] Searching for "a aspect" / "a *aspect".
-        - [x] Searching for "external module"
-    - [ ] __Encircle-Language-Spec-Plan__
-        - [ ] __Went through it file by file.__
-        - [ ] Searching for "as a concept"
-        - [ ] Searching for "concept literal"
-        - [ ] Searching for "concept construct"
-        - [ ] Searching for "coding concept"
-        - [ ] Searching for "a aspect"
-        - [ ] Searching for "external module"
+...
 
 ### Postponed
 
@@ -126,6 +84,57 @@ __Contents__
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-07 Done Content Reorganization
+
+- [x] Headings more uniform
+- [x] Encircle-Language-Spec tables of contents
+- [x] Encircle-Language-Spec-Plan tables of contents
+- [x] Overview might be given links.
+- [x] Renaming "In a Diagram" sections to just "Diagram"
+- [x] Renaming "System Objects" chapter to "System Interfaces"
+- [x] Increased Pointers heading levels for table of contents.
+
+#### 2021-04-07 Done Replacing "Concept" with "Aspect"
+
+- [x] Replacing "Concept" with "Aspect"
+    - [x] I have difficulty with this. 
+    - [x] Only part of the occurrences seem replaceable.
+    - [x] "Concept" had such a nice ring to it.
+    - [x] Maybe some other way to be selective?
+    - [x] Certain files perhaps?
+    - [x] Encircle-Language-Spec
+        - [x] "Construct Drafts" README
+        - [x] "Aspects"
+        - [x] "Command as an Aspect Brainstorm Texts"
+        - [x] "Broader View Loose Ideas"
+        - [x] "Concepts as External Modules"
+        - [x] "Access Control Loose Ideas"
+        - [x] "Referrers Implementation"
+        - [x] "System Commands Implementation"
+        - [x] "Programming Language Programmed Within Itself"
+        - [x] "Input Output | Loose Ideas"
+        - [x] "Type Safety, Genericity, Explicit" (some occurrences)
+        - [x] "Diagram Expression Introduction" (some occurrences)
+        - [x] "System Interfaces | Loose Ideas" (some occurrences)
+        - [x] "Concepts as External Modules"
+        - [x] "Text Code" README
+        - [x] "Aspect Literals"
+        - [x] "Fundamental Principles | Loose Ideas"
+        - [x] Searching for "as a concept"
+        - [x] Searching for "Concept Literal"
+        - [x] Searching for "Concept Construct"
+        - [x] Searching for "Coding Concept" (some occurrences replaced)
+        - [x] Searching for "a aspect" / "a *aspect".
+        - [x] Searching for "external module"
+    - [x] Encircle-Language-Spec-Plan
+        - [x] Went through it file by file.
+        - [x] Searching for "as a concept"
+        - [x] Searching for "concept literal"
+        - [x] Searching for "concept construct"
+        - [x] Searching for "external module"
+        - [x] Searching for "coding concept"
+        - [x] Searching for "a aspect"
 
 #### 2021-04-05 Done Pretty URL's for Planning Docs
 
@@ -722,7 +731,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] Empty project folders:
     - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] To me it seems odd now, that 'Errors' is put out of scope.
-    - [x] I think I want to move the topics 'Errors' and 'Concept Construct' from the Out-of-Scope document to the Encircle Language Spec Planning docs.
+    - [x] I think I want to move the topics 'Errors' and 'Aspect Construct' from the Out-of-Scope document to the Encircle Language Spec Planning docs.
     - [x] The 'Out-of-Scope' document os currently not just postponed items of the Encircle Language Spec, but more than that: not even considered part of the Encircle Language Spec project at all anymore.
     - [x] It is still not a hard rule to be set. But putting Errors and Concepts out of view, makes it sort of not the same project for the sake of Concepts and putting my head into the sand when it is about Errors. If I have ideas about these things, they do belong in the project I think. I have a hard time thinking them away.
 - [x] Formatting:
