@@ -14,7 +14,7 @@ Software System, Projects,
 
 Ik denk dat ik zelfs bij de projectenlijst eerst voor het compleet maken van de bruikbaarheid van de taal ga. Dat wil zeggen: permanent storage erbij.
 
-Daarna voor de integratie van vooral concepts, en mogelijk literals.  
+Daarna voor de integratie van vooral aspects, en mogelijk literals.  
 En eventueel andere fundamentele invalshoeken erbij.
 
 En mogelijk voor diagrammen erin te integreren op een of andere manier, eventueel, als ik het qua volledige overlap in codeer concepten en definitie van de diagramtaal niet al voldoende 1 taal vind.

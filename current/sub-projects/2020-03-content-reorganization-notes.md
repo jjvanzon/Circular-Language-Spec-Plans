@@ -59,35 +59,67 @@ __Contents__
 #### 2021-04-07 TODO Content Reorganization
 
 - [x] Headings more uniform
-- [ ] __Contents sections in documents__
-    - [x] Encircle-Language-Spec contents sections
-    - [ ] __Encircle-Language-Spec-Plan contents sections__
-        - [ ] __WAS AT: future__
-
-### Postponed
-
-#### 2021-04-05 Postponed Content Reorganization
-
-- [ ] ~ Moves to "Implementations"?
-- [ ] All pointer topics to Pointers.
-- [ ] All Text Code topics to single place.
-- [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
-- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
-- [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
-- [ ] ->.. Replacing "Concept" with "Aspect"
+- [x] Encircle-Language-Spec tables of contents
+- [x] Encircle-Language-Spec-Plan tables of contents
+- [x] Overview might be given links.
+- [x] Renaming "In a Diagram" sections to just "Diagram"
+- [x] Renaming "System Objects" chapter to "System Interfaces"
+- [x] Increased Pointers heading levels for table of contents.
+- [ ] __Replacing "Concept" with "Aspect"__
     - [ ] I have difficulty with this. 
     - [ ] Only part of the occurrences seem replaceable.
     - [ ] "Concept" had such a nice ring to it.
     - [ ] Maybe some other way to be selective?
     - [ ] Certain files perhaps?
+    - [x] Encircle-Language-Spec
+        - [x] "Construct Drafts" README
+        - [x] "Aspects"
+        - [x] "Command as an Aspect Brainstorm Texts"
+        - [x] "Broader View Loose Ideas"
+        - [x] "Concepts as External Modules"
+        - [x] "Access Control Loose Ideas"
+        - [x] "Referrers Implementation"
+        - [x] "System Commands Implementation"
+        - [x] "Programming Language Programmed Within Itself"
+        - [x] "Input Output | Loose Ideas"
+        - [x] "Type Safety, Genericity, Explicit" (some occurrences)
+        - [x] "Diagram Expression Introduction" (some occurrences)
+        - [x] "System Interfaces | Loose Ideas" (some occurrences)
+        - [x] "Concepts as External Modules"
+        - [x] "Text Code" README
+        - [x] "Aspect Literals"
+        - [x] "Fundamental Principles | Loose Ideas"
+        - [x] Search for "as a concept"
+        - [x] Search for "Concept Literal"
+        - [x] Search for "Concept Construct"
+        - [x] Searching for "Coding Concept" (some occurrences replaced)
+        - [x] Searching for "a aspect" / "a *aspect".
+        - [x] Searching for "external module"
+    - [ ] __Encircle-Language-Spec-Plan__
+        - [ ] __Went through it file by file.__
+        - [ ] Searching for "as a concept"
+        - [ ] Searching for "concept literal"
+        - [ ] Searching for "concept construct"
+        - [ ] Searching for "coding concept"
+        - [ ] Searching for "a aspect"
+        - [ ] Searching for "external module"
+
+### Postponed
+
+#### 2021-04-05 Postponed Content Reorganization
+
+- [ ] ~ Repeating some of root README in spec README
+- [ ] ~ Loose ideas: regroup or clear out
+- [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
 - [ ] ~ Reorganizing "Fundamental Principles"
     - [ ] ~ One doc for Exchangeability?
     - [ ] ~ One doc for Extensibility?
-- [ ] ~ Renaming "System Objects" chapter to "System Interfaces"?
-- [ ] ~ Loose ideas: regroup or clear out
-- [ ] "In a Diagram" sections might just be called "Diagram"
-- [ ] Overview might be given links.
-- [ ] Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
+- [ ] All pointer topics to Pointers.
+- [ ] All Text Code topics to single place.
+- [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
+- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
+- [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
+- [ ] ~ Moves to "Implementations"?
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 

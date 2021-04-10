@@ -25,11 +25,11 @@ __Contents__
 
 ### Goal
 
-Worked out the Parameter articles, as part of working out Commands as a Concept.
+Worked out the Parameter articles, as part of working out Commands as an Aspect.
 
 ### Super-Project
 
-*Encircle Language Spec | Command as a Concept Spec*
+*Encircle Language Spec | Command as an Aspect Spec*
 
 ### Date & Time
 

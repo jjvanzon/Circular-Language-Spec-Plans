@@ -18,11 +18,11 @@ __Contents__
 
 ### Super-Project
 
-*Encircle Language Spec | Command as a Concept Spec*
+*Encircle Language Spec | Command as an Aspect Spec*
 
 ### Goal
 
-Work out the *Assignment* article group, as it might be needed for working out *Commands as a Concept*.
+Work out the *Assignment* article group, as it might be needed for working out *Commands as an Aspect*.
 
 ### Date & Time
 

@@ -23,7 +23,7 @@ __Contents__
 
 ### Super-Project
 
-Encircle Language Spec, Command as a Concept Spec
+Encircle Language Spec, Command as an Aspect Spec
 
 ### Goal
 

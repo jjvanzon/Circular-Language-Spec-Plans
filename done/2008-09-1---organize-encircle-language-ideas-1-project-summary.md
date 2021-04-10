@@ -19,7 +19,7 @@ and an attempt was made to look at the bigger whole of the computer language.
 
 ### Super-Project
 
-*Encircle Language Spec | Command as a Concept Spec*
+*Encircle Language Spec | Command as an Aspect Spec*
 
 ### Date & Time
 

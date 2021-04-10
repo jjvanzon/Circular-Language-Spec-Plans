@@ -1,7 +1,7 @@
 ﻿Encircle Language Spec Plans
 ============================
 
-Command as a Concept Spec | 2008-06 | Project Summary
+Command as an Aspect Spec | 2008-06 | Project Summary
 -----------------------------------------------------
 
 __Contents__
@@ -18,9 +18,9 @@ Encircle Language Spec
 
 ### Goal
 
-Document the implementation of *commands as a concept*, and a chapter about parameters.
+Document the implementation of *commands as an aspect*, and a chapter about parameters.
 
-Rather than a single topic, *commands as a concept* is considered a group of topics surrounding commands (also called methods, procedures or functions.)
+Rather than a single topic, *commands as an aspect* is considered a group of topics surrounding commands (also called methods, procedures or functions.)
 
 The project proved to be quite some work, so it was split up into sub-projects.
 
@@ -40,7 +40,7 @@ The work was split up into the following sub-projects:
 - *Organize Computer Language Ideas (1)*
 - *Document Parameters Articles*
 
-(The sub-project *Clarify Command as a Concept Spec* used to be part of this super-project, but was later moved out of scope.)
+(The sub-project *Clarify Command as an Aspect Spec* used to be part of this super-project, but was later moved out of scope.)
 
 ### Products
 

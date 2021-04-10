@@ -100,7 +100,7 @@ Extra articles:
     - Future project descriptions
     - Computer Language Principles
     - Computer Language Concepts
-    - Diagrams, Coding Principles & Coding Concepts
+    - Diagrams, Coding Principles & Coding Aspects
      
 - Then wrote the articles
  

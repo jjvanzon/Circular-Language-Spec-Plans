@@ -38,9 +38,9 @@ Presentation:
             - Code
                 - Automatic Containment
                 - Fundamental Principles
-                - Editing Concepts
+                - Editing Aspects
             - Controls
-                - Controls Concepts
+                - Controls Aspects
 
 - Software: __(9)__
     - \> All the files are read-only and that is going to be a problem for some of the software.
@@ -60,7 +60,7 @@ Presentation:
         - Math Objects 0.9
         - The code
             - Its being based on a code generator
-            - Its being concept-oriented
+            - Its being aspect-oriented
             - Perhaps the custom code tags
         - VB6 Generator 0.9
         - C++ Generator 0.9

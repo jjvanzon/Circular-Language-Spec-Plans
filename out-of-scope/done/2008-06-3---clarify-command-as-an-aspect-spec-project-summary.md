@@ -1,7 +1,7 @@
 ﻿Encircle Language Spec Plans
 ============================
 
-Clarify Command as a Concept Spec | 2008-06 | Project Summary
+Clarify Command as an Aspect Spec | 2008-06 | Project Summary
 -------------------------------------------------------------
 
 __Contents__
@@ -18,7 +18,7 @@ Clarify everything unclear about:
 
 - Automatic execution order
 - Parameters, input, output, throughput 
-- The implementation of commands as a concept
+- The implementation of commands as an aspect
 
 And their diagram expression.
 
@@ -26,7 +26,7 @@ To which extent this can solve concurrency issues was also looked at but not ful
 
 ### Super-Project
 
-This project used to be the beginning of the project ‘Command As A Concept’, which proved to be too large, so it was split up into multiple projects.
+This project used to be the beginning of the project ‘Command as an Aspect’, which proved to be too large, so it was split up into multiple projects.
 
 ### Date & Time
 
@@ -36,9 +36,9 @@ __52 ¼__ hours of work
 
 ### Products
 
-A document was produced: *Command As A Concept Brainstorm Texts*  
+A document was produced: *Command as an Aspect Brainstorm Texts*  
 It is put in the documentation as the *Commands*  article group version *2008-07-13 XX .*  
-It is approximately __32__ pages of brainstorm texts trying to clarify commands as a concept.
+It is approximately __32__ pages of brainstorm texts trying to clarify commands as an aspect.
 
 ### Project Steps
 
@@ -70,8 +70,8 @@ It is approximately __32__ pages of brainstorm texts trying to clarify commands 
     - [x] More into the order in which you might like to read it.
     - [x] You might have the tendency to jump around the documentation, if something in the flow is off. So a change of the order might help there.
     - [x] Drop Diagram and Text expression right next to conceptual explanation
-    - [x] Mix Coding Principles and Concepts
-        - [x] I often change my mind about implementing something as a 'principle' or as a 'concept'. (The difference between concept and principle is 'made up' just to label things: a principle would be an intrinsic part of the language, a concept could be programmed out using the language itself.)
+    - [x] Mix Coding Principles and Aspects
+        - [x] I often change my mind about implementing something as a 'principle' or as an 'aspect'. (The difference between aspect and principle is 'made up' just to label things: a principle would be an intrinsic part of the language, an aspect could be programmed out using the language itself.)
         - [x] It seems less ideal to have some assignment topics on one end of the documentation, and other assignment topics at the other end of the documentation.
     - [x] Add ‘Implementation’ section to each concept.
     - [x] Change the documentation titles  
@@ -81,10 +81,10 @@ It is approximately __32__ pages of brainstorm texts trying to clarify commands 
         - [x] For groups of concepts
     - [x] Try to make the file names nice again.
     - [x] Better numbering of articles.
-    - [x] ~ Summary of what the small base of the code will consist of / which coding 'concepts' are 'principles'.
+    - [x] ~ Summary of what the small base of the code will consist of / which coding 'aspects' are 'principles'.
     - [x] Flat & Structure Interchange seem spread around the documentation too.
         - [x] But a summary was put in Fundamental Principles
     - [x] It may be useful to have some extra diagram expression topics:
         - [x] Basic diagram elements
-        - [x] Diagrams as a concept
+        - [x] Diagrams as an aspect
         - [x] Automatic containment (is also a diagram expression topic.)

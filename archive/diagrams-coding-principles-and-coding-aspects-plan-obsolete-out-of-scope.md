@@ -1,5 +1,5 @@
-﻿Encircle Language Spec Plan | Diagrams, Coding Principles & Coding Concepts (Out of Scope)
-==========================================================================================
+﻿Encircle Language Spec Plan | Diagrams, Coding Principles & Coding Aspects (Out of Scope)
+=========================================================================================
 
 *June, 2008*
 
@@ -31,7 +31,7 @@ Elements
 
 - Articles to write:
 
-    - Coding Concepts:
+    - Coding Aspects:
 
         - Extended Coding Principles:
             - Namespaces

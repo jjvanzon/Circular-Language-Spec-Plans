@@ -1,7 +1,7 @@
 ﻿Encircle Language Spec Plans
 ============================
 
-Command as a Concept Spec | 2008-06 | Project Summary (Out of Scope)
+Command as an Aspect Spec | 2008-06 | Project Summary (Out of Scope)
 --------------------------------------------------------------------
 
 __Contents__
@@ -18,7 +18,7 @@ __Contents__
 
 ### Goal
 
-This describes the part of the project Command as a Concept Spec, that was later put 'out of scope' of the Encircle Language Spec super-project.
+This describes the part of the project Command as an Aspect Spec, that was later put 'out of scope' of the Encircle Language Spec super-project.
 
 The original goal also included input, output and throughput, automatic execution order, and how that might solve concurrency issues, but that was postponed to another project.
 
@@ -32,7 +32,7 @@ __52 ¼__ hours of work
 
 ### Sub-Projects
 
-*Clarify Command as a Concept*
+*Clarify Command as an Aspect*
 
 ### Products
 
