@@ -245,5 +245,5 @@ __Contents__
 
 #### 2020-01-30 Done Reformulating Planning Docs
 
-I read over New Computer Language, Strategy.doc and reformulated stuff.
-I am cleaning up New Computer Language, Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description would *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.
+I read over Encircle Language Spec Strategy.doc and reformulated stuff.
+I am cleaning up Encircle Language Spec Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description would *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.

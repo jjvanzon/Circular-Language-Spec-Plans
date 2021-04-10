@@ -50,7 +50,7 @@ Things might be slightly over-scored, because they are just variations on relati
     - [ ] Coding Essentials __(6 items)  (14 points)__
     - [ ] Automatic Diagram Organization __(1 item)  (5 points)__
     -----
-    - [ ] Total new computer language: __7 work items (19 points)__
+    - [ ] Total Encircle Language Spec: __7 work items (19 points)__
 
 - [ ] First: __(7 items)  (19 points)__
     - [ ] Coding Essentials: __(6 items)  (14 points)__  

@@ -48,7 +48,7 @@ First work out the easy issues and save the harder topics for later. The main to
 
 ### Approach
 
-I will follow the rules set in the parent project descriptions. Especially consider the *Writing Efficiently* rules in the *Strategy* document of the *New Computer Language Functional Design* project.
+I will follow the rules set in the parent project descriptions. Especially consider the *Writing Efficiently* rules in the *Strategy* document of the *Encircle Language Spec* project.
 
 ### Limitations
 
@@ -62,4 +62,4 @@ No tight time planning will be maintained.
 
 ### Future
 
-You should not plan to do yet another *New Computer Language Functional Design* project. Do not plan this ahead too much. You should focus on your studies. But I may keep it as a hobby if I put your studies first.
+You should not plan to do yet another *Encircle Language Spec* project. Do not plan this ahead too much. You should focus on your studies. But I may keep it as a hobby if I put your studies first.

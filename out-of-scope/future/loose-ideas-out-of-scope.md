@@ -92,7 +92,7 @@ JJ
 
 -----
 
-New Computer Language,  
+Encircle Language Spec,  
 2010-01-27
 
 Another reason the name Encircle might be nice, because if you'd use the language as a user interface, it is a non-square user interface. Most user interfaces are square oriented or rectangularly organized. But Encircle is not. It is non-square.
@@ -101,7 +101,7 @@ JJ
 
 -----
 
-New Computer Language Spec,  
+Encircle Language Spec,  
 2009-04-20
 
 You already have those things, even when you do not have Concurrency Resolution or Internet as a Single Computer or have incorporated existing ideas of other people. That's why it is so important to first do the easy projects.

@@ -47,8 +47,8 @@ I also expect it to be too much to just look into for a couple of hours, even to
         - Some stuff is still under construction,  
         but most of it is accessible and finished  
         It is all sort of a secret. Do not go off to companies, or put details about it on the internet.  
-        ‘Code name’ for the new computer language is ‘the new computer language’.  
-        The eventual names I have in mind are: Encircle for the new computer language.
+        ‘Code name’ for Encircle is ‘Encircle’.  
+        The eventual names I have in mind are: Circle, Symbol.
     - Let my brother discover the material for himself,  
       to check if the material is easily accessible.
     - But soon start showing him the main projects and the main products.
@@ -79,7 +79,7 @@ The version folders were immediately clear.
 
 Also the planning was completely discussed.
 
-We did not cover the documentation of the new computer language literally.  
+We did not cover the documentation of the Encircle literally.  
 We covered several coding concepts through a discussion about the language.  
 The following concepts were covered:
 

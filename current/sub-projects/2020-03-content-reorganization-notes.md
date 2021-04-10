@@ -8,12 +8,13 @@ __Contents__
 
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
-    - [2021-04-07 TODO Content Reorganization](#2021-04-07-todo-content-reorganization)
-    - [WAS HERE](#was-here)
+    - [2021-04-10 TODO Content Reorganization](#2021-04-10-todo-content-reorganization)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-07 Done Content Reorganization](#2021-04-07-done-content-reorganization)
+    - [2021-04-07 Done Replacing "Concept" with "Aspect"](#2021-04-07-done-replacing-concept-with-aspect)
     - [2021-04-05 Done Pretty URL's for Planning Docs](#2021-04-05-done-pretty-urls-for-planning-docs)
     - [2021-04-05 Done Reorganizing Planning Docs roughly](#2021-04-05-done-reorganizing-planning-docs-roughly)
     - [2021-04-05 Done Merging Together Goals of Revamp Project with Main Project.](#2021-04-05-done-merging-together-goals-of-revamp-project-with-main-project)
@@ -58,26 +59,31 @@ __Contents__
 
 ### TODO
 
-#### 2021-04-10 Done Content Reorganization
+#### 2021-04-10 TODO Content Reorganization
 
-...
+- [x] Replacing "new computer language" with "Encircle".
+    - [x] In Encircle-Language-Spec
+    - [x] In Encircle-Language-Spec-Plans
+- [ ] Repeating some of root README in spec README
 
 ### Postponed
 
 #### 2021-04-05 Postponed Content Reorganization
 
-- [ ] ~ Repeating some of root README in spec README
-- [ ] ~ Loose ideas: regroup or clear out
-- [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
-- [ ] ~ Reorganizing "Fundamental Principles"
-    - [ ] ~ One doc for Exchangeability?
-    - [ ] ~ One doc for Extensibility?
-- [ ] All pointer topics to Pointers.
-- [ ] All Text Code topics to single place.
-- [ ] Replacing the name: "new computer language" with "Encircle programming language" or "Encircle".
-- [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
-- [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
-- [ ] ~ Moves to "Implementations"?
+- [ ] `<< not sure >>`
+    - [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
+- [ ] `<< detailed work >>`
+    - [ ] ~ Loose ideas: regroup or clear out
+- [ ] `<< moving around text >>`
+    - [ ] ~ Reorganizing "Fundamental Principles"
+        - [ ] ~ One doc for Exchangeability?
+        - [ ] ~ One doc for Extensibility?
+    - [ ] All pointer topics to Pointers.
+    - [ ] All Text Code topics to single place.
+    - [ ] ~ Moves to "Implementations"?
+- [ ] `<< chapter reorganization >>`
+    - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
+    - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
 
 #### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
 
@@ -815,7 +821,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] The word 'Encircle' should be in it.
     - [x] The word 'Language' at least sheds light a bit on what it actually is.
     - [x] But Encircle Language Specification Plan is just a long name.
-    - [x] But 'New Computer Language Functional Design' was too, so that is not an argument?
+    - [x] But 'New Computer Language Functional Design' was quite a long name too, so that is not an argument?
     - [x] 'Spec': Is an abbreviation. I generally dislike those, but I think in this case it is appropriate. It is adopted as a word by the community.
 - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] The 'update ... articles' sub-projects

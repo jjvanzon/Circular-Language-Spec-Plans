@@ -293,7 +293,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 
 #### 2020-03-16 Done Scoping Circle 3 Requirements Docs
 
-- [x] I moved content from Circle 3 Requirements to New Computer Language Products doc.
+- [x] I moved content from Circle 3 Requirements to Encircle Language Products List.
 - [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using the new language. But I am OK with it.)
 - [x] Maybe check sub-project docs later to verify that I didn't do any documentation.
 
@@ -342,14 +342,14 @@ Working on splitting time planning and projects step into in-scope and out-of-sc
 
 #### 2020-02-13 Done Scoping
 
-Working on New Computer Language, Products.docx:
+Working on Encircle Products.docx:
 
 I do not want to necessarily want to shorten the list of products any further. Even the list of Done work. Because some parts are part done and it would be easier for me, would I work on it, to have the same subdivision of the pieces TODO as the pieces that are done.
 
 What I do might want to change is the rough order in phases of the stuff TODO.  
 I might just go over it a few times, reformulating.
 
-I am splitting off parts of New Computer Language, Products.docx into a separate document with the out-of-scope things.  
+I am splitting off parts of Encircle Products.docx into a separate document with the out-of-scope things.  
 I want to go over the Postponed topics, to see what content can be moved to the 'out-of-scope' document.
 
 Now I still want to weed out the 'Topics Roughly' moving things to the 'out-of-scope' document with the products.
@@ -358,7 +358,7 @@ Also the Strategy can be stripped of things 'out-of-scope'.
 
 #### 2020-01-13 Done Scoping
 
-I read and reformulated some texts from "New Computer Language, Strategy.doc". 2 hours or so. I am now too tired.  
+I read and reformulated some texts from "Encircle Strategy.doc". 2 hours or so. I am now too tired.  
 That document does not cover many things out of scope of language specification. It just briefly talks about programming experimental versions and licensing it and stuff, but little enough to keep it in there, were I to isolate this into a pure language specification writing project, which I intend it to.
 
 #### 2020-01-04 Done Rough Plan
@@ -396,7 +396,7 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
         - [x] Basically all of them are probably out-of-scope.
         - [x] Do I limit the ambitions with the project?
         - [x] Do I remove fundamental principles that are questionable or irrelevant, like that the code base is written in C++, or things that may speed up development, things others could figure out, making how I feel about it not add much? Maybe ease up on things, talk less strict about things?
-    - [x] 'Software System': an abstraction layer above the new computer language.
+    - [x] 'Software System': an abstraction layer above Encircle.
         - [x] ~~Even the large 'introduction' document to 'Software System': you might put part of it in one for 'language' and just refer to it from the main document.~~
         - [x] I think I should take interesting parts from the general Software System documentation.
         - [x] Then drop them somewhere in the Encircle Language Spec documentation.
@@ -416,14 +416,14 @@ Eventually, you might split the now in-scope topics apart in pieces that are in-
 - [x] What do I do with things, that are out-of-scope? Do I just bluntly remove them from the documentation, or do I go through the trouble of parking the texts elsewhere?
 - [x] Would I rename 'Computer Language' to something else, admitting it is a programming language, and only expressing the hope that it would become a language to a user to, where constructs are simpler. Do I simply admit that these were my ambitions with the project, and if people claim arrogance, then let them?
 - [x] I am hoping at some point, the planning docs get smaller... because these documents are huge and intimidating.
-- [x] Maybe I should just make 2 project folders eventually in the Planning Docs repository: one for the new computer language and one for the rest, that are much like each other, but one stripped down to computer language functional design topics, and the other in which to dump the rest: anything deemed out-of-scope of the entire new computer language topic. Those are different than topics out-of-scope because postponed, but still much to do with the new computer language. Maybe at first, even 'worse', I make 2 documents in each folder: One with topics that belong to the new computer language, and another document much like it, in which the rest is put, that I would want to leave out of it.
-- [x] I think a new concept to me, introduced in this new project is that: I do not need to do everything. Like this from "New Computer Language, Products.doc: "You have to be able to introduce new basic data structures and give them the nonagon symbol, and have different kinds of possible indexers, etcetera." I don't have to. I could do without. Ideas might be viable and interesting without all details being covered, without all proofs being given. I wanted to work out *everything* at some point. I also was a afraid, that if I didn't, people would not believe in the idea. Maybe I got over-ambitious, because I saw so much potential. I think I was able to work out a lot, but then I would get distracted by another project and then it turned out, I never got back to it. Scoping is a trick for that, when managing projects. Setting the boundaries and limitations of what the project would cover. I never wanted to do that back then. I wanted a framework in which everything would fit and then choose seemingly randomly what I would cover next. In one way I like the freedom of that. But on the other hand, it becomes a never ending story. I sometimes had the ambition of actually making *all* of it. I might have been able to create a playground in which I can go wild, but someone else would never want to cover all of that. Someone else would never take over your programming life, just a scoped programming project and then maybe. So I want to scope it. And lose the 'programming it out' part. And loose 'it is also a framework and an OS and any commonly used application'. It is actually quite hard for me to let go of that idea. I liked my playground back then. I wanted proof, that this could be used to realize software quicker, so one man can do what would have taken an army of programmers to do before. But I don't have that ambition anymore. Right now I just want to publically give away the programming language idea. I think I notice a lot of insecurities about people thinking it is a good idea or not. Maybe because I was trying to sell the idea, rather than just give it away? I get that I wanted a framework into which all of my ideas fit. I like some of the modularization of the concepts. But I do want to just cut away a few things. I think I am still trying to sell an idea, but then in a different way. I do not have the intention to sell it for cash, but I do want to not make it too ambitious, cover too much, so large in scope, that no one would pick it up anymore. 
-- [x] The time planning document ("New Computer Language, Project Steps & Time Planning.doc") looks far more overviewable and less intimidating. It all seems so manageable there.
-- [x] The document with the list of products ("New Computer Language, Products.doc") is overwhelming, because each article written is mentioned separately and that means almost each paragraph of produced writing is mentioned separately. If I would just mention the basic outlines, this might be better. Earlier, back then, it may have helped me see what I did and see how much I wanted to do. But with the goal I have now, I think it loses its purpose, and simplicity of the planning docs is more important than rigorous tooling for detailed planning of my own work.
+- [x] Maybe I should just make 2 project folders eventually in the Planning Docs repository: one for Encircle and one for the rest, that are much like each other, but one stripped down to computer language functional design topics, and the other in which to dump the rest: anything deemed out-of-scope of the entire Encircle topic. Those are different than topics out-of-scope because postponed, but still much to do with Encircle. Maybe at first, even 'worse', I make 2 documents in each folder: One with topics that belong to Encircle, and another document much like it, in which the rest is put, that I would want to leave out of it.
+- [x] I think a new concept to me, introduced in this new project is that: I do not need to do everything. Like this from "Encircle Product List": "You have to be able to introduce new basic data structures and give them the nonagon symbol, and have different kinds of possible indexers, etcetera." I don't have to. I could do without. Ideas might be viable and interesting without all details being covered, without all proofs being given. I wanted to work out *everything* at some point. I also was a afraid, that if I didn't, people would not believe in the idea. Maybe I got over-ambitious, because I saw so much potential. I think I was able to work out a lot, but then I would get distracted by another project and then it turned out, I never got back to it. Scoping is a trick for that, when managing projects. Setting the boundaries and limitations of what the project would cover. I never wanted to do that back then. I wanted a framework in which everything would fit and then choose seemingly randomly what I would cover next. In one way I like the freedom of that. But on the other hand, it becomes a never ending story. I sometimes had the ambition of actually making *all* of it. I might have been able to create a playground in which I can go wild, but someone else would never want to cover all of that. Someone else would never take over your programming life, just a scoped programming project and then maybe. So I want to scope it. And lose the 'programming it out' part. And loose 'it is also a framework and an OS and any commonly used application'. It is actually quite hard for me to let go of that idea. I liked my playground back then. I wanted proof, that this could be used to realize software quicker, so one man can do what would have taken an army of programmers to do before. But I don't have that ambition anymore. Right now I just want to publically give away the programming language idea. I think I notice a lot of insecurities about people thinking it is a good idea or not. Maybe because I was trying to sell the idea, rather than just give it away? I get that I wanted a framework into which all of my ideas fit. I like some of the modularization of the concepts. But I do want to just cut away a few things. I think I am still trying to sell an idea, but then in a different way. I do not have the intention to sell it for cash, but I do want to not make it too ambitious, cover too much, so large in scope, that no one would pick it up anymore. 
+- [x] The time planning document ("Encircle Project Steps & Time Planning") looks far more overviewable and less intimidating. It all seems so manageable there.
+- [x] The document with the list of products ("Encircle Product List.doc") is overwhelming, because each article written is mentioned separately and that means almost each paragraph of produced writing is mentioned separately. If I would just mention the basic outlines, this might be better. Earlier, back then, it may have helped me see what I did and see how much I wanted to do. But with the goal I have now, I think it loses its purpose, and simplicity of the planning docs is more important than rigorous tooling for detailed planning of my own work.
 
 #### 2019-12-15 Done Scoping
 
-- [x] I read over the document "New Computer Language, Strategy.doc" in full and did some reformulations, also removing my never realized studying goals.
+- [x] I read over the document "Encircle Strategy.doc" in full and did some reformulations, also removing my never realized studying goals.
 
 #### 2019-08-05 Done Brainstorm Restructuring Docs
 

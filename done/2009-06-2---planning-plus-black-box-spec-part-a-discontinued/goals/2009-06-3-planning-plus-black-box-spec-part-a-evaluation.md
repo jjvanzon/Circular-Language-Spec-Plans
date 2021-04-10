@@ -34,7 +34,7 @@ Other distractions that negatively influenced the planning: personal illness and
 
 I recognize in this, the errors I have made in the past, years and years ago, when at the whim of the moment I felt something functional was so important, that I started to work it out completely and completely put aside any proper planning and any previous goal. That happened now too, inspired by the creative-versus-productive approach. The problems in the past always had to do with giving a non-main issue too much priority and letting it take up all of the time.
 
-One thing does need to be mentioned is that the *Planning* part of the project, in which the whole of *New Computer Language Functional Design* project was replanned, went very well. But the making the *Black Box* article group spun out of control.
+One thing does need to be mentioned is that the *Planning* part of the project, in which the whole of *Encircle Language Spec* project was replanned, went very well. But the making the *Black Box* article group spun out of control.
 
 The current project will be discontinued. The remaining work will be turned into a new project. Right now it is important to get overview over what to do again and any proper planning to it. A new set of work items needs to be made, that are individually well to handle. 
 

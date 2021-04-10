@@ -36,7 +36,7 @@ This document describes a goal and the approach of the project *Wrap Up Black Bo
 
 ### Parent Project
 
-*New Computer Language Functional Design*
+*Encircle Language Spec*
 
 (Most objectives are explained inside the documentation of the parent project.)
 

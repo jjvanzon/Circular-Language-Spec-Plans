@@ -81,7 +81,7 @@ This was a point at which, it seemed a good plan to program some software. While
 You might want to see a concept running, in a conceptual implementation, to be able to see where the design fails. That is kind of a flaw in designing everything first. You might not be able work out everything in theory first. The design may be imperfect, until it is proven by a conceptual version.  Working out too much in theory can lead to results inefficiently, compared to working out the idea roughly, and then building a conceptual version.  
 Human beings may much more easily identify flaws in running system, than they can before anything has even been made.
 
-An experimental new version of the new computer language could be created at one point, that supports all the principles in its minimal form, just to see how it will look in action. The left-over problems may become apparent quickly then. And an experimental implementation may also *prove* the concepts. It probably gives you a clearer picture of the language, which may help to complete other topics.
+An experimental new version of Encircle could be created at one point, that supports all the principles in its minimal form, just to see how it will look in action. The left-over problems may become apparent quickly then. And an experimental implementation may also *prove* the concepts. It probably gives you a clearer picture of the language, which may help to complete other topics.
 
 But when the next conceptual implementation will be created is unclear. That would be the project *Program Base Code*.
 

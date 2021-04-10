@@ -17,13 +17,15 @@ __Contents__
 
 #### 2021-04-06 TODO Publishing Details
 
+- [x] Emoji in commit messages: https://github.com/yzhang-gh/vscode-markdown
 - [ ] Demo video?
     - [ ] Just clicking and scrolling through content.
     - [ ] On YouTube linking to GitHub.
     - [ ] On GitHub linked a YouTube movie.
 - [ ] Adjusting image size: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
 - [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
-- [ ] Emoji in commit messages: https://github.com/yzhang-gh/vscode-markdown
+- [ ] Renaming from "Encircle" to "Symbol"?
+    - [ ] Perhaps first search for "Symbol" and replace it to "original Symbol documentation from 2004" or something.
 
 ### Done
 

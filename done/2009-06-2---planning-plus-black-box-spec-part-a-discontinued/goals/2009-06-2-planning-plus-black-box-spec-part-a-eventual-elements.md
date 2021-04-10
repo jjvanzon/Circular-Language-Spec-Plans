@@ -10,7 +10,7 @@ This is the eventual plan. The plan changed during the project. The initial plan
 
 ### Products
 
-- Time Planning for New Computer Language Functional Design
+- Time Planning for Encircle Language Spec
 - Idea Box processed (over 60 pages of ideas)
 - Black Box article group
 - ~ Redone System Objects article group
@@ -19,7 +19,7 @@ This is the eventual plan. The plan changed during the project. The initial plan
 ### Project Steps
 
 - Setup project folders
-- Time planning for super-project New Computer Language Functional Design
+- Time planning for super-project Encircle Language Spec
 - Pick theme
 - Make goal description
     - \+ other startup issues

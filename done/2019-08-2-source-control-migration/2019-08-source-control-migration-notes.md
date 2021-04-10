@@ -81,7 +81,7 @@ Idea bout converting version folder to source control history:
 > I have doubt whether I should even do the conversion from version folders to source control history here.
 > Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.  
 >
-> The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of the new computer language. But... none of this documentation is well worded to support that concept...
+> The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of Encircle. But... none of this documentation is well worded to support that concept...
 
 #### 2019-08-11 Done Controls Concepts Version Folders to Source Control History
 

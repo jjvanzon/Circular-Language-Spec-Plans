@@ -15,8 +15,8 @@ Projects / Static,
 
 Commands and procedures have now become data, and are just as changeable as data, unless you put some access control on it.
 
-This has as an effect that each object of a class has its own copy of the commands and procedures. In other programming languages all the objects shared the commands and procedure code, so they did not need to have their own copy, because an object had its own data but not its own code. In the new computer language, code is data, so in the new computer language we would call the code, data that is shared by all objects of a class.
+This has as an effect that each object of a class has its own copy of the commands and procedures. In other programming languages all the objects shared the commands and procedure code, so they did not need to have their own copy, because an object had its own data but not its own code. In Encircle, code is data, so in Encircle we would call the code, data that is shared by all objects of a class.
 
-Such data sharing should be addressed in a the future in a separate project, because if you don’t, then data storage in the new computer language will be less efficient than in other systems.
+Such data sharing should be addressed in a the future in a separate project, because if you don’t, then data storage in Encircle will be less efficient than in other systems.
 
 JJ

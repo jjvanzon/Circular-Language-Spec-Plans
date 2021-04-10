@@ -37,7 +37,7 @@ This document is a checklist for software development-related work, for a good a
 Look over the existing material there is now.  
 Work out the idea as you go along.  
 Make concise documentation.  
-Consider the ‘writing efficiently’ rules in the project documentation of *New Computer Language Functional Design*.  
+Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.  
 
 Writing-efficiently issues you have to consider when making these articles:
 

@@ -42,7 +42,7 @@ The orange items are postponed and not counted up in the planning.
     - [ ] Querying & Collection Operations __(8 points)__
     - [ ] Politically Correct __(3 items)  (18 points)__
     -----
-    - [ ] Total new computer language: __16 items (97 points)__
+    - [ ] Total Encircle Language: __16 items (97 points)__
 
 - [ ] First: __(3 items)  (19 points)__
 

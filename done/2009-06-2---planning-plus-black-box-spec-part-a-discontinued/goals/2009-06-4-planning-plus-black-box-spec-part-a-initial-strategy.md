@@ -25,7 +25,7 @@ This is the initial plan. The plan changed during the project. You will find the
 
 ### Parent Project
 
-*New Computer Language Functional Design*
+*Encircle Language Spec*
 
 (Most objectives are explained inside the documentation of the parent project.)
 
@@ -35,7 +35,7 @@ Documentation / functional design
 
 ### Goal
 
-- Plan complete remains of *New Computer Language Functional Design*
+- Plan complete remains of *Encircle Language Spec*
 - Functionally work out the *Black Box* concept.
 
 ### Side-goals
@@ -53,7 +53,7 @@ This is the approach for working out the *Black Box* concept.
 Look over the existing material there is now.  
 Work out the idea as you go along.  
 Make concise documentation.  
-Consider the ‘writing efficiently’ rules in the project documentation of *New Computer Language Functional Design*.
+Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.
 
 ### Benefits
 
@@ -63,7 +63,7 @@ This is one of the easiest topics left. The benefits of working out an easy topi
 
 After this project it is probably best to work on Microsoft certification first.  
 The following 8 months are planned ahead, so it is clear what is next for the future.  
-See parent project *New Computer Language Functional Design*.
+See parent project *Encircle Language Spec*.
 
 ### Conditions
 
@@ -71,7 +71,7 @@ You have to orient yourself into the idea box and the existing documentation in 
 
 ### Time Planning
 
-A rough time planning of this 8 month period can be found in the project documentation of the super-project *New Computer Language Functional Design*.
+A rough time planning of this 8 month period can be found in the project documentation of the super-project *Encircle Language Spec*.
 
 This sub-project will have a small time-planning document.
 
