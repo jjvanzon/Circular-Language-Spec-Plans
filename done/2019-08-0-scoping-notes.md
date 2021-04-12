@@ -12,17 +12,17 @@ __Contents__
     - [2020-12-05 Done Scope (for Git Migration)](#2020-12-05-done-scope-for-git-migration)
     - [2019-08-05 Done Brainstorm Scope](#2019-08-05-done-brainstorm-scope)
     - [2020-05-14 Done Scoping | Split Up Encircle Docs](#2020-05-14-done-scoping--split-up-encircle-docs)
-    - [2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs](#2020-03-07-do-not-do-brainstorm-circle-3-programming-planning-docs)
-    - [2020-03-22 Do Not Do: Circle 3 Programming Planning Docs](#2020-03-22-do-not-do-circle-3-programming-planning-docs)
+    - [2020-03-07 Do Not Do: Brainstorm Experiment 3.0 Programming Planning Docs](#2020-03-07-do-not-do-brainstorm-experiment-30-programming-planning-docs)
+    - [2020-03-22 Do Not Do: Experiment 3.0 Programming Planning Docs](#2020-03-22-do-not-do-experiment-30-programming-planning-docs)
     - [2020-04-13 Done Brainstorm Scope](#2020-04-13-done-brainstorm-scope)
     - [2020-05-10 Done Scoping: Symbol Language and Software System Planning Docs](#2020-05-10-done-scoping-symbol-language-and-software-system-planning-docs)
     - [2020-04-01 Done Scoping Encircle Language Spec Planning Docs](#2020-04-01-done-scoping-encircle-language-spec-planning-docs)
     - [2020-04-01 Done Scoping Encircle Language Spec Planning Docs](#2020-04-01-done-scoping-encircle-language-spec-planning-docs-1)
     - [2020-03-22 Done Scoping, Project Names](#2020-03-22-done-scoping-project-names)
-    - [2020-03-16 Done Scoping Circle 3 Requirements Docs](#2020-03-16-done-scoping-circle-3-requirements-docs)
-    - [2020-03-08 Done Reading Circle 3 Requirements Docs](#2020-03-08-done-reading-circle-3-requirements-docs)
+    - [2020-03-16 Done Scoping Experiment 3.0 Requirements Docs](#2020-03-16-done-scoping-experiment-30-requirements-docs)
+    - [2020-03-08 Done Reading Experiment 3.0 Requirements Docs](#2020-03-08-done-reading-experiment-30-requirements-docs)
     - [2020-03-07 Done No Planning or Docs Back Then](#2020-03-07-done-no-planning-or-docs-back-then)
-    - [2020-02-23 Done Reading Circle 3 Strategy](#2020-02-23-done-reading-circle-3-strategy)
+    - [2020-02-23 Done Reading Experiment 3.0 Strategy](#2020-02-23-done-reading-experiment-30-strategy)
     - [2020-02-20 Done Scoping](#2020-02-20-done-scoping)
     - [2020-02-16 Done Notes](#2020-02-16-done-notes)
     - [2020-02-13 Done Scoping](#2020-02-13-done-scoping)
@@ -38,7 +38,7 @@ __Contents__
 ### Rough Plan
 
 - [x] Splitting "Software System" / "Encircle Language"
-- [x] Splitting "Encircle Docs" / "Circle 3 Programming" (splitting documentation goals from programming goals.)
+- [x] Splitting "Encircle Docs" / "Experiment 3.0 Programming" (splitting documentation goals from programming goals.)
     - [x] Ideas.doc too
 - [x] Splitting 'in scope' / 'out of scope' for Encircle Language topics.
 - [x] Splitting up 'phases in life' in planning docs.
@@ -155,22 +155,22 @@ __Contents__
     - [x] And then strip out content that does not apply.
     - [x] ~~To what degree is it useful to rephrase those directory indexes to reflect the contents better? > It might be better to not do that right now.~~
 
-#### 2020-03-07 Do Not Do: Brainstorm Circle 3 Programming Planning Docs
+#### 2020-03-07 Do Not Do: Brainstorm Experiment 3.0 Programming Planning Docs
 
-(Circle 3 projects are software development projects, unlike Encircle Docs projects, which are language design projects.)
+(Experiment 3.0 projects are software development projects, unlike Encircle Docs projects, which are language design projects.)
 
-It appears around 2010 I started off with programming Circle 3 with the intention of a more rigorous planning methodology and higher quality technical documentation. Around the same time I switched employers. The new employer did not value my doing planning or documentation, just coding. In projects at home it seems I adopted that way of working. So planning docs and tech docs were no concern anymore. I focused on coding. I think I also stopped keeping an hour sheet at home. That felt was freeing. It felt too much like work logging the hours I spent at hobby projects. But the real motivation for the shift in way of working, seems to be that I cannot have 2 methodologies at the same time: one at home and another one at the office. That seems intrinsic to how my mind handles things.
+It appears around 2010 I started off with programming experiment 3.0 with the intention of a more rigorous planning methodology and higher quality technical documentation. Around the same time I switched employers. The new employer did not value my doing planning or documentation, just coding. In projects at home it seems I adopted that way of working. So planning docs and tech docs were no concern anymore. I focused on coding. I think I also stopped keeping an hour sheet at home. That felt was freeing. It felt too much like work logging the hours I spent at hobby projects. But the real motivation for the shift in way of working, seems to be that I cannot have 2 methodologies at the same time: one at home and another one at the office. That seems intrinsic to how my mind handles things.
 
-So I have these near-perfect planning docs for Circle 3, while the execution of the projects was almost only coding, no planning, no documentation.
+So I have these near-perfect planning docs for experiment 3.0, while the execution of the projects was almost only coding, no planning, no documentation.
 
-I don't think I want to reformulate the goals of Circle 3 programming projects, to exclude software design. It is not about making those planning docs good.
+I don't think I want to reformulate the goals ofeExperiment 3.0 programming projects, to exclude software design. It is not about making those planning docs good.
 
-#### 2020-03-22 Do Not Do: Circle 3 Programming Planning Docs
+#### 2020-03-22 Do Not Do: Experiment 3.0 Programming Planning Docs
 
 - [x] I could change titles of projects inside the doc content too.
-    - [x] Also for Circle 3 Programming, though less importantly.
-- [x] Could I just go with it, call it 'Circle 3 Programming'? And if I want to mention in the planning docs that to documentation was of little concern, just do it with a more open formulation, like 'documentation was of little concern' or 'very little documentation turned out to be written in these projects. The focus turned out to be on programming the code.'?
-- [x] I could put a remark or something in the Circle 3 Programming docs that I did not do any documentation, even though it was the initial plan to do that.
+    - [x] Also for Experiment 3.0 Programming, though less importantly.
+- [x] Could I just go with it, call it 'Experiment 3.0 Programming'? And if I want to mention in the planning docs that to documentation was of little concern, just do it with a more open formulation, like 'documentation was of little concern' or 'very little documentation turned out to be written in these projects. The focus turned out to be on programming the code.'?
+- [x] I could put a remark or something in the Experiment 3.0 Programming docs that I did not do any documentation, even though it was the initial plan to do that.
 - [x] I was going over some sub-project docs to check if any documentation was written during those projects.
 - [x] Other sub-projects I scanned were not clearly any doc issues in them. 
 
@@ -261,9 +261,9 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 #### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
 
 - [x] Encircle Language Spec Products doc: Move postponed work from Done section to the Postponed section.
-- [x] The document "Circle 3 Excluded Requirements" has topics that might be interesting for the Encircle Language Spec project.
-    - [x] Was at: Round Up looking for things to add/move from Circle 3 Programming to Encircle Language Spec.
-- [x] Circle 3 Programming, Preliminary Designs:
+- [x] The document "Experiment 3.0 Excluded Requirements" has topics that might be interesting for the Encircle Language Spec project.
+    - [x] Was at: Round Up looking for things to add/move from Experiment 3.0 Programming to Encircle Language Spec.
+- [x] Experiment 3.0 Programming, Preliminary Designs:
     - [x] Yes, definitely quite some useful texts in that document, that belong in the Encircle Language Spec project.
     - [x] The texts seem to belong in the actual Encircle Language Spec docs, not its planning docs.
     - [x] In the past I made effort to dump even unfinished ideas right inside the docs.
@@ -273,60 +273,60 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Do I also move ideas from Sub-Projects there? Maybe those are too short to matter. And not really loose texts, but goals. Somewhere in the middle. So maybe I should copy/move some texts to the loose idea boxes of Encircle Language Spec.
     - [x] I'm staring at 'Aspects' now. But Aspects is out-of-scope. Would it matter? Any content about it might be moved into an appropriate spot in the documentation.
     - [x] Object Order: Some of it is in Data Aspects. But I fundamentally need it in the Encircle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding aspects and data aspects once. Now most coding aspects are just part of the programming language and most data aspects are not. Just the separation is not as precisely clear as that.
-- [x] Circle 3 Programming, Requirements:
+- [x] Experiment 3.0 Programming, Requirements:
     - [x] Has technical design requirements.
     - [x] I could look at them, take them out, compare them to the Encircle Docs requirements, to see if they are in there or have a place in there.
     - [x] Nah.
 - [x] Aspect construct:
-    - [x] I am missing writing the Aspects construct documentation from the planning docs. I only see it in the Circle 3 Programming, Excluded Requirements.
+    - [x] I am missing writing the Aspects construct documentation from the planning docs. I only see it in the Experiment 3.0 Programming, Excluded Requirements.
 - [x] Lower contents:
-    - [x] The idea of lower contents is described in planning docs not in Encircle Docs Planning, but in '1. Circle 3 Programming' planning.
-    - [x] You can also find some texts about it here: Circle 3, Lower Contents, TODO.doc
+    - [x] The idea of lower contents is described in planning docs not in Encircle Docs Planning, but in '1. Experiment 3.0 Programming' planning.
+    - [x] You can also find some texts about it here: Experiment 3.0, Lower Contents, TODO.doc
 
 #### 2020-03-22 Done Scoping, Project Names
 
 - [x] Inspecting the sub-projects just to find whether documentation was of any concern in those projects, might be too intense for me right now.
-- [x] The question I was trying to answer with that was: Is it accurate to call the super-project 'Circle 3 Programming'?
+- [x] The question I was trying to answer with that was: Is it accurate to call the super-project 'Experiment 3.0 Programming'?
 - [x] The reason for calling it that, is to make it clearer what the project entails, separating it better from the super-project with the name 'Encircle Docs', so that there is a clear distinction that one is about programming and the other is about documentation.
-- [x] But from the top of my head I kind of already know that the focus of those Circle 3 projects was programming, not documentation.
-- [x] I just want clarity on the distinction between projects Encircle Docs and Circle 3 Programming, but giving it a clearly distinctive name.
+- [x] But from the top of my head I kind of already know that the focus of those experiment 3.0 projects was programming, not documentation.
+- [x] I just want clarity on the distinction between projects Encircle Docs and Experiment 3.0 Programming, but giving it a clearly distinctive name.
 
-#### 2020-03-16 Done Scoping Circle 3 Requirements Docs
+#### 2020-03-16 Done Scoping Experiment 3.0 Requirements Docs
 
-- [x] I moved content from Circle 3 Requirements to Encircle Language Products List.
-- [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using the new language. But I am OK with it.)
+- [x] I moved content from Experiment 3.0 Requirements to Encircle Language Products List.
+- [x] I could rename it to experiment 3.0 programming, rather than experiment 3.0 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using the new language. But I am OK with it.)
 - [x] Maybe check sub-project docs later to verify that I didn't do any documentation.
 
 This is spreading my attention over too many different things. Is there a more practical approach?
 
 This is too intense. I have to stop again.
 
-#### 2020-03-08 Done Reading Circle 3 Requirements Docs
+#### 2020-03-08 Done Reading Experiment 3.0 Requirements Docs
 
 The requirement group 'Priority C: Classes' has 1 language design feature: < Diagram Notation Design > Static. So that is to be moved to the language design planning docs.
 
 'Priority E: Integration' contains brainstorming instead of a list of items.
 
-> (I notice I get inspired to like implementation projects for Circle 3. I feel the enthusiasm in it. I somehow stopped working on it, though. Also it is not my goal right now. The goal is publish Encircle language design eventually.)
+> (I notice I get inspired to like implementation projects for experiment 3.0. I feel the enthusiasm in it. I somehow stopped working on it, though. Also it is not my goal right now. The goal is publish Encircle language design eventually.)
 
 Some of the content in 'Priority E: Integration' could be part of language design, at least diagram metrics design and automatic containment. 
 
 'Priority F: Large Amounts of Items': Spiraling could be part of diagram metrics documentation. And object order.
 
-'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the Circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Encircle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming planning docs, because I wasn't going to do them anyway.
+'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the experiment 3.0 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of experiment 3.0, not how the language functionally works, but how experiment 3.0's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Encircle language spec project's requirements. Then I could consider removing documentation issues from the experiment 3.0 programming planning docs, because I wasn't going to do them anyway.
 
-I ran over all the content of Circle 3 Requirements and above are the conclusions of what to possibly do.
+I ran over all the content of Experiment 3.0 Requirements and above are the conclusions of what to possibly do.
 
 #### 2020-03-07 Done No Planning or Docs Back Then
 
-Circle 3 Strategy is pretty much done.
-Circle 3 Requirements: change coloring and formatting.
+Experiment 3.0 Strategy is pretty much done.
+Experiment 3.0 Requirements: change coloring and formatting.
 
 That does not take away I want to split topics in these planning docs between language design one one end and programming at the other.
 
-#### 2020-02-23 Done Reading Circle 3 Strategy
+#### 2020-02-23 Done Reading Experiment 3.0 Strategy
 
-An idea for today would be to read "Circle 3 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Encircle Docs.  
+An idea for today would be to read "Experiment 3.0 Strategy". That document is supposed to be about software development, not language design. At least, that is the new goal I have with that document. Some things in it are relevant for the Encircle Docs.  
 "Goal of the Language" is where it is part about the language design, not so much the software development. I might use/move this text to the Encircle Planning Docs.  
 Was at "More Tips" processing things.
 

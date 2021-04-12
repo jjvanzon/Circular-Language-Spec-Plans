@@ -71,16 +71,20 @@ __Contents__
     - [x] ~~"Engine experiment 2.0"~~
     - [x] ~~Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?~~
     - [ ] >> Or "experiment x.x"?
-    - [x] Searching for 0.4 in the Encircle-Language-Spec repo
-    - [x] Searching for 0.9 in the Encircle-Language-Spec repo
-    - [x] Searching for 2.0 in the Encircle-Language-Spec repo
-    - [x] Searching for 3 in Encircle-Language-Spec repo
-    - [x] Searching for 0.4 in the Encircle-Language-Spec-Plans repo
-    - [x] Searching for 0.9 in the Encircle-Language-Spec-Plans repo
-    - [x] Searching for 2.0 in the Encircle-Language-Spec-Plans repo
-    - [x] Searching for 3 in the Encircle-Language-Spec-Plans repo > replaced some occurrences
-    - [ ] ~ Renaming 2.0 to 2? > May make less searchable.
-    - [ ] ~ Renaming 3 to 3.0?
+    - [x] In the Encircle-Language-Spec repo:
+        - [x] Searching for 0.4 
+        - [x] Searching for 0.9
+        - [x] Searching for 2.0
+        - [x] Searching for 3
+    - [x] In the Encircle-Language-Spec-Plans repo:
+        - [x] Searching for 0.4
+        - [x] Searching for 0.9
+        - [x] Searching for 2.0
+        - [x] Searching for 3 > replaced some occurrences
+    - [ ] ~~Renaming 2.0 to 2.~~ > May make less searchable.
+    - [ ] __🏷 Renaming experiment 3 to experiment 3.0__
+        - [x] In the Encircle-Language-Spec repo.
+        - [x] In the Encircle-Language-Spec-Plans repo.
 - [x] Repeating some of root README in spec README
 - [ ] Searching for "will"
     - [ ] (Might not easily milden the tone of everything. But I seem to keep tripping over the word "will". It might be replaced with "might" to become closer to the truth quite easily.)
@@ -836,7 +840,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 
 #### 2020-03-22 Done Organize Planning Docs
 
-- [x] I moved around folders, for a preliminary split up between Encircle Docs and Experiment 3 Programming projects.
+- [x] I moved around folders, for a preliminary split up between Encircle Docs and Circle 3.0 Programming projects.
 - [x] I could change titles of projects inside the doc content too.
     - [x] I am unsure whether I want to call the projects 'Encircle Docs'. Maybe 'Encircle Language Specification'.
     - [x] I do want to go for the name 'Encircle' as opposed to 'New Computer Language'.
