@@ -8,11 +8,13 @@ __Contents__
 
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
-    - [2021-04-10 TODO Content Reorganization](#2021-04-10-todo-content-reorganization)
+    - [2021-04-12 TODO Content Reorganization](#2021-04-12-todo-content-reorganization)
+    - [2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form](#2021-04-11-brainstorm-design-time--run-time-reformulations--the-i-form)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-10 Done Content Reorganization](#2021-04-10-done-content-reorganization)
     - [2021-04-07 Done Content Reorganization](#2021-04-07-done-content-reorganization)
     - [2021-04-07 Done Replacing "Concept" with "Aspect"](#2021-04-07-done-replacing-concept-with-aspect)
     - [2021-04-05 Done Pretty URL's for Planning Docs](#2021-04-05-done-pretty-urls-for-planning-docs)
@@ -59,28 +61,9 @@ __Contents__
 
 ### TODO
 
-#### 2021-04-10 TODO Content Reorganization
+#### 2021-04-12 TODO Content Reorganization
 
-- [x] Replacing "new computer language" with "Encircle".
-    - [x] In Encircle-Language-Spec
-    - [x] In Encircle-Language-Spec-Plans
-- [x] Experiments 0.4 / 0.9 / 2.0 / 3
-    - [x] Different names for these versions / implementations?
-    - [x] ~~"experimental version x.x of a new computer language"?~~
-    - [x] ~~"Code generator experiment 0.4 / 0.9"~~
-    - [x] ~~"Engine experiment 2.0"~~
-    - [x] ~~Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?~~
-    - [x] >> Or "experiment x.x"?
-    - [x] In the Encircle-Language-Spec repo:
-    - [x] In the Encircle-Language-Spec-Plans repo:
-    - [x] Searching for 0.4
-    - [x] Searching for 0.9
-    - [x] Searching for 2.0
-    - [x] Searching for 3
-    - [x] ~~Renaming 2.0 to 2.~~ > May make less searchable.
-    - [x] 🏷 Renaming experiment 3 to experiment 3.0
-- [x] Repeating some of root README in spec README
-- [x] 🐇 Replacing "will" with "might".
+- [x] 🍦 Replacing "must" with "might" or "may".
 - [ ] __Moving around texts__
     - [ ] `<< detailed work >>`
         - [ ] Might do the *Spec* first.
@@ -118,6 +101,29 @@ A diversion to an Errors article may be appropriate.
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-10 Done Content Reorganization
+
+- [x] Replacing "new computer language" with "Encircle".
+    - [x] In Encircle-Language-Spec
+    - [x] In Encircle-Language-Spec-Plans
+- [x] Experiments 0.4 / 0.9 / 2.0 / 3
+    - [x] Different names for these versions / implementations?
+    - [x] ~~"experimental version x.x of a new computer language"?~~
+    - [x] ~~"Code generator experiment 0.4 / 0.9"~~
+    - [x] ~~"Engine experiment 2.0"~~
+    - [x] ~~Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?~~
+    - [x] >> Or "experiment x.x"?
+    - [x] In the Encircle-Language-Spec repo:
+    - [x] In the Encircle-Language-Spec-Plans repo:
+    - [x] Searching for 0.4
+    - [x] Searching for 0.9
+    - [x] Searching for 2.0
+    - [x] Searching for 3
+    - [x] ~~Renaming 2.0 to 2.~~ > May make less searchable.
+    - [x] 🏷 Renaming experiment 3 to experiment 3.0
+- [x] Repeating some of root README in spec README
+- [x] 🐇 Replacing "will" with "might".
 
 #### 2021-04-07 Done Content Reorganization
 
@@ -699,7 +705,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Is now in more than 1 place.
     - [x] "1. Diagram Expression" folder:
         - [x] Describes Basic Diagram Elements.
-        - [x] The argument, that the diagram elements must be quickly introduced at the beginning, I am not sure about that anymore. So not sure if this actually must be at the beginning of the documentation anymore.
+        - [x] The argument, that the diagram elements might be quickly introduced at the beginning, I am not sure about that anymore. So not sure if this actually should be at the beginning of the documentation anymore.
     - [x] "6. Expression\1. Diagrams"
         - [x] Seems less finished up. I am not sure I would want to put that at the top of the documentation or at least not in this state.
     - [x] "7. Other Topics\9. Old or Boring\About Programming In General.doc"

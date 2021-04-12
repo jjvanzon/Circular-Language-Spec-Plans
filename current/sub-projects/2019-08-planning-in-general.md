@@ -24,7 +24,7 @@ __Contents__
 - [x] ~~Maybe there are few main problems I would like to highlight.~~
 - [x] ~~Somehow I tend to want to just start at the top and start reformulating.~~
 - [x] I guess I am not sure where to start.
-- [x] And I am also still a little surprised that I am at this stage. I feel I must have forgotten something that must be left to do, before I can do this.
+- [x] And I am also still a little surprised that I am at this stage. I feel I may have forgotten something that may be left to do, before I can do this.
 - [x] ~~I think maybe heavy redesign is off the table for now, because I estimate that would be too intense for now.~~
 - [x] I also have in mind marking work as postponed for 'Encircle Broader View' and 'Encircle Construct Drafts', cleaning up the brainstorms that covert those + Encircle Language Spec. That way I might create overview over the TODO notes.
 - [x] The feeling I forgot something, feels like it could be in the texts below, but the texts below seem to be too rough and unstructured to give me that insight and overview. If it were more structured and overviewable, and done stuff marked as done, postponed stuff marked as such and split into coherent chunks. I think I would like that.
