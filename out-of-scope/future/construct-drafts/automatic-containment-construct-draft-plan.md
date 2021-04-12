@@ -40,7 +40,7 @@ Some of the possible solutions:
 
 ### Lower Contents Brainstorm
 
-*This brainstorm was written in the context of efforts to program a prototype app 'Circle 3'. It might not be very readable.*
+*This brainstorm was written in the context of efforts to program experiment 3'. It might not be very readable.*
 
 If something is declared on a higher level than it should then it is one real reference there pointing  at an imaginary one at the same level with the contents in it, to which points one other imaginary  reference on a deeper level.  
 And in that case the contents should be moved from the imaginary reference on the higher level, to  the imaginary reference on the lower level, and the imaginary reference on the lower level should  point to the real reference on the higher level.  
@@ -51,9 +51,9 @@ To get this right you have to make the process visually debuggable. And while yo
 
 ### Fixed Logical Residence Brainstorm
 
-*This brainstorm was written in the context of efforts to program a prototype app 'Circle 3'. It might not be very readable.*
+*This brainstorm was written in the context of efforts to program experiment 3'. It might not be very readable.*
 
-Fixed logical residence was supposed to be not thought through enough to be able to make the first version of Circle 3.
+Fixed logical residence was supposed to be not thought through enough to be able to make the first version of experiment 3.
 
 <  
 Binding an object to a specific object reference gives an object a fixed logical residence.

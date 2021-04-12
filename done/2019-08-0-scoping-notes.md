@@ -294,7 +294,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 #### 2020-03-16 Done Scoping Circle 3 Requirements Docs
 
 - [x] I moved content from Circle 3 Requirements to Encircle Language Products List.
-- [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using Encircle. But I am OK with it.)
+- [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using the new language. But I am OK with it.)
 - [x] Maybe check sub-project docs later to verify that I didn't do any documentation.
 
 This is spreading my attention over too many different things. Is there a more practical approach?
@@ -313,7 +313,7 @@ Some of the content in 'Priority E: Integration' could be part of language desig
 
 'Priority F: Large Amounts of Items': Spiraling could be part of diagram metrics documentation. And object order.
 
-'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Encircle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming planning docs, because I wasn't going to do them anyway.
+'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the Circle 3 programming project, because 'technical design' I did not consider language design, because I would have called language design 'functional design'. 'Technical design' according to my views back then, would have be document how I implemented things in the programming of Circle 3, not how the language functionally works, but how Circle 3's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Encircle language spec project's requirements. Then I could consider removing documentation issues from the Circle 3 programming planning docs, because I wasn't going to do them anyway.
 
 I ran over all the content of Circle 3 Requirements and above are the conclusions of what to possibly do.
 

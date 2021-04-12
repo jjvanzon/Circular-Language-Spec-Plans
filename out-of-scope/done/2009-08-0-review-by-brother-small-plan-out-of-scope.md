@@ -44,8 +44,8 @@ Presentation:
 
 - Software: __(9)__
     - \> All the files are read-only and that is going to be a problem for some of the software.
-    - Creator 2.0 software
-        - \> “Het ging bij Creator 2.0 niet om de perfectie. Het ging erom het zo makkelijk mogelijk werkend te krijgen.”
+    - Experiment 2.0 software
+        - \> “Het ging bij experiment 2.0 niet om de perfectie. Het ging erom het zo makkelijk mogelijk werkend te krijgen.”
         -----
         - Sound 2.0
         - Math Objects XXXX-XX-XX XX
@@ -54,7 +54,7 @@ Presentation:
             - How it is reprogrammed within itself
             - Do not expect it to be easy
 
-    - Creator 0.9 software
+    - Experiment 0.9 software
         - Sound 0.9
         - Graphics Objects 0.9
         - Math Objects 0.9

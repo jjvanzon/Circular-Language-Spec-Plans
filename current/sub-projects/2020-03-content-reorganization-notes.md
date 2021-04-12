@@ -61,31 +61,40 @@ __Contents__
 
 #### 2021-04-10 TODO Content Reorganization
 
-- [ ] .. Replacing "new computer language" with "Encircle".
+- [x] .. Replacing "new computer language" with "Encircle".
     - [x] In Encircle-Language-Spec
-    - [ ] In Encircle-Language-Spec-Plans
-        - [x] Searching "new language" rendered more results
-        - [x] Searching for "Computer Language" rendered more results
-        - [x] Searching for "a Encircle".
-- [ ] Experiments 0.4 / 0.9 / 2.0 / 3
+    - [x] In Encircle-Language-Spec-Plans
+- [ ] __Experiments 0.4 / 0.9 / 2.0 / 3__
     - [ ] Different names for these versions / implementations?
-    - [ ] "experimental version x.x of a new computer language"?
-    - [ ] "Code generator experiment 0.4 / 0.9"
-    - [ ] "Engine experiment 2.0"
-    - [ ] Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?
+    - [x] ~~"experimental version x.x of a new computer language"?~~
+    - [x] ~~"Code generator experiment 0.4 / 0.9"~~
+    - [x] ~~"Engine experiment 2.0"~~
+    - [x] ~~Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?~~
     - [ ] >> Or "experiment x.x"?
+    - [x] Searching for 0.4 in the Encircle-Language-Spec repo
+    - [x] Searching for 0.9 in the Encircle-Language-Spec repo
+    - [x] Searching for 2.0 in the Encircle-Language-Spec repo
+    - [x] Searching for 3 in Encircle-Language-Spec repo
+    - [x] Searching for 0.4 in the Encircle-Language-Spec-Plans repo
+    - [x] Searching for 0.9 in the Encircle-Language-Spec-Plans repo
+    - [x] Searching for 2.0 in the Encircle-Language-Spec-Plans repo
+    - [x] Searching for 3 in the Encircle-Language-Spec-Plans repo > replaced some occurrences
+    - [ ] ~ Renaming 2.0 to 2? > May make less searchable.
+    - [ ] ~ Renaming 3 to 3.0?
 - [x] Repeating some of root README in spec README
+- [ ] Searching for "will"
+    - [ ] (Might not easily milden the tone of everything. But I seem to keep tripping over the word "will". It might be replaced with "might" to become closer to the truth quite easily.)
 - [ ] __Moving around texts__
     - [ ] `<< detailed work >>`
-        - [ ] ->.. Broader View: WAS AT: "Diagram & Text Code Expression"
         - [ ] Might do the *Spec* first.
         - [ ] Moves to "Implementations".
             - [ ] Perhaps searching for 0.4 or 0.9 or 2.0 might help.
-
         - [ ] Moves to "Pointers".
         - [ ] Moves to "Text Code".
         - [ ] Loose ideas: regroup or clear out
         - [ ] I seem to have difficulty not changing the tone of texts too.
+        - [ ] Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
+
 
 #### 2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form
 
@@ -827,7 +836,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 
 #### 2020-03-22 Done Organize Planning Docs
 
-- [x] I moved around folders, for a preliminary split up between Encircle Docs and Circle 3 Programming projects.
+- [x] I moved around folders, for a preliminary split up between Encircle Docs and Experiment 3 Programming projects.
 - [x] I could change titles of projects inside the doc content too.
     - [x] I am unsure whether I want to call the projects 'Encircle Docs'. Maybe 'Encircle Language Specification'.
     - [x] I do want to go for the name 'Encircle' as opposed to 'New Computer Language'.
@@ -839,7 +848,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Encircle Language Design Planning
     - [x] Encircle Language Specification
     - [x] 'Specification': suggests finishedness, but does it? CSS is all sorts unfinished modules.
-    - [x] Leaving out 'Specification' or 'Design': Makes distinction with Circle 3 Programming hard to see.
+    - [x] Leaving out 'Specification' or 'Design': Makes distinction with Experiment 3 Programming hard to see.
     - [x] The word 'Encircle' should be in it.
     - [x] The word 'Language' at least sheds light a bit on what it actually is.
     - [x] But Encircle Language Specification Plan is just a long name.

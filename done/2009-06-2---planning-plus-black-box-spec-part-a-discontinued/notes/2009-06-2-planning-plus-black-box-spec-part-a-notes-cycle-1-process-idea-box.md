@@ -23,7 +23,7 @@ This document is a checklist for software development-related work, for a good a
 - [x] Categorize ideas
 - [x] Additional categorization
     - [x] Some categories are sort of vague
-        - [x] Creator 0.9
+        - [x] Experiment 0.9
         - [x] Exclusion: Inheritance / Black Box / Access Control
         - [x] Uncategorized
         - [x] Working Methods / Templates etc.

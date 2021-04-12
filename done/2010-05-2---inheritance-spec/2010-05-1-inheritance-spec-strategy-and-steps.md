@@ -97,7 +97,7 @@ First it was thought that object resolution might also be finished up in this pr
     - [x] Cross out
         - [x] Ideas document in chapter
         - [x] Ideas in this project documentation
-    - [x] Consider Creator 0.9 concepts
+    - [x] Consider concepts from experiment 0.9
         - [x] \> They mostly have to do with generic user interfaces. I will not cover that here.
     - [x] ~ Read over
         - [x] ~ Only did half of that because I want to move on.
