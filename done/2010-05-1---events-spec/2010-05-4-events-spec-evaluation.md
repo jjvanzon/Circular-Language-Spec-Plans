@@ -25,9 +25,9 @@ Try to have the same strategy in the next project, if it works there, but be ope
 
 ### Future
 
-What will happen now is that I will make a new parent project description, basically replanning all my software development activities for the time to come.
+What might happen now is that I might make a new parent project description, basically replanning all my software development activities for the time to come.
 
-These activities will include updating document templates, studying and doing *Encircle Language Spec* projects.
+These activities might include updating document templates, studying and doing *Encircle Language Spec* projects.
 
 ### Eventual Time Cost
 

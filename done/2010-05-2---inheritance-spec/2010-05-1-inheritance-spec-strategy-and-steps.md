@@ -21,7 +21,7 @@ This document is not meant as reading material. It is a list of steps undertaken
 - Also consider saving the hardest topics for later.
 - The inheritance documentation does something with object resolution topics.
 First it was thought that object resolution might also be finished up in this project, but this idea was let go of.
-- The next project will be about working towards an implementation phase as soon as possible.
+- The next project might be about working towards an implementation phase as soon as possible.
 
 ### Steps
 
@@ -75,7 +75,7 @@ First it was thought that object resolution might also be finished up in this pr
         - [x] ~ Deeper Additional Members in an Object - List - Object – Object situation
     - [x] Change System Inheritance:
         > It used to be normal object and class inheritance, but now it is changed so that you can specialize any deeper object, so that you can specialize as deep into the hierarchy as you want.
-    - [x] Something to consider though, is that when a much deeper object is specialized, all the levels that lead to the deeper object will also get a specialized version.
+    - [x] Something to consider though, is that when a much deeper object is specialized, all the levels that lead to the deeper object might also get a specialized version.
         - [x] \> Add deeper member addition example with a triangle in each layer in it
             - [x] In Misc Deeper Specialization Situations
                 - [x] \> Removed this article degrading it to an idea
@@ -98,7 +98,7 @@ First it was thought that object resolution might also be finished up in this pr
         - [x] Ideas document in chapter
         - [x] Ideas in this project documentation
     - [x] Consider concepts from experiment 0.9
-        - [x] \> They mostly have to do with generic user interfaces. I will not cover that here.
+        - [x] \> They mostly have to do with generic user interfaces. I might not cover that here.
     - [x] ~ Read over
         - [x] ~ Only did half of that because I want to move on.
     - [x] And finish up project

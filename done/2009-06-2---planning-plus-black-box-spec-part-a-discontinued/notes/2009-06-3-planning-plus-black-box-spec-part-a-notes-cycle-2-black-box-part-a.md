@@ -84,7 +84,7 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
     because now you need to just dig into it and focus on the creative process...  
     the form in which to work comes later.
     -----
-    - I am almost sure, that during this project I will hit a wall a couple of times and have to do it completely differently.
+    - I am almost sure, that during this project I might hit a wall a couple of times and have to do it completely differently.
 
 - [x] Get concept clear in your head
 
@@ -94,7 +94,7 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
         - [x] \> You should not even read over the ideas anymore.
         - [x] \> Use the ideas as a cross out list.
         - [x] \> Do use the *categorization* of ideas, though.
-        - [x] \> Unimportant issues are skipped. \> Will be figured out later.
+        - [x] \> Unimportant issues are skipped. \> Might be figured out later.
     - [x] Figure out loose ends:
         - [x] Comparison to traditional:
             - [x] Friend commands in object
@@ -108,7 +108,7 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
 - [x] ~ Write Black Box articles
 
     - [x] Make article subdivision
-        - [x] \> Idea subdivision will *be* the article subdivision
+        - [x] \> Idea subdivision might *be* the article subdivision
     - [x] ~ Finish up those texts
         - [x] \> Work on them and work on them until it gets clearer and clearer till it is done.
     - [x] Scan pictures and put them inside the documentation  
@@ -140,4 +140,4 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
             - [x] Move remarks in overviews to below the overviews.
     - [x] Wait with Misc Issues and Side-Issues
         - [x] \> Those are completely left out of the plan here.
-    - [x] ~ Left-over ideas will be processed later like a cross-out list later.
+    - [x] ~ Left-over ideas might be processed later like a cross-out list later.

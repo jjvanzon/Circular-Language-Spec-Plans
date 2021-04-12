@@ -155,7 +155,7 @@ The system object in a way represents an object. So usually you would see a syst
     - 2008-07-21 06
         - \> Notation of all extensible parts shown in the system interface of a related list.
 - Decided to not draw out parameter passing
-    - \> This part of the documentation might not yet describe how to pass parameters, so you might not want to draw out parameter passing yet. Maybe mention that in the documentation, that parameter passing is not drawn out, because parameter passing will only be introduced later.
+    - \> This part of the documentation might not yet describe how to pass parameters, so you might not want to draw out parameter passing yet. Maybe mention that in the documentation, that parameter passing is not drawn out, because parameter passing might only be introduced later.
 - This might just cover the notation, maybe not the way the system objects are tied together internally.
 - Related List Item extension procedures altered the following articles:
     - Related Lists

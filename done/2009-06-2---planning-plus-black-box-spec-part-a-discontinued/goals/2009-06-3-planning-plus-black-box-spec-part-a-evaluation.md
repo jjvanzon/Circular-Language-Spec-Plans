@@ -36,7 +36,7 @@ I recognize in this, the errors I have made in the past, years and years ago, wh
 
 One thing does need to be mentioned is that the *Planning* part of the project, in which the whole of *Encircle Language Spec* project was replanned, went very well. But the making the *Black Box* article group spun out of control.
 
-The current project will be discontinued. The remaining work will be turned into a new project. Right now it is important to get overview over what to do again and any proper planning to it. A new set of work items needs to be made, that are individually well to handle. 
+The current project might be discontinued. The remaining work might be turned into a new project. Right now it is important to get overview over what to do again and any proper planning to it. A new set of work items needs to be made, that are individually well to handle. 
 
 To kick off reprioritising: the System Objects cross-outs was what I was last working on, but that might just have to be given lower priority.
 
@@ -45,7 +45,7 @@ To kick off reprioritising: the System Objects cross-outs was what I was last wo
 I was getting an overall feeling of messiness in the time planning and step-by-step planning.  
 It did not feel good to work at it anymore. I had lost touch with proportions of work and felt I had lost control over the amount of work. I did not know what laid ahead anymore and how much work it was still going to be. The good in-control feeling you get from finishing up one phase after another was completely gone.
 
-It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That will give you a feeling of getting stuck...
+It is no wonder that I got this feeling. It was supposed to be a 10 day project and 2 ½ months had passed since project initiation. That might give you a feeling of getting stuck...
 
 ### Reflection On Functionality
 

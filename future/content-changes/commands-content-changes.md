@@ -118,7 +118,7 @@ __Contents__
 
 #### 2020-07-24 Done Reformulating Commands Chapter
 
-I say Commands *chapter*, but previously I seemed to have started one detail level deeper: article-level rather than chapter-level. I wonder whether I will do that again. For that I might look at the articles and how large they are, a bit of the concrete content.
+I say Commands *chapter*, but previously I seemed to have started one detail level deeper: article-level rather than chapter-level. I wonder whether I might do that again. For that I might look at the articles and how large they are, a bit of the concrete content.
 
 Steps:
 

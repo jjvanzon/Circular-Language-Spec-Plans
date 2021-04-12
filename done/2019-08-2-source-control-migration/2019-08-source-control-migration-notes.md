@@ -55,9 +55,9 @@ The version folders I have left to convert to source control history are complex
 
 It was not expected that there would be such complexity in preserving rename history, but noticing that there is, makes me re-evaluate my plans.
 
-To get overview of the amount of version folders still to cover: The version folders are visible on the 'root' level per chapter. The amount of version control on *sub-*topics is limited to just one (24. Creation Behavior Of Calls). Its about the *main* topics: Commands, Parameters, Module, Execution Control, Black Boxing, Interfaces, Events and    Inheritance. One of those topics has intensely many version folders (Black Boxing). About 3 topics have a 'normal' amount of version folders. The others have a quite small amount of version folders. If you ignore trying to preserve rename history, then you might be done today. If you try to preserve rename history, it will take you probably many days, like 4 or something. And I think the motivation will recede if I do that.
+To get overview of the amount of version folders still to cover: The version folders are visible on the 'root' level per chapter. The amount of version control on *sub-*topics is limited to just one (24. Creation Behavior Of Calls). Its about the *main* topics: Commands, Parameters, Module, Execution Control, Black Boxing, Interfaces, Events and    Inheritance. One of those topics has intensely many version folders (Black Boxing). About 3 topics have a 'normal' amount of version folders. The others have a quite small amount of version folders. If you ignore trying to preserve rename history, then you might be done today. If you try to preserve rename history, it might take you probably many days, like 4 or something. And I think the motivation might recede if I do that.
 
-So I have already made my choice. I will not make effort to preserve rename history. I will just methodically convert the version folders to source control commits.
+So I have already made my choice. I might not make effort to preserve rename history. I might just methodically convert the version folders to source control commits.
 
 #### 2019-08-11 Done Basic Math Version Folder to Source Control History?
 

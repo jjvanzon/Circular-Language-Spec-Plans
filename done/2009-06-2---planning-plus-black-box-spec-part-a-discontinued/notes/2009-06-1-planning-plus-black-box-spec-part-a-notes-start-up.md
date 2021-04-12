@@ -26,8 +26,8 @@ This document is a checklist for software development-related work, for a good a
 
 ### Orientation Plan
 
-- [x] ~~Estimate how long you will be working on the orientation phase.~~
-- [x] ~~Possibly communicate how long you will be working on the orientation phase.~~
+- [x] ~~Estimate how long you might be working on the orientation phase.~~
+- [x] ~~Possibly communicate how long you might be working on the orientation phase.~~
 - [x] ~~Do request reflection~~
 - [x] Determine goal 
     - [x] { in document Software Development Goal Description }

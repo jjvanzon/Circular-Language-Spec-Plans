@@ -15,9 +15,9 @@ Fully understand automatic containment again and fully document the idea.
 
 The super project is *Get clearer view*. In that project I was supposed to work out the ideas, that totally mess up the original way of thinking. At the beginning of the project I found out I did not understand automatic containment anymore. I decided to turn working out automatic containment into a separate project, and save the other subjects for later.
 
-I will review old material, and brainstorm until I understand it again, document it fully, including the exact procedure of deriving containment structure out of referential structure.
+I might review old material, and brainstorm until I understand it again, document it fully, including the exact procedure of deriving containment structure out of referential structure.
 
-Automatic Containment will be worked out in the following document:
+Automatic Containment might be worked out in the following document:
 
 - Automatic Containment
 

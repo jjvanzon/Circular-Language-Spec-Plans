@@ -21,7 +21,7 @@ __Contents__
 
 ### Remark
 
-This is the initial plan. The plan changed during the project. You will find the changed plan in a different document. But the initial plan still matters for overview of the project.
+This is the initial plan. The plan changed during the project. You might find the changed plan in a different document. But the initial plan still matters for overview of the project.
 
 ### Parent Project
 
@@ -57,7 +57,7 @@ Consider the ‘writing efficiently’ rules in the project documentation of *En
 
 ### Benefits
 
-This is one of the easiest topics left. The benefits of working out an easy topic is that the easy topics are most overdue, fastest to make, and because they are clear in your head they will also be clearer on paper, so it will produce better quality of documentation.
+This is one of the easiest topics left. The benefits of working out an easy topic is that the easy topics are most overdue, fastest to make, and because they are clear in your head they might also be clearer on paper, so it might produce better quality of documentation.
 
 ### Future
 
@@ -73,10 +73,10 @@ You have to orient yourself into the idea box and the existing documentation in 
 
 A rough time planning of this 8 month period can be found in the project documentation of the super-project *Encircle Language Spec*.
 
-This sub-project will have a small time-planning document.
+This sub-project might have a small time-planning document.
 
 It is estimated, that this project may take only __1 week__ or __10 days__ tops.
 
 ### Particular Difficulty
 
-A difficult part of this project is working your way through a lot of existing ideas: the idea box is 60 pages, and the ideas in the unfinished Black Box documentation are 29 pages of loose ideas yet to be turned into good documentation. Most of that is out of the original Symbol documentation (the unfinished design of a diagram notation for program code from the year 2004). But it will probably serve only as a cross-out list. So they do not have to be carefully considered in advance.
+A difficult part of this project is working your way through a lot of existing ideas: the idea box is 60 pages, and the ideas in the unfinished Black Box documentation are 29 pages of loose ideas yet to be turned into good documentation. Most of that is out of the original Symbol documentation (the unfinished design of a diagram notation for program code from the year 2004). But it might probably serve only as a cross-out list. So they do not have to be carefully considered in advance.

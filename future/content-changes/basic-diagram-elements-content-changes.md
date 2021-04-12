@@ -20,7 +20,7 @@ __Contents__
 - [ ] ~ Some things might be implementation details, movable to the Encircle Construct Draft part?
 - [ ] ~ Certain rules might change and simplify, but that might not be for now.
 - [ ] ~ Outtakes:
-    - [ ] ~ Lines do have a direction, going from one symbol to the next, which will be explained later.
+    - [ ] ~ Lines do have a direction, going from one symbol to the next, which might be explained later.
     - [ ] ~ The access marks are sort of embedded into the language as it is right now. But these are all just a collection ideas, all just suggestions. A changed approach might not make things fall apart.
     - [ ] ~ A line never gets a name. They are always called, for instance: ‘the object line of symbol B’.
     - [ ] ~ Any object symbol might symbolize an object, a class or an interface. 

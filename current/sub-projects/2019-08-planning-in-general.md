@@ -33,7 +33,7 @@ __Contents__
 #### 2019-08-05 Done Writing Style Mixed Issues
 
 - [x] ~~The work might be modularized. I am not attracted to how CSS3 is modularized, each piece of specs with a different state of being finished up. It seems messy. But I can employ the same organization to accept certain concepts are just more crystalized out than others, making it easier to share, even in an unfinished state, and stimulating keeping things separated and separately usable even when other parts are just really still messy. > Scoped things more sharply instead, so more is finished up better percentually.~~
-- [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends will make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually does the trick. Might tell people clearly not to expect too much from the text that follows. Just being clear about that might be enough.~~
+- [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends might make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually does the trick. Might tell people clearly not to expect too much from the text that follows. Just being clear about that might be enough.~~
 
 #### 2020-05-24 Done Notes Planning
 
@@ -65,7 +65,7 @@ So with that new perspective on the work, I was done and satisfied with the last
 - [x] I think scoping is a better choice for now.
 - [x] I want to go over the Encircle Language Spec Plan documents, moving things out of scope off the top of my head.
 - [x] Side-goal: I read nicer docs, giving my head a bit of a break.
-- [x] I think I will mark things with red before actually moving content out.
+- [x] I think I might mark things with red before actually moving content out.
 - [x] Still lots of definites in the wording of the main planning docs.
 - [x] I do like too see it reworded it to nothing being a strict rule anymore and you can always make up your own mind. It seems this does not harm the integrity of the idea.
 
@@ -73,5 +73,5 @@ So with that new perspective on the work, I was done and satisfied with the last
 
 I read over notes to know where I was, and mark some things of as 'done'.
 
-This was too intense. I wonder if starting to change documentation will be too intense too or if I should stop now. Or if other activities or non-activities will be even more intense. I choose to stop for a while now. After a little over 20 minutes.
+This was too intense. I wonder if starting to change documentation might be too intense too or if I should stop now. Or if other activities or non-activities might be even more intense. I choose to stop for a while now. After a little over 20 minutes.
 

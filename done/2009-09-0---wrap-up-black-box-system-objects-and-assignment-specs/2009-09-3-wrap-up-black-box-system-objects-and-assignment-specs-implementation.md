@@ -30,6 +30,6 @@ But eventually the changes were made while reading it over. That seemed faster t
     - [x] Black Box documentation
         - [x] Read over
         - [x] Split up into parts
-        - [x] The unfinished side-issues and all will get an introduction about how unfinished they are.
+        - [x] The unfinished side-issues and all might get an introduction about how unfinished they are.
         - [x] Also sort out the existing articles, that came from other article groups.
     - [x] Parameter articles

@@ -29,7 +29,7 @@ First I chose the project *aspects as external modules*. It was much different m
 Automatic execution order may be the last unclarified topic, that might have a big influence on the Encircle and diagram expression. Automatic containment also needs adaptations, which frustrates me as well. It’s just the highest priority right now in the *Get Clearer View* super-project.
 
 Aspects as External Modules has to wait.  
-Automatic Object Formation will not influence the diagram notation much.
+Automatic Object Formation might not influence the diagram notation much.
 
 The goal of the project is to get a clear view on automatic execution order.
 
@@ -46,7 +46,7 @@ There were plans to write or adapt other articles as well:
 - Internet as a single computer.
 
 But after a brainstorm about automatic execution order, the goal of the super project *Get Clearer View* was already reached.  
-Automatic execution will have some influence on the diagram, but not a lot.
+Automatic execution might have some influence on the diagram, but not a lot.
 
 ### Date & Time
 

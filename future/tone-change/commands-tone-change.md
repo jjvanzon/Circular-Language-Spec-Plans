@@ -15,7 +15,7 @@ __Contents__
 
 - [x] Fine-tune styling.
 - [ ] ~ Evaluating if texts are in scope, possibly moving them.
-    - [ ] ~ But most sections seem appropriate and in-scope to me, except maybe the bottom edge-cases, but I think I will get to that in time eventually.
+    - [ ] ~ But most sections seem appropriate and in-scope to me, except maybe the bottom edge-cases, but I think I might get to that in time eventually.
     - [ ] ~ Commands Anywhere has a Broader View feel to it according to my opinion.
     - [ ] ~ Terms "In" and "Out" might be avoided.
         - [ ] ~ I seemed to be juggling the concepts Get and Set on one hand and In and Out on the other, before realizing they might not be synonymous.

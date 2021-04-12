@@ -29,7 +29,7 @@ Document the coding principles and basic coding aspects and their diagram notati
 I am going for a spree of writing about issues I already know.  
 Do the articles that you can easily write, and skip all the ones that are more difficult.
 
-Ignore the fact, that I might change my whole point of view on commands. (That will be covered by the future project *Commands as an Aspect*.)
+Ignore the fact, that I might change my whole point of view on commands. (That might be covered by the future project *Commands as an Aspect*.)
 
 ### Pros and cons for this project
 
@@ -115,7 +115,7 @@ Ideas
 
 After documenting the coding principles you could go through the old Relation Structure documentation and delete everything already covered, and distill things from it that aren’t considered yet.
 
-- \> Any entry in Coding Principles in a Diagram will get an entry in the Coding Principles articles.
+- \> Any entry in Coding Principles in a Diagram might get an entry in the Coding Principles articles.
 
 - Write articles for coding aspects about classes, interfaces and relations
     - \> The description of these coding aspects require partly the idea behind it, as well as how it is programmed as an aspect.

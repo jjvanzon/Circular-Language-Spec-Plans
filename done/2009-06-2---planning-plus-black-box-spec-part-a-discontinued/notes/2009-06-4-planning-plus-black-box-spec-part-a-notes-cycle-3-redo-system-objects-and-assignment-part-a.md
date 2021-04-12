@@ -184,13 +184,13 @@ This should be the new order:
                     - [x] ~~Impractical options:~~
                         - [x] ~~Show Object system interface in imaginary reference.~~  
                         ~~Show Reference system interface everywhere else.~~  
-                        ~~But that will make it hard to for instance get a Value through a reference.~~
+                        ~~But that might make it hard to for instance get a Value through a reference.~~
                         - [x] ~~Always show Object system interface, and through it its related items.~~  
                         ~~But then you can not directly work with related items,~~  
                         ~~you would have to go through the system interface of its parent object.~~
-                            - \> ~~Oh, and the object system object will have a related lists and related items collections.~~
+                            - \> ~~Oh, and the object system object might have a related lists and related items collections.~~
                 - [x] Preliminariness
-                    - [x] How the system interface looks is totally dependent on how the code base is implemented. If you make different design choices about the code base, organizing members differently, the system interface will also look different, because the system interface is an exact representation of the public members of the system object.
+                    - [x] How the system interface looks is totally dependent on how the code base is implemented. If you make different design choices about the code base, organizing members differently, the system interface might also look different, because the system interface is an exact representation of the public members of the system object.
                     - Not covered:
                         - [x] ~~Show aspect as property~~
                 - [x] Detail:

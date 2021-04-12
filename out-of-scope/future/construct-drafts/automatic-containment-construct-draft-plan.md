@@ -26,7 +26,7 @@ The desire to have most relationships become bidirectional, seemed to lead to a 
 
 In a strict approach, this may make the diagrams look much different. To get a clearer view of it, an example diagram might be drawn out with line and symbol merges and alongside it, one *without* those line and symbol merges. Then it might be better visible how that works out in these diagrams.
 
-One thing suspected, is that more things will end up next to each other, instead of inside each other. That may annul the effect of having a containment structure / like a map of your code.
+One thing suspected, is that more things might end up next to each other, instead of inside each other. That may annul the effect of having a containment structure / like a map of your code.
 
 So the 'problem' here is the friction between wanting bidirectional relationships, a simple, clean notation for it and on the other hand how nice containment structures might look in the diagram notation.
 
@@ -44,7 +44,7 @@ Some of the possible solutions:
 
 If something is declared on a higher level than it should then it is one real reference there pointing  at an imaginary one at the same level with the contents in it, to which points one other imaginary  reference on a deeper level.  
 And in that case the contents should be moved from the imaginary reference on the higher level, to  the imaginary reference on the lower level, and the imaginary reference on the lower level should  point to the real reference on the higher level.  
-That last reference line would be a qualified reference line, but that will not be well visible yet.
+That last reference line would be a qualified reference line, but that might not be well visible yet.
 
 To get this right you have to make the process visually debuggable. And while you are at it make processes separately debuggable.
 
@@ -63,7 +63,7 @@ Do they automatically become qualified? Maybe.
 
 If the parent object has a fixed logical residence too, you need a double qualifier to get to the deeper object.
 
-If something has a fixed logical residence, other references will first redirect outward to imaginary references and then redirect inward to the fixed logical residence again. If this inward redirection is out of sight, which it usually is, you have to see an outward directed line with the qualification textually expressed at the outer end of the line.  
+If something has a fixed logical residence, other references might first redirect outward to imaginary references and then redirect inward to the fixed logical residence again. If this inward redirection is out of sight, which it usually is, you have to see an outward directed line with the qualification textually expressed at the outer end of the line.  
 \>
 
 <  
@@ -98,7 +98,7 @@ Do note that fixed logical residence requires qualification, but that does not m
 ### More Ideas
 
 An option to ignore fixed logical residence would be welcome.  
-In that case the fixed logical residence might only be pointed out with an empty reference to the imaginary residence. That way automatic containment will work, but publicly-accessible classes are still available with just the namespace qualifier. (-> Lower Contents)
+In that case the fixed logical residence might only be pointed out with an empty reference to the imaginary residence. That way automatic containment might work, but publicly-accessible classes are still available with just the namespace qualifier. (-> Lower Contents)
 
 Elements of different assemblies seem to intermix too much and parts of one assembly are shown as an intrinsic part of the an assembly that uses it. Things might be better off as better visible as being externally defined.
 

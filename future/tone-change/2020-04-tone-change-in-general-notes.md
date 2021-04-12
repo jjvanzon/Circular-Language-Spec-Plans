@@ -26,7 +26,7 @@ __Contents__
 - [ ] .. More open, less resolute language
 - [ ] .. Use common IT terms
 - [ ] .. Less resolute language, more wiggle room
-- [ ] .. (Perhaps search for definites such as 'have to', 'must', 'will', 'should', 'very'.)
+- [ ] .. (Perhaps search for definites such as 'have to', 'must', 'might', 'should', 'very'.)
 - [ ] .. (Maybe I am being too strict towards myself, about having to rewrite everything in a milder tone.)
 
 ### Information
@@ -102,7 +102,7 @@ Reasons for changing the way to do it might be:
 - The text seems to now lack flair, and might not grab attention as well anymore.
 - I feel I use more in between words, that carry not much meaning. It seems wordier than necessary.
 
-I used to aim to be concise. In doing so, some thing might start to seem a bit commanding or something. But I did do my best then to make the text clear. Maybe this is not such a bad thing and maybe I was not doing that badly at it after all. Maybe just adding some wiggle words is enough, so that I might form an intermediate writing style. Perhaps that will be concise, strong, but leaving room for other options.
+I used to aim to be concise. In doing so, some thing might start to seem a bit commanding or something. But I did do my best then to make the text clear. Maybe this is not such a bad thing and maybe I was not doing that badly at it after all. Maybe just adding some wiggle words is enough, so that I might form an intermediate writing style. Perhaps that might be concise, strong, but leaving room for other options.
 
 I would like to feel comfortable writing again. I would like to not do it 'wrong' like before, if that was even wrong.
 
@@ -122,7 +122,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 - [x] An additional problem seems to be that I have very little energy. This computer hobby usually takes little energy. I am built that way. But certain things about it do take energy. This task seems to tap into something my mind does not automatically do naturally or easily. Not sure why. It just takes too much effort.
 - [x] I kept re-evaluating the sentence as rewritten: whether it 'walked' well, whether it still made sense, whether the wording is varied enough in the document as a whole. That might be a lot of language processing for me right now.
 - [x] So after this reflection I am left with a question: How to proceed?
-- [x] Alternative: I am not sure, but could I proceed the same way, and just hope I will have more energy now?
+- [x] Alternative: I am not sure, but could I proceed the same way, and just hope I might have more energy now?
 - [x] Alternative: It may need focus to try and insert wiggle words sort of 'robotically', maybe not even looking at the meaning of the sentences.
 - [x] > One alternative seems to need energy. The other altenative seems to need focus. Neither is aplenty.
 - [x] Alternative: Build up more wiggle word dictionary. May be hard, because thinking of alternate words seems energy draining.

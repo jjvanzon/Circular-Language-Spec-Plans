@@ -163,11 +163,11 @@ That seems to solve the problem.
 - [x] The 'end result' would make system command calls look quite like assignment notation.
 - [x] My objection to the notation now might be to not introduce implicit slightly ambiguous notation for something not used very often (never?) that already seems to have an alternative notation, that is not ambiguous, consistent and adequate.
 - [x] The notation is indeed nicely consistent with the assignment notation. Even better now, I guess, consistent with the flipped use of access marks to indicate direction?
-- [x] I seemed to build in less wiggle room before in my writing. The text says: "Most of the notations above will never be used." Ok, so I did say 'most' which is not a definite. Some of them would be used.
+- [x] I seemed to build in less wiggle room before in my writing. The text says: "Most of the notations above might never be used." Ok, so I did say 'most' which is not a definite. Some of them would be used.
 - [x] The text does seem to neatly lay out the use cases, where this implicit notation might be used.
 - [x] I might want to draw those use cases out with system interface notation. Then evaluate whether I am content with system interface notation and could do without the introduced implicit notations.
 - [x] Options are a bit dizzying for me now.
-- [x] I have some doubt, but I think I do not have to have that doubt. I scanned over the topics. I think moving this construct out will be OK. After I drew the 'alternative' notation in the system interface.
+- [x] I have some doubt, but I think I do not have to have that doubt. I scanned over the topics. I think moving this construct out might be OK. After I drew the 'alternative' notation in the system interface.
 - [x] Drawing explicit notations for many implicit notations mentioned.
 - [x] The New, Add and Remove commands might be explicitly called unlike Get, Set and Use commands, which can be implied by assignment notation, so I might evaluate if those could use an implicit notation, or look good enough to me using system interface notation.
 - [x] Flattening the aspect triangles to a flat list of commands might make system interface notation a bit more practical. > Say in the article that you go for that design choice and show flexibility of choices in this language.

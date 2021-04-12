@@ -225,7 +225,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
     - But now there is a tendency to want to start over at the start of the story again.
 - ~ Rewriting Commands & Classes Loosely Coupled.
     - ~ A new name could be ‘Relations Between Commands & Objects’.
-    - ~ It might not be clear yet exactly how the article set would look or how the parameter types will be like.
+    - ~ It might not be clear yet exactly how the article set would look or how the parameter types might be like.
     - ~ First wrote about relations between commands & objects.
     - ~ Then wrote about all the different reference situations parameters can have.
     - ~ Then wrote about how you can access control each situation.

@@ -12,7 +12,7 @@ Large Lists Problem | Language Design | Plan
 
 The 'large lists' problem in Encircle also applies to large lists of commands, that might apply to an object.  
 Also that UI's are often optimized to show the most relevant options and then I (with poor judgement?) just say: no none of that, everything only.  
-Maybe it's just that this UI will have its place along side other techniques.  
+Maybe it's just that this UI might have its place along side other techniques.  
 It's just that the large lists problem should be solved in my view.  
 Maybe permanent filtering and reordering, which is often hard to customize in windows programs. Like a menu customizer.  
 Try to make it easier to do that. Construct your own limited view.

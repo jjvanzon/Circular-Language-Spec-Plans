@@ -61,33 +61,26 @@ __Contents__
 
 #### 2021-04-10 TODO Content Reorganization
 
-- [x] .. Replacing "new computer language" with "Encircle".
+- [x] Replacing "new computer language" with "Encircle".
     - [x] In Encircle-Language-Spec
     - [x] In Encircle-Language-Spec-Plans
-- [ ] __Experiments 0.4 / 0.9 / 2.0 / 3__
-    - [ ] Different names for these versions / implementations?
+- [x] Experiments 0.4 / 0.9 / 2.0 / 3
+    - [x] Different names for these versions / implementations?
     - [x] ~~"experimental version x.x of a new computer language"?~~
     - [x] ~~"Code generator experiment 0.4 / 0.9"~~
     - [x] ~~"Engine experiment 2.0"~~
     - [x] ~~Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?~~
-    - [ ] >> Or "experiment x.x"?
+    - [x] >> Or "experiment x.x"?
     - [x] In the Encircle-Language-Spec repo:
-        - [x] Searching for 0.4 
-        - [x] Searching for 0.9
-        - [x] Searching for 2.0
-        - [x] Searching for 3
     - [x] In the Encircle-Language-Spec-Plans repo:
-        - [x] Searching for 0.4
-        - [x] Searching for 0.9
-        - [x] Searching for 2.0
-        - [x] Searching for 3 > replaced some occurrences
-    - [ ] ~~Renaming 2.0 to 2.~~ > May make less searchable.
-    - [ ] __🏷 Renaming experiment 3 to experiment 3.0__
-        - [x] In the Encircle-Language-Spec repo.
-        - [x] In the Encircle-Language-Spec-Plans repo.
+    - [x] Searching for 0.4
+    - [x] Searching for 0.9
+    - [x] Searching for 2.0
+    - [x] Searching for 3
+    - [x] ~~Renaming 2.0 to 2.~~ > May make less searchable.
+    - [x] 🏷 Renaming experiment 3 to experiment 3.0
 - [x] Repeating some of root README in spec README
-- [ ] Searching for "will"
-    - [ ] (Might not easily milden the tone of everything. But I seem to keep tripping over the word "will". It might be replaced with "might" to become closer to the truth quite easily.)
+- [x] 🐇 Replacing "will" with "might".
 - [ ] __Moving around texts__
     - [ ] `<< detailed work >>`
         - [ ] Might do the *Spec* first.
@@ -410,7 +403,7 @@ But I might want to be selective about it.
     - [x] Is one article.
     - [x] But not a big one.
     - [x] Makes me wonder if some topics are handy as a separate chapter or better grouped into another main topic.
-    - [x] Eventually might move to the Objects chapter, but will keep it in its own folder for now.
+    - [x] Eventually might move to the Objects chapter, but might keep it in its own folder for now.
 - [x] "This"
     - [x] I think I already had a place in mind for that, to move this article to a different main topic. I think tso Commands, but I think I put that down in the planning doc Encircle Language Spec Product List.
     - [x] Encircle Language Spec Product List says that it should belong in the Commands chapter.
@@ -428,7 +421,7 @@ But I might want to be selective about it.
     - [x] I think this is appropriate as a separate chapter.
     - [x] "1. Diagram Expression Introduction" > Larger
     - [x] "2. About Programming In General" > Larger
-    - [x] "3. Diagram Metrics" > Larger or will be.
+    - [x] "3. Diagram Metrics" > Larger or might be.
     - [x] "4. Coloring" > Smaller
     - [x] "6.0. Example Diagrams Introduction" > Small
         - [x] Maybe move to the folder 6.1. Example Diagrams? Maybe call it Readme?
@@ -714,8 +707,8 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] Is not really a diagram expression topic specifically.
 - [x] ~~I might want to somehow merge those diagram topics together.~~
 - [x] And put the Coding Concepts sub-folders just in the root.
-- [x] In what order will I 'mix' the Coding Concepts and the Diagram Expression topics?
-    - [x] Brainstorm: I don't think I want to just start with the Objects chapter. I do like that something starts with the overview. Right now that is the Basic Diagram Elements. Later it may be something else. I think I will keep Basic Diagram Element at the top. Then just the code concepts. Then Other Diagram Expression Topics, just a new folder, a flattened out version of the old.
+- [x] In what order might I 'mix' the Coding Concepts and the Diagram Expression topics?
+    - [x] Brainstorm: I don't think I want to just start with the Objects chapter. I do like that something starts with the overview. Right now that is the Basic Diagram Elements. Later it may be something else. I think I might keep Basic Diagram Element at the top. Then just the code concepts. Then Other Diagram Expression Topics, just a new folder, a flattened out version of the old.
     - [x] I guess I am just making a flatter list of things and keeping most of the order.
     - [x] 'About Programming In General.doc' 
         - [x] Could be put at the top as the introduction.
@@ -734,7 +727,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Or rather, this has some content in it, that I find questionable.
     - [x] I see two zips with pictures.
     - [x] How do I handle this? In the future I want to go list out all files in the history and remove things from the history that I do not want to publish. Those zips might become one of those files.
-    - [x] But when I clean up the current state, will I find all the files back that I want to remove from history? Some have obvious file names. So I guess I will.
+    - [x] But when I clean up the current state, might I find all the files back that I want to remove from history? Some have obvious file names. So I guess I might.
     - [x] I question whether I even want to include those example diagrams. Or whether I want to include them in this state.
     - [x] Or maybe I will need them for a better quality referenced image? Nah, I doubt it. That seems too much work, to replace the images in the docs with possibly better images from that zip.
     - [x] It might also not be useful to readers, at least not all of it, because it is just bulky. No one might want to go through them I think.

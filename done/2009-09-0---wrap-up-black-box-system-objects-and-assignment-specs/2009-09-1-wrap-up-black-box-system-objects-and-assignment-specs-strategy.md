@@ -51,7 +51,7 @@ This resulted in massive scope creep, because the scope only became apparent dur
 That is why after 2½ months the project was discontinued and wrapped up.
 
 By now it is clear where exactly things are going and what exactly to produce.  
-The work left to do will be turned into a new project with a more exact definition of what will be done, with a proper planning and without any loose ends.
+The work left to do might be turned into a new project with a more exact definition of what might be done, with a proper planning and without any loose ends.
 
 ### Character of the Work
 
@@ -98,4 +98,4 @@ __17__ hours total
 ### Future
 
 After this project, getting Microsoft certified might be picked up again.    
-It will only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Encircle Language Spec project might be picked up again.
+It might only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Encircle Language Spec project might be picked up again.

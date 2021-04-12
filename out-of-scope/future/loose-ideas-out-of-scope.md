@@ -77,7 +77,7 @@ JJ
 
 Encircle,
 
-However, Compared Input Output and Automatic Execution Order is only ONE candidate for concurrency resolution. It is totally not clear yet how the concurrency resolution mechanism will look. This makes me nervous. I am several subjects away from having worked out all concurrency resolution candidates, and it is vital for Internet as a Single Computer. And Internet as a Single Computer is vital for the language to succeed.
+However, Compared Input Output and Automatic Execution Order is only ONE candidate for concurrency resolution. It is totally not clear yet how the concurrency resolution mechanism might look. This makes me nervous. I am several subjects away from having worked out all concurrency resolution candidates, and it is vital for Internet as a Single Computer. And Internet as a Single Computer is vital for the language to succeed.
 
 JJ
 
@@ -124,7 +124,7 @@ Encircle Language Spec,
 2008-09-01
 
 Near the end of the development of the new programming language, next to the application programming projects, you might have a set of extreme test cases, complete, workable and fast enough. These are extreme test cases, that you might want possible in the new general purpose programming language.
-It are the ones for which exists doubt, that the first version will be able to handle, so consider a challenge, especially in the area of performance and complete for the purpose it will be used for:
+It are the ones for which exists doubt, that the first version might be able to handle, so consider a challenge, especially in the area of performance and complete for the purpose it might be used for:
 
 - Real-time music synthesizer
 - Game-speed graphics rendering

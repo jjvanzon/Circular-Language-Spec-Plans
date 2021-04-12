@@ -44,11 +44,11 @@ Part of the strategy was not to organize all the existing material, but to creat
 
 Because the interfaces concept needs to catch up with the rest of the documentation, pretty much all the basic concepts may need to be covered again for interfaces.
 
-First work out the easy issues and save the harder topics for later. The main topics will probably not change anyway and at least you will have worked those out then, and by the time you get to the harder topics, the penny will have dropped already.
+First work out the easy issues and save the harder topics for later. The main topics might probably not change anyway and at least you might have worked those out then, and by the time you get to the harder topics, the penny might have dropped already.
 
 ### Approach
 
-I will follow the rules set in the parent project descriptions. Especially consider the *Writing Efficiently* rules in the *Strategy* document of the *Encircle Language Spec* project.
+I might follow the rules set in the parent project descriptions. Especially consider the *Writing Efficiently* rules in the *Strategy* document of the *Encircle Language Spec* project.
 
 ### Limitations
 
@@ -58,7 +58,7 @@ Do not go into Black Boxes applied to Interfaces.
 
 ### Time Planning
 
-No tight time planning will be maintained.
+No tight time planning might be maintained.
 
 ### Future
 

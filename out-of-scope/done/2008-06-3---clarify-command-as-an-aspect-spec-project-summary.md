@@ -44,7 +44,7 @@ It is approximately __32__ pages of brainstorm texts trying to clarify commands 
 
 - [x] Go through all ideas you can find
 - [x] Organize brainstorm items
-- [x] Reformulate brainstorm texts, determining how things will be
+- [x] Reformulate brainstorm texts, determining how things might be
     - [x] In, out, thru, down
         - [x] Reconsider
         - [x] Integrate old text into new text
@@ -81,7 +81,7 @@ It is approximately __32__ pages of brainstorm texts trying to clarify commands 
         - [x] For groups of concepts
     - [x] Try to make the file names nice again.
     - [x] Better numbering of articles.
-    - [x] ~ Summary of what the small base of the code will consist of / which coding 'aspects' are 'principles'.
+    - [x] ~ Summary of what the small base of the code might consist of / which coding 'aspects' are 'principles'.
     - [x] Flat & Structure Interchange seem spread around the documentation too.
         - [x] But a summary was put in Fundamental Principles
     - [x] It may be useful to have some extra diagram expression topics:

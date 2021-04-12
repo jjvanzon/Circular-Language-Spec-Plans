@@ -132,7 +132,7 @@ __Contents__
     - [x] I was already putting things out of scope, not just reformulating. I have done that for the Future projects, because putting it out of scope was easier than reformulating some of the difficult text. Maybe that rule does not hold up for reformulating the Done projects. I want to realize that the focus is on reformulation, not scoping. Only if it helps me get through the reformulations, I may want to also fine-tune the scoping in the planning docs.
     - [x] So the same argument kind of applies. If I know it is out of scope, I can just move it without further reformulation.
     - [x] Fortunately I am quite clear on what I put out of scope.
-    - [x] Q: Will all 'fundamental principles' be put out of scope?
+    - [x] Q: Might all 'fundamental principles' be put out of scope?
     - [x] Exp: Read some of the actual documentation.
     - [x] A: Yes, 'fundamental principles' is out of scope with the current ideas I have now.
     - [x] By the way: I saw '2. Concurrency' under '3. Operating System' in the Encircle Docs. I couldn't find that content before. Found it.
@@ -140,7 +140,7 @@ __Contents__
     - [x] But I get cramps in my face.
     - [x] It's hard, because it means processing many disparate pieces of information, which takes too much energy/strain for me.
     - [x] Feels bad to leave a grouping/categorization half- finished.
-    - [x] Can I make this easier for myself? Dim the screen. Dark mode would have been nice, but don't have it on Windows 7. Take it slower. Worry less about (small) mistakes. Accept this will take a while. Forget about everything else?
+    - [x] Can I make this easier for myself? Dim the screen. Dark mode would have been nice, but don't have it on Windows 7. Take it slower. Worry less about (small) mistakes. Accept this might take a while. Forget about everything else?
 - [x] Done projects (now out of scope)
     - [x] ~~2008-03 02        Fundamental Principles Spec Part A Project Summary.docx"~~
     - [x] ~~2008-03 03             Orient in First Four Fundamental Principles Project Summary.docx~~

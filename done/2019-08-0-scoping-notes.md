@@ -178,7 +178,7 @@ I don't think I want to reformulate the goals ofeExperiment 3.0 programming proj
 
 - Scope:
     - Some content in the idea box is also out-of-scope.
-    - Strategy: Goal of the Language: It mentions fundamental principles, that may become out-of-scope. Higher Goal does too. Will I separate these things? So say: it’s a (diagrammatic) programming language. I had thoughts about saving the higher goals for later.
+    - Strategy: Goal of the Language: It mentions fundamental principles, that may become out-of-scope. Higher Goal does too. Might I separate these things? So say: it’s a (diagrammatic) programming language. I had thoughts about saving the higher goals for later.
 
 The scope used to be split in two: Language Spec and the rest.
 
@@ -189,7 +189,7 @@ This changes things. This puts even more out of scope of Language Spec. Earlier 
 I feel maybe I am not finished making the first split up and now already starting with the next?  
 \>> I want to check that.
 
-Also the new split up would give the wilder ideas a place, not on the big pile 'other', like internet as a single computer would be 'broader perspective'. Actually... you could interpret it differently. Everything not part of Language Spec will at first be put on the pile 'Other'.
+Also the new split up would give the wilder ideas a place, not on the big pile 'other', like internet as a single computer would be 'broader perspective'. Actually... you could interpret it differently. Everything not part of Language Spec might at first be put on the pile 'Other'.
 
 Maybe it is better to put off fine-tuning the scope for now. First make it neat the way it is. I was making such nice progress with that, wasn't I?
 
@@ -432,6 +432,6 @@ The Encircle Planning Docs took a turn at some point in time. At one point it wa
 'Program Software System' now looks 'outdated', compared to the programming work described in 'Document Software System'.  
 I might actually move many of those topics from 'Future\Interesting Now' to 'Postponed'.  
 I also would want to put a cut into all the planning docs and all the circle docs: this is the language and this is the rest.  
-So it gets isolated. In the past I wanted to put everything I did (and will ever do) with software development at home in a single system so general that I called it 'Software System'. Many docs are general and describe both that language + OS-like topics and applications. I might want to cut that in two: language and the rest. I might like to open source the language at one point and just leave the rest out of it.
+So it gets isolated. In the past I wanted to put everything I did (and might ever do) with software development at home in a single system so general that I called it 'Software System'. Many docs are general and describe both that language + OS-like topics and applications. I might want to cut that in two: language and the rest. I might like to open source the language at one point and just leave the rest out of it.
 
 I think I interwove these things maybe a little too much. I just liked to subdivide things into a single system of subdivision into which everything fitted. Also, the interweaving may have been stimulated by my wanting to combine this 'Creator' project with the 'Encircle' language project. The 'Creator' project was about model-driven development, aspects and framework more than being a real computer language. I wanted to combine the two things into a single system, so that may have lead me to try and put everything into a single system. Now, I think I know that Encircle is the computer language and you could program model-driven aspect oriented software with it, if it can provide the aspect construct. Really, I think it helps to not try and solve all problems at once. 

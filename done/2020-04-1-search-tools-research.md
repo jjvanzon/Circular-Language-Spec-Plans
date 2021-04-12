@@ -12,8 +12,8 @@ Search Tools Research | 2020-04 | Notes
 - [x] Exp: Shorten to 255. Find in Files again
 - [x] Obs~ Error is gone.
 - [x] Exp: Get rid of an intermediate folder to shorten the path and still keep descriptive names.
-- [x] Obs~ Visual Studio Find in Files will not search doc contents.
-- [x] Hyp:    Windows 7 File Explorer will not find whole words. For some things that's relevant for other things it is not. (I thought I saw it).
+- [x] Obs~ Visual Studio Find in Files might not search doc contents.
+- [x] Hyp:    Windows 7 File Explorer might not find whole words. For some things that's relevant for other things it is not. (I thought I saw it).
 - [x] Exp: search "*.doc"
 - [x] Obs: Now it does not match "*.docx".
 - [x] Hyp: I thought I saw that some times.

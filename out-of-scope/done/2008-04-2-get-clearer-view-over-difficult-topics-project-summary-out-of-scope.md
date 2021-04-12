@@ -22,7 +22,7 @@ Some of them were harder.
 
 The goal of the project Document Encircle had two parts: document the ideas I have a clear view on, and get a clear view on important principles not yet fully understood.
 
-I have now reached a point, at which it is starting to ache, that certain ideas are not clear to me yet. And it is ideas that will mess up the original of thinking.
+I have now reached a point, at which it is starting to ache, that certain ideas are not clear to me yet. And it is ideas that might mess up the original of thinking.
 
 The goal of the project *Get Clearer View* is to get a clear view on the ideas that may change *everything*.
 
@@ -66,7 +66,7 @@ The following topic only got a brainstorm:
 
 - Automatic Execution Order
 
-The following topics were not considered, because they will have less impact on the language:
+The following topics were not considered, because they might have less impact on the language:
 
 - Aspects As External Modules
 - Automatic Object Formation

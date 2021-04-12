@@ -132,7 +132,7 @@ But that might be a bit unforgiving.
     - Which tougher subjects?
 - Perhaps defining a list of intended future sub-projects.
 
-Maybe plan for easier topics only. The idea is: you might not know how difficult the harder topics will be in the future. They may become easier as time passes by and after the basics would be worked out better.
+Maybe plan for easier topics only. The idea is: you might not know how difficult the harder topics might be in the future. They may become easier as time passes by and after the basics would be worked out better.
 
 #### Project Order
 
@@ -141,7 +141,7 @@ This paragraph may be short, but this might be relavant for some focus. As a rul
 - __Easier subjects__
 - __Simplifying existing subjects__
 - __Tougher subjects__
-    - (Perhaps by the time you get to them, it will be easier.)
+    - (Perhaps by the time you get to them, it might be easier.)
 
 
 ### Productive Writing

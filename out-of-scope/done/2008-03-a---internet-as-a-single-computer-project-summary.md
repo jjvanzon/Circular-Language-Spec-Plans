@@ -28,7 +28,7 @@ Version *2008-04-12 XX  0.9*  was produced
 - Uniquely identify resources on the internet:
     - Found out I can not identify each object on the internet individually
     - Research the internet protocol
-    - Define how resources on the internet will be identified
+    - Define how resources on the internet might be identified
 - Combine all the gathered ideas and brainstorm texts
 - Describe:
     - Implications for other concepts
@@ -41,8 +41,8 @@ Version *2008-04-12 XX  0.9*  was produced
     - Read over the whole document a few times and correct
     - The article is not finished, but it is such new material, that it can’t be finished right now
     - There’s too much detail, too much fuss, too much unclarity, but this is because it is a new principle.
-    - Later it will be revised, but not now.
-    - I’m sure that one day it will become a crystal clear concept.
+    - Later it might be revised, but not now.
+    - I’m sure that one day it might become a crystal clear concept.
 
 ### Dates
 

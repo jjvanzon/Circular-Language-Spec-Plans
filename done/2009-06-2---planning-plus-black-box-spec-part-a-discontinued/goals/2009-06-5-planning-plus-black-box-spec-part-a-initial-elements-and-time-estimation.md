@@ -13,7 +13,7 @@ __Contents__
 
 ### Remark
 
-This is the initial plan. The plan changed during the project. You will find the changed plan in a different document. But the initial plan still matters for overview of the project.
+This is the initial plan. The plan changed during the project. You might find the changed plan in a different document. But the initial plan still matters for overview of the project.
 
 ### Products
 
