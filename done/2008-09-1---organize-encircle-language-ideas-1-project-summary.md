@@ -14,8 +14,8 @@ __Contents__
 ### Goal
 
 In between the projects Commands Spec and Parameter Spec,  
-the ideas of computer language were organized   
-and an attempt was made to look at the bigger whole of the computer language.
+the ideas of Encircle were organized   
+and an attempt was made to look at the bigger whole of Encircle.
 
 ### Super-Project
 
@@ -29,7 +29,7 @@ __11__ hours of work
 
 ### Project Steps
 
-- Gathered up any idea that could be found about computer language written down somewhere, organized the ideas, not just the ones about parameters.
+- Gathered up any idea that could be found about Encircle written down somewhere, organized the ideas, not just the ones about parameters.
     - Gathered ideas.
     - Categorized ideas.
     - ~~Ordered the ideas by documentation order.~~

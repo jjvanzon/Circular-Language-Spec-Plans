@@ -13,7 +13,7 @@ __Contents__
 
 ### Super-Project
 
-Document Computer Language, Get Clearer View over Difficult Topics
+Document Encircle, Get Clearer View over Difficult Topics
 
 (This project was originally intermixed with the sub-project *Diagram Notation Specs 2008-05*, but then the scope was split in two.)
 
@@ -26,7 +26,7 @@ After 2 projects of difficult *flat & structured interchange* topics, I was able
 
 First I chose the project *aspects as external modules*. It was much different material compared to the flat & structured interchange topics. It would give me a break from the difficult flat & structured interchange topics.
 
-Automatic execution order may be the last unclarified topic, that has a big influence on the computer language and diagram expression. Automatic containment also needs adaptations, which frustrates me as well. It’s just the highest priority right now in the *Get Clearer View* super-project.
+Automatic execution order may be the last unclarified topic, that might have a big influence on the Encircle and diagram expression. Automatic containment also needs adaptations, which frustrates me as well. It’s just the highest priority right now in the *Get Clearer View* super-project.
 
 Aspects as External Modules has to wait.  
 Automatic Object Formation will not influence the diagram notation much.

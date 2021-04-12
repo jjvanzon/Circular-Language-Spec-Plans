@@ -73,7 +73,7 @@ Do note that fixed logical residence requires qualification, but that does not m
 
 ### Project Steps
 
-- Look at Computer Language Coding Principles.doc
+- Look at Encircle Coding Principles.doc
 - Maybe go through all ideas you can find.
 - Update article Automatic Containment
     - Features to possibly add:

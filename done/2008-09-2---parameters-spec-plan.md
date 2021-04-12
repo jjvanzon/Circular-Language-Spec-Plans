@@ -332,7 +332,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
 - Gave articles a parameters-specific article name.
 - Setting up article list.
 - Isolated version.
-- Turned preparation work 'Computer Language General' into a separate project.
-- Made the next project also an 'Organize Computer Language Ideas' project.
+- Turned preparation work 'Encircle General' into a separate project.
+- Made the next project also an 'Organize Encircle Ideas' project.
 - Wrapped up project description.
 - Reflected on how this project progressed.

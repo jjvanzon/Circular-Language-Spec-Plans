@@ -48,7 +48,7 @@ Steps
 
 - [ ] ... Write more articles
 
-- [ ] Look at Computer Language Coding Principles.doc
+- [ ] Look at Coding Principles.doc
 
 - [ ] ~ Process cross out lists:
 

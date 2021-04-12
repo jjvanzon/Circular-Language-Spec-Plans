@@ -294,7 +294,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
 #### 2020-03-16 Done Scoping Circle 3 Requirements Docs
 
 - [x] I moved content from Circle 3 Requirements to Encircle Language Products List.
-- [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using the new language. But I am OK with it.)
+- [x] I could rename it to Circle 3 programming, rather than Circle 3 software development, because programming was all I did, not full blown software development cycles. Right? ('Programming' is a bit ambiguous too. It could mean program the dev environment or program using Encircle. But I am OK with it.)
 - [x] Maybe check sub-project docs later to verify that I didn't do any documentation.
 
 This is spreading my attention over too many different things. Is there a more practical approach?

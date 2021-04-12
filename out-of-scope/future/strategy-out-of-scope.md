@@ -25,7 +25,7 @@ At first it was content moved from the document *Encircle Language Spec Strategy
 
 One of my worries, is that I have not learned enough constructs, that exist in the world, to really make a unified language for all digital objects. The language was supposed to give a different view onto any digital data: folders, scheduled tasks, object oriented code, the web, databases or any complicated referential structure. It is supposed to combine all of it into a single landscape in a single language, and serve as an entry-point for all other types of digital expression, such as opening data in the app it is intended for, displaying that view on top of the diagram, that is a map of everything going on inside the computer.
 
-Here are some of the hopes for the new language:
+Here are some of the hopes for Encircle:
 
 - ~ Gain instant insight into complex referential structures, hopefully to a degree that no other way of diagramming can.
 - ~ *Anything* digital might be translated to such a diagram, because most things digital may just be referential structures.

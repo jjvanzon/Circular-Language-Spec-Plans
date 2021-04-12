@@ -98,8 +98,8 @@ Extra articles:
     - Clarify Automatic Execution Order & Diagram Notation
     - Get Clearer View
     - Future project descriptions
-    - Computer Language Principles
-    - Computer Language Aspects
+    - Encircle Principles
+    - Encircle Aspects
     - Diagrams, Coding Principles & Coding Aspects
      
 - Then wrote the articles

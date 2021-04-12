@@ -61,26 +61,48 @@ __Contents__
 
 #### 2021-04-10 TODO Content Reorganization
 
-- [x] Replacing "new computer language" with "Encircle".
+- [ ] .. Replacing "new computer language" with "Encircle".
     - [x] In Encircle-Language-Spec
-    - [x] In Encircle-Language-Spec-Plans
-- [ ] Repeating some of root README in spec README
+    - [ ] In Encircle-Language-Spec-Plans
+        - [x] Searching "new language" rendered more results
+        - [x] Searching for "Computer Language" rendered more results
+        - [x] Searching for "a Encircle".
+- [ ] Experiments 0.4 / 0.9 / 2.0 / 3
+    - [ ] Different names for these versions / implementations?
+    - [ ] "experimental version x.x of a new computer language"?
+    - [ ] "Code generator experiment 0.4 / 0.9"
+    - [ ] "Engine experiment 2.0"
+    - [ ] Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?
+    - [ ] >> Or "experiment x.x"?
+- [x] Repeating some of root README in spec README
+- [ ] __Moving around texts__
+    - [ ] `<< detailed work >>`
+        - [ ] ->.. Broader View: WAS AT: "Diagram & Text Code Expression"
+        - [ ] Might do the *Spec* first.
+        - [ ] Moves to "Implementations".
+            - [ ] Perhaps searching for 0.4 or 0.9 or 2.0 might help.
+
+        - [ ] Moves to "Pointers".
+        - [ ] Moves to "Text Code".
+        - [ ] Loose ideas: regroup or clear out
+        - [ ] I seem to have difficulty not changing the tone of texts too.
+
+#### 2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form
+
+Do I start in the I form here? I had the idea to put things in the I form. This would be my 'solution' for presenting unsound, non-bullet proof ideas. So there is admission of subjectiveness. Also all the opinions I wanted to present, may be expressed with doubt built into it ('may', 'might', 'perhaps', 'maybe'). So no statement may be wrong or right and it might not really matter nor make the text invalid.
+
+A diversion to an Errors article may be appropriate.
 
 ### Postponed
 
 #### 2021-04-05 Postponed Content Reorganization
 
-- [ ] `<< not sure >>`
-    - [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
-- [ ] `<< detailed work >>`
-    - [ ] ~ Loose ideas: regroup or clear out
 - [ ] `<< moving around text >>`
     - [ ] ~ Reorganizing "Fundamental Principles"
         - [ ] ~ One doc for Exchangeability?
         - [ ] ~ One doc for Extensibility?
-    - [ ] All pointer topics to Pointers.
-    - [ ] All Text Code topics to single place.
-    - [ ] ~ Moves to "Implementations"?
+- [ ] `<< not sure >>`
+    - [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
 - [ ] `<< chapter reorganization >>`
     - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
     - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)

@@ -37,7 +37,7 @@ The work was split up into the following sub-projects:
 - *Document System Objects Articles*
 - *Document Assignment Articles*
 - *Document Commands Articles*
-- *Organize Computer Language Ideas (1)*
+- *Organize Encircle Language Ideas (1)*
 - *Document Parameters Articles*
 
 (The sub-project *Clarify Command as an Aspect Spec* used to be part of this super-project, but was later moved out of scope.)
