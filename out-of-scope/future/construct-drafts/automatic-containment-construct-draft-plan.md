@@ -67,7 +67,7 @@ If something has a fixed logical residence, other references might first redirec
 \>
 
 <  
-Do note that fixed logical residence requires qualification, but that does not mean that qualification requires fixed logical residence. You can point to something with a qualifier, even when it does not have its fixed logical residence there.  
+Do note that fixed logical residence requires qualification, but that might not mean that qualification requires fixed logical residence. You can point to something with a qualifier, even when it might not have its fixed logical residence there.  
 \>
 
 

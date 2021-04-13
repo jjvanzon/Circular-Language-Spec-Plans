@@ -122,7 +122,7 @@ __Contents__
 #### 2019-08-05 Done Brainstorm Scope
 
 - [x] Encircle Broader View: Maybe the design of the programming language should lose some ambition and express that only as dreams.
-- [x] I notice I talk a lot about implementation rather than notation. For instance: Does a dashed circle mean it is used as a class, enforced to be a class, static inside its container, how does it work in the system interfaces? What if it is just the notation that is the main idea, what if the implementation isn't. That might even make system interfaces' precise definition not important or maybe just subjected to diagrams drawn out to represent things from another language, like C#. C# getters and setters might be in a system interface notation. But setting an object reference's interface dynamically in runtime... may be too much of an implementation detail. I think it is a language definition / runtime implementation separation. In think the engineers at Microsoft might be right about developing language spec / runtime / framework / compiler quasi-independently. Maybe I can be inspired by that and make my language definition a little simpler. I am subjected to the pitfall of wanting to cover every little minor edge-case, of which I have a fear that it may make the whole system fall to pieces. I already warned myself about that in the Encircle Language Spec Strategy document. But now I think other people might actually read this, I start to think: maybe limit the scope. Somehow define the diagram notation and what it represents and not want to work out how things might work in a runtime. Runtime might be a system where the diagrams and actually the data that internally describes the diagram, to be loaded and run as computer programs. I think I wanted to check the usability of the notation by shining light on any little aspect of it, I could find. But I think some details are not that important. Maybe those are to be demoted to possible implementation details, to keep the main part of the story clean. I am OK with apologizing in the documentation, that this might not be usable or something. The description in the Strategy document is pretty much spot on, I think.
+- [x] I notice I talk a lot about implementation rather than notation. For instance: Might a dashed circle mean it is used as a class, enforced to be a class, static inside its container, how might it work in the system interfaces? What if it is just the notation that is the main idea, what if the implementation isn't. That might even make system interfaces' precise definition not important or maybe just subjected to diagrams drawn out to represent things from another language, like C#. C# getters and setters might be in a system interface notation. But setting an object reference's interface dynamically in runtime... may be too much of an implementation detail. I think it is a language definition / runtime implementation separation. In think the engineers at Microsoft might be right about developing language spec / runtime / framework / compiler quasi-independently. Maybe I can be inspired by that and make my language definition a little simpler. I am subjected to the pitfall of wanting to cover every little minor edge-case, of which I have a fear that it may make the whole system fall to pieces. I already warned myself about that in the Encircle Language Spec Strategy document. But now I think other people might actually read this, I start to think: maybe limit the scope. Somehow define the diagram notation and what it represents and not want to work out how things might work in a runtime. Runtime might be a system where the diagrams and actually the data that internally describes the diagram, to be loaded and run as computer programs. I think I wanted to check the usability of the notation by shining light on any little aspect of it, I could find. But I think some details are not that important. Maybe those are to be demoted to possible implementation details, to keep the main part of the story clean. I am OK with apologizing in the documentation, that this might not be usable or something. The description in the Strategy document is pretty much spot on, I think.
 - [x] Encircle Construct Drafts: I get the problem that next to introducing new notation, I also wanted to introduce new concepts. A new conceptual take on things. I think it all became a little much.
 
 #### 2020-05-14 Done Scoping | Split Up Encircle Docs
@@ -143,7 +143,7 @@ __Contents__
     - [x] Under the Language folder: might I move those to the Framework part? They are not aspect frameworks, but they don't need to be.
 - [x] "10. Encircle Constructs Drafts\6. Expression\6. More Text Codes": 
     - [x] Has the sub-folders "1. Parser" and "2. Text Templates". I do not think those topics belong in Encircle Construct Drafts. Maybe in Encircle Broader View. But maybe those topics do not belong in Encircle Language docs at all. More like framework. The index page includes other sub-topics, that used to be in that folder: such as 'other text codes', 'math' and 'assembly'. So some time in the past those topics were all in one place. I am not sure to exclude all of those topics from Encircle Language and then maybe move them to the Framework part of the Software System docs, or whether some of it somehow has a place in broader perspective.
-    - [x] They are probably there, because in the main subdivision of Software System, they might fall under 'Code' and that might be what made them end up in the proximity of Encircle Language Spec. So it indeed probably does not belong under Encircle at all, but it does belong under 'Code' in Software System.
+    - [x] They are probably there, because in the main subdivision of Software System, they might fall under 'Code' and that might be what made them end up in the proximity of Encircle Language Spec. So it indeed probably does not belong under Encircle at all, but it might belong under 'Code' in Software System.
 - [x] By now I have:
     - [x] Categorized topics from "Language" over "Encircle Language Spec", "Encircle Constructs Drafts", "Encircle Broader View" and "Framework". 
 - [x] Checking if I like how topics ended up in one of 3 categories.
@@ -152,7 +152,7 @@ __Contents__
 - [x] Some 'Operating System' topics might belong in an Encircle Language topic group.
 - [x] Some documents cover multiple topics. I might like to split those documents up. 
     - [x] I could just make copies.
-    - [x] And then strip out content that does not apply.
+    - [x] And then strip out content that might not apply.
     - [x] ~~To what degree is it useful to rephrase those directory indexes to reflect the contents better? > It might be better to not do that right now.~~
 
 #### 2020-03-07 Do Not Do: Brainstorm Experiment 3.0 Programming Planning Docs
@@ -178,7 +178,7 @@ I don't think I want to reformulate the goals ofeExperiment 3.0 programming proj
 
 - Scope:
     - Some content in the idea box is also out-of-scope.
-    - Strategy: Goal of the Language: It mentions fundamental principles, that may become out-of-scope. Higher Goal does too. Might I separate these things? So say: it’s a (diagrammatic) programming language. I had thoughts about saving the higher goals for later.
+    - Strategy: Goal of the Language: It mentions fundamental principles, that may become out-of-scope. Higher Goal might too. Might I separate these things? So say: it’s a (diagrammatic) programming language. I had thoughts about saving the higher goals for later.
 
 The scope used to be split in two: Language Spec and the rest.
 
@@ -215,7 +215,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] ~~Could be that this folder is relevant: "2003 - 2009 Software System Documentation"~~
         - [x] ~~"2007-10 Rethink Software System, Project Plan.doc":~~
             - [x] There it seems to start interweaving with Encircle Language Spec topics.
-            - [x] The goal does not really talk specifically about programming languages. The notes taken while doing that project, mention several topics about programming languages, but just naming larger parts, not details. Not really much can be found that goes specifically into Encircle Language Spec and the diagram notation. I do not think much is of use in the Encircle Language Spec Plan documentation. It seems 'Symbol attempts' is the real first effort put into the diagram notation, that is mentioned in these planning docs (perhaps aside from what's in the hour loggings, which have not been considered yet).
+            - [x] The goal might not really talk specifically about programming languages. The notes taken while doing that project, mention several topics about programming languages, but just naming larger parts, not details. Not really much can be found that goes specifically into Encircle Language Spec and the diagram notation. I do not think much is of use in the Encircle Language Spec Plan documentation. It seems 'Symbol attempts' is the real first effort put into the diagram notation, that is mentioned in these planning docs (perhaps aside from what's in the hour loggings, which have not been considered yet).
             - [x] I do not think I can even formulate just a few sentences 'this and that' has been done regarding Encircle Language Spec in this project, while the project was also about larger parts. It's just that inconcrete.
         - [x] ~~"2009-04 01         Full Revision of Documentation    2009-04 - 2009-06"~~
             - [x] ~~"Software System Full Revision of Documentation, Goal.doc"~~
@@ -243,7 +243,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
         - [x] ~~And the "2001 - 2002 Symbol" phase starts with initial ideas about Encircle language, and ends with the unfinished Symbol.doc, though not much was written down about the progress (though probably things are in hour loggings, not considered yet.)~~
     - [x] ~~Looking at "1. Software System.doc":~~
         - [x] ~~If none of this part of the planning docs is usable for inclusion in Encircle Language Spec planning docs, it may be worth a peek at the actual document Software System.doc or the 'redirection pages'.~~
-        - [x] ~~I like it. I do not think I see much content I might use for Encircle Language Spec. From earlier ideas I had, I expected to find more. Perhaps I looked it over wrong. Or maybe now much is narrowed in scope, some more content from this document does not fall into scope anymore, making less of it very usable in Encircle Language Spec. Just bits and pieces maybe, but I expect to find texts of similar content and quality near the topics of Encircle Language Spec already.~~
+        - [x] ~~I like it. I do not think I see much content I might use for Encircle Language Spec. From earlier ideas I had, I expected to find more. Perhaps I looked it over wrong. Or maybe now much is narrowed in scope, some more content from this document might not fall into scope anymore, making less of it very usable in Encircle Language Spec. Just bits and pieces maybe, but I expect to find texts of similar content and quality near the topics of Encircle Language Spec already.~~
 
 #### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
 
@@ -256,7 +256,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Done project "Document Internet as a Single Computer" is out-of-scope...
         - [x] Lots of fundamental principles may become out-of-scope of the Encircle Language Specs Project and might become part of a separate piece of documentation Encircle Language Broader View or something.
         - [x] Not sure if right now I want to dump it in a Done folder with all these many projects in it.
-        - [x] Does it matter? I am trying to isolate just Encircle Language Spec from Other / anything else.
+        - [x] Might it matter? I am trying to isolate just Encircle Language Spec from Other / anything else.
 
 #### 2020-04-01 Done Scoping Encircle Language Spec Planning Docs
 
@@ -322,7 +322,7 @@ I ran over all the content of Experiment 3.0 Requirements and above are the conc
 Experiment 3.0 Strategy is pretty much done.
 Experiment 3.0 Requirements: change coloring and formatting.
 
-That does not take away I want to split topics in these planning docs between language design one one end and programming at the other.
+That might not take away I want to split topics in these planning docs between language design one one end and programming at the other.
 
 #### 2020-02-23 Done Reading Experiment 3.0 Strategy
 
@@ -359,7 +359,7 @@ Also the Strategy can be stripped of things 'out-of-scope'.
 #### 2020-01-13 Done Scoping
 
 I read and reformulated some texts from "Encircle Strategy.doc". 2 hours or so. I am now too tired.  
-That document does not cover many things out of scope of language specification. It just briefly talks about programming experimental versions and licensing it and stuff, but little enough to keep it in there, were I to isolate this into a pure language specification writing project, which I intend it to.
+That document might not cover many things out of scope of language specification. It just briefly talks about programming experimental versions and licensing it and stuff, but little enough to keep it in there, were I to isolate this into a pure language specification writing project, which I intend it to.
 
 #### 2020-01-04 Done Rough Plan
 
@@ -375,7 +375,7 @@ I had those plans with it, but did nothing about them this day.
 
 - [x] The application of them are different (of *diagrams, conceptual constructs* and *boundaries lifting*).
 - [x] Proposed constructs: 
-    - [x] Another example is the automatic diagram organization topics. The diagram notation idea can live without some of the wild ideas in that. For instance, interchangeability between containment and referential structure or inversibility of containment in case of bidirectional relationships. Also the striving to want almost all relationships between objects to be bidirectional, does not apply if you want to use the diagrams to express systems in which you have a choice if relationships are bidirectional or unidirectional. Also giving things a different name (aspects are all of a sudden called concepts) is not a priority, and perhaps even alienating. Those are just some ideas I have about how to pull things apart. 
+    - [x] Another example is the automatic diagram organization topics. The diagram notation idea can live without some of the wild ideas in that. For instance, interchangeability between containment and referential structure or inversibility of containment in case of bidirectional relationships. Also the striving to want almost all relationships between objects to be bidirectional, might not apply if you want to use the diagrams to express systems in which you have a choice if relationships are bidirectional or unidirectional. Also giving things a different name (aspects are all of a sudden called concepts) is not a priority, and perhaps even alienating. Those are just some ideas I have about how to pull things apart. 
 - [x] I think maybe those differences in application call for a rigorous split up: *diagram notation / constructs drafts / gap lifting*. Diagram notation is a bit of a grey area, because it wants to use constructs. Some of the notation capabilities imply different variations of otherwise fixed constructs. I think a separation of some main groups of concepts is appropriate here, so the ideas are better transferable and perhaps better usable and applicable. It might make the general idea about the diagram notation more pure and also more freely usable, not in a fixed way. An argument that falls away when you open sourcing and not patenting or something, is that things do not need to have a closed, unambiguous definition. Things can be just part usable, using and replacing rules as one wishes. You can say at some point the diagram notation surpassed the original goal on two ends. I had somewhat of an explosion of ideas then surrounding this notation. Boundaries between ideas were not well defined. That's a (good?/bad?) quality of my way of thinking, I guess. But I tend to want to focus things, by splitting things apart in the main blocks, so it that it might become more practical (for others or myself).
 - [x] "Encircle Language Spec" / "Encircle Language Broader View" / "Encircle Language JJ's Construct Proposals"
 - [x] I don't like the last name. It seems long.

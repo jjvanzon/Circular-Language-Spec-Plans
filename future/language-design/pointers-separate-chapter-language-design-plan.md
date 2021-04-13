@@ -34,7 +34,7 @@ Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move
 
 #### 2020-06-26 Done Scoping System Objects Article: Move Pointer-to-Pointer Issues
 
-- [x] Reference aspect does seem used only for pointer-to-pointer situations? And without the context of pointer-to-pointer situations, the concept of the reference aspect might also be hard to place.
+- [x] Reference aspect might seem used only for pointer-to-pointer situations? And without the context of pointer-to-pointer situations, the concept of the reference aspect might also be hard to place.
 - [x] More prominently might be the pointer (to pointer) issues, which I promised myself I might move to the separate Pointers chapter. I think most of that is a bit scattered around the System Commands and System Interfaces sections.
 - [x] It seems iffy to me, that all point-to-pointer issues should be moved. The distinction between the Reference aspect and the Object aspect might be desired for a certain completeness. (Evaluating this, I am currently looking specifically at an image under the section "The Full System Interface for Related Item"). Perhaps pointer-to-pointer *details* might be moved.
 - [x] That there are references and that there are objects, might be key to understanding a bit about this particular object oriented take on things. But as it starts getting a bit hard on your head with pointer-to-pointer edge-cases, maybe I can extract those topics and move those.

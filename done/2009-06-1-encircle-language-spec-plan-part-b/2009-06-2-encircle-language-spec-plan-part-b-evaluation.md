@@ -21,6 +21,6 @@ I am doing *Encircle Language Spec* projects, because I think maybe I should nev
 
 I have finished two topics of Encircle and I did it fast in my view. I used to have ideas about what topics I wanted to describe, but I have different ideas about that now. The design is getting close to a useable specification of a programming language, so I should look further than just to preserve my thoughts.
 
-The strategy is about to change. The main strategy: making it possible for others to pick up my work, does not count anymore, because most of that is realized. I might work on Encircle. But I have different ideas about which parts of it I want to realize, and I might start working towards an implementation of the software, instead of designing it on paper only. I might want to start thinking about what is required to make it this a fully useable product.
+The strategy is about to change. The main strategy: making it possible for others to pick up my work, might not count anymore, because most of that is realized. I might work on Encircle. But I have different ideas about which parts of it I want to realize, and I might start working towards an implementation of the software, instead of designing it on paper only. I might want to start thinking about what is required to make it this a fully useable product.
 
 I might describe the past period here. I might sum up the work that has been done, as an overview of this period and then I might start a new period, with new goals.

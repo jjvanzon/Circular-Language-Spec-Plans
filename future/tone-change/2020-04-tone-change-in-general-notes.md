@@ -9,6 +9,7 @@ __Contents__
 - [Rough Plan](#rough-plan)
 - [Information](#information)
 - [Postponed](#postponed)
+    - [2021-04-12 Postponed In Bulk](#2021-04-12-postponed-in-bulk)
     - [2020-06-01 Postponed Checklist Tone Change](#2020-06-01-postponed-checklist-tone-change)
     - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
     - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
@@ -26,7 +27,7 @@ __Contents__
 - [ ] .. More open, less resolute language
 - [ ] .. Use common IT terms
 - [ ] .. Less resolute language, more wiggle room
-- [ ] .. (Perhaps search for definites such as 'have to', 'must', 'might', 'should', 'very'.)
+- [ ] .. (Perhaps search for definites such as 'have to', 'must', 'would', 'should', 'very'.)
 - [ ] .. (Maybe I am being too strict towards myself, about having to rewrite everything in a milder tone.)
 
 ### Information
@@ -122,8 +123,8 @@ I might like to feel comfortable writing again. I might like to not do it 'wrong
 - [x] I might like that after marking trigger words in red, it might be a matter of arbitrarily inserting wiggle words, removing adjectives or changing definite verbs to more polite ones.
 - [x] But I end up scratching my head trying to find a way to reformulate something. Difficulty to find the 'nicest' alternate word, or sometimes even to realize something is even wrong with the trigger word I marked in red.
 - [x] Sometimes my brain says: nothing is wrong with trigger word, but when I replaced it with difficulty, I realize the trigger word did seemed to be 'wrong' after all, and realize that things are not necessarily that black and white.
-- [x] But my mind, that is reading and understanding these existing sentences does not sense anything wrong with them really, so has difficulty finding a proper way to change it, or even a reason. It's it like my mind resists changing the sentence, because at first I fail to see why.
-- [x] An additional problem seems to be that I have very little energy. This computer hobby usually takes little energy. I am built that way. But certain things about it do take energy. This task seems to tap into something my mind does not automatically do naturally or easily. Not sure why. It just takes too much effort.
+- [x] But my mind, that is reading and understanding these existing sentences might not sense anything wrong with them really, so has difficulty finding a proper way to change it, or even a reason. It's it like my mind resists changing the sentence, because at first I fail to see why.
+- [x] An additional problem seems to be that I have very little energy. This computer hobby usually takes little energy. I am built that way. But certain things about it do take energy. This task seems to tap into something my mind might not automatically do naturally or easily. Not sure why. It just takes too much effort.
 - [x] I kept re-evaluating the sentence as rewritten: whether it 'walked' well, whether it still made sense, whether the wording is varied enough in the document as a whole. That might be a lot of language processing for me right now.
 - [x] So after this reflection I am left with a question: How to proceed?
 - [x] Alternative: I am not sure, but could I proceed the same way, and just hope I might have more energy now?

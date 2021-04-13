@@ -87,16 +87,16 @@ __Contents__
 
 #### 2020-04-18 Done Rewording 2008-05 02 Classes & Relationships Specs Project Summary.docx
 
-- [x] ~~Rename "Relationship" => "Relationship" > I might keep the term relationship in there for now, otherwise I might have to go through so much documentation. If I refer to a product with the work relationship in it and change it in the planning docs, then I also might have to change it in the language spec docs and that is just a whole lot of work. I briefly looked up a discussion online about these words, and it does not seem people can find a really clear distinction or rule, just wishy washy hand wavy stuff, I think. It's just that in IT the term is usually 'relationship'. In the spirit of not alienating readers you might change it, but it does not seem semantically incorrect might you accidentally use the word 'relationship' instead.~~
+- [x] ~~Rename "Relationship" => "Relationship" > I might keep the term relationship in there for now, otherwise I might have to go through so much documentation. If I refer to a product with the work relationship in it and change it in the planning docs, then I also might have to change it in the language spec docs and that is just a whole lot of work. I briefly looked up a discussion online about these words, and it might not seem people can find a really clear distinction or rule, just wishy washy hand wavy stuff, I think. It's just that in IT the term is usually 'relationship'. In the spirit of not alienating readers you might change it, but it might not seem semantically incorrect might you accidentally use the word 'relationship' instead.~~
 
 #### 2020-04-18 Done Rewording 2008-06 02 Command as an Aspect Spec Project Summary.docx
 
 - [x] It mentions topics very much out of scope.
 - [x] I think it might not be harmful to keep that mentioning in there.
 - [x] Maybe I am trying to hide the out-of-scope topics too rigorously.
-- [x] There seem to be maybe's and perhapses missing, but it does not seem to sound too blunt.
+- [x] There seem to be maybe's and perhapses missing, but it might not seem to sound too blunt.
 - [x] Reconsider to split into in-scope and out-of-scope parts.
-- [x] Brainstorm: The input / output topics is so present in this sub-project description. It does not seem lightly touching the topic. Sometimes it is half a paragraph that goes on about just that, while it is not in-scope anymore. Maybe it is worth trying to extract it out, so the summaries of the work become simpler.
+- [x] Brainstorm: The input / output topics is so present in this sub-project description. It might not seem lightly touching the topic. Sometimes it is half a paragraph that goes on about just that, while it is not in-scope anymore. Maybe it is worth trying to extract it out, so the summaries of the work become simpler.
 
 #### 2020-04-18 Done Rewording 2008-06 03        Clarify Command as an Aspect Spec Project Summary.docx
 
@@ -112,7 +112,7 @@ __Contents__
 - [x] I see the difficulty of using the words 'concept' vs. 'aspect'. I want to call it 'aspects' everywhere. But contradictory: 'aspects' is now considered out of scope, while I cannot easily prevent mentioning it at all, because it was in the back of my head during some of these projects. I also have this a little with the term 'code base' which I want to rename to 'base of the code', because 'code base' is a term often used differently in IT.
 - [x] Out of scope ideas:
     - [x] I see this document talks about what I might rather call a runtime. Figuring out how Encircle could work stand-alone up and running is probably not in the scope of this project anymore. Just describing the language, mostly the diagram notation, is.
-    - [x] I see a sentence where I call the System Objects essential for the workings of Encircle. But if you see the notation as separate from the runtime it does not seem that essential.
+    - [x] I see a sentence where I call the System Objects essential for the workings of Encircle. But if you see the notation as separate from the runtime it might not seem that essential.
     - [x] So how do I reword this putting these ideas out of scope, without harming the integrity of the content?
     - [x] Hyp: In the original text I express that I feel system objects are essential, as a run-time, not for the notation.
     - [x] I keep seeing the idea of a runtime back. It's an interesting idea, but not in the anymore scope as I want to isolate it. I am reluctant to remove the text, because it is so nicely descriptive about that idea.
@@ -129,7 +129,7 @@ __Contents__
 
 - [x] Ideas document: ISNSE = Internet as a Single Computer > But why? Internet aS a[N] Single Entity?
 - [x] Brainstorm: Scope the Done projects?
-    - [x] I was already putting things out of scope, not just reformulating. I have done that for the Future projects, because putting it out of scope was easier than reformulating some of the difficult text. Maybe that rule does not hold up for reformulating the Done projects. I want to realize that the focus is on reformulation, not scoping. Only if it helps me get through the reformulations, I may want to also fine-tune the scoping in the planning docs.
+    - [x] I was already putting things out of scope, not just reformulating. I have done that for the Future projects, because putting it out of scope was easier than reformulating some of the difficult text. Maybe that rule might not hold up for reformulating the Done projects. I want to realize that the focus is on reformulation, not scoping. Only if it helps me get through the reformulations, I may want to also fine-tune the scoping in the planning docs.
     - [x] So the same argument kind of applies. If I know it is out of scope, I can just move it without further reformulation.
     - [x] Fortunately I am quite clear on what I put out of scope.
     - [x] Q: Might all 'fundamental principles' be put out of scope?
@@ -151,7 +151,7 @@ __Contents__
 #### 2020-04-18 Done Encircle Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects
 
 - [x] The aim is to use less definite, more open, language and to take out the personal 'I' form.
-- [x] I think a lot of documents do not contain as much prose as Encircle Language Spec Strategy, so maybe things are doable after all. Also it does not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
+- [x] I think a lot of documents do not contain as much prose as Encircle Language Spec Strategy, so maybe things are doable after all. Also it might not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
 - [x] ~~Limitation: I choose to not reorganize/resubdivide the sub projects. I choose to just change the wording.~~
 - [x] Main Project
     - [x] Mostly finished rewriting the content.
@@ -162,7 +162,7 @@ __Contents__
         - [x] ~~Automatic Containment was going to be put out of scope, because it is so difficult and really in the way of explaining how to use these diagrams normally.~~
         - [x] ~~I said I might focus on reformulating, not on scoping, but I just don't want to reformulate this content, it is so unclear.~~
         - [x] ~~Might I simply move more to the 'out-of-scope' document? I doubt, because I moved 'Errors' and the 'Aspect Construct' from out-of-scope to in-scope but postponed, because they 'felt' part of the language. Now the scoping rules change and I am wondering about how to organize things for a moment.~~
-        - [x] ~~Looking at the folder subdivision of the planning docs, it does seem like it should be moved there. And so does the aspect construct. Moved back again.~~
+        - [x] ~~Looking at the folder subdivision of the planning docs, it might seem like it should be moved there. And so might the aspect construct. Moved back again.~~
     - [x] Classes Spec Update Ideas.md
     - [x] Commands Spec Update Ideas.md
     - [x] Aspect Construct Spec Project Summary.docx
@@ -197,7 +197,7 @@ __Contents__
     - [x] `Static Spec Idea.md`
         - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Encircle Language JJ's Construct Proposals' or something.
         - [x] I might not want to remove it, if I look at that it explains how I see 'static' in a broader view.
-        - [x] But to understand my own doubts about the different ways to see the concept of 'static' that idea description explains a lot and otherwise I might think: where did that idea go and how does it work?
+        - [x] But to understand my own doubts about the different ways to see the concept of 'static' that idea description explains a lot and otherwise I might think: where did that idea go and how might it work?
         - [x] I feel that this concept of static might have a place in the general descriptions, but to apply this to the concept of Code = Data, though interesting to me, might not have to be part of that, because it may confuse and alienate the reader, who might be more familiar with more regular implementations of the concept.
     - [x] `System Objects Spec Update Ideas.md`
     - [x] Text Code Spec Project Summary.docx
@@ -226,7 +226,7 @@ __Contents__
             - [x] Heading 1 Calibri
         - [x] Maybe double-check the formatting afterwards by opening all documents on top of each other, closing them one by one, to see if all is uniform.
         - [x] Forgot the Done projects that have their own folder.
-            - [x] > They use different templates, so this formatting and making consisntent, probably does not apply to those.
+            - [x] > They use different templates, so this formatting and making consistent, probably does not apply to those.
         - [x] Don't Future Sub-Projects also have documents in that 'project summary' format?
             - [x] Alternative: format those too.
             - [x] Alternative: Go look for more project summaries in the Encircle Language Spec Plan folders.

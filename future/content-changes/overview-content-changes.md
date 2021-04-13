@@ -40,7 +40,7 @@ __Contents__
 - [x] Outtakes    Commands section:
     - [x] This seems a more general term for something you can execute on a computer.
 - [x] Black Boxes
-    - [x] The maybe alien nature of how black boxes took shape (the ubiquitous friend notation), might have made its story in this Overview long. But that is the design it is right now. No redesign might take place yet, is the plan. So can I shorten it? Do I admit, that maybe this notation might not be as prominent anymore at a later stage. Does it harm stability of the text if I say that? Or does it just humanize it?
+    - [x] The maybe alien nature of how black boxes took shape (the ubiquitous friend notation), might have made its story in this Overview long. But that is the design it is right now. No redesign might take place yet, is the plan. So can I shorten it? Do I admit, that maybe this notation might not be as prominent anymore at a later stage. Might it harm stability of the text if I say that? Or might it just humanize it?
     - [x] Outtake:
         - [x] The idea for the future is that *user* access control and *black boxing* access control might become a single concept of ‘what has access to what’, but that might not immediately be done at first.
 - [x] Interfaces outtakes:
@@ -50,8 +50,8 @@ __Contents__
     - [x] Type control seems quite present in programming languages, almost as if programming languages need it. But It might be 'easier' to construct a programming language with no type control in it, than to program type control into it. You might say, that when a programming language supports classes and interfaces, then the programming language might need additional functionality. But in reality, all the possibilities are already present.
     - [x] At first there is no type control at all. Anything can reference anything and this results in all sorts of possibilities, that things might go wrong in a program. Type control only enforces restrictions. When type controls is implemented inside Encircle, it is like nothing extra is offered, but only the ability to impose more restrictions to the possiblities already offered.
 - [x] Brainstorm:
-    - [x] I am correcting something that does not naturally come to me somehow. I do not seem to have an intuition for it. This seems to make it harder. I am more used to evaluating whether texts are clear, not whether they are stated in a 'loose enough' fashion. I am not sure if I can do this...
-    - [x] Maybe it is unnecessary. I am not sure. I might like it not to be necessary, because it does not seem I can do it.
+    - [x] I am correcting something that might not naturally come to me somehow. I do not seem to have an intuition for it. This seems to make it harder. I am more used to evaluating whether texts are clear, not whether they are stated in a 'loose enough' fashion. I am not sure if I can do this...
+    - [x] Maybe it is unnecessary. I am not sure. I might like it not to be necessary, because it might not seem I can do it.
     - [x] It seems useful, but I do not know if I can do it.
     - [x] What can do? What am I better at?
     - [x] Systemic tricks? Mark trigger words in red or something?

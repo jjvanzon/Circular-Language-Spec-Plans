@@ -96,7 +96,7 @@ __2__ articles:
 
 - *Sub-Object*
 
-    - The definition of 'sub-object' does not seem to be right anymore, because the Object Reference article said, that object references are no longer called sub-objects.
+    - The definition of 'sub-object' might not seem to be right anymore, because the Object Reference article said, that object references are no longer called sub-objects.
 
 #### Other Work
 
@@ -211,12 +211,12 @@ It may be an idea to take the following details into consideration:
         - `A  c=->  B  .  Target Class`
     - The diagram was worked out on paper.
     - Object reference assignment seemed a useful part of the solution.  
-    - But target object reference assignment does not seem needed in the solution. Target object reference assignment seems less common, and possible in an alternative way. Target object reference assignment also lead to thinking about assigning other types of targets and it might clutter the language with a bunch of alternative notations for things that are less common, for which a general notation could be used.
+    - But target object reference assignment might not seem needed in the solution. Target object reference assignment seems less common, and possible in an alternative way. Target object reference assignment also lead to thinking about assigning other types of targets and it might clutter the language with a bunch of alternative notations for things that are less common, for which a general notation could be used.
 - \> Commands and objects more the same
     - Class and definition assignment might be the same concept in that case, and then there might be only one type of interface assignment.
 -----
 - \> Calls seem created briefly, but definitions seem created permanently.
-    - How does that influence the different types of assignment?
+    - How might that influence the different types of assignment?
     - It seems to mean, definitions could get object lines anyway, and calls can not.
     - Articles that might change:
         - Object assignment
@@ -227,7 +227,7 @@ It may be an idea to take the following details into consideration:
             - (possibly rephrase small parts)
     - Incorporate:
         - To make direct conversion between a command and an object possible without any loss of structure, a call maybe should be able to have an object line. In that case the rule might be: when a call symbol has an object line, the object line behaves as a class line.  
-        But does that not require a warning to be generated?
+        But might that not require a warning to be generated?
     - Explained unsimplified notations of assignment
         - Perhaps display the notation of an assignment calling upon system commands.  
         It was not clear how to do it before, but now most seems known about the system interface, it seems clear enough now, how to express it.  
@@ -262,7 +262,7 @@ It may be an idea to take the following details into consideration:
         - ~~In Target Object Reference Assignment and Object Reference Assignment maybe refer to the article Automatic Containment for an explanation on imaginary reference lines.~~
         - Perhaps put all references to other articles in the see also list.
     - Class and interface assignment:
-        - If an object does not have a class,  
+        - If an object might not have a class,  
         then the object itself might be assigned as a class.  
-        If an object does not have an interface,  
+        If an object might not have an interface,  
         then the object itself might be assigned as an interface.

@@ -134,7 +134,7 @@ It are the ones for which exists doubt, that the first version might be able to 
 - Navigate existing systems over the internet
 - Playing video
 
-(Does not look like test cases, more like complete applications. Maybe just a prototype could be a test case.)
+(Might not look like test cases, more like complete applications. Maybe just a prototype could be a test case.)
 
 Perhaps even further down the road, you should have even more extreme test cases:
 

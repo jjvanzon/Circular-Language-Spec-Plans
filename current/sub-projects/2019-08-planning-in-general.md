@@ -33,7 +33,7 @@ __Contents__
 #### 2019-08-05 Done Writing Style Mixed Issues
 
 - [x] ~~The work might be modularized. I am not attracted to how CSS3 is modularized, each piece of specs with a different state of being finished up. It seems messy. But I can employ the same organization to accept certain concepts are just more crystalized out than others, making it easier to share, even in an unfinished state, and stimulating keeping things separated and separately usable even when other parts are just really still messy. > Scoped things more sharply instead, so more is finished up better percentually.~~
-- [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends might make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually does the trick. Might tell people clearly not to expect too much from the text that follows. Just being clear about that might be enough.~~
+- [x] ~~I took a look at some of the postponed work. I worry about the messiness of the content. And if the loose ends might make the idea fall apart. And whether this makes it even fit for publishing. I just don't know. But I think I should come back to it later. Because I had strategies for this. And I might be too hard on myself. A clear 'flag' [Preliminary documentation] in red somewhere at the top usually might the trick. Might tell people clearly not to expect too much from the text that follows. Just being clear about that might be enough.~~
 
 #### 2020-05-24 Done Notes Planning
 
@@ -67,7 +67,7 @@ So with that new perspective on the work, I was done and satisfied with the last
 - [x] Side-goal: I read nicer docs, giving my head a bit of a break.
 - [x] I think I might mark things with red before actually moving content out.
 - [x] Still lots of definites in the wording of the main planning docs.
-- [x] I do like too see it reworded it to nothing being a strict rule anymore and you can always make up your own mind. It seems this does not harm the integrity of the idea.
+- [x] I do like too see it reworded it to nothing being a strict rule anymore and you can always make up your own mind. It seems this might not harm the integrity of the idea.
 
 #### 2020-03-15 Done Planning
 

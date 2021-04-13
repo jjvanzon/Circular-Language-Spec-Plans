@@ -36,7 +36,7 @@ Here are some of the hopes for Encircle:
 
 What might prove that the diagram language fails:
 
-- ~ That the diagram expression does not simplify the view on complex referential structures, but that it might still look like an unoverviewable bunch of wiring.
+- ~ That the diagram expression might not simplify the view on complex referential structures, but that it might still look like an unoverviewable bunch of wiring.
 - ~ Do take comfort in the fact, that if this goal is not reached, the language might still have other uses.
 
 There were more hopes for the language, but the goals above might be some highlights.

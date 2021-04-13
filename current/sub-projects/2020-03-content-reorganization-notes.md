@@ -86,8 +86,9 @@ __Contents__
 
 #### 2021-04-13 TODO Replacement Terms
 
-- [ ] __🍰 Replacing "would" with "might".__
-- [ ] Searching for "does" replacing some occurrences?
+- [x] 🍰 Changing tone: replacing "would" with "might".
+- [x] 🎵 Changing tone: replacing "does" with "might".
+- [x] Correcting back: "probably might"
 - [ ] 3.0 might reference a future version sometimes,  
       without being clear about that.
 - [ ] ~ Renaming "Object Order" to "Sequence Order"
@@ -107,7 +108,7 @@ A diversion to an Errors article may be appropriate.
         - [ ] ~ One doc for Exchangeability?
         - [ ] ~ One doc for Extensibility?
 - [ ] `<< not sure >>`
-    - [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But does it matter much?
+    - [ ] ~ Some planning docs titles end with "plan", but what's inside seem mostly "notes". But might it matter much?
 - [ ] `<< chapter reorganization >>`
     - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
     - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
@@ -431,14 +432,14 @@ But I might want to be selective about it.
     - [x] I think I already had a place in mind for that, to move this article to a different main topic. I think tso Commands, but I think I put that down in the planning doc Encircle Language Spec Product List.
     - [x] Encircle Language Spec Product List says that it should belong in the Commands chapter.
 - [x] "Redirection"
-    - [x] Encircle Language Spec Product List does not seem to assign a specific existing Chapter to it. It says 'ref-ness'? Maybe that pointer to pointer situations might all be put in a separate chapter, this might also belong there?
+    - [x] Encircle Language Spec Product List might not seem to assign a specific existing Chapter to it. It says 'ref-ness'? Maybe that pointer to pointer situations might all be put in a separate chapter, this might also belong there?
     - [x] It talks about 'target symbols'.
     - [x] There are several target symbol topics in e.g. the chapters Objects, Classes and Interfaces.
     - [x] Maybe that can all go to a chapter about ref-ness, or whatever generic term I might find for it.
     - [x] If it is just about target symbols, maybe the topics are already covered by the previous content.
-    - [x] It does seem to be about redirecting e.g. the object aspect and then about tracing to the final target object/class/interface after following the redirections.
+    - [x] It might seem to be about redirecting e.g. the object aspect and then about tracing to the final target object/class/interface after following the redirections.
     - [x] I do like the idea of a Pointers chapter or something.
-    - [x] This content does seem to be covered elsewhere.
+    - [x] This content might seem to be covered elsewhere.
     - [x] Perhaps I should just make a folder 'Pointers' and put it there, and a readme just to make a point, that it could just become a separate chapter.
 - [x] "30. Misc Diagram Topics"
     - [x] I think this is appropriate as a separate chapter.
@@ -568,7 +569,7 @@ I think I'll just start with those and take it from there.
 There's something about text code in Interface Assignment Types. That could be moved to Encircle Construct Drafts.
 Maybe move the Loose Ideas all to a separate article at the end.
 
-I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Encircle Language Spec, and perhaps leave as a topic for Encircle Construct Drafts. But right now the idea seems embedded into the Encircle Language Spec, and without significant modification, it does not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
+I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Encircle Language Spec, and perhaps leave as a topic for Encircle Construct Drafts. But right now the idea seems embedded into the Encircle Language Spec, and without significant modification, it might not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
 
 #### 2020-05-20 Done Merging Black Boxes Articles Together
 
@@ -631,7 +632,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] "3.0.1. Loops"
     - [x] "4.0.1. Jumps"
     - [x] "5.0.1. Loop-Related Jumps"
-- [x] Reason: I had almost merged it into one document, but I like how the separate documents seem to nicely categorize the different kinds of execution control. Also: merging it into one document might give me a tendency to use more heading levels and the styling for those is not optimal yet. Not a strong argument maybe, but it does make me think: More heading levels might be 'proof' that a separation in several articles is not a bad thing.
+- [x] Reason: I had almost merged it into one document, but I like how the separate documents seem to nicely categorize the different kinds of execution control. Also: merging it into one document might give me a tendency to use more heading levels and the styling for those is not optimal yet. Not a strong argument maybe, but it might make me think: More heading levels might be 'proof' that a separation in several articles is not a bad thing.
 - [x] I just wanted to save some time merging each pair of documents lots of times only to merge them into a larger document again.
 - [x] Taking a look at how it looks now.
 
@@ -671,7 +672,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] "19. Parent Controls Its Sub-Executions.docx":
     - [x] Seems like the 3 articles after it are part of it, but not sure.
 - [x] Creation behavior:
-    - [x] There seem 8 'Creation Behavior' articles. They might not be small, but grouping them to one article might tidy up. Also, it does not seem to me a topic you always want to see in detail. Maybe look at it once and say "Ok, so that's how that could work." Now the topic is quite prominently present in the article list.
+    - [x] There seem 8 'Creation Behavior' articles. They might not be small, but grouping them to one article might tidy up. Also, it might not seem to me a topic you always want to see in detail. Maybe look at it once and say "Ok, so that's how that could work." Now the topic is quite prominently present in the article list.
 - [x] These seem groupable:
     - [x] "35.2. Inactive Command Object Redirection.docx"
     - [x] "36.1. Inactive Command Class Redirection.docx"
@@ -814,7 +815,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] Not sure if that prefixing looks so great.
             - [x] It looks cluttered. And I cannot apply it consistently, because of path length problems. Branch. Try without prefixes.
             - [x] 'Spec Plan' somewhere in there looked ok.
-            - [x] My doubts are that if this doc is in the internet, the title means a lot, so why not have it be complete? It does already have that completeness somewhere in the URL, but...
+            - [x] My doubts are that if this doc is in the internet, the title means a lot, so why not have it be complete? It might already have that completeness somewhere in the URL, but...
             - [x] Maybe let go of the toilet role principle and just call something 'Automatic Containment for Relationships.doc'. Not 'Plan', not 'Spec' just lazy. Maybe it is ok.
             - [x] My being better at systematics than words might be in the way. So that I don't easily decide what's clear enough.
         - [x] Convert to docx without Compatibility Mode.
@@ -867,7 +868,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Encircle Language Design is also an option. 'Specification' may raise expectations about finishedness.
     - [x] Encircle Language Design Planning
     - [x] Encircle Language Specification
-    - [x] 'Specification': suggests finishedness, but does it? CSS is all sorts unfinished modules.
+    - [x] 'Specification': suggests finishedness, but might it? CSS is all sorts unfinished modules.
     - [x] Leaving out 'Specification' or 'Design': Makes distinction with Experiment 3 Programming hard to see.
     - [x] The word 'Encircle' should be in it.
     - [x] The word 'Language' at least sheds light a bit on what it actually is.

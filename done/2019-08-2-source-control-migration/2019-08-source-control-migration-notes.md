@@ -81,11 +81,11 @@ Idea bout converting version folder to source control history:
 > I have doubt whether I should even do the conversion from version folders to source control history here.
 > Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.  
 >
-> The math as objects does have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of Encircle. But... none of this documentation is well worded to support that concept...
+> The math as objects might have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of Encircle. But... none of this documentation is well worded to support that concept...
 
 #### 2019-08-11 Done Controls Concepts Version Folders to Source Control History
 
-- [x] I can convert the version folders to source control history the regular way, because each successive version does seem to replace the former version.
+- [x] I can convert the version folders to source control history the regular way, because each successive version might seem to replace the former version.
 - [x] Where is that navigation model brainstorm?
     - [x] It is in the control concepts' root folder. It has a doc in it directly, which I overlooked.
 
@@ -150,7 +150,7 @@ Idea bout converting version folder to source control history:
     - [x] ~~Viewing all pictures in master.~~ > Diff between two runs might say enough.
     - [x] Comparing *master's* lists of files (using KDiff and/or JJ Utilities)
     - [x] Checking out some commits and looking at the checked out file tree?
-        - [x] I was insecure about the first few commits. History does not seem to map back easily to those first few commits. ("Version 2008-07-13 XX: Before ordering it more by how you read it" seems the 'terminator' quite frequently.)
+        - [x] I was insecure about the first few commits. History might not seem to map back easily to those first few commits. ("Version 2008-07-13 XX: Before ordering it more by how you read it" seems the 'terminator' quite frequently.)
 - [x] More laborious checks?
     - [x] Checking each remaining file for completeness of history
         - [x] 1.1. Encircle Language Spec

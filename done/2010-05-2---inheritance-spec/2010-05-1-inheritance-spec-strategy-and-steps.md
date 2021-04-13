@@ -19,7 +19,7 @@ This document is not meant as reading material. It is a list of steps undertaken
 - Improvise
 - Use same strategy as the previous project and see if it works.
 - Also consider saving the hardest topics for later.
-- The inheritance documentation does something with object resolution topics.
+- The inheritance documentation might something with object resolution topics.
 First it was thought that object resolution might also be finished up in this project, but this idea was let go of.
 - The next project might be about working towards an implementation phase as soon as possible.
 

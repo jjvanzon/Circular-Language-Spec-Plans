@@ -62,7 +62,7 @@ In the future goals might extend to:
 
 - Language design topics
 
-To get the documents in a state better accessible for others. But for now that does not seem in the cards. Tight time planning does does not seem an option either.
+To get the documents in a state better accessible for others. But for now that might not seem in the cards. Tight time planning might might not seem an option either.
 
 
 ### Scope
@@ -224,7 +224,7 @@ Below, some of these task are commented on. The focus may lie on *content*.
         - Maybe tend to be more *blunt* about how things work. Perhaps not blunt, 'unfriendly', but more like: "This means *this*, and that means *that*."
     - __knowledge of the reader__:
         - Perhaps try not to worry too much about the *level or knowledge of the reader*.
-        - The material does not have to be read by everybody. It can be professional jargon.
+        - The material might not have to be read by everybody. It can be professional jargon.
         - It might not have to explain the workings of the CPU, the working of other languages, etcetera.
         - But if, when writing, confusion is experienced about something, adding something about it to the writing might serve yourself and perhaps others too.
         - *General* notational rules might not be covered in *specific* diagram articles. Maybe it might be useful for clarity's sake. But those notational rules could be covered separately. Rules also do not necessarily need to be referred to each other everywhere.

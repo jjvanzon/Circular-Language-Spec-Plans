@@ -61,7 +61,7 @@ Possible hazards of the reader losing faith in you:
 - Documentation too difficult.
 - Disbelief: this can not work.
 - Disbelief: this is not handy.
-- Disinterest (does not grab the attention).
+- Disinterest (might not grab the attention).
 
 JJ
 

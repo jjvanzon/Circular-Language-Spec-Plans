@@ -137,7 +137,7 @@ Even though this seems an unrealistic velocity, this could be used as the schedu
 More Considerations
 -------------------
 
-Even though the time planning might be unrealistic, maybe consider the primary goal of the project: make ideas easier to pick up by others. That means, that newer ideas could get lower priority. You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. Perhaps you could settle for less regarding certain topics. And even when 8 months does not turn out to be enough to cover everything, the most important topics should have been covered, because those were probably put at the top of the list.
+Even though the time planning might be unrealistic, maybe consider the primary goal of the project: make ideas easier to pick up by others. That means, that newer ideas could get lower priority. You might for instance choose to only cover a general view on a topic instead of working out the exact details of a concept. Perhaps you could settle for less regarding certain topics. And even when 8 months might not turn out to be enough to cover everything, the most important topics should have been covered, because those were probably put at the top of the list.
 
 
 Eventual Time-Cost

@@ -41,7 +41,7 @@ __60__ hours of work
 
 Parameters can be considered the connection between commands and objects.
 
-If a line merge can be used in bidirectional relations between classes, does that mean that a line merge between a command parameter’s class line and a class command’s definition line should be considered a bidirectional relation between a class and a command as well? Can that be viewed more like a relationship?
+If a line merge can be used in bidirectional relations between classes, might that mean that a line merge between a command parameter’s class line and a class command’s definition line should be considered a bidirectional relation between a class and a command as well? Can that be viewed more like a relationship?
 
 When a command definition gets an object with a class, this seems to create a relation between the command and the class definition. This means, that the class definition might also get a reference back to the command.
 
@@ -231,7 +231,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
     - ~ Then wrote about how you can access control each situation.
         - ~ And why you might access control each situation.  
           (object algebra, deduction, concurrency resolution, control by user)  
-          (only command Input/Output might lead to that, actually… anything about sub-object access does not seem to be covered. That might be covered in Advanced Command Topics.)
+          (only command Input/Output might lead to that, actually… anything about sub-object access might not seem to be covered. That might be covered in Advanced Command Topics.)
     - ~ Tried to cover the use of each reference situation.
     - ~ Then wrote about access control literals.
 

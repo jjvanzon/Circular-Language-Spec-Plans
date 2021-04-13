@@ -15,7 +15,7 @@ Search Tools Research | 2020-04 | Notes
 - [x] Obs~ Visual Studio Find in Files might not search doc contents.
 - [x] Hyp:    Windows 7 File Explorer might not find whole words. For some things that's relevant for other things it is not. (I thought I saw it).
 - [x] Exp: search "*.doc"
-- [x] Obs: Now it does not match "*.docx".
+- [x] Obs: Now it might not match "*.docx".
 - [x] Hyp: I thought I saw that some times.
 - [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Encircle Language Spec Plan". Search "content:Joost".
 - [x] Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.

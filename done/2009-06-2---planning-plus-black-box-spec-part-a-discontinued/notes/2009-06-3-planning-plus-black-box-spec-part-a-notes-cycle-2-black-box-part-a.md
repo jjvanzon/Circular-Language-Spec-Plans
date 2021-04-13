@@ -130,11 +130,11 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
                 - Adapt the other documentation to the distinction between object-bound & reference-bound aspects:
                 - [x] Before introducing access control onto other aspects, you have to explain the difference between object-bound and reference-bound aspects.
                 - [x] You also *have to* work out exactly how object-related aspects are access controlled and how friend declarations work in that case.
-                - [x] The rule: ‘always imposed by parent’ is embedded into the stories, before Accessing Other System Aspects. That rule does not always apply, so you should not introduce it there either. You can introduce that in the object-bound and reference-bound story.
+                - [x] The rule: ‘always imposed by parent’ is embedded into the stories, before Accessing Other System Aspects. That rule might not always apply, so you should not introduce it there either. You can introduce that in the object-bound and reference-bound story.
                     - [x] \> It is ok this way.
                 - [x] Then the access control connector diagrams have to change. The object-related aspects do not require a parent.
                 - [x] I misinterpreted the Reference Class and Object Class terms when updating the connectors and connections.  
-                It does not have anything to do with pointers to pointers.  
+                It might not have anything to do with pointers to pointers.  
                 You have Get Reference Class and Get Object Class,  
                 but not Object Set Class or Object Use As Class
             - [x] Move remarks in overviews to below the overviews.
