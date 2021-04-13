@@ -19,7 +19,7 @@ __Contents__
     - [x] ~~Might not give high priority to marking trigger words manually anymore.~~
 - [x] ~~Possibly manually mark questionable trigger words with a star (*) too.~~
 - [x] ~~Finding replacement words, possibly using online thesaurus.~~
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea might disrupt anything, even when I may not entirely agree with it myself.
 
 #### 2020-06-26 Done Reformulating Relationships Chapter
 

@@ -95,7 +95,7 @@ I seem to not like it when I make the rules for reformulating things so strict. 
 
 It was supposed to feel like hobby.
 
-I think I would like to change the rules by which I was reformulating these texts.  
+I think I might like to change the rules by which I was reformulating these texts.  
 I think I want to be more ok with words that seem to exaggerate or be quite strong. For instance "distinct", ''rule", "defined". Maybe I want to keep those words in there.  
 I think I am noticing that many words just are black and white. If I use a thesaurus I get to see words that might also be quite strong.  
 Maybe I can leave it with adding maybe's and perhapses and leave words that seem to express it strongly, in there.
@@ -108,7 +108,7 @@ Reasons for changing the way to do it might be:
 
 I used to aim to be concise. In doing so, some thing might start to seem a bit commanding or something. But I did do my best then to make the text clear. Maybe this is not such a bad thing and maybe I was not doing that badly at it after all. Maybe just adding some wiggle words is enough, so that I might form an intermediate writing style. Perhaps that might be concise, strong, but leaving room for other options.
 
-I would like to feel comfortable writing again. I would like to not do it 'wrong' like before, if that was even wrong.
+I might like to feel comfortable writing again. I might like to not do it 'wrong' like before, if that was even wrong.
 
 #### 2020-05-31 Done Wiggle Word Difficulty
 
@@ -119,7 +119,7 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 - [x] But trying to find alternate formulations for them, was tricky.
 - [x] One thing that seems to bother me, is that I do not see that a rule is too fixated, until I have formulated it in a more open sense and sensed that it is feels closer to the truth. But I do not seem to read a resolute sentence and realize it could use wiggle room. I mostly just see a valid rule, not one too harshly stated.
 - [x] Another aspect to consider is that formulating new sentences quite automatically I insert the wiggle words, probably because I did train myself a bit to use them more. But seeing the problem in existing texts is harder somehow.
-- [x] I would like that after marking trigger words in red, it would be a matter of arbitrarily inserting wiggle words, removing adjectives or changing definite verbs to more polite ones.
+- [x] I might like that after marking trigger words in red, it might be a matter of arbitrarily inserting wiggle words, removing adjectives or changing definite verbs to more polite ones.
 - [x] But I end up scratching my head trying to find a way to reformulate something. Difficulty to find the 'nicest' alternate word, or sometimes even to realize something is even wrong with the trigger word I marked in red.
 - [x] Sometimes my brain says: nothing is wrong with trigger word, but when I replaced it with difficulty, I realize the trigger word did seemed to be 'wrong' after all, and realize that things are not necessarily that black and white.
 - [x] But my mind, that is reading and understanding these existing sentences does not sense anything wrong with them really, so has difficulty finding a proper way to change it, or even a reason. It's it like my mind resists changing the sentence, because at first I fail to see why.
@@ -148,10 +148,10 @@ I would like to feel comfortable writing again. I would like to not do it 'wrong
 #### 2020-04-18 Done Brainstorm Writing Style
 
 - [x] ~~It kind of bothers me that the story starts in the middle. Where are the other sub-project descriptions? Maybe mixed with other big projects, like 'Software System Documentation'. Maybe.~~
-- [x] Brainstorm: I worry a lot if the words come off too strongly. On top of that I am not in a very subtle mood right now. If I was feeling more calm and friendly, I might have better judgement about it. Maybe I cannot do this right now. I can only judge language constructions, not whether it feels right. When my base line mood would be calm and friendly, I can just feel whether the words bump with that or not. That might be easier. Sometimes just using calmer language, makes me calmer, but right now it does not seem to be working.
+- [x] Brainstorm: I worry a lot if the words come off too strongly. On top of that I am not in a very subtle mood right now. If I was feeling more calm and friendly, I might have better judgement about it. Maybe I cannot do this right now. I can only judge language constructions, not whether it feels right. When my base line mood might be calm and friendly, I can just feel whether the words bump with that or not. That might be easier. Sometimes just using calmer language, makes me calmer, but right now it does not seem to be working.
 - [x] Wording:
-    - [x] Is it really such a problem, that I talk in definites about steps taken and rules of the systematics as I try to work them out? Maybe in talk like that, still add a 'might'. Imagine what if you would not explain to yourself, but to someone else that has to work it out further. Imagine what it would feel like if someone else read it. Like you're being dictated rules, perhaps.
-    - [x] After that I might want to change command-like sentences and rule-like statements, to just add 'might' to it or other wiggle words. I would talk to myself that way, just maybe comes off harsh. Maybe being less strict towards myself is also not a bad idea.
+    - [x] Is it really such a problem, that I talk in definites about steps taken and rules of the systematics as I try to work them out? Maybe in talk like that, still add a 'might'. Imagine what if you might not explain to yourself, but to someone else that has to work it out further. Imagine what it might feel like if someone else read it. Like you're being dictated rules, perhaps.
+    - [x] After that I might want to change command-like sentences and rule-like statements, to just add 'might' to it or other wiggle words. I might talk to myself that way, just maybe comes off harsh. Maybe being less strict towards myself is also not a bad idea.
     - [x] Added maybe's.
     - [x] Perhaps after that a reformulation phase. I tend to come up with nicer flowing alternatives to just the word 'maybe'.
 - [x] Brainstorm wording:

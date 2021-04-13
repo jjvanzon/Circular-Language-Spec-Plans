@@ -132,7 +132,7 @@ But that might be a bit unforgiving.
     - Which tougher subjects?
 - Perhaps defining a list of intended future sub-projects.
 
-Maybe plan for easier topics only. The idea is: you might not know how difficult the harder topics might be in the future. They may become easier as time passes by and after the basics would be worked out better.
+Maybe plan for easier topics only. The idea is: you might not know how difficult the harder topics might be in the future. They may become easier as time passes by and after the basics might be worked out better.
 
 #### Project Order
 
@@ -233,7 +233,7 @@ Below, some of these task are commented on. The focus may lie on *content*.
     - __implications__:
         - Maybe try not to worry about considering the *implications* of things.
     - __uses__:
-        - Perhaps try to avoid explaining all the different uses of the language. It would be hard to cover them all, since it could be considered a general purpose programming language. Basic building blocks might be provided. It might not be necessary to try and give all the examples of what to do with it.
+        - Perhaps try to avoid explaining all the different uses of the language. It might be hard to cover them all, since it could be considered a general purpose programming language. Basic building blocks might be provided. It might not be necessary to try and give all the examples of what to do with it.
     - __keeping it general__
         - You might for instance choose to only cover a *general view* on a topic instead of working out the exact details of a concept. 
     - __delete__:
@@ -241,7 +241,7 @@ Below, some of these task are commented on. The focus may lie on *content*.
 
     -----
 
-    - Maybe try not to worry about the details. They might resolve naturally later, perhaps when programming an application for it. A side-effect of covering much detail, might be imposing rules, that you would later break. Or that effort goes into coming up with rules, that are hard to uphold. Rule-richness may get rules stuck on each other.
+    - Maybe try not to worry about the details. They might resolve naturally later, perhaps when programming an application for it. A side-effect of covering much detail, might be imposing rules, that you might later break. Or that effort goes into coming up with rules, that are hard to uphold. Rule-richness may get rules stuck on each other.
 
     - The list above may work well as a set of guidelines for a sort of 'prototyping' part of a project, as opposed to a 'finishing touches' part of a project.
      

@@ -41,7 +41,7 @@ __16__ hours of work
 - \> Similar things were done in a project ‘Rethink Software System’ between October 2007 and February 2008. There it was done for for the 'Creator' documentation then and for loose 'Ideas' in general.  
 In this project it is done for the Symbol documentation.  
 Back then the function in mind for the Symbol documentation was that it could serve a a 'cross out list' while writing newer documentation.  
-But now it would be used to scatter its content around the newer documentation.  
+But now it might be used to scatter its content around the newer documentation.  
 - Looked for more cross out documents, for instance the Relational Structure document.
 Considered processing them too.
     - \> The following were found:

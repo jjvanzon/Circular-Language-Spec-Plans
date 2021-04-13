@@ -86,7 +86,7 @@ __Contents__
 
 #### 2021-04-13 TODO Replacement Terms
 
-- [ ] Searching for "would" replacing some occurrences?
+- [ ] __🍰 Replacing "would" with "might".__
 - [ ] Searching for "does" replacing some occurrences?
 - [ ] 3.0 might reference a future version sometimes,  
       without being clear about that.
@@ -94,7 +94,7 @@ __Contents__
 
 #### 2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form
 
-Do I start in the I form here? I had the idea to put things in the I form. This would be my 'solution' for presenting unsound, non-bullet proof ideas. So there is admission of subjectiveness. Also all the opinions I wanted to present, may be expressed with doubt built into it ('may', 'might', 'perhaps', 'maybe'). So no statement may be wrong or right and it might not really matter nor make the text invalid.
+Do I start in the I form here? I had the idea to put things in the I form. This might be my 'solution' for presenting unsound, non-bullet proof ideas. So there is admission of subjectiveness. Also all the opinions I wanted to present, may be expressed with doubt built into it ('may', 'might', 'perhaps', 'maybe'). So no statement may be wrong or right and it might not really matter nor make the text invalid.
 
 A diversion to an Errors article may be appropriate.
 
@@ -335,8 +335,8 @@ A diversion to an Errors article may be appropriate.
 - [x] Right now I feel maybe the first 5 could be merged into one.
 - [x] Along with some main topics, I feel there are loose topics. Maybe those loose topics could be grouped together with something.
 - [x] I think Connectors and Connections is something I might want to combine into one article.
-- [x] Assignment I would like to keep separate for now.
-- [x] System Command Call Notations too. It's kind of large and honestly a bit questionable, so I would like to keep that separate.
+- [x] Assignment I might like to keep separate for now.
+- [x] System Command Call Notations too. It's kind of large and honestly a bit questionable, so I might like to keep that separate.
 - [x] I am thinking the remaining 4 relatively small articles, might be combined into a System Objects Misc article.
 - [x] "01. System Objects" > Larger > Keep separate
 - [x] "02. Assignment" > Medium sized > Keep separate
@@ -356,7 +356,7 @@ I feel merging the articles together is not something I necessarily want to do r
 
 I guess I feel I might want to polish up the way I explain things, before I put effort into merging the articles together at all? Are the articles not particularly small, like some of the articles I merged together before?
 
-Some articles are smallish or sort of medium sized. I think I could just make it one article. That may make it more manageable the way I would like. I do not see my not entirely agreeing with the concept anymore as standing in the way of that.
+Some articles are smallish or sort of medium sized. I think I could just make it one article. That may make it more manageable the way I might like. I do not see my not entirely agreeing with the concept anymore as standing in the way of that.
 
 Still want to change the fonts.
 
@@ -489,8 +489,8 @@ The articles that follow do not seem to be many or they are already larger ones 
 - 25.        Destructive & Non-Destructive Specialization Methods > Smaller
 - 26. Misc Inheritance Situations > Medium-sized / smaller
     - > Moved to Inheritance Main Concepts.
-- 27. Enforcing & Preventing Specialization > Larger > Would probably keep it separate.
-- 28. Deeper Specialization.docx > Larger > Would probably keep it separate.
+- 27. Enforcing & Preventing Specialization > Larger > Might probably keep it separate.
+- 28. Deeper Specialization.docx > Larger > Might probably keep it separate.
 - 29. Alternate Version Through Inheritance > Smaller
     - > Maybe move this detail elsewhere.
         Might not be worth an entirely separate article.
@@ -499,7 +499,7 @@ The articles that follow do not seem to be many or they are already larger ones 
         Is it deprecated? Covered elsewhere already?
         I don't know. But at this stage maybe I do not need to know.
 - 30.1. Extending System Objects in a Diagram (Older) > Medium-sized / smaller
-    - > Would probably merge it with the main article.
+    - > Might probably merge it with the main article.
 - 31. Inheritance Ideas > Medium-sized
 ```
 
@@ -510,7 +510,7 @@ Most of them are small.
 "13. Qualified Event Names" should be out of scope, since it is about text code?  
 The articles before 'System Events' might be put into one article.  
 I might put System Events in one article.  
-System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Encircle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Encircle would function more like a stand-alone language, rather than mostly a diagram notation).  
+System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Encircle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Encircle might function more like a stand-alone language, rather than mostly a diagram notation).  
 The last 3 articles might become a single 'misc' article. But perhaps some of them have a place in the main article.
 
 ```
@@ -631,7 +631,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] "3.0.1. Loops"
     - [x] "4.0.1. Jumps"
     - [x] "5.0.1. Loop-Related Jumps"
-- [x] Reason: I had almost merged it into one document, but I like how the separate documents seem to nicely categorize the different kinds of execution control. Also: merging it into one document would give me a tendency to use more heading levels and the styling for those is not optimal yet. Not a strong argument maybe, but it does make me think: More heading levels might be 'proof' that a separation in several articles is not a bad thing.
+- [x] Reason: I had almost merged it into one document, but I like how the separate documents seem to nicely categorize the different kinds of execution control. Also: merging it into one document might give me a tendency to use more heading levels and the styling for those is not optimal yet. Not a strong argument maybe, but it does make me think: More heading levels might be 'proof' that a separation in several articles is not a bad thing.
 - [x] I just wanted to save some time merging each pair of documents lots of times only to merge them into a larger document again.
 - [x] Taking a look at how it looks now.
 
@@ -653,15 +653,15 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 #### 2020-05-18 Done Merging Commands Articles Together
 
 - [x] I still mean to rename the docs so the 'in a Diagram suffixes are gone.
-- [x] Could not see a pattern in what I would want browsing the first few documents.
+- [x] Could not see a pattern in what I might want browsing the first few documents.
 - [x] Maybe I want to group the first ones into a Main Concepts article.
 - [x] I might want to inspect it some more in search of ideas.
 - [x] Main Concepts:
-    - [x] I suspect I would like to put the 10 documents Commands.docx until Active Clause.docx in one document.
+    - [x] I suspect I might like to put the 10 documents Commands.docx until Active Clause.docx in one document.
 - [x] Hard to group:
     - [x] Start & Stop.docx until 13.1. Changing Inactive to Executable.docx the articles are sort of medium sized and hard to view as a group together, I think.
 - [x] Personal feeling: I think the information rate is too high for me now. Lots of topics rush by my eyes at a large pace and my energy level is dropping.
-- [x] Even if I do not know how I could group together many of the articles logically, if I can find a few groups, that would already benefit the overviewability of the topic list.
+- [x] Even if I do not know how I could group together many of the articles logically, if I can find a few groups, that might already benefit the overviewability of the topic list.
 - [x] ~~These are small:~~
     - [x] ~~"15.0. Command References Inside Commands.docx"~~
     - [x] ~~"16.2. Executables & Executions.docx"~~
@@ -691,7 +691,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Maybe put them all in one article.
     - [x] ~~Maybe rename and see what they mean.~~
 - [x] Some topics' titles look like main concepts to me. I want to evaluate later if I want to move them to Commands Main Concepts.docx.
-    - [x] Maybe if ut were'd for the Start and Stop article in between I would just move more to Commands Main Concepts.
+    - [x] Maybe if ut were'd for the Start and Stop article in between I might just move more to Commands Main Concepts.
     - [x] Consider merging the content of these with into the Commands Main Concepts.docx:
     - [x] "13. Reading & Writing Parameters.docx"
 - [x] Merge these two:
@@ -710,7 +710,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] I think the main parts may become more obvious from the article list if I merge together more articles into one.
 - [x] System Command Call Notations:
     - [x] 4 smaller, 3 larger
-    - [x] Not sure if for the size of them I would merge them together.
+    - [x] Not sure if for the size of them I might merge them together.
     - [x] It is kind of one topic.
 - [x] ~~Misc topics at the end:~~
     - [x] ~~Not sure yet if merging is appropriate.~~
@@ -724,7 +724,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] Describes Basic Diagram Elements.
         - [x] The argument, that the diagram elements might be quickly introduced at the beginning, I am not sure about that anymore. So not sure if this actually should be at the beginning of the documentation anymore.
     - [x] "6. Expression\1. Diagrams"
-        - [x] Seems less finished up. I am not sure I would want to put that at the top of the documentation or at least not in this state.
+        - [x] Seems less finished up. I am not sure I might want to put that at the top of the documentation or at least not in this state.
     - [x] "7. Other Topics\9. Old or Boring\About Programming In General.doc"
         - [x] This is old text, that when rewritten I might even want as the introduction text that the Encircle Language Spec starts with, or maybe just part of it.
         - [x] Is not really a diagram expression topic specifically.
@@ -766,8 +766,8 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] I could strip one of the copies.
     - [x] Leave that one in the new documentation.
     - [x] So do I remove the one from the 'Previous Version' documentation?
-    - [x] For versioning like that, I think it would have made sense to keep the one in the 'Previous Version' documentation.
-    - [x] But for control over the content, that I publish, in this case I would really like one copy.
+    - [x] For versioning like that, I think it might have made sense to keep the one in the 'Previous Version' documentation.
+    - [x] But for control over the content, that I publish, in this case I might really like one copy.
     - [x] Result of diff: 2x Thumbs.db. 4x a file that is not in 'Previous Version', but is in 'Other Diagram Topics\Example Diagrams'
     - [x] Then do I want to remove the one in 'Previous Versions'?
     - [x] I am not sure I want to unzip them first and then commit. Maybe I want to clear it out first after I unzip it, before I commit it. That might make cleaning up later easier.
@@ -780,7 +780,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] Or most of them.
     - [x] The scanned ones probably.
     - [x] The ones certainly used in documentation or otherwise discardable.
-    - [x] I think I would remove most of them, and only keep a couple.
+    - [x] I think I might remove most of them, and only keep a couple.
     - [x] Oh, I am done.
 
 #### 2020-04-01 Done Encircle Language Spec Planning Docs
@@ -838,7 +838,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - [x] Still have to do Done projects.
         - [x] Update lists of contents
         - [x] Legend:
-            - [x] Brainstorm: I might keep the legend as it is. It may be more work to check which colors are used where and to change it? Maybe not, maybe that would be the right way to go.
+            - [x] Brainstorm: I might keep the legend as it is. It may be more work to check which colors are used where and to change it? Maybe not, maybe that might be the right way to go.
             - [x] 'Legend' => 'Legend of Symbols and Markings'?
             - [x] Use simpler color coding.
             - [x] There is ambiguity between coloring of back then and now.
@@ -852,7 +852,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] ~~Headings do not have colors.~~
             - [x] ~~Are not going to work for me anyway, with the low brightness on my screen.~~
             - [x] ~~It starts being not so functional anymore, the changes.~~
-- [x] I somehow don't trust this is all there's to it about Encircle Language Spec planning docs. Look over the state of it. It *would* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
+- [x] I somehow don't trust this is all there's to it about Encircle Language Spec planning docs. Look over the state of it. It *might* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
 
 #### 2020-03-22 Done Organize Planning Docs
 
@@ -888,6 +888,6 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - [x] Maybe go the other way: put sub-projects strategy in the main strategy doc and get rid of separate sub-projects. (My gut says: no, keep sub-project descriptions. That's what they are for: elaboration on a sub-project's scope.)
             - [x] Decision: Rule: Any elaboration now in the Products planning doc, belongs in a sub-project document.
 - [x] Sub-Projects:
-    - [x] The documents could probably be shorter. Lots of those Project Summaries are not so useful template texts, not filled in. The notes at the bottom would do.
+    - [x] The documents could probably be shorter. Lots of those Project Summaries are not so useful template texts, not filled in. The notes at the bottom might do.
     - [x] Then it is basically just loose ideas, that might have been given a too prominent place. Maybe put it elsewhere, if it is just unhelpful for visual overview, perhaps. > Some are more than that. I keep em this way.
 - [x] I like that I seem to build tolerance (back) for not exactly knowing where I am going with it, gradually shaping it, and just taking my time to make things more overviewable, regardless of whether someone might think it is time well spent or not. I myself just create more overview and understanding of the material that way.

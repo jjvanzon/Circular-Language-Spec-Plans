@@ -15,13 +15,13 @@ __Contents__
 
 #### 2019-08-05 Done New Intro
 
-- [x] Maybe an introduction would do. The 'older' versions actually seemed to give that more gradual intro, that takes the reader by the hand, leading them to how and why this might actually be useful, rather than just plainly stating the shapes that the diagrams can contain.
+- [x] Maybe an introduction might do. The 'older' versions actually seemed to give that more gradual intro, that takes the reader by the hand, leading them to how and why this might actually be useful, rather than just plainly stating the shapes that the diagrams can contain.
 - [x] That said, I do want to quickly come to the raw definition of how the diagrams are built-up. To introduce the raw basic specs quickly.
 
 #### 2020-05-28 Done New Intro
 
 - [x] I have the idea, that I might copy and paste more content and search and replace certain basic trigger words like 'is' by 'could' and 'might' for instance. And also visually scan the text for trigger words, like superlatives, words that see express value or devalue.
-- [x] I would like to replace the word 'Procedure' by 'Command', also in the pictures.
+- [x] I might like to replace the word 'Procedure' by 'Command', also in the pictures.
 - [x] When I change notations, the call lines in the Encircle Language Spec Introduction might become dashed.
 
 #### 2020-05-28 Done Brainstorm New Intro: Word Stress

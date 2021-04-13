@@ -26,7 +26,7 @@ I have now reached a point, at which it is starting to ache, that certain ideas 
 
 The goal of the project *Get Clearer View* is to get a clear view on the ideas that may change *everything*.
 
-The idea was that most of flat & structured interchange and aspects as external modules would mess up the original way of thinking, and that flat & structure interchange would mess up the diagram expression.  
+The idea was that most of flat & structured interchange and aspects as external modules might mess up the original way of thinking, and that flat & structure interchange might mess up the diagram expression.  
 So basically it is about flat & structured interchange, concepts and diagram expression. They tie together relational and object oriented, and add concept oriented to it.
 
 ### Super-Project
@@ -35,7 +35,7 @@ So basically it is about flat & structured interchange, concepts and diagram exp
 
 ### Means
 
-It was thought, that getting a clearer view would mean writing articles for the following topics:
+It was thought, that getting a clearer view might mean writing articles for the following topics:
 
 - Automatic Containment
 - Methods & Classes Loosely Coupled

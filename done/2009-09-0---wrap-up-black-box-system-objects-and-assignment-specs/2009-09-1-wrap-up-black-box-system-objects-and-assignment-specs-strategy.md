@@ -44,7 +44,7 @@ This document describes a goal and the approach of the project *Wrap Up Black Bo
 
 The current and previous projects are about producing the Black Box articles and redoing the System Objects and Assignment articles.
 
-In the previous project on multiple occasions it was not clear how much work it was still going to be. The project on multiple occasions relied on a creative process only after which would be clear how much work was left to do.
+In the previous project on multiple occasions it was not clear how much work it was still going to be. The project on multiple occasions relied on a creative process only after which might be clear how much work was left to do.
 
 This resulted in massive scope creep, because the scope only became apparent during the project. The plan made at the beginning of the project was of no use anymore. Then the work was done without any planning at all and it became an endless story.
 

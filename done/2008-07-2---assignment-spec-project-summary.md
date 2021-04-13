@@ -159,7 +159,7 @@ Pointer assignment might add more types of assignment. Object, Class and Interfa
 
 Any alternative form of assignment might be accomplished by combining calls to system commands and assignment commands.
 
-This would create a different set of articles:
+This might create a different set of articles:
 
 - Assignment __`=`__
 - Assignment in a Diagram
@@ -213,7 +213,7 @@ It may be an idea to take the following details into consideration:
     - Object reference assignment seemed a useful part of the solution.  
     - But target object reference assignment does not seem needed in the solution. Target object reference assignment seems less common, and possible in an alternative way. Target object reference assignment also lead to thinking about assigning other types of targets and it might clutter the language with a bunch of alternative notations for things that are less common, for which a general notation could be used.
 - \> Commands and objects more the same
-    - Class and definition assignment would be the same concept in that case, and then there would be only one type of interface assignment.
+    - Class and definition assignment might be the same concept in that case, and then there might be only one type of interface assignment.
 -----
 - \> Calls seem created briefly, but definitions seem created permanently.
     - How does that influence the different types of assignment?

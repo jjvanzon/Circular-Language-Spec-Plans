@@ -3,9 +3,9 @@ Encircle Language Spec Plans
 
 *JJ van Zon, 2021-02-17*
 
-This repository would contain the plans, notes and TODO's about [Encircle-Language-Spec](https://github.com/jjvanzon/Encircle-Language-Spec).
+This repository might contain the plans, notes and TODO's about [Encircle-Language-Spec](https://github.com/jjvanzon/Encircle-Language-Spec).
 
-Encircle would be an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
+Encircle might be an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
 
 You may find the following sub-folders here:
 
@@ -27,4 +27,4 @@ You may find the following sub-folders here:
 
 - [Archive](archive)
 
-    - Content that might not be relevant anymore. It may be one step away from being deleted. It is still kept in this folder in case something would become relevant again.
+    - Content that might not be relevant anymore. It may be one step away from being deleted. It is still kept in this folder in case something might become relevant again.

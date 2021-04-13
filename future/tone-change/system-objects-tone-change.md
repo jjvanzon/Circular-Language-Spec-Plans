@@ -32,7 +32,7 @@ __Contents__
     - [ ] ~ Or simplify pictures by editing them.
 - [ ] ~ Merge conceptual/diagram explanations:
     - [ ] ~ When I reformulate things top to bottom, I might at one point feel that the merging of conceptual explanation and diagram explanation is actually finished, because right now, often they are put near each other, but not really became one merged text.
-- [ ] ~ I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
+- [ ] ~ I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea might disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
 - [ ] ~ Going over the document again to reformulate.
 - [ ] ~ Spell check.
 
@@ -63,7 +63,7 @@ __Contents__
 - [x] Pictures:
     - [x] "System Interface for the Class Aspect"
         - [x] Not many pictures here.
-        - [x] Each sentence might call for the question: how would that look in a diagram? Some of it might not even be clear to me. I might want to consider one by one.
+        - [x] Each sentence might call for the question: how might that look in a diagram? Some of it might not even be clear to me. I might want to consider one by one.
     - [x] Maybe draw new ones in one go, on paper and then scan it.
     - [x] Sometimes borrow (pieces of) other pictures
     - [x] Or simplify pictures by editing them.
@@ -71,4 +71,4 @@ __Contents__
     - [x] When I reformulate things top to bottom, I might at one point feel that the merging of conceptual explanation and diagram explanation is actually finished, because right now, often they are put near each other, but not really became one merged text.
     - [x] More prominently the possible merging of System Commands and System Interface sections.
     - [x] (I wonder if System Commands and System Interfaces could become 1 section, because is the System Interfaces section(s) the visualization of the System Commands? I tend to not like conceptual explanations without accompanying diagrams anymore, so perhaps.)
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea might disrupt anything, even when I may not entirely agree with it myself.

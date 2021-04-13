@@ -74,7 +74,7 @@ Implementing Encircle Language in software is deemed out of scope.
     (2020-01: Programming things is not really a goal right now.)
 - ~ Programming: Program a version (part done)
 
-This was a point at which, it seemed a good plan to program some software. While not all pieces of the language were designed yet, some experimental things had been programmed. One fear was: making something, that would later be thrown away, would the language change completely. But the base of the language was not expected to change drastically. Another fear was to lose time programming, that was better spent on the language design. The hope was, that a working version would tell where the big problems are would indicate solutions to problems initially not possible to get your head around.
+This was a point at which, it seemed a good plan to program some software. While not all pieces of the language were designed yet, some experimental things had been programmed. One fear was: making something, that might later be thrown away, might the language change completely. But the base of the language was not expected to change drastically. Another fear was to lose time programming, that was better spent on the language design. The hope was, that a working version might tell where the big problems are might indicate solutions to problems initially not possible to get your head around.
 
 #### How Much Designing Before You Implement
 
@@ -83,7 +83,7 @@ Human beings may much more easily identify flaws in running system, than they ca
 
 An experimental new version of Encircle could be created at one point, that supports all the principles in its minimal form, just to see how it might look in action. The left-over problems may become apparent quickly then. And an experimental implementation may also *prove* the concepts. It probably gives you a clearer picture of the language, which may help to complete other topics.
 
-But when the next conceptual implementation might be created is unclear. That would be the project *Program Base Code*.
+But when the next conceptual implementation might be created is unclear. That might be the project *Program Base Code*.
 
 Sometimes it can be demotivating, that making the design takes so much time and seems to render so little result. But it may be relevant, that the ideas could be picked up by others. More arguably it may be relevant, that it becomes the *final* design of the base, not an *intermediate* one again, in which important things have been left out, that I know I am going to have to do over again. I left that idea behind, when I decided it did not need to be perfect.
 

@@ -71,7 +71,7 @@ It is approximately __32__ pages of brainstorm texts trying to clarify commands 
     - [x] You might have the tendency to jump around the documentation, if something in the flow is off. So a change of the order might help there.
     - [x] Drop Diagram and Text expression right next to conceptual explanation
     - [x] Mix Coding Principles and Aspects
-        - [x] I often change my mind about implementing something as a 'principle' or as an 'aspect'. (The difference between aspect and principle is 'made up' just to label things: a principle would be an intrinsic part of the language, an aspect could be programmed out using the language itself.)
+        - [x] I often change my mind about implementing something as a 'principle' or as an 'aspect'. (The difference between aspect and principle is 'made up' just to label things: a principle might be an intrinsic part of the language, an aspect could be programmed out using the language itself.)
         - [x] It seems less ideal to have some assignment topics on one end of the documentation, and other assignment topics at the other end of the documentation.
     - [x] Add ‘Implementation’ section to each concept.
     - [x] Change the documentation titles  

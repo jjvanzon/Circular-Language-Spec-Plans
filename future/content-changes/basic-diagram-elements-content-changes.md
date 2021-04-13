@@ -16,7 +16,7 @@ __Contents__
 #### 2020-06-01 Postponed Content Changes for Basic Diagram Elements
 
 - [ ] ~ 'Connecting Command Symbols' stories may be a bit long?
-- [ ] ~ Maybe there are so many rules in there, because of the idea that this would become the base for a patent? Patenting is sort of off the table now.
+- [ ] ~ Maybe there are so many rules in there, because of the idea that this might become the base for a patent? Patenting is sort of off the table now.
 - [ ] ~ Some things might be implementation details, movable to the Encircle Construct Draft part?
 - [ ] ~ Certain rules might change and simplify, but that might not be for now.
 - [ ] ~ Outtakes:
@@ -30,11 +30,11 @@ __Contents__
         > ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.012.png)
         
         Each object might serve as another object’s class, sort of functioning as its prototype. Any object might also provide the interface for another object, which may give another object the same exterior, while it might be different on the inside.
-- [ ] ~ Add a picture around 'Object Structure Solid, Class Structure Dashed', to demonstrate how things would look?
+- [ ] ~ Add a picture around 'Object Structure Solid, Class Structure Dashed', to demonstrate how things might look?
 - [ ] ~ Privacy issues in the paper scans?
 - [ ] ~ 'Object Symbols Drawn with Different Lines' starts with some information that may have been repeated more than once already before? Is there additional value to that, or might it just be removed or something?
 - [ ] ~ What might be a little odd, is that I spring the terms object, class and interface upon the reader in one of the first parts where I show the circle and triangle, but an arguably clear definition of these terms (though optional: these should be common IT terms) only later appears. Maybe it is an idea to move that clear definition more upwards. I tend to repeat the definitions, which may have some value. It might have the appearance that they are important, because of all that repetition, but it may make less sense that I do not just have one of those repetitions straight away where they are introduced.
-- [ ] ~ Question: What might be the purpose or scope of this Basic Diagram Elements article? Is it supposed to be a comprehensive overview of pretty much all the elements? Or the basic ones, to maybe get a good impression of this language formally? Because I think maybe I am missing some notation details. If made more complete, would it be almost a full summary of like all of it? I might be missing event notation, comments, system interface, I do not cover all the black boxing access marks, I also do not see assignment notation, etc. But maybe that is not the point: to be complete. But maybe a few key ones are missing, is my own personal feeling. Events, commends and a few access marks. Those maybe. Comment notation is not even described anywhere. Hmm. In that light it seems a bit arbitrary that I do show that line merge and symbol merge notation, which might possibly be deprecated at some point.
+- [ ] ~ Question: What might be the purpose or scope of this Basic Diagram Elements article? Is it supposed to be a comprehensive overview of pretty much all the elements? Or the basic ones, to maybe get a good impression of this language formally? Because I think maybe I am missing some notation details. If made more complete, might it be almost a full summary of like all of it? I might be missing event notation, comments, system interface, I do not cover all the black boxing access marks, I also do not see assignment notation, etc. But maybe that is not the point: to be complete. But maybe a few key ones are missing, is my own personal feeling. Events, commends and a few access marks. Those maybe. Comment notation is not even described anywhere. Hmm. In that light it seems a bit arbitrary that I do show that line merge and symbol merge notation, which might possibly be deprecated at some point.
 - [ ] ~ Should I introduce a reference to parent notation in the Basic Diagram Elements chapter?
 
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
@@ -58,7 +58,7 @@ __Contents__
 #### 2020-06-01 Done Content Changes for Basic Diagram Elements
 
 - [x] Maybe replace the word 'module' by 'module'. I seem to keep running into it.
-- [x] In the access marks sections, maybe add a picture of how it would look if it is connected to a symbol. That might not be that clear. You might not see the context there. You might just see a sort of kite like drawing.
+- [x] In the access marks sections, maybe add a picture of how it might look if it is connected to a symbol. That might not be that clear. You might not see the context there. You might just see a sort of kite like drawing.
 - [x] Some content changes:
     - [x] Is it nice to present the reasons for the shapes, or is it just superfluous text?
     - [x] I do not know. The back story may show creativity, which might be nice. It may inspire the imagination of others. But more reasoning may be overwhelming so I am torn between arguments here. More text might not necessarily be bad. I like describing how I came to these choices, sort of artistic choices.

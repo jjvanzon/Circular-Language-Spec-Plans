@@ -25,6 +25,6 @@ Assignment | Tone Change | 2020-07 | Notes
     - [x] Or simplify pictures by editing them.
 - [x] Merge conceptual/diagram explanations:
     - [x] When I reformulate things top to bottom, I might at one point feel that the merging of conceptual explanation and diagram explanation is actually finished, because right now, often they are put near each other, but not really became one merged text.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea might disrupt anything, even when I may not entirely agree with it myself. Sometimes I might do the changes anyway.
 - [x] Going over the document again to reformulate.
 - [x] Spell check.

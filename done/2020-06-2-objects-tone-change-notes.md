@@ -20,12 +20,12 @@ __Contents__
     - [x] Changes to the 'Multiplicity' topic went a bit overboard. Trying to revert it a bit.
 - [x] I might go over the loose ideas in the document and cross out or distribute those.
 - [x] Going over the document again to reformulate.
-    - [x] Would I replace 'related object' with just 'object' in certain cases for simplicity?
+    - [x] Might I replace 'related object' with just 'object' in certain cases for simplicity?
 - [x] Pictures:
     - [x] Maybe draw new ones in one go, on paper and then scan it.
     - [x] Sometimes borrow (pieces of) other pictures
     - [x] Or simplify pictures by editing them.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea might disrupt anything, even when I may not entirely agree with it myself.
 
 #### 2020-06-11 Done Content Changes for Objects Chapter
 

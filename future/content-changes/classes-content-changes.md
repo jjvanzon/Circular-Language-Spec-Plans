@@ -32,10 +32,10 @@ __Contents__
 
 - [x] Object-commands / command-objects exchangeability doubts.
 - [x] It seems to be used as the main idea, this exchangeability. But that seems demotable to Encircle Broader View perhaps or maybe even Encircle Construct Drafts.
-- [x] What might be left of the Classes story if the base of it would be deprecated? Almost a rewrite? Not sure.
+- [x] What might be left of the Classes story if the base of it might be deprecated? Almost a rewrite? Not sure.
 - [x] What if I move the exchangeability issue to Encircle Broader View or Encircle Construct Drafts? Might not much text be left?
 - [x] ~~Is there a version in the history that does not make the Object-commands / command-objects exchangeability issue centric? Could that text be used?~~
 - [x] Some of the text seems to address the design time = run time issues. That issue might also not be in scope anymore.
 - [x] I feel the same sentence is repeated a lot in just slightly different formulations.
-- [x] Class Reference seems a bit of an ambiguous term. You might reference a class with an object line, but here I mean when an object points out its class with a class line. Class redirection? Class pointer? I think I would rather make pointer and reference synonymous, so maybe not class pointer.
-- [x] The diagram explanation of Commands and Classes Loosely Coupled would be merged into the conceptual explanation, if I follow the editing ideas I had. But the issue might be moved from Encircle Language Spec to Encircle Broader View at some point, so perhaps this has less priority. Not sure. I could go either way.
+- [x] Class Reference seems a bit of an ambiguous term. You might reference a class with an object line, but here I mean when an object points out its class with a class line. Class redirection? Class pointer? I think I might rather make pointer and reference synonymous, so maybe not class pointer.
+- [x] The diagram explanation of Commands and Classes Loosely Coupled might be merged into the conceptual explanation, if I follow the editing ideas I had. But the issue might be moved from Encircle Language Spec to Encircle Broader View at some point, so perhaps this has less priority. Not sure. I could go either way.

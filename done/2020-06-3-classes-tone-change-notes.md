@@ -16,7 +16,7 @@ __Contents__
 
 - [x] I made text changes, which may have resulted in more trigger words again. Maybe mark those and solve those.
     - [x] Hoping to do the last time of marking and reformulating trigger words.
-- [x] I am not sure this open language stuff made it much clearer. It looks to me like using more words than necessary, which may make reading it harder. But that might be specifically how I would see it. I may just be tired. Often.
+- [x] I am not sure this open language stuff made it much clearer. It looks to me like using more words than necessary, which may make reading it harder. But that might be specifically how I might see it. I may just be tired. Often.
 
 #### 2020-06-11 Done Reformulating Classes Chapter
 
@@ -38,4 +38,4 @@ __Contents__
     - [x] Or simplify pictures by editing them.
     - [x] Maybe write out more what the pictures mean precisely.
         - [x] Now that I do that, some fragments seem duplicates. 'Using Dashed Shapes' now seems a repetition of things said elsewhere.
-- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea would disrupt anything, even when I may not entirely agree with it myself.
+- [x] I have difficulty not wanting to change the story, while the aim is to just reword it, and I seem to experience an impossibility not absorbing the story. My conundrum might be solved, by adding indicators that everything is just a suggestion, so that no idea might disrupt anything, even when I may not entirely agree with it myself.

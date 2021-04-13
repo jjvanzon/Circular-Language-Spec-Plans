@@ -114,7 +114,7 @@ These are constructs that might be desired and may hardly have a description in 
 
 #### Language Design
 
-These topics may be more significant changes to how the language would be described. Some are extensions that may be optional for now.
+These topics may be more significant changes to how the language might be described. Some are extensions that may be optional for now.
 
 - [ ] Fully OO. Is It? | Language Design
     - [ ] Operators | Language Design

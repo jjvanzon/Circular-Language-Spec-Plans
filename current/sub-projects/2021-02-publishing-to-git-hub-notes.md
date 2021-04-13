@@ -39,12 +39,12 @@ __Contents__
 - [x] ~~Is it really such a good plan to open source it? Am I really not just throwing away money? Maybe it is better to wait with that decision, after I know where things are heading with work and income? > Think I might do it anyway.~~
 - [x] There is an '... IPC Parse.doc' text in the source control history. It should be deleted. I guess I have to search for intellectual property problems. This in docs that are so intellectual property sensitive. Before open sourcing it, you need to do this intellectual property check.
 - [x] 2004-00-00 XX    Symbol Language\Symbol Pictures (Keep Packed, Paths Too Long).zip has intellectual property problems in Pictures\Diagram Examples.
-- [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm... If I didn't mention the source information it would not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down... not sure. > It think this is an unreasonable doubt.~~
+- [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm... If I didn't mention the source information it might not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down... not sure. > It think this is an unreasonable doubt.~~
 - [x] "Relational Structure"
     - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name.
-    - [x] I think I would be better off removing that document from the Encircle-Language-Spec repository.
+    - [x] I think I might be better off removing that document from the Encircle-Language-Spec repository.
 - [x] Renaming Encircle-Language-Spec-Plan to Encircle-Language-Spec-Plans (plural).
-- [x] Reorganizing Broader View and Construct Drafts knowing they would also be published?
+- [x] Reorganizing Broader View and Construct Drafts knowing they might also be published?
 
 #### 2021-02-09 Done Publishing
 

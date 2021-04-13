@@ -26,7 +26,7 @@ Presentation:
 - First say this:
     - \> [...]   
     - \> ‘Code name’ for the whole package of software is Software System.  
-    and the whole package of software would be named Collection. (but those names are a secret).
+    and the whole package of software might be named Collection. (but those names are a secret).
 
 - Specific things to show:
     - Project plans: __(2)__

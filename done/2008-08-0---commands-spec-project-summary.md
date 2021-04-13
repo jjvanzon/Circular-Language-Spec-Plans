@@ -22,7 +22,7 @@ Working out the basic command topics.
 Not going deeply into parameters.  
 Advanced command topics can be left out.
 
-One of the main issues worked out in this project would be commands being 'as free' as an object.
+One of the main issues worked out in this project might be commands being 'as free' as an object.
 
 ### Date & Time
 

@@ -99,7 +99,7 @@ Quite a lot seems to be involved.
 
 The system objects might be the getters and setters of the Encircle language. That's one way of looking at it.
 
-The produced articles describe their own take on it: as if Encircle would run as a run-time system. In that case the implementation of the *system objects* might cover most of the base of the code, upon which the rest could build. But if Encircle is just used as a diagram notation, system objects might not be as essential. However it could serve as a notation for getters and setters for instance.
+The produced articles describe their own take on it: as if Encircle might run as a run-time system. In that case the implementation of the *system objects* might cover most of the base of the code, upon which the rest could build. But if Encircle is just used as a diagram notation, system objects might not be as essential. However it could serve as a notation for getters and setters for instance.
 
 The system objects are like an idea for a base of a run-time, but in its ideas seem to be embedded possibilities for concepts like (bidirectional) relationships, reflection, assignment, static members, getters and setters, aspect oriented programming or maybe at least sideways touching those topics. It also incidentally gives a sort of systematic overview of basic building blocks of the language.
 
@@ -134,11 +134,11 @@ But that seemed the way to do it for the System Objects articles, because the co
 - The term *system object* was defined somewhere, as a term mainly used for objects such as related items, 
   related lists and related list items.
 - The system objects and commands could be the basic objects and commands implemented by the base of the code. The system objects might not be 'normal' objects. They might be special deep-core system objects, that control relations between normal objects.  
-In the first layer of the base of the code, the system objects and system commands might not be comparable to normal objects and commands in the Encircle language. But the idea was that the base of the code would get reprogrammed using Encircle itself and then the system objects and commands would be implemented the same as any plain old object or command. But they would *still* be *system* objects, would  that have the special position of controlling the other objects.
+In the first layer of the base of the code, the system objects and system commands might not be comparable to normal objects and commands in the Encircle language. But the idea was that the base of the code might get reprogrammed using Encircle itself and then the system objects and commands might be implemented the same as any plain old object or command. But they might *still* be *system* objects, might  that have the special position of controlling the other objects.
 - You might want to make clear, that the notation of the system objects and the implementation of system objects are two separate things.
 - System objects such as __Object  .  ID__ could also be considered system objects: they kind of are the related *objects*: an object reference embedded inside a related item or related list item. Perhaps put the term related object in the system interface summary, in the diagram that shows all the terms.
 - Perhaps explain somewhere, why a system object is often called a system interface.  
-The system object in a way represents an object. So usually you would see a system object as being the object itself, while the system object would really only control a pointer to the actual object. So when you see the members of target object of a system object, showing the actual members of the system object, it is like showing the *system interface* of a related object. That is why perhaps instead of calling it a system object, it might be called the system interface of a related object.
+The system object in a way represents an object. So usually you might see a system object as being the object itself, while the system object might really only control a pointer to the actual object. So when you see the members of target object of a system object, showing the actual members of the system object, it is like showing the *system interface* of a related object. That is why perhaps instead of calling it a system object, it might be called the system interface of a related object.
 
 ##### Related List Item Extension Procedures
 
@@ -163,7 +163,7 @@ The system object in a way represents an object. So usually you would see a syst
     - Related List Item
         - Mainly added a small part about how the implementation is not covered there.
     - Extended the System Interface
-        - The Item commands and Gets and Sets in the system interface of the related list do not seem to be commands, but objects, with references to the extension procedures, because the Item Gets and Sets and commands in the related list do not seem to be executable commands, but *configurations* of the commands of the related list items, and this configuration would be stored by an object.
+        - The Item commands and Gets and Sets in the system interface of the related list do not seem to be commands, but objects, with references to the extension procedures, because the Item Gets and Sets and commands in the related list do not seem to be executable commands, but *configurations* of the commands of the related list items, and this configuration might be stored by an object.
     - Extended the System Interface in a Diagram
         - Showed how the extension of item elements of the system interface of related list looks.
     - System Interface Summary
@@ -178,8 +178,8 @@ The system object in a way represents an object. So usually you would see a syst
 
 ##### Object References Inherently Part of Parent
 
-- \> Theoretically it might not matter whether extension procedures are defined for instance inside a related item or inside the parent object of a related item. A related item might be part of the parent object anyway, as opposed to the actual object the related item refers to. In that case the reference to the object *is* part of the parent object. The object would not be. 
-- \> Objects referred to by a parent object might not be part of the parent object, but in that case the *references* to the object *would* be part of the parent object. Objects such as a related list or a related item could be system objects that are inherently part of the parent object. Only the objects referred to would *not* be part of the parent in that case.
+- \> Theoretically it might not matter whether extension procedures are defined for instance inside a related item or inside the parent object of a related item. A related item might be part of the parent object anyway, as opposed to the actual object the related item refers to. In that case the reference to the object *is* part of the parent object. The object might not be. 
+- \> Objects referred to by a parent object might not be part of the parent object, but in that case the *references* to the object *might* be part of the parent object. Objects such as a related list or a related item could be system objects that are inherently part of the parent object. Only the objects referred to might *not* be part of the parent in that case.
 
 #### Writing Style
 
@@ -198,7 +198,7 @@ The system object in a way represents an object. So usually you would see a syst
 - System objects / base of the code / aspects,  
     - 2008-07-24  
     System Objects might cover the complete base of the code.  
-    This means, that for a complete overview, you would still need the Related Items and Related Lists system objects. But the usage of system objects may not require knowledge of the objects Related Items and Related Lists. However, in order to author aspects, you might want those collections available. You also may need to be able to extract an Attributes collection as well. And a methods collection.  
+    This means, that for a complete overview, you might still need the Related Items and Related Lists system objects. But the usage of system objects may not require knowledge of the objects Related Items and Related Lists. However, in order to author aspects, you might want those collections available. You also may need to be able to extract an Attributes collection as well. And a methods collection.  
     It is worth considering making the story complete like that, so the whole base of the code might be covered that way.  
     But it already has been quite some work, and maybe just get on with it for now.
 - Related items and related lists have names. The name might be a system member, because it may needs to be tapped into by aspects.

@@ -131,7 +131,7 @@ At first there were the following pieces of material to organize and turn into a
 
 - Older parameter type subdivision
 
-    - The idea at first was that it would be converted to the eventual article list, but that was later not done that way.
+    - The idea at first was that it might be converted to the eventual article list, but that was later not done that way.
 
         - Value In
         - Value Out
@@ -190,7 +190,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
 - Reading over Commands & Classes Loosely Coupled.
     - Reading it over.
     - Verbal brainstorming.
-    - It would later be used as a cross out list.
+    - It might later be used as a cross out list.
 
 #### Prepared Texts
 
@@ -225,7 +225,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
     - But now there is a tendency to want to start over at the start of the story again.
 - ~ Rewriting Commands & Classes Loosely Coupled.
     - ~ A new name could be ‘Relations Between Commands & Objects’.
-    - ~ It might not be clear yet exactly how the article set would look or how the parameter types might be like.
+    - ~ It might not be clear yet exactly how the article set might look or how the parameter types might be like.
     - ~ First wrote about relations between commands & objects.
     - ~ Then wrote about all the different reference situations parameters can have.
     - ~ Then wrote about how you can access control each situation.
@@ -252,7 +252,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
     - Simplified Access Control Expression
         - Simplified Access Control Expression in Text Code
         - Simplified Access Control in a Diagram
-            - \> It would be nice to see the different kinds access connectors with the new textual literals.
+            - \> It might be nice to see the different kinds access connectors with the new textual literals.
     - The Data aspect
         - \> Indirect value access from the inside was not mentioned yet.
         - \> It could be seen as another system aspect.

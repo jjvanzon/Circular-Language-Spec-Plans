@@ -44,7 +44,7 @@ Some of the possible solutions:
 
 If something is declared on a higher level than it should then it is one real reference there pointing  at an imaginary one at the same level with the contents in it, to which points one other imaginary  reference on a deeper level.  
 And in that case the contents should be moved from the imaginary reference on the higher level, to  the imaginary reference on the lower level, and the imaginary reference on the lower level should  point to the real reference on the higher level.  
-That last reference line would be a qualified reference line, but that might not be well visible yet.
+That last reference line might be a qualified reference line, but that might not be well visible yet.
 
 To get this right you have to make the process visually debuggable. And while you are at it make processes separately debuggable.
 
@@ -97,9 +97,9 @@ Do note that fixed logical residence requires qualification, but that does not m
 
 ### More Ideas
 
-An option to ignore fixed logical residence would be welcome.  
+An option to ignore fixed logical residence might be welcome.  
 In that case the fixed logical residence might only be pointed out with an empty reference to the imaginary residence. That way automatic containment might work, but publicly-accessible classes are still available with just the namespace qualifier. (-> Lower Contents)
 
 Elements of different assemblies seem to intermix too much and parts of one assembly are shown as an intrinsic part of the an assembly that uses it. Things might be better off as better visible as being externally defined.
 
-It is a problem that everything is displayed as composite aggregation, because in some places it works completely counter-intuitive (where you would expect objects to be siblings, but they are nested instead?).
+It is a problem that everything is displayed as composite aggregation, because in some places it works completely counter-intuitive (where you might expect objects to be siblings, but they are nested instead?).

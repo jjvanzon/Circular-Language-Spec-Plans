@@ -117,7 +117,7 @@ This should be the new order:
 
 - [x] Connections    
       \> (a new addition)
-    - [x] You would also want Connections to have an article in the system objects article group.
+    - [x] You might also want Connections to have an article in the system objects article group.
 
 #### Reorganizations
 
@@ -187,7 +187,7 @@ This should be the new order:
                         ~~But that might make it hard to for instance get a Value through a reference.~~
                         - [x] ~~Always show Object system interface, and through it its related items.~~  
                         ~~But then you can not directly work with related items,~~  
-                        ~~you would have to go through the system interface of its parent object.~~
+                        ~~you might have to go through the system interface of its parent object.~~
                             - \> ~~Oh, and the object system object might have a related lists and related items collections.~~
                 - [x] Preliminariness
                     - [x] How the system interface looks is totally dependent on how the code base is implemented. If you make different design choices about the code base, organizing members differently, the system interface might also look different, because the system interface is an exact representation of the public members of the system object.
