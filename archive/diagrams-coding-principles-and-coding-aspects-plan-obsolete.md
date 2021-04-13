@@ -7,13 +7,8 @@
 Contents
 --------
 
-- [Goal](#goal)
-    - [Pros and cons for this project](#pros-and-cons-for-this-project)
-    - [Rules](#rules)
-- [Steps](#steps)
-- [Approach](#approach)
-- [Elements](#elements)
-- [Ideas](#ideas)
+- [Pros and cons for this project](#pros-and-cons-for-this-project)
+- [Rules](#rules)
 
 Goal
 ----
@@ -80,8 +75,8 @@ Articles to write __(84)__:
     - Destruction in a Diagram
     - Clear
     - Clear in a Diagram
-    - Object Order
-    - Object Order in a Diagram
+    - Sequence Order
+    - Sequence Order in a Diagram
     - Static Members
     - Static Members in a Diagram
     - This

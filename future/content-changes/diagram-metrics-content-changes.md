@@ -32,5 +32,5 @@ More topics:
 
 - Spiraling
 - Force-Based Ordering
-- Object Order Metrics
+- Sequence Order Metrics
 - Simplification Slider

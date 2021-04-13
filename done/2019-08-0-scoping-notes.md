@@ -95,7 +95,7 @@ __Contents__
             - [x] ~~"Unifying Disk & Memory" > Content seems chaotic brainstorming.~~
     - [x] No "Framework" topics
         - [x] But keeping the "Data Aspects":
-            - [x] "Object Order"
+            - [x] "Sequence Order"
             - [x] "Binaral"
             - [x] "Defaults" / "Default Values"
             - [x] "Locking"
@@ -272,7 +272,7 @@ Maybe it is better to put off fine-tuning the scope for now. First make it neat 
     - [x] Do I move these texts to the appropriate spot in the Encircle Docs now?
     - [x] Do I also move ideas from Sub-Projects there? Maybe those are too short to matter. And not really loose texts, but goals. Somewhere in the middle. So maybe I should copy/move some texts to the loose idea boxes of Encircle Language Spec.
     - [x] I'm staring at 'Aspects' now. But Aspects is out-of-scope. Might it matter? Any content about it might be moved into an appropriate spot in the documentation.
-    - [x] Object Order: Some of it is in Data Aspects. But I fundamentally need it in the Encircle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding aspects and data aspects once. Now most coding aspects are just part of the programming language and most data aspects are not. Just the separation is not as precisely clear as that.
+    - [x] Sequence Order: Some of it is in Data Aspects. But I fundamentally need it in the Encircle language. It's not just list order. It's more fundamental. It can be command execution order, that is dependent on it. I just don't know where it belongs in the chapters. Maybe just its own chapter I was making a separation between coding aspects and data aspects once. Now most coding aspects are just part of the programming language and most data aspects are not. Just the separation is not as precisely clear as that.
 - [x] Experiment 3.0 Programming, Requirements:
     - [x] Has technical design requirements.
     - [x] I could look at them, take them out, compare them to the Encircle Docs requirements, to see if they are in there or have a place in there.
@@ -311,7 +311,7 @@ The requirement group 'Priority C: Classes' has 1 language design feature: < Dia
 
 Some of the content in 'Priority E: Integration' could be part of language design, at least diagram metrics design and automatic containment. 
 
-'Priority F: Large Amounts of Items': Spiraling could be part of diagram metrics documentation. And object order.
+'Priority F: Large Amounts of Items': Spiraling could be part of diagram metrics documentation. And sequence order.
 
 'Round-Up': Most are documentation issues, which in theory could be moved to the language design project instead. Except, they are 'technical design' documentation issues, which do not have a place in either the language design project or the experiment 3.0 programming project, because 'technical design' I did not consider language design, because I might have called language design 'functional design'. 'Technical design' according to my views back then, might have be document how I implemented things in the programming of experiment 3.0, not how the language functionally works, but how experiment 3.0's .NET code works internally. However, I could see the topics up for 'technical design' as topic that also could use an update to the functional design. So I could consider those topics for extending the Encircle language spec project's requirements. Then I could consider removing documentation issues from the experiment 3.0 programming planning docs, because I wasn't going to do them anyway.
 

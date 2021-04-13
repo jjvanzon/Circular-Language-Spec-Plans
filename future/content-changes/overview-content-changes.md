@@ -27,7 +27,7 @@ __Contents__
 - [x] Then there is Loose Ideas at the end. Do I want to put it in a separate document? Do I want to evaluate them one by one to see if they are relevant or might be moved or something?
     - [x] Comparisons with other systems might be better off in Encircle Broader View. I feel it is interesting, that I looked around at other systems for inspiration or comparison, but it might not be that interesting to share what my opinion about it was. But topic-wise I think is might not belong in Encircle Language Spec, but in Encircle Broader View.
 - [x] Images in the overview page?
-    - [x] For Object Order: Not sure about the notation yet, so not sure what picture might be suitable.
+    - [x] For Sequence Order: Not sure about the notation yet, so not sure what picture might be suitable.
     - [x] For Pointers: Current picture lies a little. This may be how you might express it with abused/abstracted notation, but this might not be a pointer in Encircle, if I look at it from a puritan perspective. It might be supposed to point 'inward'? I am not even sure.
 
 #### 2020-05-28 Done Content Changes for Encircle Language Spec Overview

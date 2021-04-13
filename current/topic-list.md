@@ -65,7 +65,7 @@ There may be a desire to change the tone of the documentation to milder language
 - [ ] Type Control | Tone Change
 - [ ] Object Resolution | Tone Change
 - [ ] Conditions | Tone Change
-- [ ] Object Order | Tone Change
+- [ ] Sequence Order | Tone Change
 - [ ] Pointers | Tone Change
 - [ ] Diagram Metrics | Tone Change
 - [ ] Coloring | Tone Change
@@ -105,7 +105,7 @@ These are constructs that might be desired and may hardly have a description in 
 
 - [ ] Object Resolution | Language Design
 - [ ] Conditions | Language Design
-- [ ] Object Order | Language Design
+- [ ] Sequence Order | Language Design
 - [ ] Static Notation | Language Design
 - [ ] Comment Notation | Language Design
 - [ ] List Concept More Generic | Language Design

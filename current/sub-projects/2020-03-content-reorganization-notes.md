@@ -68,16 +68,16 @@ __Contents__
 - [x] 🍰 Changing tone: replacing "would" with "might".
 - [x] 🎵 Changing tone: replacing "does" with "might".
 - [x] Correcting back: "probably might"
-- [ ] 3.0 might reference a future version sometimes,  
-      without being clear about that.
-- [ ] ~ Renaming "Object Order" to "Sequence Order"
+- [x] 🔮 Made clearer when "3.0" references a future version.
+- [ ] __🔢 Renaming "Object Order" to "Sequence Order".__
+- [ ] Doing more tone change in bulk?
 
 #### 2021-04-13 TODO Content Reorganization
 
 - [ ] __Moving around texts__
     - [ ] `<< detailed work >>`
-        - [ ] Moves to "Implementations".
         - [ ] Might do the *Spec* first.
+        - [ ] Moves to "Implementations".
         - [ ] Moves to "Pointers".
         - [ ] Moves to "Text Code".
         - [ ] Loose ideas: regroup or clear out
@@ -400,7 +400,7 @@ Still want to change the fonts.
     - [x] Type Control
     - [x] Object Resolution
     - [x] Conditions
-    - [x] Object Order
+    - [x] Sequence Order
     - [x] Uncategorized
     - [x] Other Diagram Topics
     - [x] Summaries of Other Languages
@@ -427,7 +427,7 @@ But I might want to be selective about it.
     - [x] These 3 articles could become 1.
     - [x] It seems that if content is still messy, the split up into multiple articles might have value, because it seems to create overview.
     - [x] Just added some comment on other content about Conditions to find elsewhere.
-- [x] "23. Object Order"
+- [x] "23. Sequence Order"
     - [x] Is one article.
     - [x] But not a big one.
     - [x] Makes me wonder if some topics are handy as a separate chapter or better grouped into another main topic.
@@ -745,7 +745,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] All in all, I think this content is a but rough for putting at the beginning of the documentation.
 - [x] There is a clash in index pages. "Code Concepts.doc" and "Language.doc" may need to become one and cleaned up.
 - [x] Moving "Language.doc" content to "Code Concepts.doc" in a controlled fashion.
-    - [x] There is no heading 'Object Order'.
+    - [x] There is no heading 'Sequence Order'.
 - [x] I think I am just going to knead the content.
 - [x] The folder subdivision is now much simpler.
 - [x] "8.Previous Versions" folder:
