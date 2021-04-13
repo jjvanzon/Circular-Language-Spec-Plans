@@ -37,6 +37,10 @@ __Contents__
 
 ### Postponed
 
+#### 2021-04-12 Postponed In Bulk
+
+- [ ] ~ Perhaps changing *all* the documents at the same time, *one* trigger word at a time, might better fit my way of processing things.
+
 #### 2020-06-01 Postponed Checklist Tone Change
 
 - [ ] ~ (More helpers are in my personal development notes, not here, sorry.)

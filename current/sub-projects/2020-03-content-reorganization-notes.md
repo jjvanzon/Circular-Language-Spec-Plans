@@ -9,12 +9,13 @@ __Contents__
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
     - [2021-04-12 TODO Content Reorganization](#2021-04-12-todo-content-reorganization)
+    - [2021-04-13 TODO Replacement Terms](#2021-04-13-todo-replacement-terms)
     - [2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form](#2021-04-11-brainstorm-design-time--run-time-reformulations--the-i-form)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
-    - [2021-04-10 Done Content Reorganization](#2021-04-10-done-content-reorganization)
+    - [2021-04-10 Done Replacement Terms](#2021-04-10-done-replacement-terms)
     - [2021-04-07 Done Content Reorganization](#2021-04-07-done-content-reorganization)
     - [2021-04-07 Done Replacing "Concept" with "Aspect"](#2021-04-07-done-replacing-concept-with-aspect)
     - [2021-04-05 Done Pretty URL's for Planning Docs](#2021-04-05-done-pretty-urls-for-planning-docs)
@@ -63,18 +64,33 @@ __Contents__
 
 #### 2021-04-12 TODO Content Reorganization
 
-- [x] 🍦 Replacing "must" with "might" or "may".
+- [x] ⤵ Moves to "Implementations" searching for 0.9 / 2.0 / 3.0
+    - [x] Perhaps first tag the occurrences with `<< implementation >>`
+    - [x] 😦 Quite some occurrences seems to raise questions.
+    - [x] Reasons not to move to "Implementations":
+            - [x] Referencing an experiment might just support the conceptual explanation.
+            - [x] It is already in "Implementations"
+    - [x] Searching for 0.9
+    - [x] Searching for 2.0
+    - [x] Searching for 3.0
+    - [x] Searching for `<< implementation >>` and perhaps move texts.
 - [ ] __Moving around texts__
     - [ ] `<< detailed work >>`
-        - [ ] Might do the *Spec* first.
         - [ ] Moves to "Implementations".
-            - [ ] Perhaps searching for 0.4 or 0.9 or 2.0 might help.
+        - [ ] Might do the *Spec* first.
         - [ ] Moves to "Pointers".
         - [ ] Moves to "Text Code".
         - [ ] Loose ideas: regroup or clear out
         - [ ] I seem to have difficulty not changing the tone of texts too.
         - [ ] Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
 
+#### 2021-04-13 TODO Replacement Terms
+
+- [ ] Searching for "would" replacing some occurrences?
+- [ ] Searching for "does" replacing some occurrences?
+- [ ] 3.0 might reference a future version sometimes,  
+      without being clear about that.
+- [ ] ~ Renaming "Object Order" to "Sequence Order"
 
 #### 2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form
 
@@ -102,7 +118,7 @@ A diversion to an Errors article may be appropriate.
 
 ### Done
 
-#### 2021-04-10 Done Content Reorganization
+#### 2021-04-10 Done Replacement Terms
 
 - [x] Replacing "new computer language" with "Encircle".
     - [x] In Encircle-Language-Spec
@@ -122,8 +138,8 @@ A diversion to an Errors article may be appropriate.
     - [x] Searching for 3
     - [x] ~~Renaming 2.0 to 2.~~ > May make less searchable.
     - [x] 🏷 Renaming experiment 3 to experiment 3.0
-- [x] Repeating some of root README in spec README
 - [x] 🐇 Replacing "will" with "might".
+- [x] 🍦 Replacing "must" with "might" or "may".
 
 #### 2021-04-07 Done Content Reorganization
 
@@ -134,6 +150,7 @@ A diversion to an Errors article may be appropriate.
 - [x] Renaming "In a Diagram" sections to just "Diagram"
 - [x] Renaming "System Objects" chapter to "System Interfaces"
 - [x] Increased Pointers heading levels for table of contents.
+- [x] Repeating some of root README in spec README
 
 #### 2021-04-07 Done Replacing "Concept" with "Aspect"
 
