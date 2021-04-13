@@ -8,13 +8,14 @@ __Contents__
 
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
-    - [2021-04-12 TODO Content Reorganization](#2021-04-12-todo-content-reorganization)
     - [2021-04-13 TODO Replacement Terms](#2021-04-13-todo-replacement-terms)
-    - [2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form](#2021-04-11-brainstorm-design-time--run-time-reformulations--the-i-form)
+    - [2021-04-13 TODO Content Reorganization](#2021-04-13-todo-content-reorganization)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-12 Done Content Reorganization](#2021-04-12-done-content-reorganization)
+    - [2021-04-11 Done Brainstorm "Design Time = Run Time" Reformulations / The I form](#2021-04-11-done-brainstorm-design-time--run-time-reformulations--the-i-form)
     - [2021-04-10 Done Replacement Terms](#2021-04-10-done-replacement-terms)
     - [2021-04-07 Done Content Reorganization](#2021-04-07-done-content-reorganization)
     - [2021-04-07 Done Replacing "Concept" with "Aspect"](#2021-04-07-done-replacing-concept-with-aspect)
@@ -62,28 +63,6 @@ __Contents__
 
 ### TODO
 
-#### 2021-04-12 TODO Content Reorganization
-
-- [x] ⤵ Moves to "Implementations" searching for 0.9 / 2.0 / 3.0
-    - [x] Perhaps first tag the occurrences with `<< implementation >>`
-    - [x] 😦 Quite some occurrences seems to raise questions.
-    - [x] Reasons not to move to "Implementations":
-            - [x] Referencing an experiment might just support the conceptual explanation.
-            - [x] It is already in "Implementations"
-    - [x] Searching for 0.9
-    - [x] Searching for 2.0
-    - [x] Searching for 3.0
-    - [x] Searching for `<< implementation >>` and perhaps move texts.
-- [ ] __Moving around texts__
-    - [ ] `<< detailed work >>`
-        - [ ] Moves to "Implementations".
-        - [ ] Might do the *Spec* first.
-        - [ ] Moves to "Pointers".
-        - [ ] Moves to "Text Code".
-        - [ ] Loose ideas: regroup or clear out
-        - [ ] I seem to have difficulty not changing the tone of texts too.
-        - [ ] Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
-
 #### 2021-04-13 TODO Replacement Terms
 
 - [x] 🍰 Changing tone: replacing "would" with "might".
@@ -93,11 +72,17 @@ __Contents__
       without being clear about that.
 - [ ] ~ Renaming "Object Order" to "Sequence Order"
 
-#### 2021-04-11 Brainstorm "Design Time = Run Time" Reformulations / The I form
+#### 2021-04-13 TODO Content Reorganization
 
-Do I start in the I form here? I had the idea to put things in the I form. This might be my 'solution' for presenting unsound, non-bullet proof ideas. So there is admission of subjectiveness. Also all the opinions I wanted to present, may be expressed with doubt built into it ('may', 'might', 'perhaps', 'maybe'). So no statement may be wrong or right and it might not really matter nor make the text invalid.
-
-A diversion to an Errors article may be appropriate.
+- [ ] __Moving around texts__
+    - [ ] `<< detailed work >>`
+        - [ ] Moves to "Implementations".
+        - [ ] Might do the *Spec* first.
+        - [ ] Moves to "Pointers".
+        - [ ] Moves to "Text Code".
+        - [ ] Loose ideas: regroup or clear out
+        - [ ] I seem to have difficulty not changing the tone of texts too.
+        - [ ] Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
 
 ### Postponed
 
@@ -118,6 +103,25 @@ A diversion to an Errors article may be appropriate.
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-12 Done Content Reorganization
+
+- [x] ⤵ Moves to "Implementations" searching for 0.9 / 2.0 / 3.0
+    - [x] Perhaps first tag the occurrences with `<< implementation >>`
+    - [x] 😦 Quite some occurrences seems to raise questions.
+    - [x] Reasons not to move to "Implementations":
+            - [x] Referencing an experiment might just support the conceptual explanation.
+            - [x] It is already in "Implementations"
+    - [x] Searching for 0.9
+    - [x] Searching for 2.0
+    - [x] Searching for 3.0
+    - [x] Searching for `<< implementation >>` and perhaps move texts.
+
+#### 2021-04-11 Done Brainstorm "Design Time = Run Time" Reformulations / The I form
+
+Do I start in the I form here? I had the idea to put things in the I form. This might be my 'solution' for presenting unsound, non-bullet proof ideas. So there is admission of subjectiveness. Also all the opinions I wanted to present, may be expressed with doubt built into it ('may', 'might', 'perhaps', 'maybe'). So no statement may be wrong or right and it might not really matter nor make the text invalid.
+
+A diversion to an Errors article may be appropriate.
 
 #### 2021-04-10 Done Replacement Terms
 
