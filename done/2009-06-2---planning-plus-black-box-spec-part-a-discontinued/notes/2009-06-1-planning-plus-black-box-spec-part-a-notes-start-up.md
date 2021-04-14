@@ -41,7 +41,7 @@ This document is a checklist for software development-related work, for a good a
 - [x] ~ Figure out workings of the process
     - [x] \> Do that as you go along
 - [x] Analyze existing material:
-    - [x] You have to orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
+    - [x] You might orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
     - [x] Idea Box
     - [x] Existing Black Box documentation
     - [x] Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.

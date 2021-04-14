@@ -67,7 +67,7 @@ See parent project *Encircle Language Spec*.
 
 ### Conditions
 
-You have to orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
+You might orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
 
 ### Time Planning
 
@@ -79,4 +79,4 @@ It is estimated, that this project may take only __1 week__ or __10 days__ tops.
 
 ### Particular Difficulty
 
-A difficult part of this project is working your way through a lot of existing ideas: the idea box is 60 pages, and the ideas in the unfinished Black Box documentation are 29 pages of loose ideas yet to be turned into good documentation. Most of that is out of the original Symbol documentation (the unfinished design of a diagram notation for program code from the year 2004). But it might probably serve only as a cross-out list. So they do not have to be carefully considered in advance.
+A difficult part of this project is working your way through a lot of existing ideas: the idea box is 60 pages, and the ideas in the unfinished Black Box documentation are 29 pages of loose ideas yet to be turned into good documentation. Most of that is out of the original Symbol documentation (the unfinished design of a diagram notation for program code from the year 2004). But it might probably serve only as a cross-out list. So they might not be carefully considered in advance.

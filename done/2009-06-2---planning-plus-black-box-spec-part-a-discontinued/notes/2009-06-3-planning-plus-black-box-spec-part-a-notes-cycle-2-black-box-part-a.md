@@ -39,7 +39,7 @@ Work out the idea as you go along.
 Make concise documentation.  
 Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.  
 
-Writing-efficiently issues you have to consider when making these articles:
+Writing-efficiently issues you might consider when making these articles:
 
 - Creative vs. productive: forget about the time planning while you are working out this idea
 - Blunt, do not compare: in the eventual text stop comparing it to existing languages and stop defending it. Just lay it out as it is.
@@ -57,7 +57,7 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
     -----
     - [x] Categorization:
 
-        - You have to categorize the ideas by relevance.  
+        - You might categorize the ideas by relevance.  
         And then the relevant topics need exact definitions in a list of topics to cover.  
         Then you have a structure within which to work out the topic completely.
         -----
@@ -84,7 +84,7 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
     because now you need to just dig into it and focus on the creative process...  
     the form in which to work comes later.
     -----
-    - I am almost sure, that during this project I might hit a wall a couple of times and have to do it completely differently.
+    - I am almost sure, that during this project I might hit a wall a couple of times and might do it completely differently.
 
 - [x] Get concept clear in your head
 
@@ -128,11 +128,11 @@ By rule you should not do that. Perhaps I do need to look at the implications, t
             - [x] Write 'Object-Bound & Reference-Bound Aspects'
                 - (± 6 hours, ending at 23-07-2009)
                 - Adapt the other documentation to the distinction between object-bound & reference-bound aspects:
-                - [x] Before introducing access control onto other aspects, you have to explain the difference between object-bound and reference-bound aspects.
-                - [x] You also *have to* work out exactly how object-related aspects are access controlled and how friend declarations work in that case.
+                - [x] Before introducing access control onto other aspects, you might explain the difference between object-bound and reference-bound aspects.
+                - [x] You also *might* work out exactly how object-related aspects are access controlled and how friend declarations work in that case.
                 - [x] The rule: ‘always imposed by parent’ is embedded into the stories, before Accessing Other System Aspects. That rule might not always apply, so you should not introduce it there either. You can introduce that in the object-bound and reference-bound story.
                     - [x] \> It is ok this way.
-                - [x] Then the access control connector diagrams have to change. The object-related aspects do not require a parent.
+                - [x] Then the access control connector diagrams might change. The object-related aspects do not require a parent.
                 - [x] I misinterpreted the Reference Class and Object Class terms when updating the connectors and connections.  
                 It might not have anything to do with pointers to pointers.  
                 You have Get Reference Class and Get Object Class,  

@@ -45,7 +45,7 @@ That seems to solve the problem.
     - [ ] ~ The story, how it flows, might not seem to make sense when the title is 'System Interface'.
     - [ ] ~ I might want to revert this for now.
     - [ ] ~ If the title of the chapter might change from System Objects to System Interface, it might make sense to introduce that system interface is first, instead of leading with a story about System Objects and then introducing the System Interface sometimes.
-    - [ ] ~ Something like: "The system interface is like opening up the internal workings of a symbol. < Something about what might be in the system interface. > Wondering what could be exposed through the system interface and how a symbol may work internally, seemed to lead to a systematic overview of things you might do with the language. The story almost seems like a design of a run-time: an implementation of the language, rather than
+    - [ ] ~ Something like: "The system interface is like opening up the internal workings of a symbol. < Something about what might be in the system interface. > Wondering what could be exposed through the system interface and how a symbol may work internally, seemed to lead to a systematic overview of things you might have to do with the language. The story almost seems like a design of a run-time: an implementation of the language, rather than
 - [x] Maybe it can be solve easily, by introducing it as though it might run as a run-time,
 - [ ] ~ but the idea of controlling system aspect is wider in use and can represent constructs from other languages too.
 - [x] Or something. Maybe just put it into context. Or multiple contexts: 
@@ -89,7 +89,7 @@ That seems to solve the problem.
 - [x] Reflection:
     - [x] It seems trying to put content out of scope and a more clear-cut version in place, especially that second part, put quite a storm in my brain. Something I agreed was too much for me right now. It may have been collision of circumstances, that I wanted to take putting content out of scope a step further by replacing it with a different variation too, and secondly also the chapter might be one of the harder ones. In that process I seem to have forgotten what my focus was: tone change. My thoughts are still circling around topics now, that I had earlier chosen to leave untouched for now. I think to move focus to where I want, I might need to actively imprint in my mind to postpone topics and remind myself that postponing them is OK.
     - [x] What sort of went strictly according to plan was: I did replace the implicit notations with explicit ones.
-    - [x] What went sort of wrong might be: Doubts about the systematics and their completeness and correctness seemed to have driven me into a brainstorm of unresolved details. I find there is not much wrong with that, if persistence leads to a well polished end-result, but some might also call it 'losing oneself in the details'. The effort that might come with that persistence is not estimated to be within my capacities right now. I sort of have to be gentle with myself.
+    - [x] What went sort of wrong might be: Doubts about the systematics and their completeness and correctness seemed to have driven me into a brainstorm of unresolved details. I find there is not much wrong with that, if persistence leads to a well polished end-result, but some might also call it 'losing oneself in the details'. The effort that might come with that persistence is not estimated to be within my capacities right now. I sort of might be gentle with myself.
 
 - [x] Steps:
     - [x] Might re-evaluate if the content changes might be picked up or might be postponed.
@@ -167,7 +167,7 @@ That seems to solve the problem.
 - [x] The text might seem to neatly lay out the use cases, where this implicit notation might be used.
 - [x] I might want to draw those use cases out with system interface notation. Then evaluate whether I am content with system interface notation and could do without the introduced implicit notations.
 - [x] Options are a bit dizzying for me now.
-- [x] I have some doubt, but I think I do not have to have that doubt. I scanned over the topics. I think moving this construct out might be OK. After I drew the 'alternative' notation in the system interface.
+- [x] I have some doubt, but I think I might not doubt that so much. I scanned over the topics. I think moving this construct out might be OK. After I drew the 'alternative' notation in the system interface.
 - [x] Drawing explicit notations for many implicit notations mentioned.
 - [x] The New, Add and Remove commands might be explicitly called unlike Get, Set and Use commands, which can be implied by assignment notation, so I might evaluate if those could use an implicit notation, or look good enough to me using system interface notation.
 - [x] Flattening the aspect triangles to a flat list of commands might make system interface notation a bit more practical. > Say in the article that you go for that design choice and show flexibility of choices in this language.

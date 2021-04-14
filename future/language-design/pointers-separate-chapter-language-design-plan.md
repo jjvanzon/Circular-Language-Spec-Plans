@@ -19,7 +19,7 @@ __Contents__
 
 #### 2009-08-26 Postponed Pointers
 
-Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move everything about pointers-to-pointers. But for now you might have to consider pointers-to-pointers every time you work out a theme.
+Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move everything about pointers-to-pointers. But for now you might consider pointers-to-pointers every time you work out a theme.
 
 #### 2020-05-27 Postponed Pointers Chapter
 

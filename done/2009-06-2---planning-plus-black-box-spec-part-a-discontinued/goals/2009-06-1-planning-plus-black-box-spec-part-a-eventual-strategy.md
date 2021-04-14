@@ -64,11 +64,11 @@ This was supposed to be one of the easiest topics left. The benefits of working 
 
 ### Conditions
 
-You have to orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
+You might orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
 
 ### Particular Difficulties
 
-A difficult part of this project is working your way through a lot of existing ideas: the idea box was 60 pages, and the ideas in the unfinished Black Box documentation were 29 pages of loose ideas. Most of that is out of the original Symbol documentation (the unfinished design of a diagram notation for program code from the year 2004). They do not all have to be carefully considered in advance. A lot of it might serve as a cross-out list. 
+A difficult part of this project is working your way through a lot of existing ideas: the idea box was 60 pages, and the ideas in the unfinished Black Box documentation were 29 pages of loose ideas. Most of that is out of the original Symbol documentation (the unfinished design of a diagram notation for program code from the year 2004). They might not necessarily be carefully considered in advance. A lot of it might serve as a cross-out list. 
 
 The amount of work was underestimated, but this could not have been foreseen.
 

@@ -205,7 +205,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
     - Based on Command Basics.
     - Gathered up issues.
     - The issues:
-        - The issues that have to do with:
+        - The issues that might have to do with:
             - Parameters that are commands
             - Classes
         - Specific issues:
@@ -276,7 +276,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
             - Value Direction
             - Indirect Value Transmission
     - Moved old parameter passing types to Advanced Command Topics.
-        - \> Because they talk about In, Out and Thru. It was estimated that the definition of those terms might be harder to do, and might have to do with the Advanced Command Topics.
+        - \> Because they talk about In, Out and Thru. It was estimated that the definition of those terms might be harder to do, and might have do with the Advanced Command Topics.
         - Added it as a possible goal of the project Work Out Advanced Command Topics.
         - Putting a sort of disclaimer in the articles for Simplified Access Control Expression about the use of the terms In Out and Thru.
         - Putting in the plan to adapt the articles Simplified Access Control Expression, being more reserved about the terms In, Out and Thru.

@@ -52,8 +52,8 @@ I might follow the rules set in the parent project descriptions. Especially cons
 
 ### Limitations
 
-You have to limit the time you spend at it, because your studies may go first.  
-You have to make dues with the fact that you are not on a schedule regarding this project.  
+You might limit the time you spend at it, because your studies may go first.  
+You might make dues with the fact that you are not on a schedule regarding this project.  
 Do not go into Black Boxes applied to Interfaces.
 
 ### Time Planning

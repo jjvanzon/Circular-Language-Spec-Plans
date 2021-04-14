@@ -85,7 +85,7 @@ An experimental new version of Encircle could be created at one point, that supp
 
 But when the next conceptual implementation might be created is unclear. That might be the project *Program Base Code*.
 
-Sometimes it can be demotivating, that making the design takes so much time and seems to render so little result. But it may be relevant, that the ideas could be picked up by others. More arguably it may be relevant, that it becomes the *final* design of the base, not an *intermediate* one again, in which important things have been left out, that I know I am going to have to do over again. I left that idea behind, when I decided it did not need to be perfect.
+Sometimes it can be demotivating, that making the design takes so much time and seems to render so little result. But it may be relevant, that the ideas could be picked up by others. More arguably it may be relevant, that it becomes the *final* design of the base, not an *intermediate* one again, in which important things have been left out, that I know I might do over again. I left that idea behind, when I decided it did not need to be perfect.
 
 #### Principles & Aspects
 

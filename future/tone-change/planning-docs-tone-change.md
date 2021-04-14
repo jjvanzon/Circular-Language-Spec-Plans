@@ -74,7 +74,7 @@ __Contents__
     - I did not read the content of the sub-projects or the idea box.
     - I think, I guess, I might want to go through content top-down for reformulations?
 - Tone:
-    - Some things especially in evaluations may seem cocky when I call my own successes very, very good. I don't know if I need to change that. I also use I and you interchangedly when I talk about myself. Not sure if I have to change that. The plans sometimes talk in definites. Maybe openness is better language, I mean more wiggle room in the wording. Not sure if that's a problem.
+    - Some things especially in evaluations may seem cocky when I call my own successes very, very good. I don't know if I need to change that. I also use I and you interchangedly when I talk about myself. Not sure if I might change that. The plans sometimes talk in definites. Maybe openness is better language, I mean more wiggle room in the wording. Not sure if that's a problem.
     - I worry what people might think of me. If they'd think I'm arrogant... maybe I should not worry about that.
     - Cockiness/speaking in definites, and scope/out-of-scope are 2 different things. My intermediate goal now was to change the tone, not to change the scope covered by the documents? There are still gray areas of scope. I think I should deal with that later?
 
@@ -87,7 +87,7 @@ __Contents__
 
 #### 2020-04-18 Done Rewording 2008-05 02 Classes & Relationships Specs Project Summary.docx
 
-- [x] ~~Rename "Relationship" => "Relationship" > I might keep the term relationship in there for now, otherwise I might have to go through so much documentation. If I refer to a product with the work relationship in it and change it in the planning docs, then I also might have to change it in the language spec docs and that is just a whole lot of work. I briefly looked up a discussion online about these words, and it might not seem people can find a really clear distinction or rule, just wishy washy hand wavy stuff, I think. It's just that in IT the term is usually 'relationship'. In the spirit of not alienating readers you might change it, but it might not seem semantically incorrect might you accidentally use the word 'relationship' instead.~~
+- [x] ~~Rename "Relationship" => "Relationship" > I might keep the term relationship in there for now, otherwise I might go through so much documentation. If I refer to a product with the work relationship in it and change it in the planning docs, then I also might change it in the language spec docs and that is just a whole lot of work. I briefly looked up a discussion online about these words, and it might not seem people can find a really clear distinction or rule, just wishy washy hand wavy stuff, I think. It's just that in IT the term is usually 'relationship'. In the spirit of not alienating readers you might change it, but it might not seem semantically incorrect might you accidentally use the word 'relationship' instead.~~
 
 #### 2020-04-18 Done Rewording 2008-06 02 Command as an Aspect Spec Project Summary.docx
 
@@ -172,7 +172,7 @@ __Contents__
     - [x] Concurrency Resolution Spec Project Summary.docx
         - [x] Move out-of-scope.
         - [x] 'Advanced Input/Output' is Concurrency Resolution?
-        - [x] There is overlap, but I'm not sure. If I read over the product list, I think I'd have to look into it deeper to determine if all of that Input/Output stuff is up for postponement. 
+        - [x] There is overlap, but I'm not sure. If I read over the product list, I think I might look into it deeper to determine if all of that Input/Output stuff is up for postponement. 
         - [x] I have looked at multiple sources of information, but cannot determine yet if the topics mentioned under the Input Output section of the Products List are in scope or out of scope, due to the concurrency resolution's being in-scope and out-of-scope.
         - [x] ~~I feel part of the TODO products are already done.~~
         - [x] ~~I feel 'normal' parameter topic are intermixed with concurrency resolution / automatic execution order too much?~~
@@ -198,7 +198,7 @@ __Contents__
         - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Encircle Language JJ's Construct Proposals' or something.
         - [x] I might not want to remove it, if I look at that it explains how I see 'static' in a broader view.
         - [x] But to understand my own doubts about the different ways to see the concept of 'static' that idea description explains a lot and otherwise I might think: where did that idea go and how might it work?
-        - [x] I feel that this concept of static might have a place in the general descriptions, but to apply this to the concept of Code = Data, though interesting to me, might not have to be part of that, because it may confuse and alienate the reader, who might be more familiar with more regular implementations of the concept.
+        - [x] I feel that this concept of static might have a place in the general descriptions, but to apply this to the concept of Code = Data, though interesting to me, might not be part of that, because it may confuse and alienate the reader, who might be more familiar with more regular implementations of the concept.
     - [x] `System Objects Spec Update Ideas.md`
     - [x] Text Code Spec Project Summary.docx
         - [x] Out of scope

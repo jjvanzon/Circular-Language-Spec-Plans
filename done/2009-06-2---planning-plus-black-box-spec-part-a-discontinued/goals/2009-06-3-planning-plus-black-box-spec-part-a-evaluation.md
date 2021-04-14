@@ -38,7 +38,7 @@ One thing might need to be mentioned is that the *Planning* part of the project,
 
 The current project might be discontinued. The remaining work might be turned into a new project. Right now it is important to get overview over what to do again and any proper planning to it. A new set of work items needs to be made, that are individually well to handle. 
 
-To kick off reprioritising: the System Objects cross-outs was what I was last working on, but that might just have to be given lower priority.
+To kick off reprioritising: the System Objects cross-outs was what I was last working on, but that might just be given lower priority.
 
 ### Personal Feeling
 

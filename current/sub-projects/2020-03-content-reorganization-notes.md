@@ -70,8 +70,21 @@ __Contents__
 - [x] 🍰 Replacing "would" with "might".
 - [x] 🎵 Replacing "does" with "might".
 - [x] 🎵 Correcting back: "probably might"
-- [ ] Doing more tone change in bulk?
-- [ ] Searching for "have to".
+- [x] 🍪 Replacing "have to" with "might".
+    - [x] Correcting replacements "'d have to" => "'d might"
+    - [x] Correcting replacements "do not have to" => "do not might"
+    - [x] Correcting replacements "don' have to" => "don't might"
+    - [x] Correcting replacements "have to do with " => "might do with"
+    - [x] Correcting replacements "might have to" => "might might"
+    - [x] Correcting replacements "might just have to" => "might just might"
+    - [x] Correcting replacements "might not have to " => "might not might"
+    - [x] Correcting replacements "to have to" => "to might"
+- [x] Search for "have to" again.
+- [x] "visual studio code" find in files results missing.
+    - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
+    - [x] Seems less buggy when clicking on the magnifier and typing text.
+- [ ] May move this TODO section to "Tone Change" planning doc.
+- [ ] Info: Politeness in English: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
 - [ ] Searching for "can", replacing some occurrences.
 
 #### 2021-04-13 TODO Content Reorganization
@@ -724,7 +737,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] System Commands:
     - [x] Articles for the various aspects might be merged to one article. Those are like 15 articles or so. Most of them are small. 3 of them are a bit larger.
 - [x] System Interfaces:
-    - [x] Articles for the various system objects might be put together into one. Not that all of them are small. Just that enough of them are. It seems a bit of a hinder to have to open them one by one. A single article might make browsing the content easier. The amount of articles might be more overwhelming that an article that has some pages.
+    - [x] Articles for the various system objects might be put together into one. Not that all of them are small. Just that enough of them are. It seems a bit of a hinder to open them one by one. A single article might make browsing the content easier. The amount of articles might be more overwhelming that an article that has some pages.
 - [x] Assignment + subtopics
     - [x] May be turned onto 1 article.
 - [x] I think the main parts may become more obvious from the article list if I merge together more articles into one.
@@ -855,7 +868,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - [x] I am good with no page headers and footers.
         - [x] File properties (author and such)
             - [x] If they are odd. Not that odd => Leave it there.
-            - [x] Still have to do Done projects.
+            - [x] Still might do Done projects.
         - [x] Update lists of contents
         - [x] Legend:
             - [x] Brainstorm: I might keep the legend as it is. It may be more work to check which colors are used where and to change it? Maybe not, maybe that might be the right way to go.

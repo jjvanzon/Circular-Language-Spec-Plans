@@ -26,7 +26,7 @@ This phase is where it went wrong. Work spiraled out of control.
 
 ### Rough Plan
 
-Black boxing has a lot to do with assignment and system aspects. The black boxing notations need to match with the assignment notation and the system objects notation, so you have to make the notation in the Assignment articles and in the System Objects articles ok.
+Black boxing has a lot to do with assignment and system aspects. The black boxing notations need to match with the assignment notation and the system objects notation, so you might make the notation in the Assignment articles and in the System Objects articles ok.
 
 - Update Assignment Articles
     - Get the notation straight
@@ -187,7 +187,7 @@ This should be the new order:
                         ~~But that might make it hard to for instance get a Value through a reference.~~
                         - [x] ~~Always show Object system interface, and through it its related items.~~  
                         ~~But then you can not directly work with related items,~~  
-                        ~~you might have to go through the system interface of its parent object.~~
+                        ~~you might go through the system interface of its parent object.~~
                             - \> ~~Oh, and the object system object might have a related lists and related items collections.~~
                 - [x] Preliminariness
                     - [x] How the system interface looks is totally dependent on how the code base is implemented. If you make different design choices about the code base, organizing members differently, the system interface might also look different, because the system interface is an exact representation of the public members of the system object.

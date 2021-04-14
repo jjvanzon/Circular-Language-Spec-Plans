@@ -48,7 +48,7 @@ It may not be within my capacity to do some of the things I plan to do. Thinking
 
 Perhaps I can drop the goal of trying to use a different language style. My next goal was scoping. I seem to still be bargaining with the idea, like: "Maybe I can just reformulate when it *really* seems to harsh." I think maybe that won't work. Because I tend to evaluate the harshness, and this evaluation is 'jittery': sometimes it seems to be 'on', sometimes 'off', sometimes too on tightly, sometimes maybe too weakly. Perhaps I am better off dropping the whole goal of rewording it. I like learning to use language with more air in it, for my personal life for communication to others, or to prevent holding on too tightly to an idea. But this hobby project may need some air in it. Paradoxically, by not loosening up the language. I feel that writing new texts, I already seem to adopt a ligher way of conveying ideas. Evaluating existing texts seems harder.
 
-I think I lean towards the decision of dropping the goal of reformulating texts to be more 'open'. I still have to get used to the idea.
+I think I lean towards the decision of dropping the goal of reformulating texts to be more 'open'. I still might get used to the idea.
 
 Little reformulations here and there is something I do when reading over and editing my own texts. Some wording changes I might want to be tolerant towards. But the anxiousness might be something I want to let go of.
 

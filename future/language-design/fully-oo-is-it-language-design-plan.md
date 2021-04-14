@@ -10,7 +10,7 @@ Fully OO. Is It? | Language Design | Plan
 
 - [ ] ~ Topics that the spec might be extended with, to make it more 'fully OO':
 - [ ] ~ Here and there I mention that the diagram notation could 'fully describe' an OO system. But I do not mention that it stops at arithmetic, comparative, logical operators and such. You might display that as an object graph. An idea was that 'Math' might be an external module that describes all the basic operators, but another idea was for expressions like that could be just included as bits of text code inside the diagram. Maybe not be too strict about this towards myself.
-- [ ] ~ Also when I look at Encircle Construct Drafts, I see topics one might expect in a language spec, that are not addressed. I guess it might not have to have everything any other language spec might have...
+- [ ] ~ Also when I look at Encircle Construct Drafts, I see topics one might expect in a language spec, that are not addressed. I guess it might not have everything any other language spec might have...
 - [ ] ~ The "Summaries of Other Languages" lists constructs, that I might have deemed 'obvious' how to express them in Encircle, but that might not be the case: enums, structs, union types, other sorts of types, all sorts of operators, all the modifiers. If it turns out explainable under one umbrella, maybe one article might suffice. Maybe called "Imported Constructs" but perhaps that name might demote these constructs too much?
 - [ ] ~ I have some notations in mind for 'operators' which may cover a portion of the constructs in the "Sumarries of Other Languages":
     - [ ] Drawing out operators and operands as function calls with the command and paramater notation of Encircle.
