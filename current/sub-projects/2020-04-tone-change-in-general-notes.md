@@ -10,6 +10,7 @@ __Contents__
 - [Information](#information)
 - [Postponed](#postponed)
     - [2021-04-12 Postponed In Bulk](#2021-04-12-postponed-in-bulk)
+    - [2021-04-13 TODO Milder Tone in Bulk](#2021-04-13-todo-milder-tone-in-bulk)
     - [2020-06-01 Postponed Checklist Tone Change](#2020-06-01-postponed-checklist-tone-change)
     - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
     - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
@@ -41,6 +42,30 @@ __Contents__
 #### 2021-04-12 Postponed In Bulk
 
 - [ ] ~ Perhaps changing *all* the documents at the same time, *one* trigger word at a time, might better fit my way of processing things.
+
+#### 2021-04-13 TODO Milder Tone in Bulk
+
+- [x] 🐇 Replacing "will" with "might".
+- [x] 🍦 Replacing "must" with "might" or "may".
+- [x] 🍰 Replacing "would" with "might".
+- [x] 🎵 Replacing "does" with "might".
+- [x] 🎵 Correcting back: "probably might"
+- [x] 🍪 Replacing "have to" with "might".
+    - [x] ↩ Correcting replacements "'d have to" => "'d might"
+    - [x] ↩ Correcting replacements "do not have to" => "do not might"
+    - [x] ↩ Correcting replacements "don' have to" => "don't might"
+    - [x] ↩ Correcting replacements "have to do with " => "might do with"
+    - [x] ↩ Correcting replacements "might have to" => "might might"
+    - [x] ↩ Correcting replacements "might just have to" => "might just might"
+    - [x] ↩ Correcting replacements "might not have to " => "might not might"
+    - [x] ↩ Correcting replacements "to have to" => "to might"
+- [x] Search for "have to" again.
+- [x] "visual studio code" find in files results missing.
+    - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
+    - [x] Seems less buggy when clicking on the magnifier and typing text.
+- [ ] May move this TODO section to "Tone Change" planning doc.
+- [ ] Info: Politeness in English: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
+- [ ] Searching for "can", replacing some occurrences.
 
 #### 2020-06-01 Postponed Checklist Tone Change
 

@@ -8,7 +8,6 @@ __Contents__
 
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
-    - [2021-04-13 TODO Milder Tone in Bulk](#2021-04-13-todo-milder-tone-in-bulk)
     - [2021-04-13 TODO Content Reorganization](#2021-04-13-todo-content-reorganization)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
@@ -62,30 +61,6 @@ __Contents__
 - [ ] Loose ideas: regroup or clear out
 
 ### TODO
-
-#### 2021-04-13 TODO Milder Tone in Bulk
-
-- [x] 🐇 Replacing "will" with "might".
-- [x] 🍦 Replacing "must" with "might" or "may".
-- [x] 🍰 Replacing "would" with "might".
-- [x] 🎵 Replacing "does" with "might".
-- [x] 🎵 Correcting back: "probably might"
-- [x] 🍪 Replacing "have to" with "might".
-    - [x] Correcting replacements "'d have to" => "'d might"
-    - [x] Correcting replacements "do not have to" => "do not might"
-    - [x] Correcting replacements "don' have to" => "don't might"
-    - [x] Correcting replacements "have to do with " => "might do with"
-    - [x] Correcting replacements "might have to" => "might might"
-    - [x] Correcting replacements "might just have to" => "might just might"
-    - [x] Correcting replacements "might not have to " => "might not might"
-    - [x] Correcting replacements "to have to" => "to might"
-- [x] Search for "have to" again.
-- [x] "visual studio code" find in files results missing.
-    - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
-    - [x] Seems less buggy when clicking on the magnifier and typing text.
-- [ ] May move this TODO section to "Tone Change" planning doc.
-- [ ] Info: Politeness in English: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
-- [ ] Searching for "can", replacing some occurrences.
 
 #### 2021-04-13 TODO Content Reorganization
 
