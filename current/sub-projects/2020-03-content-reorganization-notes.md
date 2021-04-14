@@ -8,7 +8,7 @@ __Contents__
 
 - [Rough Plan](#rough-plan)
 - [TODO](#todo)
-    - [2021-04-13 TODO Replacement Terms](#2021-04-13-todo-replacement-terms)
+    - [2021-04-13 TODO Milder Tone in Bulk](#2021-04-13-todo-milder-tone-in-bulk)
     - [2021-04-13 TODO Content Reorganization](#2021-04-13-todo-content-reorganization)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
@@ -63,26 +63,29 @@ __Contents__
 
 ### TODO
 
-#### 2021-04-13 TODO Replacement Terms
+#### 2021-04-13 TODO Milder Tone in Bulk
 
-- [x] 🍰 Changing tone: replacing "would" with "might".
-- [x] 🎵 Changing tone: replacing "does" with "might".
-- [x] Correcting back: "probably might"
-- [x] 🔮 Made clearer when "3.0" references a future version.
-- [ ] __🔢 Renaming "Object Order" to "Sequence Order".__
+- [x] 🐇 Replacing "will" with "might".
+- [x] 🍦 Replacing "must" with "might" or "may".
+- [x] 🍰 Replacing "would" with "might".
+- [x] 🎵 Replacing "does" with "might".
+- [x] 🎵 Correcting back: "probably might"
 - [ ] Doing more tone change in bulk?
+- [ ] Searching for "have to".
+- [ ] Searching for "can", replacing some occurrences.
 
 #### 2021-04-13 TODO Content Reorganization
 
-- [ ] __Moving around texts__
-    - [ ] `<< detailed work >>`
-        - [ ] Might do the *Spec* first.
-        - [ ] Moves to "Implementations".
-        - [ ] Moves to "Pointers".
-        - [ ] Moves to "Text Code".
-        - [ ] Loose ideas: regroup or clear out
-        - [ ] I seem to have difficulty not changing the tone of texts too.
-        - [ ] Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
+- [ ] __Moving around texts:__
+    - [ ] __WAS AT: Commands Main Concepts__ going in chapter order.
+    - [ ] 🚚 Moves to __Implementations / Pointers / Text Code / Construct Drafts.__
+    - [ ] __Loose Ideas__: regroup or clear out
+    - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
+    - [ ] Might do the *Spec* first.
+    - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
+- [x] 🖼 Classes chapter: Fine-tuned image sizes.
+- [x] 📑 Classes chapter: Fixing heading levels for table of contents.
+- [x] 💄 Classes chapter: Gave << stereotyping >> an alternative style: inline code.
 
 ### Postponed
 
@@ -116,6 +119,18 @@ __Contents__
     - [x] Searching for 2.0
     - [x] Searching for 3.0
     - [x] Searching for `<< implementation >>` and perhaps move texts.
+- [x] .. Moving around text:
+    - [x] ⚡ Brainstorm: Moving "Loose Ideas" to "Construct Drafts"
+        - [x] Obs: I am looking at Basic Diagram Element's Loose Ideas section.
+        - [x] Q: Might I move all the Loose Ideas sections to Construct Drafts? Pros? Cons?
+        - [x] Pro: Cleaner main text
+        - [x] Con: Less easily found?
+        - [x] Pro: Construct drafts might be 'known territory', not really 'forbidden territory'.
+    - [x] ⚡ Brainstorm: Moving "Static" to "Construct Drafts"?
+        - [x] Hyp: This might clear out much of the spec, if I might apply that rule to more.
+        - [x] Hyp: Without unfinished ideas, there may not be a (preliminary) spec to speak of?
+        - [x] Conc: So maybe not.
+        - [x] ~~But Static > Loose Ideas might be weeded out.~~ > Not much to move.
 
 #### 2021-04-11 Done Brainstorm "Design Time = Run Time" Reformulations / The I form
 
@@ -143,8 +158,8 @@ A diversion to an Errors article may be appropriate.
     - [x] Searching for 3
     - [x] ~~Renaming 2.0 to 2.~~ > May make less searchable.
     - [x] 🏷 Renaming experiment 3 to experiment 3.0
-- [x] 🐇 Replacing "will" with "might".
-- [x] 🍦 Replacing "must" with "might" or "may".
+- [x] 🔢 Renaming "Object Order" to "Sequence Order".
+- [x] 🔮 Made clearer when "3.0" references a future version.
 
 #### 2021-04-07 Done Content Reorganization
 
