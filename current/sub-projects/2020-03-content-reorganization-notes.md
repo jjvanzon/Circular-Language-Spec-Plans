@@ -7,12 +7,15 @@ Content Reorganization | 2020-03 | Notes
 __Contents__
 
 - [Rough Plan](#rough-plan)
+- [Information](#information)
+    - [Stereotyping Fragments](#stereotyping-fragments)
 - [TODO](#todo)
     - [2021-04-13 TODO Content Reorganization](#2021-04-13-todo-content-reorganization)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-16 Done Creation Behavior of Commands](#2021-04-16-done-creation-behavior-of-commands)
     - [2021-04-12 Done Content Reorganization](#2021-04-12-done-content-reorganization)
     - [2021-04-11 Done Brainstorm "Design Time = Run Time" Reformulations / The I form](#2021-04-11-done-brainstorm-design-time--run-time-reformulations--the-i-form)
     - [2021-04-10 Done Replacement Terms](#2021-04-10-done-replacement-terms)
@@ -60,20 +63,48 @@ __Contents__
 - [ ] __Replacing some terms__
 - [ ] Loose ideas: regroup or clear out
 
+### Information
+
+#### Stereotyping Fragments
+
+As a helper for reorganizing content, fragments of content might first be *stereotyped* before moving them, by annotating them with for instance the following stereotypes:
+
+- By reason:
+    - `<< already covered >>`
+    - `<< repeated >>`
+    - `<< nice formulation >>`
+    - `<< detail >>`
+    - `<< details >>`
+    - `<< synonym >>`
+    - `<< explains other technology >>`
+    - `<< move >>`
+    - `<< rule rich>>`
+    - `<< terminology >>`
+    - `<< implementation >>`
+    - `<< text code >>`
+    - `<< broader view >>`
+    - `<< construct draft >>`
+- By topic:
+    - `<< pointers >>`
+    - `<< commands compared to objects >>`
+    - `<< creation behavior of commands >>`
+    - `<< parameters >>`
+    - ...
+
 ### TODO
 
 #### 2021-04-13 TODO Content Reorganization
 
+- [x] 🖼 Classes chapter: Fine-tuned image sizes.
+- [x] 📑 Classes chapter: Fixing heading levels for table of contents.
+- [x] 💄 Classes chapter: Gave `<< stereotyping >>` an alternative style: inline code.
 - [ ] __Moving around texts:__
-    - [ ] __WAS AT: Commands Main Concepts__ going in chapter order.
-    - [ ] 🚚 Moves to __Implementations / Pointers / Text Code / Construct Drafts.__
-    - [ ] __Loose Ideas__: regroup or clear out
+    - [ ] 👾 __WAS AT: Command Redirection__ (in the order of TOC)
+    - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts
+    - [ ] 💡 Loose Ideas: regroup or clear out
     - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
     - [ ] Might do the *Spec* first.
     - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
-- [x] 🖼 Classes chapter: Fine-tuned image sizes.
-- [x] 📑 Classes chapter: Fixing heading levels for table of contents.
-- [x] 💄 Classes chapter: Gave << stereotyping >> an alternative style: inline code.
 
 ### Postponed
 
@@ -94,6 +125,30 @@ __Contents__
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-16 Done Creation Behavior of Commands
+
+- [x] Brainstorm:
+    - [x] The creation behavior seems such a specific implementation.
+    - [x] I can imagine implementing it differently.
+    - [x] The general outlines seem to clarify a problem.
+    - [x] For instance where it says: Private contents are copied. That may be in prototype based instantiation. But in class based instantiation, 'static' parts might not be copied, though they might be visible in the object.
+    - [x] In a general explanation it might not matter.
+    - [x] I am not sure object parameter lines are 'already set'. Perhaps they might sneakily be assignment calls.
+    - [x] ~~Perhaps even the diagram part is specific implementation.~~ > Sort of.
+    - [x] ~~Perhaps more general formulation (with pictures) might be left in the spec.~~
+    - [x] ~~The rest might be moved to Implementations.~~
+    - [x] The diagrams seem to clarify, which may add value to the spec.
+    - [x] O, wait, I see, the conceptual explanation and diagram notation still seem separately described.
+    - [x] Comparison to CPU-Like Call Instantian seems movable to Implementations.
+- [x] Steps:
+    - [x] Moving Comparison to CPU-like calls to Implementation.
+    - [x] Merging conceptual descriptions with diagram descriptions.
+    - [x] Adding introduction section.
+    - [x] Distribute Loose Ideas over different articles.
+    - [x] Might formulate some things more generally:
+        - [x]  Parameter lines: being actual references or imposter assignments might both be presented as options. > Added a section just about this.
+        - [x] "Copied from definition": May formulate more generally: "shown as a copy [ ... ]" (code might not be copied, depending on implementation.)
 
 #### 2021-04-12 Done Content Reorganization
 

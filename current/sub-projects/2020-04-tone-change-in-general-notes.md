@@ -9,8 +9,7 @@ __Contents__
 - [Rough Plan](#rough-plan)
 - [Information](#information)
 - [Postponed](#postponed)
-    - [2021-04-12 Postponed In Bulk](#2021-04-12-postponed-in-bulk)
-    - [2021-04-13 TODO Milder Tone in Bulk](#2021-04-13-todo-milder-tone-in-bulk)
+    - [2021-04-13 Postponed Milder Tone in Bulk](#2021-04-13-postponed-milder-tone-in-bulk)
     - [2020-06-01 Postponed Checklist Tone Change](#2020-06-01-postponed-checklist-tone-change)
     - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
     - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
@@ -36,15 +35,13 @@ __Contents__
 - Tools:
     - Thesaurus: <https://www.thesaurus.com/>
     - Google Translate: <https://translate.google.com/>
+- Polite forms in English Language: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
 
 ### Postponed
 
-#### 2021-04-12 Postponed In Bulk
+#### 2021-04-13 Postponed Milder Tone in Bulk
 
 - [ ] ~ Perhaps changing *all* the documents at the same time, *one* trigger word at a time, might better fit my way of processing things.
-
-#### 2021-04-13 TODO Milder Tone in Bulk
-
 - [x] 🐇 Replacing "will" with "might".
 - [x] 🍦 Replacing "must" with "might" or "may".
 - [x] 🍰 Replacing "would" with "might".
@@ -64,7 +61,7 @@ __Contents__
     - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
     - [x] Seems less buggy when clicking on the magnifier and typing text.
 - [ ] May move this TODO section to "Tone Change" planning doc.
-- [ ] Info: Politeness in English: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
+
 - [ ] Searching for "can", replacing some occurrences.
 
 #### 2020-06-01 Postponed Checklist Tone Change
