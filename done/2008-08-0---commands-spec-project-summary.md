@@ -108,8 +108,8 @@ The following was produced:
     - *No Circular Command Creation in a Diagram*
     - *No Private Contents in a Call in a Definition*
     - *No Private Contents in a Call in a Definition in a Diagram*
-    - *A Call in a Call Shows Privates When Running*
-    - *A Call in a Call Shows Privates When Running in a Diagram*
+    - *A Call in a Call Shows Private Contents When Running*
+    - *A Call in a Call Shows Private Contents When Running in a Diagram*
 - *Active Command in Inactive Command*
 - *Active Command in Inactive Command in a Diagram*
 - *Reading & Writing Parameters*

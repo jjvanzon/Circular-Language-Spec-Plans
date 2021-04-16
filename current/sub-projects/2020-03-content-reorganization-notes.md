@@ -15,7 +15,8 @@ __Contents__
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
-    - [2021-04-16 Done Creation Behavior of Commands](#2021-04-16-done-creation-behavior-of-commands)
+    - [2021-04-16 Done Creation Behavior of Commands, Content Reorganization](#2021-04-16-done-creation-behavior-of-commands-content-reorganization)
+    - [2021-04-13 Done Classes Content Reorganization](#2021-04-13-done-classes-content-reorganization)
     - [2021-04-12 Done Content Reorganization](#2021-04-12-done-content-reorganization)
     - [2021-04-11 Done Brainstorm "Design Time = Run Time" Reformulations / The I form](#2021-04-11-done-brainstorm-design-time--run-time-reformulations--the-i-form)
     - [2021-04-10 Done Replacement Terms](#2021-04-10-done-replacement-terms)
@@ -95,11 +96,9 @@ As a helper for reorganizing content, fragments of content might first be *stere
 
 #### 2021-04-13 TODO Content Reorganization
 
-- [x] 🖼 Classes chapter: Fine-tuned image sizes.
-- [x] 📑 Classes chapter: Fixing heading levels for table of contents.
-- [x] 💄 Classes chapter: Gave `<< stereotyping >>` an alternative style: inline code.
 - [ ] __Moving around texts:__
-    - [ ] 👾 __WAS AT: Command Redirection__ (in the order of TOC)
+    - [ ] 🎯 __WAS AT: Command Redirection__ (in the order of TOC)
+        - [ ] Might be more about Pointers.
     - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts
     - [ ] 💡 Loose Ideas: regroup or clear out
     - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
@@ -126,7 +125,7 @@ As a helper for reorganizing content, fragments of content might first be *stere
 
 ### Done
 
-#### 2021-04-16 Done Creation Behavior of Commands
+#### 2021-04-16 Done Creation Behavior of Commands, Content Reorganization
 
 - [x] Brainstorm:
     - [x] The creation behavior seems such a specific implementation.
@@ -149,6 +148,12 @@ As a helper for reorganizing content, fragments of content might first be *stere
     - [x] Might formulate some things more generally:
         - [x]  Parameter lines: being actual references or imposter assignments might both be presented as options. > Added a section just about this.
         - [x] "Copied from definition": May formulate more generally: "shown as a copy [ ... ]" (code might not be copied, depending on implementation.)
+
+#### 2021-04-13 Done Classes Content Reorganization
+
+- [x] 🖼 Classes chapter: Fine-tuned image sizes.
+- [x] 📑 Classes chapter: Fixing heading levels for table of contents.
+- [x] 💄 Classes chapter: Gave `<< stereotyping >>` an alternative style: inline code.
 
 #### 2021-04-12 Done Content Reorganization
 
