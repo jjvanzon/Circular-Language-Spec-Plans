@@ -11,10 +11,13 @@ __Contents__
     - [Stereotyping Fragments](#stereotyping-fragments)
 - [TODO](#todo)
     - [2021-04-13 TODO Content Reorganization](#2021-04-13-todo-content-reorganization)
+    - [2021-04-21 Brainstorm Moving Loose Ideas](#2021-04-21-brainstorm-moving-loose-ideas)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-19 Done Content Reorganization: Commands Misc Issues](#2021-04-19-done-content-reorganization-commands-misc-issues)
+    - [2021-04-13 Done Content Reorganization: Commands Example Diagrams](#2021-04-13-done-content-reorganization-commands-example-diagrams)
     - [2021-04-16 Done Creation Behavior of Commands, Content Reorganization](#2021-04-16-done-creation-behavior-of-commands-content-reorganization)
     - [2021-04-13 Done Classes Content Reorganization](#2021-04-13-done-classes-content-reorganization)
     - [2021-04-12 Done Content Reorganization](#2021-04-12-done-content-reorganization)
@@ -61,8 +64,11 @@ __Contents__
 - [x] Index pages / README's for "Encircle-Language-Spec-Plans"
 - [x] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
 - [x] Tables of contents
-- [ ] __Replacing some terms__
-- [ ] Loose ideas: regroup or clear out
+- [x] Replacing some terms
+- [ ] __Stereotyping fragments__
+- [ ] __Moving around content__
+- [ ] __Moves to: Pointers / Text Code / Implementations / Construct Drafts__
+- [ ] __Loose ideas: regroup or clear out__
 
 ### Information
 
@@ -70,40 +76,85 @@ __Contents__
 
 As a helper for reorganizing content, fragments of content might first be *stereotyped* before moving them, by annotating them with for instance the following stereotypes:
 
-- By reason:
-    - `<< already covered >>`
-    - `<< repeated >>`
-    - `<< nice formulation >>`
-    - `<< detail >>`
-    - `<< details >>`
-    - `<< synonym >>`
-    - `<< explains other technology >>`
-    - `<< move >>`
-    - `<< rule rich>>`
-    - `<< terminology >>`
-    - `<< implementation >>`
-    - `<< text code >>`
-    - `<< broader view >>`
-    - `<< construct draft >>`
-- By topic:
-    - `<< pointers >>`
-    - `<< commands compared to objects >>`
-    - `<< creation behavior of commands >>`
-    - `<< parameters >>`
-    - ...
+- Reasons:
+    - Integrate
+        - `<< nice formulation >>`
+        - `<< synonym >>`
+    - Move to another chapter
+        - `<< move >>`
+        - `<< pointers >>`
+        - `<< commands compared to objects >>`
+        - `<< creation behavior of commands >>`
+        - `<< parameters >>`
+        - ...
+    - Move to Broader View
+        - `<< broader view >>`
+        - `<< applications >>`
+        - `<< explains other technology >>`
+    - Move to Construct Drafts
+        - `<< construct draft >>`
+        - `<< rule rich >>`
+        - `<< detail >>`
+        - `<< details >>`
+        - `<< terminology >>`
+        - `<< implementation >>`
+        - `<< text code >>`
+    - Remove
+        - `<< already covered >>`
+        - `<< repeated >>`
+        - `<< interpretation issues >>`
 
 ### TODO
 
 #### 2021-04-13 TODO Content Reorganization
 
-- [ ] __Moving around texts:__
-    - [ ] 🎯 __WAS AT: Command Redirection__ (in the order of TOC)
-        - [ ] Might be more about Pointers.
-    - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts
-    - [ ] 💡 Loose Ideas: regroup or clear out
+- [ ] May rename "Encircle" => "Circular" first.
+- [ ] Correcting tables of contents of:
+    - [ ] Aspects As External Modules
+    - [ ] Text Code Loose Ideas
+    - [ ] Type Safety, Generic, Explicit
+    - [ ] Execution Flow Loose Ideas
+- [ ] Assignment broader view:
+    - In defense of the assignment notation, it may look that way expressing it being "almost a connection". A moment later it might be a connection, while there may still be a command to execute for that before it is.
+- [ ] Moving around texts:
+    - [x] ⏹ WAS AT: Commands Loose Ideas (by order of TOC)
+        - [x] 🗿 Changed heading levels for table of contents.
+        - [x] 🍱 Stereotyping text fragments.
+        - [ ] 🚚 Moving around stereotyped text fragments.
+        - [ ] Some `<< rule rich >>` content may be moved to Implementations perhaps.
+        - [ ] 🥵 A struggle to make it work seems noticeable here.
+        - [ ] 🚛 Might make that struggle a specific article in Commands Construct Drafts.
+    - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
+    - [ ] 💡 Loose Ideas: regroup or clear out.
     - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
     - [ ] Might do the *Spec* first.
-    - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression"
+    - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression".
+
+#### 2021-04-21 Brainstorm Moving Loose Ideas
+
+- [ ] Would I move a loose idea to...
+    - [ ] a chapter's main document,
+    - [ ] a chapter's loose ideas document,
+    - [ ] a construct drafts article or
+    - [ ] a sub-project document?
+- [ ] Too many options?
+- [ ] Reasons seem to contradict.
+    - [ ] *In main document:*
+        - [ ] It seems unclean to me to add a loose ideas section to main articles.
+    - [ ] *Ideas grouped together:*
+        - [ ] I might also value that ideas about similar topic are grouped together. That might be a 'pro' for moving it to the main article about a topic.
+    - [ ] *Separate Loose Ideas article:*
+        - [ ] But I think a separate loose ideas document though it seems clean, is something I might only apply if a chapter might have multiple articles.
+    - [ ] *Single chapter article:*
+        - [ ] But I think I want chapters to consist of only one document preferably.
+    - [ ] *To Construct Drafts:*
+        - [ ] I think the distinction between move to construct draft or not might be if I expect I might want an idea to be part of the spec or probably not.
+- [ ] *How important is the idea?* It might be a matter of how important I think the idea is to put it in the main document.
+- [ ] It may also be a generally ok idea to put loose ideas about a construct in construct drafts, and not leave it lingering in a reasonably polished up chapter.
+- [ ] So except for the *sub-project* document option, the preferred place might be a loose ideas document per topic in the Construct Drafts section.
+- [ ] That leaves me unclear about when yo put it in a sub-project document. I think a sub-project document might be good for the highlights of what work could be done. I think content that goes into a topic deeper, could be better off in Construct Draft.
+- [ ] I think I might have found the preferred place for loose ideas to group under different topics: a Loose Ideas document per topic in Construct Drafts.
+- [ ] \> So the first idea wanted to move out of Commands Loose Ideas might go in Construct Drafts > Basic Diagram Elements Loose Ideas?
 
 ### Postponed
 
@@ -124,6 +175,22 @@ As a helper for reorganizing content, fragments of content might first be *stere
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-19 Done Content Reorganization: Commands Misc Issues
+
+- [x] Stereotyping fragments
+- [x] 🚗 Moved "Parent Controls Its Sub-Executions" to Commands Construct Drafts.
+- [x] 🦚 Moving Referrers topics to separate article under Pointers.
+- [x] ⏺ Moved This Argument ideas from Commands Misc Issues to Parapeters Loose Ideas.
+
+#### 2021-04-13 Done Content Reorganization: Commands Example Diagrams
+
+- [x] ~~Probably no moves or loose ideas to regroup.~~
+- [x] But I sort of trip over my use of the word 'clause'.
+- [x] The systematic exposition, seems to rely on word clause.
+- [x] ~~Can I change the term I use for it?~~
+- [x] Or describing it in an Introduction section.
+- [x] 🖼 Adding pictures of basic concepts to introduction.
 
 #### 2021-04-16 Done Creation Behavior of Commands, Content Reorganization
 
