@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Symbol = Creator Spec | 2008-03 | Project Summary

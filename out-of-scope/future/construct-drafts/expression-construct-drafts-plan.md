@@ -1,4 +1,4 @@
-Encircle Language Spec Plans | Construct Drafts
+Circular Language Spec Plans | Construct Drafts
 ===============================================
 
 Expression | Construct Drafts | Plan

@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Orient in First Four Principles | 2008-03 | Project Summary
@@ -22,7 +22,7 @@ Orient in the documentation of the first four fundamental principles:
 
 ### Super-Project
 
-This is a sub-project of the super-project *Encircle Language Spec, Fundamental Principles Spec Part A.*
+This is a sub-project of the super-project *Circular Language Spec, Fundamental Principles Spec Part A.*
 
 ### Date & Time
 

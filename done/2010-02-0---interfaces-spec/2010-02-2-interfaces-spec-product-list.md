@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Interfaces Spec | 2010-02 | Product List

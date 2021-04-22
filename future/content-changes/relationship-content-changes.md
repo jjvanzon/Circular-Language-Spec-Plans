@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Relationships | Content Changes
@@ -33,7 +33,7 @@ __Contents__
 
 -----
 
-- [ ] ~ The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Encircle Language Spec Strategy.
+- [ ] ~ The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Circular Language Spec Strategy.
 
 -----
 
@@ -42,7 +42,7 @@ __Contents__
 #### 2020-06-15 Postponed Content Changes for Relationships Chapter
 
 - [ ] ~ The Relationships chapter is now before the System Objects chapter. I question whether the Relationships chapter might not better go after the System Interface chapter. 
-- [ ] ~ The file '2. Relational Structure (Use As Cross Out Later).docx' might be placed in a 'previous versions' folder? I wonder how needed it is for Encircle. It might be interesting to keep, not to rip apart as the file name seems to suggest should be done.
+- [ ] ~ The file '2. Relational Structure (Use As Cross Out Later).docx' might be placed in a 'previous versions' folder? I wonder how needed it is for Circular. It might be interesting to keep, not to rip apart as the file name seems to suggest should be done.
 - [ ] ~ I also miss, that classes might contain (static) data that looks like object relationships. This means I think, basically that you could see a mix of class and object structure. Perhaps a picture of that may take away some uneasiness and insecurity about applicability of this notation.
 - [ ] ~ The idea of multiple types of objects in a single list, might be pushed to the background?
 - [ ] ~ Special notations such as 'related to itself', maybe put those a separate part, so the main point may flow better?
@@ -70,7 +70,7 @@ Plan:
 
 #### 2020-06-19 Done Brainstorm Bidirectional Relationship Notation
 
-I have some difficulty dealing with the following: I do not seem to have much hope anymore for the double-dashed bordered ring notation that might be proposed in the current text. I tend to like the explicit two line notation with a relational ring around it. I now 'fail' to see how that might be more convoluted. The double-bordered ring seems a tiny bit far fetched in its being derived from *automatic containment*, which might not seem to be part of the Encircle Language Spec anymore. The derivation might be also difficult to understand without background about this difficult topic of automatic containment, which was (temporarily?) abandoned over its complexity and unresolved issues. (Might be an idea for the future, but not now was the current thought.) I am now failing to see how merging the lines together might create clarity or terseness. It was supposed to be easier on the eyes, less detail, for something that was supposed to be used all over the place. I am not so convinced it might be used all over the place, and not so convinced that the notation proposed is clearer. I like the lines to be a bit purer in what they express, as in, aspect correspondence. I, and maybe others at some point, might be confused that line connections change meaning just like that. I sort of like that you can see that the relationship from an OO point of view looks like two properties closely related. That's quite some talk about why I am not convinced about this notation.
+I have some difficulty dealing with the following: I do not seem to have much hope anymore for the double-dashed bordered ring notation that might be proposed in the current text. I tend to like the explicit two line notation with a relational ring around it. I now 'fail' to see how that might be more convoluted. The double-bordered ring seems a tiny bit far fetched in its being derived from *automatic containment*, which might not seem to be part of the Circular Language Spec anymore. The derivation might be also difficult to understand without background about this difficult topic of automatic containment, which was (temporarily?) abandoned over its complexity and unresolved issues. (Might be an idea for the future, but not now was the current thought.) I am now failing to see how merging the lines together might create clarity or terseness. It was supposed to be easier on the eyes, less detail, for something that was supposed to be used all over the place. I am not so convinced it might be used all over the place, and not so convinced that the notation proposed is clearer. I like the lines to be a bit purer in what they express, as in, aspect correspondence. I, and maybe others at some point, might be confused that line connections change meaning just like that. I sort of like that you can see that the relationship from an OO point of view looks like two properties closely related. That's quite some talk about why I am not convinced about this notation.
 
 It sort of feels wrong to put effort into texts about a notation I do not seem to like that much anymore.
 
@@ -111,7 +111,7 @@ I used to think expressing doubt or uncertainty might make people dismiss an ide
 
 #### 2020-06-15 Done Scoping/Changing Relationships Sections
 
-- [x] I feel there might be details of the Relationship chapter that may be postponed to Encircle Construct Drafts or Encircle Broader View or something.
+- [x] I feel there might be details of the Relationship chapter that may be postponed to Circular Construct Drafts or Circular Broader View or something.
 - [x] I feel that the relationships chapter could introduce the notation, maybe descriptions of the concept, what it is about, what it is for. Maybe how it could be applied. Something about a relationship being bidirectional and the the two ends of the relationship can be kept in sync.
 - [x] The sub-topics and what might be done with them:
     - [x] Relationships Between Classes
@@ -137,7 +137,7 @@ I used to think expressing doubt or uncertainty might make people dismiss an ide
 - [x] The Relationships chapter is larger than the Classes chapter.
 - [x] I feel uneasy going through the text marking trigger words in red. It is a lot of text, and it sort of feels like wasted energy sometimes.
 - [x] For subjects to postpone I might not value trigger word marking as much as texts I might use at an earlier time.
-- [x] I had an uneasy feeling like that when I went through the Classes chapter. Eventually I feel I have boiled the Classes down to something more close to core of the subject and postponed half of the content to Encircle Broader View.
+- [x] I had an uneasy feeling like that when I went through the Classes chapter. Eventually I feel I have boiled the Classes down to something more close to core of the subject and postponed half of the content to Circular Broader View.
 - [x] I think I might do something similar with the Relationships chapter.
 - [x] I saw implementation details in the text. I saw some concepts, that either might be out of scope or maybe have a place in the System Objects chapter.
 - [x] I do not feel that rewording things is wasted energy as a whole.
@@ -148,7 +148,7 @@ I used to think expressing doubt or uncertainty might make people dismiss an ide
 - [x] (I think I should rename relation to relationships, since it seems a more common thing to call it.)
 - [x] Sub-topics and what might be done with them:
     - [x] Referrers
-        - [x] Perhaps move to System Objects or otherwise to Encircle Construct Drafts or maybe Encircle Broader View?
+        - [x] Perhaps move to System Objects or otherwise to Circular Construct Drafts or maybe Circular Broader View?
     - [x] Class Referrers
         - [x] Probably the same as above.
     - [x] Relationships between Classes:
@@ -160,29 +160,29 @@ I used to think expressing doubt or uncertainty might make people dismiss an ide
     - [x] Bidirectional relationships
         - [x] Describes some points of view from a software design perspective I guess.
         - [x] Then goes into that Relationships sort of are bidirectional relationships, which maybe is not a given, so maybe I might not say it that way and may reformulate this.
-        - [x] The Diagram Notation part might start to go into that it is not quite solved to apply both *automatic containment* versus *ubiquitous bidirectional relationships* at the same time. Those two concepts may not be part of Encircle Language Spec anymore, so that might be moved to Encircle Construct Drafts or Encircle Broader View. When the postponed concepts are taken out of the text, what might remain of the content? It may make it easier. Notational things might be in there still then.
+        - [x] The Diagram Notation part might start to go into that it is not quite solved to apply both *automatic containment* versus *ubiquitous bidirectional relationships* at the same time. Those two concepts may not be part of Circular Language Spec anymore, so that might be moved to Circular Construct Drafts or Circular Broader View. When the postponed concepts are taken out of the text, what might remain of the content? It may make it easier. Notational things might be in there still then.
         - [x] I wonder where my idea went, for a relational ring around the two lines of the two counterparts of a bidirectional relationship. I may just want to introduce it there, even though I was not extending content currently, I am missing this.
         - [x] Besides the things I might like to change, I sort of like the text as I scrolled through it.
         - [x] Section "Counterpart out of Sight"
             - [x] Implicit notations seem to cause jeopardy for ambiguity.
             - [x] In my aim to express multiplicity that is out of sight, combined with my reverting to explicit relationship counterpart notation ("relational ring" notation), the notation looks like what I might have in mind for the notation for 'optional'.
-            - [x] I propose to leave this 'problem' unsolved: move the 'Counterpart of of Sight' to Encircle Construct Drafts. The argument "something out of sight' is out of sight" seems to make sense enough for this 'problem' not to be considered a problem at all.
+            - [x] I propose to leave this 'problem' unsolved: move the 'Counterpart of of Sight' to Circular Construct Drafts. The argument "something out of sight' is out of sight" seems to make sense enough for this 'problem' not to be considered a problem at all.
             - [x] In another way of viewing it, a proposed notation looks like it 'lies' about the containment structure.
         - [x] Section "No Reuse of Merged Imaginary References"
-            - [x] Only seems relevant when automatic containment is relevant and when the sort of deprecated double dashed ring notation might have been relevant. Because those 2 topics might not be considered relevant right now, the topic could move away from Encircle Language Spec and into Encircle Construct Drafts perhaps. Not even Encircle Broader View?
+            - [x] Only seems relevant when automatic containment is relevant and when the sort of deprecated double dashed ring notation might have been relevant. Because those 2 topics might not be considered relevant right now, the topic could move away from Circular Language Spec and into Circular Construct Drafts perhaps. Not even Circular Broader View?
     - [x] Dual and Unary
         - [x] Much of this might be moved or removed, because in essence this might have been covered under the section of Relationships. The issues raised there might be software design issues, perhaps not relevant to the notation. The Relationships section may be renamed to Bidirectional Relationships maybe.
         - [x] I might replace these terms with bidirectional and unidirectional. I think I was searching for shorter clear terms, but I sort of decided to try and use more common IT terminology.
         - [x] I might want to not push the bidirectional relationships too much to the foreground. I may want to make it more neutral on the subject. That should be in line with trying to use more open wording.
-        - [x] The Referrers concept seems to be mentioned there again. That might be moved to the System Objects chapter, or to Encircle Broader View or Encircle Construct Drafts.
+        - [x] The Referrers concept seems to be mentioned there again. That might be moved to the System Objects chapter, or to Circular Broader View or Circular Construct Drafts.
     - [x] Referrers Versus Related Objects
-        - [x] This might be moved away from Encircle Language Spec, since the Referrers topic is too.
+        - [x] This might be moved away from Circular Language Spec, since the Referrers topic is too.
     - [x] Relationship to a Pointer
         - [x] According to chapter subdivision ideas I have not, this might be moved to the Pointers chapter.
     - [x] Relationship Direction
-        - [x] May tap into a problem that comes with automatic containment, a concept I believe I decided to move away from the Encircle Language Spec. So this sub-topic might too.
+        - [x] May tap into a problem that comes with automatic containment, a concept I believe I decided to move away from the Circular Language Spec. So this sub-topic might too.
 - [x] Model-based / class-relational design:
-    - [x] I am guessing that after the content is changed like that, not that much notation might be introduced, but more an idea of thinking in terms of relationships between classes might be sort of pushed there. That idea might not serve the notation all that much. It may serve an idea I have for aspect oriented programming that might not become part of the Encircle Language Spec. I have a question for myself: Might I leave out the topic of relationship-oriented software design, and just strip it to a notation introduction? The alternative seems to be to explain a way you might organize and model code, that to me seems an interesting topic, but might that have much to do with the Encircle language notation? I think maybe this is one of those moments where you move a text you like out of the works, to serve the whole and the goal better? Not sure.
+    - [x] I am guessing that after the content is changed like that, not that much notation might be introduced, but more an idea of thinking in terms of relationships between classes might be sort of pushed there. That idea might not serve the notation all that much. It may serve an idea I have for aspect oriented programming that might not become part of the Circular Language Spec. I have a question for myself: Might I leave out the topic of relationship-oriented software design, and just strip it to a notation introduction? The alternative seems to be to explain a way you might organize and model code, that to me seems an interesting topic, but might that have much to do with the Circular language notation? I think maybe this is one of those moments where you move a text you like out of the works, to serve the whole and the goal better? Not sure.
     - [x] I think maybe I could get away with apparently squeezing in 'ideals' about software structuring while introducing the relationships notation? Or is that sleezy somehow? I think I might say nothing wrong and the notation is there to support that (common?) software design choice, so why not raise some points about it? They could shed light on why the notation exist in the first place.
 - [x] I might already be moving out about half of the (complicated?) text or so. I might consider moving the texts around first, before reformulating in more open wording, just so save some time.
 - [x] I think I pushed away the idea of 'what am I doing it all for' and found value in what might become the end result.
@@ -195,7 +195,7 @@ I think it is an interesting idea. But it seems presented in a way that all rela
 
 It seems to be more about an idea for ubiquitous bidirectional relationships. It seems that Relationships in my view back then was synonymous for bi-directional relationships and my idea was you should make most relationships bi-directional. But the problem with, that I have with that now, is that doing so sort of removes hierarchy: everything seems to land on the same level of the containment structure, if every relationship is mutual. I had some ideas how to then solve that again, with relationship direction. I think I still like that idea. But now I have a construct proposal, that seems to be pushed too hard to the foreground, that seems something you should be able to choose, not something you should be pushed down your throat, excuse the sarcasm. And unless I finish it, it seems to hinder the notation, that I find more important than having all relationships be bi-directional.
 
-Maybe I might demote the Relationships construct to Encircle Construct Drafts entirely. Maybe. It seems about what you could do with these unfinished 'Creator' systems I once programmed. But what you could do with Creator had to do with aspects, relationships, libraries of aspects, that tap into a way to describe relationships. Possibly all those concepts might be put aside. Maybe to pick up at one point later, but not so much part of the Encircle notation. I do think that in the Encircle projects in the past, I had figured out that the Creator concepts are probably integrable with Encircle, though the precise notation was not worked out to the last detail. I remember now, that I was quite keen to try and make sure the Encircle and Creator ideas were to be combined into one. Later on I think I had it clearer in my head where these two ideas met, and how they could go together.
+Maybe I might demote the Relationships construct to Circular Construct Drafts entirely. Maybe. It seems about what you could do with these unfinished 'Creator' systems I once programmed. But what you could do with Creator had to do with aspects, relationships, libraries of aspects, that tap into a way to describe relationships. Possibly all those concepts might be put aside. Maybe to pick up at one point later, but not so much part of the Circular notation. I do think that in the Circular projects in the past, I had figured out that the Creator concepts are probably integrable with Circular, though the precise notation was not worked out to the last detail. I remember now, that I was quite keen to try and make sure the Circular and Creator ideas were to be combined into one. Later on I think I had it clearer in my head where these two ideas met, and how they could go together.
 
 Maybe describing it more 'openly' might just make it usable as a proposed construct notation. Right now the aim is not so much that everything might work as a run-time or that automatic determination of containment structure is also let go of, which might simplify things. I just might not want to propose that this is a required thing.
 

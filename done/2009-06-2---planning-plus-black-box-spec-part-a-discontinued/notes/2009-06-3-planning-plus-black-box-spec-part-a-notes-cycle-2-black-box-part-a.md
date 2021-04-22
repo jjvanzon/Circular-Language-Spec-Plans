@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Cycle 2: Black Box Part A
@@ -37,7 +37,7 @@ This document is a checklist for software development-related work, for a good a
 Look over the existing material there is now.  
 Work out the idea as you go along.  
 Make concise documentation.  
-Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.  
+Consider the ‘writing efficiently’ rules in the project documentation of *Circular Language Spec*.  
 
 Writing-efficiently issues you might consider when making these articles:
 

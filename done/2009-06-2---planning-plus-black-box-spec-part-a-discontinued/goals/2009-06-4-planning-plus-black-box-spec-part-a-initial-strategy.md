@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Initial Strategy
@@ -25,7 +25,7 @@ This is the initial plan. The plan changed during the project. You might find th
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 (Most objectives are explained inside the documentation of the parent project.)
 
@@ -35,7 +35,7 @@ Documentation / functional design
 
 ### Goal
 
-- Plan complete remains of *Encircle Language Spec*
+- Plan complete remains of *Circular Language Spec*
 - Functionally work out the *Black Box* concept.
 
 ### Side-goals
@@ -53,7 +53,7 @@ This is the approach for working out the *Black Box* concept.
 Look over the existing material there is now.  
 Work out the idea as you go along.  
 Make concise documentation.  
-Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.
+Consider the ‘writing efficiently’ rules in the project documentation of *Circular Language Spec*.
 
 ### Benefits
 
@@ -63,7 +63,7 @@ This is one of the easiest topics left. The benefits of working out an easy topi
 
 After this project it is probably best to work on Microsoft certification first.  
 The following 8 months are planned ahead, so it is clear what is next for the future.  
-See parent project *Encircle Language Spec*.
+See parent project *Circular Language Spec*.
 
 ### Conditions
 
@@ -71,7 +71,7 @@ You might orient yourself into the idea box and the existing documentation in or
 
 ### Time Planning
 
-A rough time planning of this 8 month period can be found in the project documentation of the super-project *Encircle Language Spec*.
+A rough time planning of this 8 month period can be found in the project documentation of the super-project *Circular Language Spec*.
 
 This sub-project might have a small time-planning document.
 

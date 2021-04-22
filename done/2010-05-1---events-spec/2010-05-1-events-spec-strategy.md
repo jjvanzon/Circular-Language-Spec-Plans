@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Events Spec | 2010-05 | Strategy
@@ -17,11 +17,11 @@ __Contents__
 
 ### Background
 
-I had an idea about the basic diagram notation for Events since 2002, but an idea about an acceptable notation for drawing out a multicast event popped into my head now in 2010. Then after having studied and updated document templates for 6 ½ hours, I decided to reward myself with doing another *Encircle Language* project: *Events*.
+I had an idea about the basic diagram notation for Events since 2002, but an idea about an acceptable notation for drawing out a multicast event popped into my head now in 2010. Then after having studied and updated document templates for 6 ½ hours, I decided to reward myself with doing another *Circular Language* project: *Events*.
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 ### Character of the Work
 

@@ -1,4 +1,4 @@
-﻿Encircle Language Spec
+﻿Circular Language Spec
 ======================
 
 Strategy
@@ -25,11 +25,11 @@ __Contents__
 
 ### Introduction
 
-*Encircle* aims to become a programming language once.
+*Circular* aims to become a programming language once.
 
 I spent quite some time in my 20's thinking about this idea of how to visually express the internals of computers and programming languages.
 
-*Encircle Language Spec* tries to describe it.
+*Circular Language Spec* tries to describe it.
 
 It is an idea for a new computer programming language, mostly about a diagram notation that might show things, that go on inside a computer. It might once become a way to navigate and write code.
 
@@ -75,7 +75,7 @@ Around 2004 the idea may have been to cover *everything*. Now (2021-03) a scopin
         (e.g. using diagrams to express C# code, folder structures, etc.)
 - [x] ~~Implementations~~
 - [x] ~~Precise rules~~
-- [x] ~~Stand-alone Encircle programming environment~~
+- [x] ~~Stand-alone Circular programming environment~~
 - [x] ~~What apps might be programmed in it?~~
 - [x] ~~Could this run as a stand-alone OS?~~
 - [x] ~~Aspect Framework / "Creator" projects~~

@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plan | Construct Drafts
+﻿Circular Language Spec Plan | Construct Drafts
 ==============================================
 
 Automatic Containment | Construct Draft | Plan
@@ -73,7 +73,7 @@ Do note that fixed logical residence requires qualification, but that might not 
 
 ### Project Steps
 
-- Look at Encircle Coding Principles.doc
+- Look at Circular Coding Principles.doc
 - Maybe go through all ideas you can find.
 - Update article Automatic Containment
     - Features to possibly add:

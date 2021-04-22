@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Comment Notation | Language Design | Plan

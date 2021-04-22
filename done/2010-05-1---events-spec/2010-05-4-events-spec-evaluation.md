@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Events Spec | 2010-05 | Evaluation
@@ -27,7 +27,7 @@ Try to have the same strategy in the next project, if it works there, but be ope
 
 What might happen now is that I might make a new parent project description, basically replanning all my software development activities for the time to come.
 
-These activities might include updating document templates, studying and doing *Encircle Language Spec* projects.
+These activities might include updating document templates, studying and doing *Circular Language Spec* projects.
 
 ### Eventual Time Cost
 

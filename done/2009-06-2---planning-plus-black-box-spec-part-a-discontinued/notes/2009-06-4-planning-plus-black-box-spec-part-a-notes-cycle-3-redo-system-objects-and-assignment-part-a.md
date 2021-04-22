@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Cycle 3: Redo System Objects & Assignment Part A

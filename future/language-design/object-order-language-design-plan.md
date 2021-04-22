@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Sequence Order | Language Design | Plan

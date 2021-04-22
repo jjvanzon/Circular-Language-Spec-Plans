@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Start Up
@@ -44,7 +44,7 @@ This document is a checklist for software development-related work, for a good a
     - [x] You might orient yourself into the idea box and the existing documentation in order to really know the extent of the work and to really go into details about the approach.
     - [x] Idea Box
     - [x] Existing Black Box documentation
-    - [x] Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.
+    - [x] Consider the ‘writing efficiently’ rules in the project documentation of *Circular Language Spec*.
 - [x] Brainstorm about solutions
 - [x] Determine program elements
     - [x] (in the document *Software Development Elements & Time Estimation*)

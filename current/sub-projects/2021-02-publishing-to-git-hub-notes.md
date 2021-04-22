@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Publishing to GitHub | 2020-02 | Notes
@@ -24,9 +24,7 @@ __Contents__
     - [ ] On GitHub linked a YouTube movie.
 - [ ] Adjusting image size: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
 - [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
-- [ ] Renaming from "Encircle" to "Symbol"?
-    - [ ] Perhaps first search for "Symbol" and replace it to "original Symbol documentation from 2004" or something.
-    - [ ] Or "Circular".
+- [x] Renaming from "Circular" to "Symbol"?
 
 ### Done
 
@@ -43,8 +41,8 @@ __Contents__
 - [x] ~~Is the summary of the C and C++ in Summaries of Other Languages an intellectual property problem? I summarized the languages using MSDN as source information. Hmm... If I didn't mention the source information it might not look like an intellectual property problem. Just I read stuff about a programming language and wrote stuff down... not sure. > It think this is an unreasonable doubt.~~
 - [x] "Relational Structure"
     - [x] Might mention a relationship example which might not be kept in there. It also may reference a company name.
-    - [x] I think I might be better off removing that document from the Encircle-Language-Spec repository.
-- [x] Renaming Encircle-Language-Spec-Plan to Encircle-Language-Spec-Plans (plural).
+    - [x] I think I might be better off removing that document from the Circular-Language-Spec repository.
+- [x] Renaming Circular-Language-Spec-Plan to Circular-Language-Spec-Plans (plural).
 - [x] Reorganizing Broader View and Construct Drafts knowing they might also be published?
 
 #### 2021-02-09 Done Publishing
@@ -78,8 +76,8 @@ __Contents__
 - [x] Is in some sub-project planning doc.
 - [x] I can take it out of the current version.
 - [x] Should I ask him if he is OK with it staying in the source control history or if he wants it out of there?
-- [x] Also in "2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects" his first name is mentioned.
-- [x] I may be better off removing some items of history from Encircle-Language-Spec-Plan completely for this purpose.
+- [x] Also in "2009-06 01 Circular Language Spec Plan Part B, Sub-Projects" his first name is mentioned.
+- [x] I may be better off removing some items of history from Circular-Language-Spec-Plan completely for this purpose.
 - [x] There is also a split up between a doc for 'in-scope' and one for 'out-of-scope'.
 - [x] It is even in this document. This is really difficult to unravel. I think I can't without harming the integrity of the change history.
 - [x] I think I am better off asking my brother. If there was an easy option to take it out without harming the change history...

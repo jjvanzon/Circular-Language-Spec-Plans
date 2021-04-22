@@ -1,4 +1,4 @@
-Encircle Language Spec Plans | Language Design
+Circular Language Spec Plans | Language Design
 ==============================================
 
 Gentler Intro | 2020-05 | Notes
@@ -22,7 +22,7 @@ __Contents__
 
 - [x] I have the idea, that I might copy and paste more content and search and replace certain basic trigger words like 'is' by 'could' and 'might' for instance. And also visually scan the text for trigger words, like superlatives, words that see express value or devalue.
 - [x] I might like to replace the word 'Procedure' by 'Command', also in the pictures.
-- [x] When I change notations, the call lines in the Encircle Language Spec Introduction might become dashed.
+- [x] When I change notations, the call lines in the Circular Language Spec Introduction might become dashed.
 
 #### 2020-05-28 Done Brainstorm New Intro: Word Stress
 

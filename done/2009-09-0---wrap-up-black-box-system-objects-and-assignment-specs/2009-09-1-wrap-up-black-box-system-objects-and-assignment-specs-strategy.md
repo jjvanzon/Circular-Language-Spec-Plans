@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Strategy
@@ -36,7 +36,7 @@ This document describes a goal and the approach of the project *Wrap Up Black Bo
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 (Most objectives are explained inside the documentation of the parent project.)
 
@@ -98,4 +98,4 @@ __17__ hours total
 ### Future
 
 After this project, getting Microsoft certified might be picked up again.    
-It might only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Encircle Language Spec project might be picked up again.
+It might only be after getting certified and getting a new job, updating templates, and everything regarding the new job, that a new Circular Language Spec project might be picked up again.

@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Tone Change | in General | 2020-04 | Notes 
@@ -99,7 +99,7 @@ __Contents__
     - [ ] ~ I could start reading and reformulating top to bottom.
     - [ ] ~ Introduction
         - [ ]  Applying trigger word marking technique to this already reworded document?
-    - [ ] ~ For topics TODO / Done: See *Encircle Language Spec Product List*.
+    - [ ] ~ For topics TODO / Done: See *Circular Language Spec Product List*.
 
 #### 2019-08-05 Postponed Mixed Writing Style Issues
 
@@ -196,7 +196,7 @@ I might like to feel comfortable writing again. I might like to not do it 'wrong
 
 #### 2008-08-31 Done Writing Style Ideas
 
-Encircle Language Spec, Writing Style,  
+Circular Language Spec, Writing Style,  
 2008-08-31
 
 Sometimes it is just clearer to have an article, with diagrams in it straight away, without any article with just textual explanations. In the future, the whole form of the documentation might change as such and have diagram expression be more present in the conceptual explanations.

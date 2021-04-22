@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Review by Brother (Out of Scope) | 2009-08 | Small Plan
@@ -13,11 +13,11 @@ __Contents__
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 ### Goal
 
-*This document only has the notes taken out of the original document about the Encircle Language Spec review, because the topics are now out of scope of Encircle Language Spec.* 
+*This document only has the notes taken out of the original document about the Circular Language Spec review, because the topics are now out of scope of Circular Language Spec.* 
 
 ### General Planning
 

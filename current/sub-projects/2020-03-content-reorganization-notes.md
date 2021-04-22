@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Content Reorganization | 2020-03 | Notes
@@ -14,7 +14,7 @@ __Contents__
     - [2021-04-21 Brainstorm Moving Loose Ideas](#2021-04-21-brainstorm-moving-loose-ideas)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
-    - [2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-encircle-broader-view--construct-drafts-neater-folders)
+    - [2020-05-14 Postponed Circular Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-circular-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
     - [2021-04-19 Done Content Reorganization: Commands Misc Issues](#2021-04-19-done-content-reorganization-commands-misc-issues)
     - [2021-04-13 Done Content Reorganization: Commands Example Diagrams](#2021-04-13-done-content-reorganization-commands-example-diagrams)
@@ -45,24 +45,24 @@ __Contents__
     - [2020-05-20 Done Merging Parameters Articles Together](#2020-05-20-done-merging-parameters-articles-together)
     - [2020-05-18 Done Merging Commands Articles Together](#2020-05-18-done-merging-commands-articles-together)
     - [2020-05-18 Done Merging System Objects Articles Together](#2020-05-18-done-merging-system-objects-articles-together)
-    - [2020-05-16 Done Reorganize Encircle Language Spec Files](#2020-05-16-done-reorganize-encircle-language-spec-files)
-    - [2020-04-01 Done Encircle Language Spec Planning Docs](#2020-04-01-done-encircle-language-spec-planning-docs)
+    - [2020-05-16 Done Reorganize Circular Language Spec Files](#2020-05-16-done-reorganize-circular-language-spec-files)
+    - [2020-04-01 Done Circular Language Spec Planning Docs](#2020-04-01-done-circular-language-spec-planning-docs)
     - [2020-03-22 Done Organize Planning Docs](#2020-03-22-done-organize-planning-docs)
 
 ### Rough Plan
 
-- [x] Reorganizing "Encircle Docs" roughly
+- [x] Reorganizing "Circular Docs" roughly
 - [x] Reorganizing "Spec" roughly
     - [x] Reduced the number of articles, grouping topics together.
     - [x] ~ Turned separate Concept / Diagram / Text Code articles into one.
 - [x] Reorganizing "Broader View" roughly
 - [x] Reorganizing "Construct Drafts" roughly
 - [x] Moving topics out of "Spec"
-- [x] Index pages for "Encircle-Language-Spec"
-- [x] Webby paths / pretty URL's for "Encircle-Language-Spec"
+- [x] Index pages for "Circular-Language-Spec"
+- [x] Webby paths / pretty URL's for "Circular-Language-Spec"
 - [x] Reorganizing Planning Docs roughly
-- [x] Index pages / README's for "Encircle-Language-Spec-Plans"
-- [x] Webby paths / pretty URL's for "Encircle-Language-Spec-Plans"
+- [x] Index pages / README's for "Circular-Language-Spec-Plans"
+- [x] Webby paths / pretty URL's for "Circular-Language-Spec-Plans"
 - [x] Tables of contents
 - [x] Replacing some terms
 - [ ] __Stereotyping fragments__
@@ -108,7 +108,7 @@ As a helper for reorganizing content, fragments of content might first be *stere
 
 #### 2021-04-13 TODO Content Reorganization
 
-- [ ] May rename "Encircle" => "Circular" first.
+- [ ] May rename "Circular" => "Circular" first.
 - [ ] Correcting tables of contents of:
     - [ ] Aspects As External Modules
     - [ ] Text Code Loose Ideas
@@ -170,7 +170,7 @@ As a helper for reorganizing content, fragments of content might first be *stere
     - [ ] Switching "Parameters" approach between "Spec" and "Construct Drafts" replacing the "Commands & Classes Loosely Coupled" approach with the "Input Output" approach.
     - [ ] ~ Splitting up Black Box Construct Drafts (they seem disparate topics)
 
-#### 2020-05-14 Postponed Encircle Broader View / Construct Drafts Neater Folders
+#### 2020-05-14 Postponed Circular Broader View / Construct Drafts Neater Folders
 
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
@@ -255,9 +255,9 @@ A diversion to an Errors article may be appropriate.
 
 #### 2021-04-10 Done Replacement Terms
 
-- [x] Replacing "new computer language" with "Encircle".
-    - [x] In Encircle-Language-Spec
-    - [x] In Encircle-Language-Spec-Plans
+- [x] Replacing "new computer language" with "Circular".
+    - [x] In Circular-Language-Spec
+    - [x] In Circular-Language-Spec-Plans
 - [x] Experiments 0.4 / 0.9 / 2.0 / 3
     - [x] Different names for these versions / implementations?
     - [x] ~~"experimental version x.x of a new computer language"?~~
@@ -265,8 +265,8 @@ A diversion to an Errors article may be appropriate.
     - [x] ~~"Engine experiment 2.0"~~
     - [x] ~~Or just: Creator 0.4, Creator 0.9, Creator 2.0 and Circle 3? Just the names they had?~~
     - [x] >> Or "experiment x.x"?
-    - [x] In the Encircle-Language-Spec repo:
-    - [x] In the Encircle-Language-Spec-Plans repo:
+    - [x] In the Circular-Language-Spec repo:
+    - [x] In the Circular-Language-Spec-Plans repo:
     - [x] Searching for 0.4
     - [x] Searching for 0.9
     - [x] Searching for 2.0
@@ -279,8 +279,8 @@ A diversion to an Errors article may be appropriate.
 #### 2021-04-07 Done Content Reorganization
 
 - [x] Headings more uniform
-- [x] Encircle-Language-Spec tables of contents
-- [x] Encircle-Language-Spec-Plan tables of contents
+- [x] Circular-Language-Spec tables of contents
+- [x] Circular-Language-Spec-Plan tables of contents
 - [x] Overview might be given links.
 - [x] Renaming "In a Diagram" sections to just "Diagram"
 - [x] Renaming "System Objects" chapter to "System Interfaces"
@@ -295,7 +295,7 @@ A diversion to an Errors article may be appropriate.
     - [x] "Concept" had such a nice ring to it.
     - [x] Maybe some other way to be selective?
     - [x] Certain files perhaps?
-    - [x] Encircle-Language-Spec
+    - [x] Circular-Language-Spec
         - [x] "Construct Drafts" README
         - [x] "Aspects"
         - [x] "Command as an Aspect Brainstorm Texts"
@@ -319,7 +319,7 @@ A diversion to an Errors article may be appropriate.
         - [x] Searching for "Coding Concept" (some occurrences replaced)
         - [x] Searching for "a aspect" / "a *aspect".
         - [x] Searching for "external module"
-    - [x] Encircle-Language-Spec-Plan
+    - [x] Circular-Language-Spec-Plan
         - [x] Went through it file by file.
         - [x] Searching for "as a concept"
         - [x] Searching for "concept literal"
@@ -359,16 +359,16 @@ A diversion to an Errors article may be appropriate.
 #### 2021-03-30 Done Merging together goals of Revamp project with Main Project.
 
 - [x] Splitting Revamp Notes into sub-project docs for more specific things
-- [x] Encircle Language Spec Strategy
+- [x] Circular Language Spec Strategy
     - [x] Perhaps do not describe goals *once had* but *never reached*.
     - [x] Perhaps better describe what *happened* and goals *now*.
     - [x] I cannot do *efficient* anymore.
-- [x] Encircle Language Spec Products List
+- [x] Circular Language Spec Products List
     - [x] Might build up a new list.
     - [x] Going over older list items and cross them out.
     - [x] Sub-elaborations may go to sub-project docs.
     - [x] Giving each section a small introductory text.
-- [x] Archived: Encircle Language Spec Steps & Time Planning.
+- [x] Archived: Circular Language Spec Steps & Time Planning.
     - [x] \> I cannot do (strict) time planning anymore.
 - [x] Grouping folders for "Sub-Projects" (group might be Language Design / Content Changes / Tone Change)
 - [x] Brainstorm:
@@ -381,7 +381,7 @@ A diversion to an Errors article may be appropriate.
     - [x] Perhaps better describe what *happened* and goals *now*.
 - [x] ~ Out of Scope > Product List
     - [x] Ordered older items by newer categories.
-    - [x] Extending with topics from the Encircle-Language-Spec documentation folders.
+    - [x] Extending with topics from the Circular-Language-Spec documentation folders.
         - [x] Cross checked with doc folders.
         - [x] Cross checking with index pages.
     - [x] Eliminating section "Topics Roughly"
@@ -408,9 +408,9 @@ A diversion to an Errors article may be appropriate.
     - [x] "Previous Versions"
     - [x] "Summaries of Other Languages"
 - [x] Make folder subdivision neater, now that the topics have found a new place. 
-    - [x] "Encircle Language Spec"
-    - [x] "Encircle Constructs Drafts"
-    - [x] "Encircle Broader View"
+    - [x] "Circular Language Spec"
+    - [x] "Circular Constructs Drafts"
+    - [x] "Circular Broader View"
 - [x] Spec contents page (with links)
     - [x] Removing links to folders (confusing).
 - [x] 'Webby paths' / 'pretty URL's' (shallow paths, lower-case, dashes, no spaces)
@@ -499,10 +499,10 @@ Still want to change the fonts.
 
 - [x] ~~Maybe put Type Control out of scope? > Deemed less important to consider right now.~~
 - [x] So, what's next?
-- [x] I think nothing to reorganize anymore about the file structure of Encircle Language Spec.
+- [x] I think nothing to reorganize anymore about the file structure of Circular Language Spec.
 - [x] Maybe start with the texts?
 - [x] ~~Option: Convert to docx. > Too many docs.~~
-- [x] Option: If there are still Text Code topics, they might be moved to Encircle Construct Drafts.
+- [x] Option: If there are still Text Code topics, they might be moved to Circular Construct Drafts.
 - [x] Structure changes:
     - [x] Making back ground black?
     - [x] Changing main headers?
@@ -512,7 +512,7 @@ Still want to change the fonts.
     - [x] Merging or redistributing articles?
     - [x] Putting each conceptual and diagram explanation together in an article.
 - [x] Chapters:
-    - [x] Encircle Language Spec Overview
+    - [x] Circular Language Spec Overview
     - [x] Basic Diagram Elements
     - [x] Objects
     - [x] Classes
@@ -539,7 +539,7 @@ Still want to change the fonts.
 #### 2020-05-24 Done Merging and Redistributing Remaining Articles
 
 Maybe going into detail about this is not part of the editing phase I am putting these articles through.
-This is what the Encircle Language Spec Overview calls the 'unfinished' part. So for that reason it seems less straight forward.
+This is what the Circular Language Spec Overview calls the 'unfinished' part. So for that reason it seems less straight forward.
 It is also harder to subdivide, because it is multiple different issues, unlike previous tasks I did, which were just about 1 main topic.
 The question I have for myself is how much is worth doing with regards to these topics.
 Some things I'd like to do.
@@ -563,10 +563,10 @@ But I might want to be selective about it.
     - [x] Makes me wonder if some topics are handy as a separate chapter or better grouped into another main topic.
     - [x] Eventually might move to the Objects chapter, but might keep it in its own folder for now.
 - [x] "This"
-    - [x] I think I already had a place in mind for that, to move this article to a different main topic. I think tso Commands, but I think I put that down in the planning doc Encircle Language Spec Product List.
-    - [x] Encircle Language Spec Product List says that it should belong in the Commands chapter.
+    - [x] I think I already had a place in mind for that, to move this article to a different main topic. I think tso Commands, but I think I put that down in the planning doc Circular Language Spec Product List.
+    - [x] Circular Language Spec Product List says that it should belong in the Commands chapter.
 - [x] "Redirection"
-    - [x] Encircle Language Spec Product List might not seem to assign a specific existing Chapter to it. It says 'ref-ness'? Maybe that pointer to pointer situations might all be put in a separate chapter, this might also belong there?
+    - [x] Circular Language Spec Product List might not seem to assign a specific existing Chapter to it. It says 'ref-ness'? Maybe that pointer to pointer situations might all be put in a separate chapter, this might also belong there?
     - [x] It talks about 'target symbols'.
     - [x] There are several target symbol topics in e.g. the chapters Objects, Classes and Interfaces.
     - [x] Maybe that can all go to a chapter about ref-ness, or whatever generic term I might find for it.
@@ -587,7 +587,7 @@ But I might want to be selective about it.
     - [x] Larger
 - [x] "32. Previous Versions"
     - [x] This folder structure seems off when there is essentially only one version, as one document in it.
-    - [x] (There used to be multiple versions in one folder. Those were put out of scope of the Encircle Language Spec.)
+    - [x] (There used to be multiple versions in one folder. Those were put out of scope of the Circular Language Spec.)
 
 #### 2020-05-23 Done Merging Inheritance Articles Together
 
@@ -645,7 +645,7 @@ Most of them are small.
 "13. Qualified Event Names" should be out of scope, since it is about text code?  
 The articles before 'System Events' might be put into one article.  
 I might put System Events in one article.  
-System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Encircle Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Encircle might function more like a stand-alone language, rather than mostly a diagram notation).  
+System Events can almost be demoted to a Construct Draft, but just like System Objects is in there, I might want to keep System Events part of the Circular Language Spec (for now). (The correspondence between System Objects and System Events is that they seem more like part of a run-time or if Circular might function more like a stand-alone language, rather than mostly a diagram notation).  
 The last 3 articles might become a single 'misc' article. But perhaps some of them have a place in the main article.
 
 ```
@@ -700,10 +700,10 @@ None of the articles are that big. The size differences are a bit all over the p
 Logically I might group together all Interface Aspects articles.
 The Intro and Main Concepts seem logical to group.
 I think I'll just start with those and take it from there.
-There's something about text code in Interface Assignment Types. That could be moved to Encircle Construct Drafts.
+There's something about text code in Interface Assignment Types. That could be moved to Circular Construct Drafts.
 Maybe move the Loose Ideas all to a separate article at the end.
 
-I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Encircle Language Spec, and perhaps leave as a topic for Encircle Construct Drafts. But right now the idea seems embedded into the Encircle Language Spec, and without significant modification, it might not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
+I discuss problems with interface reliability in case of automatically established bidirectional relationships. The idea of always having bidirectional relationships between things is something I want to distance myself from in the Circular Language Spec, and perhaps leave as a topic for Circular Construct Drafts. But right now the idea seems embedded into the Circular Language Spec, and without significant modification, it might not seem you can deprecate it yet. I think such redesign of Relationships may take place in the future (to leave out automatic bidirectional relationships). But I think it is only then that I also adapt the text about this edge cases. So the question that worried me is whether it is out of scope or not. The answer for now seems to be: no, it is in scope, but the design of the concept of Relationships may be changed in later efforts.
 
 #### 2020-05-20 Done Merging Black Boxes Articles Together
 
@@ -734,12 +734,12 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - Objects Take Over Class Access Control: Might move to article Black Boxes, section Friend Declarations in Instances.
     - "21. Black Box Side-Issues"
         - Looks unfinished.
-        - Might move these Encircle Broader View:
+        - Might move these Circular Broader View:
             - Black Boxing and User Access Control
             - Programmers and Users
     - "22. Black Box Details, May Cover Last"
         - Unfinished drafts.
-        - Might move these Encircle Construct Drafts:
+        - Might move these Circular Construct Drafts:
             - Level Limitation
             - Module Level Limitation
             - Downsides to Black Boxes
@@ -751,10 +751,10 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - Simplified Access Connectors: I think those ideas could be moved to Simplified Access Control Notation, because that is what they are about. Big brainstorm though.
     - "23. Black Box Details, Might Not Cover"
         - Same as above.
-        - Moving it to Encircle Construct Drafts after some considerations.
+        - Moving it to Circular Construct Drafts after some considerations.
 - "23.3. Black Box Details, May Not Cover, Simplified Access Control Expression in a Diagram"
     - Left it for what it is. Am not calling it unfinished. It seems finished. Maybe might change in the future, but it looks like a worked out idea.
-- Moved from Encircle Language Spec to Encircle Construct Drafts:
+- Moved from Circular Language Spec to Circular Construct Drafts:
     - "23.1. Black Box Details, May Not Cover, Simplified Access Control Expression"
     - "23.2. Black Box Details, May Not Cover, Simplified Access Control Expression in Text Code"
 
@@ -850,7 +850,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] ~~Misc topics at the end:~~
     - [x] ~~Not sure yet if merging is appropriate.~~
 
-#### 2020-05-16 Done Reorganize Encircle Language Spec Files
+#### 2020-05-16 Done Reorganize Circular Language Spec Files
 
 - [x] The bulk of the content is in the Coding Concepts.
 - [x] Diagram Expression content:
@@ -861,7 +861,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] "6. Expression\1. Diagrams"
         - [x] Seems less finished up. I am not sure I might want to put that at the top of the documentation or at least not in this state.
     - [x] "7. Other Topics\9. Old or Boring\About Programming In General.doc"
-        - [x] This is old text, that when rewritten I might even want as the introduction text that the Encircle Language Spec starts with, or maybe just part of it.
+        - [x] This is old text, that when rewritten I might even want as the introduction text that the Circular Language Spec starts with, or maybe just part of it.
         - [x] Is not really a diagram expression topic specifically.
 - [x] ~~I might want to somehow merge those diagram topics together.~~
 - [x] And put the Coding Concepts sub-folders just in the root.
@@ -871,7 +871,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] 'About Programming In General.doc' 
         - [x] Could be put at the top as the introduction.
         - [x] Actually, just reading it over, I think it may be still to rough of a text, that I want to make a bit more neutral, before making it the main thing to start with.
-        - [x] It and other bits of texts from the original Symbol Language.doc may compose a new introduction to the Encircle language after some reformulating.
+        - [x] It and other bits of texts from the original Symbol Language.doc may compose a new introduction to the Circular language after some reformulating.
         - [x] All in all, I think this content is a but rough for putting at the beginning of the documentation.
 - [x] There is a clash in index pages. "Code Concepts.doc" and "Language.doc" may need to become one and cleaned up.
 - [x] Moving "Language.doc" content to "Code Concepts.doc" in a controlled fashion.
@@ -881,7 +881,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
 - [x] "8.Previous Versions" folder:
     - [x] Has the version of the documentation: Symbol Language.doc.
     - [x] Also contains those Symbol Pictures. I do not want to publish all of them.
-    - [x] I do not think I want this document in the published material: D:\Source\JJs Software\Software System Docs\1.1. Encircle Language Spec\8. Previous Versions\2004-00-00 XX    Symbol Language\Other Files\Coding.txt.
+    - [x] I do not think I want this document in the published material: D:\Source\JJs Software\Software System Docs\1.1. Circular Language Spec\8. Previous Versions\2004-00-00 XX    Symbol Language\Other Files\Coding.txt.
     - [x] Or rather, this has some content in it, that I find questionable.
     - [x] I see two zips with pictures.
     - [x] How do I handle this? In the future I want to go list out all files in the history and remove things from the history that I do not want to publish. Those zips might become one of those files.
@@ -918,13 +918,13 @@ I might just go for it, grouping the first smaller articles into a bigger one.
     - [x] I think I might remove most of them, and only keep a couple.
     - [x] Oh, I am done.
 
-#### 2020-04-01 Done Encircle Language Spec Planning Docs
+#### 2020-04-01 Done Circular Language Spec Planning Docs
 
 - [x] Empty project folders:
     - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] To me it seems odd now, that 'Errors' is put out of scope.
-    - [x] I think I want to move the topics 'Errors' and 'Aspect Construct' from the Out-of-Scope document to the Encircle Language Spec Planning docs.
-    - [x] The 'Out-of-Scope' document os currently not just postponed items of the Encircle Language Spec, but more than that: not even considered part of the Encircle Language Spec project at all anymore.
+    - [x] I think I want to move the topics 'Errors' and 'Aspect Construct' from the Out-of-Scope document to the Circular Language Spec Planning docs.
+    - [x] The 'Out-of-Scope' document os currently not just postponed items of the Circular Language Spec, but more than that: not even considered part of the Circular Language Spec project at all anymore.
     - [x] It is still not a hard rule to be set. But putting Errors and Concepts out of view, makes it sort of not the same project for the sake of Concepts and putting my head into the sand when it is about Errors. If I have ideas about these things, they do belong in the project I think. I have a hard time thinking them away.
 - [x] Formatting:
     - [x] Phase-by-phase.
@@ -936,15 +936,15 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] Do the above for the Current and Future Projects
         - [x] 'Project' => 'Plan'
         - [x] Leave out the word 'Plan' if obvious.
-        - [x] Headings 'Encircle Language Spec' + similar to folder and file name.
-        - [x] 'Computer Language' => 'Encircle Language'
+        - [x] Headings 'Circular Language Spec' + similar to folder and file name.
+        - [x] 'Computer Language' => 'Circular Language'
         - [x] 'Articles' => 'Spec'
         - [x] No sub folders, just files?
             - [x] Some sub-projects contain many files.
             - [x] Flattening it out might make a big list.
             - [x] Keeping some folders but have other as loose files, makes you lose that time-line feeling.
             - [x] Too much doubt -> Postpone.
-        - [x] Maybe prefix all with Encircle Language Spec Plan. Then simplify the rest of the title, because Plan is already implied.
+        - [x] Maybe prefix all with Circular Language Spec Plan. Then simplify the rest of the title, because Plan is already implied.
             - [x] Getting path length problems. Collapsing sub-folders with only one file after all.
         - [x] Not sure if that prefixing looks so great.
             - [x] It looks cluttered. And I cannot apply it consistently, because of path length problems. Branch. Try without prefixes.
@@ -956,7 +956,7 @@ I might just go for it, grouping the first smaller articles into a bigger one.
             - [x] What use is that, if I want to convert it to MD instead?
             - [x] Conversion to MD is not great if I use color coding it the docs.
         - [x] Remove '& Copyright'
-            - [x] > Only found 1 occurrence: 'Encircle Language Spec Ideas'.
+            - [x] > Only found 1 occurrence: 'Circular Language Spec Ideas'.
         - [x] Remove unnecessary title page white space and 'version XXXX-XX' mentioning.
         - [x] Make main heading and such not take up so much space.
         - [x] Month in the headings, so it is clear that the fact that it is a time period is leading.
@@ -987,38 +987,38 @@ I might just go for it, grouping the first smaller articles into a bigger one.
         - [x] ~~Headings do not have colors.~~
             - [x] ~~Are not going to work for me anyway, with the low brightness on my screen.~~
             - [x] ~~It starts being not so functional anymore, the changes.~~
-- [x] I somehow don't trust this is all there's to it about Encircle Language Spec planning docs. Look over the state of it. It *might* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
+- [x] I somehow don't trust this is all there's to it about Circular Language Spec planning docs. Look over the state of it. It *might* be fun to move on to a next topic and have something finished. But somehow I don't believe it. > It is. I lean towards the actual language spec rather than the planning, now.
 
 #### 2020-03-22 Done Organize Planning Docs
 
-- [x] I moved around folders, for a preliminary split up between Encircle Docs and Circle 3.0 Programming projects.
+- [x] I moved around folders, for a preliminary split up between Circular Docs and Circle 3.0 Programming projects.
 - [x] I could change titles of projects inside the doc content too.
-    - [x] I am unsure whether I want to call the projects 'Encircle Docs'. Maybe 'Encircle Language Specification'.
-    - [x] I do want to go for the name 'Encircle' as opposed to 'New Computer Language'.
+    - [x] I am unsure whether I want to call the projects 'Circular Docs'. Maybe 'Circular Language Specification'.
+    - [x] I do want to go for the name 'Circular' as opposed to 'New Computer Language'.
         - [x] I don't mind that this makes my documentation stick to a name that in theory might later change. It probably will not change at all.
-    - [x] But Encircle Docs is too general, I think. It should be Encircle Language Specification.
+    - [x] But Circular Docs is too general, I think. It should be Circular Language Specification.
     - [x] I don't care for the abbreviation 'Spec'. I am not a fan of abbreviation and I don’t think it makes it much more concise or clear.
     - [x] Also: I am hitting my limit here. I'm tired and getting all sorts of symptoms.
-    - [x] Encircle Language Design is also an option. 'Specification' may raise expectations about finishedness.
-    - [x] Encircle Language Design Planning
-    - [x] Encircle Language Specification
+    - [x] Circular Language Design is also an option. 'Specification' may raise expectations about finishedness.
+    - [x] Circular Language Design Planning
+    - [x] Circular Language Specification
     - [x] 'Specification': suggests finishedness, but might it? CSS is all sorts unfinished modules.
     - [x] Leaving out 'Specification' or 'Design': Makes distinction with Experiment 3 Programming hard to see.
-    - [x] The word 'Encircle' should be in it.
+    - [x] The word 'Circular' should be in it.
     - [x] The word 'Language' at least sheds light a bit on what it actually is.
-    - [x] But Encircle Language Specification Plan is just a long name.
+    - [x] But Circular Language Specification Plan is just a long name.
     - [x] But 'New Computer Language Functional Design' was quite a long name too, so that is not an argument?
     - [x] 'Spec': Is an abbreviation. I generally dislike those, but I think in this case it is appropriate. It is adopted as a word by the community.
 - [x] I could evaluate whether those empty planning docs folders are needed.
     - [x] The 'update ... articles' sub-projects
-        - [x] Defined as empty project doc folders: I see some of it back in the Encircle Language Spec's Strategy doc, Project Steps and Time Planning, but not in the Products doc. Some redo's are defined, be it not in Products doc. It seems the reason for redoing is not always stated. I think I should make the list complete in all the planning docs where appropriate. Then I can get rid of the remaining empty sub-project folders.
+        - [x] Defined as empty project doc folders: I see some of it back in the Circular Language Spec's Strategy doc, Project Steps and Time Planning, but not in the Products doc. Some redo's are defined, be it not in Products doc. It seems the reason for redoing is not always stated. I think I should make the list complete in all the planning docs where appropriate. Then I can get rid of the remaining empty sub-project folders.
         - [x] Mentioned them in the Products doc now.
         - [x] Removed the empty project doc folders.
-        - [x] Look at Encircle Language Spec Strategy for things to put in Encircle Language Spec Products.
-        - [x] Look at Encircle Language Spec Project Steps & Time Planning for things to put in Encircle Language Spec Products.
+        - [x] Look at Circular Language Spec Strategy for things to put in Circular Language Spec Products.
+        - [x] Look at Circular Language Spec Project Steps & Time Planning for things to put in Circular Language Spec Products.
             - [x] There is a lot there that specifies the reasons to change the articles.
-        - [x] Consider that some elaborations in the Encircle Language Spec Products document might belong elsewhere.
-            - [x] Do they belong in Encircle Language Spec Strategy?
+        - [x] Consider that some elaborations in the Circular Language Spec Products document might belong elsewhere.
+            - [x] Do they belong in Circular Language Spec Strategy?
             - [x] Sort of collides with the Sub-Project folders idea. Maybe details belong in a sub-project folder and a general reference to it in the strategy doc.
             - [x] Maybe go the other way: put sub-projects strategy in the main strategy doc and get rid of separate sub-projects. (My gut says: no, keep sub-project descriptions. That's what they are for: elaboration on a sub-project's scope.)
             - [x] Decision: Rule: Any elaboration now in the Products planning doc, belongs in a sub-project document.

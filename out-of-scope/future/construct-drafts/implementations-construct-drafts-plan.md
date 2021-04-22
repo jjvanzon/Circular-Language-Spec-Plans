@@ -1,4 +1,4 @@
-Encircle Language Spec Plans | Construct Drafts
+Circular Language Spec Plans | Construct Drafts
 ===============================================
 
 Implementations | Construct Drafts | Plan
@@ -11,7 +11,7 @@ This document tries to list some topics these ideas might entail.
 ### Topics
 
 - [ ] Achievability
-- [ ] Several texts about attempts to create an application that might involved Encircle might be found here.
+- [ ] Several texts about attempts to create an application that might involved Circular might be found here.
 - [ ] Code Editor
 - [ ] Some topics might be recognizable from the spec, but then moved here in case it went more into *implementation* than aimed for.
 - [ ] Optimization

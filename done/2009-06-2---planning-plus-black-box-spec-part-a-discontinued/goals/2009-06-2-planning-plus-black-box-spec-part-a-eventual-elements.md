@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Eventual Elements
@@ -10,7 +10,7 @@ This is the eventual plan. The plan changed during the project. The initial plan
 
 ### Products
 
-- Time Planning for Encircle Language Spec
+- Time Planning for Circular Language Spec
 - Idea Box processed (over 60 pages of ideas)
 - Black Box article group
 - ~ Redone System Objects article group
@@ -19,7 +19,7 @@ This is the eventual plan. The plan changed during the project. The initial plan
 ### Project Steps
 
 - Setup project folders
-- Time planning for super-project Encircle Language Spec
+- Time planning for super-project Circular Language Spec
 - Pick theme
 - Make goal description
     - \+ other startup issues

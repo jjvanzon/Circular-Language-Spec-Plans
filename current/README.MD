@@ -1,11 +1,11 @@
-Encircle Language Spec Plans | Current
+Circular Language Spec Plans | Current
 ======================================
 
 Things actively busy with.
 
 - [Strategy](strategy.md)
     
-    - Main strategy document of the *Encircle Language Spec* project. Strategies that may be used for some of the work.
+    - Main strategy document of the *Circular Language Spec* project. Strategies that may be used for some of the work.
 
 - [Topic List](topic-list.md)
 
@@ -13,7 +13,7 @@ Things actively busy with.
 
 - [Sub-Products](sub-projects)
 
-    - Sub-project documents for the *Encircle Language Spec*.
+    - Sub-project documents for the *Circular Language Spec*.
 
 - [Loose Ideas](loose-ideas.md)
 

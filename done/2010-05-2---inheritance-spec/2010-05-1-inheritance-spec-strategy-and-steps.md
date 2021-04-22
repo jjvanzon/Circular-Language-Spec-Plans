@@ -1,4 +1,4 @@
-﻿Encircle Language Specs
+﻿Circular Language Specs
 =======================
 
 Inheritance Spec | 2010-05 | Strategy & Steps

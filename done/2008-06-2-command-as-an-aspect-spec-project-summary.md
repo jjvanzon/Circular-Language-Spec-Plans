@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Command as an Aspect Spec | 2008-06 | Project Summary
@@ -14,7 +14,7 @@ __Contents__
 
 ### Super-Project
 
-Encircle Language Spec
+Circular Language Spec
 
 ### Goal
 
@@ -37,7 +37,7 @@ The work was split up into the following sub-projects:
 - *Document System Objects Articles*
 - *Document Assignment Articles*
 - *Document Commands Articles*
-- *Organize Encircle Language Ideas (1)*
+- *Organize Circular Language Ideas (1)*
 - *Document Parameters Articles*
 
 (The sub-project *Clarify Command as an Aspect Spec* used to be part of this super-project, but was later moved out of scope.)

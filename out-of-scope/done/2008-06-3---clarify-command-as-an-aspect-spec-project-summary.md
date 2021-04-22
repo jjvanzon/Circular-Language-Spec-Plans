@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Clarify Command as an Aspect Spec | 2008-06 | Project Summary

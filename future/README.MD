@@ -1,4 +1,4 @@
-Encircle Language Spec Plans | Future
+Circular Language Spec Plans | Future
 =====================================
 
 What might be done in the future.

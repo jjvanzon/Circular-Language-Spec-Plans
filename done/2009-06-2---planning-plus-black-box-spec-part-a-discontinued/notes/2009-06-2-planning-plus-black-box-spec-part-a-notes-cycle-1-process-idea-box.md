@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Cycle 1: Process Idea Box
@@ -31,7 +31,7 @@ This document is a checklist for software development-related work, for a good a
 - [x] Drop ideas into the documentation
     - [x] Most go into system documentation
     - [x] Put ideas about projects in the main projects document of  
-    Encircle Language Spec.
+    Circular Language Spec.
 - [x] Look inside general documents to find ideas specific to the current project.
     - [x] \> None there
 

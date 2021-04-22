@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Topic List
@@ -19,9 +19,9 @@ __Contents__
 
 ### Introduction
 
-This document tries to list the things that might be produced in the project *Encircle Language Spec*.
+This document tries to list the things that might be produced in the project *Circular Language Spec*.
 
-You may find a lack of explanations here. If there were an explanation of a topic, you might be able to find it in the actual *Encircle Language Spec* documentation or in a document in the *Sub-Projects* folder perhaps. There might simply *be* no explanation text yet and it may be an aim of the sub-project to produce that.
+You may find a lack of explanations here. If there were an explanation of a topic, you might be able to find it in the actual *Circular Language Spec* documentation or in a document in the *Sub-Projects* folder perhaps. There might simply *be* no explanation text yet and it may be an aim of the sub-project to produce that.
 
 ### TODO
 

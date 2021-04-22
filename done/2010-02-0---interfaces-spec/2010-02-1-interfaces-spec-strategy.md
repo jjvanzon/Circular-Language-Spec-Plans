@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Interfaces Spec | 2010-02 | Strategy
@@ -19,7 +19,7 @@ __Contents__
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 ### Goal
 
@@ -48,7 +48,7 @@ First work out the easy issues and save the harder topics for later. The main to
 
 ### Approach
 
-I might follow the rules set in the parent project descriptions. Especially consider the *Writing Efficiently* rules in the *Strategy* document of the *Encircle Language Spec* project.
+I might follow the rules set in the parent project descriptions. Especially consider the *Writing Efficiently* rules in the *Strategy* document of the *Circular Language Spec* project.
 
 ### Limitations
 
@@ -62,4 +62,4 @@ No tight time planning might be maintained.
 
 ### Future
 
-You should not plan to do yet another *Encircle Language Spec* project. Do not plan this ahead too much. You should focus on your studies. But I may keep it as a hobby if I put your studies first.
+You should not plan to do yet another *Circular Language Spec* project. Do not plan this ahead too much. You should focus on your studies. But I may keep it as a hobby if I put your studies first.

@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Programming Language = Database & Data = Code Spec | 2008-03 | Project Summary

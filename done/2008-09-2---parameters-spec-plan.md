@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Parameters Spec | 2008-09 | Project Summary
@@ -29,7 +29,7 @@ Worked out the Parameter articles, as part of working out Commands as an Aspect.
 
 ### Super-Project
 
-*Encircle Language Spec | Command as an Aspect Spec*
+*Circular Language Spec | Command as an Aspect Spec*
 
 ### Date & Time
 
@@ -177,7 +177,7 @@ It was quite a difficult project. Needing to dig deep to try and come up with th
 
 - (0h)
 -----
-- Considered the general approach, described in the super-project *Encircle Language Spec.*
+- Considered the general approach, described in the super-project *Circular Language Spec.*
 - Commands & classes loosely coupled was moved to the parameter articles.
 - Recorded the amount of articles, that was planned to be written at the beginning of the project.
 
@@ -332,7 +332,7 @@ The approach was changed, because starting at Relations Between Commands & Objec
 - Gave articles a parameters-specific article name.
 - Setting up article list.
 - Isolated version.
-- Turned preparation work 'Encircle General' into a separate project.
-- Made the next project also an 'Organize Encircle Ideas' project.
+- Turned preparation work 'Circular General' into a separate project.
+- Made the next project also an 'Organize Circular Ideas' project.
 - Wrapped up project description.
 - Reflected on how this project progressed.

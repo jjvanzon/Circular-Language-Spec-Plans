@@ -1,4 +1,4 @@
-﻿Encircle Language Spec
+﻿Circular Language Spec
 ======================
 
 Strategy (Out of Scope)
@@ -15,9 +15,9 @@ __Contents__
 
 ### Introduction
 
-This document describes strategy and goals of the project *Encircle Language Spec*, but then topics that were deemed *out of scope*.
+This document describes strategy and goals of the project *Circular Language Spec*, but then topics that were deemed *out of scope*.
 
-At first it was content moved from the document *Encircle Language Spec Strategy*.
+At first it was content moved from the document *Circular Language Spec Strategy*.
 
 *Out of Scope* might not mean *deprecated*, but more like *not part of the spec* or *not for now*. They might be construct drafts, or topics about a broader perspective on things.
 
@@ -25,7 +25,7 @@ At first it was content moved from the document *Encircle Language Spec Strategy
 
 One of my worries, is that I have not learned enough constructs, that exist in the world, to really make a unified language for all digital objects. The language was supposed to give a different view onto any digital data: folders, scheduled tasks, object oriented code, the web, databases or any complicated referential structure. It is supposed to combine all of it into a single landscape in a single language, and serve as an entry-point for all other types of digital expression, such as opening data in the app it is intended for, displaying that view on top of the diagram, that is a map of everything going on inside the computer.
 
-Here are some of the hopes for Encircle:
+Here are some of the hopes for Circular:
 
 - ~ Gain instant insight into complex referential structures, hopefully to a degree that no other way of diagramming can.
 - ~ *Anything* digital might be translated to such a diagram, because most things digital may just be referential structures.
@@ -48,7 +48,7 @@ There may be specific reasons why something might be *out of scope*. Those might
 - Construct Drafts
 - Broader View
 
-Those categories might still be found as sub-folders of the *Encircle Language Spec* documentation, though not really considered part of the spec.
+Those categories might still be found as sub-folders of the *Circular Language Spec* documentation, though not really considered part of the spec.
 
 These might be the more specific reasons things may be out of scope:
 
@@ -68,7 +68,7 @@ These might be the more specific reasons things may be out of scope:
 
 ### Implementation Strategy
 
-Implementing Encircle Language in software is deemed out of scope.
+Implementing Circular Language in software is deemed out of scope.
 
 - ~ Programming: Essential Libraries: Math, Integrate  
     (2020-01: Programming things is not really a goal right now.)
@@ -81,7 +81,7 @@ This was a point at which, it seemed a good plan to program some software. While
 You might want to see a concept running, in a conceptual implementation, to be able to see where the design fails. That is kind of a flaw in designing everything first. You might not be able work out everything in theory first. The design may be imperfect, until it is proven by a conceptual version.  Working out too much in theory can lead to results inefficiently, compared to working out the idea roughly, and then building a conceptual version.  
 Human beings may much more easily identify flaws in running system, than they can before anything has even been made.
 
-An experimental new version of Encircle could be created at one point, that supports all the principles in its minimal form, just to see how it might look in action. The left-over problems may become apparent quickly then. And an experimental implementation may also *prove* the concepts. It probably gives you a clearer picture of the language, which may help to complete other topics.
+An experimental new version of Circular could be created at one point, that supports all the principles in its minimal form, just to see how it might look in action. The left-over problems may become apparent quickly then. And an experimental implementation may also *prove* the concepts. It probably gives you a clearer picture of the language, which may help to complete other topics.
 
 But when the next conceptual implementation might be created is unclear. That might be the project *Program Base Code*.
 

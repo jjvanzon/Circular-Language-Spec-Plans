@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans 
+﻿Circular Language Spec Plans 
 ============================
 
 Part B | 2009-06 | Sub-Projects

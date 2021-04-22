@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Finish Small Code Base & Everything Only Spec | 2008-03 | Project Summary

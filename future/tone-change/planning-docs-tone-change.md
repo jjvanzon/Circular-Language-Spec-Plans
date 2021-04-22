@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Planning Docs | Tone Change
@@ -15,10 +15,10 @@ __Contents__
     - [2020-04-18 Done Rewording 2008-06 02 Command as an Aspect Spec Project Summary.docx](#2020-04-18-done-rewording-2008-06-02-command-as-an-aspect-spec-project-summarydocx)
     - [2020-04-18 Done Rewording 2008-06 03        Clarify Command as an Aspect Spec Project Summary.docx](#2020-04-18-done-rewording-2008-06-03--------clarify-command-as-an-aspect-spec-project-summarydocx)
     - [2020-04-18 Done Rewording 2008-07 01        System Objects Spec Project Summary.docx](#2020-04-18-done-rewording-2008-07-01--------system-objects-spec-project-summarydocx)
-    - [2020-04-18 Done Rewording The Done Encircle Language Spec Planning Docs](#2020-04-18-done-rewording-the-done-encircle-language-spec-planning-docs)
-    - [2020-04-18 Done Encircle Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects](#2020-04-18-done-encircle-language-spec-planning-docs-rewording-main-project-and-future-sub-projects)
-    - [2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries](#2020-04-18-done-encircle-language-spec-planning-docs-format-the-project-summaries)
-    - [2020-04-13 Done Encircle Language Spec Planning Docs](#2020-04-13-done-encircle-language-spec-planning-docs)
+    - [2020-04-18 Done Rewording The Done Circular Language Spec Planning Docs](#2020-04-18-done-rewording-the-done-circular-language-spec-planning-docs)
+    - [2020-04-18 Done Circular Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects](#2020-04-18-done-circular-language-spec-planning-docs-rewording-main-project-and-future-sub-projects)
+    - [2020-04-18 Done Circular Language Spec Planning Docs: Format the Project Summaries](#2020-04-18-done-circular-language-spec-planning-docs-format-the-project-summaries)
+    - [2020-04-13 Done Circular Language Spec Planning Docs](#2020-04-13-done-circular-language-spec-planning-docs)
     - [2020-01-30 Done Reformulating Planning Docs](#2020-01-30-done-reformulating-planning-docs)
 
 ### Postponed
@@ -33,11 +33,11 @@ __Contents__
 - [x] 2008-07 01        System Objects Spec Project Summary.docx
 - [x] 2008-07 02        Assignment Spec Project Summary.docx
 - [x] 2008-08 00        Commands Spec Project Summary.docx
-- [x] 2008-09 01        Organize Encircle Language Ideas Project Summary.docx
+- [x] 2008-09 01        Organize Circular Language Ideas Project Summary.docx
 - [x] 2008-09 02        Parameters Spec Plan.docx
 - [x] 2008-10 01 Scatter Symbol Language Documentation Content Project Summmary.docx
-- [x] 2009-06 01 Encircle Language Spec Plan Part B, Sub-Projects.docx
-- [ ] ~ 2009-06 02 Encircle Language Spec Plan Part B, Evaluation.docx
+- [x] 2009-06 01 Circular Language Spec Plan Part B, Sub-Projects.docx
+- [ ] ~ 2009-06 02 Circular Language Spec Plan Part B, Evaluation.docx
     - [ ] ~ > Stopped, because I seem panicky about which words to pick and whether someone might be rubbed the wrong way with it somehow.
 - [ ] ~ 2009-06 01 Planning + Black Box Spec Part A, Eventual Plan, Goal Description.docx
 - [ ] ~ 2009-06 02 Planning + Black Box Spec Part A, Eventual Plan, Elements.docx
@@ -111,13 +111,13 @@ __Contents__
 - [x] > Was at 'Other Issues' taking out the more harsh wordings.
 - [x] I see the difficulty of using the words 'concept' vs. 'aspect'. I want to call it 'aspects' everywhere. But contradictory: 'aspects' is now considered out of scope, while I cannot easily prevent mentioning it at all, because it was in the back of my head during some of these projects. I also have this a little with the term 'code base' which I want to rename to 'base of the code', because 'code base' is a term often used differently in IT.
 - [x] Out of scope ideas:
-    - [x] I see this document talks about what I might rather call a runtime. Figuring out how Encircle could work stand-alone up and running is probably not in the scope of this project anymore. Just describing the language, mostly the diagram notation, is.
-    - [x] I see a sentence where I call the System Objects essential for the workings of Encircle. But if you see the notation as separate from the runtime it might not seem that essential.
+    - [x] I see this document talks about what I might rather call a runtime. Figuring out how Circular could work stand-alone up and running is probably not in the scope of this project anymore. Just describing the language, mostly the diagram notation, is.
+    - [x] I see a sentence where I call the System Objects essential for the workings of Circular. But if you see the notation as separate from the runtime it might not seem that essential.
     - [x] So how do I reword this putting these ideas out of scope, without harming the integrity of the content?
     - [x] Hyp: In the original text I express that I feel system objects are essential, as a run-time, not for the notation.
     - [x] I keep seeing the idea of a runtime back. It's an interesting idea, but not in the anymore scope as I want to isolate it. I am reluctant to remove the text, because it is so nicely descriptive about that idea.
     - [x] All in all, I am still uneasy about multiple subjects now considered out of scope, being intermixed in the texts of this sub-project description.
-    - [x] The 'other issues' seems to contain loose ideas not fully worked out, part of the aspects construct for instance, or about a run-time. It seems to me some of those ideas, e.g. under 'Other Issues' could be cut-pasted to out-of-scope Encircle Language projects.
+    - [x] The 'other issues' seems to contain loose ideas not fully worked out, part of the aspects construct for instance, or about a run-time. It seems to me some of those ideas, e.g. under 'Other Issues' could be cut-pasted to out-of-scope Circular Language projects.
     - [x] It seems the System Objects Spec Project Summary has a some content that is maybe lazily left in there, while they are also like future ideas?
     - [x] Q: The things that I now consider out of scope, that are mentioned in the sub-project planning documentation for System Objects, are those things even inside the actual language spec content for System Objects? Or is the language spec content also littered with now consider out of scope content?
     - [x] I read most of the content of the System Objects chapter. I forgot what for. To assess whether the topics in the planning docs about it even made it into the documentation. Maybe I can assess that later.
@@ -125,7 +125,7 @@ __Contents__
     - [x] As I read the first sentences of the sub-project planning doc, I tend to want to redescribe it, now I can put it into context. As I explain that context, the integrity of the planning doc seems in tact again.
     - [x] I want to keep reading over and reformulating.
 
-#### 2020-04-18 Done Rewording The Done Encircle Language Spec Planning Docs
+#### 2020-04-18 Done Rewording The Done Circular Language Spec Planning Docs
 
 - [x] Ideas document: ISNSE = Internet as a Single Computer > But why? Internet aS a[N] Single Entity?
 - [x] Brainstorm: Scope the Done projects?
@@ -135,8 +135,8 @@ __Contents__
     - [x] Q: Might all 'fundamental principles' be put out of scope?
     - [x] Exp: Read some of the actual documentation.
     - [x] A: Yes, 'fundamental principles' is out of scope with the current ideas I have now.
-    - [x] By the way: I saw '2. Concurrency' under '3. Operating System' in the Encircle Docs. I couldn't find that content before. Found it.
-- [x] I tend to want to subdivide all the Done projects into groups, like I did the Future projects. (in the Other folder, not Encircle Language Spec).
+    - [x] By the way: I saw '2. Concurrency' under '3. Operating System' in the Circular Docs. I couldn't find that content before. Found it.
+- [x] I tend to want to subdivide all the Done projects into groups, like I did the Future projects. (in the Other folder, not Circular Language Spec).
     - [x] But I get cramps in my face.
     - [x] It's hard, because it means processing many disparate pieces of information, which takes too much energy/strain for me.
     - [x] Feels bad to leave a grouping/categorization half- finished.
@@ -148,10 +148,10 @@ __Contents__
     - [x] ~~2008-03 05             Generic, No Generators Spec, Project Summary.docx~~
     - [x] ~~2008-04 02        Get Clearer View over Difficult Topics Project Summary.docx~~
 
-#### 2020-04-18 Done Encircle Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects
+#### 2020-04-18 Done Circular Language Spec Planning Docs: Rewording Main Project and Future Sub-Projects
 
 - [x] The aim is to use less definite, more open, language and to take out the personal 'I' form.
-- [x] I think a lot of documents do not contain as much prose as Encircle Language Spec Strategy, so maybe things are doable after all. Also it might not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
+- [x] I think a lot of documents do not contain as much prose as Circular Language Spec Strategy, so maybe things are doable after all. Also it might not drain my energy much. It is relaxing work to me. So I am not sure how much it matters, how long it takes.
 - [x] ~~Limitation: I choose to not reorganize/resubdivide the sub projects. I choose to just change the wording.~~
 - [x] Main Project
     - [x] Mostly finished rewriting the content.
@@ -179,14 +179,14 @@ __Contents__
         - [x] Or is it to shed new light on these topics in the area of automatic execution order?
         - [x] ~~Alternative: Split apart in two: The parts / product list items, that I know are about concurrency resolution / automatic execution order might be put out of scope and then parts I am not sure about, might stay in in-scope with some comment shedding light on that doubt.~~
         - [x] Exp: Read over a product list in the Future Sub-Project document "Input Output Spec Project Summary.docx".
-        - [x] Hyp: All the topics under Input / Output inside the main "Encircle Language Spec Product List.docx" are not trivial parameter topics, but more a small ramp of parameter topics leading towards the automatic execution order concept.
+        - [x] Hyp: All the topics under Input / Output inside the main "Circular Language Spec Product List.docx" are not trivial parameter topics, but more a small ramp of parameter topics leading towards the automatic execution order concept.
         - [x] ~~Hyp: But the Integration of Parameter Input/Output Concepts do seem already done topics.~~
         - [x] Hyp: But may fall under the same umbrella: now put into the light of automatic execution order.
         - [x] Parameters and input/output concepts entangle. The proposed product list might aim to disentangle those topics and explain their precise relationship.
         - [x] I had a brainstorm. I put that in the Future Sub-Project doc in the out of scope folder.
     - [x] Diagram Metrics Ideas.md
     - [x] Diagrams, Coding Principles & Coding Aspects Plan (old).docx
-        - [x] At first glance, this seems to have the same scope as the whole project Encircle Language Spec.
+        - [x] At first glance, this seems to have the same scope as the whole project Circular Language Spec.
         - [x] Maybe it can be thrown away (or archived), because it's already described by newer documents.
     - [x] `Execution Control Spec Update Ideas.md`
     - [x] `Module Spec Update Ideas.md`
@@ -195,7 +195,7 @@ __Contents__
     - [x] `Parameters Spec Update Ideas.md`
     - [x] `Relationships Spec Update Ideas.md`
     - [x] `Static Spec Idea.md`
-        - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Encircle Language JJ's Construct Proposals' or something.
+        - [x] The second half is an idea, that is explanatory on some of my ideas about static. But also it uses a concept I want to put out of scope: Code = Data. I want to save such concepts for 'Circular Language JJ's Construct Proposals' or something.
         - [x] I might not want to remove it, if I look at that it explains how I see 'static' in a broader view.
         - [x] But to understand my own doubts about the different ways to see the concept of 'static' that idea description explains a lot and otherwise I might think: where did that idea go and how might it work?
         - [x] I feel that this concept of static might have a place in the general descriptions, but to apply this to the concept of Code = Data, though interesting to me, might not be part of that, because it may confuse and alienate the reader, who might be more familiar with more regular implementations of the concept.
@@ -204,7 +204,7 @@ __Contents__
         - [x] Out of scope
         - [x] But change the main project description too.
 
-#### 2020-04-18 Done Encircle Language Spec Planning Docs: Format the Project Summaries
+#### 2020-04-18 Done Circular Language Spec Planning Docs: Format the Project Summaries
 
 - [x] Change formatting in bulk (of Done Projects / Project Summaries)
     - [x] Change fonts and layout in bulk first.
@@ -229,10 +229,10 @@ __Contents__
             - [x] > They use different templates, so this formatting and making consistent, probably does not apply to those.
         - [x] Don't Future Sub-Projects also have documents in that 'project summary' format?
             - [x] Alternative: format those too.
-            - [x] Alternative: Go look for more project summaries in the Encircle Language Spec Plan folders.
+            - [x] Alternative: Go look for more project summaries in the Circular Language Spec Plan folders.
             - [x] ~~Alternative: Don't do it.~~
 
-#### 2020-04-13 Done Encircle Language Spec Planning Docs
+#### 2020-04-13 Done Circular Language Spec Planning Docs
 
 - [x] I made a slight beginning with a next phase of scoping the project. But I want to turn back. 
 - [x] Check if I can check this in.
@@ -245,5 +245,5 @@ __Contents__
 
 #### 2020-01-30 Done Reformulating Planning Docs
 
-I read over Encircle Language Spec Strategy.doc and reformulated stuff.
-I am cleaning up Encircle Language Spec Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description might *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.
+I read over Circular Language Spec Strategy.doc and reformulated stuff.
+I am cleaning up Circular Language Spec Products.doc: simplified color coding, removed mentioning 'in a Diagram' and 'in Text Code' article variations. I might remove detail from done work, but keep it in the proposed work. May remove some 'musts' by 'mays'. Might add intro docs to calm the reader's nerves down, on the overwhelming amount of topics. Do I need to excuse myself for introducing topic names, without actually describing what it entails? Don't know. That description might *be* the product. I have a conundrum. I cannot describe the product without making the product, because the description is the product.

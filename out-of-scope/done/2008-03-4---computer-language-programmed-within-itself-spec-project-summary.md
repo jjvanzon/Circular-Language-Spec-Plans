@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Programming Language Programmed Within Itself Spec | 2008-03 | Project Summary
@@ -10,7 +10,7 @@ Write the article *Programming Language Programmed Within Itself,* which produce
 
 ### Super-Project
 
-This is a sub-project of the super-project *Encircle Language Spec, Fundamental Principles Spec Part A.*
+This is a sub-project of the super-project *Circular Language Spec, Fundamental Principles Spec Part A.*
 
 ### Date & Time
 

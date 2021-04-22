@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Get Clearer View over Difficult Topics | 2008-04 | Project Summary (Out of Scope)
@@ -17,10 +17,10 @@ __Contents__
 
 Get clear view on ideas not thought through as well.
 
-Many articles of Encircle Fundamental Principles were easy to document.  
+Many articles of Circular Fundamental Principles were easy to document.  
 Some of them were harder.
 
-The goal of the project Document Encircle had two parts: document the ideas I have a clear view on, and get a clear view on important principles not yet fully understood.
+The goal of the project Document Circular had two parts: document the ideas I have a clear view on, and get a clear view on important principles not yet fully understood.
 
 I have now reached a point, at which it is starting to ache, that certain ideas are not clear to me yet. And it is ideas that might mess up the original of thinking.
 
@@ -31,7 +31,7 @@ So basically it is about flat & structured interchange, concepts and diagram exp
 
 ### Super-Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 ### Means
 

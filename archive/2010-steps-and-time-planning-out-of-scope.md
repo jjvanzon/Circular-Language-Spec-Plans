@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plan | Steps & Time Planning (Out of Scope)
+﻿Circular Language Spec Plan | Steps & Time Planning (Out of Scope)
 ==================================================================
 
 Contents
@@ -16,7 +16,7 @@ Purpose of this Document
 
 This document subdivides a project into work items and gives a time planning and time estimation for it.
 
-The work described here was deemed out-of-scope of the project *Encircle Language Spec*.
+The work described here was deemed out-of-scope of the project *Circular Language Spec*.
 
 
 Work Items
@@ -42,7 +42,7 @@ The orange items are postponed and not counted up in the planning.
     - [ ] Querying & Collection Operations __(8 points)__
     - [ ] Politically Correct __(3 items)  (18 points)__
     -----
-    - [ ] Total Encircle Language: __16 items (97 points)__
+    - [ ] Total Circular Language: __16 items (97 points)__
 
 - [ ] First: __(3 items)  (19 points)__
 

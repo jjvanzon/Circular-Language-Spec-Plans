@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Review by Brother | 2009-08 | Plan
@@ -15,7 +15,7 @@ __Contents__
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 ### Goal
 
@@ -24,7 +24,7 @@ Goals I have with letting my brother review the material are:
 - Check accessibility of material
 - Get an opinion about the material
 
-*The review used to have notes about topics not in scope of the Encircle Language Spec. Notes about that were moved to another document.*
+*The review used to have notes about topics not in scope of the Circular Language Spec. Notes about that were moved to another document.*
 
 ### What Do I Expect?
 
@@ -47,15 +47,15 @@ I also expect it to be too much to just look into for a couple of hours, even to
         - Some stuff is still under construction,  
         but most of it is accessible and finished  
         It is all sort of a secret. Do not go off to companies, or put details about it on the internet.  
-        ‘Code name’ for Encircle is ‘Encircle’.  
+        ‘Code name’ for Circular is ‘Circular’.  
         The eventual names I have in mind are: Circle, Symbol.
     - Let my brother discover the material for himself,  
       to check if the material is easily accessible.
     - But soon start showing him the main projects and the main products.
     - Specific things to show:
         - Project plans: __(4)__
-            - Encircle Language Spec, Project Steps & Time Planning
-            - Encircle Language Spec, Goal & Approach
+            - Circular Language Spec, Project Steps & Time Planning
+            - Circular Language Spec, Goal & Approach
         - Documentation: __(2)__
             - Code
                 - Basic Diagram Elements
@@ -79,7 +79,7 @@ The version folders were immediately clear.
 
 Also the planning was completely discussed.
 
-We did not cover the documentation of the Encircle literally.  
+We did not cover the documentation of the Circular literally.  
 We covered several coding concepts through a discussion about the language.  
 The following concepts were covered:
 

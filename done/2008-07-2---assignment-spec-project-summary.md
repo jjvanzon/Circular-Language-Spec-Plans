@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans 
+﻿Circular Language Spec Plans 
 ============================
 
 Assignment Spec | 2008-07 | Project Summary
@@ -18,7 +18,7 @@ __Contents__
 
 ### Super-Project
 
-*Encircle Language Spec | Command as an Aspect Spec*
+*Circular Language Spec | Command as an Aspect Spec*
 
 ### Goal
 

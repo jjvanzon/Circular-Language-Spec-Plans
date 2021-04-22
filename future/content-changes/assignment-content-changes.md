@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Assignment | Content Changes
@@ -44,6 +44,6 @@ It may be worth to reconsider. Maybe the indicated direction in the assignment n
 - [x] How this assignment/result direction flip problem came to be might be that at first there might only have been value assignment notation where it seemed to make sense. Then e.g. object assignment may have been derived from that, which may have introduced this assignment/result direction flip problem. Did I introduce a new problem working backwards? Might assignment notation direction not make sense for the value assignment notation, or is it just something I might be used to? Especially when I replace it with an actual arrow? My attempt here is to introduce more consistency. Formerly I think I tried to introduce intuitiveness over consistency, which might be a contradiction. Consistency might lead to more intuitiveness.
 - [x] Consider not making an exception for the value aspect, that the call symbol might not be shown. The main reason that it might still be an idea to not show the diamond in a value assignment, might be because if value correspondence might have a direction, what else could it be but a value assignment. I might just not entirely agree that a value line should always mean assignment, because then you lose something: the possibility to differently express value assignment from value correspondence.
 - [x] Perhaps show the result of an assignment next to the assignment call.
-- [x] "Because assignments might be so common, they might be given an implicit, simplified notation in Encircle."
+- [x] "Because assignments might be so common, they might be given an implicit, simplified notation in Circular."
 - [x] Using the words 'source' and 'target' might not lead to an intuitive story.
 - [x] Once I invert the assignment direction notation cross-aspect assignment notation seems to fall apart? > No still has some intuitiveness to it, is my opinion.

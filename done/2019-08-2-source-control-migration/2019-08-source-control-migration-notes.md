@@ -1,11 +1,11 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Source Control Migration | 2019-08 | Notes
 ------------------------------------------
 
 - Converting 'version folders' to source control history.
-- Isolating Encircle language content in separate git repositories.
+- Isolating Circular language content in separate git repositories.
 
 __Contents__
 
@@ -28,10 +28,10 @@ __Contents__
 
 ### Rough Plan
 
-- [x] Converted Encircle Docs version folders to source control history.
+- [x] Converted Circular Docs version folders to source control history.
 - [x] Converted Planning Docs version folders to source control history.
-- [x] Splitting off Encircle language docs into a separate git repository.
-- [x] Splitting off Planning Docs for Encircle language into a separate git 
+- [x] Splitting off Circular language docs into a separate git repository.
+- [x] Splitting off Planning Docs for Circular language into a separate git 
 
 ### Done
 
@@ -39,7 +39,7 @@ __Contents__
 
 This is a lot of work.
 
-- [x] Exp: Search for XXXX in the folder "Encircle Docs\1. Language".
+- [x] Exp: Search for XXXX in the folder "Circular Docs\1. Language".
 - [x] Obs: 54 matches.
 - [x] Hyp: 54x a version folder structure to convert to source control history.
 - [x] Less than I thought and probably doable.
@@ -81,7 +81,7 @@ Idea bout converting version folder to source control history:
 > I have doubt whether I should even do the conversion from version folders to source control history here.
 > Using my rules, I'd put the older docs in archive, but neither 'version' is more deprecated than the other. They are both old, and they are both the latest version of things.  
 >
-> The math as objects might have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of Encircle. But... none of this documentation is well worded to support that concept...
+> The math as objects might have a link to how math can be made not intrinsic to the language, but an extension library, which can still be compiled to good old CPU instructions. That concept is interesting for the idea of Circular. But... none of this documentation is well worded to support that concept...
 
 #### 2019-08-11 Done Controls Concepts Version Folders to Source Control History
 
@@ -91,23 +91,23 @@ Idea bout converting version folder to source control history:
 
 #### 2020-02-03 Done Notes Planning Docs Git Migration
 
-- [x] Isolating a git repository with just the Encircle Docs planning out of a git repository with planning docs of misc subjects.
+- [x] Isolating a git repository with just the Circular Docs planning out of a git repository with planning docs of misc subjects.
 - [x] Combining parts into 1 script,
 - [x] Rerunning scripts on the very latest version.
 - [x] Do checks by sampling.
     - [x] KDiff lists of files in history of previous and new run.
         - [x] I see newer files appear in the new list.
-    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
-    - [x] Use Visual Studio checking 'by hand' the histories of some files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Checking out some commits and KDiff working folder of Circular-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Use Visual Studio checking 'by hand' the histories of some files compared between Circular-Language-Spec-Plan and JJs-Planning-Docs.
 - [x] Archived things in JJs-Planning-Doc.
-- [x] Organizing Encircle-Language-Spec-Plan (e.g. moving lost topics to an appropriate spot).
+- [x] Organizing Circular-Language-Spec-Plan (e.g. moving lost topics to an appropriate spot).
 
 #### 2020-02-03 Done Planning Docs Git Migration
 
 - Folders in current version:
-    - \Encircle Language Spec Plan
-    - \Other\2. Future\Postponed\1. Encircle Language Spec (Out of Scope)
-    - \Other\3. Done\2008 - 2008 Encircle Language Spec (Out of Scope)
+    - \Circular Language Spec Plan
+    - \Other\2. Future\Postponed\1. Circular Language Spec (Out of Scope)
+    - \Other\3. Done\2008 - 2008 Circular Language Spec (Out of Scope)
 - [x] Might try to strip a git repository's major parts that are out of scope, just as a start.
     - [x] Scripted
     - [x] Ran
@@ -119,24 +119,24 @@ Idea bout converting version folder to source control history:
 - [x] Rerun
 - [x] Checking:
     - [x] KDiff lists of files in history of previous and new run.
-    - [x] Use Visual Studio checking 'by hand' the histories of each files compared between Encircle-Language-Spec-Plan and JJs-Planning-Docs.
-    - [x] Checking out some commits and KDiff working folder of Encircle-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Use Visual Studio checking 'by hand' the histories of each files compared between Circular-Language-Spec-Plan and JJs-Planning-Docs.
+    - [x] Checking out some commits and KDiff working folder of Circular-Language-Spec-Plan and JJs-Planning-Docs.
 - [x] ~~Try removing content with my brother's first name in it.~~
 
 #### 2020-12-03 Done Git Migration: Removing "Creator"
 
-- [x] Considering removal of experiments 0.4 and 0.9 from Encircle-Docs.
+- [x] Considering removal of experiments 0.4 and 0.9 from Circular-Docs.
 - [x] Removing more seems doable with a smaller additional run at the end.
-- [x] I am quite unsure about involving the "Creator" topics. I once thought I might merge Creator and Encircle Language into one. But now I think Creator might be much about framework (code generation, aspects, generated user interfaces). Framework was deemed out of scope. I am unsure, because the topics of Creator and Encircle Language seems to overlap.
+- [x] I am quite unsure about involving the "Creator" topics. I once thought I might merge Creator and Circular Language into one. But now I think Creator might be much about framework (code generation, aspects, generated user interfaces). Framework was deemed out of scope. I am unsure, because the topics of Creator and Circular Language seems to overlap.
 - [x] Experiments 0.4, 0.9 and 2.0 may partially be about programming language, but a lot might be considered better solvable by a framework/library solution. So this seems ambiguous.
-- [x] Experiments 0.4 and 0.9 might be code generator / aspects / framework, while experiment 2.0 looks more like a bit a programming language. It has a text code and a parser and everything. But I guess a totally different programming language than Encircle. Perhaps experiments 0.4 and 0.9 should be moved to framework , ~~while experiment 2.0 is actually more in scope as a programming language.~~
-- [x] Reading the Creator documentation I start having doubts. How might relational / aspect oriented look in Encircle? If Encircle could harbor constructs that make it possible to program things as was dreamed about with Creator, then might the goal Symbol = Creator be reached? And how might it look? I think I might have a way to define aspects in a general sense. I do not seem to know how yet precisely. Nor do I seem to have the time / priority / ability to work it out. ~~So in the meantime it seems Creator should still be part of this.~~
-- [x] I believe I saw in plans and documentation that comparing Creator with Encircle actually seems to have enriched Encircle the language. Concretely with multiplicity, creation/destruction/new/annul/null, a notation for bidirectional relations, reflection and extension ideas. Also some ideas that might only have complicated things a bit, that I was not quite able to work out (perhaps less recognizable ideas like: "automatic containment" and "flat & structure interchange"). I believe that the future Creator ideas could inspire more enrichment of the Encircle language. Perhaps with aspect oriented and more system extensions features, I was once thinking about. I just cannot picture it yet. I think it might be best to leave that an open question and keep the Creator documentation involved in this repository, perhaps for future inspiration. > I might see it more like one system being inspiration for another. The planning also excluded experiment 2.0, so perhaps the product documentation should too. I think the article Symbol = Creator might introduce that idea. So I may leave that in there.
+- [x] Experiments 0.4 and 0.9 might be code generator / aspects / framework, while experiment 2.0 looks more like a bit a programming language. It has a text code and a parser and everything. But I guess a totally different programming language than Circular. Perhaps experiments 0.4 and 0.9 should be moved to framework , ~~while experiment 2.0 is actually more in scope as a programming language.~~
+- [x] Reading the Creator documentation I start having doubts. How might relational / aspect oriented look in Circular? If Circular could harbor constructs that make it possible to program things as was dreamed about with Creator, then might the goal Symbol = Creator be reached? And how might it look? I think I might have a way to define aspects in a general sense. I do not seem to know how yet precisely. Nor do I seem to have the time / priority / ability to work it out. ~~So in the meantime it seems Creator should still be part of this.~~
+- [x] I believe I saw in plans and documentation that comparing Creator with Circular actually seems to have enriched Circular the language. Concretely with multiplicity, creation/destruction/new/annul/null, a notation for bidirectional relations, reflection and extension ideas. Also some ideas that might only have complicated things a bit, that I was not quite able to work out (perhaps less recognizable ideas like: "automatic containment" and "flat & structure interchange"). I believe that the future Creator ideas could inspire more enrichment of the Circular language. Perhaps with aspect oriented and more system extensions features, I was once thinking about. I just cannot picture it yet. I think it might be best to leave that an open question and keep the Creator documentation involved in this repository, perhaps for future inspiration. > I might see it more like one system being inspiration for another. The planning also excluded experiment 2.0, so perhaps the product documentation should too. I think the article Symbol = Creator might introduce that idea. So I may leave that in there.
 
 #### 2021-01-16 Done Git Migration
 
-- [x] Checkout a more recent commit and compare in KDiff the whole folder of Encircle-Docs and Software-System-Docs.
-- [x] Moving around things in Encircle-Docs
+- [x] Checkout a more recent commit and compare in KDiff the whole folder of Circular-Docs and Software-System-Docs.
+- [x] Moving around things in Circular-Docs
 - [x] Archiving things in Software-System-Docs
 
 #### 2021-01-16 Done Git Migrations
@@ -153,9 +153,9 @@ Idea bout converting version folder to source control history:
         - [x] I was insecure about the first few commits. History might not seem to map back easily to those first few commits. ("Version 2008-07-13 XX: Before ordering it more by how you read it" seems the 'terminator' quite frequently.)
 - [x] More laborious checks?
     - [x] Checking each remaining file for completeness of history
-        - [x] 1.1. Encircle Language Spec
-        - [x] 1.2. Encircle Constructs Drafts
-        - [x] 1.3. Encircle Broader View
+        - [x] 1.1. Circular Language Spec
+        - [x] 1.2. Circular Constructs Drafts
+        - [x] 1.3. Circular Broader View
         - [x] 2. Framework
         - [x] 3. Operating System
         - [x] 5. Archive
@@ -166,7 +166,7 @@ Idea bout converting version folder to source control history:
 - [x] Possible plan for next run:
     - [x] Scripting with new corrections.
     - [x] Running new script.
-    - [x] Random sampling some check-outs (+ folder diffs between Encircle-Docs and Software-System-Docs).
+    - [x] Random sampling some check-outs (+ folder diffs between Circular-Docs and Software-System-Docs).
     - [x] Random sampling of history of single files.
     - [x] Comparing 'before' and 'after' file lists.
 
@@ -194,7 +194,7 @@ I also do not seem to have inspected the total file list from history yet.
 - [x] Collapsing individual picture file removals into more whole folder removals.
 - [x] Keeping index pages:
     - [x] In the area of 'broader view' perhaps.
-    - [x] With the general idea how it might work in Encircle.
+    - [x] With the general idea how it might work in Circular.
 - [x] "Integration" / "Legacy" (index pages)
     - [x] For instance: "2. Framework\0. Language\2. Integration\Integration.doc"
     - [x] Gathering paths.
@@ -292,7 +292,7 @@ I also do not seem to have inspected the total file list from history yet.
     - [x] "2. Framework/2. Data Concepts/6.0. Persistence Delay/6.2. Transactions/Transactions.doc"
 - [x] Can remove:
     - [x] "1. Language/1. Language/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
-    - [x] "10. Encircle Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
+    - [x] "10. Circular Constructs Drafts/7. Other Topics/1. Utilities/5.2. Text Statistics.doc"
     - [x] "1. Language/1. Language/2. Fundamental Principles/3. Achievability/5.0. C++.doc"
     - [x] "02. Code/3. Coding Concepts/05. System Objects/XXXX-XX-XX XX/60. Connectors/~WRL3057.tmp"
     - [x] "02. Code/3. Coding Concepts/11. Interfaces/2010-05-07 XX    0.95/1. Introduction/~WRL1420.tmp"

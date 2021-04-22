@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Design Time = Run Time Spec a.o. | 2008-03 | Project Summary

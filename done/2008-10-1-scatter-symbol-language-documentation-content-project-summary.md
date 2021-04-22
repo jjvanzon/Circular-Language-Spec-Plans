@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Scatter Symbol Language Documentation Content | 2008-10 | Project Summary
@@ -14,7 +14,7 @@ __Contents__
 
 ### Super-Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 ### Character of the Work
 
@@ -22,7 +22,7 @@ Organizing things
 
 ### Goal
 
-Scattering around the content from the original *Symbol Language* documentation over the articles of the *Encircle Language* documentation in its newer form.
+Scattering around the content from the original *Symbol Language* documentation over the articles of the *Circular Language* documentation in its newer form.
 
 The original *Symbol Language* documentation was last worked on in 2004 and was of 367 pages of content.
 

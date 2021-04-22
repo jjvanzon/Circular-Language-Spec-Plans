@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Planning in General | 2019-08
@@ -26,9 +26,9 @@ __Contents__
 - [x] I guess I am not sure where to start.
 - [x] And I am also still a little surprised that I am at this stage. I feel I may have forgotten something that may be left to do, before I can do this.
 - [x] ~~I think maybe heavy redesign is off the table for now, because I estimate that might be too intense for now.~~
-- [x] I also have in mind marking work as postponed for 'Encircle Broader View' and 'Encircle Construct Drafts', cleaning up the brainstorms that covert those + Encircle Language Spec. That way I might create overview over the TODO notes.
+- [x] I also have in mind marking work as postponed for 'Circular Broader View' and 'Circular Construct Drafts', cleaning up the brainstorms that covert those + Circular Language Spec. That way I might create overview over the TODO notes.
 - [x] The feeling I forgot something, feels like it could be in the texts below, but the texts below seem to be too rough and unstructured to give me that insight and overview. If it were more structured and overviewable, and done stuff marked as done, postponed stuff marked as such and split into coherent chunks. I think I might like that.
-- [x] So structure the TODO and Postponed things about Encircle Language Spec Revamp notes, might be what I want to do first.
+- [x] So structure the TODO and Postponed things about Circular Language Spec Revamp notes, might be what I want to do first.
 
 #### 2019-08-05 Done Writing Style Mixed Issues
 
@@ -61,9 +61,9 @@ So with that new perspective on the work, I was done and satisfied with the last
 - [x] Rewording the Done projects is getting a bit boring.
 - [x] ~~Maybe wrap up Parameters planning doc.~~
 - [x] Scoping was an alternative thing to focus on.
-- [x] ~~Something else could be actually digging into the Encircle Language Spec docs themselves.~~
+- [x] ~~Something else could be actually digging into the Circular Language Spec docs themselves.~~
 - [x] I think scoping is a better choice for now.
-- [x] I want to go over the Encircle Language Spec Plan documents, moving things out of scope off the top of my head.
+- [x] I want to go over the Circular Language Spec Plan documents, moving things out of scope off the top of my head.
 - [x] Side-goal: I read nicer docs, giving my head a bit of a break.
 - [x] I think I might mark things with red before actually moving content out.
 - [x] Still lots of definites in the wording of the main planning docs.

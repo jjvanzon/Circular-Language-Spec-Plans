@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Diagram Notation Spec | 2008-05 | Project Summary
@@ -14,7 +14,7 @@ __Contents__
 
 ### Super-Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 (This project was originally intermixed with the sub-project *Clarify Automatic Execution Order 2008-05*, but then the scope was split in two.)
 

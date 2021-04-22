@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Wrap Up Black Box, System Objects & Assignment Specs | 2009-09 | Start Up

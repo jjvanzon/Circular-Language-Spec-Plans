@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Basic Diagram Elements | Content Changes
@@ -17,7 +17,7 @@ __Contents__
 
 - [ ] ~ 'Connecting Command Symbols' stories may be a bit long?
 - [ ] ~ Maybe there are so many rules in there, because of the idea that this might become the base for a patent? Patenting is sort of off the table now.
-- [ ] ~ Some things might be implementation details, movable to the Encircle Construct Draft part?
+- [ ] ~ Some things might be implementation details, movable to the Circular Construct Draft part?
 - [ ] ~ Certain rules might change and simplify, but that might not be for now.
 - [ ] ~ Outtakes:
     - [ ] ~ Lines do have a direction, going from one symbol to the next, which might be explained later.
@@ -64,6 +64,6 @@ __Contents__
     - [x] I do not know. The back story may show creativity, which might be nice. It may inspire the imagination of others. But more reasoning may be overwhelming so I am torn between arguments here. More text might not necessarily be bad. I like describing how I came to these choices, sort of artistic choices.
     - [x] It might give it feeling. More humanization.
     - [x] I think the dashed square with the big red cross through it, might be a bit harshly expressed. Maybe the *curl* with the solid square might also be left out. There might not be much reason to emphasize things so much.
-    - [x] I still have doubts about explaining the reason behind the shapes. It may just obscure things. It may be text for 'Encircle Broader View' instead.
+    - [x] I still have doubts about explaining the reason behind the shapes. It may just obscure things. It may be text for 'Circular Broader View' instead.
 - [x] Maybe the object reference notation (the eye to another symbol) deserves specific mentioning. It is there under' Lines Pointing Outwards', but there is no specific highlighting of this notational issue. I feel it was sort of the aha moment that started my ideas about this possible notation flowing, so maybe nice to articulate. (There seem to be 2 interpretations of object reference. The eye notation may have one symbol be the object and the other be an object reference. But in another interpretation all the symbols are mere object references, and the lines just indicate correspondence of the aspect, that both symbols point to the same object.)
 - [x] 2x almost the same picture under 'Access Symbol Placement'.

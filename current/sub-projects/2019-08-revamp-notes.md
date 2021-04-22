@@ -1,4 +1,4 @@
-﻿Encircle Language Spec 
+﻿Circular Language Spec 
 ======================
 
 Revamp | 2019-08 | Notes
@@ -6,7 +6,7 @@ Revamp | 2019-08 | Notes
 
 ### Introduction
 
-This project *Encircle Language Spec | Revamp* might be an umbrella-project about multiple topics. The main point may be to change the *form* of the Encircle Language Spec documents:
+This project *Circular Language Spec | Revamp* might be an umbrella-project about multiple topics. The main point may be to change the *form* of the Circular Language Spec documents:
 
 - Scoping more sharply
 - Converting to web-friendly format

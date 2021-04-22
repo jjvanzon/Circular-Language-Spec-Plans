@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Planning + Black Box Spec Part A | 2009-06 | Eventual Strategy
@@ -25,7 +25,7 @@ This is the eventual plan. The plan changed during the project. The initial plan
 
 ### Parent Project
 
-*Encircle Language Spec*
+*Circular Language Spec*
 
 (Most objectives are explained inside the documentation of the parent project.)
 
@@ -35,7 +35,7 @@ Documentation / functional design
 
 ### Goal
 
-- Plan complete remains of *Encircle Language Spec*.
+- Plan complete remains of *Circular Language Spec*.
 - Functionally work out the *Black Box* concept.
 
 ### Side-Goals
@@ -56,7 +56,7 @@ Look over the existing material there is now.
 Work out the idea as you go along.  
 Make concise documentation.  
 
-Consider the ‘writing efficiently’ rules in the project documentation of *Encircle Language Spec*.
+Consider the ‘writing efficiently’ rules in the project documentation of *Circular Language Spec*.
 
 ### Benefits
 
@@ -80,11 +80,11 @@ The extra work was not properly planned. Due to this scope-creep, after a while 
 
 First the new project might be done, in which Black Boxing, System Objects and Assignment are adequately finished up.  
 After that there might be worked on Microsoft certification first.  
-The parent project *Encircle Language Spec* explains clearly what to furtherly do next for the future.
+The parent project *Circular Language Spec* explains clearly what to furtherly do next for the future.
 
 ### Time Planning
 
-A rough time planning of this 8 month period can be found in the project documentation of the super-project *Encircle Language Spec*.
+A rough time planning of this 8 month period can be found in the project documentation of the super-project *Circular Language Spec*.
 
 It was estimated in advance, that this project may take only __1 week__ or __10 days__ tops.  
 But when the scope of the problem area became clear, it turned out to be a lot more work and along with other problems, __2 ½ months__ went by.

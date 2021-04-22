@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Objects | Content Changes
@@ -33,10 +33,10 @@ __Contents__
 
 #### 2020-06-07 Done Content Changes for Objects Chapter
 
-- [x] Maybe attributes can be introduced as perhaps not really a specific part of the Encircle language. It is more of a concept with an explanation of how it might fit into the Encircle programming language.
+- [x] Maybe attributes can be introduced as perhaps not really a specific part of the Circular language. It is more of a concept with an explanation of how it might fit into the Circular programming language.
 - [x] 'Target Objects' kind of puts aside a different interpretation of object references, where all symbols are references, even 'final target' symbols.
 - [x] Attributes section:
-    - [x] Enumeration of Attributes:    It has a text that might apply in an application where you might query for reflective data, perhaps for aspect oriented purposes? The issue might be a bit out of place there. Maybe elsewhere? In System Objects? Or otherwise in Encircle Construct Drafts somewhere?
+    - [x] Enumeration of Attributes:    It has a text that might apply in an application where you might query for reflective data, perhaps for aspect oriented purposes? The issue might be a bit out of place there. Maybe elsewhere? In System Objects? Or otherwise in Circular Construct Drafts somewhere?
 - [x] I might move Target Objects to Pointers now. I am pretty sure I want to give it a separate place and might not want to reformulate parts of it now?
     - [x] > Yes, I think I might do that.
 - [x] 'Related Objects': The picture has the labels A and B, which do not seem to serve a function at that particular spot.

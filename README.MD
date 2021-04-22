@@ -1,11 +1,11 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 *JJ van Zon, 2021-02-17*
 
-This repository might contain the plans, notes and TODO's about [Encircle-Language-Spec](https://github.com/jjvanzon/Encircle-Language-Spec).
+This repository might contain the plans, notes and TODO's about [Circular-Language-Spec](https://github.com/jjvanzon/Circular-Language-Spec).
 
-Encircle might be an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
+Circular might be an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
 
 You may find the following sub-folders here:
 
@@ -23,7 +23,7 @@ You may find the following sub-folders here:
 
 - [Out of Scope](out-of-scope)
     
-    - Notes about topics that did not make it into the spec. Those might be topics about a broader view on the uses of the Encircle language. They might also be construct drafts, that may not be ripe for the spec yet.
+    - Notes about topics that did not make it into the spec. Those might be topics about a broader view on the uses of the Circular language. They might also be construct drafts, that may not be ripe for the spec yet.
 
 - [Archive](archive)
 

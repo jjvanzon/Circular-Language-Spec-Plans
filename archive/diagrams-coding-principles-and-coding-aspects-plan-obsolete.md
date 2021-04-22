@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plan | Diagrams, Coding Principles & Coding Aspects
+﻿Circular Language Spec Plan | Diagrams, Coding Principles & Coding Aspects
 ==========================================================================
 
 *June, 2008*
@@ -17,7 +17,7 @@ Goal
 
 *This project was postponed earlier, because it was too big. The aspects classes & relations were turned into a single project. This project contains the remaining topics.*
 
-*This document used to have notes about topics not in scope of the Encircle Language Spec. Notes about that were moved to another document.*
+*This document used to have notes about topics not in scope of the Circular Language Spec. Notes about that were moved to another document.*
 
 Document the coding principles and basic coding aspects and their diagram notation. Do that with the ideas I have about them now and avoid difficult reconsideration of principles. 
 

@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Search Tools Research | 2020-04 | Notes
@@ -17,6 +17,6 @@ Search Tools Research | 2020-04 | Notes
 - [x] Exp: search "*.doc"
 - [x] Obs: Now it might not match "*.docx".
 - [x] Hyp: I thought I saw that some times.
-- [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Encircle Language Spec Plan". Search "content:Joost".
+- [x] Exp: Windows 7 File Explorer. "D:\Source\JJs Software\Project Docs\Circular Language Spec Plan". Search "content:Joost".
 - [x] Obs~ It shows 2 files, if I open them (docx's) and search for Joost in Microsoft Word, I get no result. Odd.
 - [x] Hyp: File properties?

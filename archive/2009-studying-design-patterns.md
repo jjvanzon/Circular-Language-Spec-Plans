@@ -3,7 +3,7 @@ Studying Design Patterns
 
 *2009 ~*
 
-I have already given some design patterns quite a central place in the Encircle language.
+I have already given some design patterns quite a central place in the Circular language.
 Before I knew people had already come up with the pattern, I seemed to have introduced the multimethod pattern, in the programming language.
 Should I learn all design patterns? This may save me the trouble of coming up with ones on my own. It may prevent me from first making mistakes in my design, to use the knowledge others have already acquired.
 

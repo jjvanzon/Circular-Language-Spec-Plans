@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Classes | Tone Change | 2020-06 | Notes
@@ -24,7 +24,7 @@ __Contents__
 - [x] Possibly mark questionable trigger words with a star (*) too.
 - [x] Finding replacement words, possibly using online thesaurus.
     - [x] I seem less motivated, because I question the validity of the idea, so this action may seem futile.
-    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Encircle Language Spec, but an Encircle Broader View idea. So even though I might not use it in Encircle Language Spec, I might still appreciate it as an idea outside of that.
+    - [x] Perhaps I might appreciate the idea for what it is. Maybe not part of this Circular Language Spec, but a Circular Broader View idea. So even though I might not use it in Circular Language Spec, I might still appreciate it as an idea outside of that.
     - [x] I get anxiety if something seems unuseful to me. It's a thing.
     - [x] I am done with this, but I feel uneasy about the ideas. 
 - [x] I might go over the loose ideas in the document and cross out or distribute those.

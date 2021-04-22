@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Execution Control Spec | 2008-06 | Project Summary
@@ -14,7 +14,7 @@ __Contents__
 
 ### Super-Project
 
-Encircle Language Spec
+Circular Language Spec
 
 ### Main Goal
 

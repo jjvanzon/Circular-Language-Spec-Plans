@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Commands & Classes Loosely Coupled Spec | 2008-04 | Project Summary

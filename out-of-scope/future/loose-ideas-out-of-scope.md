@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Loose Ideas (Out of Scope)
@@ -53,7 +53,7 @@ JJ
 
 -----
 
-Encircle,  
+Circular,  
 2008-09-15
 
 You might want projects about Internet as a Single Computer, about cached storage and the connection between the logical and the physical.  
@@ -66,7 +66,7 @@ JJ
 
 -----
 
-Encircle,  
+Circular,  
 2008-09-15
 
 A possible aim in a broader perspective might be that low-level device driver programming, and high-level programming for a world-wide network of computer is done through a single same paradigm, without loss of performance.
@@ -75,7 +75,7 @@ JJ
 
 -----
 
-Encircle,
+Circular,
 
 However, Compared Input Output and Automatic Execution Order is only ONE candidate for concurrency resolution. It is totally not clear yet how the concurrency resolution mechanism might look. This makes me nervous. I am several subjects away from having worked out all concurrency resolution candidates, and it is vital for Internet as a Single Computer. And Internet as a Single Computer is vital for the language to succeed.
 
@@ -92,16 +92,16 @@ JJ
 
 -----
 
-Encircle Language Spec,  
+Circular Language Spec,  
 2010-01-27
 
-Another reason the name Encircle might be nice, because if you'd use the language as a user interface, it is a non-square user interface. Most user interfaces are square oriented or rectangularly organized. But Encircle is not. It is non-square.
+Another reason the name Circular might be nice, because if you'd use the language as a user interface, it is a non-square user interface. Most user interfaces are square oriented or rectangularly organized. But Circular is not. It is non-square.
 
 JJ
 
 -----
 
-Encircle Language Spec,  
+Circular Language Spec,  
 2009-04-20
 
 You already have those things, even when you do not have Concurrency Resolution or Internet as a Single Computer or have incorporated existing ideas of other people. That's why it is so important to first do the easy projects.
@@ -110,7 +110,7 @@ JJ
 
 -----
 
-Encircle Language Spec,
+Circular Language Spec,
 
 In articles’ See also references, you can have backward references and forward references. Maybe references to other articles are not that important, though.
 
@@ -120,7 +120,7 @@ JJ
 
 -----
 
-Encircle Language Spec,  
+Circular Language Spec,  
 2008-09-01
 
 Near the end of the development of the new programming language, next to the application programming projects, you might have a set of extreme test cases, complete, workable and fast enough. These are extreme test cases, that you might want possible in the new general purpose programming language.
@@ -146,7 +146,7 @@ JJ
 
 -----
 
-Encircle Language Spec,  
+Circular Language Spec,  
 2008-09-15
 
 I am currently working on the concept of parameters, and it has small scope compared to something like Internet as a Single Computer. I am beginning to get nervous about it, that I am focusing on a detail so much, and not working on the broader view of things.
@@ -157,9 +157,9 @@ JJ
 
 -----
 
-Encircle Language Spec,  
+Circular Language Spec,  
 2009-05-13
 
-The Fundamental Principles makes comparisons to other systems. However, not comparing is a writing style rule chosen later. However, the Fundamental Principles may be an exception: it explains why this language is there. And Encircle might solve a problem in another language, hence comparison may be required.
+The Fundamental Principles makes comparisons to other systems. However, not comparing is a writing style rule chosen later. However, the Fundamental Principles may be an exception: it explains why this language is there. And Circular might solve a problem in another language, hence comparison may be required.
 
 JJ

@@ -1,4 +1,4 @@
-﻿Encircle Language Spec | Steps & Time Planning
+﻿Circular Language Spec | Steps & Time Planning
 ==============================================
 
 `[ Deprecated documentation ]`
@@ -22,7 +22,7 @@ Purpose of this Document
 
 This document aims to subdivide a project into work items and gives a time planning and time estimation for it.
 
-The goal and strategy of the project were already described in the document *Encircle Language Spec Strategy*. The list of possible products to make were already listed out in the document *Encircle Language Spec Product List*. This document lists out work items and gives a time estimation of the work.
+The goal and strategy of the project were already described in the document *Circular Language Spec Strategy*. The list of possible products to make were already listed out in the document *Circular Language Spec Product List*. This document lists out work items and gives a time estimation of the work.
 
 
 Considerations
@@ -50,7 +50,7 @@ Things might be slightly over-scored, because they are just variations on relati
     - [ ] Coding Essentials __(6 items)  (14 points)__
     - [ ] Automatic Diagram Organization __(1 item)  (5 points)__
     -----
-    - [ ] Total Encircle Language Spec: __7 work items (19 points)__
+    - [ ] Total Circular Language Spec: __7 work items (19 points)__
 
 - [ ] First: __(7 items)  (19 points)__
     - [ ] Coding Essentials: __(6 items)  (14 points)__  

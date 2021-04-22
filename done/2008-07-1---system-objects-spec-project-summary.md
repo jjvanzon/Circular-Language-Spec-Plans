@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 System Objects Spec | 2008-07 | Project Summary
@@ -23,7 +23,7 @@ __Contents__
 
 ### Super-Project
 
-Encircle Language Spec, Command as an Aspect Spec
+Circular Language Spec, Command as an Aspect Spec
 
 ### Goal
 
@@ -97,9 +97,9 @@ The following was produced:
 
 Quite a lot seems to be involved.
 
-The system objects might be the getters and setters of the Encircle language. That's one way of looking at it.
+The system objects might be the getters and setters of the Circular language. That's one way of looking at it.
 
-The produced articles describe their own take on it: as if Encircle might run as a run-time system. In that case the implementation of the *system objects* might cover most of the base of the code, upon which the rest could build. But if Encircle is just used as a diagram notation, system objects might not be as essential. However it could serve as a notation for getters and setters for instance.
+The produced articles describe their own take on it: as if Circular might run as a run-time system. In that case the implementation of the *system objects* might cover most of the base of the code, upon which the rest could build. But if Circular is just used as a diagram notation, system objects might not be as essential. However it could serve as a notation for getters and setters for instance.
 
 The system objects are like an idea for a base of a run-time, but in its ideas seem to be embedded possibilities for concepts like (bidirectional) relationships, reflection, assignment, static members, getters and setters, aspect oriented programming or maybe at least sideways touching those topics. It also incidentally gives a sort of systematic overview of basic building blocks of the language.
 
@@ -134,7 +134,7 @@ But that seemed the way to do it for the System Objects articles, because the co
 - The term *system object* was defined somewhere, as a term mainly used for objects such as related items, 
   related lists and related list items.
 - The system objects and commands could be the basic objects and commands implemented by the base of the code. The system objects might not be 'normal' objects. They might be special deep-core system objects, that control relations between normal objects.  
-In the first layer of the base of the code, the system objects and system commands might not be comparable to normal objects and commands in the Encircle language. But the idea was that the base of the code might get reprogrammed using Encircle itself and then the system objects and commands might be implemented the same as any plain old object or command. But they might *still* be *system* objects, might  that have the special position of controlling the other objects.
+In the first layer of the base of the code, the system objects and system commands might not be comparable to normal objects and commands in the Circular language. But the idea was that the base of the code might get reprogrammed using Circular itself and then the system objects and commands might be implemented the same as any plain old object or command. But they might *still* be *system* objects, might  that have the special position of controlling the other objects.
 - You might want to make clear, that the notation of the system objects and the implementation of system objects are two separate things.
 - System objects such as __Object  .  ID__ could also be considered system objects: they kind of are the related *objects*: an object reference embedded inside a related item or related list item. Perhaps put the term related object in the system interface summary, in the diagram that shows all the terms.
 - Perhaps explain somewhere, why a system object is often called a system interface.  
@@ -174,7 +174,7 @@ The system object in a way represents an object. So usually you might see a syst
 ##### Extension Procedure Part of Parent
 
 - Extension procedures might not be defined by the list object. The extension procedures might be defined by the parent object. This counts for related items too. A related item’s extension procedures might be defined by the parent object. Extension procedures might be normal commands, not system commands.
-- \> It seems just more practical to make the extension procedures part of the parent object. Only a normal Encircle language object might define commands, that have all the possibilities of the programming language. You may not really be able to change objects like related items or related lists, because they are system objects. Maybe those system objects can only be extended, not changed.
+- \> It seems just more practical to make the extension procedures part of the parent object. Only a normal Circular language object might define commands, that have all the possibilities of the programming language. You may not really be able to change objects like related items or related lists, because they are system objects. Maybe those system objects can only be extended, not changed.
 
 ##### Object References Inherently Part of Parent
 

@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Events Spec | 2010-05 | Steps
@@ -24,7 +24,7 @@ This document is not meant as reading material. It is a list of steps undertaken
 - [x] Describe System Events concept
 - [x] Brainstorm about System Events design choices
 - [x] Come up with Simplified System Event Notation
-- [x] Think about the future of Encircle
+- [x] Think about the future of Circular
 - [x] Draw and write:
     - [x] Simplified System Event Notation
     - [x] Simplified System Event Command Notation with Parameter
@@ -32,7 +32,7 @@ This document is not meant as reading material. It is a list of steps undertaken
 - [x] Qualified Event Names
 - [x] Interaction Events
 - [x] \> Almost finished all the material
-- [x] Think about the future of Encircle again
+- [x] Think about the future of Circular again
 - [x] Investigate changing the parent project
 - [x] Write Black Boxing Events
 - [x] Cross-out old material

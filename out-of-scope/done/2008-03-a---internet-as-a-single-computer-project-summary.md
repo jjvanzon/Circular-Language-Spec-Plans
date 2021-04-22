@@ -1,4 +1,4 @@
-﻿Encircle Language Spec Plans
+﻿Circular Language Spec Plans
 ============================
 
 Fundamental Principles | 2008-03 Internet as a Single Computer | Project Summary

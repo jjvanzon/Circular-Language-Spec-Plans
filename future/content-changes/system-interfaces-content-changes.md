@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 System Interfaces | Content Changes
@@ -25,7 +25,7 @@ __Contents__
 
 The System Interfaces article group may need extensions in the future. It could be revisited to make complete the set of system aspects and system commands and cross out remaining ideas and topics.
 
-Somewhere written down is the idea that Getters & Setters should be a sub-topic inside System Objects, but I am not sure why. It seems that is already covered by the content? Maybe just to compare it to getters and setters and how those look in Encircle Language, just in case there was any doubt.
+Somewhere written down is the idea that Getters & Setters should be a sub-topic inside System Objects, but I am not sure why. It seems that is already covered by the content? Maybe just to compare it to getters and setters and how those look in Circular Language, just in case there was any doubt.
 
 #### Getters & Setters Brainstorm
 
@@ -55,8 +55,8 @@ That seems to solve the problem.
 - [x] An idea is to have the system interface be there if you need it, and optimized away if not needed or just be a view on it, not necessarily a non-optimal way of object representation in runtime. I am going too far with this now, I think. Too many edge-cases. Lots of ideas come to mind.
 - [ ] ~ System Objects seem to lead to Assignment, Connectors and Connections, but one is sort of the internals, while the other is just basics of notation, so not sure to keep them intermixed like that.
 - [ ] ~ I just keep thinking the chapter could be split into a neutral view on system aspects, leading to connections, connectors and assignment, and separating out the specific implementation, which I do not find uninteresting, but... it might not seem to be 'the language', it seems 'the runtime', which can expose itself through the system interface. It may even be demoted to Construct Drafts. It might be more than a draft, but... maybe for that reason put it in Broader View.
-- [ ] ~ (Also about Pointers): The distinction between system interfaces for references and for objects might also be derived from the impression that in the object reference notation it may be implied what is the object and what is the reference. I feel uneasy that I seem to change opinion of what makes a symbol a reference. It is a story of subtleties that might lurk under the hood, that could be the subject of the Pointers chapter and may be better pretending the problem might not exist. I have multiple interpretations I sort of equally like, that might not even be in each other's way. It may just create an odd rule set of when something is a reference and when something is an object. If I keep comparing it with 'text code' I seem to find answers. How it works in text code, I feel there is often a parallel to be found in this diagram notation. If it is a reference or an object may also be 'weird' in C#, so Encircle might be excused for it too.
-- [ ] ~ Elaborations on reasons might be moved to Encircle Broader View.
+- [ ] ~ (Also about Pointers): The distinction between system interfaces for references and for objects might also be derived from the impression that in the object reference notation it may be implied what is the object and what is the reference. I feel uneasy that I seem to change opinion of what makes a symbol a reference. It is a story of subtleties that might lurk under the hood, that could be the subject of the Pointers chapter and may be better pretending the problem might not exist. I have multiple interpretations I sort of equally like, that might not even be in each other's way. It may just create an odd rule set of when something is a reference and when something is an object. If I keep comparing it with 'text code' I seem to find answers. How it works in text code, I feel there is often a parallel to be found in this diagram notation. If it is a reference or an object may also be 'weird' in C#, so Circular might be excused for it too.
+- [ ] ~ Elaborations on reasons might be moved to Circular Broader View.
 
 ##### Less Difficult Perhaps
 
@@ -106,7 +106,7 @@ That seems to solve the problem.
     - [x] There may be some naming purism that might have slipped in, which might be sort of subjective. Might "Get Object" not read more easily instead of "Object Get"? Ease in conveying the idea might be a good argument to write it that way. Fortunately no choice is set in stone anymore, which seems a bit of relief, meaning: even if you might name it Object Get later for some reason, stating it differently now, might not stand the main idea in the way. I may not have been entirely conscious of that when I wrote it. I was looking for rules to hold on to in a perhaps complicated task. I get it. But the idea can relax now.
     - [x] Might do for whole chapter.
     - [x] But skipping the images?
-    - [x] ~~Might not include the Encircle Construct Draft version?~~
+    - [x] ~~Might not include the Circular Construct Draft version?~~
     - [x] Done for System Objects article.
     - [x] Done for Assignment article.
     - [x] Done for System Command Call Notations article
@@ -127,7 +127,7 @@ That seems to solve the problem.
 
 #### 2020-07-21 Done Content Changes for System Command Call Notations Article
 
-- [x] Assignment direction might be reversed in the section "Explicit Get & Set Argument Notation". > Checked both Encircle Language Spec and Encircle Construct Drafts.
+- [x] Assignment direction might be reversed in the section "Explicit Get & Set Argument Notation". > Checked both Circular Language Spec and Circular Construct Drafts.
 - [x] Add a sentence? The "Explicit Get & Set" section goes into notations of the New and Add commands as well, even though the title of the section may not say it. Change the title? Or excuse it in the content?
 
 #### 2020-07-21 Done Content Changes for System Command Call Notations Article
@@ -139,11 +139,11 @@ That seems to solve the problem.
 - [x] I seem to not have scanned them yet.
 - [x] Might cut and paste images from the paper scans into the "Explicit Get & Set" section.
 - [x] I might go to a next step, which might be adding the next section, based on the original text, but then changed to the currently preferred notation.
-- [x] I seem to be missing the original pictures in the original notation of Explicit Get & Set (with Arguments). Did I remove them, or did they never exist? I think I accidentally removed them and did not keep them in Encircle Construct Drafts. I might look in the source control history trying to get them back for sort of archival purposes.
+- [x] I seem to be missing the original pictures in the original notation of Explicit Get & Set (with Arguments). Did I remove them, or did they never exist? I think I accidentally removed them and did not keep them in Circular Construct Drafts. I might look in the source control history trying to get them back for sort of archival purposes.
 - [x] Found part of it in a previous version of... going back in history on the main doc, might lead to the actual original instead of an already altered one.
 - [x] It seems there was no systematic overview of any system interface call with explicit arguments in the version before. So I sort of went on a ghost hunt.
-- [x] Might there be things I want to polish up about the Encircle Construct Drafts version up until the "Explicit Argument Notation"?
-- [x] There are some 'orange' markings left for extensions with more content, but I might not are much about that currently, because I chose to focus on Encircle Language Spec and leave Encircle Construct Drafts in a bit of a 'drafty' state if I must.
+- [x] Might there be things I want to polish up about the Circular Construct Drafts version up until the "Explicit Argument Notation"?
+- [x] There are some 'orange' markings left for extensions with more content, but I might not are much about that currently, because I chose to focus on Circular Language Spec and leave Circular Construct Drafts in a bit of a 'drafty' state if I must.
 - [x] Clone in the "Explicit Get & Set" section seems to be missing its depth arguments.
 - [x] Explicitly drawn out assignment command:
     - [x] Made scaffolding to be finished up.
@@ -175,7 +175,7 @@ That seems to solve the problem.
 #### 2020-07-01 Done Content Changes for System Objects Chapter
 
 - [x] The chapter starts as if it is a run-time.
-- [x] "if Encircle might function more like a stand-alone language, rather than mostly a diagram notation"
+- [x] "if Circular might function more like a stand-alone language, rather than mostly a diagram notation"
 - [x] The Related Items and Related Lists collections inside the System Interface might be handy for reflective/aspect oriented/relational model logic. But in essence you might only need one collection of 'sub-objects' (that term might questionable). Possibly, certain characteristics that a sub-object might have could turn it into a Related Item, Related List or perhaps even an Attribute. And commands, etc. There may be one 'bag' of sub-items, while you may query for ones with certain characteristics. A set of those queries could be: Commands, Items, Lists or Attributes. But at least 2 times now I guess I changed my mind about the subdivision of those 'queries'. It looks like the .NET Type type with its members like Properties, Methods, etc.? That parallel feels nice. These might even be framework extensions. I wonder how to present this. Presenting alternatives. Leaving in this design choice or changing it? It should maybe be one of the use cases of the system interfaces. I think those might deserve mentioning. That this reflective data might be used for software design based on a relational model if you just see it as Related Lists and Related Items, that might be nice. But due to the detailed construct subdivisions that commands might cause, the view on the relational design might be lost if you do not put some sort of filter over it, that excludes maybe anything going on inside a command. These are just options. I might like to explore them. I am not sure if this might make the text unnecessarily long. Let's just see.
 - [x] I think I like the way the specific approach might shed light on flexibilities, because it could mean openness to alternative ideas, at the same time expressing that other variations are also possible too. Even though things in System Objects might seem specific implementation issues, I tend to want to keep all of that in there, because it seems a nice demonstration of how things might be (on a deeper level?)
 - [x] In the System Object article, there seems prominence of the 1 and n multiplicity concepts, that might only be interesting once you start talking about relationships or reflection or aspect oriented programming.
@@ -185,7 +185,7 @@ That seems to solve the problem.
     - [x] The reason is that the terminology seems to get dizzying and confusing. For instance sort of clashing visually with terms like "Class Redirection" and "Class Reference" (already sort of ambiguous).
 - [x] I frequently have the opinion that some texts may have design choices not necessarily relevant to the notation design, that are presented as hard rules, while I could perhaps think of a few alternatives from the top of my head. Just admitting it is not set in stone might help. / (Perhaps leaving base code design / the design of a run time out of the story somehow, might help? I am not sure.) The example that is given might help, because it might give pointers towards various things you might use a system interface for, ideas that might otherwise not be considered, and perhaps relevant to the purpose in mind with system interfaces. Something that could be considered, though, is to then not try to design a perfect base code in writing, but to make some things simpler on purpose, since this seems for demonstration purposes, rather than to formulate a fixed set of rules anymore.
 - [x] Clone (2) seems a practical variation on the value aspect, because the case where there is a parent object, whose child objects are values or reference and those elements together might need a copy ('MemberwiseClone'). The value aspect might only copy a parent object's value, which it might not even have, just through its sub-objects/child value objects. But the depth parameter might be a bit creative. I think expressing this use case (maybe a bit more concisely than above), might help appreciate that the idea is proposed.
-- [x] The Execute aspect might be more generically applicable. In the section "Execute Aspect in the System Interface" I might say any object in Encircle might become executable, instead of fixating on an object's definitely being a command or not.
+- [x] The Execute aspect might be more generically applicable. In the section "Execute Aspect in the System Interface" I might say any object in Circular might become executable, instead of fixating on an object's definitely being a command or not.
 - [x] "The System Objects" section:
     - [x] I find terminology introduced dubious and ambiguous. For instance: related item might be a pointer, related object might be an undecorated object pointer: what might the difference be? The Related Item makes the connection with its parent. But how might the term Related Item even mean that? I just seemed to have picked some words and assign meaning to it. I think maybe the meaning of the terms could be kept pure. I might not need to abuse the term 'Related Item' in order to define that a parent object manages the relationships with its related objects. Item and object are almost synonymous, but as I translate that to terms related item and related object, all of a sudden they change meaning? Nah, not a great plan perhaps. I just wonder then: How am I supposed to present it then? They do seem clearly distinct concepts, just not clearly distinct terminology. This might be an age old problem in computer programming: finding good names. Basically the concept of 'wrapping a pointer' may need a name. Maybe Related Item wraps a Reference or is that abusing terminology again? Maybe not if you do not try to define a term but just say the concept the parent manages the connection to the related item, and that a Related Item might wrap a reference to the related object.
     - [x] Could I just pick a term and then say: these are all basically synonyms?

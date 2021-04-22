@@ -1,4 +1,4 @@
-Encircle Language Spec Plans | Broader View
+Circular Language Spec Plans | Broader View
 ===========================================
 
 Exchangeability | Broader View | Plan

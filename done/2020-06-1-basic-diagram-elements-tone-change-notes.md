@@ -1,4 +1,4 @@
-Encircle Language Spec Plans
+Circular Language Spec Plans
 ============================
 
 Basic Diagram Elements | Tone Change | 2020-06 | Notes
