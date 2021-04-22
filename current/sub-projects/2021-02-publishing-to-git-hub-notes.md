@@ -26,6 +26,7 @@ __Contents__
 - [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
 - [ ] Renaming from "Encircle" to "Symbol"?
     - [ ] Perhaps first search for "Symbol" and replace it to "original Symbol documentation from 2004" or something.
+    - [ ] Or "Circular".
 
 ### Done
 
