@@ -19,10 +19,26 @@ There might be separate sub-project documents about specific topics.
 ### Steps
 
 - [x] Reorientation | reading some of the Planning Docs
-- [x] Source Control Migration
-- [x] Publishing to GitHub
-- [x] Conversion to MarkDown
+
 - [x] Scoping
+
+- [x] Conversion to MarkDown
+
+- [x] ~ Source Control Migration
+
+    - [ ] ~ May still migrating hour log
+
+- [x] ~ Publishing to GitHub
+
+    - [ ] ~ __May rename the language__
+    - [ ] ~ May at one point make a demo video
+
 - [ ] __Content Reorganization__
+
+    - [ ] __Stereotyping content fragments and moving them__
+
 - [ ] .. Planning | in General
+
 - [ ] .. Tone Change
+
+    - [ ] .. Tone change in bulk
