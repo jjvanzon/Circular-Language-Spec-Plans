@@ -8,8 +8,9 @@ __Contents__
 
 - [Rough Plan](#rough-plan)
 - [Information](#information)
-- [Postponed](#postponed)
+- [TODO](#todo)
     - [2021-04-13 Postponed Milder Tone in Bulk](#2021-04-13-postponed-milder-tone-in-bulk)
+- [Postponed](#postponed)
     - [2020-06-01 Postponed Checklist Tone Change](#2020-06-01-postponed-checklist-tone-change)
     - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
     - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
@@ -28,7 +29,7 @@ __Contents__
 - [ ] .. Use common IT terms
 - [ ] .. Less resolute language, more wiggle room
 - [ ] .. (Perhaps search for definites such as 'have to', 'must', 'would', 'should', 'very'.)
-- [ ] .. (Maybe I am being too strict towards myself, about having to rewrite everything in a milder tone.)
+- [ ] .. (Maybe I am being quite strict towards myself, about rewriting things in a milder tone.)
 
 ### Information
 
@@ -37,7 +38,7 @@ __Contents__
     - Google Translate: <https://translate.google.com/>
 - Polite forms in English Language: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
 
-### Postponed
+### TODO
 
 #### 2021-04-13 Postponed Milder Tone in Bulk
 
@@ -60,9 +61,13 @@ __Contents__
 - [x] "visual studio code" find in files results missing.
     - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
     - [x] Seems less buggy when clicking on the magnifier and typing text.
-- [ ] May move this TODO section to "Tone Change" planning doc.
-
+- [x] 🧾 Correcting "t might" occurrences
+    - [x] "Don't might", "won't might", etc.
+    - [x] Replaced by "might not" in most cases.
 - [ ] Searching for "can", replacing some occurrences.
+- [ ] Searching for "should", replacing some occurrences.
+
+### Postponed
 
 #### 2020-06-01 Postponed Checklist Tone Change
 
