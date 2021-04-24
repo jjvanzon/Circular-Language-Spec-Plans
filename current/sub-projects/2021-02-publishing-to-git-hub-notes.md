@@ -9,6 +9,7 @@ __Contents__
 - [TODO](#todo)
     - [2021-04-06 TODO Publishing Details](#2021-04-06-todo-publishing-details)
 - [Done](#done)
+    - [2021-04-22 Done Brainstorm New Name](#2021-04-22-done-brainstorm-new-name)
     - [2019-08-05 Done Open Source Brainstorm](#2019-08-05-done-open-source-brainstorm)
     - [2021-02-09 Done Publishing](#2021-02-09-done-publishing)
     - [2021-02-08 Done Publishing: My Brother's First Name](#2021-02-08-done-publishing-my-brothers-first-name)
@@ -18,15 +19,44 @@ __Contents__
 #### 2021-04-06 TODO Publishing Details
 
 - [x] Emoji in commit messages: https://github.com/yzhang-gh/vscode-markdown
+- [x] May rename "Encircle" => "Circular"
 - [ ] Demo video?
     - [ ] Just clicking and scrolling through content.
     - [ ] On YouTube linking to GitHub.
     - [ ] On GitHub linked a YouTube movie.
 - [ ] Adjusting image size: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
 - [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
-- [x] Renaming from "Circular" to "Symbol"?
 
 ### Done
+
+#### 2021-04-22 Done Brainstorm New Name
+
+Circle was taken:
+https://www.circle-lang.org
+
+-----
+
+"Symbol" also taken:
+https://feaforall.com/introduction-symbol-language-onscale-analyst-script/
+
+By a niche tool?
+OnScale Analyst
+
+https://support.onscale.com/hc/en-us/articles/360002427698-Introduction-to-Analyst:
+Quote: "Note: Strictly speaking "Symbol" refers just to those commands listed in the Symbol Command section of the Command Reference. That being said, here at OnScale we sometimes loosely use "Symbol" to refer to anything written in Analyst."
+
+https://onscale.com/blog/how-to-build-a-model-in-just-11-lines-of-code/
+
+-----
+
+C°
+Centigrade?
+
+-----
+
+"Circular"
+Seems available.
+I think I like that better than Encircle.
 
 #### 2019-08-05 Done Open Source Brainstorm
 
