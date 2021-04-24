@@ -26,16 +26,15 @@ There might be separate sub-project documents about specific topics.
 
 - [x] ~ Source Control Migration
 
-    - [ ] ~ May still migrating hour log
+    - [ ] ~ May still migrating hour log.
 
 - [x] ~ Publishing to GitHub
 
-    - [ ] ~ __May rename the language__
-    - [ ] ~ May at one point make a demo video
+    - [ ] ~ May at one point make a demo video.
 
 - [ ] __Content Reorganization__
 
-    - [ ] __Stereotyping content fragments and moving them__
+    - [ ] __Stereotyping content fragments and moving them.__
 
 - [ ] .. Planning | in General
 
