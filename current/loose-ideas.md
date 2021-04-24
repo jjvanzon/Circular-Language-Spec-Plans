@@ -56,7 +56,7 @@ JJ
 
 Circular Language Spec,
 
-Possible hazards of the reader losing faith in you:
+Possible hazards of a reader losing faith in it:
 
 - Documentation too difficult.
 - Disbelief: this can not work.
@@ -71,5 +71,14 @@ Circular Language Spec,
 2009-06-22
 
 At the end of the project, you might want to do a spelling check and also a grammar check. Sometimes you make a mistake. When Word suggests a grammar correction maybe verify, that the program is right, and that that is the actual grammar rule.
+
+JJ
+
+-----
+
+Circular Language Spec,
+2021-04-23
+
+Quick reference cards at beginning of chapter may be nice. A bit like the one in Commands Example Diagrams. Perhaps just construct name / diagram expression. If more info may be needed it might be found further down.
 
 JJ
