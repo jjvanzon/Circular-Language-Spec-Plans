@@ -108,22 +108,19 @@ As a helper for reorganizing content, fragments of content might first be *stere
 
 #### 2021-04-13 TODO Content Reorganization
 
-- [ ] May rename "Circular" => "Circular" first.
-- [ ] Correcting tables of contents of:
-    - [ ] Aspects As External Modules
-    - [ ] Text Code Loose Ideas
-    - [ ] Type Safety, Generic, Explicit
-    - [ ] Execution Flow Loose Ideas
-- [ ] Assignment broader view:
-    - In defense of the assignment notation, it may look that way expressing it being "almost a connection". A moment later it might be a connection, while there may still be a command to execute for that before it is.
-- [ ] Moving around texts:
+- [x] 🗿 Correcting headings for auto-generated tables of contents.
+    - [x] ~~Aspects As External Modules~~
+    - [x] Text Code Loose Ideas
+    - [x] Type Safety, Generic, Explicit
+    - [x] Execution Flow Loose Ideas
+- [ ] 🚛 Moving around texts:
     - [x] ⏹ WAS AT: Commands Loose Ideas (by order of TOC)
         - [x] 🗿 Changed heading levels for table of contents.
         - [x] 🍱 Stereotyping text fragments.
         - [ ] 🚚 Moving around stereotyped text fragments.
-        - [ ] Some `<< rule rich >>` content may be moved to Implementations perhaps.
-        - [ ] 🥵 A struggle to make it work seems noticeable here.
-        - [ ] 🚛 Might make that struggle a specific article in Commands Construct Drafts.
+        - [ ] 📚 ⚖ Separate article Commands Rule Rich.
+            - [ ] 🥵 A struggle to make it work seems noticeable here.
+            - [ ] Might move Commands Rule Rich to Implementations.
     - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
     - [ ] 💡 Loose Ideas: regroup or clear out.
     - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
