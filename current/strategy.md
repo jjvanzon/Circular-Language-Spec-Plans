@@ -7,8 +7,8 @@ Strategy
 __Contents__
 
 - [Introduction](#introduction)
+- [Goals](#goals)
 - [Earlier Goals](#earlier-goals)
-- [Later Goals](#later-goals)
 - [Scope](#scope)
     - [More about Scope](#more-about-scope)
 - [Theme Picking](#theme-picking)
@@ -33,18 +33,7 @@ I spent quite some time in my 20's thinking about this idea of how to visually e
 
 It is an idea for a new computer programming language, mostly about a diagram notation that might show things, that go on inside a computer. It might once become a way to navigate and write code.
 
-### Earlier Goals
-
-A while ago the goal of the project was to describe ideas locked up my head. It was meant to preserve my thoughts about this language. This was done, by attempting to make a specification of the new programming language, adequate as a starting point for turning it into a usable product. Then the idea was that it might be given away, sold, implemented or not worked on for years and then the ideas might not fade away. Theoretically if anyone wanted to, they might be able to continue working on it from that point on. That might create some peace of mind and possibilities for the future. Around __2010__ that goal seemed mostly realized.
-
-Between 2010 and 2012 the goal was __programming__ some of these things, to try and see it in action. It as an experiment. It did not quite get finished.
-
-Between 2012 and 2019 the project went into a __sleep state__. New job. Different goals.
-
-Between 2019 and 2021 the goal was to __open source__ it. It took some time to untangle the project from other docs. Eventually it was published. The goal used to be to patent it, but that is no longer the case. Not sure how to make money off of this, and it seems no use tucked away on a hard drive.
-
-
-### Later Goals
+### Goals
 
 More personal goals might be:
 
@@ -62,12 +51,21 @@ In the future goals might extend to:
 
 - Language design topics
 
-To get the documents in a state better accessible for others. But for now that might not seem in the cards. Tight time planning might not seem an option either.
+To get the documents in a state better accessible for others. But for now that might not seem in the cards. Tight time planning does not seem an option either.
 
+### Earlier Goals
+
+A while ago the goal of the project was to describe ideas locked up my head. It was meant to preserve my thoughts about this language. This was done, by attempting to make a specification of the new programming language, adequate as a starting point for turning it into a usable product. Then the idea was that it might be given away, sold, implemented or not worked on for years and then the ideas might not fade away. Theoretically if anyone wanted to, they might be able to continue working on it from that point on. That might create some peace of mind and possibilities for the future. Around __2010__ that goal seemed mostly realized.
+
+Between 2010 and 2012 the goal was __programming__ some of these things, to try and see it in action. It was an experiment. It did not quite get finished.
+
+Between 2012 and 2019 the project went into a __sleep state__. New job. Different goals.
+
+Between 2019 and 2021 the goal was to __open source__ it. It took some time to untangle the project from other docs. Eventually it was published. The goal used to be to patent it, but that is no longer the case. Not sure how to make money off of this, and it seems no use tucked away on a hard drive.
 
 ### Scope
 
-Around 2004 the idea may have been to cover *everything*. Now (2021-03) a scoping it to large blocks might be considered better:
+Around 2004 the idea may have been to cover *everything*. Now (2021-03) scoping it to large blocks might be considered better:
 
 - [ ] Diagram notation
 - [ ] ~ Programming language vs standard libraries
@@ -87,7 +85,6 @@ Around 2004 the idea may have been to cover *everything*. Now (2021-03) a scopin
 - Just documentation
 - More about existing content, rather than new ideas.
 - Only "Language" topics (not "Framework", "Operating System" or "Applications & Media")
-
 
 ### Theme Picking
 
@@ -142,7 +139,6 @@ This paragraph may be short, but this might be relavant for some focus. As a rul
 - __Simplifying existing subjects__
 - __Tougher subjects__
     - (Perhaps by the time you get to them, it might be easier.)
-
 
 ### Productive Writing
 
