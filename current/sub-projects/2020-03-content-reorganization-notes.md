@@ -10,12 +10,14 @@ __Contents__
 - [Information](#information)
     - [Stereotyping Fragments](#stereotyping-fragments)
 - [TODO](#todo)
-    - [2021-04-13 TODO Content Reorganization](#2021-04-13-todo-content-reorganization)
-    - [2021-04-21 Brainstorm Moving Loose Ideas](#2021-04-21-brainstorm-moving-loose-ideas)
+    - [2021-04-13 TODO Moving Around Texts](#2021-04-13-todo-moving-around-texts)
+    - [2021-04-27 TODO Renames](#2021-04-27-todo-renames)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Circular Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-circular-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-21 Done Brainstorm Moving Loose Ideas](#2021-04-21-done-brainstorm-moving-loose-ideas)
+    - [2021-04-13 Done Content Reorganization](#2021-04-13-done-content-reorganization)
     - [2021-04-19 Done Content Reorganization: Commands Misc Issues](#2021-04-19-done-content-reorganization-commands-misc-issues)
     - [2021-04-13 Done Content Reorganization: Commands Example Diagrams](#2021-04-13-done-content-reorganization-commands-example-diagrams)
     - [2021-04-16 Done Creation Behavior of Commands, Content Reorganization](#2021-04-16-done-creation-behavior-of-commands-content-reorganization)
@@ -106,52 +108,41 @@ As a helper for reorganizing content, fragments of content might first be *stere
 
 ### TODO
 
-#### 2021-04-13 TODO Content Reorganization
+#### 2021-04-13 TODO Moving Around Texts
 
-- [x] 🗿 Correcting headings for auto-generated tables of contents.
-    - [x] ~~Aspects As External Modules~~
-    - [x] Text Code Loose Ideas
-    - [x] Type Safety, Generic, Explicit
-    - [x] Execution Flow Loose Ideas
-- [ ] 🚛 Moving around texts:
-    - [x] ⏹ WAS AT: Commands Loose Ideas (by order of TOC)
-        - [x] 🗿 Changed heading levels for table of contents.
-        - [x] 🍱 Stereotyping text fragments.
-        - [ ] 🚚 Moving around stereotyped text fragments.
-        - [ ] 📚 ⚖ Separate article Commands Rule Rich.
-            - [ ] 🥵 A struggle to make it work seems noticeable here.
-            - [ ] Might move Commands Rule Rich to Implementations.
-    - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
-    - [ ] 💡 Loose Ideas: regroup or clear out.
-    - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
-    - [ ] Might do the *Spec* first.
-    - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression".
+- [x] ⏹ WAS AT: Commands Loose Ideas (by order of TOC)
+    - [x] 🗿 Changed heading levels for table of contents.
+    - [x] 🍱 Stereotyping text fragments.
+    - [ ] 🚚 Moving around stereotyped text fragments.
+- [ ] ⏹ Moves to Clauses:
+    - [ ] __May rename "clause" to "nested command".__
+    - [ ] ~ May move deprecated interpretation to *Clauses* article.
+    - [ ] Mapping between terms:
+        - [ ] 'active nested command' => 'code block'
+        - [ ] 'inactive nested command' => 'clause' / 'local function' / 'lambda expression'
+        - [ ] Whether it is named or not, might be trivial.
+        - [ ] 'clause' traditionally: a piece of code inside another statement?
+    - [ ] I am only now coming to terms with the mapping between my original interpretation of the word 'clause' and more common IT terms for things.
+    - [ ] Checking if changes are in-line with these definitions.
+    - [ ] "Clauses" article may also get its terms 'translated'. Then some texts may deserve to be moved again elsewhere.
+    - [ ] "Clause Access" may translate to "Access from Code Blocks, Clauses and Local Functions.
+    - [ ] What to do with the pictures that say "clause" instead of "nested command"?
+    - [x] (Perhaps it is the original IT terminology that makes things difficult to define, not Circular itself.)
+    - [x] It seems so difficult to not have a single name for this.
+    - [x] Perhaps one that does not collide with existing terminology.
+    - [x] 'Embedded command' maybe. 'Nested commands'?
+    - [x] But it would exclude command references and command calls. That makes embedded commands a bit ambiguous. Nested commands might be the best candidate.
+    - [ ] Perhaps it may be a relief to call them nested commands, sometimes distinguishing between active nested command and inactive nested command.
+- [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
+- [ ] 💡 Loose Ideas: regroup or clear out.
+- [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
+- [ ] Might do the *Spec* first.
+- [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression".
 
-#### 2021-04-21 Brainstorm Moving Loose Ideas
+#### 2021-04-27 TODO Renames
 
-- [ ] Would I move a loose idea to...
-    - [ ] a chapter's main document,
-    - [ ] a chapter's loose ideas document,
-    - [ ] a construct drafts article or
-    - [ ] a sub-project document?
-- [ ] Too many options?
-- [ ] Reasons seem to contradict.
-    - [ ] *In main document:*
-        - [ ] It seems unclean to me to add a loose ideas section to main articles.
-    - [ ] *Ideas grouped together:*
-        - [ ] I might also value that ideas about similar topic are grouped together. That might be a 'pro' for moving it to the main article about a topic.
-    - [ ] *Separate Loose Ideas article:*
-        - [ ] But I think a separate loose ideas document though it seems clean, is something I might only apply if a chapter might have multiple articles.
-    - [ ] *Single chapter article:*
-        - [ ] But I think I want chapters to consist of only one document preferably.
-    - [ ] *To Construct Drafts:*
-        - [ ] I think the distinction between move to construct draft or not might be if I expect I might want an idea to be part of the spec or probably not.
-- [ ] *How important is the idea?* It might be a matter of how important I think the idea is to put it in the main document.
-- [ ] It may also be a generally ok idea to put loose ideas about a construct in construct drafts, and not leave it lingering in a reasonably polished up chapter.
-- [ ] So except for the *sub-project* document option, the preferred place might be a loose ideas document per topic in the Construct Drafts section.
-- [ ] That leaves me unclear about when yo put it in a sub-project document. I think a sub-project document might be good for the highlights of what work could be done. I think content that goes into a topic deeper, could be better off in Construct Draft.
-- [ ] I think I might have found the preferred place for loose ideas to group under different topics: a Loose Ideas document per topic in Construct Drafts.
-- [ ] \> So the first idea wanted to move out of Commands Loose Ideas might go in Construct Drafts > Basic Diagram Elements Loose Ideas?
+- [ ] Renaming "procedure" to "command".
+- [ ] Renaming "execution control" to "execution flow".
 
 ### Postponed
 
@@ -172,6 +163,42 @@ As a helper for reorganizing content, fragments of content might first be *stere
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-21 Done Brainstorm Moving Loose Ideas
+
+Conclusion: Moving loose ideas to *Construct Drafts* is preferred.
+
+- [x] Would I move a loose idea to...
+    - [x] a chapter's main document,
+    - [x] a chapter's loose ideas document,
+    - [x] a construct drafts article or
+    - [x] a sub-project document?
+- [x] Too many options?
+- [x] Reasons seem to contradict.
+    - [x] *In main document:*
+        - [x] It seems unclean to me to add a loose ideas section to main articles.
+    - [x] *Ideas grouped together:*
+        - [x] I might also value that ideas about similar topic are grouped together. That might be a 'pro' for moving it to the main article about a topic.
+    - [x] *Separate Loose Ideas article:*
+        - [x] But I think a separate loose ideas document though it seems clean, is something I might only apply if a chapter might have multiple articles.
+    - [x] *Single chapter article:*
+        - [x] But I think I want chapters to consist of only one document preferably.
+    - [x] *To Construct Drafts:*
+        - [x] I think the distinction between move to construct draft or not might be if I expect I might want an idea to be part of the spec or probably not.
+- [x] *How important is the idea?* It might be a matter of how important I think the idea is to put it in the main document.
+- [x] It may also be a generally ok idea to put loose ideas about a construct in construct drafts, and not leave it lingering in a reasonably polished up chapter.
+- [x] So except for the *sub-project* document option, the preferred place might be a loose ideas document per topic in the Construct Drafts section.
+- [x] That leaves me unclear about when yo put it in a sub-project document. I think a sub-project document might be good for the highlights of what work could be done. I think content that goes into a topic deeper, could be better off in Construct Draft.
+- [x] I think I might have found the preferred place for loose ideas to group under different topics: a Loose Ideas document per topic in Construct Drafts.
+- [x] \> So the first idea wanted to move out of Commands Loose Ideas might go in Construct Drafts > Basic Diagram Elements Loose Ideas?
+
+#### 2021-04-13 Done Content Reorganization
+
+- [x] 🗿 Correcting headings for auto-generated tables of contents.
+    - [x] ~~Aspects As External Modules~~
+    - [x] Text Code Loose Ideas
+    - [x] Type Safety, Generic, Explicit
+    - [x] Execution Flow Loose Ideas
 
 #### 2021-04-19 Done Content Reorganization: Commands Misc Issues
 
