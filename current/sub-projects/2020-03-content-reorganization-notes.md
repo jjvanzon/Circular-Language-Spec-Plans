@@ -11,11 +11,12 @@ __Contents__
     - [Stereotyping Fragments](#stereotyping-fragments)
 - [TODO](#todo)
     - [2021-04-13 TODO Moving Around Texts](#2021-04-13-todo-moving-around-texts)
-    - [2021-04-27 TODO Renames](#2021-04-27-todo-renames)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Circular Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-circular-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-27 Done Renames](#2021-04-27-done-renames)
+    - [2021-04-13 Done Brainstorm Renaming "Clause" to "Nested Command"](#2021-04-13-done-brainstorm-renaming-clause-to-nested-command)
     - [2021-04-21 Done Brainstorm Moving Loose Ideas](#2021-04-21-done-brainstorm-moving-loose-ideas)
     - [2021-04-13 Done Content Reorganization](#2021-04-13-done-content-reorganization)
     - [2021-04-19 Done Content Reorganization: Commands Misc Issues](#2021-04-19-done-content-reorganization-commands-misc-issues)
@@ -114,35 +115,16 @@ As a helper for reorganizing content, fragments of content might first be *stere
     - [x] 🗿 Changed heading levels for table of contents.
     - [x] 🍱 Stereotyping text fragments.
     - [ ] 🚚 Moving around stereotyped text fragments.
-- [ ] ⏹ Moves to Clauses:
-    - [ ] __May rename "clause" to "nested command".__
-    - [ ] ~ May move deprecated interpretation to *Clauses* article.
-    - [ ] Mapping between terms:
-        - [ ] 'active nested command' => 'code block'
-        - [ ] 'inactive nested command' => 'clause' / 'local function' / 'lambda expression'
-        - [ ] Whether it is named or not, might be trivial.
-        - [ ] 'clause' traditionally: a piece of code inside another statement?
-    - [ ] I am only now coming to terms with the mapping between my original interpretation of the word 'clause' and more common IT terms for things.
-    - [ ] Checking if changes are in-line with these definitions.
-    - [ ] "Clauses" article may also get its terms 'translated'. Then some texts may deserve to be moved again elsewhere.
-    - [ ] "Clause Access" may translate to "Access from Code Blocks, Clauses and Local Functions.
-    - [ ] What to do with the pictures that say "clause" instead of "nested command"?
-    - [x] (Perhaps it is the original IT terminology that makes things difficult to define, not Circular itself.)
-    - [x] It seems so difficult to not have a single name for this.
-    - [x] Perhaps one that does not collide with existing terminology.
-    - [x] 'Embedded command' maybe. 'Nested commands'?
-    - [x] But it would exclude command references and command calls. That makes embedded commands a bit ambiguous. Nested commands might be the best candidate.
-    - [ ] Perhaps it may be a relief to call them nested commands, sometimes distinguishing between active nested command and inactive nested command.
+- [ ] __🐤 Nested Commands Rule Rich__
+    - [x] ~ May move deprecated interpretation to *Nested Commands* article.
+    - [ ] __"Nested Commands Rule Rich" article fragments may be moved.__
+        - [x] Re-stereotyped fragments.
+        - [ ] __Moving fragments around__
 - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
 - [ ] 💡 Loose Ideas: regroup or clear out.
 - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
 - [ ] Might do the *Spec* first.
 - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression".
-
-#### 2021-04-27 TODO Renames
-
-- [ ] Renaming "procedure" to "command".
-- [ ] Renaming "execution control" to "execution flow".
 
 ### Postponed
 
@@ -164,9 +146,46 @@ As a helper for reorganizing content, fragments of content might first be *stere
 
 ### Done
 
+#### 2021-04-27 Done Renames
+
+- [x] Renaming "procedure" to "command".
+- [x] Renaming "execution control" to "execution flow".
+- [x] Renaming "spline" to "line".
+- [x] 🖼 Renames in pictures
+    - [x] "procedure" => "command"
+    - [x] "clause" => "nested command"
+    - [x] "spline" => "line"
+    - [x] *.png
+    - [x] *.jpeg
+    - [x] ~~*.jpg~~ > No relevant pictures.
+    - [x] ~~*.bmp~~ > No relevant pictures.
+    - [x] Strategy:
+        - [x] +/- 2000 pictures total.
+        - [x] Inspected roughly.
+        - [x] Amount of pictures to change overseeable.
+        - [x] For some use paper, others paint.NET.
+- [x] May rename "clause" to "nested command".
+    - [x] Mapping between terms:
+        - [x] 'active nested command' => 'code block'
+        - [x] 'inactive nested command' => 'clause' / 'local function' / 'lambda expression'
+        - [x] Whether it is named or not, might be trivial.
+        - [x] 'clause' traditionally: a piece of code inside another statement?
+    - [x] Checking if already done changes are in-line with these definitions.
+    - [x] "Clause Access" => "Access from Nested Commands".
+
+#### 2021-04-13 Done Brainstorm Renaming "Clause" to "Nested Command"
+
+- [x] (Perhaps it is the original IT terminology that makes things difficult to define, not Circular itself.)
+- [x] It seems so difficult to not have a single name for this.
+- [x] Perhaps one that does not collide with existing terminology.
+- [x] 'Embedded command' maybe. 'Nested commands'?
+- [x] But it would exclude command references and command calls. That makes embedded commands a bit ambiguous. Nested commands might be the best candidate.
+- [x] Perhaps it may be a relief to call them nested commands, sometimes distinguishing between active nested command and inactive nested command.
+- [x] The term "clause" might still be used for execution flow statements.
+
 #### 2021-04-21 Done Brainstorm Moving Loose Ideas
 
-Conclusion: Moving loose ideas to *Construct Drafts* is preferred.
+Conclusion: Moving loose ideas to *Construct Drafts* may be preferred.
 
 - [x] Would I move a loose idea to...
     - [x] a chapter's main document,
