@@ -10,11 +10,12 @@ __Contents__
 - [Information](#information)
     - [Stereotyping Fragments](#stereotyping-fragments)
 - [TODO](#todo)
-    - [2021-04-13 TODO Moving Around Texts](#2021-04-13-todo-moving-around-texts)
+    - [2021-05-02 TODO Moving Around Texts](#2021-05-02-todo-moving-around-texts)
 - [Postponed](#postponed)
     - [2021-04-05 Postponed Content Reorganization](#2021-04-05-postponed-content-reorganization)
     - [2020-05-14 Postponed Circular Broader View / Construct Drafts Neater Folders](#2020-05-14-postponed-circular-broader-view--construct-drafts-neater-folders)
 - [Done](#done)
+    - [2021-04-13 Done Moving Around Texts](#2021-04-13-done-moving-around-texts)
     - [2021-04-27 Done Renames](#2021-04-27-done-renames)
     - [2021-04-13 Done Brainstorm Renaming "Clause" to "Nested Command"](#2021-04-13-done-brainstorm-renaming-clause-to-nested-command)
     - [2021-04-21 Done Brainstorm Moving Loose Ideas](#2021-04-21-done-brainstorm-moving-loose-ideas)
@@ -83,7 +84,7 @@ As a helper for reorganizing content, fragments of content might first be *stere
     - Integrate
         - `<< nice formulation >>`
         - `<< synonym >>`
-    - Move to another chapter
+    - Move to another chapter or section
         - `<< move >>`
         - `<< pointers >>`
         - `<< commands compared to objects >>`
@@ -93,7 +94,7 @@ As a helper for reorganizing content, fragments of content might first be *stere
     - Move to Broader View
         - `<< broader view >>`
         - `<< applications >>`
-        - `<< explains other technology >>`
+        - `<< other technology >>`
     - Move to Construct Drafts
         - `<< construct draft >>`
         - `<< rule rich >>`
@@ -102,28 +103,27 @@ As a helper for reorganizing content, fragments of content might first be *stere
         - `<< terminology >>`
         - `<< implementation >>`
         - `<< text code >>`
-    - Remove
+    - Remove perhaps:
         - `<< already covered >>`
         - `<< repeated >>`
         - `<< interpretation issues >>`
 
 ### TODO
 
-#### 2021-04-13 TODO Moving Around Texts
+#### 2021-05-02 TODO Moving Around Texts
 
-- [x] ⏹ WAS AT: Commands Loose Ideas (by order of TOC)
-    - [x] 🗿 Changed heading levels for table of contents.
-    - [x] 🍱 Stereotyping text fragments.
-    - [ ] 🚚 Moving around stereotyped text fragments.
-- [ ] __🐤 Nested Commands Rule Rich__
-    - [x] ~ May move deprecated interpretation to *Nested Commands* article.
-    - [ ] __"Nested Commands Rule Rich" article fragments may be moved.__
-        - [x] Re-stereotyped fragments.
-        - [ ] __Moving fragments around__
+- [x] Parameters articles
+    - [x] Switching to "parameter passing" approach instead of "commands & classes loosely coupled".
+    - [x] Updating README listings.
+- [ ] __Parameter Passing__
+    - [ ] 🍱 __Stereotyping content fragments__
+        - [ ] WAS AT: __Argument Access Summary__
+        - [ ] I have some difficulty not changing everything, leaving the explanation as it is.
+- [ ] 🦹‍♂️ Stereotyping content fragments
 - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
 - [ ] 💡 Loose Ideas: regroup or clear out.
 - [ ] ⚡ Brainstorm: I seem to have difficulty not changing the tone of texts too.
-- [ ] Might do the *Spec* first.
+- [ ] Might only do *Spec*.
 - [ ] ->.. Postponed: Broader View: WAS AT: "Diagram & Text Code Expression".
 
 ### Postponed
@@ -145,6 +145,19 @@ As a helper for reorganizing content, fragments of content might first be *stere
 - Making folder sub-division neater of "Framework" (inside Software-System-Docs), now that the topics have found a new place. 
 
 ### Done
+
+#### 2021-04-13 Done Moving Around Texts
+
+- [x] 🐤 Nested Commands Rule Rich
+    - [x] ~ May move deprecated interpretation to *Nested Commands* article.
+    - [x] "Nested Commands Rule Rich" article fragments may be moved.
+        - [x] Re-stereotyped fragments.
+        - [x] Moving fragments around
+- [x] ⏹ WAS AT: Commands Loose Ideas (by order of TOC)
+    - [x] 🗿 Changed heading levels for table of contents.
+    - [x]  Stereotyping text fragments.
+    - [x] 🚚 Moving around stereotyped text fragments.
+- [x] Fine-tuning Commands Construct Drafts article subdivision.
 
 #### 2021-04-27 Done Renames
 
