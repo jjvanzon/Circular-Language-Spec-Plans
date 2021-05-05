@@ -9,7 +9,7 @@ __Contents__
 - [Postponed](#postponed)
     - [2020-04-18 Postponed Rewording 'Done' Planning Docs](#2020-04-18-postponed-rewording-done-planning-docs)
 - [Done](#done)
-    - [2020-04-13 Done Brainstorm Rewording Circle Language Spec Planning Docs](#2020-04-13-done-brainstorm-rewording-circle-language-spec-planning-docs)
+    - [2020-04-13 Done Brainstorm Rewording Circular Language Spec Planning Docs](#2020-04-13-done-brainstorm-rewording-circular-language-spec-planning-docs)
     - [2020-04-18 Done Rewording 2008-07 02        Assignment Spec Project Summary.docx](#2020-04-18-done-rewording-2008-07-02--------assignment-spec-project-summarydocx)
     - [2020-04-18 Done Rewording 2008-05 02 Classes & Relationships Specs Project Summary.docx](#2020-04-18-done-rewording-2008-05-02-classes--relationships-specs-project-summarydocx)
     - [2020-04-18 Done Rewording 2008-06 02 Command as an Aspect Spec Project Summary.docx](#2020-04-18-done-rewording-2008-06-02-command-as-an-aspect-spec-project-summarydocx)
@@ -67,7 +67,7 @@ __Contents__
 
 ### Done
 
-#### 2020-04-13 Done Brainstorm Rewording Circle Language Spec Planning Docs
+#### 2020-04-13 Done Brainstorm Rewording Circular Language Spec Planning Docs
 
 - Reformulate:
     - I might want to read over those Done projects content before publishing. I should know what I publish exactly and have evaluated it and made some adaptations possibly. Probably nothing in it is a secret, so you don't need to remove it from source control history, but slight changes might be good.
