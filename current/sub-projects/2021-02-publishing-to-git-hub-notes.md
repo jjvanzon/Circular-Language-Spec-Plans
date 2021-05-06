@@ -20,12 +20,12 @@ __Contents__
 
 - [x] Emoji in commit messages: https://github.com/yzhang-gh/vscode-markdown
 - [x] May rename "Encircle" => "Circular"
+- [ ] Adjusting image sizes: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
+- [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
 - [ ] Demo video?
     - [ ] Just clicking and scrolling through content.
     - [ ] On YouTube linking to GitHub.
     - [ ] On GitHub linked a YouTube movie.
-- [ ] Adjusting image size: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
-- [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
 
 ### Done
 
