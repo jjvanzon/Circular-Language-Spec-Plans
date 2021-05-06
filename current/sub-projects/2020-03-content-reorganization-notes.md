@@ -116,9 +116,8 @@ As a helper for reorganizing content, fragments of content might first be *stere
     - [x] Switching to "parameter passing" approach instead of "commands & classes loosely coupled".
     - [x] Updating README listings.
 - [ ] __Parameter Passing__
-    - [ ] 🍱 __Stereotyping content fragments__
-        - [ ] WAS AT: __Argument Access Summary__
-        - [ ] I have some difficulty not changing everything, leaving the explanation as it is.
+    - [x] 🍱 Stereotyping content fragments
+    - [ ] 🚚 __Moving around content__
 - [ ] 🦹‍♂️ Stereotyping content fragments
 - [ ] 🚚 Moves to: Pointers / Text Code / Implementations / Construct Drafts / Broader View.
 - [ ] 💡 Loose Ideas: regroup or clear out.
