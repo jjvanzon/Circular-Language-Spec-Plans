@@ -7,7 +7,9 @@ Publishing to GitHub | 2020-02 | Notes
 __Contents__
 
 - [TODO](#todo)
-    - [2021-04-06 TODO Publishing Details](#2021-04-06-todo-publishing-details)
+    - [2022-01-22 TODO Publishing GitHub Pages](#2022-01-22-todo-publishing-github-pages)
+- [Postponed](#postponed)
+    - [2021-04-06 Postponed Publishing Details](#2021-04-06-postponed-publishing-details)
 - [Done](#done)
     - [2021-04-22 Done Brainstorm New Name](#2021-04-22-done-brainstorm-new-name)
     - [2019-08-05 Done Open Source Brainstorm](#2019-08-05-done-open-source-brainstorm)
@@ -16,7 +18,15 @@ __Contents__
 
 ### TODO
 
-#### 2021-04-06 TODO Publishing Details
+#### 2022-01-22 TODO Publishing GitHub Pages
+
+- [ ] Publishing to GitHub pages, selectively.
+- [ ] Step by step, article by article carefully for now.
+- [ ] I might want to move the topic of Static out of the classes sub-folder. Just parking it.
+
+### Postponed
+
+#### 2021-04-06 Postponed Publishing Details
 
 - [x] Emoji in commit messages: https://github.com/yzhang-gh/vscode-markdown
 - [x] May rename "Encircle" => "Circular"

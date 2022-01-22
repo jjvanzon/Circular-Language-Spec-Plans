@@ -32,9 +32,9 @@ There might be separate sub-project documents about specific topics.
 
     - [ ] ~ May at one point make a demo video.
 
-- [ ] __Content Reorganization__
+- [ ] .. __Content Reorganization__
 
-    - [ ] __Stereotyping content fragments and moving them.__
+    - [ ] .. __Stereotyping content fragments and moving them.__
 
 - [ ] .. Planning | in General
 
