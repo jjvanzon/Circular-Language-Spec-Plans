@@ -6,16 +6,17 @@ Topic List
 
 __Contents__
 
-- [Introduction](#introduction)
-- [TODO](#todo)
-    - [General Things](#general-things)
-    - [Tone Change](#tone-change)
-    - [Content Changes](#content-changes)
-    - [Constructs Unfinished](#constructs-unfinished)
-    - [Language Design](#language-design)
-- [Done](#done)
-    - [Language Design](#language-design-1)
-    - [General Things](#general-things-1)
+- [Topic List](#topic-list)
+    - [Introduction](#introduction)
+    - [TODO](#todo)
+        - [General Things](#general-things)
+        - [Tone Change](#tone-change)
+        - [Content Changes](#content-changes)
+        - [Constructs Unfinished](#constructs-unfinished)
+        - [Language Design](#language-design)
+    - [Done](#done)
+        - [Language Design](#language-design-1)
+        - [General Things](#general-things-1)
 
 ### Introduction
 
@@ -40,7 +41,7 @@ There may be a desire to change the tone of the documentation to milder language
 
 - [ ] Tone Change | in General
 - [x] Introduction | Tone Change
-    - [ ] Applying trigger word marking technique again?
+    - [ ] __.. Applying trigger word marking technique again?__
 - [x] Overview | Tone Change
 - [x] Basic Diagram Elements | Tone Change
 - [x] Objects | Tone Change
@@ -125,19 +126,19 @@ These topics may be more significant changes to how the language might be descri
     - [ ] Structs | Language Design
     - [ ] Union Types | Language Design
     - [ ] ...
------
+<br/><br/>
 - [ ] Access Marks Redo | Language Design
     - [ ] (Make them arrows by default? Think of something different for protected? Reconsider all 'marks' on lines, like Conditions and special access modifiers?)
 - [ ] Large Lists Problem | Language Design
------
+<br/><br/>
 - [ ] Pointers Separate Chapter | Language Design
 - [ ] More Pictures | Language Design
------
+<br/><br/>
 - [ ] Relationships NOT Always Bidirectional | Language Design
 - [ ] Commands & Classes NOT Loosely Coupled | Language Design
     - [ ] (object-commands / command-objects interchangeability)
 - [ ] Friend Notation too Prominent? | Language Design
------
+<br/><br/>
 - [ ] Simplify Rules | Language Design
 - [ ] Purity Lost (With Implicit Notations?) | Language Design
 

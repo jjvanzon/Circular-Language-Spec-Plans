@@ -6,22 +6,23 @@ Strategy
 
 __Contents__
 
-- [Introduction](#introduction)
-- [Goals](#goals)
-- [Earlier Goals](#earlier-goals)
-- [Scope](#scope)
-    - [More about Scope](#more-about-scope)
-- [Theme Picking](#theme-picking)
-    - [Focusing on Easier Themes](#focusing-on-easier-themes)
-    - [Redoing Easier Themes](#redoing-easier-themes)
-    - [Rules of Thumb](#rules-of-thumb)
-    - [Plan the Specifics](#plan-the-specifics)
-    - [Project Order](#project-order)
-- [Productive Writing](#productive-writing)
-    - [Creative vs. Productive](#creative-vs-productive)
-    - [Tasks](#tasks)
-    - [Standard Work in Next Projects](#standard-work-in-next-projects)
-    - [Conceptual Explanations vs. Diagram Explanations](#conceptual-explanations-vs-diagram-explanations)
+- [Strategy](#strategy)
+    - [Introduction](#introduction)
+    - [Goals](#goals)
+    - [Earlier Goals](#earlier-goals)
+    - [Scope](#scope)
+        - [More about Scope](#more-about-scope)
+    - [Theme Picking](#theme-picking)
+        - [Focusing on Easier Themes](#focusing-on-easier-themes)
+        - [Redoing Easier Themes](#redoing-easier-themes)
+        - [Rules of Thumb](#rules-of-thumb)
+        - [Plan the Specifics](#plan-the-specifics)
+        - [Project Order](#project-order)
+    - [Productive Writing](#productive-writing)
+        - [Creative vs. Productive](#creative-vs-productive)
+        - [Tasks](#tasks)
+        - [Standard Work in Next Projects](#standard-work-in-next-projects)
+        - [Conceptual Explanations vs. Diagram Explanations](#conceptual-explanations-vs-diagram-explanations)
 
 ### Introduction
 
@@ -177,7 +178,7 @@ There might be different kinds of tasks involved when writing these texts. Each 
 
 Below, some of these task are commented on. The focus may lie on *content*.
 
-- #$### Collecting Existing Ideas
+- #### Collecting Existing Ideas
 
     - You might give some importance to collecting existing ideas first (notes, 'idea boxes'). It might be quiet some work. The collection of those ideas may be a good starting point, for the eventual content. You might miss out on something good, when you skip it.
 
