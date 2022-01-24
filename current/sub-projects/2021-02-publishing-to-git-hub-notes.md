@@ -6,23 +6,59 @@ Publishing to GitHub | 2020-02 | Notes
 
 __Contents__
 
-- [TODO](#todo)
-    - [2022-01-22 TODO Publishing GitHub Pages](#2022-01-22-todo-publishing-github-pages)
-- [Postponed](#postponed)
-    - [2021-04-06 Postponed Publishing Details](#2021-04-06-postponed-publishing-details)
-- [Done](#done)
-    - [2021-04-22 Done Brainstorm New Name](#2021-04-22-done-brainstorm-new-name)
-    - [2019-08-05 Done Open Source Brainstorm](#2019-08-05-done-open-source-brainstorm)
-    - [2021-02-09 Done Publishing](#2021-02-09-done-publishing)
-    - [2021-02-08 Done Publishing: My Brother's First Name](#2021-02-08-done-publishing-my-brothers-first-name)
+- [Publishing to GitHub | 2020-02 | Notes](#publishing-to-github--2020-02--notes)
+    - [TODO](#todo)
+        - [2022-01-22 TODO Publishing GitHub Pages](#2022-01-22-todo-publishing-github-pages)
+        - [2022-01-22 TODO Side-Issues Publishing GitHub Pages](#2022-01-22-todo-side-issues-publishing-github-pages)
+    - [Postponed](#postponed)
+        - [2021-04-06 Postponed Publishing Details](#2021-04-06-postponed-publishing-details)
+    - [Done](#done)
+        - [2021-04-22 Done Brainstorm New Name](#2021-04-22-done-brainstorm-new-name)
+        - [2019-08-05 Done Open Source Brainstorm](#2019-08-05-done-open-source-brainstorm)
+        - [2021-02-09 Done Publishing](#2021-02-09-done-publishing)
+        - [2021-02-08 Done Publishing: My Brother's First Name](#2021-02-08-done-publishing-my-brothers-first-name)
 
 ### TODO
 
 #### 2022-01-22 TODO Publishing GitHub Pages
 
-- [ ] Publishing to GitHub pages, selectively.
-- [ ] Step by step, article by article carefully for now.
-- [ ] I might want to move the topic of Static out of the classes sub-folder. Just parking it.
+Publishing to GitHub pages, selectively.  
+Step by step, article by article carefully for now.
+
+- [x] Renaming README's to have lower case extension .md
+- [ ] Links
+    - [x] Automatic links do not seem to work. Using the syntax `[Description](https:\\my-url)` may help.
+    - [x] Back links
+        - [x] Adding `[back](./)` in a document
+        - [x] And `[back](..)` in a folder or README.md.
+    - [ ] External links to open in new tab using `<a>` tags.
+- [x] Headings:
+    - [x] Removing Circular Language Spec headings?
+    - [x] MarkDown TOC level settings not appropriate anymore?
+    - [x] ~~Reconsider headings having only one pipeline character.~~
+- [x] Adding author name and date to articles when published.
+- [x] "Preliminary documentation": Annotated just below article heading.
+- [ ] ~ More images at top of pages.
+- [ ] `-----`
+- [ ] Possible formatting solutions:
+    - [ ] Images better sized using `<img>` tags.
+    - [ ] Horizontal lines:
+        - [ ] Grid rows with only dashes in it seemed to not render.
+        - [ ] Horizontal line `-----` seems interpreted as headings in bullet pointed lists.
+        - [ ] `<br/><br/>` seems an alternative for horizontal space in lists.
+        - [ ] `-----` formatted as inline code seems to help inside table rows.
+    - [ ] Table layout seems applied inappropriately when using `|` in a bullet point's text. Replaced with commas `,`.
+    - [ ] MarkDown (tables) nested in HTML tables showed the MarkDown literally inside the rendered page.
+        - [ ] Trying a trick `<td markdown="1">` from <a href="https://stackoverflow.com/questions/15917463/embedding-markdown-in-jekyll-html" target="_blank">here</a> helped.
+
+
+#### 2022-01-22 TODO Side-Issues Publishing GitHub Pages
+
+- [ ] .. Introduction: Might apply tone change method to that article.
+- [x] Attributes: May be made a separate article, since it such a particular text.
+- [x] Values: May consider distributing statements of section Values to places with more pictures.
+- [ ] Classes: Might nicify formatting.
+- [ ] Static: I might want to move the topic of Static out of the classes sub-folder. Just parking it.
 
 ### Postponed
 
