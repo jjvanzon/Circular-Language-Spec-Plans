@@ -51,12 +51,12 @@ Step by step, article by article carefully for now.
     - [ ] MarkDown (tables) nested in HTML tables showed the MarkDown literally inside the rendered page.
         - [ ] Trying a trick `<td markdown="1">` from <a href="https://stackoverflow.com/questions/15917463/embedding-markdown-in-jekyll-html" target="_blank">here</a> helped.
 
-
 #### 2022-01-22 TODO Side-Issues Publishing GitHub Pages
 
-- [ ] .. Introduction: Might apply tone change method to that article.
+- [x] Introduction: Might apply tone change method to that article.
 - [x] Attributes: May be made a separate article, since it such a particular text.
 - [x] Values: May consider distributing statements of section Values to places with more pictures.
+- [ ] Introduction: Seem to be naming quite some *terminology*, which seemed an optional thing to cover. Not seeing it as being overly in the way or anything. The worry is that it would distract from the main point of the story.
 - [ ] Classes: Might nicify formatting.
 - [ ] Static: I might want to move the topic of Static out of the classes sub-folder. Just parking it.
 
@@ -66,7 +66,7 @@ Step by step, article by article carefully for now.
 
 - [x] Emoji in commit messages: https://github.com/yzhang-gh/vscode-markdown
 - [x] May rename "Encircle" => "Circular"
-- [ ] Adjusting image sizes: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
+- [x] Adjusting image sizes: https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown
 - [ ] Tips to get noticed on GitHub: https://codarium.substack.com/p/my-secret-sauce-to-make-github-repositories
 - [ ] Demo video?
     - [ ] Just clicking and scrolling through content.

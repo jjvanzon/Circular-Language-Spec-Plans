@@ -41,7 +41,6 @@ There may be a desire to change the tone of the documentation to milder language
 
 - [ ] Tone Change | in General
 - [x] Introduction | Tone Change
-    - [ ] __.. Applying trigger word marking technique again?__
 - [x] Overview | Tone Change
 - [x] Basic Diagram Elements | Tone Change
 - [x] Objects | Tone Change
