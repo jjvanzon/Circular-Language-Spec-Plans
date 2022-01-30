@@ -55,7 +55,6 @@ Step by step, article by article carefully for now.
 
 - [ ] ~ Objects article. See sub project docs.
 - [ ] ~ Classes: Might nicify formatting.
-- [ ] ~ Static: I might want to move the topic of Static out of the classes sub-folder. Just parking it.
 
 ### Postponed
 
