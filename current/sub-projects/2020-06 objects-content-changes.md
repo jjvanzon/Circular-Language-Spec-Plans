@@ -6,23 +6,37 @@ Objects | Content Changes
 
 __Contents__
 
-- [Postponed](#postponed)
-    - [2020-06-11 Postponed Content Changes for Objects Chapter](#2020-06-11-postponed-content-changes-for-objects-chapter)
-- [Done](#done)
-    - [2020-06-07 Done](#2020-06-07-done)
-    - [2020-06-07 Done Content Changes for Objects Chapter](#2020-06-07-done-content-changes-for-objects-chapter)
+- [Objects | Content Changes](#objects--content-changes)
+    - [TODO](#todo)
+        - [2022-01-30 TODO Stereotyping Text Fragments](#2022-01-30-todo-stereotyping-text-fragments)
+        - [2020-06-11 TODO Content Changes for Objects Chapter](#2020-06-11-todo-content-changes-for-objects-chapter)
+    - [Postponed](#postponed)
+        - [2020-06-11 Postponed Content Changes for Attributes Article](#2020-06-11-postponed-content-changes-for-attributes-article)
+    - [Done](#done)
+        - [2020-06-07 Done](#2020-06-07-done)
+        - [2020-06-07 Done Content Changes for Objects Chapter](#2020-06-07-done-content-changes-for-objects-chapter)
 
-### Postponed
+### TODO
 
-#### 2020-06-11 Postponed Content Changes for Objects Chapter
+#### 2022-01-30 TODO Stereotyping Text Fragments
 
-- [ ] ~ Attributes might get the 'cookie' notation.
-- [ ] ~ Attributes section: Could each sub-section be expressed in a picture in a way?
-- [ ] ~ Should I introduce a reference to parent notation in the Objects chapter?
+- [ ] ~ Stereotyping text fragments and see if things may change?
+- [ ] ~ Moving terminology expositions to construct drafts?
+
+#### 2020-06-11 TODO Content Changes for Objects Chapter
+
+- [ ] ~ Should I introduce a 'reference to parent' notation in the Objects chapter?
 
 ![](images/2019-08%20Circle%20Language%20Spec%20Revamp%20Notes.013.png)
 
 (minus the wiggly line)
+
+### Postponed
+
+#### 2020-06-11 Postponed Content Changes for Attributes Article
+
+- [ ] ~ Attributes might get the 'cookie' notation.
+- [ ] ~ Attributes section: Could each sub-section be expressed in a picture in a way?
 
 ### Done
 

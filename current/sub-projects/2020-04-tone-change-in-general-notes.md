@@ -9,10 +9,10 @@ __Contents__
 - [Tone Change | in General | 2020-04 | Notes](#tone-change--in-general--2020-04--notes)
     - [Rough Plan](#rough-plan)
     - [Information](#information)
+        - [Wiggle Word Method Checklist](#wiggle-word-method-checklist)
     - [TODO](#todo)
         - [2021-04-13 Postponed Milder Tone in Bulk](#2021-04-13-postponed-milder-tone-in-bulk)
     - [Postponed](#postponed)
-        - [2020-06-01 Postponed Checklist Tone Change](#2020-06-01-postponed-checklist-tone-change)
         - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
         - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
         - [2019-08-05 Postponed Mixed Writing Style Issues](#2019-08-05-postponed-mixed-writing-style-issues)
@@ -38,6 +38,26 @@ __Contents__
     - Thesaurus: <https://www.thesaurus.com/>
     - Google Translate: <https://translate.google.com/>
 - Polite forms in English Language: https://dictionary.cambridge.org/grammar/british-grammar/politeness_2
+
+####  Wiggle Word Method Checklist
+
+- [ ] Wiggle words:
+    - [ ] (More helpers are in my personal development notes, not here, sorry.)
+    - [ ] Marking trigger words in red.
+    - [ ] Possibly mark questionable trigger words with a star (*) too.
+    - [ ] Finding replacement words, possibly using online thesaurus.
+- [ ] Word variation:
+    - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
+- [ ] Directness:
+    - [ ] Removing "might" and "may" where adequate wiggle room may already be present.
+    - [ ] Replacing indefinites back some with definites, for readability. 
+    - [ ] Reading over text again to reformulate for readability.
+    - [ ] Appropriateness:
+        - [ ] Definite language for comment on diagrams and syntax.
+        - [ ] Less definite language for philosophical opinion.
+        - [ ] Less definite language where ideas are iffy.
+- [ ] Word variation:
+    - [ ] ~ Alternating evenly between words "may" and "might".
 
 ### TODO
 
@@ -69,15 +89,6 @@ __Contents__
 - [ ] Searching for "should", replacing some occurrences.
 
 ### Postponed
-
-#### 2020-06-01 Postponed Checklist Tone Change
-
-- [ ] ~ (More helpers are in my personal development notes, not here, sorry.)
-- [ ] ~ Marking trigger words in red.
-- [ ] ~ Possibly mark questionable trigger words with a star (*) too.
-- [ ] ~ Finding replacement words, possibly using online thesaurus.
-- [ ] ~ Vary natural language grammar constructs?
-- [ ] ~ Going over the document again to reformulate.
 
 #### 2020-04-18 Postponed Brainstorm Writing Style
 

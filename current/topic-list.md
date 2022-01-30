@@ -39,6 +39,8 @@ These topics may be about general restructurings of the works.
 
 There may be a desire to change the tone of the documentation to milder language. Details might be found in sub-project documentation.
 
+Done articles may benefit from a redo, balancing between indirect language and direct language for readability and added word variation.
+
 - [ ] Tone Change | in General
 - [x] Introduction | Tone Change
 - [x] Overview | Tone Change

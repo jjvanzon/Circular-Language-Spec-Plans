@@ -9,7 +9,7 @@ __Contents__
 - [Publishing to GitHub | 2020-02 | Notes](#publishing-to-github--2020-02--notes)
     - [TODO](#todo)
         - [2022-01-22 TODO Publishing GitHub Pages](#2022-01-22-todo-publishing-github-pages)
-        - [2022-01-22 TODO Side-Issues Publishing GitHub Pages](#2022-01-22-todo-side-issues-publishing-github-pages)
+        - [2022-01-22 TODO Publishing Articles to GitHub Pages](#2022-01-22-todo-publishing-articles-to-github-pages)
     - [Postponed](#postponed)
         - [2021-04-06 Postponed Publishing Details](#2021-04-06-postponed-publishing-details)
     - [Done](#done)
@@ -51,14 +51,11 @@ Step by step, article by article carefully for now.
     - [ ] MarkDown (tables) nested in HTML tables showed the MarkDown literally inside the rendered page.
         - [ ] Trying a trick `<td markdown="1">` from <a href="https://stackoverflow.com/questions/15917463/embedding-markdown-in-jekyll-html" target="_blank">here</a> helped.
 
-#### 2022-01-22 TODO Side-Issues Publishing GitHub Pages
+#### 2022-01-22 TODO Publishing Articles to GitHub Pages
 
-- [x] Introduction: Might apply tone change method to that article.
-- [x] Attributes: May be made a separate article, since it such a particular text.
-- [x] Values: May consider distributing statements of section Values to places with more pictures.
-- [ ] Introduction: Seem to be naming quite some *terminology*, which seemed an optional thing to cover. Not seeing it as being overly in the way or anything. The worry is that it would distract from the main point of the story.
-- [ ] Classes: Might nicify formatting.
-- [ ] Static: I might want to move the topic of Static out of the classes sub-folder. Just parking it.
+- [ ] ~ Objects article. See sub project docs.
+- [ ] ~ Classes: Might nicify formatting.
+- [ ] ~ Static: I might want to move the topic of Static out of the classes sub-folder. Just parking it.
 
 ### Postponed
 
