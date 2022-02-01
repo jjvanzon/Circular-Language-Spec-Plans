@@ -53,7 +53,6 @@ Step by step, article by article carefully for now.
 
 #### 2022-01-22 TODO Publishing Articles to GitHub Pages
 
-- [ ] ~ Objects article. See sub project docs.
 - [ ] ~ Classes: Might nicify formatting.
 
 ### Postponed

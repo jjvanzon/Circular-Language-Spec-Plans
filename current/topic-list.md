@@ -85,7 +85,7 @@ Content changes may also be addressed while changing the *tone* of a document. S
 
 - [ ] Overview | Content Changes
 - [ ] Basic Diagram Elements | Content Changes
-- [ ] Objects | Content Changes
+- [x] ~ Objects | Content Changes
 - [ ] Objects Multiplicity | Content Changes
 - [ ] Classes | Content Changes
 - [ ] Relationship | Content Changes
