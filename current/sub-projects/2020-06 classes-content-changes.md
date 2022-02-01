@@ -6,9 +6,10 @@ Classes | Content Changes
 
 __Contents__
 
-- [TODO](#todo)
-- [Done](#done)
-    - [2020-06-11 Done Content Changes for Classes Chapter](#2020-06-11-done-content-changes-for-classes-chapter)
+- [Classes | Content Changes](#classes--content-changes)
+    - [TODO](#todo)
+    - [Done](#done)
+        - [2020-06-11 Done Content Changes for Classes Chapter](#2020-06-11-done-content-changes-for-classes-chapter)
 
 ### TODO
 

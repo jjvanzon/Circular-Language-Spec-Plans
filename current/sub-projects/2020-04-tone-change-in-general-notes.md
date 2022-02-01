@@ -57,7 +57,8 @@ __Contents__
         - [ ] Less definite language for philosophical opinion.
         - [ ] Less definite language where ideas are iffy.
 - [ ] Word variation:
-    - [ ] ~ Alternating evenly between words "may" and "might".
+    - [ ] Alternating evenly between words "may" and "might".
+- [ ] Reading over and rewording until satisfied.
 
 ### TODO
 

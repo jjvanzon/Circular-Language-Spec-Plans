@@ -6,19 +6,40 @@ Classes | Tone Change | 2020-06 | Notes
 
 __Contents__
 
-- [Done](#done)
-    - [2020-06-11 Done Reformulating Classes Chapter](#2020-06-11-done-reformulating-classes-chapter)
-    - [2020-06-11 Done Reformulating Classes Chapter](#2020-06-11-done-reformulating-classes-chapter-1)
+- [Classes | Tone Change | 2020-06 | Notes](#classes--tone-change--2020-06--notes)
+    - [TODO](#todo)
+        - [2022-02-01 TODO Wiggle Word Rewording Extended Steps](#2022-02-01-todo-wiggle-word-rewording-extended-steps)
+    - [Done](#done)
+        - [2020-06-11 Done Reformulating Classes Article](#2020-06-11-done-reformulating-classes-article)
+        - [2020-06-11 Done Reformulating Classes Article](#2020-06-11-done-reformulating-classes-article-1)
+
+### TODO
+
+#### 2022-02-01 TODO Wiggle Word Rewording Extended Steps
+
+- [ ] Word variation:
+    - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
+- [ ] Directness:
+    - [ ] Removing "might" and "may" where adequate wiggle room may already be present.
+    - [ ] Replacing indefinites back some with definites, for readability. 
+    - [ ] Reading over text again to reformulate for readability.
+    - [ ] Appropriateness:
+        - [ ] Definite language for comment on diagrams and syntax.
+        - [ ] Less definite language for philosophical opinion.
+        - [ ] Less definite language where ideas are iffy.
+- [ ] Word variation:
+    - [ ] Alternating evenly between words "may" and "might".
+- [ ] Reading over and rewording until satisfied.
 
 ### Done
 
-#### 2020-06-11 Done Reformulating Classes Chapter
+#### 2020-06-11 Done Reformulating Classes Article
 
 - [x] I made text changes, which may have resulted in more trigger words again. Maybe mark those and solve those.
     - [x] Hoping to do the last time of marking and reformulating trigger words.
 - [x] I am not sure this open language stuff made it much clearer. It looks to me like using more words than necessary, which may make reading it harder. But that might be specifically how I might see it. I may just be tired. Often.
 
-#### 2020-06-11 Done Reformulating Classes Chapter
+#### 2020-06-11 Done Reformulating Classes Article
 
 - [x] Marking trigger words in red.
 - [x] Possibly mark questionable trigger words with a star (*) too.
