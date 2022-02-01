@@ -8,24 +8,26 @@ __Contents__
 
 - [Classes | Content Changes](#classes--content-changes)
     - [TODO](#todo)
+        - [2022-02-02 TODO Classes Article Content Changes](#2022-02-02-todo-classes-article-content-changes)
+    - [Postponed](#postponed)
     - [Done](#done)
         - [2020-06-11 Done Content Changes for Classes Chapter](#2020-06-11-done-content-changes-for-classes-chapter)
 
 ### TODO
 
+#### 2022-02-02 TODO Classes Article Content Changes
+
+- [ ] ~ Might be made shorter.
+- [ ] ~ Same notation explained from different contextual angles might be a bit overdone.
+- [ ] ~ "Using Dashed Shapes", "Using an Object as a Class" and "Shape Both Dashed and Solid" seem to be going on about similar notation ideas, which could be merged.
+- [ ] ~ "Shape Both Dashed and Solid": 
+    - [ ] ~ Might remove that concept.
+    - [ ] ~ Saying something like this, might be adequate: "A shape could be drawn with a dashed border if it is used as a class."
+    - [ ] ~ Then referencing a class like an object could be introduced as a side-issue.
+
+### Postponed
+
 - [ ] ~ Classes articles might need an update considering that the notation(s) for static might change things.
-- [ ] ~ The readability of the Classes articles was questionable, which also might be a reason for updating it. They might be hard to follow.
-- [ ] ~ In particular the explanations about Class Commands seems difficult.
-- [ ] ~ Merging conceptual explanation and diagram notation explanation might be something to do.
-- [ ] ~ The term Target Class might be split up in two definitions.
-
------
-
-- [ ] ~ The split up into a conceptual explanation and then separately an article for the diagram notation, might have been easy for writing the docs, but could be merged into a single article again for readability.
-
------
-
-- [ ] ~ The readability of these articles might be questioned. See 'Redo Easy Themes' in the document Circular Language Spec Strategy.
 
 ### Done
 

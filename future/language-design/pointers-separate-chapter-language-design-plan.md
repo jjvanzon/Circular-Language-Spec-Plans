@@ -8,18 +8,20 @@ Pointers | Separate Chapter | Language Design | Plan
 
 __Contents__
 
-- [Postponed](#postponed)
-    - [2009-08-26 Postponed Pointers](#2009-08-26-postponed-pointers)
-    - [2020-05-27 Postponed Pointers Chapter](#2020-05-27-postponed-pointers-chapter)
-    - [2020-06-11 Postponed Over-Awareness of Pointers](#2020-06-11-postponed-over-awareness-of-pointers)
-- [Done](#done)
-    - [2020-06-26 Done Scoping System Objects Article: Move Pointer-to-Pointer Issues](#2020-06-26-done-scoping-system-objects-article-move-pointer-to-pointer-issues)
+- [Pointers | Separate Chapter | Language Design | Plan](#pointers--separate-chapter--language-design--plan)
+    - [Postponed](#postponed)
+        - [2009-08-26 Postponed Pointers](#2009-08-26-postponed-pointers)
+        - [2020-05-27 Postponed Pointers Chapter](#2020-05-27-postponed-pointers-chapter)
+        - [2020-06-11 Postponed Over-Awareness of Pointers](#2020-06-11-postponed-over-awareness-of-pointers)
+        - [2022-02-02 Postponed Pointers](#2022-02-02-postponed-pointers)
+    - [Done](#done)
+        - [2020-06-26 Done Scoping System Objects Article: Move Pointer-to-Pointer Issues](#2020-06-26-done-scoping-system-objects-article-move-pointer-to-pointer-issues)
 
 ### Postponed
 
 #### 2009-08-26 Postponed Pointers
 
-Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move everything about pointers-to-pointers. But for now you might consider pointers-to-pointers every time you work out a theme.
+- [ ] ~ Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move everything about pointers-to-pointers. But for now you might consider pointers-to-pointers every time you work out a theme.
 
 #### 2020-05-27 Postponed Pointers Chapter
 
@@ -29,6 +31,10 @@ Perhaps eventually make a separate Pointer-to-Pointer chapter, to which you move
 
 - [ ] ~ Some texts may also make a bit of an issue out of something almost always being related to a *parent* *object*. It may have gone a bit far incorporating that concept in pictures, usage of terminology. In pictures by displaying a parent object, where it might not add much and it might be an idea to remove it for clarity. In terminology, awareness of ref-ness might have slipped in by calling things related items and related lists more often than perhaps required. The terms 'object' or 'item' and 'list' might do in cases and that may make the text easier to absorb.
 - [ ] ~ Redirection ('ref-ness'?) might be part of the Pointers topic.
+
+#### 2022-02-02 Postponed Pointers
+
+- [ ] ~ The term Target Class might be split up in two definitions.
 
 ### Done
 
