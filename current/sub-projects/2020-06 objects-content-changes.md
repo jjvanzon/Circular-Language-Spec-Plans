@@ -8,6 +8,7 @@ __Contents__
 
 - [Objects | Content Changes](#objects--content-changes)
     - [Postponed](#postponed)
+        - [2022-01-30 Postponed Content Changes for Objects Chapter](#2022-01-30-postponed-content-changes-for-objects-chapter)
         - [2020-06-11 Postponed Content Changes for Attributes Article](#2020-06-11-postponed-content-changes-for-attributes-article)
     - [Done](#done)
         - [2022-01-30 Done Content Changes for Objects Article](#2022-01-30-done-content-changes-for-objects-article)
@@ -15,6 +16,10 @@ __Contents__
         - [2020-06-07 Done Content Changes for Objects Article](#2020-06-07-done-content-changes-for-objects-article)
 
 ### Postponed
+
+#### 2022-01-30 Postponed Content Changes for Objects Chapter
+
+- [ ] Object pointing to itself may be another edge case worth mentioning.
 
 #### 2020-06-11 Postponed Content Changes for Attributes Article
 
@@ -29,6 +34,8 @@ __Contents__
 - [x] Stereotyping text fragments and see if things may change?
 - [x] Moving terminology expositions to construct drafts?
 - [x] Adding a picture with a list that is named?
+- [x] Object Reference: bit repetitive: saying same thing in multiple slightly different ways.
+- [x] Reading over, reformulating.
 
 #### 2020-06-07 Done 
 

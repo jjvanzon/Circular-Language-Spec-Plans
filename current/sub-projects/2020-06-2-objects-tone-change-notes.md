@@ -7,29 +7,10 @@ Objects | Tone Change | 2020-06 | Notes
 __Contents__
 
 - [Objects | Tone Change | 2020-06 | Notes](#objects--tone-change--2020-06--notes)
-    - [TODO](#todo)
-        - [2022-01-30 TODO Tone Change Extended Steps](#2022-01-30-todo-tone-change-extended-steps)
     - [Done](#done)
         - [2020-06-07 Done Reformulating Objects Chapter](#2020-06-07-done-reformulating-objects-chapter)
         - [2020-06-11 Done Content Changes for Objects Chapter](#2020-06-11-done-content-changes-for-objects-chapter)
-
-
-### TODO
-
-#### 2022-01-30 TODO Tone Change Extended Steps
-
-- [ ] Word variation:
-    - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
-- [ ] Directness:
-    - [ ] Removing "might" and "may" where adequate wiggle room may already be present.
-    - [ ] Replacing indefinites back some with definites, for readability. 
-    - [ ] Reading over text again to reformulate for readability.
-    - [ ] Appropriateness:
-        - [ ] Definite language for comment on diagrams and syntax.
-        - [ ] Less definite language for philosophical opinion.
-        - [ ] Less definite language where ideas are iffy.
-- [ ] Word variation:
-    - [ ] ~ Alternating evenly between words "may" and "might".
+        - [2022-01-30 Done Tone Change Extended Steps](#2022-01-30-done-tone-change-extended-steps)
 
 ### Done
 
@@ -54,3 +35,18 @@ __Contents__
 - [x] I might be explaining multiplicity as a concept in quite some detail. Should it be more about the notation?
 - [x] Outtakes:
     - [x] ~~From 'Multiplicity' (might use this text in the future again): There might be different words that can be used to express the concepts of single and multiple.~~
+
+#### 2022-01-30 Done Tone Change Extended Steps
+
+- [x] Word variation:
+    - [x] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
+- [x] Directness:
+    - [x] Removing "might" and "may" where adequate wiggle room may already be present.
+    - [x] Replacing indefinites back some with definites, for readability. 
+    - [x] Reading over text again to reformulate for readability.
+    - [x] Appropriateness:
+        - [x] Definite language for comment on diagrams and syntax.
+        - [x] Less definite language for philosophical opinion.
+        - [x] Less definite language where ideas are iffy.
+- [x] Word variation:
+    - [x] Alternating evenly between words "may" and "might".
