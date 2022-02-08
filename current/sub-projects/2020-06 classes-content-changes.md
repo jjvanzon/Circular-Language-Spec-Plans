@@ -17,13 +17,23 @@ __Contents__
 
 #### 2022-02-02 TODO Classes Article Content Changes
 
-- [ ] ~ Might be made shorter.
-- [ ] ~ Same notation explained from different contextual angles might be a bit overdone.
-- [ ] ~ "Using Dashed Shapes", "Using an Object as a Class" and "Shape Both Dashed and Solid" seem to be going on about similar notation ideas, which could be merged.
-- [ ] ~ "Shape Both Dashed and Solid": 
-    - [ ] ~ Might remove that concept.
-    - [ ] ~ Saying something like this, might be adequate: "A shape could be drawn with a dashed border if it is used as a class."
-    - [ ] ~ Then referencing a class like an object could be introduced as a side-issue.
+- [x] Might be made shorter.
+- [x] Same notation explained from different contextual angles might be a bit overdone.
+- [x] "Using Dashed Shapes", "Using an Object as a Class" and "Shape Both Dashed and Solid" seem to be going on about similar notation ideas, which could be merged.
+- [x] "Shape Both Dashed and Solid": 
+    - [x] Might remove that concept.
+    - [x] Saying something like this, might be adequate: "A shape could be drawn with a dashed border if it is used as a class."
+    - [x] Then referencing a class like an object could be introduced as a side-issue.
+- [x] Moving "Defining its own Class" to Construct Drafts (edge case, details).
+- [x] More labels like "Object" and "Class" in pictures? Perhaps not all pictures, but ones introducing the concept perhaps yes.
+- [x] Some sentences say something similar. Might shorten it.
+- [x] Making changed parts a different color in image showing data changes.
+- [x] Object Reference with a Class: Maybe adding a situation that is *not* valid might be helpful.
+    - [x] Might look at article Type Control / Type Safety, Genericity, Explicit for inspiration.
+- [x] More shape labels in pictures. (Used Font "Ink Free".)
+- [x] Adding the meaning of the line dissector for direction to the Basic Notation section.
+- [x] Rewording.
+- [ ] Adding a banner at the top.
 
 ### Postponed
 
