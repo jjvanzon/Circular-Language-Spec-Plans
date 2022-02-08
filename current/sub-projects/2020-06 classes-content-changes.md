@@ -8,14 +8,20 @@ __Contents__
 
 - [Classes | Content Changes](#classes--content-changes)
     - [TODO](#todo)
-        - [2022-02-02 TODO Classes Article Content Changes](#2022-02-02-todo-classes-article-content-changes)
     - [Postponed](#postponed)
     - [Done](#done)
+        - [2022-02-02 Done Classes Article Content Changes](#2022-02-02-done-classes-article-content-changes)
         - [2020-06-11 Done Content Changes for Classes Chapter](#2020-06-11-done-content-changes-for-classes-chapter)
 
 ### TODO
 
-#### 2022-02-02 TODO Classes Article Content Changes
+### Postponed
+
+- [ ] ~ Classes articles might need an update considering that the notation(s) for static might change things.
+
+### Done
+
+#### 2022-02-02 Done Classes Article Content Changes
 
 - [x] Might be made shorter.
 - [x] Same notation explained from different contextual angles might be a bit overdone.
@@ -33,13 +39,7 @@ __Contents__
 - [x] More shape labels in pictures. (Used Font "Ink Free".)
 - [x] Adding the meaning of the line dissector for direction to the Basic Notation section.
 - [x] Rewording.
-- [ ] Adding a banner at the top.
-
-### Postponed
-
-- [ ] ~ Classes articles might need an update considering that the notation(s) for static might change things.
-
-### Done
+- [x] Adding a banner at the top.
 
 #### 2020-06-11 Done Content Changes for Classes Chapter
 
