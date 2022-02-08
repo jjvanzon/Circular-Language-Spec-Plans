@@ -7,31 +7,28 @@ Classes | Tone Change | 2020-06 | Notes
 __Contents__
 
 - [Classes | Tone Change | 2020-06 | Notes](#classes--tone-change--2020-06--notes)
-    - [TODO](#todo)
-        - [2022-02-01 TODO Wiggle Word Rewording Extended Steps](#2022-02-01-todo-wiggle-word-rewording-extended-steps)
     - [Done](#done)
+        - [2022-02-01 Done Wiggle Word Rewording Extended Steps](#2022-02-01-done-wiggle-word-rewording-extended-steps)
         - [2020-06-11 Done Reformulating Classes Article](#2020-06-11-done-reformulating-classes-article)
         - [2020-06-11 Done Reformulating Classes Article](#2020-06-11-done-reformulating-classes-article-1)
 
-### TODO
-
-#### 2022-02-01 TODO Wiggle Word Rewording Extended Steps
-
-- [ ] Word variation:
-    - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
-- [ ] Directness:
-    - [ ] Removing "might" and "may" where adequate wiggle room may already be present.
-    - [ ] Replacing indefinites back some with definites, for readability. 
-    - [ ] Reading over text again to reformulate for readability.
-    - [ ] Appropriateness:
-        - [ ] Definite language for comment on diagrams and syntax.
-        - [ ] Less definite language for philosophical opinion.
-        - [ ] Less definite language where ideas are iffy.
-- [ ] Word variation:
-    - [ ] Alternating evenly between words "may" and "might".
-- [ ] Reading over and rewording until satisfied.
-
 ### Done
+
+#### 2022-02-01 Done Wiggle Word Rewording Extended Steps
+
+- [x] Word variation:
+    - [x] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
+- [x] Directness:
+    - [x] Removing "might" and "may" where adequate wiggle room may already be present.
+    - [x] Replacing indefinites back some with definites, for readability. 
+    - [x] Reading over text again to reformulate for readability.
+    - [x] Appropriateness:
+        - [x] Definite language for comment on diagrams and syntax.
+        - [x] Less definite language for philosophical opinion.
+        - [x] Less definite language where ideas are iffy.
+- [x] Word variation:
+    - [x] Alternating evenly between words "may" and "might".
+- [x] Reading over and rewording until satisfied.
 
 #### 2020-06-11 Done Reformulating Classes Article
 
