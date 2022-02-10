@@ -56,6 +56,7 @@ __Contents__
         - [ ] Definite language for comment on diagrams and syntax.
         - [ ] Less definite language for philosophical opinion.
         - [ ] Less definite language where ideas are iffy.
+        - [ ] Put subjectivity in perspective.
 - [ ] Word variation:
     - [ ] Alternating evenly between words "may" and "might".
 - [ ] Reading over and rewording until satisfied.
