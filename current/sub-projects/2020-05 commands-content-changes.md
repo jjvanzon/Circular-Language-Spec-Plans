@@ -6,14 +6,15 @@ Commands | Content Changes
 
 __Contents__
 
-- [Postponed](#postponed)
-    - [2019 Postponed](#2019-postponed)
-    - [2020-08-21 Postponed Commands Chapter](#2020-08-21-postponed-commands-chapter)
-    - [2020-05-18 Postponed Content Changes for Commands Chapter](#2020-05-18-postponed-content-changes-for-commands-chapter)
-- [Done](#done)
-    - [2020-05-18 Done Content Changes for Commands Chapter](#2020-05-18-done-content-changes-for-commands-chapter)
-    - [2020-08-07 Done Content Changes for Commands Chapter](#2020-08-07-done-content-changes-for-commands-chapter)
-    - [2020-07-24 Done Reformulating Commands Chapter](#2020-07-24-done-reformulating-commands-chapter)
+- [Commands | Content Changes](#commands--content-changes)
+    - [Postponed](#postponed)
+        - [2019 Postponed](#2019-postponed)
+    - [Done](#done)
+        - [2020-08-21 Done Content Changes for Commands Main Concepts Article](#2020-08-21-done-content-changes-for-commands-main-concepts-article)
+        - [2020-05-18 Done Content Changes for Commands Main Concepts Article](#2020-05-18-done-content-changes-for-commands-main-concepts-article)
+        - [2020-05-18 Done Content Changes for Commands Chapter](#2020-05-18-done-content-changes-for-commands-chapter)
+        - [2020-08-07 Done Content Changes for Commands Chapter](#2020-08-07-done-content-changes-for-commands-chapter)
+        - [2020-07-24 Done Reformulating Commands Chapter](#2020-07-24-done-reformulating-commands-chapter)
 
 ### Postponed
 
@@ -22,32 +23,31 @@ __Contents__
 - [ ] ~ Maybe merge conceptual explanation with diagram notation explanation.
 - [ ] ~ The split up into a conceptual explanation and then separately an article for the diagram notation, might have been easy for writing the docs, but could be merged into a single article again for readability.
 
-#### 2020-08-21 Postponed Commands Chapter
-
-- [ ] ~ Moving or removing marked out texts.
-- [ ] ~ An additional reformulation phase might be appropriate.
-
-#### 2020-05-18 Postponed Content Changes for Commands Chapter
-
-- [ ] ~ Part done: What if you might just remove most of the rules imposed onto commands compared to regular objects? It seems that maybe no disasters might happen. I might like to evaluate which rules can be lived without so the idea might be presented in a simpler way.
-- [ ] ~ It seems to me that I wanted to evaluate back then:
-- [ ] ~ What concepts from other programming languages could look like in the diagram notation.
-- [ ] ~ What each diagram notation situation could mean in terms of other programming languages like C#.
-- [ ] ~ What might happen if you try to draw a parallel between objects and commands. Where things overlap, what the implications of being a command is, compared to an object.
-- [ ] ~ That.
-- [ ] ~ But it may have resulted in a bit of an overwhelming set of situations being shed light on.
-- [ ] ~ Not sure to what extent this is a problem.
-- [ ] ~ It's more of a content issue, rather than a formatting issue. I was focusing on formatting issues for now, so maybe postpone this.
-- [ ] ~ The rules seem simpler in Circular than in e.g. C#. It seems that derived from basics, several construct from e.g. C# might have a corresponding expression in Circular using more basic rules. I seem to go through an effort to describe how supposedly more familiar constructs might be represented in Circular. It seems quite an effort to explain something that might be simpler, in terms that might be more complicated. But it might have a purpose as to build a bridge between what a reader might already be familiar with, to a different idea, that the reader is attempted to be introduced to. I have some doubt about whether the story could be simpler. Maybe it could be simpler by adding something: first the basic rules with no edge cases, then an admission of it e.g.: "Familiar constructs from other programming languages might be expressed using these basic building blocks from Circular. Each of those familiar constructs seems to be a specific use-case of basic building blocks in Circular."
-- [ ] ~ "Changing Inactive to Executable" section:
-    - Seems quite Circular Broader View-ish. Use-cases of how you might use it in a less conventional setting. What it might be like if the internet was a single computer that everyone was programming and using at the same time, with more parts changeable and accessible to multiple people at the same time.
-- [ ] ~ The 'many rules' around commands seem circumstantial: practical behavior that might be found in other programming languages. At the other end of the spectrum might be a hypothetical system, in which no control is imposed with rules as such, which may only cause possibly inconveniences of e.g. concurrency issues like reading out half-written objects and such. The 'rule richness' might already be in place if the notation were to be used in an existing system or a new system might be developed that uses the notation and the programmers might use their own heads on how to make it practical. The 'rule free' variation might also be an experimentally funny thing to develop. It might still function as a coherent base for programming, be it there could be concurrency issues for instance. I really wonder if the rules might be embedded in the text. I might be more comfortable to extract these rules as a separate article that just aims to expose a system of rules that a programming environment might impose onto command objects, to make it more practically workable and evasive of troublesome situations. Some programming environments just support this behavior out of the box. "Local variables and parameters are automatically thread-safe" is one of those rules that I come to rely on when programming concurrent systems. (I personally find concurrency one of the more difficult issues to deal with in programming.) If rules are not imposed in Circular, that thread safety could fall to pieces in a way. I just think a description of the notation might not need to rely on the existence of those rules. If I want to go into it, I might want to separate that from the main article, because it might make the idea easier to absorb. The rules I state were maybe just my attempt to prove to myself what might it take for objects and commands to be exchangeable and what rules might it take to make object behave like commands in an orderly fashion and might this notation work at all for the many command-oriented constructs that exist in programming languages today. Now I am more confident that it works, the main explanation might not be a stack-up of 'proof', just an exposition of the main point.
-- [ ] ~ Where I use parameter notation with connectors, I might want to be honest to for now ignore what those connectors mean, just accept that it makes them public and makes them parameters.
-- [ ] ~ I see an analogy between the lifecycle of running a command and an object's creation, constructor, initial setting of required values, and running of active commands directly in it.
-- [ ] ~ Outtakes, perhaps for Circular Broader View:
-    - [ ] ~ It seems it might be possible to make combinations of symbols that might not have an equivalent in another language.
-
 ### Done
+
+#### 2020-08-21 Done Content Changes for Commands Main Concepts Article
+
+- [x] Moving or removing marked out texts.
+
+#### 2020-05-18 Done Content Changes for Commands Main Concepts Article
+
+- [x] Part done: What if you might just remove most of the rules imposed onto commands compared to regular objects? It seems that maybe no disasters might happen. I might like to evaluate which rules can be lived without so the idea might be presented in a simpler way.
+- [x] It seems to me that I wanted to evaluate back then:
+    - [x] What concepts from other programming languages could look like in the diagram notation.
+    - [x] What each diagram notation situation could mean in terms of other programming languages like C#.
+    - [x] What might happen if you try to draw a parallel between objects and commands. Where things overlap, what the implications of being a command is, compared to an object.
+    - [x] That.
+    - [x] But it may have resulted in a bit of an overwhelming set of situations being shed light on.
+- [x] Not sure to what extent this is a problem.
+- [x] It's more of a content issue, rather than a formatting issue. I was focusing on formatting issues for now, so maybe postpone this.
+- [x] The rules seem simpler in Circular than in e.g. C#. It seems that derived from basics, several construct from e.g. C# might have a corresponding expression in Circular using more basic rules. I seem to go through an effort to describe how supposedly more familiar constructs might be represented in Circular. It seems quite an effort to explain something that might be simpler, in terms that might be more complicated. But it might have a purpose as to build a bridge between what a reader might already be familiar with, to a different idea, that the reader is attempted to be introduced to. I have some doubt about whether the story could be simpler. Maybe it could be simpler by adding something: first the basic rules with no edge cases, then an admission of it e.g.: "Familiar constructs from other programming languages might be expressed using these basic building blocks from Circular. Each of those familiar constructs seems to be a specific use-case of basic building blocks in Circular."
+- [x] "Changing Inactive to Executable" section:
+    - [x] Seems quite Circular Broader View-ish. Use-cases of how you might use it in a less conventional setting. What it might be like if the internet was a single computer that everyone was programming and using at the same time, with more parts changeable and accessible to multiple people at the same time.
+    - [x] Moved to Commands Implementation article.
+- [x] The 'many rules' around commands seem circumstantial: practical behavior that might be found in other programming languages. At the other end of the spectrum might be a hypothetical system, in which no control is imposed with rules as such, which may only cause possibly inconveniences of e.g. concurrency issues like reading out half-written objects and such. The 'rule richness' might already be in place if the notation were to be used in an existing system or a new system might be developed that uses the notation and the programmers might use their own heads on how to make it practical. The 'rule free' variation might also be an experimentally funny thing to develop. It might still function as a coherent base for programming, be it there could be concurrency issues for instance. I really wonder if the rules might be embedded in the text. I might be more comfortable to extract these rules as a separate article that just aims to expose a system of rules that a programming environment might impose onto command objects, to make it more practically workable and evasive of troublesome situations. Some programming environments just support this behavior out of the box. "Local variables and parameters are automatically thread-safe" is one of those rules that I come to rely on when programming concurrent systems. (I personally find concurrency one of the more difficult issues to deal with in programming.) If rules are not imposed in Circular, that thread safety could fall to pieces in a way. I just think a description of the notation might not need to rely on the existence of those rules. If I want to go into it, I might want to separate that from the main article, because it might make the idea easier to absorb. The rules I state were maybe just my attempt to prove to myself what might it take for objects and commands to be exchangeable and what rules might it take to make object behave like commands in an orderly fashion and might this notation work at all for the many command-oriented constructs that exist in programming languages today. Now I am more confident that it works, the main explanation might not be a stack-up of 'proof', just an exposition of the main point.
+- [ ] ~ I see an analogy between the lifecycle of running a command and an object's creation, constructor, initial setting of required values, and running of active commands directly in it.
+- [x] ~ Outtakes, perhaps for Circular Broader View:
+    - [x] It seems it might be possible to make combinations of symbols that might not have an equivalent in another language.
 
 #### 2020-05-18 Done Content Changes for Commands Chapter
 
