@@ -6,14 +6,27 @@ Parameters | Content Changes
 
 __Contents__
 
-- [Postponed](#postponed)
-  - [2021-03 ~ Parameters Content Changes](#2021-03--parameters-content-changes)
-  - [2019 Postponed Merging Conceptual Descriptions with Diagram Demonstrations](#2019-postponed-merging-conceptual-descriptions-with-diagram-demonstrations)
-  - [2020-05-20 Postponed Content Changes for Parameters](#2020-05-20-postponed-content-changes-for-parameters)
-  - [2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled](#2020-06-11-postponed-content-changes-for-parameters--command-and-classes-loosely-coupled)
-- [2021-05-03 Brainstorm Parameter Passing Reorganization](#2021-05-03-brainstorm-parameter-passing-reorganization)
+- [Parameters | Content Changes](#parameters--content-changes)
+  - [Postponed](#postponed)
+    - [2020-07-24 Postponed Parameters Content Changes](#2020-07-24-postponed-parameters-content-changes)
+    - [2021-03 ~ Parameters Content Changes](#2021-03--parameters-content-changes)
+    - [2019 Postponed Merging Conceptual Descriptions with Diagram Demonstrations](#2019-postponed-merging-conceptual-descriptions-with-diagram-demonstrations)
+    - [2020-05-20 Postponed Content Changes for Parameters](#2020-05-20-postponed-content-changes-for-parameters)
+    - [2020-06-11 Postponed Content Changes for Parameters / Command and Classes Loosely Coupled](#2020-06-11-postponed-content-changes-for-parameters--command-and-classes-loosely-coupled)
+  - [2021-05-03 Brainstorm Parameter Passing Reorganization](#2021-05-03-brainstorm-parameter-passing-reorganization)
 
 ### Postponed
+
+#### 2020-07-24 Postponed Parameters Content Changes
+
+- [ ] ~ Terms "In" and "Out" might be avoided.
+    - [ ] ~ I seemed to be juggling the concepts Get and Set on one hand and In and Out on the other, before realizing they might not be synonymous.
+    - [ ] ~ I seem to go into specifics about Input/Output. I might want to move those specifics out at one point. I think I might like to evaluate that as I sequentially go through the text.
+    - [ ] ~ Perhaps later be honest in the Parameters article about this paradox. Other people may also feel uneasy about it and it makes it maybe more understandable why the terms are avoided.
+- [ ] ~ Terms "In" and "Out" might be avoided.
+    - [ ] ~ Because it seems ambiguous (for instance an object reference (__'Object In__' parameter?) can be considered both input and output at the same time.)
+    - [ ] ~ Replacement terms might be ones such as __Get Object__ Parameter or __Set Value__ Parameter. It may not look as pretty, but it might help me avoid the paradox that I experience if I were to call them __In__ and __Out__.
+- [ ] ~ Where I use parameter notation with connectors, I might want to be honest to for now ignore what those connectors mean, just accept that it makes them public and makes them parameters.
 
 #### 2021-03 ~ Parameters Content Changes
 
