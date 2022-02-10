@@ -50,6 +50,10 @@ Done articles may benefit from a redo, balancing between indirect language and d
 - [x] Static | Tone Change
 - [x] Relationships | Tone Change
 - [ ] Commands | Tone Change (part done)
+    - [ ] Commands Main Concepts | Tone Change (part done)
+    - [ ] Start & Stop | Tone Change
+    - [ ] Creation Behavior Of Commands | Tone Change
+    - [ ] Commands Example Diagrams | Tone Change
 - [ ] Parameters | Tone Change
 - [ ] Modules | Tone Change
 - [ ] Execution Flow | Tone Changer
@@ -85,7 +89,7 @@ Content changes may also be addressed while changing the *tone* of a document. S
 
 - [ ] Overview | Content Changes
 - [ ] Basic Diagram Elements | Content Changes
-- [x] ~ Objects | Content Changes
+- [x] Objects | Content Changes
 - [ ] Objects Multiplicity | Content Changes
 - [ ] Classes | Content Changes
 - [ ] Relationship | Content Changes
