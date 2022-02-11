@@ -18,16 +18,6 @@ __Contents__
 #### 2022-02-10 TODO Reformulating Commands Main Concepts Article
 
 - [ ] WAS AT: "Local Functions" rewording.
-- [ ] Content Changes:
-    - [x] "contained in a square" => "contained in another command symbol"
-    - [x] "Prototype":
-        - [x] May be using the word prototype wrong in relation to commands.
-        - [x] For objects the word prototype means a copy of another object, used as a sort of substitute for a class.
-        - [x] Function prototype might be something different: the publics of a command / its interface / parameters' types, names and return value.
-        - [x] Might avoid the word prototype for its ambiguous meaning that seems to depend on context.
-    - [x] May make images in "How Command References Work" a bit more to the point.
-    - [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
-    - [ ] Command interfaces not covered, while dotted lines seem mentioned near the top of the article.
 - [ ] Might avoid saying same things multiple times using different words.
 - [ ] Word variation:
     - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.

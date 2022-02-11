@@ -7,6 +7,8 @@ Commands | Content Changes
 __Contents__
 
 - [Commands | Content Changes](#commands--content-changes)
+    - [TODO](#todo)
+        - [2022-02-11 Commands Main Concepts Content Changes](#2022-02-11-commands-main-concepts-content-changes)
     - [Postponed](#postponed)
         - [2019 Postponed](#2019-postponed)
     - [Done](#done)
@@ -15,6 +17,21 @@ __Contents__
         - [2020-05-18 Done Content Changes for Commands Chapter](#2020-05-18-done-content-changes-for-commands-chapter)
         - [2020-08-07 Done Content Changes for Commands Chapter](#2020-08-07-done-content-changes-for-commands-chapter)
         - [2020-07-24 Done Reformulating Commands Chapter](#2020-07-24-done-reformulating-commands-chapter)
+
+### TODO
+
+#### 2022-02-11 Commands Main Concepts Content Changes
+
+- [x] "contained in a square" => "contained in another command symbol"
+- [x] "Prototype":
+    - [x] May be using the word prototype wrong in relation to commands.
+    - [x] For objects the word prototype means a copy of another object, used as a sort of substitute for a class.
+    - [x] Function prototype might be something different: the publics of a command / its interface / parameters' types, names and return value.
+    - [x] Might avoid the word prototype for its ambiguous meaning that seems to depend on context.
+- [x] May make images in "How Command References Work" a bit more to the point.
+- [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
+- [ ] Command interfaces not covered, while dotted lines seem mentioned near the top of the article.
+
 
 ### Postponed
 
