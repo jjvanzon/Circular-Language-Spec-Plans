@@ -30,10 +30,10 @@ You may find a lack of explanations here. If there were an explanation of a topi
 
 These topics may be about general restructurings of the works.
 
+- [ ] Planning | in General (ongoing)
+- [ ] Content Reorganization (ongoing)
 - [ ] ~ Might still including hour sheet  
         (Extracting it from hour sheet about multiple projects.)
-- [ ] .. Planning | in General
-- [ ] __Content Reorganization__
 
 #### Tone Change
 
@@ -90,10 +90,14 @@ Content changes may also be addressed while changing the *tone* of a document. S
 - [ ] Overview | Content Changes
 - [ ] Basic Diagram Elements | Content Changes
 - [x] Objects | Content Changes
-- [ ] Objects Multiplicity | Content Changes
-- [ ] Classes | Content Changes
+- [x] Objects Multiplicity | Content Changes
+- [ ] Classes | Content Changes (part done)
 - [ ] Relationship | Content Changes
-- [ ] Commands | Content Changes
+- [ ] Commands | Content Changes (part done)
+    - [x] Commands Main Concepts | Content Changes
+    - [ ] Start & Stop | Content Changes
+    - [ ] Creation Behavior of Commands | Content Changes
+    - [ ] Commands Example Diagrams | Content Changes
 - [ ] Parameters | Content Changes
 - [ ] Modules | Content Changes
 - [ ] Execution Flow | Content Changes
@@ -127,6 +131,8 @@ These topics may be more significant changes to how the language might be descri
         - [ ] Arithmetic, comparative, logical, bit, string
     - [ ] Modifiers | Language Design
     - [ ] Textual Fallback | Language Design
+    - [ ] Basic Types | Language Design
+        - [ ] Strings, numbers...
     - [ ] Enums | Language Design
     - [ ] Structs | Language Design
     - [ ] Union Types | Language Design
