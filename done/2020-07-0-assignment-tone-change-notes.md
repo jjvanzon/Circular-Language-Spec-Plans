@@ -17,7 +17,7 @@ Assignment | Tone Change | 2020-07 | Notes
     - [x] Manually
     - [x] Over-used words? "The"?
 - [x] Finding replacement words, possibly using online thesaurus.
-- [x] Put subjectivity in perspective.
+- [x] Putting subjectivity in perspective.
 - [x] Change the orange markings (pictures, texts to move or change).
 - [x] Pictures:
     - [x] Maybe draw new ones in one go, on paper and then scan it.

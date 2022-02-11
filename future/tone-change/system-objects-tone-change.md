@@ -6,10 +6,11 @@ System Objects | Tone Change
 
 __Contents__
 
-- [Postponed](#postponed)
-    - [2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article](#2020-07-04-postponed-checklist-reformulating-system-command-call-notations-article)
-- [Done](#done)
-    - [2020-06-26 Done Reformulating System Objects Article](#2020-06-26-done-reformulating-system-objects-article)
+- [System Objects | Tone Change](#system-objects--tone-change)
+    - [Postponed](#postponed)
+        - [2020-07-04 Postponed Checklist Reformulating System Command Call Notations Article](#2020-07-04-postponed-checklist-reformulating-system-command-call-notations-article)
+    - [Done](#done)
+        - [2020-06-26 Done Reformulating System Objects Article](#2020-06-26-done-reformulating-system-objects-article)
 
 ### Postponed
 
@@ -24,7 +25,7 @@ __Contents__
     - [x] Rename "Object Get" to "Get Object" etc.
         - [ ] ~ Did not do it in the pictures.
 - [ ] ~ Finding replacement words, possibly using online thesaurus.
-- [ ] ~ Put subjectivity in perspective.
+- [ ] ~ Putting subjectivity in perspective.
 - [ ] ~ Change the orange markings (pictures, texts to move or change).
 - [ ] ~ Pictures:
     - [ ] ~ Maybe draw new ones in one go, on paper and then scan it.
@@ -48,7 +49,7 @@ __Contents__
     - [x] Over-used words? "The", "related"?
 - [x] Finding replacement words, possibly using online thesaurus.
     - [x] "Relation" => "Relationship"?
-- [x] Put subjectivity in perspective.
+- [x] Putting subjectivity in perspective.
 - [x] Change the orange markings (pictures, texts to move).
     - [x] Maybe I forgot to merge the conceptual description with diagram demonstration.
 - [x] More over-used words / trigger words?
