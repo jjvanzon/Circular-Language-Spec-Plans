@@ -1,12 +1,12 @@
 Circular Language Spec Plans
 ============================
 
-Commands | Tone Change
+Commands Main Concepts | Tone Change
 ----------------------
 
 __Contents__
 
-- [Commands | Tone Change](#commands--tone-change)
+- [Commands Main Concepts | Tone Change](#commands-main-concepts--tone-change)
     - [TODO](#todo)
         - [2022-02-10 TODO Reformulating Commands Main Concepts Article](#2022-02-10-todo-reformulating-commands-main-concepts-article)
     - [Done](#done)
@@ -17,6 +17,17 @@ __Contents__
 
 #### 2022-02-10 TODO Reformulating Commands Main Concepts Article
 
+- [ ] WAS AT: "Local Functions" rewording.
+- [ ] Content Changes:
+    - [x] "contained in a square" => "contained in another command symbol"
+    - [x] "Prototype":
+        - [x] May be using the word prototype wrong in relation to commands.
+        - [x] For objects the word prototype means a copy of another object, used as a sort of substitute for a class.
+        - [x] Function prototype might be something different: the publics of a command / its interface / parameters' types, names and return value.
+        - [x] Might avoid the word prototype for its ambiguous meaning that seems to depend on context.
+    - [x] May make images in "How Command References Work" a bit more to the point.
+    - [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
+    - [ ] Command interfaces not covered, while dotted lines seem mentioned near the top of the article.
 - [ ] Might avoid saying same things multiple times using different words.
 - [ ] Word variation:
     - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
@@ -28,10 +39,11 @@ __Contents__
         - [ ] Definite language for comment on diagrams and syntax.
         - [ ] Less definite language for philosophical opinion.
         - [ ] Less definite language where ideas are iffy.
-        - [ ] Put subjectivity in perspective.
+        - [ ] Putting subjectivity in perspective.
 - [ ] Word variation:
     - [ ] Alternating evenly between words "may" and "might".
 - [ ] Reading over and rewording until satisfied.
+- [ ] Making a banner image for at the top.
 
 ### Done
 
