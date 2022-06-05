@@ -17,6 +17,7 @@ __Contents__
 
 ### Postponed
 
+- [ ] "Object Reference with a Class" section: Sentences might be shortened, because less words may still imply what is going on.
 - [ ] ~ Classes articles might need an update considering that the notation(s) for static might change things.
 
 ### Done

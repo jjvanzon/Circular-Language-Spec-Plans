@@ -30,7 +30,24 @@ __Contents__
     - [x] Might avoid the word prototype for its ambiguous meaning that seems to depend on context.
 - [x] May make images in "How Command References Work" a bit more to the point.
 - [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
-- [ ] Command interfaces not covered, while dotted lines seem mentioned near the top of the article.
+- [ ] Command *interfaces* not covered, while dotted lines seem mentioned near the top of the article.
+- [ ] One image under Inactive Nested Command may be a bit hard to read.
+- [ ] How Command References Work has an image with a call with a solid line. Perhaps correct it.
+- [ ] Alternative notation:
+    - [ ] A solid line between a diamond and a square:
+    - [ ] Strictly means a reference line.
+    - [ ] But may be used as a call line after all.
+    - [ ] A call line would make the executing diamond its own 'copy' instead of a direct reference.
+    - [ ] It may be quite unlikely that there would be a reference line between an diamond and a square.
+    - [ ] Therefore a solid line might be used as a call line after all, even though strictly it would have been dashed.
+    - [ ] It is easy to make the mistake and draw a solid line, and may be more intuitive to just allow it.
+    - [ ] May make a diagram look calmer visually too.
+- [ ] Alternative notation: solid border for squares:
+    - [ ] Strictly means it is only referenced, not used as a definition.
+    - [ ] That may be so unlikely, it may be more intuitive and less complicated to just draw the squares them with solid borders.
+    - [ ] May make a diagram look calmer visually too.
+- [ ] A chart of all the derived constructs at the end might be nice for overview?
+- [ ] Making a banner image at the top.
 
 
 ### Postponed

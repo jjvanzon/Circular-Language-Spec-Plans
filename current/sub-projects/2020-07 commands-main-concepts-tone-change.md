@@ -17,7 +17,7 @@ __Contents__
 
 #### 2022-02-10 TODO Reformulating Commands Main Concepts Article
 
-- [ ] WAS AT: "Local Functions" rewording.
+- [ ] WAS AT: "Deeper Nested Command" rewording.
 - [ ] Might avoid saying same things multiple times using different words.
 - [ ] Word variation:
     - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
@@ -33,7 +33,6 @@ __Contents__
 - [ ] Word variation:
     - [ ] Alternating evenly between words "may" and "might".
 - [ ] Reading over and rewording until satisfied.
-- [ ] Making a banner image for at the top.
 
 ### Done
 
