@@ -42,13 +42,13 @@ There may be a desire to change the tone of the documentation to milder language
 Done articles may benefit from a redo, balancing between indirect language and direct language for readability and added word variation.
 
 - [ ] Tone Change | in General
-- [x] Introduction | Tone Change
-- [x] Overview | Tone Change
-- [x] Basic Diagram Elements | Tone Change
-- [x] Objects | Tone Change
-- [x] Classes | Tone Change
-- [x] Static | Tone Change
-- [x] Relationships | Tone Change
+- [x] Introduction | Tone Change (redo)
+- [ ] Overview | Tone Change __Redo__
+- [ ] Basic Diagram Elements | Tone Change __Redo__
+- [ ] Objects | Tone Change __Redo__
+- [ ] Classes | Tone Change __Redo__
+- [ ] Static | Tone Change __Redo__
+- [ ] Relationships | Tone Change __Redo__
 - [ ] Commands | Tone Change (part done)
     - [ ] Commands Main Concepts | Tone Change (part done)
     - [ ] Start & Stop | Tone Change
@@ -58,8 +58,8 @@ Done articles may benefit from a redo, balancing between indirect language and d
 - [ ] Modules | Tone Change
 - [ ] Execution Flow | Tone Changer
 - [ ] System Interfaces | Tone Change (part done)
-    - [x] System Objects | Tone Change
-    - [x] Assignment | Tone Change
+    - [ ] System Objects | Tone Change __Redo__
+    - [ ] Assignment | Tone Change __Redo__
     - [ ] System Command Call Notations | Tone Change
     - [ ] Connectors & Connections | Tone Change
     - [ ] System Objects Misc Issues | Tone Change
