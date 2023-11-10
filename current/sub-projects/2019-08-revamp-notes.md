@@ -26,11 +26,11 @@ There might be separate sub-project documents about specific topics.
 
 - [x] ~ Source Control Migration
 
-    - [ ] ~ May still migrating hour log.
+    - [ ] ~ Hour hour log migration
 
 - [x] ~ Publishing to GitHub
 
-    - [ ] ~ May at one point make a demo video.
+    - [ ] ~ Demo video
 
 - [ ] .. __Content Reorganization__
 
