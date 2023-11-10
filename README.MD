@@ -3,9 +3,9 @@ Circular Language Spec Plans
 
 *JJ van Zon, 2021-02-17*
 
-This repository might contain the plans, notes and TODO's about [Circular-Language-Spec](https://github.com/jjvanzon/Circular-Language-Spec).
+This repository contains the plans, notes and TODO's about [Circular-Language-Spec](https://github.com/jjvanzon/Circular-Language-Spec).
 
-Circular might be an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
+Circular is an unfinished programming language. It aims to once become a diagram notation for visualizing computer code.
 
 You may find the following sub-folders here:
 
