@@ -8,6 +8,7 @@ __Contents__
 
 - [Publishing to GitHub | 2020-02 | Notes](#publishing-to-github--2020-02--notes)
     - [TODO](#todo)
+        - [2023-11-10 TODO SEO](#2023-11-10-todo-seo)
         - [2022-01-22 TODO Publishing GitHub Pages](#2022-01-22-todo-publishing-github-pages)
         - [2022-01-22 TODO Publishing Articles to GitHub Pages](#2022-01-22-todo-publishing-articles-to-github-pages)
     - [Postponed](#postponed)
@@ -19,6 +20,13 @@ __Contents__
         - [2021-02-08 Done Publishing: My Brother's First Name](#2021-02-08-done-publishing-my-brothers-first-name)
 
 ### TODO
+
+#### 2023-11-10 TODO SEO
+
+- [x] Introduction SEO
+- [ ] Objects SEO
+- [ ] Classes SEO
+- [ ] ...
 
 #### 2022-01-22 TODO Publishing GitHub Pages
 
