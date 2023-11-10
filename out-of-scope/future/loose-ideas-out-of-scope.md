@@ -6,7 +6,7 @@ Loose Ideas (Out of Scope)
 
 `[ Preliminary documentation ]`
 
-*The texts below are loose ideas that might be incorporated into a project.*
+*The texts below are loose ideas that might later be used in the project.*
 
 Software System, Projects,
 

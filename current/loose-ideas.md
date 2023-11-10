@@ -6,7 +6,7 @@ Loose Ideas
 
 `[ Preliminary documentation ]`
 
-*The texts below are loose ideas that might be incorporated into a project.*
+*The texts below are loose ideas that might later be used in the project.*
 
 Circular Language Spec,  
 Writing Style
