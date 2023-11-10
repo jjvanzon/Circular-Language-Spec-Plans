@@ -11,13 +11,14 @@ __Contents__
     - [Information](#information)
         - [Wiggle Word Method Checklist](#wiggle-word-method-checklist)
     - [TODO](#todo)
-        - [2021-04-13 Postponed Milder Tone in Bulk](#2021-04-13-postponed-milder-tone-in-bulk)
+        - [2023-10-08 Brainstorm](#2023-10-08-brainstorm)
     - [Postponed](#postponed)
         - [2020-04-18 Postponed Brainstorm Writing Style](#2020-04-18-postponed-brainstorm-writing-style)
         - [2020-05-27 Postponed Checklist Reformulating Chapters](#2020-05-27-postponed-checklist-reformulating-chapters)
         - [2019-08-05 Postponed Mixed Writing Style Issues](#2019-08-05-postponed-mixed-writing-style-issues)
         - [2019-08-27 Postponed Simpler Rules](#2019-08-27-postponed-simpler-rules)
     - [Done](#done)
+        - [2021-04-13 Done Milder Tone in Bulk](#2021-04-13-done-milder-tone-in-bulk)
         - [2020-06-18 Done Brainstorm Reconsidering Writing Style](#2020-06-18-done-brainstorm-reconsidering-writing-style)
         - [2020-05-31 Done Wiggle Word Difficulty](#2020-05-31-done-wiggle-word-difficulty)
         - [2020-04-18 Done Brainstorm Writing Style](#2020-04-18-done-brainstorm-writing-style)
@@ -63,32 +64,11 @@ __Contents__
 
 ### TODO
 
-#### 2021-04-13 Postponed Milder Tone in Bulk
+#### 2023-10-08 Brainstorm
 
-- [ ] ~ Perhaps changing *all* the documents at the same time, *one* trigger word at a time, might better fit my way of processing things.
-- [x] 🐇 Replacing "will" with "might".
-- [x] 🍦 Replacing "must" with "might" or "may".
-- [x] 🍰 Replacing "would" with "might".
-- [x] 🎵 Replacing "does" with "might".
-- [x] 🎵 Correcting back: "probably might"
-- [x] 🍪 Replacing "have to" with "might".
-    - [x] ↩ Correcting replacements "'d have to" => "'d might"
-    - [x] ↩ Correcting replacements "do not have to" => "do not might"
-    - [x] ↩ Correcting replacements "don' have to" => "don't might"
-    - [x] ↩ Correcting replacements "have to do with " => "might do with"
-    - [x] ↩ Correcting replacements "might have to" => "might might"
-    - [x] ↩ Correcting replacements "might just have to" => "might just might"
-    - [x] ↩ Correcting replacements "might not have to " => "might not might"
-    - [x] ↩ Correcting replacements "to have to" => "to might"
-- [x] Search for "have to" again.
-- [x] "visual studio code" find in files results missing.
-    - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
-    - [x] Seems less buggy when clicking on the magnifier and typing text.
-- [x] 🧾 Correcting "t might" occurrences
-    - [x] "Don't might", "won't might", etc.
-    - [x] Replaced by "might not" in most cases.
-- [ ] Searching for "can", replacing some occurrences.
-- [ ] Searching for "should", replacing some occurrences.
+I might have gone overboard with the non-definitive language. It was part of my self-development, to try and learn a milder tone of speech. I think I am past that stage and have now learned to speak in more relative terms. While learning this, I applied it to Circular Language Spec and the text became almost malformed. So now might be the time, to correct things back to a more 'normal' tone, to increase readability. It's even hard to read for myself now in places. I think I get it now, and can do it more naturally instead of robotically. It should make the work easier. Stress over language did not exactly make things go faster. All I wanted was for the text to be more approachable. I think I do not need to over-focus on that aspect anymore.
+
+I hope I can find time and mostly energy to do this stuff again. I have been missing my creative outlets a lot.
 
 ### Postponed
 
@@ -129,6 +109,35 @@ __Contents__
 - [ ] ~ I think the 'being blunt' might help. It is not blunt unfriendly, because the explanations might become so much simpler if you say: this is that, this is that, instead of and this far-fetched edge case is solved in this difficult, abstract, theoretical, but precisely determined way, that I'm not sure I even understand anymore... : )
 
 ### Done
+
+
+#### 2021-04-13 Done Milder Tone in Bulk
+
+- [x] ~ Perhaps changing *all* the documents at the same time, *one* trigger word at a time, might better fit my way of processing things.
+- [x] 🐇 Replacing "will" with "might".
+- [x] 🍦 Replacing "must" with "might" or "may".
+- [x] 🍰 Replacing "would" with "might".
+- [x] 🎵 Replacing "does" with "might".
+- [x] 🎵 Correcting back: "probably might"
+- [x] 🍪 Replacing "have to" with "might".
+    - [x] ↩ Correcting replacements "'d have to" => "'d might"
+    - [x] ↩ Correcting replacements "do not have to" => "do not might"
+    - [x] ↩ Correcting replacements "don' have to" => "don't might"
+    - [x] ↩ Correcting replacements "have to do with " => "might do with"
+    - [x] ↩ Correcting replacements "might have to" => "might might"
+    - [x] ↩ Correcting replacements "might just have to" => "might just might"
+    - [x] ↩ Correcting replacements "might not have to " => "might not might"
+    - [x] ↩ Correcting replacements "to have to" => "to might"
+- [x] Search for "have to" again.
+- [x] "visual studio code" find in files results missing.
+    - [x] Seems more buggy when doing Ctrl-Shift-F, paste text.
+    - [x] Seems less buggy when clicking on the magnifier and typing text.
+- [x] 🧾 Correcting "t might" occurrences
+    - [x] "Don't might", "won't might", etc.
+    - [x] Replaced by "might not" in most cases.
+- [x] ~~Searching for "can", replacing some occurrences.~~
+- [x] ~~Searching for "should", replacing some occurrences.~~
+- [x] Stopped. May rewrite later in a more natural way, instead of robotically replacing the 'trigger words'.
 
 #### 2020-06-18 Done Brainstorm Reconsidering Writing Style
 
