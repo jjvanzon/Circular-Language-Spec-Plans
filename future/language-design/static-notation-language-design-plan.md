@@ -6,9 +6,11 @@ Static Notation | Language Design | Plan
 
 __Contents__
 
-- [Postponed](#postponed)
-    - [2020-06-18 Postponed Static Notation](#2020-06-18-postponed-static-notation)
-    - [2020-06-11 Postponed Static Notation](#2020-06-11-postponed-static-notation)
+- [Static Notation | Language Design | Plan](#static-notation--language-design--plan)
+    - [Postponed](#postponed)
+        - [2020-06-18 Postponed Static Notation](#2020-06-18-postponed-static-notation)
+        - [2020-06-11 Postponed Static Notation](#2020-06-11-postponed-static-notation)
+    - [Postponed Static: Updating other Articles](#postponed-static-updating-other-articles)
 
 ### Postponed
 
@@ -29,3 +31,9 @@ I think that for now, it might be a better idea not to express such notational c
 #### 2020-06-11 Postponed Static Notation
 
 - [ ] ~ What might be mentioned if the text might be built up from the ground up? I think I might just talk about the static concept, because that seems to me the number 1 candidate for what classes might have do with and might possibly determine the dashed notation and what makes room for the distinction between classes and prototypes and might give a clearer definition of what classes and static structure might be conceptually and have that reflected in the diagrams more directly. I might move the more creative concepts away from the Circular Language Spec.
+
+### Postponed Static: Updating other Articles
+
+- [ ] ~ Articles that might need an update considering that the notation(s) for static might change things:
+    - [ ] ~ Classes article
+    - [ ] ~ Relationship article

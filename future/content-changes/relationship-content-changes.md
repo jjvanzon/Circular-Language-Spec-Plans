@@ -6,16 +6,17 @@ Relationships | Content Changes
 
 __Contents__
 
-- [Postponed](#postponed)
-    - [2020-06-15 Postponed Content Changes for Relationships Chapter](#2020-06-15-postponed-content-changes-for-relationships-chapter)
-- [Done](#done)
-    - [2020-06-19 Done Deprecating Double Dashed Ring Notation for Relationships](#2020-06-19-done-deprecating-double-dashed-ring-notation-for-relationships)
-    - [2020-06-19 Done Brainstorm Bidirectional Relationship Notation](#2020-06-19-done-brainstorm-bidirectional-relationship-notation)
-    - [2020-06-15 Done Content Changes for Relationships Chapter](#2020-06-15-done-content-changes-for-relationships-chapter)
-    - [2020-06-15 Done Scoping/Changing Relationships Sections](#2020-06-15-done-scopingchanging-relationships-sections)
-    - [2020-06-15 Done Content Changes Relationships Chapter](#2020-06-15-done-content-changes-relationships-chapter)
-    - [2020-05-25 Done Brainstorm Content Changes for Relationships](#2020-05-25-done-brainstorm-content-changes-for-relationships)
-    - [2020-06-14 Done Reformulating Relationships Chapter](#2020-06-14-done-reformulating-relationships-chapter)
+- [Relationships | Content Changes](#relationships--content-changes)
+    - [Postponed](#postponed)
+        - [2020-06-15 Postponed Content Changes for Relationships Chapter](#2020-06-15-postponed-content-changes-for-relationships-chapter)
+    - [Done](#done)
+        - [2020-06-19 Done Deprecating Double Dashed Ring Notation for Relationships](#2020-06-19-done-deprecating-double-dashed-ring-notation-for-relationships)
+        - [2020-06-19 Done Brainstorm Bidirectional Relationship Notation](#2020-06-19-done-brainstorm-bidirectional-relationship-notation)
+        - [2020-06-15 Done Content Changes for Relationships Chapter](#2020-06-15-done-content-changes-for-relationships-chapter)
+        - [2020-06-15 Done Scoping/Changing Relationships Sections](#2020-06-15-done-scopingchanging-relationships-sections)
+        - [2020-06-15 Done Content Changes Relationships Chapter](#2020-06-15-done-content-changes-relationships-chapter)
+        - [2020-05-25 Done Brainstorm Content Changes for Relationships](#2020-05-25-done-brainstorm-content-changes-for-relationships)
+        - [2020-06-14 Done Reformulating Relationships Chapter](#2020-06-14-done-reformulating-relationships-chapter)
 
 ### Postponed
 
@@ -24,7 +25,6 @@ __Contents__
 
 -----
 
-- [ ] ~ Relationships articles might need an update considering that the notation(s) for static might change things.
 - [ ] ~ Perhaps merge conceptual explanation and diagram notation.
     - [ ] ~ The split up into a conceptual explanation and then separately an article for the diagram notation, might have been easy for writing the docs, but could be merged into a single article again for readability.
 - [ ] ~ Perhaps change the notation for a bidirectional relationship.

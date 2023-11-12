@@ -7,18 +7,9 @@ Classes | Content Changes
 __Contents__
 
 - [Classes | Content Changes](#classes--content-changes)
-    - [TODO](#todo)
-    - [Postponed](#postponed)
     - [Done](#done)
         - [2022-02-02 Done Classes Article Content Changes](#2022-02-02-done-classes-article-content-changes)
         - [2020-06-11 Done Content Changes for Classes Chapter](#2020-06-11-done-content-changes-for-classes-chapter)
-
-### TODO
-
-### Postponed
-
-- [ ] "Object Reference with a Class" section: Sentences might be shortened, because less words may still imply what is going on.
-- [ ] ~ Classes articles might need an update considering that the notation(s) for static might change things.
 
 ### Done
 
