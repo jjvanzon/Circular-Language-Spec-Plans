@@ -43,10 +43,10 @@ Done articles may benefit from a redo, balancing between indirect language and d
 
 - [ ] Tone Change | in General
 - [x] Introduction | Tone Change (redo)
+- [x] Objects | Tone Change (redo)
+- [x] Classes | Tone Change (redo)
 - [ ] Overview | Tone Change __Redo__
 - [ ] Basic Diagram Elements | Tone Change __Redo__
-- [ ] Objects | Tone Change __Redo__
-- [ ] Classes | Tone Change __Redo__
 - [ ] Static | Tone Change __Redo__
 - [ ] Relationships | Tone Change __Redo__
 - [ ] Commands | Tone Change (part done)
@@ -56,7 +56,7 @@ Done articles may benefit from a redo, balancing between indirect language and d
     - [ ] Commands Example Diagrams | Tone Change
 - [ ] Parameters | Tone Change
 - [ ] Modules | Tone Change
-- [ ] Execution Flow | Tone Changer
+- [ ] Execution Flow | Tone Change
 - [ ] System Interfaces | Tone Change (part done)
     - [ ] System Objects | Tone Change __Redo__
     - [ ] Assignment | Tone Change __Redo__
@@ -91,7 +91,7 @@ Content changes may also be addressed while changing the *tone* of a document. S
 - [ ] Basic Diagram Elements | Content Changes
 - [x] Objects | Content Changes
 - [x] Objects Multiplicity | Content Changes
-- [ ] Classes | Content Changes (part done)
+- [x] Classes | Content Changes
 - [ ] Relationship | Content Changes
 - [ ] Commands | Content Changes (part done)
     - [x] Commands Main Concepts | Content Changes

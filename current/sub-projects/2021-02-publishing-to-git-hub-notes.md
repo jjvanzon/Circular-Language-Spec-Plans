@@ -24,8 +24,8 @@ __Contents__
 #### 2023-11-10 TODO SEO
 
 - [x] Introduction SEO
-- [ ] Objects SEO
-- [ ] Classes SEO
+- [x] Objects SEO
+- [x] Classes SEO
 - [ ] ...
 
 #### 2022-01-22 TODO Publishing GitHub Pages
