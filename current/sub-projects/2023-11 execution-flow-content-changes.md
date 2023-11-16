@@ -4,6 +4,16 @@ Circular Language Spec Plans
 Execution Flow | Content Changes
 --------------------------------
 
+### TODO
+
+#### 2023-11-16
+
+- [ ] Merge conceptual and diagram explanation
+- [ ] Remove repeated info
+- [ ] Reformulate
+- [ ] Stereotyping text fragments ?
+- [ ] Merge into one article
+
 ### Postponed
 
 #### 2019 Postponed

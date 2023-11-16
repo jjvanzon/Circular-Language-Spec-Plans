@@ -26,6 +26,8 @@ __Contents__
 - [x] Introduction SEO
 - [x] Objects SEO
 - [x] Classes SEO
+- [x] Commands SEO
+- [ ] Execution Flow SEO
 - [ ] ...
 
 #### 2022-01-22 TODO Publishing GitHub Pages

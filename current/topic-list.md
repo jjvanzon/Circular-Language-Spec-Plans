@@ -50,13 +50,13 @@ Done articles may benefit from a redo, balancing between indirect language and d
 - [ ] Static | Tone Change __Redo__
 - [ ] Relationships | Tone Change __Redo__
 - [ ] Commands | Tone Change (part done)
-    - [ ] Commands Main Concepts | Tone Change (part done)
+    - [x] Commands Main Concepts | Tone Change
     - [ ] Start & Stop | Tone Change
     - [ ] Creation Behavior Of Commands | Tone Change
     - [ ] Commands Example Diagrams | Tone Change
 - [ ] Parameters | Tone Change
 - [ ] Modules | Tone Change
-- [ ] Execution Flow | Tone Change
+- [ ] .. Execution Flow | Tone Change
 - [ ] System Interfaces | Tone Change (part done)
     - [ ] System Objects | Tone Change __Redo__
     - [ ] Assignment | Tone Change __Redo__
@@ -98,9 +98,9 @@ Content changes may also be addressed while changing the *tone* of a document. S
     - [ ] Start & Stop | Content Changes
     - [ ] Creation Behavior of Commands | Content Changes
     - [ ] Commands Example Diagrams | Content Changes
+- [ ] .. Execution Flow | Content Changes
 - [ ] Parameters | Content Changes
 - [ ] Modules | Content Changes
-- [ ] Execution Flow | Content Changes
 - [ ] System Interface | Content Changes
 - [ ] Assignment | Content Changes
 - [ ] Black Boxes | Content Changes

@@ -7,32 +7,32 @@ Commands Main Concepts | Tone Change
 __Contents__
 
 - [Commands Main Concepts | Tone Change](#commands-main-concepts--tone-change)
-    - [TODO](#todo)
-        - [2022-02-10 TODO Reformulating Commands Main Concepts Article](#2022-02-10-todo-reformulating-commands-main-concepts-article)
+    - [Postponed](#postponed)
+        - [2022-02-10 Postponed Reformulating Commands Main Concepts Article](#2022-02-10-postponed-reformulating-commands-main-concepts-article)
     - [Done](#done)
         - [2020-07-24 Done Reformulating Commands Main Concepts Article](#2020-07-24-done-reformulating-commands-main-concepts-article)
 
 
-### TODO
+### Postponed
 
-#### 2022-02-10 TODO Reformulating Commands Main Concepts Article
+#### 2022-02-10 Postponed Reformulating Commands Main Concepts Article
 
-- [ ] WAS AT: "Deeper Nested Command" rewording.
-- [ ] Might avoid saying same things multiple times using different words.
-- [ ] Word variation:
-    - [ ] Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
-- [ ] Directness:
-    - [ ] Removing "might" and "may" where adequate wiggle room may already be present.
-    - [ ] Replacing indefinites back some with definites, for readability. 
-    - [ ] Reading over text again to reformulate for readability.
-    - [ ] Appropriateness:
-        - [ ] Definite language for comment on diagrams and syntax.
-        - [ ] Less definite language for philosophical opinion.
-        - [ ] Less definite language where ideas are iffy.
-        - [ ] Putting subjectivity in perspective.
-- [ ] Word variation:
-    - [ ] Alternating evenly between words "may" and "might".
-- [ ] Reading over and rewording until satisfied.
+- [ ] ~ WAS AT: "Deeper Nested Command" rewording.
+- [ ] ~ Might avoid saying same things multiple times using different words.
+- [ ] ~ Word variation:
+    - [ ] ~ Replacing some "may" and "might" occurrences with other words that introduce wiggle room.
+- [ ] ~ Directness:
+    - [ ] ~ Removing "might" and "may" where adequate wiggle room may already be present.
+    - [ ] ~ Replacing indefinites back some with definites, for readability. 
+    - [ ] ~ Reading over text again to reformulate for readability.
+    - [ ] ~ Appropriateness:
+        - [ ] ~ Definite language for comment on diagrams and syntax.
+        - [ ] ~ Less definite language for philosophical opinion.
+        - [ ] ~ Less definite language where ideas are iffy.
+        - [ ] ~ Putting subjectivity in perspective.
+- [ ] ~ Word variation:
+    - [ ] ~ Alternating evenly between words "may" and "might".
+- [ ] ~ Reading over and rewording until satisfied.
 
 ### Done
 

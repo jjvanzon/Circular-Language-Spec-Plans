@@ -31,7 +31,7 @@ __Contents__
 - [x] May make images in "How Command References Work" a bit more to the point.
 - [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
 - [ ] Command *interfaces* not covered, while dotted lines seem mentioned near the top of the article.
-- [ ] One image under Inactive Nested Command may be a bit hard to read.
+- [x] One image under Inactive Nested Command may be a bit hard to read.
 - [ ] How Command References Work has an image with a call with a solid line. Perhaps correct it.
 - [ ] Alternative notation:
     - [ ] A solid line between a diamond and a square:
@@ -47,7 +47,7 @@ __Contents__
     - [ ] That may be so unlikely, it may be more intuitive and less complicated to just draw the squares them with solid borders.
     - [ ] May make a diagram look calmer visually too.
 - [ ] A chart of all the derived constructs at the end might be nice for overview?
-- [ ] Making a banner image at the top.
+- [x] Making a banner image at the top.
 
 
 ### Postponed
