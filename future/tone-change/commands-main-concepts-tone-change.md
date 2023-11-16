@@ -2,7 +2,7 @@ Circular Language Spec Plans
 ============================
 
 Commands Main Concepts | Tone Change
-----------------------
+------------------------------------
 
 __Contents__
 
