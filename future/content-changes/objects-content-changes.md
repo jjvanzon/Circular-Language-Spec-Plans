@@ -1,12 +1,12 @@
 Circular Language Spec Plans
 ============================
 
-Objects | Content Changes
--------------------------
+Objects | Content Changes | 2020-06
+-----------------------------------
 
 __Contents__
 
-- [Objects | Content Changes](#objects--content-changes)
+- [Objects | Content Changes | 2020-06](#objects--content-changes--2020-06)
     - [Postponed](#postponed)
         - [2022-01-30 Postponed Content Changes for Objects Chapter](#2022-01-30-postponed-content-changes-for-objects-chapter)
         - [2020-06-11 Postponed Content Changes for Attributes Article](#2020-06-11-postponed-content-changes-for-attributes-article)
