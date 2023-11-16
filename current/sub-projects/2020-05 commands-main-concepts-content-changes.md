@@ -1,37 +1,28 @@
 Circular Language Spec Plans
 ============================
 
-Commands | Content Changes
---------------------------
+Commands Main Concepts | Content Changes | 2020-05
+--------------------------------------------------
 
 __Contents__
 
-- [Commands | Content Changes](#commands--content-changes)
-    - [TODO](#todo)
-        - [2022-02-11 Commands Main Concepts Content Changes](#2022-02-11-commands-main-concepts-content-changes)
+- [Commands Main Concepts | Content Changes | 2020-05](#commands-main-concepts--content-changes--2020-05)
     - [Postponed](#postponed)
+        - [2022-02-11 Postponed](#2022-02-11-postponed)
         - [2019 Postponed](#2019-postponed)
     - [Done](#done)
-        - [2020-08-21 Done Content Changes for Commands Main Concepts Article](#2020-08-21-done-content-changes-for-commands-main-concepts-article)
-        - [2020-05-18 Done Content Changes for Commands Main Concepts Article](#2020-05-18-done-content-changes-for-commands-main-concepts-article)
-        - [2020-05-18 Done Content Changes for Commands Chapter](#2020-05-18-done-content-changes-for-commands-chapter)
-        - [2020-08-07 Done Content Changes for Commands Chapter](#2020-08-07-done-content-changes-for-commands-chapter)
+        - [2022-02-11 Done](#2022-02-11-done)
+        - [2020-08-21 Done](#2020-08-21-done)
+        - [2020-05-18 Done](#2020-05-18-done)
+        - [2020-05-18 Done](#2020-05-18-done-1)
+        - [2020-08-07 Done](#2020-08-07-done)
         - [2020-07-24 Done Reformulating Commands Chapter](#2020-07-24-done-reformulating-commands-chapter)
 
-### TODO
+### Postponed
 
-#### 2022-02-11 Commands Main Concepts Content Changes
+#### 2022-02-11 Postponed
 
-- [x] "contained in a square" => "contained in another command symbol"
-- [x] "Prototype":
-    - [x] May be using the word prototype wrong in relation to commands.
-    - [x] For objects the word prototype means a copy of another object, used as a sort of substitute for a class.
-    - [x] Function prototype might be something different: the publics of a command / its interface / parameters' types, names and return value.
-    - [x] Might avoid the word prototype for its ambiguous meaning that seems to depend on context.
-- [x] May make images in "How Command References Work" a bit more to the point.
-- [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
 - [ ] Command *interfaces* not covered, while dotted lines seem mentioned near the top of the article.
-- [x] One image under Inactive Nested Command may be a bit hard to read.
 - [ ] How Command References Work has an image with a call with a solid line. Perhaps correct it.
 - [ ] Alternative notation:
     - [ ] A solid line between a diamond and a square:
@@ -47,10 +38,6 @@ __Contents__
     - [ ] That may be so unlikely, it may be more intuitive and less complicated to just draw the squares them with solid borders.
     - [ ] May make a diagram look calmer visually too.
 - [ ] A chart of all the derived constructs at the end might be nice for overview?
-- [x] Making a banner image at the top.
-
-
-### Postponed
 
 #### 2019 Postponed
 
@@ -59,11 +46,25 @@ __Contents__
 
 ### Done
 
-#### 2020-08-21 Done Content Changes for Commands Main Concepts Article
+#### 2022-02-11 Done
+
+- [x] "contained in a square" => "contained in another command symbol"
+- [x] "Prototype":
+    - [x] May be using the word prototype wrong in relation to commands.
+    - [x] For objects the word prototype means a copy of another object, used as a sort of substitute for a class.
+    - [x] Function prototype might be something different: the publics of a command / its interface / parameters' types, names and return value.
+    - [x] Might avoid the word prototype for its ambiguous meaning that seems to depend on context.
+- [x] May make images in "How Command References Work" a bit more to the point.
+- [x] Adding solid, dashed and dotted line pictures where they are mentioned in the Introduction section.
+- [x] One image under Inactive Nested Command may be a bit hard to read.
+- [x] Banner image at the top.
+
+
+#### 2020-08-21 Done
 
 - [x] Moving or removing marked out texts.
 
-#### 2020-05-18 Done Content Changes for Commands Main Concepts Article
+#### 2020-05-18 Done
 
 - [x] Part done: What if you might just remove most of the rules imposed onto commands compared to regular objects? It seems that maybe no disasters might happen. I might like to evaluate which rules can be lived without so the idea might be presented in a simpler way.
 - [x] It seems to me that I wanted to evaluate back then:
@@ -83,7 +84,7 @@ __Contents__
 - [x] ~ Outtakes, perhaps for Circular Broader View:
     - [x] It seems it might be possible to make combinations of symbols that might not have an equivalent in another language.
 
-#### 2020-05-18 Done Content Changes for Commands Chapter
+#### 2020-05-18 Done
 
 - [x] Commands Main Concepts article:
     - [x] A lot seems to be hung up on definition of words and expression of concepts from other languages.
@@ -117,7 +118,7 @@ __Contents__
     - [x] I did seem to reinvent the word clause there. I wonder if that is necessary. It seems to raise the issue of perhaps you might use IT terminology more as known by the industry and not reassign and reinvent terminology.
     - [x] The structure choices indicate I might have sections specifically for local functions, clauses (e.g. if clauses and what have you), local code blocks.
 
-#### 2020-08-07 Done Content Changes for Commands Chapter
+#### 2020-08-07 Done
 
 - [x] The new beginning of the chapter
     - [x] Is supposed to be what it 'should become'.
